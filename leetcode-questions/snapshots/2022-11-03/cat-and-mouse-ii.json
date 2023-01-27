@@ -1,0 +1,15 @@
+{
+  "id": "cat-and-mouse-ii",
+  "name": "Cat and Mouse II",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Graph",
+    "Topological Sort",
+    "Memoization",
+    "Matrix",
+    "Game Theory"
+  ],
+  "description": "A game is played by a cat and a mouse named Cat and Mouse.\n\nThe environment is represented by a grid of size rows x cols, where each element is a wall, floor, player (Cat, Mouse), or food.\n\n\n\tPlayers are represented by the characters 'C'(Cat),'M'(Mouse).\n\tFloors are represented by the character '.' and can be walked on.\n\tWalls are represented by the character '#' and cannot be walked on.\n\tFood is represented by the character 'F' and can be walked on.\n\tThere is only one of each character 'C', 'M', and 'F' in grid.\n\n\nMouse and Cat play according to the following rules:\n\n\n\tMouse moves first, then they take turns to move.\n\tDuring each turn, Cat and Mouse can jump in one of the four directions (left, right, up, down). They cannot jump over the wall nor outside of the grid.\n\tcatJump, mouseJump are the maximum lengths Cat and Mouse can jump at a time, respectively. Cat and Mouse can jump less than the maximum length.\n\tStaying in the same position is allowed.\n\tMouse can jump over Cat.\n\n\nThe game can end in 4 ways:\n\n\n\tIf Cat occupies the same position as Mouse, Cat wins.\n\tIf Cat reaches the food first, Cat wins.\n\tIf Mouse reaches the food first, Mouse wins.\n\tIf Mouse cannot get to the food within 1000 turns, Cat wins.\n\n\nGiven a rows x cols matrix grid and two integers catJump and mouseJump, return true if Mouse can win the game if both Cat and Mouse play optimally, otherwise return false.\n\n \nExample 1:\n\nInput: grid = [\"####F\",\"#C...\",\"M....\"], catJump = 1, mouseJump = 2\nOutput: true\nExplanation: Cat cannot catch Mouse on its turn nor can it get the food before Mouse.\n\n\nExample 2:\n\nInput: grid = [\"M.C...F\"], catJump = 1, mouseJump = 4\nOutput: true\n\n\nExample 3:\n\nInput: grid = [\"M.C...F\"], catJump = 1, mouseJump = 3\nOutput: false\n\n\n \nConstraints:\n\n\n\trows == grid.length\n\tcols = grid[i].length\n\t1 <= rows, cols <= 8\n\tgrid[i][j] consist only of characters 'C', 'M', 'F', '.', and '#'.\n\tThere is only one of each character 'C', 'M', and 'F' in grid.\n\t1 <= catJump, mouseJump <= 8\n\n"
+}

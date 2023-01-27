@@ -1,0 +1,10 @@
+{
+  "id": "maximum-bags-with-full-capacity-of-rocks",
+  "name": "Maximum Bags With Full Capacity of Rocks",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "You have n bags numbered from 0 to n - 1. You are given two 0-indexed integer arrays capacity and rocks. The ith bag can hold a maximum of capacity[i] rocks and currently contains rocks[i] rocks. You are also given an integer additionalRocks, the number of additional rocks you can place in any of the bags.\n\nReturn the maximum number of bags that could have full capacity after placing the additional rocks in some bags.\n\n \nExample 1:\n\nInput: capacity = [2,3,4,5], rocks = [1,2,4,4], additionalRocks = 2\nOutput: 3\nExplanation:\nPlace 1 rock in bag 0 and 1 rock in bag 1.\nThe number of rocks in each bag are now [2,3,4,4].\nBags 0, 1, and 2 have full capacity.\nThere are 3 bags at full capacity, so we return 3.\nIt can be shown that it is not possible to have more than 3 bags at full capacity.\nNote that there may be other ways of placing the rocks that result in an answer of 3.\n\n\nExample 2:\n\nInput: capacity = [10,2,2], rocks = [2,2,0], additionalRocks = 100\nOutput: 3\nExplanation:\nPlace 8 rocks in bag 0 and 2 rocks in bag 2.\nThe number of rocks in each bag are now [10,2,2].\nBags 0, 1, and 2 have full capacity.\nThere are 3 bags at full capacity, so we return 3.\nIt can be shown that it is not possible to have more than 3 bags at full capacity.\nNote that we did not use all of the additional rocks.\n\n\n \nConstraints:\n\n\n\tn == capacity.length == rocks.length\n\t1 <= n <= 5 * 104\n\t1 <= capacity[i] <= 109\n\t0 <= rocks[i] <= capacity[i]\n\t1 <= additionalRocks <= 109\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sort-the-people",
+  "name": "Sort the People",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Sorting"
+  ],
+  "description": "You are given an array of strings names, and an array heights that consists of distinct positive integers. Both arrays are of length n.\n\nFor each index i, names[i] and heights[i] denote the name and height of the ith person.\n\nReturn names sorted in descending order by the people's heights.\n\n \nExample 1:\n\nInput: names = [\"Mary\",\"John\",\"Emma\"], heights = [180,165,170]\nOutput: [\"Mary\",\"Emma\",\"John\"]\nExplanation: Mary is the tallest, followed by Emma and John.\n\n\nExample 2:\n\nInput: names = [\"Alice\",\"Bob\",\"Bob\"], heights = [155,185,150]\nOutput: [\"Bob\",\"Alice\",\"Bob\"]\nExplanation: The first Bob is the tallest, followed by Alice and the second Bob.\n\n\n \nConstraints:\n\n\n\tn == names.length == heights.length\n\t1 <= n <= 103\n\t1 <= names[i].length <= 20\n\t1 <= heights[i] <= 105\n\tnames[i] consists of lower and upper case English letters.\n\tAll the values of heights are distinct.\n\n"
+}

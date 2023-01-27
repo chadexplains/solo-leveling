@@ -1,0 +1,8 @@
+{
+  "id": "partition-array-into-disjoint-intervals",
+  "name": "Partition Array into Disjoint Intervals",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given an integer array nums, partition it into two (contiguous) subarrays left and right so that:\n\n\n\tEvery element in left is less than or equal to every element in right.\n\tleft and right are non-empty.\n\tleft has the smallest possible size.\n\n\nReturn the length of left after such a partitioning.\n\nTest cases are generated such that partitioning exists.\n\n \nExample 1:\n\nInput: nums = [5,0,3,8,6]\nOutput: 3\nExplanation: left = [5,0,3], right = [8,6]\n\n\nExample 2:\n\nInput: nums = [1,1,1,0,6,12]\nOutput: 4\nExplanation: left = [1,1,1,0], right = [6,12]\n\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 105\n\t0 <= nums[i] <= 106\n\tThere is at least one valid answer for the given input.\n\n"
+}

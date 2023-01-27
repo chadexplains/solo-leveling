@@ -1,0 +1,8 @@
+{
+  "id": "shuffle-the-array",
+  "name": "Shuffle the Array",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given the array nums consisting of 2n elements in the form [x1,x2,...,xn,y1,y2,...,yn].\n\nReturn the array in the form [x1,y1,x2,y2,...,xn,yn].\n\n \nExample 1:\n\nInput: nums = [2,5,1,3,4,7], n = 3\nOutput: [2,3,5,4,1,7] \nExplanation: Since x1=2, x2=5, x3=1, y1=3, y2=4, y3=7 then the answer is [2,3,5,4,1,7].\n\n\nExample 2:\n\nInput: nums = [1,2,3,4,4,3,2,1], n = 4\nOutput: [1,4,2,3,3,2,4,1]\n\n\nExample 3:\n\nInput: nums = [1,1,2,2], n = 2\nOutput: [1,2,1,2]\n\n\n \nConstraints:\n\n\n\t1 <= n <= 500\n\tnums.length == 2n\n\t1 <= nums[i] <= 10^3\n"
+}

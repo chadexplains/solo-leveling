@@ -1,0 +1,11 @@
+{
+  "id": "snapshot-array",
+  "name": "Snapshot Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Binary Search",
+    "Design"
+  ],
+  "description": "Implement a SnapshotArray that supports the following interface:\n\n\n\tSnapshotArray(int length) initializes an array-like data structure with the given length. Initially, each element equals 0.\n\tvoid set(index, val) sets the element at the given index to be equal to val.\n\tint snap() takes a snapshot of the array and returns the snap_id: the total number of times we called snap() minus 1.\n\tint get(index, snap_id) returns the value at the given index, at the time we took the snapshot with the given snap_id\n\n\n \nExample 1:\n\nInput: [\"SnapshotArray\",\"set\",\"snap\",\"set\",\"get\"]\n[[3],[0,5],[],[0,6],[0,0]]\nOutput: [null,null,0,null,5]\nExplanation: \nSnapshotArray snapshotArr = new SnapshotArray(3); // set the length to be 3\nsnapshotArr.set(0,5);  // Set array[0] = 5\nsnapshotArr.snap();  // Take a snapshot, return snap_id = 0\nsnapshotArr.set(0,6);\nsnapshotArr.get(0,0);  // Get the value of array[0] with snap_id = 0, return 5\n\n \nConstraints:\n\n\n\t1 <= length <= 5 * 104\n\t0 <= index < length\n\t0 <= val <= 109\n\t0 <= snap_id < (the total number of times we call snap())\n\tAt most 5 * 104 calls will be made to set, snap, and get.\n\n"
+}

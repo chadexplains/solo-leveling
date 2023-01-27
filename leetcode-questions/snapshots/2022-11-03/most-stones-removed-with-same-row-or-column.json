@@ -1,0 +1,10 @@
+{
+  "id": "most-stones-removed-with-same-row-or-column",
+  "name": "Most Stones Removed with Same Row or Column",
+  "tags": [
+    "Depth-First Search",
+    "Union Find",
+    "Graph"
+  ],
+  "description": "On a 2D plane, we place n stones at some integer coordinate points. Each coordinate point may have at most one stone.\n\nA stone can be removed if it shares either the same row or the same column as another stone that has not been removed.\n\nGiven an array stones of length n where stones[i] = [xi, yi] represents the location of the ith stone, return the largest possible number of stones that can be removed.\n\n \nExample 1:\n\nInput: stones = [[0,0],[0,1],[1,0],[1,2],[2,1],[2,2]]\nOutput: 5\nExplanation: One way to remove 5 stones is as follows:\n1. Remove stone [2,2] because it shares the same row as [2,1].\n2. Remove stone [2,1] because it shares the same column as [0,1].\n3. Remove stone [1,2] because it shares the same row as [1,0].\n4. Remove stone [1,0] because it shares the same column as [0,0].\n5. Remove stone [0,1] because it shares the same row as [0,0].\nStone [0,0] cannot be removed since it does not share a row/column with another stone still on the plane.\n\n\nExample 2:\n\nInput: stones = [[0,0],[0,2],[1,1],[2,0],[2,2]]\nOutput: 3\nExplanation: One way to make 3 moves is as follows:\n1. Remove stone [2,2] because it shares the same row as [2,0].\n2. Remove stone [2,0] because it shares the same column as [0,0].\n3. Remove stone [0,2] because it shares the same row as [0,0].\nStones [0,0] and [1,1] cannot be removed since they do not share a row/column with another stone still on the plane.\n\n\nExample 3:\n\nInput: stones = [[0,0]]\nOutput: 0\nExplanation: [0,0] is the only stone on the plane, so you cannot remove it.\n\n\n \nConstraints:\n\n\n\t1 <= stones.length <= 1000\n\t0 <= xi, yi <= 104\n\tNo two stones are at the same coordinate point.\n\n"
+}

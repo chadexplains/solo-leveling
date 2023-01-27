@@ -1,0 +1,12 @@
+{
+  "id": "most-popular-video-creator",
+  "name": "Most Popular Video Creator",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You are given two string arrays creators and ids, and an integer array views, all of length n. The ith video on a platform was created by creator[i], has an id of ids[i], and has views[i] views.\n\nThe popularity of a creator is the sum of the number of views on all of the creator's videos. Find the creator with the highest popularity and the id of their most viewed video.\n\n\n\tIf multiple creators have the highest popularity, find all of them.\n\tIf multiple videos have the highest view count for a creator, find the lexicographically smallest id.\n\n\nReturn a 2D array of strings answer where answer[i] = [creatori, idi] means that creatori has the highest popularity and idi is the id of their most popular video. The answer can be returned in any order.\n\n \nExample 1:\n\nInput: creators = [\"alice\",\"bob\",\"alice\",\"chris\"], ids = [\"one\",\"two\",\"three\",\"four\"], views = [5,10,5,4]\nOutput: [[\"alice\",\"one\"],[\"bob\",\"two\"]]\nExplanation:\nThe popularity of alice is 5 + 5 = 10.\nThe popularity of bob is 10.\nThe popularity of chris is 4.\nalice and bob are the most popular creators.\nFor bob, the video with the highest view count is \"two\".\nFor alice, the videos with the highest view count are \"one\" and \"three\". Since \"one\" is lexicographically smaller than \"three\", it is included in the answer.\n\n\nExample 2:\n\nInput: creators = [\"alice\",\"alice\",\"alice\"], ids = [\"a\",\"b\",\"c\"], views = [1,2,2]\nOutput: [[\"alice\",\"b\"]]\nExplanation:\nThe videos with id \"b\" and \"c\" have the highest view count.\nSince \"b\" is lexicographically smaller than \"c\", it is included in the answer.\n\n\n \nConstraints:\n\n\n\tn == creators.length == ids.length == views.length\n\t1 <= n <= 105\n\t1 <= creators[i].length, ids[i].length <= 5\n\tcreators[i] and ids[i] consist only of lowercase English letters.\n\t0 <= views[i] <= 105\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "find-all-good-strings",
+  "name": "Find All Good Strings",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "String Matching"
+  ],
+  "description": "Given the strings s1 and s2 of size n and the string evil, return the number of good strings.\n\nA good string has size n, it is alphabetically greater than or equal to s1, it is alphabetically smaller than or equal to s2, and it does not contain the string evil as a substring. Since the answer can be a huge number, return this modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 2, s1 = \"aa\", s2 = \"da\", evil = \"b\"\nOutput: 51 \nExplanation: There are 25 good strings starting with 'a': \"aa\",\"ac\",\"ad\",...,\"az\". Then there are 25 good strings starting with 'c': \"ca\",\"cc\",\"cd\",...,\"cz\" and finally there is one good string starting with 'd': \"da\". \n\n\nExample 2:\n\nInput: n = 8, s1 = \"leetcode\", s2 = \"leetgoes\", evil = \"leet\"\nOutput: 0 \nExplanation: All strings greater than or equal to s1 and smaller than or equal to s2 start with the prefix \"leet\", therefore, there is not any good string.\n\n\nExample 3:\n\nInput: n = 2, s1 = \"gx\", s2 = \"gz\", evil = \"x\"\nOutput: 2\n\n\n \nConstraints:\n\n\n\ts1.length == n\n\ts2.length == n\n\ts1 <= s2\n\t1 <= n <= 500\n\t1 <= evil.length <= 50\n\tAll strings consist of lowercase English letters.\n\n"
+}

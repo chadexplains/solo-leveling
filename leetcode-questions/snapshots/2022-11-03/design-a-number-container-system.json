@@ -1,0 +1,11 @@
+{
+  "id": "design-a-number-container-system",
+  "name": "Design a Number Container System",
+  "tags": [
+    "Hash Table",
+    "Design",
+    "Heap (Priority Queue)",
+    "Ordered Set"
+  ],
+  "description": "Design a number container system that can do the following:\n\n\n\tInsert or Replace a number at the given index in the system.\n\tReturn the smallest index for the given number in the system.\n\n\nImplement the NumberContainers class:\n\n\n\tNumberContainers() Initializes the number container system.\n\tvoid change(int index, int number) Fills the container at index with the number. If there is already a number at that index, replace it.\n\tint find(int number) Returns the smallest index for the given number, or -1 if there is no index that is filled by number in the system.\n\n\n \nExample 1:\n\nInput\n[\"NumberContainers\", \"find\", \"change\", \"change\", \"change\", \"change\", \"find\", \"change\", \"find\"]\n[[], [10], [2, 10], [1, 10], [3, 10], [5, 10], [10], [1, 20], [10]]\nOutput\n[null, -1, null, null, null, null, 1, null, 2]\n\nExplanation\nNumberContainers nc = new NumberContainers();\nnc.find(10); // There is no index that is filled with number 10. Therefore, we return -1.\nnc.change(2, 10); // Your container at index 2 will be filled with number 10.\nnc.change(1, 10); // Your container at index 1 will be filled with number 10.\nnc.change(3, 10); // Your container at index 3 will be filled with number 10.\nnc.change(5, 10); // Your container at index 5 will be filled with number 10.\nnc.find(10); // Number 10 is at the indices 1, 2, 3, and 5. Since the smallest index that is filled with 10 is 1, we return 1.\nnc.change(1, 20); // Your container at index 1 will be filled with number 20. Note that index 1 was filled with 10 and then replaced with 20. \nnc.find(10); // Number 10 is at the indices 2, 3, and 5. The smallest index that is filled with 10 is 2. Therefore, we return 2.\n\n\n \nConstraints:\n\n\n\t1 <= index, number <= 109\n\tAt most 105 calls will be made in total to change and find.\n\n"
+}

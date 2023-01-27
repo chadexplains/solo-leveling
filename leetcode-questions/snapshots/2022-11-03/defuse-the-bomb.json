@@ -1,0 +1,8 @@
+{
+  "id": "defuse-the-bomb",
+  "name": "Defuse the Bomb",
+  "tags": [
+    "Array"
+  ],
+  "description": "You have a bomb to defuse, and your time is running out! Your informer will provide you with a circular array code of length of n and a key k.\n\nTo decrypt the code, you must replace every number. All the numbers are replaced simultaneously.\n\n\n\tIf k > 0, replace the ith number with the sum of the next k numbers.\n\tIf k < 0, replace the ith number with the sum of the previous k numbers.\n\tIf k == 0, replace the ith number with 0.\n\n\nAs code is circular, the next element of code[n-1] is code[0], and the previous element of code[0] is code[n-1].\n\nGiven the circular array code and an integer key k, return the decrypted code to defuse the bomb!\n\n \nExample 1:\n\nInput: code = [5,7,1,4], k = 3\nOutput: [12,10,16,13]\nExplanation: Each number is replaced by the sum of the next 3 numbers. The decrypted code is [7+1+4, 1+4+5, 4+5+7, 5+7+1]. Notice that the numbers wrap around.\n\n\nExample 2:\n\nInput: code = [1,2,3,4], k = 0\nOutput: [0,0,0,0]\nExplanation: When k is zero, the numbers are replaced by 0. \n\n\nExample 3:\n\nInput: code = [2,4,9,3], k = -2\nOutput: [12,5,6,13]\nExplanation: The decrypted code is [3+9, 2+3, 4+2, 9+4]. Notice that the numbers wrap around again. If k is negative, the sum is of the previous numbers.\n\n\n \nConstraints:\n\n\n\tn == code.length\n\t1 <= n <= 100\n\t1 <= code[i] <= 100\n\t-(n - 1) <= k <= n - 1\n\n"
+}

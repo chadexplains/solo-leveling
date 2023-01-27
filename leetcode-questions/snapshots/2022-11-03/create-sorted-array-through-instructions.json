@@ -1,0 +1,14 @@
+{
+  "id": "create-sorted-array-through-instructions",
+  "name": "Create Sorted Array through Instructions",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Divide and Conquer",
+    "Binary Indexed Tree",
+    "Segment Tree",
+    "Merge Sort",
+    "Ordered Set"
+  ],
+  "description": "Given an integer array instructions, you are asked to create a sorted array from the elements in instructions. You start with an empty container nums. For each element from left to right in instructions, insert it into nums. The cost of each insertion is the minimum of the following:\n\n\n\tThe number of elements currently in nums that are strictly less than instructions[i].\n\tThe number of elements currently in nums that are strictly greater than instructions[i].\n\n\nFor example, if inserting element 3 into nums = [1,2,3,5], the cost of insertion is min(2, 1) (elements 1 and 2 are less than 3, element 5 is greater than 3) and nums will become [1,2,3,3,5].\n\nReturn the total cost to insert all elements from instructions into nums. Since the answer may be large, return it modulo 109 + 7\n\n \nExample 1:\n\nInput: instructions = [1,5,6,2]\nOutput: 1\nExplanation: Begin with nums = [].\nInsert 1 with cost min(0, 0) = 0, now nums = [1].\nInsert 5 with cost min(1, 0) = 0, now nums = [1,5].\nInsert 6 with cost min(2, 0) = 0, now nums = [1,5,6].\nInsert 2 with cost min(1, 2) = 1, now nums = [1,2,5,6].\nThe total cost is 0 + 0 + 0 + 1 = 1.\n\nExample 2:\n\nInput: instructions = [1,2,3,6,5,4]\nOutput: 3\nExplanation: Begin with nums = [].\nInsert 1 with cost min(0, 0) = 0, now nums = [1].\nInsert 2 with cost min(1, 0) = 0, now nums = [1,2].\nInsert 3 with cost min(2, 0) = 0, now nums = [1,2,3].\nInsert 6 with cost min(3, 0) = 0, now nums = [1,2,3,6].\nInsert 5 with cost min(3, 1) = 1, now nums = [1,2,3,5,6].\nInsert 4 with cost min(3, 2) = 2, now nums = [1,2,3,4,5,6].\nThe total cost is 0 + 0 + 0 + 0 + 1 + 2 = 3.\n\n\nExample 3:\n\nInput: instructions = [1,3,3,3,2,4,2,1,2]\nOutput: 4\nExplanation: Begin with nums = [].\nInsert 1 with cost min(0, 0) = 0, now nums = [1].\nInsert 3 with cost min(1, 0) = 0, now nums = [1,3].\nInsert 3 with cost min(1, 0) = 0, now nums = [1,3,3].\nInsert 3 with cost min(1, 0) = 0, now nums = [1,3,3,3].\nInsert 2 with cost min(1, 3) = 1, now nums = [1,2,3,3,3].\nInsert 4 with cost min(5, 0) = 0, now nums = [1,2,3,3,3,4].\n​​​​​​​Insert 2 with cost min(1, 4) = 1, now nums = [1,2,2,3,3,3,4].\n​​​​​​​Insert 1 with cost min(0, 6) = 0, now nums = [1,1,2,2,3,3,3,4].\n​​​​​​​Insert 2 with cost min(2, 4) = 2, now nums = [1,1,2,2,2,3,3,3,4].\nThe total cost is 0 + 0 + 0 + 0 + 1 + 0 + 1 + 0 + 2 = 4.\n\n\n \nConstraints:\n\n\n\t1 <= instructions.length <= 105\n\t1 <= instructions[i] <= 105\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "minimum-genetic-mutation",
+  "name": "Minimum Genetic Mutation",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Breadth-First Search"
+  ],
+  "description": "A gene string can be represented by an 8-character long string, with choices from 'A', 'C', 'G', and 'T'.\n\nSuppose we need to investigate a mutation from a gene string startGene to a gene string endGene where one mutation is defined as one single character changed in the gene string.\n\n\n\tFor example, \"AACCGGTT\" --> \"AACCGGTA\" is one mutation.\n\n\nThere is also a gene bank bank that records all the valid gene mutations. A gene must be in bank to make it a valid gene string.\n\nGiven the two gene strings startGene and endGene and the gene bank bank, return the minimum number of mutations needed to mutate from startGene to endGene. If there is no such a mutation, return -1.\n\nNote that the starting point is assumed to be valid, so it might not be included in the bank.\n\n \nExample 1:\n\nInput: startGene = \"AACCGGTT\", endGene = \"AACCGGTA\", bank = [\"AACCGGTA\"]\nOutput: 1\n\n\nExample 2:\n\nInput: startGene = \"AACCGGTT\", endGene = \"AAACGGTA\", bank = [\"AACCGGTA\",\"AACCGCTA\",\"AAACGGTA\"]\nOutput: 2\n\n\n \nConstraints:\n\n\n\t0 <= bank.length <= 10\n\tstartGene.length == endGene.length == bank[i].length == 8\n\tstartGene, endGene, and bank[i] consist of only the characters ['A', 'C', 'G', 'T'].\n\n"
+}

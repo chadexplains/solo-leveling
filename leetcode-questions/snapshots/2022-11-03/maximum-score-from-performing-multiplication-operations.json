@@ -1,0 +1,9 @@
+{
+  "id": "maximum-score-from-performing-multiplication-operations",
+  "name": "Maximum Score from Performing Multiplication Operations",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are given two 0-indexed integer arrays nums and multipliers of size n and m respectively, where n >= m.\n\nYou begin with a score of 0. You want to perform exactly m operations. On the ith operation (0-indexed) you will:\n\n\n    Choose one integer x from either the start or the end of the array nums.\n    Add multipliers[i] * x to your score.\n    \n        Note that multipliers[0] corresponds to the first operation, multipliers[1] to the second operation, and so on.\n    \n    \n    Remove x from nums.\n\n\nReturn the maximum score after performing m operations.\n\n \nExample 1:\n\nInput: nums = [1,2,3], multipliers = [3,2,1]\nOutput: 14\nExplanation: An optimal solution is as follows:\n- Choose from the end, [1,2,3], adding 3 * 3 = 9 to the score.\n- Choose from the end, [1,2], adding 2 * 2 = 4 to the score.\n- Choose from the end, [1], adding 1 * 1 = 1 to the score.\nThe total score is 9 + 4 + 1 = 14.\n\nExample 2:\n\nInput: nums = [-5,-3,-3,-2,7,1], multipliers = [-10,-5,3,4,6]\nOutput: 102\nExplanation: An optimal solution is as follows:\n- Choose from the start, [-5,-3,-3,-2,7,1], adding -5 * -10 = 50 to the score.\n- Choose from the start, [-3,-3,-2,7,1], adding -3 * -5 = 15 to the score.\n- Choose from the start, [-3,-2,7,1], adding -3 * 3 = -9 to the score.\n- Choose from the end, [-2,7,1], adding 1 * 4 = 4 to the score.\n- Choose from the end, [-2,7], adding 7 * 6 = 42 to the score. \nThe total score is 50 + 15 - 9 + 4 + 42 = 102.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\tm == multipliers.length\n\t1 <= m <= 300\n\tm <= n <= 105 \n\t-1000 <= nums[i], multipliers[i] <= 1000\n\n"
+}

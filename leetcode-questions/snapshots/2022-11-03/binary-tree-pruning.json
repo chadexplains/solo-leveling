@@ -1,0 +1,10 @@
+{
+  "id": "binary-tree-pruning",
+  "name": "Binary Tree Pruning",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return the same tree where every subtree (of the given tree) not containing a 1 has been removed.\n\nA subtree of a node node is node plus every node that is a descendant of node.\n\n \nExample 1:\n\nInput: root = [1,null,0,0,1]\nOutput: [1,null,0,null,1]\nExplanation: \nOnly the red nodes satisfy the property \"every subtree not containing a 1\".\nThe diagram on the right represents the answer.\n\n\nExample 2:\n\nInput: root = [1,0,1,0,0,0,1]\nOutput: [1,null,1,null,1]\n\n\nExample 3:\n\nInput: root = [1,1,0,1,1,0,1,0]\nOutput: [1,1,0,1,1,null,1]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 200].\n\tNode.val is either 0 or 1.\n\n"
+}

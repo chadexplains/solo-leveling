@@ -1,0 +1,12 @@
+{
+  "id": "longest-uncommon-subsequence-ii",
+  "name": "Longest Uncommon Subsequence II",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Two Pointers",
+    "String",
+    "Sorting"
+  ],
+  "description": "Given an array of strings strs, return the length of the longest uncommon subsequence between them. If the longest uncommon subsequence does not exist, return -1.\n\nAn uncommon subsequence between an array of strings is a string that is a subsequence of one string but not the others.\n\nA subsequence of a string s is a string that can be obtained after deleting any number of characters from s.\n\n\n\tFor example, \"abc\" is a subsequence of \"aebdc\" because you can delete the underlined characters in \"aebdc\" to get \"abc\". Other subsequences of \"aebdc\" include \"aebdc\", \"aeb\", and \"\" (empty string).\n\n\n \nExample 1:\nInput: strs = [\"aba\",\"cdc\",\"eae\"]\nOutput: 3\nExample 2:\nInput: strs = [\"aaa\",\"aaa\",\"aa\"]\nOutput: -1\n\n \nConstraints:\n\n\n\t2 <= strs.length <= 50\n\t1 <= strs[i].length <= 10\n\tstrs[i] consists of lowercase English letters.\n\n"
+}

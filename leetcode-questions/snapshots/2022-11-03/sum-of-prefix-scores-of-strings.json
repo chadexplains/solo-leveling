@@ -1,0 +1,11 @@
+{
+  "id": "sum-of-prefix-scores-of-strings",
+  "name": "Sum of Prefix Scores of Strings",
+  "tags": [
+    "Array",
+    "String",
+    "Trie",
+    "Counting"
+  ],
+  "description": "You are given an array words of size n consisting of non-empty strings.\n\nWe define the score of a string word as the number of strings words[i] such that word is a prefix of words[i].\n\n\n\tFor example, if words = [\"a\", \"ab\", \"abc\", \"cab\"], then the score of \"ab\" is 2, since \"ab\" is a prefix of both \"ab\" and \"abc\".\n\n\nReturn an array answer of size n where answer[i] is the sum of scores of every non-empty prefix of words[i].\n\nNote that a string is considered as a prefix of itself.\n\n \nExample 1:\n\nInput: words = [\"abc\",\"ab\",\"bc\",\"b\"]\nOutput: [5,4,3,2]\nExplanation: The answer for each string is the following:\n- \"abc\" has 3 prefixes: \"a\", \"ab\", and \"abc\".\n- There are 2 strings with the prefix \"a\", 2 strings with the prefix \"ab\", and 1 string with the prefix \"abc\".\nThe total is answer[0] = 2 + 2 + 1 = 5.\n- \"ab\" has 2 prefixes: \"a\" and \"ab\".\n- There are 2 strings with the prefix \"a\", and 2 strings with the prefix \"ab\".\nThe total is answer[1] = 2 + 2 = 4.\n- \"bc\" has 2 prefixes: \"b\" and \"bc\".\n- There are 2 strings with the prefix \"b\", and 1 string with the prefix \"bc\".\nThe total is answer[2] = 2 + 1 = 3.\n- \"b\" has 1 prefix: \"b\".\n- There are 2 strings with the prefix \"b\".\nThe total is answer[3] = 2.\n\n\nExample 2:\n\nInput: words = [\"abcd\"]\nOutput: [4]\nExplanation:\n\"abcd\" has 4 prefixes: \"a\", \"ab\", \"abc\", and \"abcd\".\nEach prefix has a score of one, so the total is answer[0] = 1 + 1 + 1 + 1 = 4.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 1000\n\t1 <= words[i].length <= 1000\n\twords[i] consists of lowercase English letters.\n\n"
+}

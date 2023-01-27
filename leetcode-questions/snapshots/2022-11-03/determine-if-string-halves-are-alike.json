@@ -1,0 +1,9 @@
+{
+  "id": "determine-if-string-halves-are-alike",
+  "name": "Determine if String Halves Are Alike",
+  "tags": [
+    "String",
+    "Counting"
+  ],
+  "description": "You are given a string s of even length. Split this string into two halves of equal lengths, and let a be the first half and b be the second half.\n\nTwo strings are alike if they have the same number of vowels ('a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'). Notice that s contains uppercase and lowercase letters.\n\nReturn true if a and b are alike. Otherwise, return false.\n\n \nExample 1:\n\nInput: s = \"book\"\nOutput: true\nExplanation: a = \"bo\" and b = \"ok\". a has 1 vowel and b has 1 vowel. Therefore, they are alike.\n\n\nExample 2:\n\nInput: s = \"textbook\"\nOutput: false\nExplanation: a = \"text\" and b = \"book\". a has 1 vowel whereas b has 2. Therefore, they are not alike.\nNotice that the vowel o is counted twice.\n\n\n \nConstraints:\n\n\n\t2 <= s.length <= 1000\n\ts.length is even.\n\ts consists of uppercase and lowercase letters.\n\n"
+}

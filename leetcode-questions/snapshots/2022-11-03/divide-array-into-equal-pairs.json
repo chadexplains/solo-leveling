@@ -1,0 +1,11 @@
+{
+  "id": "divide-array-into-equal-pairs",
+  "name": "Divide Array Into Equal Pairs",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Bit Manipulation",
+    "Counting"
+  ],
+  "description": "You are given an integer array nums consisting of 2 * n integers.\n\nYou need to divide nums into n pairs such that:\n\n\n\tEach element belongs to exactly one pair.\n\tThe elements present in a pair are equal.\n\n\nReturn true if nums can be divided into n pairs, otherwise return false.\n\n \nExample 1:\n\nInput: nums = [3,2,3,2,2,2]\nOutput: true\nExplanation: \nThere are 6 elements in nums, so they should be divided into 6 / 2 = 3 pairs.\nIf nums is divided into the pairs (2, 2), (3, 3), and (2, 2), it will satisfy all the conditions.\n\n\nExample 2:\n\nInput: nums = [1,2,3,4]\nOutput: false\nExplanation: \nThere is no way to divide nums into 4 / 2 = 2 pairs such that the pairs satisfy every condition.\n\n\n \nConstraints:\n\n\n\tnums.length == 2 * n\n\t1 <= n <= 500\n\t1 <= nums[i] <= 500\n\n"
+}

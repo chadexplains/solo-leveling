@@ -1,0 +1,10 @@
+{
+  "id": "evaluate-boolean-binary-tree",
+  "name": "Evaluate Boolean Binary Tree",
+  "tags": [
+    "Binary Search",
+    "Tree",
+    "Depth-First Search"
+  ],
+  "description": "You are given the root of a full binary tree with the following properties:\n\n\n\tLeaf nodes have either the value 0 or 1, where 0 represents False and 1 represents True.\n\tNon-leaf nodes have either the value 2 or 3, where 2 represents the boolean OR and 3 represents the boolean AND.\n\n\nThe evaluation of a node is as follows:\n\n\n\tIf the node is a leaf node, the evaluation is the value of the node, i.e. True or False.\n\tOtherwise, evaluate the node's two children and apply the boolean operation of its value with the children's evaluations.\n\n\nReturn the boolean result of evaluating the root node.\n\nA full binary tree is a binary tree where each node has either 0 or 2 children.\n\nA leaf node is a node that has zero children.\n\n \nExample 1:\n\nInput: root = [2,1,3,null,null,0,1]\nOutput: true\nExplanation: The above diagram illustrates the evaluation process.\nThe AND node evaluates to False AND True = False.\nThe OR node evaluates to True OR False = True.\nThe root node evaluates to True, so we return true.\n\nExample 2:\n\nInput: root = [0]\nOutput: false\nExplanation: The root node is a leaf node and it evaluates to false, so we return false.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 1000].\n\t0 <= Node.val <= 3\n\tEvery node has either 0 or 2 children.\n\tLeaf nodes have a value of 0 or 1.\n\tNon-leaf nodes have a value of 2 or 3.\n\n"
+}

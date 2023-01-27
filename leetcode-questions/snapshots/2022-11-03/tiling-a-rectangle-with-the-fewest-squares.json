@@ -1,0 +1,9 @@
+{
+  "id": "tiling-a-rectangle-with-the-fewest-squares",
+  "name": "Tiling a Rectangle with the Fewest Squares",
+  "tags": [
+    "Dynamic Programming",
+    "Backtracking"
+  ],
+  "description": "Given a rectangle of size n x m, return the minimum number of integer-sided squares that tile the rectangle.\n\n \nExample 1:\n\n\n\nInput: n = 2, m = 3\nOutput: 3\nExplanation: 3 squares are necessary to cover the rectangle.\n2 (squares of 1x1)\n1 (square of 2x2)\n\nExample 2:\n\n\n\nInput: n = 5, m = 8\nOutput: 5\n\n\nExample 3:\n\n\n\nInput: n = 11, m = 13\nOutput: 6\n\n\n \nConstraints:\n\n\n\t1 <= n, m <= 13\n\n"
+}

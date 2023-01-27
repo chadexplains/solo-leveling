@@ -1,0 +1,8 @@
+{
+  "id": "positions-of-large-groups",
+  "name": "Positions of Large Groups",
+  "tags": [
+    "String"
+  ],
+  "description": "In a string s of lowercase letters, these letters form consecutive groups of the same character.\n\nFor example, a string like s = \"abbxxxxzyy\" has the groups \"a\", \"bb\", \"xxxx\", \"z\", and \"yy\".\n\nA group is identified by an interval [start, end], where start and end denote the start and end indices (inclusive) of the group. In the above example, \"xxxx\" has the interval [3,6].\n\nA group is considered large if it has 3 or more characters.\n\nReturn the intervals of every large group sorted in increasing order by start index.\n\n \nExample 1:\n\nInput: s = \"abbxxxxzzy\"\nOutput: [[3,6]]\nExplanation: \"xxxx\" is the only large group with start index 3 and end index 6.\n\n\nExample 2:\n\nInput: s = \"abc\"\nOutput: []\nExplanation: We have groups \"a\", \"b\", and \"c\", none of which are large groups.\n\n\nExample 3:\n\nInput: s = \"abcdddeeeeaabbbcd\"\nOutput: [[3,5],[6,9],[12,14]]\nExplanation: The large groups are \"ddd\", \"eeee\", and \"bbb\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts contains lowercase English letters only.\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "maximum-difference-between-increasing-elements",
+  "name": "Maximum Difference Between Increasing Elements",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given a 0-indexed integer array nums of size n, find the maximum difference between nums[i] and nums[j] (i.e., nums[j] - nums[i]), such that 0 <= i < j < n and nums[i] < nums[j].\n\nReturn the maximum difference. If no such i and j exists, return -1.\n\n \nExample 1:\n\nInput: nums = [7,1,5,4]\nOutput: 4\nExplanation:\nThe maximum difference occurs with i = 1 and j = 2, nums[j] - nums[i] = 5 - 1 = 4.\nNote that with i = 1 and j = 0, the difference nums[j] - nums[i] = 7 - 1 = 6, but i > j, so it is not valid.\n\n\nExample 2:\n\nInput: nums = [9,4,3,2]\nOutput: -1\nExplanation:\nThere is no i and j such that i < j and nums[i] < nums[j].\n\n\nExample 3:\n\nInput: nums = [1,5,2,10]\nOutput: 9\nExplanation:\nThe maximum difference occurs with i = 0 and j = 3, nums[j] - nums[i] = 10 - 1 = 9.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t2 <= n <= 1000\n\t1 <= nums[i] <= 109\n\n"
+}

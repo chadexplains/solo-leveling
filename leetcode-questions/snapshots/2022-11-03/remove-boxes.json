@@ -1,0 +1,10 @@
+{
+  "id": "remove-boxes",
+  "name": "Remove Boxes",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Memoization"
+  ],
+  "description": "You are given several boxes with different colors represented by different positive numbers.\n\nYou may experience several rounds to remove boxes until there is no box left. Each time you can choose some continuous boxes with the same color (i.e., composed of k boxes, k >= 1), remove them and get k * k points.\n\nReturn the maximum points you can get.\n\n \nExample 1:\n\nInput: boxes = [1,3,2,2,2,3,4,3,1]\nOutput: 23\nExplanation:\n[1, 3, 2, 2, 2, 3, 4, 3, 1] \n----> [1, 3, 3, 4, 3, 1] (3*3=9 points) \n----> [1, 3, 3, 3, 1] (1*1=1 points) \n----> [1, 1] (3*3=9 points) \n----> [] (2*2=4 points)\n\n\nExample 2:\n\nInput: boxes = [1,1,1]\nOutput: 9\n\n\nExample 3:\n\nInput: boxes = [1]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= boxes.length <= 100\n\t1 <= boxes[i] <= 100\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "minimum-number-of-swaps-to-make-the-binary-string-alternating",
+  "name": "Minimum Number of Swaps to Make the Binary String Alternating",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "Given a binary string s, return the minimum number of character swaps to make it alternating, or -1 if it is impossible.\n\nThe string is called alternating if no two adjacent characters are equal. For example, the strings \"010\" and \"1010\" are alternating, while the string \"0100\" is not.\n\nAny two characters may be swapped, even if they are not adjacent.\n\n \nExample 1:\n\nInput: s = \"111000\"\nOutput: 1\nExplanation: Swap positions 1 and 4: \"111000\" -> \"101010\"\nThe string is now alternating.\n\n\nExample 2:\n\nInput: s = \"010\"\nOutput: 0\nExplanation: The string is already alternating, no swaps are needed.\n\n\nExample 3:\n\nInput: s = \"1110\"\nOutput: -1\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts[i] is either '0' or '1'.\n\n"
+}

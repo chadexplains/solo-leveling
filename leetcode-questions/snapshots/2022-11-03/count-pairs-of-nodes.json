@@ -1,0 +1,10 @@
+{
+  "id": "count-pairs-of-nodes",
+  "name": "Count Pairs Of Nodes",
+  "tags": [
+    "Two Pointers",
+    "Binary Search",
+    "Graph"
+  ],
+  "description": "You are given an undirected graph defined by an integer n, the number of nodes, and a 2D integer array edges, the edges in the graph, where edges[i] = [ui, vi] indicates that there is an undirected edge between ui and vi. You are also given an integer array queries.\n\nLet incident(a, b) be defined as the number of edges that are connected to either node a or b.\n\nThe answer to the jth query is the number of pairs of nodes (a, b) that satisfy both of the following conditions:\n\n\n\ta < b\n\tincident(a, b) > queries[j]\n\n\nReturn an array answers such that answers.length == queries.length and answers[j] is the answer of the jth query.\n\nNote that there can be multiple edges between the same two nodes.\n\n \nExample 1:\n\nInput: n = 4, edges = [[1,2],[2,4],[1,3],[2,3],[2,1]], queries = [2,3]\nOutput: [6,5]\nExplanation: The calculations for incident(a, b) are shown in the table above.\nThe answers for each of the queries are as follows:\n- answers[0] = 6. All the pairs have an incident(a, b) value greater than 2.\n- answers[1] = 5. All the pairs except (3, 4) have an incident(a, b) value greater than 3.\n\n\nExample 2:\n\nInput: n = 5, edges = [[1,5],[1,5],[3,4],[2,5],[1,3],[5,1],[2,3],[2,5]], queries = [1,2,3,4,5]\nOutput: [10,10,9,8,6]\n\n\n \nConstraints:\n\n\n\t2 <= n <= 2 * 104\n\t1 <= edges.length <= 105\n\t1 <= ui, vi <= n\n\tui != vi\n\t1 <= queries.length <= 20\n\t0 <= queries[j] < edges.length\n\n"
+}

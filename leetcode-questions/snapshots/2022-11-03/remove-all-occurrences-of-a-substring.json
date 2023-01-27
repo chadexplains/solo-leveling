@@ -1,0 +1,8 @@
+{
+  "id": "remove-all-occurrences-of-a-substring",
+  "name": "Remove All Occurrences of a Substring",
+  "tags": [
+    "String"
+  ],
+  "description": "Given two strings s and part, perform the following operation on s until all occurrences of the substring part are removed:\n\n\n\tFind the leftmost occurrence of the substring part and remove it from s.\n\n\nReturn s after removing all occurrences of part.\n\nA substring is a contiguous sequence of characters in a string.\n\n \nExample 1:\n\nInput: s = \"daabcbaabcbc\", part = \"abc\"\nOutput: \"dab\"\nExplanation: The following operations are done:\n- s = \"daabcbaabcbc\", remove \"abc\" starting at index 2, so s = \"dabaabcbc\".\n- s = \"dabaabcbc\", remove \"abc\" starting at index 4, so s = \"dababc\".\n- s = \"dababc\", remove \"abc\" starting at index 3, so s = \"dab\".\nNow s has no occurrences of \"abc\".\n\n\nExample 2:\n\nInput: s = \"axxxxyyyyb\", part = \"xy\"\nOutput: \"ab\"\nExplanation: The following operations are done:\n- s = \"axxxxyyyyb\", remove \"xy\" starting at index 4 so s = \"axxxyyyb\".\n- s = \"axxxyyyb\", remove \"xy\" starting at index 3 so s = \"axxyyb\".\n- s = \"axxyyb\", remove \"xy\" starting at index 2 so s = \"axyb\".\n- s = \"axyb\", remove \"xy\" starting at index 1 so s = \"ab\".\nNow s has no occurrences of \"xy\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\t1 <= part.length <= 1000\n\ts​​​​​​ and part consists of lowercase English letters.\n\n"
+}

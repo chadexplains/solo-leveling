@@ -1,0 +1,8 @@
+{
+  "id": "largest-palindrome-product",
+  "name": "Largest Palindrome Product",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer n, return the largest palindromic integer that can be represented as the product of two n-digits integers. Since the answer can be very large, return it modulo 1337.\n\n \nExample 1:\n\nInput: n = 2\nOutput: 987\nExplanation: 99 x 91 = 9009, 9009 % 1337 = 987\n\n\nExample 2:\n\nInput: n = 1\nOutput: 9\n\n\n \nConstraints:\n\n\n\t1 <= n <= 8\n\n"
+}

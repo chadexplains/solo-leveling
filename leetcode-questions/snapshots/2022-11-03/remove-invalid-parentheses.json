@@ -1,0 +1,10 @@
+{
+  "id": "remove-invalid-parentheses",
+  "name": "Remove Invalid Parentheses",
+  "tags": [
+    "String",
+    "Backtracking",
+    "Breadth-First Search"
+  ],
+  "description": "Given a string s that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.\n\nReturn all the possible results. You may return the answer in any order.\n\n \nExample 1:\n\nInput: s = \"()())()\"\nOutput: [\"(())()\",\"()()()\"]\n\n\nExample 2:\n\nInput: s = \"(a)())()\"\nOutput: [\"(a())()\",\"(a)()()\"]\n\n\nExample 3:\n\nInput: s = \")(\"\nOutput: [\"\"]\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 25\n\ts consists of lowercase English letters and parentheses '(' and ')'.\n\tThere will be at most 20 parentheses in s.\n\n"
+}

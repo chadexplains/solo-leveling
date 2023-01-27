@@ -1,0 +1,12 @@
+{
+  "id": "number-of-pairs-of-interchangeable-rectangles",
+  "name": "Number of Pairs of Interchangeable Rectangles",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Counting",
+    "Number Theory"
+  ],
+  "description": "You are given n rectangles represented by a 0-indexed 2D integer array rectangles, where rectangles[i] = [widthi, heighti] denotes the width and height of the ith rectangle.\n\nTwo rectangles i and j (i < j) are considered interchangeable if they have the same width-to-height ratio. More formally, two rectangles are interchangeable if widthi/heighti == widthj/heightj (using decimal division, not integer division).\n\nReturn the number of pairs of interchangeable rectangles in rectangles.\n\n \nExample 1:\n\nInput: rectangles = [[4,8],[3,6],[10,20],[15,30]]\nOutput: 6\nExplanation: The following are the interchangeable pairs of rectangles by index (0-indexed):\n- Rectangle 0 with rectangle 1: 4/8 == 3/6.\n- Rectangle 0 with rectangle 2: 4/8 == 10/20.\n- Rectangle 0 with rectangle 3: 4/8 == 15/30.\n- Rectangle 1 with rectangle 2: 3/6 == 10/20.\n- Rectangle 1 with rectangle 3: 3/6 == 15/30.\n- Rectangle 2 with rectangle 3: 10/20 == 15/30.\n\n\nExample 2:\n\nInput: rectangles = [[4,5],[7,8]]\nOutput: 0\nExplanation: There are no interchangeable pairs of rectangles.\n\n\n \nConstraints:\n\n\n\tn == rectangles.length\n\t1 <= n <= 105\n\trectangles[i].length == 2\n\t1 <= widthi, heighti <= 105\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "guess-number-higher-or-lower",
+  "name": "Guess Number Higher or Lower",
+  "tags": [
+    "Binary Search",
+    "Interactive"
+  ],
+  "description": "We are playing the Guess Game. The game is as follows:\n\nI pick a number from 1 to n. You have to guess which number I picked.\n\nEvery time you guess wrong, I will tell you whether the number I picked is higher or lower than your guess.\n\nYou call a pre-defined API int guess(int num), which returns three possible results:\n\n\n\t-1: Your guess is higher than the number I picked (i.e. num > pick).\n\t1: Your guess is lower than the number I picked (i.e. num < pick).\n\t0: your guess is equal to the number I picked (i.e. num == pick).\n\n\nReturn the number that I picked.\n\n \nExample 1:\n\nInput: n = 10, pick = 6\nOutput: 6\n\n\nExample 2:\n\nInput: n = 1, pick = 1\nOutput: 1\n\n\nExample 3:\n\nInput: n = 2, pick = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 231 - 1\n\t1 <= pick <= n\n\n"
+}

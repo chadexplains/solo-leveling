@@ -1,0 +1,10 @@
+{
+  "id": "cracking-the-safe",
+  "name": "Cracking the Safe",
+  "tags": [
+    "Depth-First Search",
+    "Graph",
+    "Eulerian Circuit"
+  ],
+  "description": "There is a safe protected by a password. The password is a sequence of n digits where each digit can be in the range [0, k - 1].\n\nThe safe has a peculiar way of checking the password. When you enter in a sequence, it checks the most recent n digits that were entered each time you type a digit.\n\n\n\tFor example, the correct password is \"345\" and you enter in \"012345\":\n\n\t\n\t\tAfter typing 0, the most recent 3 digits is \"0\", which is incorrect.\n\t\tAfter typing 1, the most recent 3 digits is \"01\", which is incorrect.\n\t\tAfter typing 2, the most recent 3 digits is \"012\", which is incorrect.\n\t\tAfter typing 3, the most recent 3 digits is \"123\", which is incorrect.\n\t\tAfter typing 4, the most recent 3 digits is \"234\", which is incorrect.\n\t\tAfter typing 5, the most recent 3 digits is \"345\", which is correct and the safe unlocks.\n\t\n\t\n\n\nReturn any string of minimum length that will unlock the safe at some point of entering it.\n\n \nExample 1:\n\nInput: n = 1, k = 2\nOutput: \"10\"\nExplanation: The password is a single digit, so enter each digit. \"01\" would also unlock the safe.\n\n\nExample 2:\n\nInput: n = 2, k = 2\nOutput: \"01100\"\nExplanation: For each possible password:\n- \"00\" is typed in starting from the 4th digit.\n- \"01\" is typed in starting from the 1st digit.\n- \"10\" is typed in starting from the 3rd digit.\n- \"11\" is typed in starting from the 2nd digit.\nThus \"01100\" will unlock the safe. \"01100\", \"10011\", and \"11001\" would also unlock the safe.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 4\n\t1 <= k <= 10\n\t1 <= kn <= 4096\n\n"
+}

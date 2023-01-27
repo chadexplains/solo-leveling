@@ -1,0 +1,8 @@
+{
+  "id": "1-bit-and-2-bit-characters",
+  "name": "1-bit and 2-bit Characters",
+  "tags": [
+    "Array"
+  ],
+  "description": "We have two special characters:\n\n\n\tThe first character can be represented by one bit 0.\n\tThe second character can be represented by two bits (10 or 11).\n\n\nGiven a binary array bits that ends with 0, return true if the last character must be a one-bit character.\n\n \nExample 1:\n\nInput: bits = [1,0,0]\nOutput: true\nExplanation: The only way to decode it is two-bit character and one-bit character.\nSo the last character is one-bit character.\n\n\nExample 2:\n\nInput: bits = [1,1,1,0]\nOutput: false\nExplanation: The only way to decode it is two-bit character and two-bit character.\nSo the last character is not one-bit character.\n\n\n \nConstraints:\n\n\n\t1 <= bits.length <= 1000\n\tbits[i] is either 0 or 1.\n\n"
+}

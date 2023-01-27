@@ -1,0 +1,9 @@
+{
+  "id": "toeplitz-matrix",
+  "name": "Toeplitz Matrix",
+  "tags": [
+    "Array",
+    "Matrix"
+  ],
+  "description": "Given an m x n matrix, return true if the matrix is Toeplitz. Otherwise, return false.\n\nA matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements.\n\n \nExample 1:\n\nInput: matrix = [[1,2,3,4],[5,1,2,3],[9,5,1,2]]\nOutput: true\nExplanation:\nIn the above grid, the diagonals are:\n\"[9]\", \"[5, 5]\", \"[1, 1, 1]\", \"[2, 2, 2]\", \"[3, 3]\", \"[4]\".\nIn each diagonal all elements are the same, so the answer is True.\n\n\nExample 2:\n\nInput: matrix = [[1,2],[2,2]]\nOutput: false\nExplanation:\nThe diagonal \"[1, 2]\" has different elements.\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[i].length\n\t1 <= m, n <= 20\n\t0 <= matrix[i][j] <= 99\n\n\n \nFollow up:\n\n\n\tWhat if the matrix is stored on disk, and the memory is limited such that you can only load at most one row of the matrix into the memory at once?\n\tWhat if the matrix is so large that you can only load up a partial row into the memory at once?\n\n"
+}

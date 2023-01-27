@@ -1,0 +1,9 @@
+{
+  "id": "number-of-different-integers-in-a-string",
+  "name": "Number of Different Integers in a String",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "You are given a string word that consists of digits and lowercase English letters.\n\nYou will replace every non-digit character with a space. For example, \"a123bc34d8ef34\" will become \" 123  34 8  34\". Notice that you are left with some integers that are separated by at least one space: \"123\", \"34\", \"8\", and \"34\".\n\nReturn the number of different integers after performing the replacement operations on word.\n\nTwo integers are considered different if their decimal representations without any leading zeros are different.\n\n \nExample 1:\n\nInput: word = \"a123bc34d8ef34\"\nOutput: 3\nExplanation: The three different integers are \"123\", \"34\", and \"8\". Notice that \"34\" is only counted once.\n\n\nExample 2:\n\nInput: word = \"leet1234code234\"\nOutput: 2\n\n\nExample 3:\n\nInput: word = \"a1b01c001\"\nOutput: 1\nExplanation: The three integers \"1\", \"01\", and \"001\" all represent the same integer because\nthe leading zeros are ignored when comparing their decimal values.\n\n\n \nConstraints:\n\n\n\t1 <= word.length <= 1000\n\tword consists of digits and lowercase English letters.\n\n"
+}

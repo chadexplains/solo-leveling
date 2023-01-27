@@ -1,0 +1,12 @@
+{
+  "id": "height-of-binary-tree-after-subtree-removal-queries",
+  "name": "Height of Binary Tree After Subtree Removal Queries",
+  "tags": [
+    "Array",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree with n nodes. Each node is assigned a unique value from 1 to n. You are also given an array queries of size m.\n\nYou have to perform m independent queries on the tree where in the ith query you do the following:\n\n\n\tRemove the subtree rooted at the node with the value queries[i] from the tree. It is guaranteed that queries[i] will not be equal to the value of the root.\n\n\nReturn an array answer of size m where answer[i] is the height of the tree after performing the ith query.\n\nNote:\n\n\n\tThe queries are independent, so the tree returns to its initial state after each query.\n\tThe height of a tree is the number of edges in the longest simple path from the root to some node in the tree.\n\n\n \nExample 1:\n\nInput: root = [1,3,4,2,null,6,5,null,null,null,null,null,7], queries = [4]\nOutput: [2]\nExplanation: The diagram above shows the tree after removing the subtree rooted at node with value 4.\nThe height of the tree is 2 (The path 1 -> 3 -> 2).\n\n\nExample 2:\n\nInput: root = [5,8,9,2,1,3,7,4,6], queries = [3,2,4,8]\nOutput: [3,2,3,2]\nExplanation: We have the following queries:\n- Removing the subtree rooted at node with value 3. The height of the tree becomes 3 (The path 5 -> 8 -> 2 -> 4).\n- Removing the subtree rooted at node with value 2. The height of the tree becomes 2 (The path 5 -> 8 -> 1).\n- Removing the subtree rooted at node with value 4. The height of the tree becomes 3 (The path 5 -> 8 -> 2 -> 6).\n- Removing the subtree rooted at node with value 8. The height of the tree becomes 2 (The path 5 -> 9 -> 3).\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is n.\n\t2 <= n <= 105\n\t1 <= Node.val <= n\n\tAll the values in the tree are unique.\n\tm == queries.length\n\t1 <= m <= min(n, 104)\n\t1 <= queries[i] <= n\n\tqueries[i] != root.val\n\n"
+}

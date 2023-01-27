@@ -1,0 +1,10 @@
+{
+  "id": "expressive-words",
+  "name": "Expressive Words",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Sometimes people repeat letters to represent extra feeling. For example:\n\n\n\t\"hello\" -> \"heeellooo\"\n\t\"hi\" -> \"hiiii\"\n\n\nIn these strings like \"heeellooo\", we have groups of adjacent letters that are all the same: \"h\", \"eee\", \"ll\", \"ooo\".\n\nYou are given a string s and an array of query strings words. A query word is stretchy if it can be made to be equal to s by any number of applications of the following extension operation: choose a group consisting of characters c, and add some number of characters c to the group so that the size of the group is three or more.\n\n\n\tFor example, starting with \"hello\", we could do an extension on the group \"o\" to get \"hellooo\", but we cannot get \"helloo\" since the group \"oo\" has a size less than three. Also, we could do another extension like \"ll\" -> \"lllll\" to get \"helllllooo\". If s = \"helllllooo\", then the query word \"hello\" would be stretchy because of these two extension operations: query = \"hello\" -> \"hellooo\" -> \"helllllooo\" = s.\n\n\nReturn the number of query strings that are stretchy.\n\n \nExample 1:\n\nInput: s = \"heeellooo\", words = [\"hello\", \"hi\", \"helo\"]\nOutput: 1\nExplanation: \nWe can extend \"e\" and \"o\" in the word \"hello\" to get \"heeellooo\".\nWe can't extend \"helo\" to get \"heeellooo\" because the group \"ll\" is not size 3 or more.\n\n\nExample 2:\n\nInput: s = \"zzzzzyyyyy\", words = [\"zzyy\",\"zy\",\"zyy\"]\nOutput: 3\n\n\n \nConstraints:\n\n\n\t1 <= s.length, words.length <= 100\n\t1 <= words[i].length <= 100\n\ts and words[i] consist of lowercase letters.\n\n"
+}

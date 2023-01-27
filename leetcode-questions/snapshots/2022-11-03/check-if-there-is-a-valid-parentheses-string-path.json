@@ -1,0 +1,10 @@
+{
+  "id": "check-if-there-is-a-valid-parentheses-string-path",
+  "name": " Check if There Is a Valid Parentheses String Path",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "description": "A parentheses string is a non-empty string consisting only of '(' and ')'. It is valid if any of the following conditions is true:\n\n\n\tIt is ().\n\tIt can be written as AB (A concatenated with B), where A and B are valid parentheses strings.\n\tIt can be written as (A), where A is a valid parentheses string.\n\n\nYou are given an m x n matrix of parentheses grid. A valid parentheses string path in the grid is a path satisfying all of the following conditions:\n\n\n\tThe path starts from the upper left cell (0, 0).\n\tThe path ends at the bottom-right cell (m - 1, n - 1).\n\tThe path only ever moves down or right.\n\tThe resulting parentheses string formed by the path is valid.\n\n\nReturn true if there exists a valid parentheses string path in the grid. Otherwise, return false.\n\n \nExample 1:\n\nInput: grid = [[\"(\",\"(\",\"(\"],[\")\",\"(\",\")\"],[\"(\",\"(\",\")\"],[\"(\",\"(\",\")\"]]\nOutput: true\nExplanation: The above diagram shows two possible paths that form valid parentheses strings.\nThe first path shown results in the valid parentheses string \"()(())\".\nThe second path shown results in the valid parentheses string \"((()))\".\nNote that there may be other valid parentheses string paths.\n\n\nExample 2:\n\nInput: grid = [[\")\",\")\"],[\"(\",\"(\"]]\nOutput: false\nExplanation: The two possible paths form the parentheses strings \"))(\" and \")((\". Since neither of them are valid parentheses strings, we return false.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 100\n\tgrid[i][j] is either '(' or ')'.\n\n"
+}

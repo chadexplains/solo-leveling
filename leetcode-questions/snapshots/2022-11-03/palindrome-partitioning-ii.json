@@ -1,0 +1,9 @@
+{
+  "id": "palindrome-partitioning-ii",
+  "name": "Palindrome Partitioning II",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given a string s, partition s such that every substring of the partition is a palindrome.\n\nReturn the minimum cuts needed for a palindrome partitioning of s.\n\n \nExample 1:\n\nInput: s = \"aab\"\nOutput: 1\nExplanation: The palindrome partitioning [\"aa\",\"b\"] could be produced using 1 cut.\n\n\nExample 2:\n\nInput: s = \"a\"\nOutput: 0\n\n\nExample 3:\n\nInput: s = \"ab\"\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 2000\n\ts consists of lowercase English letters only.\n\n"
+}

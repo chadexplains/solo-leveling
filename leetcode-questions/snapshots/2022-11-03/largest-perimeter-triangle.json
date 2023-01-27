@@ -1,0 +1,11 @@
+{
+  "id": "largest-perimeter-triangle",
+  "name": "Largest Perimeter Triangle",
+  "tags": [
+    "Array",
+    "Math",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums, return the largest perimeter of a triangle with a non-zero area, formed from three of these lengths. If it is impossible to form any triangle of a non-zero area, return 0.\n\n \nExample 1:\n\nInput: nums = [2,1,2]\nOutput: 5\n\n\nExample 2:\n\nInput: nums = [1,2,1]\nOutput: 0\n\n\n \nConstraints:\n\n\n\t3 <= nums.length <= 104\n\t1 <= nums[i] <= 106\n\n"
+}

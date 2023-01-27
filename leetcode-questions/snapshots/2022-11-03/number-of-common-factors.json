@@ -1,0 +1,10 @@
+{
+  "id": "number-of-common-factors",
+  "name": "Number of Common Factors",
+  "tags": [
+    "Math",
+    "Enumeration",
+    "Number Theory"
+  ],
+  "description": "Given two positive integers a and b, return the number of common factors of a and b.\n\nAn integer x is a common factor of a and b if x divides both a and b.\n\n \nExample 1:\n\nInput: a = 12, b = 6\nOutput: 4\nExplanation: The common factors of 12 and 6 are 1, 2, 3, 6.\n\n\nExample 2:\n\nInput: a = 25, b = 30\nOutput: 2\nExplanation: The common factors of 25 and 30 are 1, 5.\n\n\n \nConstraints:\n\n\n\t1 <= a, b <= 1000\n\n"
+}

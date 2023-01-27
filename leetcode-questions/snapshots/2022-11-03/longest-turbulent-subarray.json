@@ -1,0 +1,10 @@
+{
+  "id": "longest-turbulent-subarray",
+  "name": "Longest Turbulent Subarray",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Sliding Window"
+  ],
+  "description": "Given an integer array arr, return the length of a maximum size turbulent subarray of arr.\n\nA subarray is turbulent if the comparison sign flips between each adjacent pair of elements in the subarray.\n\nMore formally, a subarray [arr[i], arr[i + 1], ..., arr[j]] of arr is said to be turbulent if and only if:\n\n\n\tFor i <= k < j:\n\n\t\n\t\tarr[k] > arr[k + 1] when k is odd, and\n\t\tarr[k] < arr[k + 1] when k is even.\n\t\n\t\n\tOr, for i <= k < j:\n\t\n\t\tarr[k] > arr[k + 1] when k is even, and\n\t\tarr[k] < arr[k + 1] when k is odd.\n\t\n\t\n\n\n \nExample 1:\n\nInput: arr = [9,4,2,10,7,8,8,1,9]\nOutput: 5\nExplanation: arr[1] > arr[2] < arr[3] > arr[4] < arr[5]\n\n\nExample 2:\n\nInput: arr = [4,8,12,16]\nOutput: 2\n\n\nExample 3:\n\nInput: arr = [100]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 4 * 104\n\t0 <= arr[i] <= 109\n\n"
+}

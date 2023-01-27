@@ -1,0 +1,13 @@
+{
+  "id": "missing-number",
+  "name": "Missing Number",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Binary Search",
+    "Bit Manipulation",
+    "Sorting"
+  ],
+  "description": "Given an array nums containing n distinct numbers in the range [0, n], return the only number in the range that is missing from the array.\n\n \nExample 1:\n\nInput: nums = [3,0,1]\nOutput: 2\nExplanation: n = 3 since there are 3 numbers, so all numbers are in the range [0,3]. 2 is the missing number in the range since it does not appear in nums.\n\n\nExample 2:\n\nInput: nums = [0,1]\nOutput: 2\nExplanation: n = 2 since there are 2 numbers, so all numbers are in the range [0,2]. 2 is the missing number in the range since it does not appear in nums.\n\n\nExample 3:\n\nInput: nums = [9,6,4,2,3,5,7,0,1]\nOutput: 8\nExplanation: n = 9 since there are 9 numbers, so all numbers are in the range [0,9]. 8 is the missing number in the range since it does not appear in nums.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 104\n\t0 <= nums[i] <= n\n\tAll the numbers of nums are unique.\n\n\n \nFollow up: Could you implement a solution using only O(1) extra space complexity and O(n) runtime complexity?\n"
+}

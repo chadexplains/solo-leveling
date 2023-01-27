@@ -1,0 +1,8 @@
+{
+  "id": "to-lower-case",
+  "name": "To Lower Case",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a string s, return the string after replacing every uppercase letter with the same lowercase letter.\n\n \nExample 1:\n\nInput: s = \"Hello\"\nOutput: \"hello\"\n\n\nExample 2:\n\nInput: s = \"here\"\nOutput: \"here\"\n\n\nExample 3:\n\nInput: s = \"LOVELY\"\nOutput: \"lovely\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts consists of printable ASCII characters.\n\n"
+}

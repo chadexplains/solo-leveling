@@ -1,0 +1,8 @@
+{
+  "id": "delete-characters-to-make-fancy-string",
+  "name": "Delete Characters to Make Fancy String",
+  "tags": [
+    "String"
+  ],
+  "description": "A fancy string is a string where no three consecutive characters are equal.\n\nGiven a string s, delete the minimum possible number of characters from s to make it fancy.\n\nReturn the final string after the deletion. It can be shown that the answer will always be unique.\n\n \nExample 1:\n\nInput: s = \"leeetcode\"\nOutput: \"leetcode\"\nExplanation:\nRemove an 'e' from the first group of 'e's to create \"leetcode\".\nNo three consecutive characters are equal, so return \"leetcode\".\n\n\nExample 2:\n\nInput: s = \"aaabaaaa\"\nOutput: \"aabaa\"\nExplanation:\nRemove an 'a' from the first group of 'a's to create \"aabaaaa\".\nRemove two 'a's from the second group of 'a's to create \"aabaa\".\nNo three consecutive characters are equal, so return \"aabaa\".\n\n\nExample 3:\n\nInput: s = \"aab\"\nOutput: \"aab\"\nExplanation: No three consecutive characters are equal, so return \"aab\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists only of lowercase English letters.\n\n"
+}

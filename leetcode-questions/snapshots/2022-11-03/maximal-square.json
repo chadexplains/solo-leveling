@@ -1,0 +1,10 @@
+{
+  "id": "maximal-square",
+  "name": "Maximal Square",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "description": "Given an m x n binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.\n\n \nExample 1:\n\nInput: matrix = [[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]\nOutput: 4\n\n\nExample 2:\n\nInput: matrix = [[\"0\",\"1\"],[\"1\",\"0\"]]\nOutput: 1\n\n\nExample 3:\n\nInput: matrix = [[\"0\"]]\nOutput: 0\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[i].length\n\t1 <= m, n <= 300\n\tmatrix[i][j] is '0' or '1'.\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "print-zero-even-odd",
+  "name": "Print Zero Even Odd",
+  "tags": [
+    "Concurrency"
+  ],
+  "description": "You have a function printNumber that can be called with an integer parameter and prints it to the console.\n\n\n\tFor example, calling printNumber(7) prints 7 to the console.\n\n\nYou are given an instance of the class ZeroEvenOdd that has three functions: zero, even, and odd. The same instance of ZeroEvenOdd will be passed to three different threads:\n\n\n\tThread A: calls zero() that should only output 0's.\n\tThread B: calls even() that should only output even numbers.\n\tThread C: calls odd() that should only output odd numbers.\n\n\nModify the given class to output the series \"010203040506...\" where the length of the series must be 2n.\n\nImplement the ZeroEvenOdd class:\n\n\n\tZeroEvenOdd(int n) Initializes the object with the number n that represents the numbers that should be printed.\n\tvoid zero(printNumber) Calls printNumber to output one zero.\n\tvoid even(printNumber) Calls printNumber to output one even number.\n\tvoid odd(printNumber) Calls printNumber to output one odd number.\n\n\n \nExample 1:\n\nInput: n = 2\nOutput: \"0102\"\nExplanation: There are three threads being fired asynchronously.\nOne of them calls zero(), the other calls even(), and the last one calls odd().\n\"0102\" is the correct output.\n\n\nExample 2:\n\nInput: n = 5\nOutput: \"0102030405\"\n\n\n \nConstraints:\n\n\n\t1 <= n <= 1000\n\n"
+}

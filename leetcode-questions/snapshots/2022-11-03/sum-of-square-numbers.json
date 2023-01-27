@@ -1,0 +1,10 @@
+{
+  "id": "sum-of-square-numbers",
+  "name": "Sum of Square Numbers",
+  "tags": [
+    "Math",
+    "Two Pointers",
+    "Binary Search"
+  ],
+  "description": "Given a non-negative integer c, decide whether there're two integers a and b such that a2 + b2 = c.\n\n \nExample 1:\n\nInput: c = 5\nOutput: true\nExplanation: 1 * 1 + 2 * 2 = 5\n\n\nExample 2:\n\nInput: c = 3\nOutput: false\n\n\n \nConstraints:\n\n\n\t0 <= c <= 231 - 1\n\n"
+}

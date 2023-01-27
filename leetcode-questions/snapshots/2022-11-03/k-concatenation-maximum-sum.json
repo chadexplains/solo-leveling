@@ -1,0 +1,9 @@
+{
+  "id": "k-concatenation-maximum-sum",
+  "name": "K-Concatenation Maximum Sum",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer array arr and an integer k, modify the array by repeating it k times.\n\nFor example, if arr = [1, 2] and k = 3 then the modified array will be [1, 2, 1, 2, 1, 2].\n\nReturn the maximum sub-array sum in the modified array. Note that the length of the sub-array can be 0 and its sum in that case is 0.\n\nAs the answer can be very large, return the answer modulo 109 + 7.\n\n \nExample 1:\n\nInput: arr = [1,2], k = 3\nOutput: 9\n\n\nExample 2:\n\nInput: arr = [1,-2,1], k = 5\nOutput: 2\n\n\nExample 3:\n\nInput: arr = [-1,-2], k = 7\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 105\n\t1 <= k <= 105\n\t-104 <= arr[i] <= 104\n\n"
+}

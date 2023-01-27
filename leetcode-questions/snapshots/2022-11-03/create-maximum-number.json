@@ -1,0 +1,10 @@
+{
+  "id": "create-maximum-number",
+  "name": "Create Maximum Number",
+  "tags": [
+    "Stack",
+    "Greedy",
+    "Monotonic Stack"
+  ],
+  "description": "You are given two integer arrays nums1 and nums2 of lengths m and n respectively. nums1 and nums2 represent the digits of two numbers. You are also given an integer k.\n\nCreate the maximum number of length k <= m + n from digits of the two numbers. The relative order of the digits from the same array must be preserved.\n\nReturn an array of the k digits representing the answer.\n\n \nExample 1:\n\nInput: nums1 = [3,4,6,5], nums2 = [9,1,2,5,8,3], k = 5\nOutput: [9,8,6,5,3]\n\n\nExample 2:\n\nInput: nums1 = [6,7], nums2 = [6,0,4], k = 5\nOutput: [6,7,6,0,4]\n\n\nExample 3:\n\nInput: nums1 = [3,9], nums2 = [8,9], k = 3\nOutput: [9,8,9]\n\n\n \nConstraints:\n\n\n\tm == nums1.length\n\tn == nums2.length\n\t1 <= m, n <= 500\n\t0 <= nums1[i], nums2[i] <= 9\n\t1 <= k <= m + n\n\n"
+}

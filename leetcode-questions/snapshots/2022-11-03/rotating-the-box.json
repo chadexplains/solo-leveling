@@ -1,0 +1,10 @@
+{
+  "id": "rotating-the-box",
+  "name": "Rotating the Box",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Matrix"
+  ],
+  "description": "You are given an m x n matrix of characters box representing a side-view of a box. Each cell of the box is one of the following:\n\n\n\tA stone '#'\n\tA stationary obstacle '*'\n\tEmpty '.'\n\n\nThe box is rotated 90 degrees clockwise, causing some of the stones to fall due to gravity. Each stone falls down until it lands on an obstacle, another stone, or the bottom of the box. Gravity does not affect the obstacles' positions, and the inertia from the box's rotation does not affect the stones' horizontal positions.\n\nIt is guaranteed that each stone in box rests on an obstacle, another stone, or the bottom of the box.\n\nReturn an n x m matrix representing the box after the rotation described above.\n\n \nExample 1:\n\n\n\nInput: box = [[\"#\",\".\",\"#\"]]\nOutput: [[\".\"],\n         [\"#\"],\n         [\"#\"]]\n\n\nExample 2:\n\n\n\nInput: box = [[\"#\",\".\",\"*\",\".\"],\n              [\"#\",\"#\",\"*\",\".\"]]\nOutput: [[\"#\",\".\"],\n         [\"#\",\"#\"],\n         [\"*\",\"*\"],\n         [\".\",\".\"]]\n\n\nExample 3:\n\n\n\nInput: box = [[\"#\",\"#\",\"*\",\".\",\"*\",\".\"],\n              [\"#\",\"#\",\"#\",\"*\",\".\",\".\"],\n              [\"#\",\"#\",\"#\",\".\",\"#\",\".\"]]\nOutput: [[\".\",\"#\",\"#\"],\n         [\".\",\"#\",\"#\"],\n         [\"#\",\"#\",\"*\"],\n         [\"#\",\"*\",\".\"],\n         [\"#\",\".\",\"*\"],\n         [\"#\",\".\",\".\"]]\n\n\n \nConstraints:\n\n\n\tm == box.length\n\tn == box[i].length\n\t1 <= m, n <= 500\n\tbox[i][j] is either '#', '*', or '.'.\n"
+}

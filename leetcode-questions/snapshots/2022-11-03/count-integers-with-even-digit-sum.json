@@ -1,0 +1,9 @@
+{
+  "id": "count-integers-with-even-digit-sum",
+  "name": "Count Integers With Even Digit Sum",
+  "tags": [
+    "Math",
+    "Simulation"
+  ],
+  "description": "Given a positive integer num, return the number of positive integers less than or equal to num whose digit sums are even.\n\nThe digit sum of a positive integer is the sum of all its digits.\n\n \nExample 1:\n\nInput: num = 4\nOutput: 2\nExplanation:\nThe only integers less than or equal to 4 whose digit sums are even are 2 and 4.    \n\n\nExample 2:\n\nInput: num = 30\nOutput: 14\nExplanation:\nThe 14 integers less than or equal to 30 whose digit sums are even are\n2, 4, 6, 8, 11, 13, 15, 17, 19, 20, 22, 24, 26, and 28.\n\n\n \nConstraints:\n\n\n\t1 <= num <= 1000\n\n"
+}

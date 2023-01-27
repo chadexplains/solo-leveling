@@ -1,0 +1,10 @@
+{
+  "id": "rotting-oranges",
+  "name": "Rotting Oranges",
+  "tags": [
+    "Array",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "You are given an m x n grid where each cell can have one of three values:\n\n\n\t0 representing an empty cell,\n\t1 representing a fresh orange, or\n\t2 representing a rotten orange.\n\n\nEvery minute, any fresh orange that is 4-directionally adjacent to a rotten orange becomes rotten.\n\nReturn the minimum number of minutes that must elapse until no cell has a fresh orange. If this is impossible, return -1.\n\n \nExample 1:\n\nInput: grid = [[2,1,1],[1,1,0],[0,1,1]]\nOutput: 4\n\n\nExample 2:\n\nInput: grid = [[2,1,1],[0,1,1],[1,0,1]]\nOutput: -1\nExplanation: The orange in the bottom left corner (row 2, column 0) is never rotten, because rotting only happens 4-directionally.\n\n\nExample 3:\n\nInput: grid = [[0,2]]\nOutput: 0\nExplanation: Since there are already no fresh oranges at minute 0, the answer is just 0.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 10\n\tgrid[i][j] is 0, 1, or 2.\n\n"
+}

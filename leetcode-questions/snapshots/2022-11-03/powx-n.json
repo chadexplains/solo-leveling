@@ -1,0 +1,9 @@
+{
+  "id": "powx-n",
+  "name": "Pow(x, n)",
+  "tags": [
+    "Math",
+    "Recursion"
+  ],
+  "description": "Implement pow(x, n), which calculates x raised to the power n (i.e., xn).\n\n \nExample 1:\n\nInput: x = 2.00000, n = 10\nOutput: 1024.00000\n\n\nExample 2:\n\nInput: x = 2.10000, n = 3\nOutput: 9.26100\n\n\nExample 3:\n\nInput: x = 2.00000, n = -2\nOutput: 0.25000\nExplanation: 2-2 = 1/22 = 1/4 = 0.25\n\n\n \nConstraints:\n\n\n\t-100.0 < x < 100.0\n\t-231 <= n <= 231-1\n\tn is an integer.\n\t-104 <= xn <= 104\n\n"
+}

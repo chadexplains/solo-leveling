@@ -1,0 +1,9 @@
+{
+  "id": "check-if-matrix-is-x-matrix",
+  "name": "Check if Matrix Is X-Matrix",
+  "tags": [
+    "Array",
+    "Matrix"
+  ],
+  "description": "A square matrix is said to be an X-Matrix if both of the following conditions hold:\n\n\n\tAll the elements in the diagonals of the matrix are non-zero.\n\tAll other elements are 0.\n\n\nGiven a 2D integer array grid of size n x n representing a square matrix, return true if grid is an X-Matrix. Otherwise, return false.\n\n \nExample 1:\n\nInput: grid = [[2,0,0,1],[0,3,1,0],[0,5,2,0],[4,0,0,2]]\nOutput: true\nExplanation: Refer to the diagram above. \nAn X-Matrix should have the green elements (diagonals) be non-zero and the red elements be 0.\nThus, grid is an X-Matrix.\n\n\nExample 2:\n\nInput: grid = [[5,7,0],[0,3,1],[0,5,0]]\nOutput: false\nExplanation: Refer to the diagram above.\nAn X-Matrix should have the green elements (diagonals) be non-zero and the red elements be 0.\nThus, grid is not an X-Matrix.\n\n\n \nConstraints:\n\n\n\tn == grid.length == grid[i].length\n\t3 <= n <= 100\n\t0 <= grid[i][j] <= 105\n\n"
+}

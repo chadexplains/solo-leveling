@@ -1,0 +1,12 @@
+{
+  "id": "longest-word-in-dictionary",
+  "name": "Longest Word in Dictionary",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Trie",
+    "Sorting"
+  ],
+  "description": "Given an array of strings words representing an English Dictionary, return the longest word in words that can be built one character at a time by other words in words.\n\nIf there is more than one possible answer, return the longest word with the smallest lexicographical order. If there is no answer, return the empty string.\n\nNote that the word should be built from left to right with each additional character being added to the end of a previous word. \n\n \nExample 1:\n\nInput: words = [\"w\",\"wo\",\"wor\",\"worl\",\"world\"]\nOutput: \"world\"\nExplanation: The word \"world\" can be built one character at a time by \"w\", \"wo\", \"wor\", and \"worl\".\n\n\nExample 2:\n\nInput: words = [\"a\",\"banana\",\"app\",\"appl\",\"ap\",\"apply\",\"apple\"]\nOutput: \"apple\"\nExplanation: Both \"apply\" and \"apple\" can be built from other words in the dictionary. However, \"apple\" is lexicographically smaller than \"apply\".\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 1000\n\t1 <= words[i].length <= 30\n\twords[i] consists of lowercase English letters.\n\n"
+}

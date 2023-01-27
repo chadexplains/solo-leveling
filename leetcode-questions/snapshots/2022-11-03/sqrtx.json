@@ -1,0 +1,9 @@
+{
+  "id": "sqrtx",
+  "name": "Sqrt(x)",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "Given a non-negative integer x, return the square root of x rounded down to the nearest integer. The returned integer should be non-negative as well.\n\nYou must not use any built-in exponent function or operator.\n\n\n\tFor example, do not use pow(x, 0.5) in c++ or x ** 0.5 in python.\n\n\n \nExample 1:\n\nInput: x = 4\nOutput: 2\nExplanation: The square root of 4 is 2, so we return 2.\n\n\nExample 2:\n\nInput: x = 8\nOutput: 2\nExplanation: The square root of 8 is 2.82842..., and since we round it down to the nearest integer, 2 is returned.\n\n\n \nConstraints:\n\n\n\t0 <= x <= 231 - 1\n\n"
+}

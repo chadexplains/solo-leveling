@@ -1,0 +1,12 @@
+{
+  "id": "convert-sorted-list-to-binary-search-tree",
+  "name": "Convert Sorted List to Binary Search Tree",
+  "tags": [
+    "Linked List",
+    "Divide and Conquer",
+    "Tree",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "description": "Given the head of a singly linked list where elements are sorted in ascending order, convert it to a height-balanced binary search tree.\n\n \nExample 1:\n\nInput: head = [-10,-3,0,5,9]\nOutput: [0,-3,9,-10,null,5]\nExplanation: One possible answer is [0,-3,9,-10,null,5], which represents the shown height balanced BST.\n\n\nExample 2:\n\nInput: head = []\nOutput: []\n\n\n \nConstraints:\n\n\n\tThe number of nodes in head is in the range [0, 2 * 104].\n\t-105 <= Node.val <= 105\n\n"
+}

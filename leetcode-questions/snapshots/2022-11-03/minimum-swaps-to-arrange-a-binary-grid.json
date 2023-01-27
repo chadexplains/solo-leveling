@@ -1,0 +1,10 @@
+{
+  "id": "minimum-swaps-to-arrange-a-binary-grid",
+  "name": "Minimum Swaps to Arrange a Binary Grid",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Matrix"
+  ],
+  "description": "Given an n x n binary grid, in one step you can choose two adjacent rows of the grid and swap them.\n\nA grid is said to be valid if all the cells above the main diagonal are zeros.\n\nReturn the minimum number of steps needed to make the grid valid, or -1 if the grid cannot be valid.\n\nThe main diagonal of a grid is the diagonal that starts at cell (1, 1) and ends at cell (n, n).\n\n \nExample 1:\n\nInput: grid = [[0,0,1],[1,1,0],[1,0,0]]\nOutput: 3\n\n\nExample 2:\n\nInput: grid = [[0,1,1,0],[0,1,1,0],[0,1,1,0],[0,1,1,0]]\nOutput: -1\nExplanation: All rows are similar, swaps have no effect on the grid.\n\n\nExample 3:\n\nInput: grid = [[1,0,0],[1,1,0],[1,1,1]]\nOutput: 0\n\n\n \nConstraints:\n\n\n\tn == grid.length == grid[i].length\n\t1 <= n <= 200\n\tgrid[i][j] is either 0 or 1\n\n"
+}

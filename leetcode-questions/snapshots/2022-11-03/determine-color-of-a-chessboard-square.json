@@ -1,0 +1,9 @@
+{
+  "id": "determine-color-of-a-chessboard-square",
+  "name": "Determine Color of a Chessboard Square",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "You are given coordinates, a string that represents the coordinates of a square of the chessboard. Below is a chessboard for your reference.\n\n\n\nReturn true if the square is white, and false if the square is black.\n\nThe coordinate will always represent a valid chessboard square. The coordinate will always have the letter first, and the number second.\n\n \nExample 1:\n\nInput: coordinates = \"a1\"\nOutput: false\nExplanation: From the chessboard above, the square with coordinates \"a1\" is black, so return false.\n\n\nExample 2:\n\nInput: coordinates = \"h3\"\nOutput: true\nExplanation: From the chessboard above, the square with coordinates \"h3\" is white, so return true.\n\n\nExample 3:\n\nInput: coordinates = \"c7\"\nOutput: false\n\n\n \nConstraints:\n\n\n\tcoordinates.length == 2\n\t'a' <= coordinates[0] <= 'h'\n\t'1' <= coordinates[1] <= '8'\n\n"
+}

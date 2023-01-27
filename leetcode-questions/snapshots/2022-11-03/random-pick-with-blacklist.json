@@ -1,0 +1,12 @@
+{
+  "id": "random-pick-with-blacklist",
+  "name": "Random Pick with Blacklist",
+  "tags": [
+    "Hash Table",
+    "Math",
+    "Binary Search",
+    "Sorting",
+    "Randomized"
+  ],
+  "description": "You are given an integer n and an array of unique integers blacklist. Design an algorithm to pick a random integer in the range [0, n - 1] that is not in blacklist. Any integer that is in the mentioned range and not in blacklist should be equally likely to be returned.\n\nOptimize your algorithm such that it minimizes the number of calls to the built-in random function of your language.\n\nImplement the Solution class:\n\n\n\tSolution(int n, int[] blacklist) Initializes the object with the integer n and the blacklisted integers blacklist.\n\tint pick() Returns a random integer in the range [0, n - 1] and not in blacklist.\n\n\n \nExample 1:\n\nInput\n[\"Solution\", \"pick\", \"pick\", \"pick\", \"pick\", \"pick\", \"pick\", \"pick\"]\n[[7, [2, 3, 5]], [], [], [], [], [], [], []]\nOutput\n[null, 0, 4, 1, 6, 1, 0, 4]\n\nExplanation\nSolution solution = new Solution(7, [2, 3, 5]);\nsolution.pick(); // return 0, any integer from [0,1,4,6] should be ok. Note that for every call of pick,\n                 // 0, 1, 4, and 6 must be equally likely to be returned (i.e., with probability 1/4).\nsolution.pick(); // return 4\nsolution.pick(); // return 1\nsolution.pick(); // return 6\nsolution.pick(); // return 1\nsolution.pick(); // return 0\nsolution.pick(); // return 4\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\t0 <= blacklist.length <= min(105, n - 1)\n\t0 <= blacklist[i] < n\n\tAll the values of blacklist are unique.\n\tAt most 2 * 104 calls will be made to pick.\n\n"
+}

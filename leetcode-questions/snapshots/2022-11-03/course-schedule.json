@@ -1,0 +1,11 @@
+{
+  "id": "course-schedule",
+  "name": "Course Schedule",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph",
+    "Topological Sort"
+  ],
+  "description": "There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course bi first if you want to take course ai.\n\n\n\tFor example, the pair [0, 1], indicates that to take course 0 you have to first take course 1.\n\n\nReturn true if you can finish all courses. Otherwise, return false.\n\n \nExample 1:\n\nInput: numCourses = 2, prerequisites = [[1,0]]\nOutput: true\nExplanation: There are a total of 2 courses to take. \nTo take course 1 you should have finished course 0. So it is possible.\n\n\nExample 2:\n\nInput: numCourses = 2, prerequisites = [[1,0],[0,1]]\nOutput: false\nExplanation: There are a total of 2 courses to take. \nTo take course 1 you should have finished course 0, and to take course 0 you should also have finished course 1. So it is impossible.\n\n\n \nConstraints:\n\n\n\t1 <= numCourses <= 2000\n\t0 <= prerequisites.length <= 5000\n\tprerequisites[i].length == 2\n\t0 <= ai, bi < numCourses\n\tAll the pairs prerequisites[i] are unique.\n\n"
+}

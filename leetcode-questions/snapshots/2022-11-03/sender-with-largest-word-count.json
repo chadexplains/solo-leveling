@@ -1,0 +1,11 @@
+{
+  "id": "sender-with-largest-word-count",
+  "name": "Sender With Largest Word Count",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You have a chat log of n messages. You are given two string arrays messages and senders where messages[i] is a message sent by senders[i].\n\nA message is list of words that are separated by a single space with no leading or trailing spaces. The word count of a sender is the total number of words sent by the sender. Note that a sender may send more than one message.\n\nReturn the sender with the largest word count. If there is more than one sender with the largest word count, return the one with the lexicographically largest name.\n\nNote:\n\n\n\tUppercase letters come before lowercase letters in lexicographical order.\n\t\"Alice\" and \"alice\" are distinct.\n\n\n \nExample 1:\n\nInput: messages = [\"Hello userTwooo\",\"Hi userThree\",\"Wonderful day Alice\",\"Nice day userThree\"], senders = [\"Alice\",\"userTwo\",\"userThree\",\"Alice\"]\nOutput: \"Alice\"\nExplanation: Alice sends a total of 2 + 3 = 5 words.\nuserTwo sends a total of 2 words.\nuserThree sends a total of 3 words.\nSince Alice has the largest word count, we return \"Alice\".\n\n\nExample 2:\n\nInput: messages = [\"How is leetcode for everyone\",\"Leetcode is useful for practice\"], senders = [\"Bob\",\"Charlie\"]\nOutput: \"Charlie\"\nExplanation: Bob sends a total of 5 words.\nCharlie sends a total of 5 words.\nSince there is a tie for the largest word count, we return the sender with the lexicographically larger name, Charlie.\n\n \nConstraints:\n\n\n\tn == messages.length == senders.length\n\t1 <= n <= 104\n\t1 <= messages[i].length <= 100\n\t1 <= senders[i].length <= 10\n\tmessages[i] consists of uppercase and lowercase English letters and ' '.\n\tAll the words in messages[i] are separated by a single space.\n\tmessages[i] does not have leading or trailing spaces.\n\tsenders[i] consists of uppercase and lowercase English letters only.\n\n"
+}

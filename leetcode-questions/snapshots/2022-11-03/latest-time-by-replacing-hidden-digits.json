@@ -1,0 +1,9 @@
+{
+  "id": "latest-time-by-replacing-hidden-digits",
+  "name": "Latest Time by Replacing Hidden Digits",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a string time in the form of  hh:mm, where some of the digits in the string are hidden (represented by ?).\n\nThe valid times are those inclusively between 00:00 and 23:59.\n\nReturn the latest valid time you can get from time by replacing the hidden digits.\n\n \nExample 1:\n\nInput: time = \"2?:?0\"\nOutput: \"23:50\"\nExplanation: The latest hour beginning with the digit '2' is 23 and the latest minute ending with the digit '0' is 50.\n\n\nExample 2:\n\nInput: time = \"0?:3?\"\nOutput: \"09:39\"\n\n\nExample 3:\n\nInput: time = \"1?:22\"\nOutput: \"19:22\"\n\n\n \nConstraints:\n\n\n\ttime is in the format hh:mm.\n\tIt is guaranteed that you can produce a valid time from the given string.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "k-similar-strings",
+  "name": "K-Similar Strings",
+  "tags": [
+    "String",
+    "Breadth-First Search"
+  ],
+  "description": "Strings s1 and s2 are k-similar (for some non-negative integer k) if we can swap the positions of two letters in s1 exactly k times so that the resulting string equals s2.\n\nGiven two anagrams s1 and s2, return the smallest k for which s1 and s2 are k-similar.\n\n \nExample 1:\n\nInput: s1 = \"ab\", s2 = \"ba\"\nOutput: 1\nExplanation: The two string are 1-similar because we can use one swap to change s1 to s2: \"ab\" --> \"ba\".\n\n\nExample 2:\n\nInput: s1 = \"abc\", s2 = \"bca\"\nOutput: 2\nExplanation: The two strings are 2-similar because we can use two swaps to change s1 to s2: \"abc\" --> \"bac\" --> \"bca\".\n\n\n \nConstraints:\n\n\n\t1 <= s1.length <= 20\n\ts2.length == s1.length\n\ts1 and s2 contain only lowercase letters from the set {'a', 'b', 'c', 'd', 'e', 'f'}.\n\ts2 is an anagram of s1.\n\n"
+}

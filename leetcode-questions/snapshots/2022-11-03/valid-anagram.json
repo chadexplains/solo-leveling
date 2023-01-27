@@ -1,0 +1,10 @@
+{
+  "id": "valid-anagram",
+  "name": "Valid Anagram",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sorting"
+  ],
+  "description": "Given two strings s and t, return true if t is an anagram of s, and false otherwise.\n\nAn Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.\n\n \nExample 1:\nInput: s = \"anagram\", t = \"nagaram\"\nOutput: true\nExample 2:\nInput: s = \"rat\", t = \"car\"\nOutput: false\n\n \nConstraints:\n\n\n\t1 <= s.length, t.length <= 5 * 104\n\ts and t consist of lowercase English letters.\n\n\n \nFollow up: What if the inputs contain Unicode characters? How would you adapt your solution to such a case?\n"
+}

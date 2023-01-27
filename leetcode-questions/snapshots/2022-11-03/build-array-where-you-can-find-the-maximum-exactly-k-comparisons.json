@@ -1,0 +1,8 @@
+{
+  "id": "build-array-where-you-can-find-the-maximum-exactly-k-comparisons",
+  "name": "Build Array Where You Can Find The Maximum Exactly K Comparisons",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "You are given three integers n, m and k. Consider the following algorithm to find the maximum element of an array of positive integers:\n\nYou should build the array arr which has the following properties:\n\n\n\tarr has exactly n integers.\n\t1 <= arr[i] <= m where (0 <= i < n).\n\tAfter applying the mentioned algorithm to arr, the value search_cost is equal to k.\n\n\nReturn the number of ways to build the array arr under the mentioned conditions. As the answer may grow large, the answer must be computed modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 2, m = 3, k = 1\nOutput: 6\nExplanation: The possible arrays are [1, 1], [2, 1], [2, 2], [3, 1], [3, 2] [3, 3]\n\n\nExample 2:\n\nInput: n = 5, m = 2, k = 3\nOutput: 0\nExplanation: There are no possible arrays that satisify the mentioned conditions.\n\n\nExample 3:\n\nInput: n = 9, m = 1, k = 1\nOutput: 1\nExplanation: The only possible array is [1, 1, 1, 1, 1, 1, 1, 1, 1]\n\n\n \nConstraints:\n\n\n\t1 <= n <= 50\n\t1 <= m <= 100\n\t0 <= k <= n\n\n"
+}

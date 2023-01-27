@@ -1,0 +1,9 @@
+{
+  "id": "maximize-the-topmost-element-after-k-moves",
+  "name": "Maximize the Topmost Element After K Moves",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "description": "You are given a 0-indexed integer array nums representing the contents of a pile, where nums[0] is the topmost element of the pile.\n\nIn one move, you can perform either of the following:\n\n\n\tIf the pile is not empty, remove the topmost element of the pile.\n\tIf there are one or more removed elements, add any one of them back onto the pile. This element becomes the new topmost element.\n\n\nYou are also given an integer k, which denotes the total number of moves to be made.\n\nReturn the maximum value of the topmost element of the pile possible after exactly k moves. In case it is not possible to obtain a non-empty pile after k moves, return -1.\n\n \nExample 1:\n\nInput: nums = [5,2,2,4,0,6], k = 4\nOutput: 5\nExplanation:\nOne of the ways we can end with 5 at the top of the pile after 4 moves is as follows:\n- Step 1: Remove the topmost element = 5. The pile becomes [2,2,4,0,6].\n- Step 2: Remove the topmost element = 2. The pile becomes [2,4,0,6].\n- Step 3: Remove the topmost element = 2. The pile becomes [4,0,6].\n- Step 4: Add 5 back onto the pile. The pile becomes [5,4,0,6].\nNote that this is not the only way to end with 5 at the top of the pile. It can be shown that 5 is the largest answer possible after 4 moves.\n\n\nExample 2:\n\nInput: nums = [2], k = 1\nOutput: -1\nExplanation: \nIn the first move, our only option is to pop the topmost element of the pile.\nSince it is not possible to obtain a non-empty pile after one move, we return -1.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t0 <= nums[i], k <= 109\n\n"
+}

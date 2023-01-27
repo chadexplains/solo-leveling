@@ -1,0 +1,10 @@
+{
+  "id": "subsets-ii",
+  "name": "Subsets II",
+  "tags": [
+    "Array",
+    "Backtracking",
+    "Bit Manipulation"
+  ],
+  "description": "Given an integer array nums that may contain duplicates, return all possible subsets (the power set).\n\nThe solution set must not contain duplicate subsets. Return the solution in any order.\n\n \nExample 1:\nInput: nums = [1,2,2]\nOutput: [[],[1],[1,2],[1,2,2],[2],[2,2]]\nExample 2:\nInput: nums = [0]\nOutput: [[],[0]]\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 10\n\t-10 <= nums[i] <= 10\n\n"
+}

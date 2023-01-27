@@ -1,0 +1,9 @@
+{
+  "id": "sort-the-jumbled-numbers",
+  "name": "Sort the Jumbled Numbers",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "You are given a 0-indexed integer array mapping which represents the mapping rule of a shuffled decimal system. mapping[i] = j means digit i should be mapped to digit j in this system.\n\nThe mapped value of an integer is the new integer obtained by replacing each occurrence of digit i in the integer with mapping[i] for all 0 <= i <= 9.\n\nYou are also given another integer array nums. Return the array nums sorted in non-decreasing order based on the mapped values of its elements.\n\nNotes:\n\n\n\tElements with the same mapped values should appear in the same relative order as in the input.\n\tThe elements of nums should only be sorted based on their mapped values and not be replaced by them.\n\n\n \nExample 1:\n\nInput: mapping = [8,9,4,0,2,1,3,5,7,6], nums = [991,338,38]\nOutput: [338,38,991]\nExplanation: \nMap the number 991 as follows:\n1. mapping[9] = 6, so all occurrences of the digit 9 will become 6.\n2. mapping[1] = 9, so all occurrences of the digit 1 will become 9.\nTherefore, the mapped value of 991 is 669.\n338 maps to 007, or 7 after removing the leading zeros.\n38 maps to 07, which is also 7 after removing leading zeros.\nSince 338 and 38 share the same mapped value, they should remain in the same relative order, so 338 comes before 38.\nThus, the sorted array is [338,38,991].\n\n\nExample 2:\n\nInput: mapping = [0,1,2,3,4,5,6,7,8,9], nums = [789,456,123]\nOutput: [123,456,789]\nExplanation: 789 maps to 789, 456 maps to 456, and 123 maps to 123. Thus, the sorted array is [123,456,789].\n\n\n \nConstraints:\n\n\n\tmapping.length == 10\n\t0 <= mapping[i] <= 9\n\tAll the values of mapping[i] are unique.\n\t1 <= nums.length <= 3 * 104\n\t0 <= nums[i] < 109\n\n"
+}

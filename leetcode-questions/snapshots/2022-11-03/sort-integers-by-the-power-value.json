@@ -1,0 +1,10 @@
+{
+  "id": "sort-integers-by-the-power-value",
+  "name": "Sort Integers by The Power Value",
+  "tags": [
+    "Dynamic Programming",
+    "Memoization",
+    "Sorting"
+  ],
+  "description": "The power of an integer x is defined as the number of steps needed to transform x into 1 using the following steps:\n\n\n\tif x is even then x = x / 2\n\tif x is odd then x = 3 * x + 1\n\n\nFor example, the power of x = 3 is 7 because 3 needs 7 steps to become 1 (3 --> 10 --> 5 --> 16 --> 8 --> 4 --> 2 --> 1).\n\nGiven three integers lo, hi and k. The task is to sort all integers in the interval [lo, hi] by the power value in ascending order, if two or more integers have the same power value sort them by ascending order.\n\nReturn the kth integer in the range [lo, hi] sorted by the power value.\n\nNotice that for any integer x (lo <= x <= hi) it is guaranteed that x will transform into 1 using these steps and that the power of x is will fit in a 32-bit signed integer.\n\n \nExample 1:\n\nInput: lo = 12, hi = 15, k = 2\nOutput: 13\nExplanation: The power of 12 is 9 (12 --> 6 --> 3 --> 10 --> 5 --> 16 --> 8 --> 4 --> 2 --> 1)\nThe power of 13 is 9\nThe power of 14 is 17\nThe power of 15 is 17\nThe interval sorted by the power value [12,13,14,15]. For k = 2 answer is the second element which is 13.\nNotice that 12 and 13 have the same power value and we sorted them in ascending order. Same for 14 and 15.\n\n\nExample 2:\n\nInput: lo = 7, hi = 11, k = 4\nOutput: 7\nExplanation: The power array corresponding to the interval [7, 8, 9, 10, 11] is [16, 3, 19, 6, 14].\nThe interval sorted by power is [8, 10, 11, 7, 9].\nThe fourth number in the sorted array is 7.\n\n\n \nConstraints:\n\n\n\t1 <= lo <= hi <= 1000\n\t1 <= k <= hi - lo + 1\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "container-with-most-water",
+  "name": "Container With Most Water",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Greedy"
+  ],
+  "description": "You are given an integer array height of length n. There are n vertical lines drawn such that the two endpoints of the ith line are (i, 0) and (i, height[i]).\n\nFind two lines that together with the x-axis form a container, such that the container contains the most water.\n\nReturn the maximum amount of water a container can store.\n\nNotice that you may not slant the container.\n\n \nExample 1:\n\nInput: height = [1,8,6,2,5,4,8,3,7]\nOutput: 49\nExplanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.\n\n\nExample 2:\n\nInput: height = [1,1]\nOutput: 1\n\n\n \nConstraints:\n\n\n\tn == height.length\n\t2 <= n <= 105\n\t0 <= height[i] <= 104\n\n"
+}

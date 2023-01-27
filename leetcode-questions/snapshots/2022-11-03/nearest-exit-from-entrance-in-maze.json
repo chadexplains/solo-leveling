@@ -1,0 +1,10 @@
+{
+  "id": "nearest-exit-from-entrance-in-maze",
+  "name": "Nearest Exit from Entrance in Maze",
+  "tags": [
+    "Array",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "You are given an m x n matrix maze (0-indexed) with empty cells (represented as '.') and walls (represented as '+'). You are also given the entrance of the maze, where entrance = [entrancerow, entrancecol] denotes the row and column of the cell you are initially standing at.\n\nIn one step, you can move one cell up, down, left, or right. You cannot step into a cell with a wall, and you cannot step outside the maze. Your goal is to find the nearest exit from the entrance. An exit is defined as an empty cell that is at the border of the maze. The entrance does not count as an exit.\n\nReturn the number of steps in the shortest path from the entrance to the nearest exit, or -1 if no such path exists.\n\n \nExample 1:\n\nInput: maze = [[\"+\",\"+\",\".\",\"+\"],[\".\",\".\",\".\",\"+\"],[\"+\",\"+\",\"+\",\".\"]], entrance = [1,2]\nOutput: 1\nExplanation: There are 3 exits in this maze at [1,0], [0,2], and [2,3].\nInitially, you are at the entrance cell [1,2].\n- You can reach [1,0] by moving 2 steps left.\n- You can reach [0,2] by moving 1 step up.\nIt is impossible to reach [2,3] from the entrance.\nThus, the nearest exit is [0,2], which is 1 step away.\n\n\nExample 2:\n\nInput: maze = [[\"+\",\"+\",\"+\"],[\".\",\".\",\".\"],[\"+\",\"+\",\"+\"]], entrance = [1,0]\nOutput: 2\nExplanation: There is 1 exit in this maze at [1,2].\n[1,0] does not count as an exit since it is the entrance cell.\nInitially, you are at the entrance cell [1,0].\n- You can reach [1,2] by moving 2 steps right.\nThus, the nearest exit is [1,2], which is 2 steps away.\n\n\nExample 3:\n\nInput: maze = [[\".\",\"+\"]], entrance = [0,0]\nOutput: -1\nExplanation: There are no exits in this maze.\n\n\n \nConstraints:\n\n\n\tmaze.length == m\n\tmaze[i].length == n\n\t1 <= m, n <= 100\n\tmaze[i][j] is either '.' or '+'.\n\tentrance.length == 2\n\t0 <= entrancerow < m\n\t0 <= entrancecol < n\n\tentrance will always be an empty cell.\n\n"
+}

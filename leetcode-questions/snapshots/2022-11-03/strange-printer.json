@@ -1,0 +1,9 @@
+{
+  "id": "strange-printer",
+  "name": "Strange Printer",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "There is a strange printer with the following two special properties:\n\n\n\tThe printer can only print a sequence of the same character each time.\n\tAt each turn, the printer can print new characters starting from and ending at any place and will cover the original existing characters.\n\n\nGiven a string s, return the minimum number of turns the printer needed to print it.\n\n \nExample 1:\n\nInput: s = \"aaabbb\"\nOutput: 2\nExplanation: Print \"aaa\" first and then print \"bbb\".\n\n\nExample 2:\n\nInput: s = \"aba\"\nOutput: 2\nExplanation: Print \"aaa\" first and then print \"b\" from the second place of the string, which will cover the existing character 'a'.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts consists of lowercase English letters.\n\n"
+}

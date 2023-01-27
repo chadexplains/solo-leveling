@@ -1,0 +1,9 @@
+{
+  "id": "corporate-flight-bookings",
+  "name": "Corporate Flight Bookings",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "description": "There are n flights that are labeled from 1 to n.\n\nYou are given an array of flight bookings bookings, where bookings[i] = [firsti, lasti, seatsi] represents a booking for flights firsti through lasti (inclusive) with seatsi seats reserved for each flight in the range.\n\nReturn an array answer of length n, where answer[i] is the total number of seats reserved for flight i.\n\n \nExample 1:\n\nInput: bookings = [[1,2,10],[2,3,20],[2,5,25]], n = 5\nOutput: [10,55,45,25,25]\nExplanation:\nFlight labels:        1   2   3   4   5\nBooking 1 reserved:  10  10\nBooking 2 reserved:      20  20\nBooking 3 reserved:      25  25  25  25\nTotal seats:         10  55  45  25  25\nHence, answer = [10,55,45,25,25]\n\n\nExample 2:\n\nInput: bookings = [[1,2,10],[2,2,15]], n = 2\nOutput: [10,25]\nExplanation:\nFlight labels:        1   2\nBooking 1 reserved:  10  10\nBooking 2 reserved:      15\nTotal seats:         10  25\nHence, answer = [10,25]\n\n\n\n \nConstraints:\n\n\n\t1 <= n <= 2 * 104\n\t1 <= bookings.length <= 2 * 104\n\tbookings[i].length == 3\n\t1 <= firsti <= lasti <= n\n\t1 <= seatsi <= 104\n\n"
+}

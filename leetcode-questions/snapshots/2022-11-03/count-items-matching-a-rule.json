@@ -1,0 +1,9 @@
+{
+  "id": "count-items-matching-a-rule",
+  "name": "Count Items Matching a Rule",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "You are given an array items, where each items[i] = [typei, colori, namei] describes the type, color, and name of the ith item. You are also given a rule represented by two strings, ruleKey and ruleValue.\n\nThe ith item is said to match the rule if one of the following is true:\n\n\n\truleKey == \"type\" and ruleValue == typei.\n\truleKey == \"color\" and ruleValue == colori.\n\truleKey == \"name\" and ruleValue == namei.\n\n\nReturn the number of items that match the given rule.\n\n \nExample 1:\n\nInput: items = [[\"phone\",\"blue\",\"pixel\"],[\"computer\",\"silver\",\"lenovo\"],[\"phone\",\"gold\",\"iphone\"]], ruleKey = \"color\", ruleValue = \"silver\"\nOutput: 1\nExplanation: There is only one item matching the given rule, which is [\"computer\",\"silver\",\"lenovo\"].\n\n\nExample 2:\n\nInput: items = [[\"phone\",\"blue\",\"pixel\"],[\"computer\",\"silver\",\"phone\"],[\"phone\",\"gold\",\"iphone\"]], ruleKey = \"type\", ruleValue = \"phone\"\nOutput: 2\nExplanation: There are only two items matching the given rule, which are [\"phone\",\"blue\",\"pixel\"] and [\"phone\",\"gold\",\"iphone\"]. Note that the item [\"computer\",\"silver\",\"phone\"] does not match.\n\n \nConstraints:\n\n\n\t1 <= items.length <= 104\n\t1 <= typei.length, colori.length, namei.length, ruleValue.length <= 10\n\truleKey is equal to either \"type\", \"color\", or \"name\".\n\tAll strings consist only of lowercase letters.\n\n"
+}

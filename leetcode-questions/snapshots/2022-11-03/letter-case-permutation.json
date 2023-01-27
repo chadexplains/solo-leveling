@@ -1,0 +1,10 @@
+{
+  "id": "letter-case-permutation",
+  "name": "Letter Case Permutation",
+  "tags": [
+    "String",
+    "Backtracking",
+    "Bit Manipulation"
+  ],
+  "description": "Given a string s, you can transform every letter individually to be lowercase or uppercase to create another string.\n\nReturn a list of all possible strings we could create. Return the output in any order.\n\n \nExample 1:\n\nInput: s = \"a1b2\"\nOutput: [\"a1b2\",\"a1B2\",\"A1b2\",\"A1B2\"]\n\n\nExample 2:\n\nInput: s = \"3z4\"\nOutput: [\"3z4\",\"3Z4\"]\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 12\n\ts consists of lowercase English letters, uppercase English letters, and digits.\n\n"
+}

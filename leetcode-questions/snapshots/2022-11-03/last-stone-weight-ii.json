@@ -1,0 +1,9 @@
+{
+  "id": "last-stone-weight-ii",
+  "name": "Last Stone Weight II",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an array of integers stones where stones[i] is the weight of the ith stone.\n\nWe are playing a game with the stones. On each turn, we choose any two stones and smash them together. Suppose the stones have weights x and y with x <= y. The result of this smash is:\n\n\n\tIf x == y, both stones are destroyed, and\n\tIf x != y, the stone of weight x is destroyed, and the stone of weight y has new weight y - x.\n\n\nAt the end of the game, there is at most one stone left.\n\nReturn the smallest possible weight of the left stone. If there are no stones left, return 0.\n\n \nExample 1:\n\nInput: stones = [2,7,4,1,8,1]\nOutput: 1\nExplanation:\nWe can combine 2 and 4 to get 2, so the array converts to [2,7,1,8,1] then,\nwe can combine 7 and 8 to get 1, so the array converts to [2,1,1,1] then,\nwe can combine 2 and 1 to get 1, so the array converts to [1,1,1] then,\nwe can combine 1 and 1 to get 0, so the array converts to [1], then that's the optimal value.\n\n\nExample 2:\n\nInput: stones = [31,26,33,21,40]\nOutput: 5\n\n\n \nConstraints:\n\n\n\t1 <= stones.length <= 30\n\t1 <= stones[i] <= 100\n\n"
+}

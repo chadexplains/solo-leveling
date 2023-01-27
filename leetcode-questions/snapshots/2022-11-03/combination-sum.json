@@ -1,0 +1,9 @@
+{
+  "id": "combination-sum",
+  "name": "Combination Sum",
+  "tags": [
+    "Array",
+    "Backtracking"
+  ],
+  "description": "Given an array of distinct integers candidates and a target integer target, return a list of all unique combinations of candidates where the chosen numbers sum to target. You may return the combinations in any order.\n\nThe same number may be chosen from candidates an unlimited number of times. Two combinations are unique if the frequency of at least one of the chosen numbers is different.\n\nThe test cases are generated such that the number of unique combinations that sum up to target is less than 150 combinations for the given input.\n\n \nExample 1:\n\nInput: candidates = [2,3,6,7], target = 7\nOutput: [[2,2,3],[7]]\nExplanation:\n2 and 3 are candidates, and 2 + 2 + 3 = 7. Note that 2 can be used multiple times.\n7 is a candidate, and 7 = 7.\nThese are the only two combinations.\n\n\nExample 2:\n\nInput: candidates = [2,3,5], target = 8\nOutput: [[2,2,2,2],[2,3,3],[3,5]]\n\n\nExample 3:\n\nInput: candidates = [2], target = 1\nOutput: []\n\n\n \nConstraints:\n\n\n\t1 <= candidates.length <= 30\n\t2 <= candidates[i] <= 40\n\tAll elements of candidates are distinct.\n\t1 <= target <= 40\n\n"
+}

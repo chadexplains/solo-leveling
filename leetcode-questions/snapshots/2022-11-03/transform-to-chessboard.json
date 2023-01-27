@@ -1,0 +1,11 @@
+{
+  "id": "transform-to-chessboard",
+  "name": "Transform to Chessboard",
+  "tags": [
+    "Array",
+    "Math",
+    "Bit Manipulation",
+    "Matrix"
+  ],
+  "description": "You are given an n x n binary grid board. In each move, you can swap any two rows with each other, or any two columns with each other.\n\nReturn the minimum number of moves to transform the board into a chessboard board. If the task is impossible, return -1.\n\nA chessboard board is a board where no 0's and no 1's are 4-directionally adjacent.\n\n \nExample 1:\n\nInput: board = [[0,1,1,0],[0,1,1,0],[1,0,0,1],[1,0,0,1]]\nOutput: 2\nExplanation: One potential sequence of moves is shown.\nThe first move swaps the first and second column.\nThe second move swaps the second and third row.\n\n\nExample 2:\n\nInput: board = [[0,1],[1,0]]\nOutput: 0\nExplanation: Also note that the board with 0 in the top left corner, is also a valid chessboard.\n\n\nExample 3:\n\nInput: board = [[1,0],[1,0]]\nOutput: -1\nExplanation: No matter what sequence of moves you make, you cannot end with a valid chessboard.\n\n\n \nConstraints:\n\n\n\tn == board.length\n\tn == board[i].length\n\t2 <= n <= 30\n\tboard[i][j] is either 0 or 1.\n\n"
+}

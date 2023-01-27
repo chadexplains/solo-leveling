@@ -1,0 +1,11 @@
+{
+  "id": "replace-words",
+  "name": "Replace Words",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Trie"
+  ],
+  "description": "In English, we have a concept called root, which can be followed by some other word to form another longer word - let's call this word successor. For example, when the root \"an\" is followed by the successor word \"other\", we can form a new word \"another\".\n\nGiven a dictionary consisting of many roots and a sentence consisting of words separated by spaces, replace all the successors in the sentence with the root forming it. If a successor can be replaced by more than one root, replace it with the root that has the shortest length.\n\nReturn the sentence after the replacement.\n\n \nExample 1:\n\nInput: dictionary = [\"cat\",\"bat\",\"rat\"], sentence = \"the cattle was rattled by the battery\"\nOutput: \"the cat was rat by the bat\"\n\n\nExample 2:\n\nInput: dictionary = [\"a\",\"b\",\"c\"], sentence = \"aadsfasf absbs bbab cadsfafs\"\nOutput: \"a a b c\"\n\n\n \nConstraints:\n\n\n\t1 <= dictionary.length <= 1000\n\t1 <= dictionary[i].length <= 100\n\tdictionary[i] consists of only lower-case letters.\n\t1 <= sentence.length <= 106\n\tsentence consists of only lower-case letters and spaces.\n\tThe number of words in sentence is in the range [1, 1000]\n\tThe length of each word in sentence is in the range [1, 1000]\n\tEvery two consecutive words in sentence will be separated by exactly one space.\n\tsentence does not have leading or trailing spaces.\n\n"
+}

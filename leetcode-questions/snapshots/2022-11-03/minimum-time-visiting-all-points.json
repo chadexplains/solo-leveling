@@ -1,0 +1,10 @@
+{
+  "id": "minimum-time-visiting-all-points",
+  "name": "Minimum Time Visiting All Points",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry"
+  ],
+  "description": "On a 2D plane, there are n points with integer coordinates points[i] = [xi, yi]. Return the minimum time in seconds to visit all the points in the order given by points.\n\nYou can move according to these rules:\n\n\n\tIn 1 second, you can either:\n\n\t\n\t\tmove vertically by one unit,\n\t\tmove horizontally by one unit, or\n\t\tmove diagonally sqrt(2) units (in other words, move one unit vertically then one unit horizontally in 1 second).\n\t\n\t\n\tYou have to visit the points in the same order as they appear in the array.\n\tYou are allowed to pass through points that appear later in the order, but these do not count as visits.\n\n\n \nExample 1:\n\nInput: points = [[1,1],[3,4],[-1,0]]\nOutput: 7\nExplanation: One optimal path is [1,1] -> [2,2] -> [3,3] -> [3,4] -> [2,3] -> [1,2] -> [0,1] -> [-1,0]   \nTime from [1,1] to [3,4] = 3 seconds \nTime from [3,4] to [-1,0] = 4 seconds\nTotal time = 7 seconds\n\nExample 2:\n\nInput: points = [[3,2],[-2,2]]\nOutput: 5\n\n\n \nConstraints:\n\n\n\tpoints.length == n\n\t1 <= n <= 100\n\tpoints[i].length == 2\n\t-1000 <= points[i][0], points[i][1] <= 1000\n\n"
+}

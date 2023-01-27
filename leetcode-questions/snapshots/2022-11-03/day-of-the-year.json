@@ -1,0 +1,9 @@
+{
+  "id": "day-of-the-year",
+  "name": "Day of the Year",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "Given a string date representing a Gregorian calendar date formatted as YYYY-MM-DD, return the day number of the year.\n\n \nExample 1:\n\nInput: date = \"2019-01-09\"\nOutput: 9\nExplanation: Given date is the 9th day of the year in 2019.\n\n\nExample 2:\n\nInput: date = \"2019-02-10\"\nOutput: 41\n\n\n \nConstraints:\n\n\n\tdate.length == 10\n\tdate[4] == date[7] == '-', and all other date[i]'s are digits\n\tdate represents a calendar date between Jan 1st, 1900 and Dec 31th, 2019.\n\n"
+}

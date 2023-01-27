@@ -1,0 +1,10 @@
+{
+  "id": "reverse-subarray-to-maximize-array-value",
+  "name": "Reverse Subarray To Maximize Array Value",
+  "tags": [
+    "Array",
+    "Math",
+    "Greedy"
+  ],
+  "description": "You are given an integer array nums. The value of this array is defined as the sum of |nums[i] - nums[i + 1]| for all 0 <= i < nums.length - 1.\n\nYou are allowed to select any subarray of the given array and reverse it. You can perform this operation only once.\n\nFind maximum possible value of the final array.\n\n \nExample 1:\n\nInput: nums = [2,3,1,5,4]\nOutput: 10\nExplanation: By reversing the subarray [3,1,5] the array becomes [2,5,1,3,4] whose value is 10.\n\n\nExample 2:\n\nInput: nums = [2,4,9,24,2,1,10]\nOutput: 68\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 3 * 104\n\t-105 <= nums[i] <= 105\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "number-of-valid-clock-times",
+  "name": "Number of Valid Clock Times",
+  "tags": [
+    "String",
+    "Enumeration"
+  ],
+  "description": "You are given a string of length 5 called time, representing the current time on a digital clock in the format \"hh:mm\". The earliest possible time is \"00:00\" and the latest possible time is \"23:59\".\n\nIn the string time, the digits represented by the ? symbol are unknown, and must be replaced with a digit from 0 to 9.\n\nReturn an integer answer, the number of valid clock times that can be created by replacing every ? with a digit from 0 to 9.\n\n \nExample 1:\n\nInput: time = \"?5:00\"\nOutput: 2\nExplanation: We can replace the ? with either a 0 or 1, producing \"05:00\" or \"15:00\". Note that we cannot replace it with a 2, since the time \"25:00\" is invalid. In total, we have two choices.\n\n\nExample 2:\n\nInput: time = \"0?:0?\"\nOutput: 100\nExplanation: Each ? can be replaced by any digit from 0 to 9, so we have 100 total choices.\n\n\nExample 3:\n\nInput: time = \"??:??\"\nOutput: 1440\nExplanation: There are 24 possible choices for the hours, and 60 possible choices for the minutes. In total, we have 24 * 60 = 1440 choices.\n\n\n \nConstraints:\n\n\n\ttime is a valid string of length 5 in the format \"hh:mm\".\n\t\"00\" <= hh <= \"23\"\n\t\"00\" <= mm <= \"59\"\n\tSome of the digits might be replaced with '?' and need to be replaced with digits from 0 to 9.\n\n"
+}

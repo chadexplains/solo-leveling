@@ -1,0 +1,10 @@
+{
+  "id": "check-if-it-is-a-straight-line",
+  "name": "Check If It Is a Straight Line",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry"
+  ],
+  "description": "You are given an array coordinates, coordinates[i] = [x, y], where [x, y] represents the coordinate of a point. Check if these points make a straight line in the XY plane.\n\n \n\n \nExample 1:\n\n\n\nInput: coordinates = [[1,2],[2,3],[3,4],[4,5],[5,6],[6,7]]\nOutput: true\n\n\nExample 2:\n\n\n\nInput: coordinates = [[1,1],[2,2],[3,4],[4,5],[5,6],[7,7]]\nOutput: false\n\n\n \nConstraints:\n\n\n\t2 <= coordinates.length <= 1000\n\tcoordinates[i].length == 2\n\t-10^4 <= coordinates[i][0], coordinates[i][1] <= 10^4\n\tcoordinates contains no duplicate point.\n"
+}

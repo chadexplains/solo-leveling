@@ -1,0 +1,9 @@
+{
+  "id": "nth-digit",
+  "name": "Nth Digit",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "Given an integer n, return the nth digit of the infinite integer sequence [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ...].\n\n \nExample 1:\n\nInput: n = 3\nOutput: 3\n\n\nExample 2:\n\nInput: n = 11\nOutput: 0\nExplanation: The 11th digit of the sequence 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, ... is a 0, which is part of the number 10.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 231 - 1\n\n"
+}

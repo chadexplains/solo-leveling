@@ -1,0 +1,12 @@
+{
+  "id": "maximum-sum-circular-subarray",
+  "name": "Maximum Sum Circular Subarray",
+  "tags": [
+    "Array",
+    "Divide and Conquer",
+    "Dynamic Programming",
+    "Queue",
+    "Monotonic Queue"
+  ],
+  "description": "Given a circular integer array nums of length n, return the maximum possible sum of a non-empty subarray of nums.\n\nA circular array means the end of the array connects to the beginning of the array. Formally, the next element of nums[i] is nums[(i + 1) % n] and the previous element of nums[i] is nums[(i - 1 + n) % n].\n\nA subarray may only include each element of the fixed buffer nums at most once. Formally, for a subarray nums[i], nums[i + 1], ..., nums[j], there does not exist i <= k1, k2 <= j with k1 % n == k2 % n.\n\n \nExample 1:\n\nInput: nums = [1,-2,3,-2]\nOutput: 3\nExplanation: Subarray [3] has maximum sum 3.\n\n\nExample 2:\n\nInput: nums = [5,-3,5]\nOutput: 10\nExplanation: Subarray [5,5] has maximum sum 5 + 5 = 10.\n\n\nExample 3:\n\nInput: nums = [-3,-2,-3]\nOutput: -2\nExplanation: Subarray [-2] has maximum sum -2.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 3 * 104\n\t-3 * 104 <= nums[i] <= 3 * 104\n\n"
+}

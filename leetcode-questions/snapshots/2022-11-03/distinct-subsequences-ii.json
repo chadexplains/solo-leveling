@@ -1,0 +1,9 @@
+{
+  "id": "distinct-subsequences-ii",
+  "name": "Distinct Subsequences II",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given a string s, return the number of distinct non-empty subsequences of s. Since the answer may be very large, return it modulo 109 + 7.\nA subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., \"ace\" is a subsequence of \"abcde\" while \"aec\" is not.\n \nExample 1:\n\nInput: s = \"abc\"\nOutput: 7\nExplanation: The 7 distinct subsequences are \"a\", \"b\", \"c\", \"ab\", \"ac\", \"bc\", and \"abc\".\n\n\nExample 2:\n\nInput: s = \"aba\"\nOutput: 6\nExplanation: The 6 distinct subsequences are \"a\", \"b\", \"ab\", \"aa\", \"ba\", and \"aba\".\n\n\nExample 3:\n\nInput: s = \"aaa\"\nOutput: 3\nExplanation: The 3 distinct subsequences are \"a\", \"aa\" and \"aaa\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 2000\n\ts consists of lowercase English letters.\n\n"
+}

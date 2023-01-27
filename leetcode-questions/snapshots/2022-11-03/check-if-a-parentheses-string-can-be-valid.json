@@ -1,0 +1,10 @@
+{
+  "id": "check-if-a-parentheses-string-can-be-valid",
+  "name": "Check if a Parentheses String Can Be Valid",
+  "tags": [
+    "String",
+    "Stack",
+    "Greedy"
+  ],
+  "description": "A parentheses string is a non-empty string consisting only of '(' and ')'. It is valid if any of the following conditions is true:\n\n\n\tIt is ().\n\tIt can be written as AB (A concatenated with B), where A and B are valid parentheses strings.\n\tIt can be written as (A), where A is a valid parentheses string.\n\n\nYou are given a parentheses string s and a string locked, both of length n. locked is a binary string consisting only of '0's and '1's. For each index i of locked,\n\n\n\tIf locked[i] is '1', you cannot change s[i].\n\tBut if locked[i] is '0', you can change s[i] to either '(' or ')'.\n\n\nReturn true if you can make s a valid parentheses string. Otherwise, return false.\n\n \nExample 1:\n\nInput: s = \"))()))\", locked = \"010100\"\nOutput: true\nExplanation: locked[1] == '1' and locked[3] == '1', so we cannot change s[1] or s[3].\nWe change s[0] and s[4] to '(' while leaving s[2] and s[5] unchanged to make s valid.\n\nExample 2:\n\nInput: s = \"()()\", locked = \"0000\"\nOutput: true\nExplanation: We do not need to make any changes because s is already valid.\n\n\nExample 3:\n\nInput: s = \")\", locked = \"0\"\nOutput: false\nExplanation: locked permits us to change s[0]. \nChanging s[0] to either '(' or ')' will not make s valid.\n\n\n \nConstraints:\n\n\n\tn == s.length == locked.length\n\t1 <= n <= 105\n\ts[i] is either '(' or ')'.\n\tlocked[i] is either '0' or '1'.\n\n"
+}

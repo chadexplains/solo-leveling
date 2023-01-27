@@ -1,0 +1,12 @@
+{
+  "id": "x-of-a-kind-in-a-deck-of-cards",
+  "name": "X of a Kind in a Deck of Cards",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Counting",
+    "Number Theory"
+  ],
+  "description": "You are given an integer array deck where deck[i] represents the number written on the ith card.\n\nPartition the cards into one or more groups such that:\n\n\n\tEach group has exactly x cards where x > 1, and\n\tAll the cards in one group have the same integer written on them.\n\n\nReturn true if such partition is possible, or false otherwise.\n\n \nExample 1:\n\nInput: deck = [1,2,3,4,4,3,2,1]\nOutput: true\nExplanation: Possible partition [1,1],[2,2],[3,3],[4,4].\n\n\nExample 2:\n\nInput: deck = [1,1,1,2,2,2,3,3]\nOutput: false\nExplanation: No possible partition.\n\n\n \nConstraints:\n\n\n\t1 <= deck.length <= 104\n\t0 <= deck[i] < 104\n\n"
+}

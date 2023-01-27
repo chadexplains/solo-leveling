@@ -1,0 +1,11 @@
+{
+  "id": "generate-random-point-in-a-circle",
+  "name": "Generate Random Point in a Circle",
+  "tags": [
+    "Math",
+    "Geometry",
+    "Rejection Sampling",
+    "Randomized"
+  ],
+  "description": "Given the radius and the position of the center of a circle, implement the function randPoint which generates a uniform random point inside the circle.\n\nImplement the Solution class:\n\n\n\tSolution(double radius, double x_center, double y_center) initializes the object with the radius of the circle radius and the position of the center (x_center, y_center).\n\trandPoint() returns a random point inside the circle. A point on the circumference of the circle is considered to be in the circle. The answer is returned as an array [x, y].\n\n\n \nExample 1:\n\nInput\n[\"Solution\", \"randPoint\", \"randPoint\", \"randPoint\"]\n[[1.0, 0.0, 0.0], [], [], []]\nOutput\n[null, [-0.02493, -0.38077], [0.82314, 0.38945], [0.36572, 0.17248]]\n\nExplanation\nSolution solution = new Solution(1.0, 0.0, 0.0);\nsolution.randPoint(); // return [-0.02493, -0.38077]\nsolution.randPoint(); // return [0.82314, 0.38945]\nsolution.randPoint(); // return [0.36572, 0.17248]\n\n\n \nConstraints:\n\n\n\t0 < radius <= 108\n\t-107 <= x_center, y_center <= 107\n\tAt most 3 * 104 calls will be made to randPoint.\n\n"
+}

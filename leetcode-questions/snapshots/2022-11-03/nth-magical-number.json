@@ -1,0 +1,9 @@
+{
+  "id": "nth-magical-number",
+  "name": "Nth Magical Number",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "A positive integer is magical if it is divisible by either a or b.\n\nGiven the three integers n, a, and b, return the nth magical number. Since the answer may be very large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 1, a = 2, b = 3\nOutput: 2\n\n\nExample 2:\n\nInput: n = 4, a = 2, b = 3\nOutput: 6\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\t2 <= a, b <= 4 * 104\n\n"
+}

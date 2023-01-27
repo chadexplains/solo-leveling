@@ -1,0 +1,11 @@
+{
+  "id": "minesweeper",
+  "name": "Minesweeper",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "Let's play the minesweeper game (Wikipedia, online game)!\n\nYou are given an m x n char matrix board representing the game board where:\n\n\n\t'M' represents an unrevealed mine,\n\t'E' represents an unrevealed empty square,\n\t'B' represents a revealed blank square that has no adjacent mines (i.e., above, below, left, right, and all 4 diagonals),\n\tdigit ('1' to '8') represents how many mines are adjacent to this revealed square, and\n\t'X' represents a revealed mine.\n\n\nYou are also given an integer array click where click = [clickr, clickc] represents the next click position among all the unrevealed squares ('M' or 'E').\n\nReturn the board after revealing this position according to the following rules:\n\n\n\tIf a mine 'M' is revealed, then the game is over. You should change it to 'X'.\n\tIf an empty square 'E' with no adjacent mines is revealed, then change it to a revealed blank 'B' and all of its adjacent unrevealed squares should be revealed recursively.\n\tIf an empty square 'E' with at least one adjacent mine is revealed, then change it to a digit ('1' to '8') representing the number of adjacent mines.\n\tReturn the board when no more squares will be revealed.\n\n\n \nExample 1:\n\nInput: board = [[\"E\",\"E\",\"E\",\"E\",\"E\"],[\"E\",\"E\",\"M\",\"E\",\"E\"],[\"E\",\"E\",\"E\",\"E\",\"E\"],[\"E\",\"E\",\"E\",\"E\",\"E\"]], click = [3,0]\nOutput: [[\"B\",\"1\",\"E\",\"1\",\"B\"],[\"B\",\"1\",\"M\",\"1\",\"B\"],[\"B\",\"1\",\"1\",\"1\",\"B\"],[\"B\",\"B\",\"B\",\"B\",\"B\"]]\n\n\nExample 2:\n\nInput: board = [[\"B\",\"1\",\"E\",\"1\",\"B\"],[\"B\",\"1\",\"M\",\"1\",\"B\"],[\"B\",\"1\",\"1\",\"1\",\"B\"],[\"B\",\"B\",\"B\",\"B\",\"B\"]], click = [1,2]\nOutput: [[\"B\",\"1\",\"E\",\"1\",\"B\"],[\"B\",\"1\",\"X\",\"1\",\"B\"],[\"B\",\"1\",\"1\",\"1\",\"B\"],[\"B\",\"B\",\"B\",\"B\",\"B\"]]\n\n\n \nConstraints:\n\n\n\tm == board.length\n\tn == board[i].length\n\t1 <= m, n <= 50\n\tboard[i][j] is either 'M', 'E', 'B', or a digit from '1' to '8'.\n\tclick.length == 2\n\t0 <= clickr < m\n\t0 <= clickc < n\n\tboard[clickr][clickc] is either 'M' or 'E'.\n\n"
+}

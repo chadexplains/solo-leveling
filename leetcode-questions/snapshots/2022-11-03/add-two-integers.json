@@ -1,0 +1,8 @@
+{
+  "id": "add-two-integers",
+  "name": "Add Two Integers",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given two integers num1 and num2, return the sum of the two integers.\n \nExample 1:\n\nInput: num1 = 12, num2 = 5\nOutput: 17\nExplanation: num1 is 12, num2 is 5, and their sum is 12 + 5 = 17, so 17 is returned.\n\n\nExample 2:\n\nInput: num1 = -10, num2 = 4\nOutput: -6\nExplanation: num1 + num2 = -6, so -6 is returned.\n\n\n \nConstraints:\n\n\n\t-100 <= num1, num2 <= 100\n\n"
+}

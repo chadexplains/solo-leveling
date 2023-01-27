@@ -1,0 +1,10 @@
+{
+  "id": "basic-calculator-ii",
+  "name": "Basic Calculator II",
+  "tags": [
+    "Math",
+    "String",
+    "Stack"
+  ],
+  "description": "Given a string s which represents an expression, evaluate this expression and return its value. \n\nThe integer division should truncate toward zero.\n\nYou may assume that the given expression is always valid. All intermediate results will be in the range of [-231, 231 - 1].\n\nNote: You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as eval().\n\n \nExample 1:\nInput: s = \"3+2*2\"\nOutput: 7\nExample 2:\nInput: s = \" 3/2 \"\nOutput: 1\nExample 3:\nInput: s = \" 3+5 / 2 \"\nOutput: 5\n\n \nConstraints:\n\n\n\t1 <= s.length <= 3 * 105\n\ts consists of integers and operators ('+', '-', '*', '/') separated by some number of spaces.\n\ts represents a valid expression.\n\tAll the integers in the expression are non-negative integers in the range [0, 231 - 1].\n\tThe answer is guaranteed to fit in a 32-bit integer.\n\n"
+}

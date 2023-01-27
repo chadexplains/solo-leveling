@@ -1,0 +1,9 @@
+{
+  "id": "find-minimum-in-rotated-sorted-array",
+  "name": "Find Minimum in Rotated Sorted Array",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "Suppose an array of length n sorted in ascending order is rotated between 1 and n times. For example, the array nums = [0,1,2,4,5,6,7] might become:\n\n\n\t[4,5,6,7,0,1,2] if it was rotated 4 times.\n\t[0,1,2,4,5,6,7] if it was rotated 7 times.\n\n\nNotice that rotating an array [a[0], a[1], a[2], ..., a[n-1]] 1 time results in the array [a[n-1], a[0], a[1], a[2], ..., a[n-2]].\n\nGiven the sorted rotated array nums of unique elements, return the minimum element of this array.\n\nYou must write an algorithm that runs in O(log n) time.\n\n \nExample 1:\n\nInput: nums = [3,4,5,1,2]\nOutput: 1\nExplanation: The original array was [1,2,3,4,5] rotated 3 times.\n\n\nExample 2:\n\nInput: nums = [4,5,6,7,0,1,2]\nOutput: 0\nExplanation: The original array was [0,1,2,4,5,6,7] and it was rotated 4 times.\n\n\nExample 3:\n\nInput: nums = [11,13,15,17]\nOutput: 11\nExplanation: The original array was [11,13,15,17] and it was rotated 4 times. \n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 5000\n\t-5000 <= nums[i] <= 5000\n\tAll the integers of nums are unique.\n\tnums is sorted and rotated between 1 and n times.\n\n"
+}

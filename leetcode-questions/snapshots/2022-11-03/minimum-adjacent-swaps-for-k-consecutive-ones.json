@@ -1,0 +1,11 @@
+{
+  "id": "minimum-adjacent-swaps-for-k-consecutive-ones",
+  "name": "Minimum Adjacent Swaps for K Consecutive Ones",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "description": "You are given an integer array, nums, and an integer k. nums comprises of only 0's and 1's. In one move, you can choose two adjacent indices and swap their values.\n\nReturn the minimum number of moves required so that nums has k consecutive 1's.\n\n \nExample 1:\n\nInput: nums = [1,0,0,1,0,1], k = 2\nOutput: 1\nExplanation: In 1 move, nums could be [1,0,0,0,1,1] and have 2 consecutive 1's.\n\n\nExample 2:\n\nInput: nums = [1,0,0,0,0,0,1,1], k = 3\nOutput: 5\nExplanation: In 5 moves, the leftmost 1 can be shifted right until nums = [0,0,0,0,0,1,1,1].\n\n\nExample 3:\n\nInput: nums = [1,1,0,1], k = 2\nOutput: 0\nExplanation: nums already has 2 consecutive 1's.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\tnums[i] is 0 or 1.\n\t1 <= k <= sum(nums)\n\n"
+}

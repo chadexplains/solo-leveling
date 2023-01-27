@@ -1,0 +1,8 @@
+{
+  "id": "number-of-dice-rolls-with-target-sum",
+  "name": "Number of Dice Rolls With Target Sum",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "You have n dice, and each die has k faces numbered from 1 to k.\n\nGiven three integers n, k, and target, return the number of possible ways (out of the kn total ways) to roll the dice, so the sum of the face-up numbers equals target. Since the answer may be too large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 1, k = 6, target = 3\nOutput: 1\nExplanation: You throw one die with 6 faces.\nThere is only one way to get a sum of 3.\n\n\nExample 2:\n\nInput: n = 2, k = 6, target = 7\nOutput: 6\nExplanation: You throw two dice, each with 6 faces.\nThere are 6 ways to get a sum of 7: 1+6, 2+5, 3+4, 4+3, 5+2, 6+1.\n\n\nExample 3:\n\nInput: n = 30, k = 30, target = 500\nOutput: 222616187\nExplanation: The answer must be returned modulo 109 + 7.\n\n\n \nConstraints:\n\n\n\t1 <= n, k <= 30\n\t1 <= target <= 1000\n\n"
+}

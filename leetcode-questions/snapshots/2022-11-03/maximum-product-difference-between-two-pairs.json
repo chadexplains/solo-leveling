@@ -1,0 +1,9 @@
+{
+  "id": "maximum-product-difference-between-two-pairs",
+  "name": "Maximum Product Difference Between Two Pairs",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "The product difference between two pairs (a, b) and (c, d) is defined as (a * b) - (c * d).\n\n\n\tFor example, the product difference between (5, 6) and (2, 7) is (5 * 6) - (2 * 7) = 16.\n\n\nGiven an integer array nums, choose four distinct indices w, x, y, and z such that the product difference between pairs (nums[w], nums[x]) and (nums[y], nums[z]) is maximized.\n\nReturn the maximum such product difference.\n\n \nExample 1:\n\nInput: nums = [5,6,2,7,4]\nOutput: 34\nExplanation: We can choose indices 1 and 3 for the first pair (6, 7) and indices 2 and 4 for the second pair (2, 4).\nThe product difference is (6 * 7) - (2 * 4) = 34.\n\n\nExample 2:\n\nInput: nums = [4,2,5,9,7,4,8]\nOutput: 64\nExplanation: We can choose indices 3 and 6 for the first pair (9, 8) and indices 1 and 5 for the second pair (2, 4).\nThe product difference is (9 * 8) - (2 * 4) = 64.\n\n\n \nConstraints:\n\n\n\t4 <= nums.length <= 104\n\t1 <= nums[i] <= 104\n"
+}

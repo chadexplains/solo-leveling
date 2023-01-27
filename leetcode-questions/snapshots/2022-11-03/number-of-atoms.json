@@ -1,0 +1,11 @@
+{
+  "id": "number-of-atoms",
+  "name": "Number of Atoms",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Stack",
+    "Sorting"
+  ],
+  "description": "Given a string formula representing a chemical formula, return the count of each atom.\n\nThe atomic element always starts with an uppercase character, then zero or more lowercase letters, representing the name.\n\nOne or more digits representing that element's count may follow if the count is greater than 1. If the count is 1, no digits will follow.\n\n\n\tFor example, \"H2O\" and \"H2O2\" are possible, but \"H1O2\" is impossible.\n\n\nTwo formulas are concatenated together to produce another formula.\n\n\n\tFor example, \"H2O2He3Mg4\" is also a formula.\n\n\nA formula placed in parentheses, and a count (optionally added) is also a formula.\n\n\n\tFor example, \"(H2O2)\" and \"(H2O2)3\" are formulas.\n\n\nReturn the count of all elements as a string in the following form: the first name (in sorted order), followed by its count (if that count is more than 1), followed by the second name (in sorted order), followed by its count (if that count is more than 1), and so on.\n\nThe test cases are generated so that all the values in the output fit in a 32-bit integer.\n\n \nExample 1:\n\nInput: formula = \"H2O\"\nOutput: \"H2O\"\nExplanation: The count of elements are {'H': 2, 'O': 1}.\n\n\nExample 2:\n\nInput: formula = \"Mg(OH)2\"\nOutput: \"H2MgO2\"\nExplanation: The count of elements are {'H': 2, 'Mg': 1, 'O': 2}.\n\n\nExample 3:\n\nInput: formula = \"K4(ON(SO3)2)2\"\nOutput: \"K4N2O14S4\"\nExplanation: The count of elements are {'K': 4, 'N': 2, 'O': 14, 'S': 4}.\n\n\n \nConstraints:\n\n\n\t1 <= formula.length <= 1000\n\tformula consists of English letters, digits, '(', and ')'.\n\tformula is always valid.\n\n"
+}

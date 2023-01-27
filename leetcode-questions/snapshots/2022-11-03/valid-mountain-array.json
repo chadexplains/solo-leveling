@@ -1,0 +1,8 @@
+{
+  "id": "valid-mountain-array",
+  "name": "Valid Mountain Array",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given an array of integers arr, return true if and only if it is a valid mountain array.\n\nRecall that arr is a mountain array if and only if:\n\n\n\tarr.length >= 3\n\tThere exists some i with 0 < i < arr.length - 1 such that:\n\t\n\t\tarr[0] < arr[1] < ... < arr[i - 1] < arr[i] \n\t\tarr[i] > arr[i + 1] > ... > arr[arr.length - 1]\n\t\n\t\n\n\n \nExample 1:\nInput: arr = [2,1]\nOutput: false\nExample 2:\nInput: arr = [3,5,5]\nOutput: false\nExample 3:\nInput: arr = [0,3,2,1]\nOutput: true\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 104\n\t0 <= arr[i] <= 104\n\n"
+}

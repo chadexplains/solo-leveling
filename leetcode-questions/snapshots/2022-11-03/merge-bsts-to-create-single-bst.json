@@ -1,0 +1,12 @@
+{
+  "id": "merge-bsts-to-create-single-bst",
+  "name": "Merge BSTs to Create Single BST",
+  "tags": [
+    "Hash Table",
+    "Binary Search",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given n BST (binary search tree) root nodes for n separate BSTs stored in an array trees (0-indexed). Each BST in trees has at most 3 nodes, and no two roots have the same value. In one operation, you can:\n\n\n\tSelect two distinct indices i and j such that the value stored at one of the leaves of trees[i] is equal to the root value of trees[j].\n\tReplace the leaf node in trees[i] with trees[j].\n\tRemove trees[j] from trees.\n\n\nReturn the root of the resulting BST if it is possible to form a valid BST after performing n - 1 operations, or null if it is impossible to create a valid BST.\n\nA BST (binary search tree) is a binary tree where each node satisfies the following property:\n\n\n\tEvery node in the node's left subtree has a value strictly less than the node's value.\n\tEvery node in the node's right subtree has a value strictly greater than the node's value.\n\n\nA leaf is a node that has no children.\n\n \nExample 1:\n\nInput: trees = [[2,1],[3,2,5],[5,4]]\nOutput: [3,2,5,1,null,4]\nExplanation:\nIn the first operation, pick i=1 and j=0, and merge trees[0] into trees[1].\nDelete trees[0], so trees = [[3,2,5,1],[5,4]].\n\nIn the second operation, pick i=0 and j=1, and merge trees[1] into trees[0].\nDelete trees[1], so trees = [[3,2,5,1,null,4]].\n\nThe resulting tree, shown above, is a valid BST, so return its root.\n\nExample 2:\n\nInput: trees = [[5,3,8],[3,2,6]]\nOutput: []\nExplanation:\nPick i=0 and j=1 and merge trees[1] into trees[0].\nDelete trees[1], so trees = [[5,3,8,2,6]].\n\nThe resulting tree is shown above. This is the only valid operation that can be performed, but the resulting tree is not a valid BST, so return null.\n\n\nExample 3:\n\nInput: trees = [[5,4],[3]]\nOutput: []\nExplanation: It is impossible to perform any operations.\n\n\n \nConstraints:\n\n\n\tn == trees.length\n\t1 <= n <= 5 * 104\n\tThe number of nodes in each tree is in the range [1, 3].\n\tEach node in the input may have children but no grandchildren.\n\tNo two roots of trees have the same value.\n\tAll the trees in the input are valid BSTs.\n\t1 <= TreeNode.val <= 5 * 104.\n\n"
+}

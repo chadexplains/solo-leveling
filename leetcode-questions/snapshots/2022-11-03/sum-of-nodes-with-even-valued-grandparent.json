@@ -1,0 +1,11 @@
+{
+  "id": "sum-of-nodes-with-even-valued-grandparent",
+  "name": "Sum of Nodes with Even-Valued Grandparent",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return the sum of values of nodes with an even-valued grandparent. If there are no nodes with an even-valued grandparent, return 0.\n\nA grandparent of a node is the parent of its parent if it exists.\n\n \nExample 1:\n\nInput: root = [6,7,8,2,7,1,3,9,null,1,4,null,null,null,5]\nOutput: 18\nExplanation: The red nodes are the nodes with even-value grandparent while the blue nodes are the even-value grandparents.\n\n\nExample 2:\n\nInput: root = [1]\nOutput: 0\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 104].\n\t1 <= Node.val <= 100\n\n"
+}

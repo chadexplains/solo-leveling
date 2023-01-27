@@ -1,0 +1,10 @@
+{
+  "id": "spiral-matrix-ii",
+  "name": "Spiral Matrix II",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Simulation"
+  ],
+  "description": "Given a positive integer n, generate an n x n matrix filled with elements from 1 to n2 in spiral order.\n\n \nExample 1:\n\nInput: n = 3\nOutput: [[1,2,3],[8,9,4],[7,6,5]]\n\n\nExample 2:\n\nInput: n = 1\nOutput: [[1]]\n\n\n \nConstraints:\n\n\n\t1 <= n <= 20\n\n"
+}

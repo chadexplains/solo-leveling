@@ -1,0 +1,10 @@
+{
+  "id": "add-strings",
+  "name": "Add Strings",
+  "tags": [
+    "Math",
+    "String",
+    "Simulation"
+  ],
+  "description": "Given two non-negative integers, num1 and num2 represented as string, return the sum of num1 and num2 as a string.\n\nYou must solve the problem without using any built-in library for handling large integers (such as BigInteger). You must also not convert the inputs to integers directly.\n\n \nExample 1:\n\nInput: num1 = \"11\", num2 = \"123\"\nOutput: \"134\"\n\n\nExample 2:\n\nInput: num1 = \"456\", num2 = \"77\"\nOutput: \"533\"\n\n\nExample 3:\n\nInput: num1 = \"0\", num2 = \"0\"\nOutput: \"0\"\n\n\n \nConstraints:\n\n\n\t1 <= num1.length, num2.length <= 104\n\tnum1 and num2 consist of only digits.\n\tnum1 and num2 don't have any leading zeros except for the zero itself.\n\n"
+}

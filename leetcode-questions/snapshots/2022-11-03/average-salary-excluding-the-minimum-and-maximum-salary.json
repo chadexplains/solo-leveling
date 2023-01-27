@@ -1,0 +1,9 @@
+{
+  "id": "average-salary-excluding-the-minimum-and-maximum-salary",
+  "name": "Average Salary Excluding the Minimum and Maximum Salary",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "You are given an array of unique integers salary where salary[i] is the salary of the ith employee.\n\nReturn the average salary of employees excluding the minimum and maximum salary. Answers within 10-5 of the actual answer will be accepted.\n\n \nExample 1:\n\nInput: salary = [4000,3000,1000,2000]\nOutput: 2500.00000\nExplanation: Minimum salary and maximum salary are 1000 and 4000 respectively.\nAverage salary excluding minimum and maximum salary is (2000+3000) / 2 = 2500\n\n\nExample 2:\n\nInput: salary = [1000,2000,3000]\nOutput: 2000.00000\nExplanation: Minimum salary and maximum salary are 1000 and 3000 respectively.\nAverage salary excluding minimum and maximum salary is (2000) / 1 = 2000\n\n\n \nConstraints:\n\n\n\t3 <= salary.length <= 100\n\t1000 <= salary[i] <= 106\n\tAll the integers of salary are unique.\n\n"
+}

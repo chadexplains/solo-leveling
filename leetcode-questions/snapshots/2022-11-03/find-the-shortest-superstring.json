@@ -1,0 +1,12 @@
+{
+  "id": "find-the-shortest-superstring",
+  "name": "Find the Shortest Superstring",
+  "tags": [
+    "Array",
+    "String",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "Given an array of strings words, return the smallest string that contains each string in words as a substring. If there are multiple valid strings of the smallest length, return any of them.\n\nYou may assume that no string in words is a substring of another string in words.\n\n \nExample 1:\n\nInput: words = [\"alex\",\"loves\",\"leetcode\"]\nOutput: \"alexlovesleetcode\"\nExplanation: All permutations of \"alex\",\"loves\",\"leetcode\" would also be accepted.\n\n\nExample 2:\n\nInput: words = [\"catg\",\"ctaagt\",\"gcta\",\"ttca\",\"atgcatc\"]\nOutput: \"gctaagttcatgcatc\"\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 12\n\t1 <= words[i].length <= 20\n\twords[i] consists of lowercase English letters.\n\tAll the strings of words are unique.\n\n"
+}

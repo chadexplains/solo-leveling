@@ -1,0 +1,12 @@
+{
+  "id": "the-number-of-weak-characters-in-the-game",
+  "name": "The Number of Weak Characters in the Game",
+  "tags": [
+    "Array",
+    "Stack",
+    "Greedy",
+    "Sorting",
+    "Monotonic Stack"
+  ],
+  "description": "You are playing a game that contains multiple characters, and each of the characters has two main properties: attack and defense. You are given a 2D integer array properties where properties[i] = [attacki, defensei] represents the properties of the ith character in the game.\n\nA character is said to be weak if any other character has both attack and defense levels strictly greater than this character's attack and defense levels. More formally, a character i is said to be weak if there exists another character j where attackj > attacki and defensej > defensei.\n\nReturn the number of weak characters.\n\n \nExample 1:\n\nInput: properties = [[5,5],[6,3],[3,6]]\nOutput: 0\nExplanation: No character has strictly greater attack and defense than the other.\n\n\nExample 2:\n\nInput: properties = [[2,2],[3,3]]\nOutput: 1\nExplanation: The first character is weak because the second character has a strictly greater attack and defense.\n\n\nExample 3:\n\nInput: properties = [[1,5],[10,4],[4,3]]\nOutput: 1\nExplanation: The third character is weak because the second character has a strictly greater attack and defense.\n\n\n \nConstraints:\n\n\n\t2 <= properties.length <= 105\n\tproperties[i].length == 2\n\t1 <= attacki, defensei <= 105\n\n"
+}

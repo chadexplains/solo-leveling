@@ -1,0 +1,8 @@
+{
+  "id": "bitwise-and-of-numbers-range",
+  "name": "Bitwise AND of Numbers Range",
+  "tags": [
+    "Bit Manipulation"
+  ],
+  "description": "Given two integers left and right that represent the range [left, right], return the bitwise AND of all numbers in this range, inclusive.\n\n \nExample 1:\n\nInput: left = 5, right = 7\nOutput: 4\n\n\nExample 2:\n\nInput: left = 0, right = 0\nOutput: 0\n\n\nExample 3:\n\nInput: left = 1, right = 2147483647\nOutput: 0\n\n\n \nConstraints:\n\n\n\t0 <= left <= right <= 231 - 1\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "maximum-number-of-words-you-can-type",
+  "name": "Maximum Number of Words You Can Type",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "There is a malfunctioning keyboard where some letter keys do not work. All other keys on the keyboard work properly.\n\nGiven a string text of words separated by a single space (no leading or trailing spaces) and a string brokenLetters of all distinct letter keys that are broken, return the number of words in text you can fully type using this keyboard.\n\n \nExample 1:\n\nInput: text = \"hello world\", brokenLetters = \"ad\"\nOutput: 1\nExplanation: We cannot type \"world\" because the 'd' key is broken.\n\n\nExample 2:\n\nInput: text = \"leet code\", brokenLetters = \"lt\"\nOutput: 1\nExplanation: We cannot type \"leet\" because the 'l' and 't' keys are broken.\n\n\nExample 3:\n\nInput: text = \"leet code\", brokenLetters = \"e\"\nOutput: 0\nExplanation: We cannot type either word because the 'e' key is broken.\n\n\n \nConstraints:\n\n\n\t1 <= text.length <= 104\n\t0 <= brokenLetters.length <= 26\n\ttext consists of words separated by a single space without any leading or trailing spaces.\n\tEach word only consists of lowercase English letters.\n\tbrokenLetters consists of distinct lowercase English letters.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "palindrome-partitioning-iv",
+  "name": "Palindrome Partitioning IV",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given a string s, return true if it is possible to split the string s into three non-empty palindromic substrings. Otherwise, return false.​​​​​\n\nA string is said to be palindrome if it the same string when reversed.\n\n \nExample 1:\n\nInput: s = \"abcbdd\"\nOutput: true\nExplanation: \"abcbdd\" = \"a\" + \"bcb\" + \"dd\", and all three substrings are palindromes.\n\n\nExample 2:\n\nInput: s = \"bcbddxy\"\nOutput: false\nExplanation: s cannot be split into 3 palindromes.\n\n\n \nConstraints:\n\n\n\t3 <= s.length <= 2000\n\ts​​​​​​ consists only of lowercase English letters.\n\n"
+}

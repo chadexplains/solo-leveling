@@ -1,0 +1,9 @@
+{
+  "id": "palindrome-partitioning-iii",
+  "name": "Palindrome Partitioning III",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "You are given a string s containing lowercase letters and an integer k. You need to :\n\n\n\tFirst, change some characters of s to other lowercase English letters.\n\tThen divide s into k non-empty disjoint substrings such that each substring is a palindrome.\n\n\nReturn the minimal number of characters that you need to change to divide the string.\n\n \nExample 1:\n\nInput: s = \"abc\", k = 2\nOutput: 1\nExplanation: You can split the string into \"ab\" and \"c\", and change 1 character in \"ab\" to make it palindrome.\n\n\nExample 2:\n\nInput: s = \"aabbc\", k = 3\nOutput: 0\nExplanation: You can split the string into \"aa\", \"bb\" and \"c\", all of them are palindrome.\n\nExample 3:\n\nInput: s = \"leetcode\", k = 8\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= k <= s.length <= 100.\n\ts only contains lowercase English letters.\n\n"
+}

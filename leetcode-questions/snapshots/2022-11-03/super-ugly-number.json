@@ -1,0 +1,10 @@
+{
+  "id": "super-ugly-number",
+  "name": "Super Ugly Number",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming"
+  ],
+  "description": "A super ugly number is a positive integer whose prime factors are in the array primes.\n\nGiven an integer n and an array of integers primes, return the nth super ugly number.\n\nThe nth super ugly number is guaranteed to fit in a 32-bit signed integer.\n\n \nExample 1:\n\nInput: n = 12, primes = [2,7,13,19]\nOutput: 32\nExplanation: [1,2,4,7,8,13,14,16,19,26,28,32] is the sequence of the first 12 super ugly numbers given primes = [2,7,13,19].\n\n\nExample 2:\n\nInput: n = 1, primes = [2,3,5]\nOutput: 1\nExplanation: 1 has no prime factors, therefore all of its prime factors are in the array primes = [2,3,5].\n\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\t1 <= primes.length <= 100\n\t2 <= primes[i] <= 1000\n\tprimes[i] is guaranteed to be a prime number.\n\tAll the values of primes are unique and sorted in ascending order.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "max-difference-you-can-get-from-changing-an-integer",
+  "name": "Max Difference You Can Get From Changing an Integer",
+  "tags": [
+    "Math",
+    "Greedy"
+  ],
+  "description": "You are given an integer num. You will apply the following steps exactly two times:\n\n\n\tPick a digit x (0 <= x <= 9).\n\tPick another digit y (0 <= y <= 9). The digit y can be equal to x.\n\tReplace all the occurrences of x in the decimal representation of num by y.\n\tThe new integer cannot have any leading zeros, also the new integer cannot be 0.\n\n\nLet a and b be the results of applying the operations to num the first and second times, respectively.\n\nReturn the max difference between a and b.\n\n \nExample 1:\n\nInput: num = 555\nOutput: 888\nExplanation: The first time pick x = 5 and y = 9 and store the new integer in a.\nThe second time pick x = 5 and y = 1 and store the new integer in b.\nWe have now a = 999 and b = 111 and max difference = 888\n\n\nExample 2:\n\nInput: num = 9\nOutput: 8\nExplanation: The first time pick x = 9 and y = 9 and store the new integer in a.\nThe second time pick x = 9 and y = 1 and store the new integer in b.\nWe have now a = 9 and b = 1 and max difference = 8\n\n\n \nConstraints:\n\n\n\t1 <= num <= 108\n\n"
+}

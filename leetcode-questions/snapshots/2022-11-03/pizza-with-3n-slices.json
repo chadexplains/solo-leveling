@@ -1,0 +1,11 @@
+{
+  "id": "pizza-with-3n-slices",
+  "name": "Pizza With 3n Slices",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy",
+    "Heap (Priority Queue)"
+  ],
+  "description": "There is a pizza with 3n slices of varying size, you and your friends will take slices of pizza as follows:\n\n\n\tYou will pick any pizza slice.\n\tYour friend Alice will pick the next slice in the anti-clockwise direction of your pick.\n\tYour friend Bob will pick the next slice in the clockwise direction of your pick.\n\tRepeat until there are no more slices of pizzas.\n\n\nGiven an integer array slices that represent the sizes of the pizza slices in a clockwise direction, return the maximum possible sum of slice sizes that you can pick.\n\n \nExample 1:\n\nInput: slices = [1,2,3,4,5,6]\nOutput: 10\nExplanation: Pick pizza slice of size 4, Alice and Bob will pick slices with size 3 and 5 respectively. Then Pick slices with size 6, finally Alice and Bob will pick slice of size 2 and 1 respectively. Total = 4 + 6.\n\n\nExample 2:\n\nInput: slices = [8,9,8,6,1,1]\nOutput: 16\nExplanation: Pick pizza slice of size 8 in each turn. If you pick slice with size 9 your partners will pick slices of size 8.\n\n\n \nConstraints:\n\n\n\t3 * n == slices.length\n\t1 <= slices.length <= 500\n\t1 <= slices[i] <= 1000\n\n"
+}

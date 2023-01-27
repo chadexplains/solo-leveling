@@ -1,0 +1,10 @@
+{
+  "id": "find-lucky-integer-in-an-array",
+  "name": "Find Lucky Integer in an Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Counting"
+  ],
+  "description": "Given an array of integers arr, a lucky integer is an integer that has a frequency in the array equal to its value.\n\nReturn the largest lucky integer in the array. If there is no lucky integer return -1.\n\n \nExample 1:\n\nInput: arr = [2,2,3,4]\nOutput: 2\nExplanation: The only lucky number in the array is 2 because frequency[2] == 2.\n\n\nExample 2:\n\nInput: arr = [1,2,2,3,3,3]\nOutput: 3\nExplanation: 1, 2 and 3 are all lucky numbers, return the largest of them.\n\n\nExample 3:\n\nInput: arr = [2,2,2,3,3]\nOutput: -1\nExplanation: There are no lucky numbers in the array.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 500\n\t1 <= arr[i] <= 500\n\n"
+}

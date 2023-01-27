@@ -1,0 +1,9 @@
+{
+  "id": "uncommon-words-from-two-sentences",
+  "name": "Uncommon Words from Two Sentences",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "A sentence is a string of single-space separated words where each word consists only of lowercase letters.\n\nA word is uncommon if it appears exactly once in one of the sentences, and does not appear in the other sentence.\n\nGiven two sentences s1 and s2, return a list of all the uncommon words. You may return the answer in any order.\n\n \nExample 1:\nInput: s1 = \"this apple is sweet\", s2 = \"this apple is sour\"\nOutput: [\"sweet\",\"sour\"]\nExample 2:\nInput: s1 = \"apple apple\", s2 = \"banana\"\nOutput: [\"banana\"]\n\n \nConstraints:\n\n\n\t1 <= s1.length, s2.length <= 200\n\ts1 and s2 consist of lowercase English letters and spaces.\n\ts1 and s2 do not have leading or trailing spaces.\n\tAll the words in s1 and s2 are separated by a single space.\n\n"
+}

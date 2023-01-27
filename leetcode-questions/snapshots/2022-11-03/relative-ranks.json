@@ -1,0 +1,10 @@
+{
+  "id": "relative-ranks",
+  "name": "Relative Ranks",
+  "tags": [
+    "Array",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You are given an integer array score of size n, where score[i] is the score of the ith athlete in a competition. All the scores are guaranteed to be unique.\n\nThe athletes are placed based on their scores, where the 1st place athlete has the highest score, the 2nd place athlete has the 2nd highest score, and so on. The placement of each athlete determines their rank:\n\n\n\tThe 1st place athlete's rank is \"Gold Medal\".\n\tThe 2nd place athlete's rank is \"Silver Medal\".\n\tThe 3rd place athlete's rank is \"Bronze Medal\".\n\tFor the 4th place to the nth place athlete, their rank is their placement number (i.e., the xth place athlete's rank is \"x\").\n\n\nReturn an array answer of size n where answer[i] is the rank of the ith athlete.\n\n \nExample 1:\n\nInput: score = [5,4,3,2,1]\nOutput: [\"Gold Medal\",\"Silver Medal\",\"Bronze Medal\",\"4\",\"5\"]\nExplanation: The placements are [1st, 2nd, 3rd, 4th, 5th].\n\nExample 2:\n\nInput: score = [10,3,8,9,4]\nOutput: [\"Gold Medal\",\"5\",\"Bronze Medal\",\"Silver Medal\",\"4\"]\nExplanation: The placements are [1st, 5th, 3rd, 2nd, 4th].\n\n\n\n \nConstraints:\n\n\n\tn == score.length\n\t1 <= n <= 104\n\t0 <= score[i] <= 106\n\tAll the values in score are unique.\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "not-boring-movies",
+  "name": "Not Boring Movies",
+  "tags": [
+    "Database"
+  ],
+  "description": "SQL SchemaTable: Cinema\n\n+----------------+----------+\n| Column Name    | Type     |\n+----------------+----------+\n| id             | int      |\n| movie          | varchar  |\n| description    | varchar  |\n| rating         | float    |\n+----------------+----------+\nid is the primary key for this table.\nEach row contains information about the name of a movie, its genre, and its rating.\nrating is a 2 decimal places float in the range [0, 10]\n\n\n \n\nWrite an SQL query to report the movies with an odd-numbered ID and a description that is not \"boring\".\n\nReturn the result table ordered by rating in descending order.\n\nThe query result format is in the following example.\n\n \nExample 1:\n\nInput: \nCinema table:\n+----+------------+-------------+--------+\n| id | movie      | description | rating |\n+----+------------+-------------+--------+\n| 1  | War        | great 3D    | 8.9    |\n| 2  | Science    | fiction     | 8.5    |\n| 3  | irish      | boring      | 6.2    |\n| 4  | Ice song   | Fantacy     | 8.6    |\n| 5  | House card | Interesting | 9.1    |\n+----+------------+-------------+--------+\nOutput: \n+----+------------+-------------+--------+\n| id | movie      | description | rating |\n+----+------------+-------------+--------+\n| 5  | House card | Interesting | 9.1    |\n| 1  | War        | great 3D    | 8.9    |\n+----+------------+-------------+--------+\nExplanation: \nWe have three movies with odd-numbered IDs: 1, 3, and 5. The movie with ID = 3 is boring so we do not include it in the answer.\n\n"
+}

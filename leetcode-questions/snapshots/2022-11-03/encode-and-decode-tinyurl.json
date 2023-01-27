@@ -1,0 +1,11 @@
+{
+  "id": "encode-and-decode-tinyurl",
+  "name": "Encode and Decode TinyURL",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Design",
+    "Hash Function"
+  ],
+  "description": "Note: This is a companion problem to the System Design problem: Design TinyURL.\n\nTinyURL is a URL shortening service where you enter a URL such as https://leetcode.com/problems/design-tinyurl and it returns a short URL such as http://tinyurl.com/4e9iAk. Design a class to encode a URL and decode a tiny URL.\n\nThere is no restriction on how your encode/decode algorithm should work. You just need to ensure that a URL can be encoded to a tiny URL and the tiny URL can be decoded to the original URL.\n\nImplement the Solution class:\n\n\n\tSolution() Initializes the object of the system.\n\tString encode(String longUrl) Returns a tiny URL for the given longUrl.\n\tString decode(String shortUrl) Returns the original long URL for the given shortUrl. It is guaranteed that the given shortUrl was encoded by the same object.\n\n\n \nExample 1:\n\nInput: url = \"https://leetcode.com/problems/design-tinyurl\"\nOutput: \"https://leetcode.com/problems/design-tinyurl\"\n\nExplanation:\nSolution obj = new Solution();\nstring tiny = obj.encode(url); // returns the encoded tiny url.\nstring ans = obj.decode(tiny); // returns the original url after deconding it.\n\n\n \nConstraints:\n\n\n\t1 <= url.length <= 104\n\turl is guranteed to be a valid URL.\n\n"
+}

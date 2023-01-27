@@ -1,0 +1,9 @@
+{
+  "id": "jewels-and-stones",
+  "name": "Jewels and Stones",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "You're given strings jewels representing the types of stones that are jewels, and stones representing the stones you have. Each character in stones is a type of stone you have. You want to know how many of the stones you have are also jewels.\n\nLetters are case sensitive, so \"a\" is considered a different type of stone from \"A\".\n\n \nExample 1:\nInput: jewels = \"aA\", stones = \"aAAbbbb\"\nOutput: 3\nExample 2:\nInput: jewels = \"z\", stones = \"ZZ\"\nOutput: 0\n\n \nConstraints:\n\n\n\t1 <= jewels.length, stones.length <= 50\n\tjewels and stones consist of only English letters.\n\tAll the characters of jewels are unique.\n\n"
+}

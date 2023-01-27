@@ -1,0 +1,11 @@
+{
+  "id": "number-of-ways-of-cutting-a-pizza",
+  "name": "Number of Ways of Cutting a Pizza",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Memoization",
+    "Matrix"
+  ],
+  "description": "Given a rectangular pizza represented as a rows x cols matrix containing the following characters: 'A' (an apple) and '.' (empty cell) and given the integer k. You have to cut the pizza into k pieces using k-1 cuts. \n\nFor each cut you choose the direction: vertical or horizontal, then you choose a cut position at the cell boundary and cut the pizza into two pieces. If you cut the pizza vertically, give the left part of the pizza to a person. If you cut the pizza horizontally, give the upper part of the pizza to a person. Give the last piece of pizza to the last person.\n\nReturn the number of ways of cutting the pizza such that each piece contains at least one apple. Since the answer can be a huge number, return this modulo 10^9 + 7.\n\n \nExample 1:\n\n\n\nInput: pizza = [\"A..\",\"AAA\",\"...\"], k = 3\nOutput: 3 \nExplanation: The figure above shows the three ways to cut the pizza. Note that pieces must contain at least one apple.\n\n\nExample 2:\n\nInput: pizza = [\"A..\",\"AA.\",\"...\"], k = 3\nOutput: 1\n\n\nExample 3:\n\nInput: pizza = [\"A..\",\"A..\",\"...\"], k = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= rows, cols <= 50\n\trows == pizza.length\n\tcols == pizza[i].length\n\t1 <= k <= 10\n\tpizza consists of characters 'A' and '.' only.\n"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "reverse-pairs",
+  "name": "Reverse Pairs",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Divide and Conquer",
+    "Binary Indexed Tree",
+    "Segment Tree",
+    "Merge Sort",
+    "Ordered Set"
+  ],
+  "description": "Given an integer array nums, return the number of reverse pairs in the array.\n\nA reverse pair is a pair (i, j) where:\n\n\n\t0 <= i < j < nums.length and\n\tnums[i] > 2 * nums[j].\n\n\n \nExample 1:\n\nInput: nums = [1,3,2,3,1]\nOutput: 2\nExplanation: The reverse pairs are:\n(1, 4) --> nums[1] = 3, nums[4] = 1, 3 > 2 * 1\n(3, 4) --> nums[3] = 3, nums[4] = 1, 3 > 2 * 1\n\n\nExample 2:\n\nInput: nums = [2,4,3,5,1]\nOutput: 3\nExplanation: The reverse pairs are:\n(1, 4) --> nums[1] = 4, nums[4] = 1, 4 > 2 * 1\n(2, 4) --> nums[2] = 3, nums[4] = 1, 3 > 2 * 1\n(3, 4) --> nums[3] = 5, nums[4] = 1, 5 > 2 * 1\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 5 * 104\n\t-231 <= nums[i] <= 231 - 1\n\n"
+}

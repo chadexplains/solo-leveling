@@ -1,0 +1,11 @@
+{
+  "id": "escape-the-spreading-fire",
+  "name": "Escape the Spreading Fire",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "You are given a 0-indexed 2D integer array grid of size m x n which represents a field. Each cell has one of three values:\n\n\n\t0 represents grass,\n\t1 represents fire,\n\t2 represents a wall that you and fire cannot pass through.\n\n\nYou are situated in the top-left cell, (0, 0), and you want to travel to the safehouse at the bottom-right cell, (m - 1, n - 1). Every minute, you may move to an adjacent grass cell. After your move, every fire cell will spread to all adjacent cells that are not walls.\n\nReturn the maximum number of minutes that you can stay in your initial position before moving while still safely reaching the safehouse. If this is impossible, return -1. If you can always reach the safehouse regardless of the minutes stayed, return 109.\n\nNote that even if the fire spreads to the safehouse immediately after you have reached it, it will be counted as safely reaching the safehouse.\n\nA cell is adjacent to another cell if the former is directly north, east, south, or west of the latter (i.e., their sides are touching).\n\n \nExample 1:\n\nInput: grid = [[0,2,0,0,0,0,0],[0,0,0,2,2,1,0],[0,2,0,0,1,2,0],[0,0,2,2,2,0,2],[0,0,0,0,0,0,0]]\nOutput: 3\nExplanation: The figure above shows the scenario where you stay in the initial position for 3 minutes.\nYou will still be able to safely reach the safehouse.\nStaying for more than 3 minutes will not allow you to safely reach the safehouse.\n\nExample 2:\n\nInput: grid = [[0,0,0,0],[0,1,2,0],[0,2,0,0]]\nOutput: -1\nExplanation: The figure above shows the scenario where you immediately move towards the safehouse.\nFire will spread to any cell you move towards and it is impossible to safely reach the safehouse.\nThus, -1 is returned.\n\n\nExample 3:\n\nInput: grid = [[0,0,0],[2,2,0],[1,2,0]]\nOutput: 1000000000\nExplanation: The figure above shows the initial grid.\nNotice that the fire is contained by walls and you will always be able to safely reach the safehouse.\nThus, 109 is returned.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t2 <= m, n <= 300\n\t4 <= m * n <= 2 * 104\n\tgrid[i][j] is either 0, 1, or 2.\n\tgrid[0][0] == grid[m - 1][n - 1] == 0\n\n"
+}

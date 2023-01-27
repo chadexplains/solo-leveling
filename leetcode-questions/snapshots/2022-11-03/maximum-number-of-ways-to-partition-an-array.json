@@ -1,0 +1,12 @@
+{
+  "id": "maximum-number-of-ways-to-partition-an-array",
+  "name": "Maximum Number of Ways to Partition an Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Counting",
+    "Enumeration",
+    "Prefix Sum"
+  ],
+  "description": "You are given a 0-indexed integer array nums of length n. The number of ways to partition nums is the number of pivot indices that satisfy both conditions:\n\n\n\t1 <= pivot < n\n\tnums[0] + nums[1] + ... + nums[pivot - 1] == nums[pivot] + nums[pivot + 1] + ... + nums[n - 1]\n\n\nYou are also given an integer k. You can choose to change the value of one element of nums to k, or to leave the array unchanged.\n\nReturn the maximum possible number of ways to partition nums to satisfy both conditions after changing at most one element.\n\n \nExample 1:\n\nInput: nums = [2,-1,2], k = 3\nOutput: 1\nExplanation: One optimal approach is to change nums[0] to k. The array becomes [3,-1,2].\nThere is one way to partition the array:\n- For pivot = 2, we have the partition [3,-1 | 2]: 3 + -1 == 2.\n\n\nExample 2:\n\nInput: nums = [0,0,0], k = 1\nOutput: 2\nExplanation: The optimal approach is to leave the array unchanged.\nThere are two ways to partition the array:\n- For pivot = 1, we have the partition [0 | 0,0]: 0 == 0 + 0.\n- For pivot = 2, we have the partition [0,0 | 0]: 0 + 0 == 0.\n\n\nExample 3:\n\nInput: nums = [22,4,-25,-20,-15,15,-16,7,19,-10,0,-13,-14], k = -33\nOutput: 4\nExplanation: One optimal approach is to change nums[2] to k. The array becomes [22,4,-33,-20,-15,15,-16,7,19,-10,0,-13,-14].\nThere are four ways to partition the array.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t2 <= n <= 105\n\t-105 <= k, nums[i] <= 105\n\n"
+}

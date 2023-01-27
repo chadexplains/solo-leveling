@@ -1,0 +1,10 @@
+{
+  "id": "minimum-insertions-to-balance-a-parentheses-string",
+  "name": "Minimum Insertions to Balance a Parentheses String",
+  "tags": [
+    "String",
+    "Stack",
+    "Greedy"
+  ],
+  "description": "Given a parentheses string s containing only the characters '(' and ')'. A parentheses string is balanced if:\n\n\n\tAny left parenthesis '(' must have a corresponding two consecutive right parenthesis '))'.\n\tLeft parenthesis '(' must go before the corresponding two consecutive right parenthesis '))'.\n\n\nIn other words, we treat '(' as an opening parenthesis and '))' as a closing parenthesis.\n\n\n\tFor example, \"())\", \"())(())))\" and \"(())())))\" are balanced, \")()\", \"()))\" and \"(()))\" are not balanced.\n\n\nYou can insert the characters '(' and ')' at any position of the string to balance it if needed.\n\nReturn the minimum number of insertions needed to make s balanced.\n\n \nExample 1:\n\nInput: s = \"(()))\"\nOutput: 1\nExplanation: The second '(' has two matching '))', but the first '(' has only ')' matching. We need to add one more ')' at the end of the string to be \"(())))\" which is balanced.\n\n\nExample 2:\n\nInput: s = \"())\"\nOutput: 0\nExplanation: The string is already balanced.\n\n\nExample 3:\n\nInput: s = \"))())(\"\nOutput: 3\nExplanation: Add '(' to match the first '))', Add '))' to match the last '('.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of '(' and ')' only.\n\n"
+}

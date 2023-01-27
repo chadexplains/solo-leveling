@@ -1,0 +1,11 @@
+{
+  "id": "majority-element-ii",
+  "name": "Majority Element II",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sorting",
+    "Counting"
+  ],
+  "description": "Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.\n\n \nExample 1:\n\nInput: nums = [3,2,3]\nOutput: [3]\n\n\nExample 2:\n\nInput: nums = [1]\nOutput: [1]\n\n\nExample 3:\n\nInput: nums = [1,2]\nOutput: [1,2]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 5 * 104\n\t-109 <= nums[i] <= 109\n\n\n \nFollow up: Could you solve the problem in linear time and in O(1) space?\n"
+}

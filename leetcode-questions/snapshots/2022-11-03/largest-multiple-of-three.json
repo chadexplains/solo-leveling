@@ -1,0 +1,10 @@
+{
+  "id": "largest-multiple-of-three",
+  "name": "Largest Multiple of Three",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "description": "Given an array of digits digits, return the largest multiple of three that can be formed by concatenating some of the given digits in any order. If there is no answer return an empty string.\n\nSince the answer may not fit in an integer data type, return the answer as a string. Note that the returning answer must not contain unnecessary leading zeros.\n\n \nExample 1:\n\nInput: digits = [8,1,9]\nOutput: \"981\"\n\n\nExample 2:\n\nInput: digits = [8,6,7,1,0]\nOutput: \"8760\"\n\n\nExample 3:\n\nInput: digits = [1]\nOutput: \"\"\n\n\n \nConstraints:\n\n\n\t1 <= digits.length <= 104\n\t0 <= digits[i] <= 9\n\n"
+}

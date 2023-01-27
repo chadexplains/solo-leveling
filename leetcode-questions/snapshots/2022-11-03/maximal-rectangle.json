@@ -1,0 +1,12 @@
+{
+  "id": "maximal-rectangle",
+  "name": "Maximal Rectangle",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Stack",
+    "Matrix",
+    "Monotonic Stack"
+  ],
+  "description": "Given a rows x cols binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.\n\n \nExample 1:\n\nInput: matrix = [[\"1\",\"0\",\"1\",\"0\",\"0\"],[\"1\",\"0\",\"1\",\"1\",\"1\"],[\"1\",\"1\",\"1\",\"1\",\"1\"],[\"1\",\"0\",\"0\",\"1\",\"0\"]]\nOutput: 6\nExplanation: The maximal rectangle is shown in the above picture.\n\n\nExample 2:\n\nInput: matrix = [[\"0\"]]\nOutput: 0\n\n\nExample 3:\n\nInput: matrix = [[\"1\"]]\nOutput: 1\n\n\n \nConstraints:\n\n\n\trows == matrix.length\n\tcols == matrix[i].length\n\t1 <= row, cols <= 200\n\tmatrix[i][j] is '0' or '1'.\n\n"
+}

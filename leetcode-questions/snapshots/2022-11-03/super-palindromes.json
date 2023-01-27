@@ -1,0 +1,9 @@
+{
+  "id": "super-palindromes",
+  "name": "Super Palindromes",
+  "tags": [
+    "Math",
+    "Enumeration"
+  ],
+  "description": "Let's say a positive integer is a super-palindrome if it is a palindrome, and it is also the square of a palindrome.\n\nGiven two positive integers left and right represented as strings, return the number of super-palindromes integers in the inclusive range [left, right].\n\n \nExample 1:\n\nInput: left = \"4\", right = \"1000\"\nOutput: 4\nExplanation: 4, 9, 121, and 484 are superpalindromes.\nNote that 676 is not a superpalindrome: 26 * 26 = 676, but 26 is not a palindrome.\n\n\nExample 2:\n\nInput: left = \"1\", right = \"2\"\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= left.length, right.length <= 18\n\tleft and right consist of only digits.\n\tleft and right cannot have leading zeros.\n\tleft and right represent integers in the range [1, 1018 - 1].\n\tleft is less than or equal to right.\n\n"
+}

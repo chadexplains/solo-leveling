@@ -1,0 +1,10 @@
+{
+  "id": "shortest-distance-to-a-character",
+  "name": "Shortest Distance to a Character",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a string s and a character c that occurs in s, return an array of integers answer where answer.length == s.length and answer[i] is the distance from index i to the closest occurrence of character c in s.\n\nThe distance between two indices i and j is abs(i - j), where abs is the absolute value function.\n\n \nExample 1:\n\nInput: s = \"loveleetcode\", c = \"e\"\nOutput: [3,2,1,0,1,0,0,1,2,2,1,0]\nExplanation: The character 'e' appears at indices 3, 5, 6, and 11 (0-indexed).\nThe closest occurrence of 'e' for index 0 is at index 3, so the distance is abs(0 - 3) = 3.\nThe closest occurrence of 'e' for index 1 is at index 3, so the distance is abs(1 - 3) = 2.\nFor index 4, there is a tie between the 'e' at index 3 and the 'e' at index 5, but the distance is still the same: abs(4 - 3) == abs(4 - 5) = 1.\nThe closest occurrence of 'e' for index 8 is at index 6, so the distance is abs(8 - 6) = 2.\n\n\nExample 2:\n\nInput: s = \"aaab\", c = \"b\"\nOutput: [3,2,1,0]\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts[i] and c are lowercase English letters.\n\tIt is guaranteed that c occurs at least once in s.\n\n"
+}

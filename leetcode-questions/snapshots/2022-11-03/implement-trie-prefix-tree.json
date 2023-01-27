@@ -1,0 +1,11 @@
+{
+  "id": "implement-trie-prefix-tree",
+  "name": "Implement Trie (Prefix Tree)",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Design",
+    "Trie"
+  ],
+  "description": "A trie (pronounced as \"try\") or prefix tree is a tree data structure used to efficiently store and retrieve keys in a dataset of strings. There are various applications of this data structure, such as autocomplete and spellchecker.\n\nImplement the Trie class:\n\n\n\tTrie() Initializes the trie object.\n\tvoid insert(String word) Inserts the string word into the trie.\n\tboolean search(String word) Returns true if the string word is in the trie (i.e., was inserted before), and false otherwise.\n\tboolean startsWith(String prefix) Returns true if there is a previously inserted string word that has the prefix prefix, and false otherwise.\n\n\n \nExample 1:\n\nInput\n[\"Trie\", \"insert\", \"search\", \"search\", \"startsWith\", \"insert\", \"search\"]\n[[], [\"apple\"], [\"apple\"], [\"app\"], [\"app\"], [\"app\"], [\"app\"]]\nOutput\n[null, null, true, false, true, null, true]\n\nExplanation\nTrie trie = new Trie();\ntrie.insert(\"apple\");\ntrie.search(\"apple\");   // return True\ntrie.search(\"app\");     // return False\ntrie.startsWith(\"app\"); // return True\ntrie.insert(\"app\");\ntrie.search(\"app\");     // return True\n\n\n \nConstraints:\n\n\n\t1 <= word.length, prefix.length <= 2000\n\tword and prefix consist only of lowercase English letters.\n\tAt most 3 * 104 calls in total will be made to insert, search, and startsWith.\n\n"
+}

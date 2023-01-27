@@ -1,0 +1,9 @@
+{
+  "id": "maximum-number-of-consecutive-values-you-can-make",
+  "name": "Maximum Number of Consecutive Values You Can Make",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "description": "You are given an integer array coins of length n which represents the n coins that you own. The value of the ith coin is coins[i]. You can make some value x if you can choose some of your n coins such that their values sum up to x.\n\nReturn the maximum number of consecutive integer values that you can make with your coins starting from and including 0.\n\nNote that you may have multiple coins of the same value.\n\n \nExample 1:\n\nInput: coins = [1,3]\nOutput: 2\nExplanation: You can make the following values:\n- 0: take []\n- 1: take [1]\nYou can make 2 consecutive integer values starting from 0.\n\nExample 2:\n\nInput: coins = [1,1,1,4]\nOutput: 8\nExplanation: You can make the following values:\n- 0: take []\n- 1: take [1]\n- 2: take [1,1]\n- 3: take [1,1,1]\n- 4: take [4]\n- 5: take [4,1]\n- 6: take [4,1,1]\n- 7: take [4,1,1,1]\nYou can make 8 consecutive integer values starting from 0.\n\nExample 3:\n\nInput: nums = [1,4,10,3,1]\nOutput: 20\n\n \nConstraints:\n\n\n\tcoins.length == n\n\t1 <= n <= 4 * 104\n\t1 <= coins[i] <= 4 * 104\n\n"
+}

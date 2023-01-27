@@ -1,0 +1,10 @@
+{
+  "id": "next-greater-numerically-balanced-number",
+  "name": "Next Greater Numerically Balanced Number",
+  "tags": [
+    "Math",
+    "Backtracking",
+    "Enumeration"
+  ],
+  "description": "An integer x is numerically balanced if for every digit d in the number x, there are exactly d occurrences of that digit in x.\n\nGiven an integer n, return the smallest numerically balanced number strictly greater than n.\n\n \nExample 1:\n\nInput: n = 1\nOutput: 22\nExplanation: \n22 is numerically balanced since:\n- The digit 2 occurs 2 times. \nIt is also the smallest numerically balanced number strictly greater than 1.\n\n\nExample 2:\n\nInput: n = 1000\nOutput: 1333\nExplanation: \n1333 is numerically balanced since:\n- The digit 1 occurs 1 time.\n- The digit 3 occurs 3 times. \nIt is also the smallest numerically balanced number strictly greater than 1000.\nNote that 1022 cannot be the answer because 0 appeared more than 0 times.\n\n\nExample 3:\n\nInput: n = 3000\nOutput: 3133\nExplanation: \n3133 is numerically balanced since:\n- The digit 1 occurs 1 time.\n- The digit 3 occurs 3 times.\nIt is also the smallest numerically balanced number strictly greater than 3000.\n\n\n \nConstraints:\n\n\n\t0 <= n <= 106\n\n"
+}

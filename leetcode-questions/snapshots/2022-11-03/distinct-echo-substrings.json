@@ -1,0 +1,11 @@
+{
+  "id": "distinct-echo-substrings",
+  "name": "Distinct Echo Substrings",
+  "tags": [
+    "String",
+    "Trie",
+    "Rolling Hash",
+    "Hash Function"
+  ],
+  "description": "Return the number of distinct non-empty substrings of text that can be written as the concatenation of some string with itself (i.e. it can be written as a + a where a is some string).\n\n \nExample 1:\n\nInput: text = \"abcabcabc\"\nOutput: 3\nExplanation: The 3 substrings are \"abcabc\", \"bcabca\" and \"cabcab\".\n\n\nExample 2:\n\nInput: text = \"leetcodeleetcode\"\nOutput: 2\nExplanation: The 2 substrings are \"ee\" and \"leetcodeleetcode\".\n\n\n \nConstraints:\n\n\n\t1 <= text.length <= 2000\n\ttext has only lowercase English letters.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "gcd-sort-of-an-array",
+  "name": "GCD Sort of an Array",
+  "tags": [
+    "Array",
+    "Math",
+    "Union Find",
+    "Sorting"
+  ],
+  "description": "You are given an integer array nums, and you can perform the following operation any number of times on nums:\n\n\n\tSwap the positions of two elements nums[i] and nums[j] if gcd(nums[i], nums[j]) > 1 where gcd(nums[i], nums[j]) is the greatest common divisor of nums[i] and nums[j].\n\n\nReturn true if it is possible to sort nums in non-decreasing order using the above swap method, or false otherwise.\n\n \nExample 1:\n\nInput: nums = [7,21,3]\nOutput: true\nExplanation: We can sort [7,21,3] by performing the following operations:\n- Swap 7 and 21 because gcd(7,21) = 7. nums = [21,7,3]\n- Swap 21 and 3 because gcd(21,3) = 3. nums = [3,7,21]\n\n\nExample 2:\n\nInput: nums = [5,2,6,2]\nOutput: false\nExplanation: It is impossible to sort the array because 5 cannot be swapped with any other element.\n\n\nExample 3:\n\nInput: nums = [10,5,9,3,15]\nOutput: true\nWe can sort [10,5,9,3,15] by performing the following operations:\n- Swap 10 and 15 because gcd(10,15) = 5. nums = [15,5,9,3,10]\n- Swap 15 and 3 because gcd(15,3) = 3. nums = [3,5,9,15,10]\n- Swap 10 and 15 because gcd(10,15) = 5. nums = [3,5,9,10,15]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 3 * 104\n\t2 <= nums[i] <= 105\n\n"
+}

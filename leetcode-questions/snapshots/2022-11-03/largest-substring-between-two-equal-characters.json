@@ -1,0 +1,9 @@
+{
+  "id": "largest-substring-between-two-equal-characters",
+  "name": "Largest Substring Between Two Equal Characters",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given a string s, return the length of the longest substring between two equal characters, excluding the two characters. If there is no such substring return -1.\n\nA substring is a contiguous sequence of characters within a string.\n\n \nExample 1:\n\nInput: s = \"aa\"\nOutput: 0\nExplanation: The optimal substring here is an empty substring between the two 'a's.\n\nExample 2:\n\nInput: s = \"abca\"\nOutput: 2\nExplanation: The optimal substring here is \"bc\".\n\n\nExample 3:\n\nInput: s = \"cbzxy\"\nOutput: -1\nExplanation: There are no characters that appear twice in s.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 300\n\ts contains only lowercase English letters.\n\n"
+}

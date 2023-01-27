@@ -1,0 +1,11 @@
+{
+  "id": "shortest-palindrome",
+  "name": "Shortest Palindrome",
+  "tags": [
+    "String",
+    "Rolling Hash",
+    "String Matching",
+    "Hash Function"
+  ],
+  "description": "You are given a string s. You can convert s to a palindrome by adding characters in front of it.\n\nReturn the shortest palindrome you can find by performing this transformation.\n\n \nExample 1:\nInput: s = \"aacecaaa\"\nOutput: \"aaacecaaa\"\nExample 2:\nInput: s = \"abcd\"\nOutput: \"dcbabcd\"\n\n \nConstraints:\n\n\n\t0 <= s.length <= 5 * 104\n\ts consists of lowercase English letters only.\n\n"
+}

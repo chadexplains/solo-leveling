@@ -1,0 +1,9 @@
+{
+  "id": "shifting-letters",
+  "name": "Shifting Letters",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "You are given a string s of lowercase English letters and an integer array shifts of the same length.\n\nCall the shift() of a letter, the next letter in the alphabet, (wrapping around so that 'z' becomes 'a').\n\n\n\tFor example, shift('a') = 'b', shift('t') = 'u', and shift('z') = 'a'.\n\n\nNow for each shifts[i] = x, we want to shift the first i + 1 letters of s, x times.\n\nReturn the final string after all such shifts to s are applied.\n\n \nExample 1:\n\nInput: s = \"abc\", shifts = [3,5,9]\nOutput: \"rpl\"\nExplanation: We start with \"abc\".\nAfter shifting the first 1 letters of s by 3, we have \"dbc\".\nAfter shifting the first 2 letters of s by 5, we have \"igc\".\nAfter shifting the first 3 letters of s by 9, we have \"rpl\", the answer.\n\n\nExample 2:\n\nInput: s = \"aaa\", shifts = [1,2,3]\nOutput: \"gfd\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of lowercase English letters.\n\tshifts.length == s.length\n\t0 <= shifts[i] <= 109\n\n"
+}

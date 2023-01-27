@@ -1,0 +1,12 @@
+{
+  "id": "minimum-number-of-days-to-disconnect-island",
+  "name": "Minimum Number of Days to Disconnect Island",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Matrix",
+    "Strongly Connected Component"
+  ],
+  "description": "You are given an m x n binary grid grid where 1 represents land and 0 represents water. An island is a maximal 4-directionally (horizontal or vertical) connected group of 1's.\n\nThe grid is said to be connected if we have exactly one island, otherwise is said disconnected.\n\nIn one day, we are allowed to change any single land cell (1) into a water cell (0).\n\nReturn the minimum number of days to disconnect the grid.\n\n \nExample 1:\n\nInput: grid = [[0,1,1,0],[0,1,1,0],[0,0,0,0]]\n\nOutput: 2\nExplanation: We need at least 2 days to get a disconnected grid.\nChange land grid[1][1] and grid[0][2] to water and get 2 disconnected island.\n\n\nExample 2:\n\nInput: grid = [[1,1]]\nOutput: 2\nExplanation: Grid of full water is also disconnected ([[1,1]] -> [[0,0]]), 0 islands.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 30\n\tgrid[i][j] is either 0 or 1.\n\n"
+}

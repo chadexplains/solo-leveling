@@ -1,0 +1,10 @@
+{
+  "id": "push-dominoes",
+  "name": "Push Dominoes",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "There are n dominoes in a line, and we place each domino vertically upright. In the beginning, we simultaneously push some of the dominoes either to the left or to the right.\n\nAfter each second, each domino that is falling to the left pushes the adjacent domino on the left. Similarly, the dominoes falling to the right push their adjacent dominoes standing on the right.\n\nWhen a vertical domino has dominoes falling on it from both sides, it stays still due to the balance of the forces.\n\nFor the purposes of this question, we will consider that a falling domino expends no additional force to a falling or already fallen domino.\n\nYou are given a string dominoes representing the initial state where:\n\n\n\tdominoes[i] = 'L', if the ith domino has been pushed to the left,\n\tdominoes[i] = 'R', if the ith domino has been pushed to the right, and\n\tdominoes[i] = '.', if the ith domino has not been pushed.\n\n\nReturn a string representing the final state.\n\n \nExample 1:\n\nInput: dominoes = \"RR.L\"\nOutput: \"RR.L\"\nExplanation: The first domino expends no additional force on the second domino.\n\n\nExample 2:\n\nInput: dominoes = \".L.R...LR..L..\"\nOutput: \"LL.RR.LLRRLL..\"\n\n\n \nConstraints:\n\n\n\tn == dominoes.length\n\t1 <= n <= 105\n\tdominoes[i] is either 'L', 'R', or '.'.\n\n"
+}

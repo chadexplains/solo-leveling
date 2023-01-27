@@ -1,0 +1,11 @@
+{
+  "id": "maximize-the-confusion-of-an-exam",
+  "name": "Maximize the Confusion of an Exam",
+  "tags": [
+    "String",
+    "Binary Search",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "description": "A teacher is writing a test with n true/false questions, with 'T' denoting true and 'F' denoting false. He wants to confuse the students by maximizing the number of consecutive questions with the same answer (multiple trues or multiple falses in a row).\n\nYou are given a string answerKey, where answerKey[i] is the original answer to the ith question. In addition, you are given an integer k, the maximum number of times you may perform the following operation:\n\n\n\tChange the answer key for any question to 'T' or 'F' (i.e., set answerKey[i] to 'T' or 'F').\n\n\nReturn the maximum number of consecutive 'T's or 'F's in the answer key after performing the operation at most k times.\n\n \nExample 1:\n\nInput: answerKey = \"TTFF\", k = 2\nOutput: 4\nExplanation: We can replace both the 'F's with 'T's to make answerKey = \"TTTT\".\nThere are four consecutive 'T's.\n\n\nExample 2:\n\nInput: answerKey = \"TFFT\", k = 1\nOutput: 3\nExplanation: We can replace the first 'T' with an 'F' to make answerKey = \"FFFT\".\nAlternatively, we can replace the second 'T' with an 'F' to make answerKey = \"TFFF\".\nIn both cases, there are three consecutive 'F's.\n\n\nExample 3:\n\nInput: answerKey = \"TTFTTFTT\", k = 1\nOutput: 5\nExplanation: We can replace the first 'F' to make answerKey = \"TTTTTFTT\"\nAlternatively, we can replace the second 'F' to make answerKey = \"TTFTTTTT\". \nIn both cases, there are five consecutive 'T's.\n\n\n \nConstraints:\n\n\n\tn == answerKey.length\n\t1 <= n <= 5 * 104\n\tanswerKey[i] is either 'T' or 'F'\n\t1 <= k <= n\n\n"
+}

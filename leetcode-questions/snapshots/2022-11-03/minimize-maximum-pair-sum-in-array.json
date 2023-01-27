@@ -1,0 +1,11 @@
+{
+  "id": "minimize-maximum-pair-sum-in-array",
+  "name": "Minimize Maximum Pair Sum in Array",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "The pair sum of a pair (a,b) is equal to a + b. The maximum pair sum is the largest pair sum in a list of pairs.\n\n\n\tFor example, if we have pairs (1,5), (2,3), and (4,4), the maximum pair sum would be max(1+5, 2+3, 4+4) = max(6, 5, 8) = 8.\n\n\nGiven an array nums of even length n, pair up the elements of nums into n / 2 pairs such that:\n\n\n\tEach element of nums is in exactly one pair, and\n\tThe maximum pair sum is minimized.\n\n\nReturn the minimized maximum pair sum after optimally pairing up the elements.\n\n \nExample 1:\n\nInput: nums = [3,5,2,3]\nOutput: 7\nExplanation: The elements can be paired up into pairs (3,3) and (5,2).\nThe maximum pair sum is max(3+3, 5+2) = max(6, 7) = 7.\n\n\nExample 2:\n\nInput: nums = [3,5,4,2,4,6]\nOutput: 8\nExplanation: The elements can be paired up into pairs (3,5), (4,4), and (6,2).\nThe maximum pair sum is max(3+5, 4+4, 6+2) = max(8, 8, 8) = 8.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t2 <= n <= 105\n\tn is even.\n\t1 <= nums[i] <= 105\n"
+}

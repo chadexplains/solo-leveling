@@ -1,0 +1,9 @@
+{
+  "id": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+  "name": "The k-th Lexicographical String of All Happy Strings of Length n",
+  "tags": [
+    "String",
+    "Backtracking"
+  ],
+  "description": "A happy string is a string that:\n\n\n\tconsists only of letters of the set ['a', 'b', 'c'].\n\ts[i] != s[i + 1] for all values of i from 1 to s.length - 1 (string is 1-indexed).\n\n\nFor example, strings \"abc\", \"ac\", \"b\" and \"abcbabcbcb\" are all happy strings and strings \"aa\", \"baa\" and \"ababbc\" are not happy strings.\n\nGiven two integers n and k, consider a list of all happy strings of length n sorted in lexicographical order.\n\nReturn the kth string of this list or return an empty string if there are less than k happy strings of length n.\n\n \nExample 1:\n\nInput: n = 1, k = 3\nOutput: \"c\"\nExplanation: The list [\"a\", \"b\", \"c\"] contains all happy strings of length 1. The third string is \"c\".\n\n\nExample 2:\n\nInput: n = 1, k = 4\nOutput: \"\"\nExplanation: There are only 3 happy strings of length 1.\n\n\nExample 3:\n\nInput: n = 3, k = 9\nOutput: \"cab\"\nExplanation: There are 12 different happy string of length 3 [\"aba\", \"abc\", \"aca\", \"acb\", \"bab\", \"bac\", \"bca\", \"bcb\", \"cab\", \"cac\", \"cba\", \"cbc\"]. You will find the 9th string = \"cab\"\n\n\n \nConstraints:\n\n\n\t1 <= n <= 10\n\t1 <= k <= 100\n\n"
+}

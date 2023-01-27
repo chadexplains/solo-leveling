@@ -1,0 +1,9 @@
+{
+  "id": "path-crossing",
+  "name": "Path Crossing",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given a string path, where path[i] = 'N', 'S', 'E' or 'W', each representing moving one unit north, south, east, or west, respectively. You start at the origin (0, 0) on a 2D plane and walk on the path specified by path.\n\nReturn true if the path crosses itself at any point, that is, if at any time you are on a location you have previously visited. Return false otherwise.\n\n \nExample 1:\n\nInput: path = \"NES\"\nOutput: false \nExplanation: Notice that the path doesn't cross any point more than once.\n\n\nExample 2:\n\nInput: path = \"NESWW\"\nOutput: true\nExplanation: Notice that the path visits the origin twice.\n\n \nConstraints:\n\n\n\t1 <= path.length <= 104\n\tpath[i] is either 'N', 'S', 'E', or 'W'.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "2-keys-keyboard",
+  "name": "2 Keys Keyboard",
+  "tags": [
+    "Math",
+    "Dynamic Programming"
+  ],
+  "description": "There is only one character 'A' on the screen of a notepad. You can perform one of two operations on this notepad for each step:\n\n\n\tCopy All: You can copy all the characters present on the screen (a partial copy is not allowed).\n\tPaste: You can paste the characters which are copied last time.\n\n\nGiven an integer n, return the minimum number of operations to get the character 'A' exactly n times on the screen.\n\n \nExample 1:\n\nInput: n = 3\nOutput: 3\nExplanation: Initially, we have one character 'A'.\nIn step 1, we use Copy All operation.\nIn step 2, we use Paste operation to get 'AA'.\nIn step 3, we use Paste operation to get 'AAA'.\n\n\nExample 2:\n\nInput: n = 1\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= n <= 1000\n\n"
+}

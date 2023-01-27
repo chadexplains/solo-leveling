@@ -1,0 +1,8 @@
+{
+  "id": "check-if-binary-string-has-at-most-one-segment-of-ones",
+  "name": "Check if Binary String Has at Most One Segment of Ones",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a binary string s ​​​​​without leading zeros, return true​​​ if s contains at most one contiguous segment of ones. Otherwise, return false.\n\n \nExample 1:\n\nInput: s = \"1001\"\nOutput: false\nExplanation: The ones do not form a contiguous segment.\n\n\nExample 2:\n\nInput: s = \"110\"\nOutput: true\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts[i]​​​​ is either '0' or '1'.\n\ts[0] is '1'.\n\n"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "all-elements-in-two-binary-search-trees",
+  "name": "All Elements in Two Binary Search Trees",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Sorting",
+    "Binary Tree"
+  ],
+  "description": "Given two binary search trees root1 and root2, return a list containing all the integers from both trees sorted in ascending order.\n\n \nExample 1:\n\nInput: root1 = [2,1,4], root2 = [1,0,3]\nOutput: [0,1,1,2,3,4]\n\n\nExample 2:\n\nInput: root1 = [1,null,8], root2 = [8,1]\nOutput: [1,1,8,8]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in each tree is in the range [0, 5000].\n\t-105 <= Node.val <= 105\n\n"
+}

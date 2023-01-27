@@ -1,0 +1,10 @@
+{
+  "id": "employee-importance",
+  "name": "Employee Importance",
+  "tags": [
+    "Hash Table",
+    "Depth-First Search",
+    "Breadth-First Search"
+  ],
+  "description": "You have a data structure of employee information, including the employee's unique ID, importance value, and direct subordinates' IDs.\n\nYou are given an array of employees employees where:\n\n\n\temployees[i].id is the ID of the ith employee.\n\temployees[i].importance is the importance value of the ith employee.\n\temployees[i].subordinates is a list of the IDs of the direct subordinates of the ith employee.\n\n\nGiven an integer id that represents an employee's ID, return the total importance value of this employee and all their direct and indirect subordinates.\n\n \nExample 1:\n\nInput: employees = [[1,5,[2,3]],[2,3,[]],[3,3,[]]], id = 1\nOutput: 11\nExplanation: Employee 1 has an importance value of 5 and has two direct subordinates: employee 2 and employee 3.\nThey both have an importance value of 3.\nThus, the total importance value of employee 1 is 5 + 3 + 3 = 11.\n\n\nExample 2:\n\nInput: employees = [[1,2,[5]],[5,-3,[]]], id = 5\nOutput: -3\nExplanation: Employee 5 has an importance value of -3 and has no direct subordinates.\nThus, the total importance value of employee 5 is -3.\n\n\n \nConstraints:\n\n\n\t1 <= employees.length <= 2000\n\t1 <= employees[i].id <= 2000\n\tAll employees[i].id are unique.\n\t-100 <= employees[i].importance <= 100\n\tOne employee has at most one direct leader and may have several subordinates.\n\tThe IDs in employees[i].subordinates are valid IDs.\n\n"
+}

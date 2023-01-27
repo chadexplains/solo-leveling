@@ -1,0 +1,10 @@
+{
+  "id": "check-if-word-can-be-placed-in-crossword",
+  "name": "Check if Word Can Be Placed In Crossword",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Enumeration"
+  ],
+  "description": "You are given an m x n matrix board, representing the current state of a crossword puzzle. The crossword contains lowercase English letters (from solved words), ' ' to represent any empty cells, and '#' to represent any blocked cells.\n\nA word can be placed horizontally (left to right or right to left) or vertically (top to bottom or bottom to top) in the board if:\n\n\n\tIt does not occupy a cell containing the character '#'.\n\tThe cell each letter is placed in must either be ' ' (empty) or match the letter already on the board.\n\tThere must not be any empty cells ' ' or other lowercase letters directly left or right of the word if the word was placed horizontally.\n\tThere must not be any empty cells ' ' or other lowercase letters directly above or below the word if the word was placed vertically.\n\n\nGiven a string word, return true if word can be placed in board, or false otherwise.\n\n \nExample 1:\n\nInput: board = [[\"#\", \" \", \"#\"], [\" \", \" \", \"#\"], [\"#\", \"c\", \" \"]], word = \"abc\"\nOutput: true\nExplanation: The word \"abc\" can be placed as shown above (top to bottom).\n\n\nExample 2:\n\nInput: board = [[\" \", \"#\", \"a\"], [\" \", \"#\", \"c\"], [\" \", \"#\", \"a\"]], word = \"ac\"\nOutput: false\nExplanation: It is impossible to place the word because there will always be a space/letter above or below it.\n\nExample 3:\n\nInput: board = [[\"#\", \" \", \"#\"], [\" \", \" \", \"#\"], [\"#\", \" \", \"c\"]], word = \"ca\"\nOutput: true\nExplanation: The word \"ca\" can be placed as shown above (right to left). \n\n\n \nConstraints:\n\n\n\tm == board.length\n\tn == board[i].length\n\t1 <= m * n <= 2 * 105\n\tboard[i][j] will be ' ', '#', or a lowercase English letter.\n\t1 <= word.length <= max(m, n)\n\tword will contain only lowercase English letters.\n\n"
+}

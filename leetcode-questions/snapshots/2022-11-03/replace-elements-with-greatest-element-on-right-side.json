@@ -1,0 +1,8 @@
+{
+  "id": "replace-elements-with-greatest-element-on-right-side",
+  "name": "Replace Elements with Greatest Element on Right Side",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given an array arr, replace every element in that array with the greatest element among the elements to its right, and replace the last element with -1.\n\nAfter doing so, return the array.\n\n \nExample 1:\n\nInput: arr = [17,18,5,4,6,1]\nOutput: [18,6,6,6,1,-1]\nExplanation: \n- index 0 --> the greatest element to the right of index 0 is index 1 (18).\n- index 1 --> the greatest element to the right of index 1 is index 4 (6).\n- index 2 --> the greatest element to the right of index 2 is index 4 (6).\n- index 3 --> the greatest element to the right of index 3 is index 4 (6).\n- index 4 --> the greatest element to the right of index 4 is index 5 (1).\n- index 5 --> there are no elements to the right of index 5, so we put -1.\n\n\nExample 2:\n\nInput: arr = [400]\nOutput: [-1]\nExplanation: There are no elements to the right of index 0.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 104\n\t1 <= arr[i] <= 105\n\n"
+}

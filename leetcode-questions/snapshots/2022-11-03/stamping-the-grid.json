@@ -1,0 +1,11 @@
+{
+  "id": "stamping-the-grid",
+  "name": "Stamping the Grid",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Matrix",
+    "Prefix Sum"
+  ],
+  "description": "You are given an m x n binary matrix grid where each cell is either 0 (empty) or 1 (occupied).\n\nYou are then given stamps of size stampHeight x stampWidth. We want to fit the stamps such that they follow the given restrictions and requirements:\n\n\n\tCover all the empty cells.\n\tDo not cover any of the occupied cells.\n\tWe can put as many stamps as we want.\n\tStamps can overlap with each other.\n\tStamps are not allowed to be rotated.\n\tStamps must stay completely inside the grid.\n\n\nReturn true if it is possible to fit the stamps while following the given restrictions and requirements. Otherwise, return false.\n\n \nExample 1:\n\nInput: grid = [[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0],[1,0,0,0]], stampHeight = 4, stampWidth = 3\nOutput: true\nExplanation: We have two overlapping stamps (labeled 1 and 2 in the image) that are able to cover all the empty cells.\n\n\nExample 2:\n\nInput: grid = [[1,0,0,0],[0,1,0,0],[0,0,1,0],[0,0,0,1]], stampHeight = 2, stampWidth = 2 \nOutput: false \nExplanation: There is no way to fit the stamps onto all the empty cells without the stamps going outside the grid.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[r].length\n\t1 <= m, n <= 105\n\t1 <= m * n <= 2 * 105\n\tgrid[r][c] is either 0 or 1.\n\t1 <= stampHeight, stampWidth <= 105\n\n"
+}

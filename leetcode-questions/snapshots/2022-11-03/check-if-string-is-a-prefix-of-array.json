@@ -1,0 +1,9 @@
+{
+  "id": "check-if-string-is-a-prefix-of-array",
+  "name": "Check If String Is a Prefix of Array",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "Given a string s and an array of strings words, determine whether s is a prefix string of words.\n\nA string s is a prefix string of words if s can be made by concatenating the first k strings in words for some positive k no larger than words.length.\n\nReturn true if s is a prefix string of words, or false otherwise.\n\n \nExample 1:\n\nInput: s = \"iloveleetcode\", words = [\"i\",\"love\",\"leetcode\",\"apples\"]\nOutput: true\nExplanation:\ns can be made by concatenating \"i\", \"love\", and \"leetcode\" together.\n\n\nExample 2:\n\nInput: s = \"iloveleetcode\", words = [\"apples\",\"i\",\"love\",\"leetcode\"]\nOutput: false\nExplanation:\nIt is impossible to make s using a prefix of arr.\n\n \nConstraints:\n\n\n\t1 <= words.length <= 100\n\t1 <= words[i].length <= 20\n\t1 <= s.length <= 1000\n\twords[i] and s consist of only lowercase English letters.\n\n"
+}

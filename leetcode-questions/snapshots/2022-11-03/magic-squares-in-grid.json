@@ -1,0 +1,10 @@
+{
+  "id": "magic-squares-in-grid",
+  "name": "Magic Squares In Grid",
+  "tags": [
+    "Array",
+    "Math",
+    "Matrix"
+  ],
+  "description": "A 3 x 3 magic square is a 3 x 3 grid filled with distinct numbers from 1 to 9 such that each row, column, and both diagonals all have the same sum.\n\nGiven a row x col grid of integers, how many 3 x 3 \"magic square\" subgrids are there?  (Each subgrid is contiguous).\n\n \nExample 1:\n\nInput: grid = [[4,3,8,4],[9,5,1,9],[2,7,6,2]]\nOutput: 1\nExplanation: \nThe following subgrid is a 3 x 3 magic square:\n\nwhile this one is not:\n\nIn total, there is only one magic square inside the given grid.\n\n\nExample 2:\n\nInput: grid = [[8]]\nOutput: 0\n\n\n \nConstraints:\n\n\n\trow == grid.length\n\tcol == grid[i].length\n\t1 <= row, col <= 10\n\t0 <= grid[i][j] <= 15\n\n"
+}

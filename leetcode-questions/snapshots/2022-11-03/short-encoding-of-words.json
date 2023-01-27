@@ -1,0 +1,11 @@
+{
+  "id": "short-encoding-of-words",
+  "name": "Short Encoding of Words",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Trie"
+  ],
+  "description": "A valid encoding of an array of words is any reference string s and array of indices indices such that:\n\n\n\twords.length == indices.length\n\tThe reference string s ends with the '#' character.\n\tFor each index indices[i], the substring of s starting from indices[i] and up to (but not including) the next '#' character is equal to words[i].\n\n\nGiven an array of words, return the length of the shortest reference string s possible of any valid encoding of words.\n\n \nExample 1:\n\nInput: words = [\"time\", \"me\", \"bell\"]\nOutput: 10\nExplanation: A valid encoding would be s = \"time#bell#\" and indices = [0, 2, 5].\nwords[0] = \"time\", the substring of s starting from indices[0] = 0 to the next '#' is underlined in \"time#bell#\"\nwords[1] = \"me\", the substring of s starting from indices[1] = 2 to the next '#' is underlined in \"time#bell#\"\nwords[2] = \"bell\", the substring of s starting from indices[2] = 5 to the next '#' is underlined in \"time#bell#\"\n\n\nExample 2:\n\nInput: words = [\"t\"]\nOutput: 2\nExplanation: A valid encoding would be s = \"t#\" and indices = [0].\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 2000\n\t1 <= words[i].length <= 7\n\twords[i] consists of only lowercase letters.\n\n"
+}

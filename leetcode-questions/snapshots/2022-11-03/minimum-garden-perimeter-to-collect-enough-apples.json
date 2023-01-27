@@ -1,0 +1,9 @@
+{
+  "id": "minimum-garden-perimeter-to-collect-enough-apples",
+  "name": "Minimum Garden Perimeter to Collect Enough Apples",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "In a garden represented as an infinite 2D grid, there is an apple tree planted at every integer coordinate. The apple tree planted at an integer coordinate (i, j) has |i| + |j| apples growing on it.\n\nYou will buy an axis-aligned square plot of land that is centered at (0, 0).\n\nGiven an integer neededApples, return the minimum perimeter of a plot such that at least neededApples apples are inside or on the perimeter of that plot.\n\nThe value of |x| is defined as:\n\n\n\tx if x >= 0\n\t-x if x < 0\n\n\n \nExample 1:\n\nInput: neededApples = 1\nOutput: 8\nExplanation: A square plot of side length 1 does not contain any apples.\nHowever, a square plot of side length 2 has 12 apples inside (as depicted in the image above).\nThe perimeter is 2 * 4 = 8.\n\n\nExample 2:\n\nInput: neededApples = 13\nOutput: 16\n\n\nExample 3:\n\nInput: neededApples = 1000000000\nOutput: 5040\n\n\n \nConstraints:\n\n\n\t1 <= neededApples <= 1015\n\n"
+}

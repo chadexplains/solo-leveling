@@ -1,0 +1,10 @@
+{
+  "id": "squares-of-a-sorted-array",
+  "name": "Squares of a Sorted Array",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums sorted in non-decreasing order, return an array of the squares of each number sorted in non-decreasing order.\n\n \nExample 1:\n\nInput: nums = [-4,-1,0,3,10]\nOutput: [0,1,9,16,100]\nExplanation: After squaring, the array becomes [16,1,0,9,100].\nAfter sorting, it becomes [0,1,9,16,100].\n\n\nExample 2:\n\nInput: nums = [-7,-3,2,3,11]\nOutput: [4,9,9,49,121]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 104\n\t-104 <= nums[i] <= 104\n\tnums is sorted in non-decreasing order.\n\n\n \nFollow up: Squaring each element and sorting the new array is very trivial, could you find an O(n) solution using a different approach?"
+}

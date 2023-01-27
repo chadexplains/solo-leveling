@@ -1,0 +1,11 @@
+{
+  "id": "surface-area-of-3d-shapes",
+  "name": "Surface Area of 3D Shapes",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry",
+    "Matrix"
+  ],
+  "description": "You are given an n x n grid where you have placed some 1 x 1 x 1 cubes. Each value v = grid[i][j] represents a tower of v cubes placed on top of cell (i, j).\n\nAfter placing these cubes, you have decided to glue any directly adjacent cubes to each other, forming several irregular 3D shapes.\n\nReturn the total surface area of the resulting shapes.\n\nNote: The bottom face of each shape counts toward its surface area.\n\n \nExample 1:\n\nInput: grid = [[1,2],[3,4]]\nOutput: 34\n\n\nExample 2:\n\nInput: grid = [[1,1,1],[1,0,1],[1,1,1]]\nOutput: 32\n\n\nExample 3:\n\nInput: grid = [[2,2,2],[2,1,2],[2,2,2]]\nOutput: 46\n\n\n \nConstraints:\n\n\n\tn == grid.length == grid[i].length\n\t1 <= n <= 50\n\t0 <= grid[i][j] <= 50\n\n"
+}

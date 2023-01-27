@@ -1,0 +1,11 @@
+{
+  "id": "set-mismatch",
+  "name": "Set Mismatch",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Bit Manipulation",
+    "Sorting"
+  ],
+  "description": "You have a set of integers s, which originally contains all the numbers from 1 to n. Unfortunately, due to some error, one of the numbers in s got duplicated to another number in the set, which results in repetition of one number and loss of another number.\n\nYou are given an integer array nums representing the data status of this set after the error.\n\nFind the number that occurs twice and the number that is missing and return them in the form of an array.\n\n \nExample 1:\nInput: nums = [1,2,2,4]\nOutput: [2,3]\nExample 2:\nInput: nums = [1,1]\nOutput: [1,2]\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 104\n\t1 <= nums[i] <= 104\n\n"
+}

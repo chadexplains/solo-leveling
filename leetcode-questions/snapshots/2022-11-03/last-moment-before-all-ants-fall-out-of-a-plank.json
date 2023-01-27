@@ -1,0 +1,10 @@
+{
+  "id": "last-moment-before-all-ants-fall-out-of-a-plank",
+  "name": "Last Moment Before All Ants Fall Out of a Plank",
+  "tags": [
+    "Array",
+    "Brainteaser",
+    "Simulation"
+  ],
+  "description": "We have a wooden plank of the length n units. Some ants are walking on the plank, each ant moves with a speed of 1 unit per second. Some of the ants move to the left, the other move to the right.\n\nWhen two ants moving in two different directions meet at some point, they change their directions and continue moving again. Assume changing directions does not take any additional time.\n\nWhen an ant reaches one end of the plank at a time t, it falls out of the plank immediately.\n\nGiven an integer n and two integer arrays left and right, the positions of the ants moving to the left and the right, return the moment when the last ant(s) fall out of the plank.\n\n \nExample 1:\n\nInput: n = 4, left = [4,3], right = [0,1]\nOutput: 4\nExplanation: In the image above:\n-The ant at index 0 is named A and going to the right.\n-The ant at index 1 is named B and going to the right.\n-The ant at index 3 is named C and going to the left.\n-The ant at index 4 is named D and going to the left.\nThe last moment when an ant was on the plank is t = 4 seconds. After that, it falls immediately out of the plank. (i.e., We can say that at t = 4.0000000001, there are no ants on the plank).\n\n\nExample 2:\n\nInput: n = 7, left = [], right = [0,1,2,3,4,5,6,7]\nOutput: 7\nExplanation: All ants are going to the right, the ant at index 0 needs 7 seconds to fall.\n\n\nExample 3:\n\nInput: n = 7, left = [0,1,2,3,4,5,6,7], right = []\nOutput: 7\nExplanation: All ants are going to the left, the ant at index 7 needs 7 seconds to fall.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 104\n\t0 <= left.length <= n + 1\n\t0 <= left[i] <= n\n\t0 <= right.length <= n + 1\n\t0 <= right[i] <= n\n\t1 <= left.length + right.length <= n + 1\n\tAll values of left and right are unique, and each value can appear only in one of the two arrays.\n\n"
+}

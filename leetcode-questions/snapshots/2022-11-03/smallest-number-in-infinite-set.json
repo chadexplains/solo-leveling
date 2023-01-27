@@ -1,0 +1,10 @@
+{
+  "id": "smallest-number-in-infinite-set",
+  "name": "Smallest Number in Infinite Set",
+  "tags": [
+    "Hash Table",
+    "Design",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You have a set which contains all positive integers [1, 2, 3, 4, 5, ...].\n\nImplement the SmallestInfiniteSet class:\n\n\n\tSmallestInfiniteSet() Initializes the SmallestInfiniteSet object to contain all positive integers.\n\tint popSmallest() Removes and returns the smallest integer contained in the infinite set.\n\tvoid addBack(int num) Adds a positive integer num back into the infinite set, if it is not already in the infinite set.\n\n\n \nExample 1:\n\nInput\n[\"SmallestInfiniteSet\", \"addBack\", \"popSmallest\", \"popSmallest\", \"popSmallest\", \"addBack\", \"popSmallest\", \"popSmallest\", \"popSmallest\"]\n[[], [2], [], [], [], [1], [], [], []]\nOutput\n[null, null, 1, 2, 3, null, 1, 4, 5]\n\nExplanation\nSmallestInfiniteSet smallestInfiniteSet = new SmallestInfiniteSet();\nsmallestInfiniteSet.addBack(2);    // 2 is already in the set, so no change is made.\nsmallestInfiniteSet.popSmallest(); // return 1, since 1 is the smallest number, and remove it from the set.\nsmallestInfiniteSet.popSmallest(); // return 2, and remove it from the set.\nsmallestInfiniteSet.popSmallest(); // return 3, and remove it from the set.\nsmallestInfiniteSet.addBack(1);    // 1 is added back to the set.\nsmallestInfiniteSet.popSmallest(); // return 1, since 1 was added back to the set and\n                                   // is the smallest number, and remove it from the set.\nsmallestInfiniteSet.popSmallest(); // return 4, and remove it from the set.\nsmallestInfiniteSet.popSmallest(); // return 5, and remove it from the set.\n\n\n \nConstraints:\n\n\n\t1 <= num <= 1000\n\tAt most 1000 calls will be made in total to popSmallest and addBack.\n\n"
+}

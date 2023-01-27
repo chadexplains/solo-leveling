@@ -1,0 +1,13 @@
+{
+  "id": "shortest-unsorted-continuous-subarray",
+  "name": "Shortest Unsorted Continuous Subarray",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Stack",
+    "Greedy",
+    "Sorting",
+    "Monotonic Stack"
+  ],
+  "description": "Given an integer array nums, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order.\n\nReturn the shortest such subarray and output its length.\n\n \nExample 1:\n\nInput: nums = [2,6,4,8,10,9,15]\nOutput: 5\nExplanation: You need to sort [6, 4, 8, 10, 9] in ascending order to make the whole array sorted in ascending order.\n\n\nExample 2:\n\nInput: nums = [1,2,3,4]\nOutput: 0\n\n\nExample 3:\n\nInput: nums = [1]\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 104\n\t-105 <= nums[i] <= 105\n\n\n \nFollow up: Can you solve it in O(n) time complexity?"
+}

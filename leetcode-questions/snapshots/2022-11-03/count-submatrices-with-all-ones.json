@@ -1,0 +1,12 @@
+{
+  "id": "count-submatrices-with-all-ones",
+  "name": "Count Submatrices With All Ones",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Stack",
+    "Matrix",
+    "Monotonic Stack"
+  ],
+  "description": "Given an m x n binary matrix mat, return the number of submatrices that have all ones.\n\n \nExample 1:\n\nInput: mat = [[1,0,1],[1,1,0],[1,1,0]]\nOutput: 13\nExplanation: \nThere are 6 rectangles of side 1x1.\nThere are 2 rectangles of side 1x2.\nThere are 3 rectangles of side 2x1.\nThere is 1 rectangle of side 2x2. \nThere is 1 rectangle of side 3x1.\nTotal number of rectangles = 6 + 2 + 3 + 1 + 1 = 13.\n\n\nExample 2:\n\nInput: mat = [[0,1,1,0],[0,1,1,1],[1,1,1,0]]\nOutput: 24\nExplanation: \nThere are 8 rectangles of side 1x1.\nThere are 5 rectangles of side 1x2.\nThere are 2 rectangles of side 1x3. \nThere are 4 rectangles of side 2x1.\nThere are 2 rectangles of side 2x2. \nThere are 2 rectangles of side 3x1. \nThere is 1 rectangle of side 3x2. \nTotal number of rectangles = 8 + 5 + 2 + 4 + 2 + 2 + 1 = 24.\n\n\n \nConstraints:\n\n\n\t1 <= m, n <= 150\n\tmat[i][j] is either 0 or 1.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "prison-cells-after-n-days",
+  "name": "Prison Cells After N Days",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Bit Manipulation"
+  ],
+  "description": "There are 8 prison cells in a row and each cell is either occupied or vacant.\n\nEach day, whether the cell is occupied or vacant changes according to the following rules:\n\n\n\tIf a cell has two adjacent neighbors that are both occupied or both vacant, then the cell becomes occupied.\n\tOtherwise, it becomes vacant.\n\n\nNote that because the prison is a row, the first and the last cells in the row can't have two adjacent neighbors.\n\nYou are given an integer array cells where cells[i] == 1 if the ith cell is occupied and cells[i] == 0 if the ith cell is vacant, and you are given an integer n.\n\nReturn the state of the prison after n days (i.e., n such changes described above).\n\n \nExample 1:\n\nInput: cells = [0,1,0,1,1,0,0,1], n = 7\nOutput: [0,0,1,1,0,0,0,0]\nExplanation: The following table summarizes the state of the prison on each day:\nDay 0: [0, 1, 0, 1, 1, 0, 0, 1]\nDay 1: [0, 1, 1, 0, 0, 0, 0, 0]\nDay 2: [0, 0, 0, 0, 1, 1, 1, 0]\nDay 3: [0, 1, 1, 0, 0, 1, 0, 0]\nDay 4: [0, 0, 0, 0, 0, 1, 0, 0]\nDay 5: [0, 1, 1, 1, 0, 1, 0, 0]\nDay 6: [0, 0, 1, 0, 1, 1, 0, 0]\nDay 7: [0, 0, 1, 1, 0, 0, 0, 0]\n\n\nExample 2:\n\nInput: cells = [1,0,0,1,0,0,1,0], n = 1000000000\nOutput: [0,0,1,1,1,1,1,0]\n\n\n \nConstraints:\n\n\n\tcells.length == 8\n\tcells[i] is either 0 or 1.\n\t1 <= n <= 109\n\n"
+}

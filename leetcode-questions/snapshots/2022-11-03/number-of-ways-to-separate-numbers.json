@@ -1,0 +1,10 @@
+{
+  "id": "number-of-ways-to-separate-numbers",
+  "name": "Number of Ways to Separate Numbers",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Suffix Array"
+  ],
+  "description": "You wrote down many positive integers in a string called num. However, you realized that you forgot to add commas to seperate the different numbers. You remember that the list of integers was non-decreasing and that no integer had leading zeros.\n\nReturn the number of possible lists of integers that you could have written down to get the string num. Since the answer may be large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: num = \"327\"\nOutput: 2\nExplanation: You could have written down the numbers:\n3, 27\n327\n\n\nExample 2:\n\nInput: num = \"094\"\nOutput: 0\nExplanation: No numbers can have leading zeros and all numbers must be positive.\n\n\nExample 3:\n\nInput: num = \"0\"\nOutput: 0\nExplanation: No numbers can have leading zeros and all numbers must be positive.\n\n\n \nConstraints:\n\n\n\t1 <= num.length <= 3500\n\tnum consists of digits '0' through '9'.\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "replace-all-s-to-avoid-consecutive-repeating-characters",
+  "name": "Replace All ?'s to Avoid Consecutive Repeating Characters",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a string s containing only lowercase English letters and the '?' character, convert all the '?' characters into lowercase letters such that the final string does not contain any consecutive repeating characters. You cannot modify the non '?' characters.\n\nIt is guaranteed that there are no consecutive repeating characters in the given string except for '?'.\n\nReturn the final string after all the conversions (possibly zero) have been made. If there is more than one solution, return any of them. It can be shown that an answer is always possible with the given constraints.\n\n \nExample 1:\n\nInput: s = \"?zs\"\nOutput: \"azs\"\nExplanation: There are 25 solutions for this problem. From \"azs\" to \"yzs\", all are valid. Only \"z\" is an invalid modification as the string will consist of consecutive repeating characters in \"zzs\".\n\n\nExample 2:\n\nInput: s = \"ubv?w\"\nOutput: \"ubvaw\"\nExplanation: There are 24 solutions for this problem. Only \"v\" and \"w\" are invalid modifications as the strings will consist of consecutive repeating characters in \"ubvvw\" and \"ubvww\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts consist of lowercase English letters and '?'.\n\n"
+}

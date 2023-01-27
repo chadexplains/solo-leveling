@@ -1,0 +1,9 @@
+{
+  "id": "global-and-local-inversions",
+  "name": "Global and Local Inversions",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "description": "You are given an integer array nums of length n which represents a permutation of all the integers in the range [0, n - 1].\n\nThe number of global inversions is the number of the different pairs (i, j) where:\n\n\n\t0 <= i < j < n\n\tnums[i] > nums[j]\n\n\nThe number of local inversions is the number of indices i where:\n\n\n\t0 <= i < n - 1\n\tnums[i] > nums[i + 1]\n\n\nReturn true if the number of global inversions is equal to the number of local inversions.\n\n \nExample 1:\n\nInput: nums = [1,0,2]\nOutput: true\nExplanation: There is 1 global inversion and 1 local inversion.\n\n\nExample 2:\n\nInput: nums = [1,2,0]\nOutput: false\nExplanation: There are 2 global inversions and 1 local inversion.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 105\n\t0 <= nums[i] < n\n\tAll the integers of nums are unique.\n\tnums is a permutation of all the numbers in the range [0, n - 1].\n\n"
+}

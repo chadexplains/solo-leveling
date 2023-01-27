@@ -1,0 +1,11 @@
+{
+  "id": "longest-zigzag-path-in-a-binary-tree",
+  "name": "Longest ZigZag Path in a Binary Tree",
+  "tags": [
+    "Dynamic Programming",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree.\n\nA ZigZag path for a binary tree is defined as follow:\n\n\n\tChoose any node in the binary tree and a direction (right or left).\n\tIf the current direction is right, move to the right child of the current node; otherwise, move to the left child.\n\tChange the direction from right to left or from left to right.\n\tRepeat the second and third steps until you can't move in the tree.\n\n\nZigzag length is defined as the number of nodes visited - 1. (A single node has a length of 0).\n\nReturn the longest ZigZag path contained in that tree.\n\n \nExample 1:\n\nInput: root = [1,null,1,1,1,null,null,1,1,null,1,null,null,null,1,null,1]\nOutput: 3\nExplanation: Longest ZigZag path in blue nodes (right -> left -> right).\n\n\nExample 2:\n\nInput: root = [1,1,1,null,1,null,null,1,1,null,1]\nOutput: 4\nExplanation: Longest ZigZag path in blue nodes (left -> right -> left -> right).\n\n\nExample 3:\n\nInput: root = [1]\nOutput: 0\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 5 * 104].\n\t1 <= Node.val <= 100\n\n"
+}

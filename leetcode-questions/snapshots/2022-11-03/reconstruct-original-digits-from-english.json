@@ -1,0 +1,10 @@
+{
+  "id": "reconstruct-original-digits-from-english",
+  "name": "Reconstruct Original Digits from English",
+  "tags": [
+    "Hash Table",
+    "Math",
+    "String"
+  ],
+  "description": "Given a string s containing an out-of-order English representation of digits 0-9, return the digits in ascending order.\n\n \nExample 1:\nInput: s = \"owoztneoer\"\nOutput: \"012\"\nExample 2:\nInput: s = \"fviefuro\"\nOutput: \"45\"\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts[i] is one of the characters [\"e\",\"g\",\"f\",\"i\",\"h\",\"o\",\"n\",\"s\",\"r\",\"u\",\"t\",\"w\",\"v\",\"x\",\"z\"].\n\ts is guaranteed to be valid.\n\n"
+}

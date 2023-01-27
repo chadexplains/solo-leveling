@@ -1,0 +1,9 @@
+{
+  "id": "sum-of-digits-of-string-after-convert",
+  "name": "Sum of Digits of String After Convert",
+  "tags": [
+    "String",
+    "Simulation"
+  ],
+  "description": "You are given a string s consisting of lowercase English letters, and an integer k.\n\nFirst, convert s into an integer by replacing each letter with its position in the alphabet (i.e., replace 'a' with 1, 'b' with 2, ..., 'z' with 26). Then, transform the integer by replacing it with the sum of its digits. Repeat the transform operation k times in total.\n\nFor example, if s = \"zbax\" and k = 2, then the resulting integer would be 8 by the following operations:\n\n\n\tConvert: \"zbax\" ➝ \"(26)(2)(1)(24)\" ➝ \"262124\" ➝ 262124\n\tTransform #1: 262124 ➝ 2 + 6 + 2 + 1 + 2 + 4 ➝ 17\n\tTransform #2: 17 ➝ 1 + 7 ➝ 8\n\n\nReturn the resulting integer after performing the operations described above.\n\n \nExample 1:\n\nInput: s = \"iiii\", k = 1\nOutput: 36\nExplanation: The operations are as follows:\n- Convert: \"iiii\" ➝ \"(9)(9)(9)(9)\" ➝ \"9999\" ➝ 9999\n- Transform #1: 9999 ➝ 9 + 9 + 9 + 9 ➝ 36\nThus the resulting integer is 36.\n\n\nExample 2:\n\nInput: s = \"leetcode\", k = 2\nOutput: 6\nExplanation: The operations are as follows:\n- Convert: \"leetcode\" ➝ \"(12)(5)(5)(20)(3)(15)(4)(5)\" ➝ \"12552031545\" ➝ 12552031545\n- Transform #1: 12552031545 ➝ 1 + 2 + 5 + 5 + 2 + 0 + 3 + 1 + 5 + 4 + 5 ➝ 33\n- Transform #2: 33 ➝ 3 + 3 ➝ 6\nThus the resulting integer is 6.\n\n\nExample 3:\n\nInput: s = \"zbax\", k = 2\nOutput: 8\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\t1 <= k <= 10\n\ts consists of lowercase English letters.\n\n"
+}

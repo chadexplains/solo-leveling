@@ -1,0 +1,13 @@
+{
+  "id": "repeated-dna-sequences",
+  "name": "Repeated DNA Sequences",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Bit Manipulation",
+    "Sliding Window",
+    "Rolling Hash",
+    "Hash Function"
+  ],
+  "description": "The DNA sequence is composed of a series of nucleotides abbreviated as 'A', 'C', 'G', and 'T'.\n\n\n\tFor example, \"ACGAATTCCG\" is a DNA sequence.\n\n\nWhen studying DNA, it is useful to identify repeated sequences within the DNA.\n\nGiven a string s that represents a DNA sequence, return all the 10-letter-long sequences (substrings) that occur more than once in a DNA molecule. You may return the answer in any order.\n\n \nExample 1:\nInput: s = \"AAAAACCCCCAAAAACCCCCCAAAAAGGGTTT\"\nOutput: [\"AAAAACCCCC\",\"CCCCCAAAAA\"]\nExample 2:\nInput: s = \"AAAAAAAAAAAAA\"\nOutput: [\"AAAAAAAAAA\"]\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts[i] is either 'A', 'C', 'G', or 'T'.\n\n"
+}

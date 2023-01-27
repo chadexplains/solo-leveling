@@ -1,0 +1,10 @@
+{
+  "id": "reshape-the-matrix",
+  "name": "Reshape the Matrix",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Simulation"
+  ],
+  "description": "In MATLAB, there is a handy function called reshape which can reshape an m x n matrix into a new one with a different size r x c keeping its original data.\n\nYou are given an m x n matrix mat and two integers r and c representing the number of rows and the number of columns of the wanted reshaped matrix.\n\nThe reshaped matrix should be filled with all the elements of the original matrix in the same row-traversing order as they were.\n\nIf the reshape operation with given parameters is possible and legal, output the new reshaped matrix; Otherwise, output the original matrix.\n\n \nExample 1:\n\nInput: mat = [[1,2],[3,4]], r = 1, c = 4\nOutput: [[1,2,3,4]]\n\n\nExample 2:\n\nInput: mat = [[1,2],[3,4]], r = 2, c = 4\nOutput: [[1,2],[3,4]]\n\n\n \nConstraints:\n\n\n\tm == mat.length\n\tn == mat[i].length\n\t1 <= m, n <= 100\n\t-1000 <= mat[i][j] <= 1000\n\t1 <= r, c <= 300\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "three-divisors",
+  "name": "Three Divisors",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer n, return true if n has exactly three positive divisors. Otherwise, return false.\n\nAn integer m is a divisor of n if there exists an integer k such that n = k * m.\n\n \nExample 1:\n\nInput: n = 2\nOutput: false\nExplantion: 2 has only two divisors: 1 and 2.\n\n\nExample 2:\n\nInput: n = 4\nOutput: true\nExplantion: 4 has three divisors: 1, 2, and 4.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 104\n\n"
+}

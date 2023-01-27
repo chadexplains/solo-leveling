@@ -1,0 +1,11 @@
+{
+  "id": "minimum-time-difference",
+  "name": "Minimum Time Difference",
+  "tags": [
+    "Array",
+    "Math",
+    "String",
+    "Sorting"
+  ],
+  "description": "Given a list of 24-hour clock time points in \"HH:MM\" format, return the minimum minutes difference between any two time-points in the list.\n \nExample 1:\nInput: timePoints = [\"23:59\",\"00:00\"]\nOutput: 1\nExample 2:\nInput: timePoints = [\"00:00\",\"23:59\",\"00:00\"]\nOutput: 0\n\n \nConstraints:\n\n\n\t2 <= timePoints.length <= 2 * 104\n\ttimePoints[i] is in the format \"HH:MM\".\n\n"
+}

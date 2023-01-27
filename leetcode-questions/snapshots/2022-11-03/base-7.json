@@ -1,0 +1,8 @@
+{
+  "id": "base-7",
+  "name": "Base 7",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer num, return a string of its base 7 representation.\n\n \nExample 1:\nInput: num = 100\nOutput: \"202\"\nExample 2:\nInput: num = -7\nOutput: \"-10\"\n\n \nConstraints:\n\n\n\t-107 <= num <= 107\n\n"
+}

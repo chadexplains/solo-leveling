@@ -1,0 +1,12 @@
+{
+  "id": "maximum-students-taking-exam",
+  "name": "Maximum Students Taking Exam",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Matrix",
+    "Bitmask"
+  ],
+  "description": "Given a m * n matrix seats  that represent seats distributions in a classroom. If a seat is broken, it is denoted by '#' character otherwise it is denoted by a '.' character.\n\nStudents can see the answers of those sitting next to the left, right, upper left and upper right, but he cannot see the answers of the student sitting directly in front or behind him. Return the maximum number of students that can take the exam together without any cheating being possible..\n\nStudents must be placed in seats in good condition.\n\n \nExample 1:\n\nInput: seats = [[\"#\",\".\",\"#\",\"#\",\".\",\"#\"],\n                [\".\",\"#\",\"#\",\"#\",\"#\",\".\"],\n                [\"#\",\".\",\"#\",\"#\",\".\",\"#\"]]\nOutput: 4\nExplanation: Teacher can place 4 students in available seats so they don't cheat on the exam. \n\n\nExample 2:\n\nInput: seats = [[\".\",\"#\"],\n                [\"#\",\"#\"],\n                [\"#\",\".\"],\n                [\"#\",\"#\"],\n                [\".\",\"#\"]]\nOutput: 3\nExplanation: Place all students in available seats. \n\n\n\nExample 3:\n\nInput: seats = [[\"#\",\".\",\".\",\".\",\"#\"],\n                [\".\",\"#\",\".\",\"#\",\".\"],\n                [\".\",\".\",\"#\",\".\",\".\"],\n                [\".\",\"#\",\".\",\"#\",\".\"],\n                [\"#\",\".\",\".\",\".\",\"#\"]]\nOutput: 10\nExplanation: Place students in available seats in column 1, 3 and 5.\n\n\n \nConstraints:\n\n\n\tseats contains only characters '.' and'#'.\n\tm == seats.length\n\tn == seats[i].length\n\t1 <= m <= 8\n\t1 <= n <= 8\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "article-views-i",
+  "name": "Article Views I",
+  "tags": [
+    "Database"
+  ],
+  "description": "SQL SchemaTable: Views\n\n+---------------+---------+\n| Column Name   | Type    |\n+---------------+---------+\n| article_id    | int     |\n| author_id     | int     |\n| viewer_id     | int     |\n| view_date     | date    |\n+---------------+---------+\nThere is no primary key for this table, it may have duplicate rows.\nEach row of this table indicates that some viewer viewed an article (written by some author) on some date. \nNote that equal author_id and viewer_id indicate the same person.\n\n\n \n\nWrite an SQL query to find all the authors that viewed at least one of their own articles.\n\nReturn the result table sorted by id in ascending order.\n\nThe query result format is in the following example.\n\n \nExample 1:\n\nInput: \nViews table:\n+------------+-----------+-----------+------------+\n| article_id | author_id | viewer_id | view_date  |\n+------------+-----------+-----------+------------+\n| 1          | 3         | 5         | 2019-08-01 |\n| 1          | 3         | 6         | 2019-08-02 |\n| 2          | 7         | 7         | 2019-08-01 |\n| 2          | 7         | 6         | 2019-08-02 |\n| 4          | 7         | 1         | 2019-07-22 |\n| 3          | 4         | 4         | 2019-07-21 |\n| 3          | 4         | 4         | 2019-07-21 |\n+------------+-----------+-----------+------------+\nOutput: \n+------+\n| id   |\n+------+\n| 4    |\n| 7    |\n+------+\n\n"
+}

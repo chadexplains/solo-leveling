@@ -1,0 +1,12 @@
+{
+  "id": "find-minimum-time-to-finish-all-jobs",
+  "name": "Find Minimum Time to Finish All Jobs",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "You are given an integer array jobs, where jobs[i] is the amount of time it takes to complete the ith job.\n\nThere are k workers that you can assign jobs to. Each job should be assigned to exactly one worker. The working time of a worker is the sum of the time it takes to complete all jobs assigned to them. Your goal is to devise an optimal assignment such that the maximum working time of any worker is minimized.\n\nReturn the minimum possible maximum working time of any assignment. \n\n \nExample 1:\n\nInput: jobs = [3,2,3], k = 3\nOutput: 3\nExplanation: By assigning each person one job, the maximum time is 3.\n\n\nExample 2:\n\nInput: jobs = [1,2,4,7,8], k = 2\nOutput: 11\nExplanation: Assign the jobs the following way:\nWorker 1: 1, 2, 8 (working time = 1 + 2 + 8 = 11)\nWorker 2: 4, 7 (working time = 4 + 7 = 11)\nThe maximum working time is 11.\n\n \nConstraints:\n\n\n\t1 <= k <= jobs.length <= 12\n\t1 <= jobs[i] <= 107\n\n"
+}

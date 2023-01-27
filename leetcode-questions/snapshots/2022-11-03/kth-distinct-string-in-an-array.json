@@ -1,0 +1,11 @@
+{
+  "id": "kth-distinct-string-in-an-array",
+  "name": "Kth Distinct String in an Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "A distinct string is a string that is present only once in an array.\n\nGiven an array of strings arr, and an integer k, return the kth distinct string present in arr. If there are fewer than k distinct strings, return an empty string \"\".\n\nNote that the strings are considered in the order in which they appear in the array.\n\n \nExample 1:\n\nInput: arr = [\"d\",\"b\",\"c\",\"b\",\"c\",\"a\"], k = 2\nOutput: \"a\"\nExplanation:\nThe only distinct strings in arr are \"d\" and \"a\".\n\"d\" appears 1st, so it is the 1st distinct string.\n\"a\" appears 2nd, so it is the 2nd distinct string.\nSince k == 2, \"a\" is returned. \n\n\nExample 2:\n\nInput: arr = [\"aaa\",\"aa\",\"a\"], k = 1\nOutput: \"aaa\"\nExplanation:\nAll strings in arr are distinct, so the 1st string \"aaa\" is returned.\n\n\nExample 3:\n\nInput: arr = [\"a\",\"b\",\"a\"], k = 3\nOutput: \"\"\nExplanation:\nThe only distinct string is \"b\". Since there are fewer than 3 distinct strings, we return an empty string \"\".\n\n\n \nConstraints:\n\n\n\t1 <= k <= arr.length <= 1000\n\t1 <= arr[i].length <= 5\n\tarr[i] consists of lowercase English letters.\n\n"
+}

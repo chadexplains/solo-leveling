@@ -1,0 +1,10 @@
+{
+  "id": "sort-array-by-parity-ii",
+  "name": "Sort Array By Parity II",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "description": "Given an array of integers nums, half of the integers in nums are odd, and the other half are even.\n\nSort the array so that whenever nums[i] is odd, i is odd, and whenever nums[i] is even, i is even.\n\nReturn any answer array that satisfies this condition.\n\n \nExample 1:\n\nInput: nums = [4,2,5,7]\nOutput: [4,5,2,7]\nExplanation: [4,7,2,5], [2,5,4,7], [2,7,4,5] would also have been accepted.\n\n\nExample 2:\n\nInput: nums = [2,3]\nOutput: [2,3]\n\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 2 * 104\n\tnums.length is even.\n\tHalf of the integers in nums are even.\n\t0 <= nums[i] <= 1000\n\n\n \nFollow Up: Could you solve it in-place?\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "kth-missing-positive-number",
+  "name": "Kth Missing Positive Number",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "Given an array arr of positive integers sorted in a strictly increasing order, and an integer k.\n\nReturn the kth positive integer that is missing from this array.\n\n \nExample 1:\n\nInput: arr = [2,3,4,7,11], k = 5\nOutput: 9\nExplanation: The missing positive integers are [1,5,6,8,9,10,12,13,...]. The 5th missing positive integer is 9.\n\n\nExample 2:\n\nInput: arr = [1,2,3,4], k = 2\nOutput: 6\nExplanation: The missing positive integers are [5,6,7,...]. The 2nd missing positive integer is 6.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 1000\n\t1 <= arr[i] <= 1000\n\t1 <= k <= 1000\n\tarr[i] < arr[j] for 1 <= i < j <= arr.length\n\n\n \nFollow up:\n\nCould you solve this problem in less than O(n) complexity?\n"
+}

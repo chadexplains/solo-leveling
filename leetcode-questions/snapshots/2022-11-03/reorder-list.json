@@ -1,0 +1,11 @@
+{
+  "id": "reorder-list",
+  "name": "Reorder List",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Stack",
+    "Recursion"
+  ],
+  "description": "You are given the head of a singly linked-list. The list can be represented as:\n\nL0 → L1 → … → Ln - 1 → Ln\n\n\nReorder the list to be on the following form:\n\nL0 → Ln → L1 → Ln - 1 → L2 → Ln - 2 → …\n\n\nYou may not modify the values in the list's nodes. Only nodes themselves may be changed.\n\n \nExample 1:\n\nInput: head = [1,2,3,4]\nOutput: [1,4,2,3]\n\n\nExample 2:\n\nInput: head = [1,2,3,4,5]\nOutput: [1,5,2,4,3]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [1, 5 * 104].\n\t1 <= Node.val <= 1000\n\n"
+}

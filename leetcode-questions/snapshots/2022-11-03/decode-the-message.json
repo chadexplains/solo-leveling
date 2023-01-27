@@ -1,0 +1,9 @@
+{
+  "id": "decode-the-message",
+  "name": "Decode the Message",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "You are given the strings key and message, which represent a cipher key and a secret message, respectively. The steps to decode message are as follows:\n\n\n\tUse the first appearance of all 26 lowercase English letters in key as the order of the substitution table.\n\tAlign the substitution table with the regular English alphabet.\n\tEach letter in message is then substituted using the table.\n\tSpaces ' ' are transformed to themselves.\n\n\n\n\tFor example, given key = \"happy boy\" (actual key would have at least one instance of each letter in the alphabet), we have the partial substitution table of ('h' -> 'a', 'a' -> 'b', 'p' -> 'c', 'y' -> 'd', 'b' -> 'e', 'o' -> 'f').\n\n\nReturn the decoded message.\n\n \nExample 1:\n\nInput: key = \"the quick brown fox jumps over the lazy dog\", message = \"vkbs bs t suepuv\"\nOutput: \"this is a secret\"\nExplanation: The diagram above shows the substitution table.\nIt is obtained by taking the first appearance of each letter in \"the quick brown fox jumps over the lazy dog\".\n\n\nExample 2:\n\nInput: key = \"eljuxhpwnyrdgtqkviszcfmabo\", message = \"zwx hnfx lqantp mnoeius ycgk vcnjrdb\"\nOutput: \"the five boxing wizards jump quickly\"\nExplanation: The diagram above shows the substitution table.\nIt is obtained by taking the first appearance of each letter in \"eljuxhpwnyrdgtqkviszcfmabo\".\n\n\n \nConstraints:\n\n\n\t26 <= key.length <= 2000\n\tkey consists of lowercase English letters and ' '.\n\tkey contains every letter in the English alphabet ('a' to 'z') at least once.\n\t1 <= message.length <= 2000\n\tmessage consists of lowercase English letters and ' '.\n\n"
+}

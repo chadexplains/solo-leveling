@@ -1,0 +1,12 @@
+{
+  "id": "beautiful-arrangement",
+  "name": "Beautiful Arrangement",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "Suppose you have n integers labeled 1 through n. A permutation of those n integers perm (1-indexed) is considered a beautiful arrangement if for every i (1 <= i <= n), either of the following is true:\n\n\n\tperm[i] is divisible by i.\n\ti is divisible by perm[i].\n\n\nGiven an integer n, return the number of the beautiful arrangements that you can construct.\n\n \nExample 1:\n\nInput: n = 2\nOutput: 2\nExplanation: \nThe first beautiful arrangement is [1,2]:\n    - perm[1] = 1 is divisible by i = 1\n    - perm[2] = 2 is divisible by i = 2\nThe second beautiful arrangement is [2,1]:\n    - perm[1] = 2 is divisible by i = 1\n    - i = 2 is divisible by perm[2] = 1\n\n\nExample 2:\n\nInput: n = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 15\n\n"
+}

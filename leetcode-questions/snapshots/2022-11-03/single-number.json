@@ -1,0 +1,9 @@
+{
+  "id": "single-number",
+  "name": "Single Number",
+  "tags": [
+    "Array",
+    "Bit Manipulation"
+  ],
+  "description": "Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.\n\nYou must implement a solution with a linear runtime complexity and use only constant extra space.\n\n \nExample 1:\nInput: nums = [2,2,1]\nOutput: 1\nExample 2:\nInput: nums = [4,1,2,1,2]\nOutput: 4\nExample 3:\nInput: nums = [1]\nOutput: 1\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 3 * 104\n\t-3 * 104 <= nums[i] <= 3 * 104\n\tEach element in the array appears twice except for one element which appears only once.\n\n"
+}

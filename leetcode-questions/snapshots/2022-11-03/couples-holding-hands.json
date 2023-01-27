@@ -1,0 +1,12 @@
+{
+  "id": "couples-holding-hands",
+  "name": "Couples Holding Hands",
+  "tags": [
+    "Greedy",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union Find",
+    "Graph"
+  ],
+  "description": "There are n couples sitting in 2n seats arranged in a row and want to hold hands.\n\nThe people and seats are represented by an integer array row where row[i] is the ID of the person sitting in the ith seat. The couples are numbered in order, the first couple being (0, 1), the second couple being (2, 3), and so on with the last couple being (2n - 2, 2n - 1).\n\nReturn the minimum number of swaps so that every couple is sitting side by side. A swap consists of choosing any two people, then they stand up and switch seats.\n\n \nExample 1:\n\nInput: row = [0,2,1,3]\nOutput: 1\nExplanation: We only need to swap the second (row[1]) and third (row[2]) person.\n\n\nExample 2:\n\nInput: row = [3,2,0,1]\nOutput: 0\nExplanation: All couples are already seated side by side.\n\n\n \nConstraints:\n\n\n\t2n == row.length\n\t2 <= n <= 30\n\tn is even.\n\t0 <= row[i] < 2n\n\tAll the elements of row are unique.\n\n"
+}

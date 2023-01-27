@@ -1,0 +1,9 @@
+{
+  "id": "integer-break",
+  "name": "Integer Break",
+  "tags": [
+    "Math",
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer n, break it into the sum of k positive integers, where k >= 2, and maximize the product of those integers.\n\nReturn the maximum product you can get.\n\n \nExample 1:\n\nInput: n = 2\nOutput: 1\nExplanation: 2 = 1 + 1, 1 × 1 = 1.\n\n\nExample 2:\n\nInput: n = 10\nOutput: 36\nExplanation: 10 = 3 + 3 + 4, 3 × 3 × 4 = 36.\n\n\n \nConstraints:\n\n\n\t2 <= n <= 58\n\n"
+}

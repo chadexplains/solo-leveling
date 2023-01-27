@@ -1,0 +1,9 @@
+{
+  "id": "exam-room",
+  "name": "Exam Room",
+  "tags": [
+    "Design",
+    "Ordered Set"
+  ],
+  "description": "There is an exam room with n seats in a single row labeled from 0 to n - 1.\n\nWhen a student enters the room, they must sit in the seat that maximizes the distance to the closest person. If there are multiple such seats, they sit in the seat with the lowest number. If no one is in the room, then the student sits at seat number 0.\n\nDesign a class that simulates the mentioned exam room.\n\nImplement the ExamRoom class:\n\n\n\tExamRoom(int n) Initializes the object of the exam room with the number of the seats n.\n\tint seat() Returns the label of the seat at which the next student will set.\n\tvoid leave(int p) Indicates that the student sitting at seat p will leave the room. It is guaranteed that there will be a student sitting at seat p.\n\n\n \nExample 1:\n\nInput\n[\"ExamRoom\", \"seat\", \"seat\", \"seat\", \"seat\", \"leave\", \"seat\"]\n[[10], [], [], [], [], [4], []]\nOutput\n[null, 0, 9, 4, 2, null, 5]\n\nExplanation\nExamRoom examRoom = new ExamRoom(10);\nexamRoom.seat(); // return 0, no one is in the room, then the student sits at seat number 0.\nexamRoom.seat(); // return 9, the student sits at the last seat number 9.\nexamRoom.seat(); // return 4, the student sits at the last seat number 4.\nexamRoom.seat(); // return 2, the student sits at the last seat number 2.\nexamRoom.leave(4);\nexamRoom.seat(); // return 5, the student sits at the last seat number 5.\n\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\tIt is guaranteed that there is a student sitting at seat p.\n\tAt most 104 calls will be made to seat and leave.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "third-maximum-number",
+  "name": "Third Maximum Number",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums, return the third distinct maximum number in this array. If the third maximum does not exist, return the maximum number.\n\n \nExample 1:\n\nInput: nums = [3,2,1]\nOutput: 1\nExplanation:\nThe first distinct maximum is 3.\nThe second distinct maximum is 2.\nThe third distinct maximum is 1.\n\n\nExample 2:\n\nInput: nums = [1,2]\nOutput: 2\nExplanation:\nThe first distinct maximum is 2.\nThe second distinct maximum is 1.\nThe third distinct maximum does not exist, so the maximum (2) is returned instead.\n\n\nExample 3:\n\nInput: nums = [2,2,3,1]\nOutput: 1\nExplanation:\nThe first distinct maximum is 3.\nThe second distinct maximum is 2 (both 2's are counted together since they have the same value).\nThe third distinct maximum is 1.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 104\n\t-231 <= nums[i] <= 231 - 1\n\n\n \nFollow up: Can you find an O(n) solution?"
+}

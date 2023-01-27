@@ -1,0 +1,15 @@
+{
+  "id": "number-of-increasing-paths-in-a-grid",
+  "name": "Number of Increasing Paths in a Grid",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph",
+    "Topological Sort",
+    "Memoization",
+    "Matrix"
+  ],
+  "description": "You are given an m x n integer matrix grid, where you can move from a cell to any adjacent cell in all 4 directions.\n\nReturn the number of strictly increasing paths in the grid such that you can start from any cell and end at any cell. Since the answer may be very large, return it modulo 109 + 7.\n\nTwo paths are considered different if they do not have exactly the same sequence of visited cells.\n\n \nExample 1:\n\nInput: grid = [[1,1],[3,4]]\nOutput: 8\nExplanation: The strictly increasing paths are:\n- Paths with length 1: [1], [1], [3], [4].\n- Paths with length 2: [1 -> 3], [1 -> 4], [3 -> 4].\n- Paths with length 3: [1 -> 3 -> 4].\nThe total number of paths is 4 + 3 + 1 = 8.\n\n\nExample 2:\n\nInput: grid = [[1],[2]]\nOutput: 3\nExplanation: The strictly increasing paths are:\n- Paths with length 1: [1], [2].\n- Paths with length 2: [1 -> 2].\nThe total number of paths is 2 + 1 = 3.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 1000\n\t1 <= m * n <= 105\n\t1 <= grid[i][j] <= 105\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "most-frequent-subtree-sum",
+  "name": "Most Frequent Subtree Sum",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return the most frequent subtree sum. If there is a tie, return all the values with the highest frequency in any order.\n\nThe subtree sum of a node is defined as the sum of all the node values formed by the subtree rooted at that node (including the node itself).\n\n \nExample 1:\n\nInput: root = [5,2,-3]\nOutput: [2,-3,4]\n\n\nExample 2:\n\nInput: root = [5,2,-5]\nOutput: [2]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 104].\n\t-105 <= Node.val <= 105\n\n"
+}

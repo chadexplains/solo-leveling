@@ -1,0 +1,9 @@
+{
+  "id": "maximum-subarray-sum-with-one-deletion",
+  "name": "Maximum Subarray Sum with One Deletion",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given an array of integers, return the maximum sum for a non-empty subarray (contiguous elements) with at most one element deletion. In other words, you want to choose a subarray and optionally delete one element from it so that there is still at least one element left and the sum of the remaining elements is maximum possible.\n\nNote that the subarray needs to be non-empty after deleting one element.\n\n \nExample 1:\n\nInput: arr = [1,-2,0,3]\nOutput: 4\nExplanation: Because we can choose [1, -2, 0, 3] and drop -2, thus the subarray [1, 0, 3] becomes the maximum value.\n\nExample 2:\n\nInput: arr = [1,-2,-2,3]\nOutput: 3\nExplanation: We just choose [3] and it's the maximum sum.\n\n\nExample 3:\n\nInput: arr = [-1,-1,-1,-1]\nOutput: -1\nExplanation: The final subarray needs to be non-empty. You can't choose [-1] and delete -1 from it, then get an empty subarray to make the sum equals to 0.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 105\n\t-104 <= arr[i] <= 104\n\n"
+}

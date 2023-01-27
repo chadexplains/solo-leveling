@@ -1,0 +1,9 @@
+{
+  "id": "minimum-number-of-operations-to-make-array-continuous",
+  "name": "Minimum Number of Operations to Make Array Continuous",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "You are given an integer array nums. In one operation, you can replace any element in nums with any integer.\n\nnums is considered continuous if both of the following conditions are fulfilled:\n\n\n\tAll elements in nums are unique.\n\tThe difference between the maximum element and the minimum element in nums equals nums.length - 1.\n\n\nFor example, nums = [4, 2, 5, 3] is continuous, but nums = [1, 2, 3, 5, 6] is not continuous.\n\nReturn the minimum number of operations to make nums continuous.\n\n \nExample 1:\n\nInput: nums = [4,2,5,3]\nOutput: 0\nExplanation: nums is already continuous.\n\n\nExample 2:\n\nInput: nums = [1,2,3,5,6]\nOutput: 1\nExplanation: One possible solution is to change the last element to 4.\nThe resulting array is [1,2,3,5,4], which is continuous.\n\n\nExample 3:\n\nInput: nums = [1,10,100,1000]\nOutput: 3\nExplanation: One possible solution is to:\n- Change the second element to 2.\n- Change the third element to 3.\n- Change the fourth element to 4.\nThe resulting array is [1,2,3,4], which is continuous.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 109\n\n"
+}

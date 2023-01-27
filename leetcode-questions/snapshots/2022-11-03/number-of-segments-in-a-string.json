@@ -1,0 +1,8 @@
+{
+  "id": "number-of-segments-in-a-string",
+  "name": "Number of Segments in a String",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a string s, return the number of segments in the string.\n\nA segment is defined to be a contiguous sequence of non-space characters.\n\n \nExample 1:\n\nInput: s = \"Hello, my name is John\"\nOutput: 5\nExplanation: The five segments are [\"Hello,\", \"my\", \"name\", \"is\", \"John\"]\n\n\nExample 2:\n\nInput: s = \"Hello\"\nOutput: 1\n\n\n \nConstraints:\n\n\n\t0 <= s.length <= 300\n\ts consists of lowercase and uppercase English letters, digits, or one of the following characters \"!@#$%^&*()_+-=',.:\".\n\tThe only space character in s is ' '.\n\n"
+}

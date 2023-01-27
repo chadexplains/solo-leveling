@@ -1,0 +1,12 @@
+{
+  "id": "longest-well-performing-interval",
+  "name": "Longest Well-Performing Interval",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Stack",
+    "Monotonic Stack",
+    "Prefix Sum"
+  ],
+  "description": "We are given hours, a list of the number of hours worked per day for a given employee.\n\nA day is considered to be a tiring day if and only if the number of hours worked is (strictly) greater than 8.\n\nA well-performing interval is an interval of days for which the number of tiring days is strictly larger than the number of non-tiring days.\n\nReturn the length of the longest well-performing interval.\n\n \nExample 1:\n\nInput: hours = [9,9,6,0,6,6,9]\nOutput: 3\nExplanation: The longest well-performing interval is [9,9,6].\n\n\nExample 2:\n\nInput: hours = [6,6,6]\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= hours.length <= 104\n\t0 <= hours[i] <= 16\n\n"
+}

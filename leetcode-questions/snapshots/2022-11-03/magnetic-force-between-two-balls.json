@@ -1,0 +1,10 @@
+{
+  "id": "magnetic-force-between-two-balls",
+  "name": "Magnetic Force Between Two Balls",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sorting"
+  ],
+  "description": "In the universe Earth C-137, Rick discovered a special form of magnetic force between two balls if they are put in his new invented basket. Rick has n empty baskets, the ith basket is at position[i], Morty has m balls and needs to distribute the balls into the baskets such that the minimum magnetic force between any two balls is maximum.\n\nRick stated that magnetic force between two different balls at positions x and y is |x - y|.\n\nGiven the integer array position and the integer m. Return the required force.\n\n \nExample 1:\n\nInput: position = [1,2,3,4,7], m = 3\nOutput: 3\nExplanation: Distributing the 3 balls into baskets 1, 4 and 7 will make the magnetic force between ball pairs [3, 3, 6]. The minimum magnetic force is 3. We cannot achieve a larger minimum magnetic force than 3.\n\n\nExample 2:\n\nInput: position = [5,4,3,2,1,1000000000], m = 2\nOutput: 999999999\nExplanation: We can use baskets 1 and 1000000000.\n\n\n \nConstraints:\n\n\n\tn == position.length\n\t2 <= n <= 105\n\t1 <= position[i] <= 109\n\tAll integers in position are distinct.\n\t2 <= m <= position.length\n\n"
+}

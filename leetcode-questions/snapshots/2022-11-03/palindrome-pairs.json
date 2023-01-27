@@ -1,0 +1,11 @@
+{
+  "id": "palindrome-pairs",
+  "name": "Palindrome Pairs",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Trie"
+  ],
+  "description": "You are given a 0-indexed array of unique strings words.\n\nA palindrome pair is a pair of integers (i, j) such that:\n\n\n\t0 <= i, j < word.length,\n\ti != j, and\n\twords[i] + words[j] (the concatenation of the two strings) is a palindrome string.\n\n\nReturn an array of all the palindrome pairs of words.\n\n \nExample 1:\n\nInput: words = [\"abcd\",\"dcba\",\"lls\",\"s\",\"sssll\"]\nOutput: [[0,1],[1,0],[3,2],[2,4]]\nExplanation: The palindromes are [\"abcddcba\",\"dcbaabcd\",\"slls\",\"llssssll\"]\n\n\nExample 2:\n\nInput: words = [\"bat\",\"tab\",\"cat\"]\nOutput: [[0,1],[1,0]]\nExplanation: The palindromes are [\"battab\",\"tabbat\"]\n\n\nExample 3:\n\nInput: words = [\"a\",\"\"]\nOutput: [[0,1],[1,0]]\nExplanation: The palindromes are [\"a\",\"a\"]\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 5000\n\t0 <= words[i].length <= 300\n\twords[i] consists of lowercase English letters.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "largest-component-size-by-common-factor",
+  "name": "Largest Component Size by Common Factor",
+  "tags": [
+    "Array",
+    "Math",
+    "Union Find"
+  ],
+  "description": "You are given an integer array of unique positive integers nums. Consider the following graph:\n\n\n\tThere are nums.length nodes, labeled nums[0] to nums[nums.length - 1],\n\tThere is an undirected edge between nums[i] and nums[j] if nums[i] and nums[j] share a common factor greater than 1.\n\n\nReturn the size of the largest connected component in the graph.\n\n \nExample 1:\n\nInput: nums = [4,6,15,35]\nOutput: 4\n\n\nExample 2:\n\nInput: nums = [20,50,9,63]\nOutput: 2\n\n\nExample 3:\n\nInput: nums = [2,3,6,7,4,12,21,39]\nOutput: 8\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 2 * 104\n\t1 <= nums[i] <= 105\n\tAll the values of nums are unique.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "number-of-subarrays-with-gcd-equal-to-k",
+  "name": "Number of Subarrays With GCD Equal to K",
+  "tags": [
+    "Array",
+    "Math",
+    "Number Theory"
+  ],
+  "description": "Given an integer array nums and an integer k, return the number of subarrays of nums where the greatest common divisor of the subarray's elements is k.\n\nA subarray is a contiguous non-empty sequence of elements within an array.\n\nThe greatest common divisor of an array is the largest integer that evenly divides all the array elements.\n\n \nExample 1:\n\nInput: nums = [9,3,1,2,6,3], k = 3\nOutput: 4\nExplanation: The subarrays of nums where 3 is the greatest common divisor of all the subarray's elements are:\n- [9,3,1,2,6,3]\n- [9,3,1,2,6,3]\n- [9,3,1,2,6,3]\n- [9,3,1,2,6,3]\n\n\nExample 2:\n\nInput: nums = [4], k = 7\nOutput: 0\nExplanation: There are no subarrays of nums where 7 is the greatest common divisor of all the subarray's elements.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 1000\n\t1 <= nums[i], k <= 109\n\n"
+}

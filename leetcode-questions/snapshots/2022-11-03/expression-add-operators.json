@@ -1,0 +1,10 @@
+{
+  "id": "expression-add-operators",
+  "name": "Expression Add Operators",
+  "tags": [
+    "Math",
+    "String",
+    "Backtracking"
+  ],
+  "description": "Given a string num that contains only digits and an integer target, return all possibilities to insert the binary operators '+', '-', and/or '*' between the digits of num so that the resultant expression evaluates to the target value.\n\nNote that operands in the returned expressions should not contain leading zeros.\n\n \nExample 1:\n\nInput: num = \"123\", target = 6\nOutput: [\"1*2*3\",\"1+2+3\"]\nExplanation: Both \"1*2*3\" and \"1+2+3\" evaluate to 6.\n\n\nExample 2:\n\nInput: num = \"232\", target = 8\nOutput: [\"2*3+2\",\"2+3*2\"]\nExplanation: Both \"2*3+2\" and \"2+3*2\" evaluate to 8.\n\n\nExample 3:\n\nInput: num = \"3456237490\", target = 9191\nOutput: []\nExplanation: There are no expressions that can be created from \"3456237490\" to evaluate to 9191.\n\n\n \nConstraints:\n\n\n\t1 <= num.length <= 10\n\tnum consists of only digits.\n\t-231 <= target <= 231 - 1\n\n"
+}

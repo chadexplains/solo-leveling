@@ -1,0 +1,11 @@
+{
+  "id": "construct-string-with-repeat-limit",
+  "name": "Construct String With Repeat Limit",
+  "tags": [
+    "String",
+    "Greedy",
+    "Heap (Priority Queue)",
+    "Counting"
+  ],
+  "description": "You are given a string s and an integer repeatLimit. Construct a new string repeatLimitedString using the characters of s such that no letter appears more than repeatLimit times in a row. You do not have to use all characters from s.\n\nReturn the lexicographically largest repeatLimitedString possible.\n\nA string a is lexicographically larger than a string b if in the first position where a and b differ, string a has a letter that appears later in the alphabet than the corresponding letter in b. If the first min(a.length, b.length) characters do not differ, then the longer string is the lexicographically larger one.\n\n \nExample 1:\n\nInput: s = \"cczazcc\", repeatLimit = 3\nOutput: \"zzcccac\"\nExplanation: We use all of the characters from s to construct the repeatLimitedString \"zzcccac\".\nThe letter 'a' appears at most 1 time in a row.\nThe letter 'c' appears at most 3 times in a row.\nThe letter 'z' appears at most 2 times in a row.\nHence, no letter appears more than repeatLimit times in a row and the string is a valid repeatLimitedString.\nThe string is the lexicographically largest repeatLimitedString possible so we return \"zzcccac\".\nNote that the string \"zzcccca\" is lexicographically larger but the letter 'c' appears more than 3 times in a row, so it is not a valid repeatLimitedString.\n\n\nExample 2:\n\nInput: s = \"aababab\", repeatLimit = 2\nOutput: \"bbabaa\"\nExplanation: We use only some of the characters from s to construct the repeatLimitedString \"bbabaa\". \nThe letter 'a' appears at most 2 times in a row.\nThe letter 'b' appears at most 2 times in a row.\nHence, no letter appears more than repeatLimit times in a row and the string is a valid repeatLimitedString.\nThe string is the lexicographically largest repeatLimitedString possible so we return \"bbabaa\".\nNote that the string \"bbabaaa\" is lexicographically larger but the letter 'a' appears more than 2 times in a row, so it is not a valid repeatLimitedString.\n\n\n \nConstraints:\n\n\n\t1 <= repeatLimit <= s.length <= 105\n\ts consists of lowercase English letters.\n\n"
+}

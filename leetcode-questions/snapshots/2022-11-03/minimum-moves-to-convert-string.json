@@ -1,0 +1,9 @@
+{
+  "id": "minimum-moves-to-convert-string",
+  "name": "Minimum Moves to Convert String",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a string s consisting of n characters which are either 'X' or 'O'.\n\nA move is defined as selecting three consecutive characters of s and converting them to 'O'. Note that if a move is applied to the character 'O', it will stay the same.\n\nReturn the minimum number of moves required so that all the characters of s are converted to 'O'.\n\n \nExample 1:\n\nInput: s = \"XXX\"\nOutput: 1\nExplanation: XXX -> OOO\nWe select all the 3 characters and convert them in one move.\n\n\nExample 2:\n\nInput: s = \"XXOX\"\nOutput: 2\nExplanation: XXOX -> OOOX -> OOOO\nWe select the first 3 characters in the first move, and convert them to 'O'.\nThen we select the last 3 characters and convert them so that the final string contains all 'O's.\n\nExample 3:\n\nInput: s = \"OOOO\"\nOutput: 0\nExplanation: There are no 'X's in s to convert.\n\n\n \nConstraints:\n\n\n\t3 <= s.length <= 1000\n\ts[i] is either 'X' or 'O'.\n\n"
+}

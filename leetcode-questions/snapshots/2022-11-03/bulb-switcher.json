@@ -1,0 +1,9 @@
+{
+  "id": "bulb-switcher",
+  "name": "Bulb Switcher",
+  "tags": [
+    "Math",
+    "Brainteaser"
+  ],
+  "description": "There are n bulbs that are initially off. You first turn on all the bulbs, then you turn off every second bulb.\n\nOn the third round, you toggle every third bulb (turning on if it's off or turning off if it's on). For the ith round, you toggle every i bulb. For the nth round, you only toggle the last bulb.\n\nReturn the number of bulbs that are on after n rounds.\n\n \nExample 1:\n\nInput: n = 3\nOutput: 1\nExplanation: At first, the three bulbs are [off, off, off].\nAfter the first round, the three bulbs are [on, on, on].\nAfter the second round, the three bulbs are [on, off, on].\nAfter the third round, the three bulbs are [on, off, off]. \nSo you should return 1 because there is only one bulb is on.\n\nExample 2:\n\nInput: n = 0\nOutput: 0\n\n\nExample 3:\n\nInput: n = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t0 <= n <= 109\n\n"
+}

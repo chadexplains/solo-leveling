@@ -1,0 +1,13 @@
+{
+  "id": "reorganize-string",
+  "name": "Reorganize String",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Greedy",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Counting"
+  ],
+  "description": "Given a string s, rearrange the characters of s so that any two adjacent characters are not the same.\n\nReturn any possible rearrangement of s or return \"\" if not possible.\n\n \nExample 1:\nInput: s = \"aab\"\nOutput: \"aba\"\nExample 2:\nInput: s = \"aaab\"\nOutput: \"\"\n\n \nConstraints:\n\n\n\t1 <= s.length <= 500\n\ts consists of lowercase English letters.\n\n"
+}

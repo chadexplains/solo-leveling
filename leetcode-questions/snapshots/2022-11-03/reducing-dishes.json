@@ -1,0 +1,11 @@
+{
+  "id": "reducing-dishes",
+  "name": "Reducing Dishes",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "A chef has collected data on the satisfaction level of his n dishes. Chef can cook any dish in 1 unit of time.\n\nLike-time coefficient of a dish is defined as the time taken to cook that dish including previous dishes multiplied by its satisfaction level i.e. time[i] * satisfaction[i].\n\nReturn the maximum sum of like-time coefficient that the chef can obtain after dishes preparation.\n\nDishes can be prepared in any order and the chef can discard some dishes to get this maximum value.\n\n \nExample 1:\n\nInput: satisfaction = [-1,-8,0,5,-9]\nOutput: 14\nExplanation: After Removing the second and last dish, the maximum total like-time coefficient will be equal to (-1*1 + 0*2 + 5*3 = 14).\nEach dish is prepared in one unit of time.\n\nExample 2:\n\nInput: satisfaction = [4,3,2]\nOutput: 20\nExplanation: Dishes can be prepared in any order, (2*1 + 3*2 + 4*3 = 20)\n\n\nExample 3:\n\nInput: satisfaction = [-1,-4,-5]\nOutput: 0\nExplanation: People do not like the dishes. No dish is prepared.\n\n\n \nConstraints:\n\n\n\tn == satisfaction.length\n\t1 <= n <= 500\n\t-1000 <= satisfaction[i] <= 1000\n\n"
+}

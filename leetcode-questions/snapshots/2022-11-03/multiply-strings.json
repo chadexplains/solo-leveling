@@ -1,0 +1,10 @@
+{
+  "id": "multiply-strings",
+  "name": "Multiply Strings",
+  "tags": [
+    "Math",
+    "String",
+    "Simulation"
+  ],
+  "description": "Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.\n\nNote: You must not use any built-in BigInteger library or convert the inputs to integer directly.\n\n \nExample 1:\nInput: num1 = \"2\", num2 = \"3\"\nOutput: \"6\"\nExample 2:\nInput: num1 = \"123\", num2 = \"456\"\nOutput: \"56088\"\n\n \nConstraints:\n\n\n\t1 <= num1.length, num2.length <= 200\n\tnum1 and num2 consist of digits only.\n\tBoth num1 and num2 do not contain any leading zero, except the number 0 itself.\n\n"
+}

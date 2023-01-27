@@ -1,0 +1,9 @@
+{
+  "id": "power-of-three",
+  "name": "Power of Three",
+  "tags": [
+    "Math",
+    "Recursion"
+  ],
+  "description": "Given an integer n, return true if it is a power of three. Otherwise, return false.\n\nAn integer n is a power of three, if there exists an integer x such that n == 3x.\n\n \nExample 1:\n\nInput: n = 27\nOutput: true\nExplanation: 27 = 33\n\n\nExample 2:\n\nInput: n = 0\nOutput: false\nExplanation: There is no x where 3x = 0.\n\n\nExample 3:\n\nInput: n = -1\nOutput: false\nExplanation: There is no x where 3x = (-1).\n\n\n \nConstraints:\n\n\n\t-231 <= n <= 231 - 1\n\n\n \nFollow up: Could you solve it without loops/recursion?"
+}

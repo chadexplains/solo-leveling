@@ -1,0 +1,8 @@
+{
+  "id": "student-attendance-record-ii",
+  "name": "Student Attendance Record II",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "An attendance record for a student can be represented as a string where each character signifies whether the student was absent, late, or present on that day. The record only contains the following three characters:\n\n\n\t'A': Absent.\n\t'L': Late.\n\t'P': Present.\n\n\nAny student is eligible for an attendance award if they meet both of the following criteria:\n\n\n\tThe student was absent ('A') for strictly fewer than 2 days total.\n\tThe student was never late ('L') for 3 or more consecutive days.\n\n\nGiven an integer n, return the number of possible attendance records of length n that make a student eligible for an attendance award. The answer may be very large, so return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 2\nOutput: 8\nExplanation: There are 8 records with length 2 that are eligible for an award:\n\"PP\", \"AP\", \"PA\", \"LP\", \"PL\", \"AL\", \"LA\", \"LL\"\nOnly \"AA\" is not eligible because there are 2 absences (there need to be fewer than 2).\n\n\nExample 2:\n\nInput: n = 1\nOutput: 3\n\n\nExample 3:\n\nInput: n = 10101\nOutput: 183236316\n\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\n"
+}

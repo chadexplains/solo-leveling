@@ -1,0 +1,9 @@
+{
+  "id": "maximum-nesting-depth-of-the-parentheses",
+  "name": "Maximum Nesting Depth of the Parentheses",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "A string is a valid parentheses string (denoted VPS) if it meets one of the following:\n\n\n\tIt is an empty string \"\", or a single character not equal to \"(\" or \")\",\n\tIt can be written as AB (A concatenated with B), where A and B are VPS's, or\n\tIt can be written as (A), where A is a VPS.\n\n\nWe can similarly define the nesting depth depth(S) of any VPS S as follows:\n\n\n\tdepth(\"\") = 0\n\tdepth(C) = 0, where C is a string with a single character not equal to \"(\" or \")\".\n\tdepth(A + B) = max(depth(A), depth(B)), where A and B are VPS's.\n\tdepth(\"(\" + A + \")\") = 1 + depth(A), where A is a VPS.\n\n\nFor example, \"\", \"()()\", and \"()(()())\" are VPS's (with nesting depths 0, 1, and 2), and \")(\" and \"(()\" are not VPS's.\n\nGiven a VPS represented as string s, return the nesting depth of s.\n\n \nExample 1:\n\nInput: s = \"(1+(2*3)+((8)/4))+1\"\nOutput: 3\nExplanation: Digit 8 is inside of 3 nested parentheses in the string.\n\n\nExample 2:\n\nInput: s = \"(1)+((2))+(((3)))\"\nOutput: 3\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts consists of digits 0-9 and characters '+', '-', '*', '/', '(', and ')'.\n\tIt is guaranteed that parentheses expression s is a VPS.\n\n"
+}

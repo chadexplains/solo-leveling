@@ -1,0 +1,10 @@
+{
+  "id": "maximum-trailing-zeros-in-a-cornered-path",
+  "name": "Maximum Trailing Zeros in a Cornered Path",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Prefix Sum"
+  ],
+  "description": "You are given a 2D integer array grid of size m x n, where each cell contains a positive integer.\n\nA cornered path is defined as a set of adjacent cells with at most one turn. More specifically, the path should exclusively move either horizontally or vertically up to the turn (if there is one), without returning to a previously visited cell. After the turn, the path will then move exclusively in the alternate direction: move vertically if it moved horizontally, and vice versa, also without returning to a previously visited cell.\n\nThe product of a path is defined as the product of all the values in the path.\n\nReturn the maximum number of trailing zeros in the product of a cornered path found in grid.\n\nNote:\n\n\n\tHorizontal movement means moving in either the left or right direction.\n\tVertical movement means moving in either the up or down direction.\n\n\n \nExample 1:\n\nInput: grid = [[23,17,15,3,20],[8,1,20,27,11],[9,4,6,2,21],[40,9,1,10,6],[22,7,4,5,3]]\nOutput: 3\nExplanation: The grid on the left shows a valid cornered path.\nIt has a product of 15 * 20 * 6 * 1 * 10 = 18000 which has 3 trailing zeros.\nIt can be shown that this is the maximum trailing zeros in the product of a cornered path.\n\nThe grid in the middle is not a cornered path as it has more than one turn.\nThe grid on the right is not a cornered path as it requires a return to a previously visited cell.\n\n\nExample 2:\n\nInput: grid = [[4,3,2],[7,6,1],[8,8,8]]\nOutput: 0\nExplanation: The grid is shown in the figure above.\nThere are no cornered paths in the grid that result in a product with a trailing zero.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 105\n\t1 <= m * n <= 105\n\t1 <= grid[i][j] <= 1000\n\n"
+}

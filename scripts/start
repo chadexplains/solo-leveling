@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd /home/ec2-user/app
+sudo kill $(ps aux | grep 'discord_bot.py' | awk '{print $2}')
+sudo nohup make discord_bot > /dev/null 2&>1 &

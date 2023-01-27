@@ -1,0 +1,9 @@
+{
+  "id": "number-of-days-between-two-dates",
+  "name": "Number of Days Between Two Dates",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "Write a program to count the number of days between two dates.\n\nThe two dates are given as strings, their format is YYYY-MM-DD as shown in the examples.\n\n \nExample 1:\nInput: date1 = \"2019-06-29\", date2 = \"2019-06-30\"\nOutput: 1\nExample 2:\nInput: date1 = \"2020-01-15\", date2 = \"2019-12-31\"\nOutput: 15\n\n \nConstraints:\n\n\n\tThe given dates are valid dates between the years 1971 and 2100.\n\n"
+}

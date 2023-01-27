@@ -1,0 +1,11 @@
+{
+  "id": "maximum-subarray-min-product",
+  "name": "Maximum Subarray Min-Product",
+  "tags": [
+    "Array",
+    "Stack",
+    "Monotonic Stack",
+    "Prefix Sum"
+  ],
+  "description": "The min-product of an array is equal to the minimum value in the array multiplied by the array's sum.\n\n\n\tFor example, the array [3,2,5] (minimum value is 2) has a min-product of 2 * (3+2+5) = 2 * 10 = 20.\n\n\nGiven an array of integers nums, return the maximum min-product of any non-empty subarray of nums. Since the answer may be large, return it modulo 109 + 7.\n\nNote that the min-product should be maximized before performing the modulo operation. Testcases are generated such that the maximum min-product without modulo will fit in a 64-bit signed integer.\n\nA subarray is a contiguous part of an array.\n\n \nExample 1:\n\nInput: nums = [1,2,3,2]\nOutput: 14\nExplanation: The maximum min-product is achieved with the subarray [2,3,2] (minimum value is 2).\n2 * (2+3+2) = 2 * 7 = 14.\n\n\nExample 2:\n\nInput: nums = [2,3,3,1,2]\nOutput: 18\nExplanation: The maximum min-product is achieved with the subarray [3,3] (minimum value is 3).\n3 * (3+3) = 3 * 6 = 18.\n\n\nExample 3:\n\nInput: nums = [3,1,5,6,4,2]\nOutput: 60\nExplanation: The maximum min-product is achieved with the subarray [5,6,4] (minimum value is 4).\n4 * (5+6+4) = 4 * 15 = 60.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 107\n\n"
+}

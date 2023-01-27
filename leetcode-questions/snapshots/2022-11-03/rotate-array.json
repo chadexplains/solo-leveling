@@ -1,0 +1,10 @@
+{
+  "id": "rotate-array",
+  "name": "Rotate Array",
+  "tags": [
+    "Array",
+    "Math",
+    "Two Pointers"
+  ],
+  "description": "Given an array, rotate the array to the right by k steps, where k is non-negative.\n\n \nExample 1:\n\nInput: nums = [1,2,3,4,5,6,7], k = 3\nOutput: [5,6,7,1,2,3,4]\nExplanation:\nrotate 1 steps to the right: [7,1,2,3,4,5,6]\nrotate 2 steps to the right: [6,7,1,2,3,4,5]\nrotate 3 steps to the right: [5,6,7,1,2,3,4]\n\n\nExample 2:\n\nInput: nums = [-1,-100,3,99], k = 2\nOutput: [3,99,-1,-100]\nExplanation: \nrotate 1 steps to the right: [99,-1,-100,3]\nrotate 2 steps to the right: [3,99,-1,-100]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-231 <= nums[i] <= 231 - 1\n\t0 <= k <= 105\n\n\n \nFollow up:\n\n\n\tTry to come up with as many solutions as you can. There are at least three different ways to solve this problem.\n\tCould you do it in-place with O(1) extra space?\n\n"
+}

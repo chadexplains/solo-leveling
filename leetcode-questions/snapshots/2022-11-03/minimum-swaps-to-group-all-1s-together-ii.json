@@ -1,0 +1,9 @@
+{
+  "id": "minimum-swaps-to-group-all-1s-together-ii",
+  "name": "Minimum Swaps to Group All 1's Together II",
+  "tags": [
+    "Array",
+    "Sliding Window"
+  ],
+  "description": "A swap is defined as taking two distinct positions in an array and swapping the values in them.\n\nA circular array is defined as an array where we consider the first element and the last element to be adjacent.\n\nGiven a binary circular array nums, return the minimum number of swaps required to group all 1's present in the array together at any location.\n\n \nExample 1:\n\nInput: nums = [0,1,0,1,1,0,0]\nOutput: 1\nExplanation: Here are a few of the ways to group all the 1's together:\n[0,0,1,1,1,0,0] using 1 swap.\n[0,1,1,1,0,0,0] using 1 swap.\n[1,1,0,0,0,0,1] using 2 swaps (using the circular property of the array).\nThere is no way to group all 1's together with 0 swaps.\nThus, the minimum number of swaps required is 1.\n\n\nExample 2:\n\nInput: nums = [0,1,1,1,0,0,1,1,0]\nOutput: 2\nExplanation: Here are a few of the ways to group all the 1's together:\n[1,1,1,0,0,0,0,1,1] using 2 swaps (using the circular property of the array).\n[1,1,1,1,1,0,0,0,0] using 2 swaps.\nThere is no way to group all 1's together with 0 or 1 swaps.\nThus, the minimum number of swaps required is 2.\n\n\nExample 3:\n\nInput: nums = [1,1,0,0,1]\nOutput: 0\nExplanation: All the 1's are already grouped together due to the circular property of the array.\nThus, the minimum number of swaps required is 0.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\tnums[i] is either 0 or 1.\n\n"
+}

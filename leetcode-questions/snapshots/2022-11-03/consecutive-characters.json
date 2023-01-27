@@ -1,0 +1,8 @@
+{
+  "id": "consecutive-characters",
+  "name": "Consecutive Characters",
+  "tags": [
+    "String"
+  ],
+  "description": "The power of the string is the maximum length of a non-empty substring that contains only one unique character.\n\nGiven a string s, return the power of s.\n\n \nExample 1:\n\nInput: s = \"leetcode\"\nOutput: 2\nExplanation: The substring \"ee\" is of length 2 with the character 'e' only.\n\n\nExample 2:\n\nInput: s = \"abbcccddddeeeeedcba\"\nOutput: 5\nExplanation: The substring \"eeeee\" is of length 5 with the character 'e' only.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 500\n\ts consists of only lowercase English letters.\n\n"
+}

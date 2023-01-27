@@ -1,0 +1,8 @@
+{
+  "id": "capitalize-the-title",
+  "name": "Capitalize the Title",
+  "tags": [
+    "String"
+  ],
+  "description": "You are given a string title consisting of one or more words separated by a single space, where each word consists of English letters. Capitalize the string by changing the capitalization of each word such that:\n\n\n\tIf the length of the word is 1 or 2 letters, change all letters to lowercase.\n\tOtherwise, change the first letter to uppercase and the remaining letters to lowercase.\n\n\nReturn the capitalized title.\n\n \nExample 1:\n\nInput: title = \"capiTalIze tHe titLe\"\nOutput: \"Capitalize The Title\"\nExplanation:\nSince all the words have a length of at least 3, the first letter of each word is uppercase, and the remaining letters are lowercase.\n\n\nExample 2:\n\nInput: title = \"First leTTeR of EACH Word\"\nOutput: \"First Letter of Each Word\"\nExplanation:\nThe word \"of\" has length 2, so it is all lowercase.\nThe remaining words have a length of at least 3, so the first letter of each remaining word is uppercase, and the remaining letters are lowercase.\n\n\nExample 3:\n\nInput: title = \"i lOve leetcode\"\nOutput: \"i Love Leetcode\"\nExplanation:\nThe word \"i\" has length 1, so it is lowercase.\nThe remaining words have a length of at least 3, so the first letter of each remaining word is uppercase, and the remaining letters are lowercase.\n\n\n \nConstraints:\n\n\n\t1 <= title.length <= 100\n\ttitle consists of words separated by a single space without any leading or trailing spaces.\n\tEach word consists of uppercase and lowercase English letters and is non-empty.\n\n"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "maximum-number-of-coins-you-can-get",
+  "name": "Maximum Number of Coins You Can Get",
+  "tags": [
+    "Array",
+    "Math",
+    "Greedy",
+    "Sorting",
+    "Game Theory"
+  ],
+  "description": "There are 3n piles of coins of varying size, you and your friends will take piles of coins as follows:\n\n\n\tIn each step, you will choose any 3 piles of coins (not necessarily consecutive).\n\tOf your choice, Alice will pick the pile with the maximum number of coins.\n\tYou will pick the next pile with the maximum number of coins.\n\tYour friend Bob will pick the last pile.\n\tRepeat until there are no more piles of coins.\n\n\nGiven an array of integers piles where piles[i] is the number of coins in the ith pile.\n\nReturn the maximum number of coins that you can have.\n\n \nExample 1:\n\nInput: piles = [2,4,1,2,7,8]\nOutput: 9\nExplanation: Choose the triplet (2, 7, 8), Alice Pick the pile with 8 coins, you the pile with 7 coins and Bob the last one.\nChoose the triplet (1, 2, 4), Alice Pick the pile with 4 coins, you the pile with 2 coins and Bob the last one.\nThe maximum number of coins which you can have are: 7 + 2 = 9.\nOn the other hand if we choose this arrangement (1, 2, 8), (2, 4, 7) you only get 2 + 4 = 6 coins which is not optimal.\n\n\nExample 2:\n\nInput: piles = [2,4,5]\nOutput: 4\n\n\nExample 3:\n\nInput: piles = [9,8,7,6,5,1,2,3,4]\nOutput: 18\n\n\n \nConstraints:\n\n\n\t3 <= piles.length <= 105\n\tpiles.length % 3 == 0\n\t1 <= piles[i] <= 104\n\n"
+}

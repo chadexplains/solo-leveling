@@ -1,0 +1,8 @@
+{
+  "id": "race-car",
+  "name": "Race Car",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "Your car starts at position 0 and speed +1 on an infinite number line. Your car can go into negative positions. Your car drives automatically according to a sequence of instructions 'A' (accelerate) and 'R' (reverse):\n\n\n\tWhen you get an instruction 'A', your car does the following:\n\n\t\n\t\tposition += speed\n\t\tspeed *= 2\n\t\n\t\n\tWhen you get an instruction 'R', your car does the following:\n\t\n\t\tIf your speed is positive then speed = -1\n\t\totherwise speed = 1\n\t\n\tYour position stays the same.\n\n\nFor example, after commands \"AAR\", your car goes to positions 0 --> 1 --> 3 --> 3, and your speed goes to 1 --> 2 --> 4 --> -1.\n\nGiven a target position target, return the length of the shortest sequence of instructions to get there.\n\n \nExample 1:\n\nInput: target = 3\nOutput: 2\nExplanation: \nThe shortest instruction sequence is \"AA\".\nYour position goes from 0 --> 1 --> 3.\n\n\nExample 2:\n\nInput: target = 6\nOutput: 5\nExplanation: \nThe shortest instruction sequence is \"AAARA\".\nYour position goes from 0 --> 1 --> 3 --> 7 --> 7 --> 6.\n\n\n \nConstraints:\n\n\n\t1 <= target <= 104\n\n"
+}

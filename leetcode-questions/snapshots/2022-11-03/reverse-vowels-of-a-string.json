@@ -1,0 +1,9 @@
+{
+  "id": "reverse-vowels-of-a-string",
+  "name": "Reverse Vowels of a String",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a string s, reverse only all the vowels in the string and return it.\n\nThe vowels are 'a', 'e', 'i', 'o', and 'u', and they can appear in both lower and upper cases, more than once.\n\n \nExample 1:\nInput: s = \"hello\"\nOutput: \"holle\"\nExample 2:\nInput: s = \"leetcode\"\nOutput: \"leotcede\"\n\n \nConstraints:\n\n\n\t1 <= s.length <= 3 * 105\n\ts consist of printable ASCII characters.\n\n"
+}

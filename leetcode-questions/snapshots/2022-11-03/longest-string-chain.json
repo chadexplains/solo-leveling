@@ -1,0 +1,12 @@
+{
+  "id": "longest-string-chain",
+  "name": "Longest String Chain",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Two Pointers",
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an array of words where each word consists of lowercase English letters.\n\nwordA is a predecessor of wordB if and only if we can insert exactly one letter anywhere in wordA without changing the order of the other characters to make it equal to wordB.\n\n\n\tFor example, \"abc\" is a predecessor of \"abac\", while \"cba\" is not a predecessor of \"bcad\".\n\n\nA word chain is a sequence of words [word1, word2, ..., wordk] with k >= 1, where word1 is a predecessor of word2, word2 is a predecessor of word3, and so on. A single word is trivially a word chain with k == 1.\n\nReturn the length of the longest possible word chain with words chosen from the given list of words.\n\n \nExample 1:\n\nInput: words = [\"a\",\"b\",\"ba\",\"bca\",\"bda\",\"bdca\"]\nOutput: 4\nExplanation: One of the longest word chains is [\"a\",\"ba\",\"bda\",\"bdca\"].\n\n\nExample 2:\n\nInput: words = [\"xbc\",\"pcxbcf\",\"xb\",\"cxbc\",\"pcxbc\"]\nOutput: 5\nExplanation: All the words can be put in a word chain [\"xb\", \"xbc\", \"cxbc\", \"pcxbc\", \"pcxbcf\"].\n\n\nExample 3:\n\nInput: words = [\"abcd\",\"dbqca\"]\nOutput: 1\nExplanation: The trivial word chain [\"abcd\"] is one of the longest word chains.\n[\"abcd\",\"dbqca\"] is not a valid word chain because the ordering of the letters is changed.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 1000\n\t1 <= words[i].length <= 16\n\twords[i] only consists of lowercase English letters.\n\n"
+}

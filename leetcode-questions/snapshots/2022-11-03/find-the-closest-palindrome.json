@@ -1,0 +1,9 @@
+{
+  "id": "find-the-closest-palindrome",
+  "name": "Find the Closest Palindrome",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "Given a string n representing an integer, return the closest integer (not including itself), which is a palindrome. If there is a tie, return the smaller one.\n\nThe closest is defined as the absolute difference minimized between two integers.\n\n \nExample 1:\n\nInput: n = \"123\"\nOutput: \"121\"\n\n\nExample 2:\n\nInput: n = \"1\"\nOutput: \"0\"\nExplanation: 0 and 2 are the closest palindromes but we return the smallest which is 0.\n\n\n \nConstraints:\n\n\n\t1 <= n.length <= 18\n\tn consists of only digits.\n\tn does not have leading zeros.\n\tn is representing an integer in the range [1, 1018 - 1].\n\n"
+}

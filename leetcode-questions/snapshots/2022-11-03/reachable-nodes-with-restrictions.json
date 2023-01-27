@@ -1,0 +1,13 @@
+{
+  "id": "reachable-nodes-with-restrictions",
+  "name": "Reachable Nodes With Restrictions",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph"
+  ],
+  "description": "There is an undirected tree with n nodes labeled from 0 to n - 1 and n - 1 edges.\n\nYou are given a 2D integer array edges of length n - 1 where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree. You are also given an integer array restricted which represents restricted nodes.\n\nReturn the maximum number of nodes you can reach from node 0 without visiting a restricted node.\n\nNote that node 0 will not be a restricted node.\n\n \nExample 1:\n\nInput: n = 7, edges = [[0,1],[1,2],[3,1],[4,0],[0,5],[5,6]], restricted = [4,5]\nOutput: 4\nExplanation: The diagram above shows the tree.\nWe have that [0,1,2,3] are the only nodes that can be reached from node 0 without visiting a restricted node.\n\n\nExample 2:\n\nInput: n = 7, edges = [[0,1],[0,2],[0,5],[0,4],[3,2],[6,5]], restricted = [4,2,1]\nOutput: 3\nExplanation: The diagram above shows the tree.\nWe have that [0,5,6] are the only nodes that can be reached from node 0 without visiting a restricted node.\n\n\n \nConstraints:\n\n\n\t2 <= n <= 105\n\tedges.length == n - 1\n\tedges[i].length == 2\n\t0 <= ai, bi < n\n\tai != bi\n\tedges represents a valid tree.\n\t1 <= restricted.length < n\n\t1 <= restricted[i] < n\n\tAll the values of restricted are unique.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "maximum-consecutive-floors-without-special-floors",
+  "name": "Maximum Consecutive Floors Without Special Floors",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "Alice manages a company and has rented some floors of a building as office space. Alice has decided some of these floors should be special floors, used for relaxation only.\n\nYou are given two integers bottom and top, which denote that Alice has rented all the floors from bottom to top (inclusive). You are also given the integer array special, where special[i] denotes a special floor that Alice has designated for relaxation.\n\nReturn the maximum number of consecutive floors without a special floor.\n\n \nExample 1:\n\nInput: bottom = 2, top = 9, special = [4,6]\nOutput: 3\nExplanation: The following are the ranges (inclusive) of consecutive floors without a special floor:\n- (2, 3) with a total amount of 2 floors.\n- (5, 5) with a total amount of 1 floor.\n- (7, 9) with a total amount of 3 floors.\nTherefore, we return the maximum number which is 3 floors.\n\n\nExample 2:\n\nInput: bottom = 6, top = 8, special = [7,6,8]\nOutput: 0\nExplanation: Every floor rented is a special floor, so we return 0.\n\n\n \nConstraints:\n\n\n\t1 <= special.length <= 105\n\t1 <= bottom <= special[i] <= top <= 109\n\tAll the values of special are unique.\n\n"
+}

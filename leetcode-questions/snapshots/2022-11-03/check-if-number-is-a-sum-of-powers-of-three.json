@@ -1,0 +1,8 @@
+{
+  "id": "check-if-number-is-a-sum-of-powers-of-three",
+  "name": "Check if Number is a Sum of Powers of Three",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer n, return true if it is possible to represent n as the sum of distinct powers of three. Otherwise, return false.\n\nAn integer y is a power of three if there exists an integer x such that y == 3x.\n\n \nExample 1:\n\nInput: n = 12\nOutput: true\nExplanation: 12 = 31 + 32\n\n\nExample 2:\n\nInput: n = 91\nOutput: true\nExplanation: 91 = 30 + 32 + 34\n\n\nExample 3:\n\nInput: n = 21\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= n <= 107\n\n"
+}

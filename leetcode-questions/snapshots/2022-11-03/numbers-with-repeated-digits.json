@@ -1,0 +1,9 @@
+{
+  "id": "numbers-with-repeated-digits",
+  "name": "Numbers With Repeated Digits",
+  "tags": [
+    "Math",
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer n, return the number of positive integers in the range [1, n] that have at least one repeated digit.\n\n \nExample 1:\n\nInput: n = 20\nOutput: 1\nExplanation: The only positive number (<= 20) with at least 1 repeated digit is 11.\n\n\nExample 2:\n\nInput: n = 100\nOutput: 10\nExplanation: The positive numbers (<= 100) with atleast 1 repeated digit are 11, 22, 33, 44, 55, 66, 77, 88, 99, and 100.\n\n\nExample 3:\n\nInput: n = 1000\nOutput: 262\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\n"
+}

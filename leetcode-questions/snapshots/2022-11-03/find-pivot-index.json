@@ -1,0 +1,9 @@
+{
+  "id": "find-pivot-index",
+  "name": "Find Pivot Index",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "description": "Given an array of integers nums, calculate the pivot index of this array.\n\nThe pivot index is the index where the sum of all the numbers strictly to the left of the index is equal to the sum of all the numbers strictly to the index's right.\n\nIf the index is on the left edge of the array, then the left sum is 0 because there are no elements to the left. This also applies to the right edge of the array.\n\nReturn the leftmost pivot index. If no such index exists, return -1.\n\n \nExample 1:\n\nInput: nums = [1,7,3,6,5,6]\nOutput: 3\nExplanation:\nThe pivot index is 3.\nLeft sum = nums[0] + nums[1] + nums[2] = 1 + 7 + 3 = 11\nRight sum = nums[4] + nums[5] = 5 + 6 = 11\n\n\nExample 2:\n\nInput: nums = [1,2,3]\nOutput: -1\nExplanation:\nThere is no index that satisfies the conditions in the problem statement.\n\nExample 3:\n\nInput: nums = [2,1,-1]\nOutput: 0\nExplanation:\nThe pivot index is 0.\nLeft sum = 0 (no elements to the left of index 0)\nRight sum = nums[1] + nums[2] = 1 + -1 = 0\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 104\n\t-1000 <= nums[i] <= 1000\n\n\n \nNote: This question is the same as 1991: https://leetcode.com/problems/find-the-middle-index-in-array/\n"
+}

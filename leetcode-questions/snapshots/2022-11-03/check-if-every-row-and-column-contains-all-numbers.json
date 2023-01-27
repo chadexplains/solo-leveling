@@ -1,0 +1,10 @@
+{
+  "id": "check-if-every-row-and-column-contains-all-numbers",
+  "name": "Check if Every Row and Column Contains All Numbers",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Matrix"
+  ],
+  "description": "An n x n matrix is valid if every row and every column contains all the integers from 1 to n (inclusive).\n\nGiven an n x n integer matrix matrix, return true if the matrix is valid. Otherwise, return false.\n\n \nExample 1:\n\nInput: matrix = [[1,2,3],[3,1,2],[2,3,1]]\nOutput: true\nExplanation: In this case, n = 3, and every row and column contains the numbers 1, 2, and 3.\nHence, we return true.\n\n\nExample 2:\n\nInput: matrix = [[1,1,1],[1,2,3],[1,2,3]]\nOutput: false\nExplanation: In this case, n = 3, but the first row and the first column do not contain the numbers 2 or 3.\nHence, we return false.\n\n\n \nConstraints:\n\n\n\tn == matrix.length == matrix[i].length\n\t1 <= n <= 100\n\t1 <= matrix[i][j] <= n\n\n"
+}

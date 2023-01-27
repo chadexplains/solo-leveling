@@ -1,0 +1,9 @@
+{
+  "id": "word-pattern",
+  "name": "Word Pattern",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given a pattern and a string s, find if s follows the same pattern.\n\nHere follow means a full match, such that there is a bijection between a letter in pattern and a non-empty word in s.\n\n \nExample 1:\n\nInput: pattern = \"abba\", s = \"dog cat cat dog\"\nOutput: true\n\n\nExample 2:\n\nInput: pattern = \"abba\", s = \"dog cat cat fish\"\nOutput: false\n\n\nExample 3:\n\nInput: pattern = \"aaaa\", s = \"dog cat cat dog\"\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= pattern.length <= 300\n\tpattern contains only lower-case English letters.\n\t1 <= s.length <= 3000\n\ts contains only lowercase English letters and spaces ' '.\n\ts does not contain any leading or trailing spaces.\n\tAll the words in s are separated by a single space.\n\n"
+}

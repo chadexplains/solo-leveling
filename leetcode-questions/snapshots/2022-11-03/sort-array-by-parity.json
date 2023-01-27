@@ -1,0 +1,10 @@
+{
+  "id": "sort-array-by-parity",
+  "name": "Sort Array By Parity",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums, move all the even integers at the beginning of the array followed by all the odd integers.\n\nReturn any array that satisfies this condition.\n\n \nExample 1:\n\nInput: nums = [3,1,2,4]\nOutput: [2,4,3,1]\nExplanation: The outputs [4,2,3,1], [2,4,1,3], and [4,2,1,3] would also be accepted.\n\n\nExample 2:\n\nInput: nums = [0]\nOutput: [0]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 5000\n\t0 <= nums[i] <= 5000\n\n"
+}

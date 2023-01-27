@@ -1,0 +1,9 @@
+{
+  "id": "partition-list",
+  "name": "Partition List",
+  "tags": [
+    "Linked List",
+    "Two Pointers"
+  ],
+  "description": "Given the head of a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.\n\nYou should preserve the original relative order of the nodes in each of the two partitions.\n\n \nExample 1:\n\nInput: head = [1,4,3,2,5,2], x = 3\nOutput: [1,2,2,4,3,5]\n\n\nExample 2:\n\nInput: head = [2,1], x = 2\nOutput: [1,2]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [0, 200].\n\t-100 <= Node.val <= 100\n\t-200 <= x <= 200\n\n"
+}

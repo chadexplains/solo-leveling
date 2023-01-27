@@ -1,0 +1,12 @@
+{
+  "id": "online-majority-element-in-subarray",
+  "name": "Online Majority Element In Subarray",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Design",
+    "Binary Indexed Tree",
+    "Segment Tree"
+  ],
+  "description": "Design a data structure that efficiently finds the majority element of a given subarray.\n\nThe majority element of a subarray is an element that occurs threshold times or more in the subarray.\n\nImplementing the MajorityChecker class:\n\n\n\tMajorityChecker(int[] arr) Initializes the instance of the class with the given array arr.\n\tint query(int left, int right, int threshold) returns the element in the subarray arr[left...right] that occurs at least threshold times, or -1 if no such element exists.\n\n\n \nExample 1:\n\nInput\n[\"MajorityChecker\", \"query\", \"query\", \"query\"]\n[[[1, 1, 2, 2, 1, 1]], [0, 5, 4], [0, 3, 3], [2, 3, 2]]\nOutput\n[null, 1, -1, 2]\n\nExplanation\nMajorityChecker majorityChecker = new MajorityChecker([1, 1, 2, 2, 1, 1]);\nmajorityChecker.query(0, 5, 4); // return 1\nmajorityChecker.query(0, 3, 3); // return -1\nmajorityChecker.query(2, 3, 2); // return 2\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 2 * 104\n\t1 <= arr[i] <= 2 * 104\n\t0 <= left <= right < arr.length\n\tthreshold <= right - left + 1\n\t2 * threshold > right - left + 1\n\tAt most 104 calls will be made to query.\n\n"
+}

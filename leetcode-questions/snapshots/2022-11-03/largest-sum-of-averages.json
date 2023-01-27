@@ -1,0 +1,9 @@
+{
+  "id": "largest-sum-of-averages",
+  "name": "Largest Sum of Averages",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an integer array nums and an integer k. You can partition the array into at most k non-empty adjacent subarrays. The score of a partition is the sum of the averages of each subarray.\n\nNote that the partition must use every integer in nums, and that the score is not necessarily an integer.\n\nReturn the maximum score you can achieve of all the possible partitions. Answers within 10-6 of the actual answer will be accepted.\n\n \nExample 1:\n\nInput: nums = [9,1,2,3,9], k = 3\nOutput: 20.00000\nExplanation: \nThe best choice is to partition nums into [9], [1, 2, 3], [9]. The answer is 9 + (1 + 2 + 3) / 3 + 9 = 20.\nWe could have also partitioned nums into [9, 1], [2], [3, 9], for example.\nThat partition would lead to a score of 5 + 2 + 6 = 13, which is worse.\n\n\nExample 2:\n\nInput: nums = [1,2,3,4,5,6,7], k = 4\nOutput: 20.50000\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 100\n\t1 <= nums[i] <= 104\n\t1 <= k <= nums.length\n\n"
+}

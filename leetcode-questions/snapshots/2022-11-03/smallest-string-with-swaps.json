@@ -1,0 +1,12 @@
+{
+  "id": "smallest-string-with-swaps",
+  "name": "Smallest String With Swaps",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union Find"
+  ],
+  "description": "You are given a string s, and an array of pairs of indices in the string pairs where pairs[i] = [a, b] indicates 2 indices(0-indexed) of the string.\n\nYou can swap the characters at any pair of indices in the given pairs any number of times.\n\nReturn the lexicographically smallest string that s can be changed to after using the swaps.\n\n \nExample 1:\n\nInput: s = \"dcab\", pairs = [[0,3],[1,2]]\nOutput: \"bacd\"\nExplaination: \nSwap s[0] and s[3], s = \"bcad\"\nSwap s[1] and s[2], s = \"bacd\"\n\n\nExample 2:\n\nInput: s = \"dcab\", pairs = [[0,3],[1,2],[0,2]]\nOutput: \"abcd\"\nExplaination: \nSwap s[0] and s[3], s = \"bcad\"\nSwap s[0] and s[2], s = \"acbd\"\nSwap s[1] and s[2], s = \"abcd\"\n\nExample 3:\n\nInput: s = \"cba\", pairs = [[0,1],[1,2]]\nOutput: \"abc\"\nExplaination: \nSwap s[0] and s[1], s = \"bca\"\nSwap s[1] and s[2], s = \"bac\"\nSwap s[0] and s[1], s = \"abc\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 10^5\n\t0 <= pairs.length <= 10^5\n\t0 <= pairs[i][0], pairs[i][1] < s.length\n\ts only contains lower case English letters.\n\n"
+}

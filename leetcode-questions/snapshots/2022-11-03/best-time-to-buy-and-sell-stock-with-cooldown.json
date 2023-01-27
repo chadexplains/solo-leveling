@@ -1,0 +1,9 @@
+{
+  "id": "best-time-to-buy-and-sell-stock-with-cooldown",
+  "name": "Best Time to Buy and Sell Stock with Cooldown",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an array prices where prices[i] is the price of a given stock on the ith day.\n\nFind the maximum profit you can achieve. You may complete as many transactions as you like (i.e., buy one and sell one share of the stock multiple times) with the following restrictions:\n\n\n\tAfter you sell your stock, you cannot buy stock on the next day (i.e., cooldown one day).\n\n\nNote: You may not engage in multiple transactions simultaneously (i.e., you must sell the stock before you buy again).\n\n \nExample 1:\n\nInput: prices = [1,2,3,0,2]\nOutput: 3\nExplanation: transactions = [buy, sell, cooldown, buy, sell]\n\n\nExample 2:\n\nInput: prices = [1]\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= prices.length <= 5000\n\t0 <= prices[i] <= 1000\n\n"
+}

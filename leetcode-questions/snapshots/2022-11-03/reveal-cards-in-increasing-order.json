@@ -1,0 +1,11 @@
+{
+  "id": "reveal-cards-in-increasing-order",
+  "name": "Reveal Cards In Increasing Order",
+  "tags": [
+    "Array",
+    "Queue",
+    "Sorting",
+    "Simulation"
+  ],
+  "description": "You are given an integer array deck. There is a deck of cards where every card has a unique integer. The integer on the ith card is deck[i].\n\nYou can order the deck in any order you want. Initially, all the cards start face down (unrevealed) in one deck.\n\nYou will do the following steps repeatedly until all cards are revealed:\n\n\n\tTake the top card of the deck, reveal it, and take it out of the deck.\n\tIf there are still cards in the deck then put the next top card of the deck at the bottom of the deck.\n\tIf there are still unrevealed cards, go back to step 1. Otherwise, stop.\n\n\nReturn an ordering of the deck that would reveal the cards in increasing order.\n\nNote that the first entry in the answer is considered to be the top of the deck.\n\n \nExample 1:\n\nInput: deck = [17,13,11,2,3,5,7]\nOutput: [2,13,3,11,5,17,7]\nExplanation: \nWe get the deck in the order [17,13,11,2,3,5,7] (this order does not matter), and reorder it.\nAfter reordering, the deck starts as [2,13,3,11,5,17,7], where 2 is the top of the deck.\nWe reveal 2, and move 13 to the bottom.  The deck is now [3,11,5,17,7,13].\nWe reveal 3, and move 11 to the bottom.  The deck is now [5,17,7,13,11].\nWe reveal 5, and move 17 to the bottom.  The deck is now [7,13,11,17].\nWe reveal 7, and move 13 to the bottom.  The deck is now [11,17,13].\nWe reveal 11, and move 17 to the bottom.  The deck is now [13,17].\nWe reveal 13, and move 17 to the bottom.  The deck is now [17].\nWe reveal 17.\nSince all the cards revealed are in increasing order, the answer is correct.\n\n\nExample 2:\n\nInput: deck = [1,1000]\nOutput: [1,1000]\n\n\n \nConstraints:\n\n\n\t1 <= deck.length <= 1000\n\t1 <= deck[i] <= 106\n\tAll the values of deck are unique.\n\n"
+}

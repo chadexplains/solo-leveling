@@ -1,0 +1,8 @@
+{
+  "id": "k-inverse-pairs-array",
+  "name": "K Inverse Pairs Array",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "For an integer array nums, an inverse pair is a pair of integers [i, j] where 0 <= i < j < nums.length and nums[i] > nums[j].\n\nGiven two integers n and k, return the number of different arrays consist of numbers from 1 to n such that there are exactly k inverse pairs. Since the answer can be huge, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 3, k = 0\nOutput: 1\nExplanation: Only the array [1,2,3] which consists of numbers from 1 to 3 has exactly 0 inverse pairs.\n\n\nExample 2:\n\nInput: n = 3, k = 1\nOutput: 2\nExplanation: The array [1,3,2] and [2,1,3] have exactly 1 inverse pair.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 1000\n\t0 <= k <= 1000\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "change-minimum-characters-to-satisfy-one-of-three-conditions",
+  "name": "Change Minimum Characters to Satisfy One of Three Conditions",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting",
+    "Prefix Sum"
+  ],
+  "description": "You are given two strings a and b that consist of lowercase letters. In one operation, you can change any character in a or b to any lowercase letter.\n\nYour goal is to satisfy one of the following three conditions:\n\n\n\tEvery letter in a is strictly less than every letter in b in the alphabet.\n\tEvery letter in b is strictly less than every letter in a in the alphabet.\n\tBoth a and b consist of only one distinct letter.\n\n\nReturn the minimum number of operations needed to achieve your goal.\n\n \nExample 1:\n\nInput: a = \"aba\", b = \"caa\"\nOutput: 2\nExplanation: Consider the best way to make each condition true:\n1) Change b to \"ccc\" in 2 operations, then every letter in a is less than every letter in b.\n2) Change a to \"bbb\" and b to \"aaa\" in 3 operations, then every letter in b is less than every letter in a.\n3) Change a to \"aaa\" and b to \"aaa\" in 2 operations, then a and b consist of one distinct letter.\nThe best way was done in 2 operations (either condition 1 or condition 3).\n\n\nExample 2:\n\nInput: a = \"dabadd\", b = \"cda\"\nOutput: 3\nExplanation: The best way is to make condition 1 true by changing b to \"eee\".\n\n\n \nConstraints:\n\n\n\t1 <= a.length, b.length <= 105\n\ta and b consist only of lowercase letters.\n\n"
+}

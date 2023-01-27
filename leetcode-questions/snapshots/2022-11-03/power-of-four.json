@@ -1,0 +1,10 @@
+{
+  "id": "power-of-four",
+  "name": "Power of Four",
+  "tags": [
+    "Math",
+    "Bit Manipulation",
+    "Recursion"
+  ],
+  "description": "Given an integer n, return true if it is a power of four. Otherwise, return false.\n\nAn integer n is a power of four, if there exists an integer x such that n == 4x.\n\n \nExample 1:\nInput: n = 16\nOutput: true\nExample 2:\nInput: n = 5\nOutput: false\nExample 3:\nInput: n = 1\nOutput: true\n\n \nConstraints:\n\n\n\t-231 <= n <= 231 - 1\n\n\n \nFollow up: Could you solve it without loops/recursion?"
+}

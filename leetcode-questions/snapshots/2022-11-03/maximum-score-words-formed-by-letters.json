@@ -1,0 +1,13 @@
+{
+  "id": "maximum-score-words-formed-by-letters",
+  "name": "Maximum Score Words Formed by Letters",
+  "tags": [
+    "Array",
+    "String",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "Given a list of words, list of  single letters (might be repeating) and score of every character.\n\nReturn the maximum score of any valid set of words formed by using the given letters (words[i] cannot be used two or more times).\n\nIt is not necessary to use all characters in letters and each letter can only be used once. Score of letters 'a', 'b', 'c', ... ,'z' is given by score[0], score[1], ... , score[25] respectively.\n\n \nExample 1:\n\nInput: words = [\"dog\",\"cat\",\"dad\",\"good\"], letters = [\"a\",\"a\",\"c\",\"d\",\"d\",\"d\",\"g\",\"o\",\"o\"], score = [1,0,9,5,0,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0]\nOutput: 23\nExplanation:\nScore  a=1, c=9, d=5, g=3, o=2\nGiven letters, we can form the words \"dad\" (5+1+5) and \"good\" (3+2+2+5) with a score of 23.\nWords \"dad\" and \"dog\" only get a score of 21.\n\nExample 2:\n\nInput: words = [\"xxxz\",\"ax\",\"bx\",\"cx\"], letters = [\"z\",\"a\",\"b\",\"c\",\"x\",\"x\",\"x\"], score = [4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,10]\nOutput: 27\nExplanation:\nScore  a=4, b=4, c=4, x=5, z=10\nGiven letters, we can form the words \"ax\" (4+5), \"bx\" (4+5) and \"cx\" (4+5) with a score of 27.\nWord \"xxxz\" only get a score of 25.\n\nExample 3:\n\nInput: words = [\"leetcode\"], letters = [\"l\",\"e\",\"t\",\"c\",\"o\",\"d\"], score = [0,0,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0,0,0,0,0,0]\nOutput: 0\nExplanation:\nLetter \"e\" can only be used once.\n\n \nConstraints:\n\n\n\t1 <= words.length <= 14\n\t1 <= words[i].length <= 15\n\t1 <= letters.length <= 100\n\tletters[i].length == 1\n\tscore.length == 26\n\t0 <= score[i] <= 10\n\twords[i], letters[i] contains only lower case English letters.\n\n"
+}

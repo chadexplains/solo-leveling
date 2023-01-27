@@ -1,0 +1,10 @@
+{
+  "id": "implement-stack-using-queues",
+  "name": "Implement Stack using Queues",
+  "tags": [
+    "Stack",
+    "Design",
+    "Queue"
+  ],
+  "description": "Implement a last-in-first-out (LIFO) stack using only two queues. The implemented stack should support all the functions of a normal stack (push, top, pop, and empty).\n\nImplement the MyStack class:\n\n\n\tvoid push(int x) Pushes element x to the top of the stack.\n\tint pop() Removes the element on the top of the stack and returns it.\n\tint top() Returns the element on the top of the stack.\n\tboolean empty() Returns true if the stack is empty, false otherwise.\n\n\nNotes:\n\n\n\tYou must use only standard operations of a queue, which means that only push to back, peek/pop from front, size and is empty operations are valid.\n\tDepending on your language, the queue may not be supported natively. You may simulate a queue using a list or deque (double-ended queue) as long as you use only a queue's standard operations.\n\n\n \nExample 1:\n\nInput\n[\"MyStack\", \"push\", \"push\", \"top\", \"pop\", \"empty\"]\n[[], [1], [2], [], [], []]\nOutput\n[null, null, null, 2, 2, false]\n\nExplanation\nMyStack myStack = new MyStack();\nmyStack.push(1);\nmyStack.push(2);\nmyStack.top(); // return 2\nmyStack.pop(); // return 2\nmyStack.empty(); // return False\n\n\n \nConstraints:\n\n\n\t1 <= x <= 9\n\tAt most 100 calls will be made to push, pop, top, and empty.\n\tAll the calls to pop and top are valid.\n\n\n \nFollow-up: Can you implement the stack using only one queue?\n"
+}

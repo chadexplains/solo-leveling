@@ -1,0 +1,9 @@
+{
+  "id": "merge-intervals",
+  "name": "Merge Intervals",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.\n\n \nExample 1:\n\nInput: intervals = [[1,3],[2,6],[8,10],[15,18]]\nOutput: [[1,6],[8,10],[15,18]]\nExplanation: Since intervals [1,3] and [2,6] overlap, merge them into [1,6].\n\n\nExample 2:\n\nInput: intervals = [[1,4],[4,5]]\nOutput: [[1,5]]\nExplanation: Intervals [1,4] and [4,5] are considered overlapping.\n\n\n \nConstraints:\n\n\n\t1 <= intervals.length <= 104\n\tintervals[i].length == 2\n\t0 <= starti <= endi <= 104\n\n"
+}

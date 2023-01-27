@@ -1,0 +1,10 @@
+{
+  "id": "perfect-squares",
+  "name": "Perfect Squares",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Breadth-First Search"
+  ],
+  "description": "Given an integer n, return the least number of perfect square numbers that sum to n.\n\nA perfect square is an integer that is the square of an integer; in other words, it is the product of some integer with itself. For example, 1, 4, 9, and 16 are perfect squares while 3 and 11 are not.\n\n \nExample 1:\n\nInput: n = 12\nOutput: 3\nExplanation: 12 = 4 + 4 + 4.\n\n\nExample 2:\n\nInput: n = 13\nOutput: 2\nExplanation: 13 = 4 + 9.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 104\n\n"
+}

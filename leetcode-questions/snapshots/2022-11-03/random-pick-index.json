@@ -1,0 +1,11 @@
+{
+  "id": "random-pick-index",
+  "name": "Random Pick Index",
+  "tags": [
+    "Hash Table",
+    "Math",
+    "Reservoir Sampling",
+    "Randomized"
+  ],
+  "description": "Given an integer array nums with possible duplicates, randomly output the index of a given target number. You can assume that the given target number must exist in the array.\n\nImplement the Solution class:\n\n\n\tSolution(int[] nums) Initializes the object with the array nums.\n\tint pick(int target) Picks a random index i from nums where nums[i] == target. If there are multiple valid i's, then each index should have an equal probability of returning.\n\n\n \nExample 1:\n\nInput\n[\"Solution\", \"pick\", \"pick\", \"pick\"]\n[[[1, 2, 3, 3, 3]], [3], [1], [3]]\nOutput\n[null, 4, 0, 2]\n\nExplanation\nSolution solution = new Solution([1, 2, 3, 3, 3]);\nsolution.pick(3); // It should return either index 2, 3, or 4 randomly. Each index should have equal probability of returning.\nsolution.pick(1); // It should return 0. Since in the array only nums[0] is equal to 1.\nsolution.pick(3); // It should return either index 2, 3, or 4 randomly. Each index should have equal probability of returning.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 2 * 104\n\t-231 <= nums[i] <= 231 - 1\n\ttarget is an integer from nums.\n\tAt most 104 calls will be made to pick.\n\n"
+}

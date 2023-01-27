@@ -1,0 +1,10 @@
+{
+  "id": "first-letter-to-appear-twice",
+  "name": "First Letter to Appear Twice",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "Given a string s consisting of lowercase English letters, return the first letter to appear twice.\n\nNote:\n\n\n\tA letter a appears twice before another letter b if the second occurrence of a is before the second occurrence of b.\n\ts will contain at least one letter that appears twice.\n\n\n \nExample 1:\n\nInput: s = \"abccbaacz\"\nOutput: \"c\"\nExplanation:\nThe letter 'a' appears on the indexes 0, 5 and 6.\nThe letter 'b' appears on the indexes 1 and 4.\nThe letter 'c' appears on the indexes 2, 3 and 7.\nThe letter 'z' appears on the index 8.\nThe letter 'c' is the first letter to appear twice, because out of all the letters the index of its second occurrence is the smallest.\n\n\nExample 2:\n\nInput: s = \"abcdd\"\nOutput: \"d\"\nExplanation:\nThe only letter that appears twice is 'd' so we return 'd'.\n\n\n \nConstraints:\n\n\n\t2 <= s.length <= 100\n\ts consists of lowercase English letters.\n\ts has at least one repeated letter.\n\n"
+}

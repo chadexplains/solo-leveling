@@ -1,0 +1,11 @@
+{
+  "id": "count-primes",
+  "name": "Count Primes",
+  "tags": [
+    "Array",
+    "Math",
+    "Enumeration",
+    "Number Theory"
+  ],
+  "description": "Given an integer n, return the number of prime numbers that are strictly less than n.\n\n \nExample 1:\n\nInput: n = 10\nOutput: 4\nExplanation: There are 4 prime numbers less than 10, they are 2, 3, 5, 7.\n\n\nExample 2:\n\nInput: n = 0\nOutput: 0\n\n\nExample 3:\n\nInput: n = 1\nOutput: 0\n\n\n \nConstraints:\n\n\n\t0 <= n <= 5 * 106\n\n"
+}

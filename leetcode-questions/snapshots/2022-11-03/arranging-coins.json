@@ -1,0 +1,9 @@
+{
+  "id": "arranging-coins",
+  "name": "Arranging Coins",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "You have n coins and you want to build a staircase with these coins. The staircase consists of k rows where the ith row has exactly i coins. The last row of the staircase may be incomplete.\n\nGiven the integer n, return the number of complete rows of the staircase you will build.\n\n \nExample 1:\n\nInput: n = 5\nOutput: 2\nExplanation: Because the 3rd row is incomplete, we return 2.\n\n\nExample 2:\n\nInput: n = 8\nOutput: 3\nExplanation: Because the 4th row is incomplete, we return 3.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 231 - 1\n\n"
+}

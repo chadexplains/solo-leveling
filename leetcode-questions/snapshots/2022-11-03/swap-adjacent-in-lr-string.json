@@ -1,0 +1,9 @@
+{
+  "id": "swap-adjacent-in-lr-string",
+  "name": "Swap Adjacent in LR String",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "In a string composed of 'L', 'R', and 'X' characters, like \"RXXLRXRXL\", a move consists of either replacing one occurrence of \"XL\" with \"LX\", or replacing one occurrence of \"RX\" with \"XR\". Given the starting string start and the ending string end, return True if and only if there exists a sequence of moves to transform one string to the other.\n\n \nExample 1:\n\nInput: start = \"RXXLRXRXL\", end = \"XRLXXRRLX\"\nOutput: true\nExplanation: We can transform start to end following these steps:\nRXXLRXRXL ->\nXRXLRXRXL ->\nXRLXRXRXL ->\nXRLXXRRXL ->\nXRLXXRRLX\n\n\nExample 2:\n\nInput: start = \"X\", end = \"L\"\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= start.length <= 104\n\tstart.length == end.length\n\tBoth start and end will only consist of characters in 'L', 'R', and 'X'.\n\n"
+}

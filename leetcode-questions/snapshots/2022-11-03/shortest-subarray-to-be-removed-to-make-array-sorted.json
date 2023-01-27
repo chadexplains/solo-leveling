@@ -1,0 +1,12 @@
+{
+  "id": "shortest-subarray-to-be-removed-to-make-array-sorted",
+  "name": "Shortest Subarray to be Removed to Make Array Sorted",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "description": "Given an integer array arr, remove a subarray (can be empty) from arr such that the remaining elements in arr are non-decreasing.\n\nReturn the length of the shortest subarray to remove.\n\nA subarray is a contiguous subsequence of the array.\n\n \nExample 1:\n\nInput: arr = [1,2,3,10,4,2,3,5]\nOutput: 3\nExplanation: The shortest subarray we can remove is [10,4,2] of length 3. The remaining elements after that will be [1,2,3,3,5] which are sorted.\nAnother correct solution is to remove the subarray [3,10,4].\n\n\nExample 2:\n\nInput: arr = [5,4,3,2,1]\nOutput: 4\nExplanation: Since the array is strictly decreasing, we can only keep a single element. Therefore we need to remove a subarray of length 4, either [5,4,3,2] or [4,3,2,1].\n\n\nExample 3:\n\nInput: arr = [1,2,3]\nOutput: 0\nExplanation: The array is already non-decreasing. We do not need to remove any elements.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 105\n\t0 <= arr[i] <= 109\n\n"
+}

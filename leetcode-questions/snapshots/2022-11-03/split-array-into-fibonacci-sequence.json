@@ -1,0 +1,9 @@
+{
+  "id": "split-array-into-fibonacci-sequence",
+  "name": "Split Array into Fibonacci Sequence",
+  "tags": [
+    "String",
+    "Backtracking"
+  ],
+  "description": "You are given a string of digits num, such as \"123456579\". We can split it into a Fibonacci-like sequence [123, 456, 579].\n\nFormally, a Fibonacci-like sequence is a list f of non-negative integers such that:\n\n\n\t0 <= f[i] < 231, (that is, each integer fits in a 32-bit signed integer type),\n\tf.length >= 3, and\n\tf[i] + f[i + 1] == f[i + 2] for all 0 <= i < f.length - 2.\n\n\nNote that when splitting the string into pieces, each piece must not have extra leading zeroes, except if the piece is the number 0 itself.\n\nReturn any Fibonacci-like sequence split from num, or return [] if it cannot be done.\n\n \nExample 1:\n\nInput: num = \"1101111\"\nOutput: [11,0,11,11]\nExplanation: The output [110, 1, 111] would also be accepted.\n\n\nExample 2:\n\nInput: num = \"112358130\"\nOutput: []\nExplanation: The task is impossible.\n\n\nExample 3:\n\nInput: num = \"0123\"\nOutput: []\nExplanation: Leading zeroes are not allowed, so \"01\", \"2\", \"3\" is not valid.\n\n\n \nConstraints:\n\n\n\t1 <= num.length <= 200\n\tnum contains only digits.\n\n"
+}

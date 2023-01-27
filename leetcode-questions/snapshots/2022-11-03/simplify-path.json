@@ -1,0 +1,9 @@
+{
+  "id": "simplify-path",
+  "name": "Simplify Path",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "Given a string path, which is an absolute path (starting with a slash '/') to a file or directory in a Unix-style file system, convert it to the simplified canonical path.\n\nIn a Unix-style file system, a period '.' refers to the current directory, a double period '..' refers to the directory up a level, and any multiple consecutive slashes (i.e. '//') are treated as a single slash '/'. For this problem, any other format of periods such as '...' are treated as file/directory names.\n\nThe canonical path should have the following format:\n\n\n\tThe path starts with a single slash '/'.\n\tAny two directories are separated by a single slash '/'.\n\tThe path does not end with a trailing '/'.\n\tThe path only contains the directories on the path from the root directory to the target file or directory (i.e., no period '.' or double period '..')\n\n\nReturn the simplified canonical path.\n\n \nExample 1:\n\nInput: path = \"/home/\"\nOutput: \"/home\"\nExplanation: Note that there is no trailing slash after the last directory name.\n\n\nExample 2:\n\nInput: path = \"/../\"\nOutput: \"/\"\nExplanation: Going one level up from the root directory is a no-op, as the root level is the highest level you can go.\n\n\nExample 3:\n\nInput: path = \"/home//foo/\"\nOutput: \"/home/foo\"\nExplanation: In the canonical path, multiple consecutive slashes are replaced by a single one.\n\n\n \nConstraints:\n\n\n\t1 <= path.length <= 3000\n\tpath consists of English letters, digits, period '.', slash '/' or '_'.\n\tpath is a valid absolute Unix path.\n\n"
+}

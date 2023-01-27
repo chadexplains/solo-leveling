@@ -1,0 +1,11 @@
+{
+  "id": "island-perimeter",
+  "name": "Island Perimeter",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "You are given row x col grid representing a map where grid[i][j] = 1 represents land and grid[i][j] = 0 represents water.\n\nGrid cells are connected horizontally/vertically (not diagonally). The grid is completely surrounded by water, and there is exactly one island (i.e., one or more connected land cells).\n\nThe island doesn't have \"lakes\", meaning the water inside isn't connected to the water around the island. One cell is a square with side length 1. The grid is rectangular, width and height don't exceed 100. Determine the perimeter of the island.\n\n \nExample 1:\n\nInput: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]]\nOutput: 16\nExplanation: The perimeter is the 16 yellow stripes in the image above.\n\n\nExample 2:\n\nInput: grid = [[1]]\nOutput: 4\n\n\nExample 3:\n\nInput: grid = [[1,0]]\nOutput: 4\n\n\n \nConstraints:\n\n\n\trow == grid.length\n\tcol == grid[i].length\n\t1 <= row, col <= 100\n\tgrid[i][j] is 0 or 1.\n\tThere is exactly one island in grid.\n\n"
+}

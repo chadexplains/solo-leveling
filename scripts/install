@@ -1,0 +1,7 @@
+#!/bin/bash
+
+cd /home/ec2-user/app
+sudo make setup
+sudo make build
+cp ../.env .
+cp ../token.json .

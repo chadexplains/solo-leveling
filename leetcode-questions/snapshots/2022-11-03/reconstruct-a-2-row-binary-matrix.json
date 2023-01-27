@@ -1,0 +1,10 @@
+{
+  "id": "reconstruct-a-2-row-binary-matrix",
+  "name": "Reconstruct a 2-Row Binary Matrix",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Matrix"
+  ],
+  "description": "Given the following details of a matrix with n columns and 2 rows :\n\n\n\tThe matrix is a binary matrix, which means each element in the matrix can be 0 or 1.\n\tThe sum of elements of the 0-th(upper) row is given as upper.\n\tThe sum of elements of the 1-st(lower) row is given as lower.\n\tThe sum of elements in the i-th column(0-indexed) is colsum[i], where colsum is given as an integer array with length n.\n\n\nYour task is to reconstruct the matrix with upper, lower and colsum.\n\nReturn it as a 2-D integer array.\n\nIf there are more than one valid solution, any of them will be accepted.\n\nIf no valid solution exists, return an empty 2-D array.\n\n \nExample 1:\n\nInput: upper = 2, lower = 1, colsum = [1,1,1]\nOutput: [[1,1,0],[0,0,1]]\nExplanation: [[1,0,1],[0,1,0]], and [[0,1,1],[1,0,0]] are also correct answers.\n\n\nExample 2:\n\nInput: upper = 2, lower = 3, colsum = [2,2,1,1]\nOutput: []\n\n\nExample 3:\n\nInput: upper = 5, lower = 5, colsum = [2,1,2,0,1,0,1,2,0,1]\nOutput: [[1,1,1,0,1,0,0,1,0,0],[1,0,1,0,0,0,1,1,0,1]]\n\n\n \nConstraints:\n\n\n\t1 <= colsum.length <= 10^5\n\t0 <= upper, lower <= colsum.length\n\t0 <= colsum[i] <= 2\n\n"
+}

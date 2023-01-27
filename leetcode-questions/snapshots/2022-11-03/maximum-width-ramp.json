@@ -1,0 +1,10 @@
+{
+  "id": "maximum-width-ramp",
+  "name": "Maximum Width Ramp",
+  "tags": [
+    "Array",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "description": "A ramp in an integer array nums is a pair (i, j) for which i < j and nums[i] <= nums[j]. The width of such a ramp is j - i.\n\nGiven an integer array nums, return the maximum width of a ramp in nums. If there is no ramp in nums, return 0.\n\n \nExample 1:\n\nInput: nums = [6,0,8,2,1,5]\nOutput: 4\nExplanation: The maximum width ramp is achieved at (i, j) = (1, 5): nums[1] = 0 and nums[5] = 5.\n\n\nExample 2:\n\nInput: nums = [9,8,1,0,1,9,4,0,4,1]\nOutput: 7\nExplanation: The maximum width ramp is achieved at (i, j) = (2, 9): nums[2] = 1 and nums[9] = 1.\n\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 5 * 104\n\t0 <= nums[i] <= 5 * 104\n\n"
+}

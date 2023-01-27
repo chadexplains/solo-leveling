@@ -1,0 +1,11 @@
+{
+  "id": "my-calendar-ii",
+  "name": "My Calendar II",
+  "tags": [
+    "Binary Search",
+    "Design",
+    "Segment Tree",
+    "Ordered Set"
+  ],
+  "description": "You are implementing a program to use as your calendar. We can add a new event if adding the event will not cause a triple booking.\n\nA triple booking happens when three events have some non-empty intersection (i.e., some moment is common to all the three events.).\n\nThe event can be represented as a pair of integers start and end that represents a booking on the half-open interval [start, end), the range of real numbers x such that start <= x < end.\n\nImplement the MyCalendarTwo class:\n\n\n\tMyCalendarTwo() Initializes the calendar object.\n\tboolean book(int start, int end) Returns true if the event can be added to the calendar successfully without causing a triple booking. Otherwise, return false and do not add the event to the calendar.\n\n\n \nExample 1:\n\nInput\n[\"MyCalendarTwo\", \"book\", \"book\", \"book\", \"book\", \"book\", \"book\"]\n[[], [10, 20], [50, 60], [10, 40], [5, 15], [5, 10], [25, 55]]\nOutput\n[null, true, true, true, false, true, true]\n\nExplanation\nMyCalendarTwo myCalendarTwo = new MyCalendarTwo();\nmyCalendarTwo.book(10, 20); // return True, The event can be booked. \nmyCalendarTwo.book(50, 60); // return True, The event can be booked. \nmyCalendarTwo.book(10, 40); // return True, The event can be double booked. \nmyCalendarTwo.book(5, 15);  // return False, The event cannot be booked, because it would result in a triple booking.\nmyCalendarTwo.book(5, 10); // return True, The event can be booked, as it does not use time 10 which is already double booked.\nmyCalendarTwo.book(25, 55); // return True, The event can be booked, as the time in [25, 40) will be double booked with the third event, the time [40, 50) will be single booked, and the time [50, 55) will be double booked with the second event.\n\n\n \nConstraints:\n\n\n\t0 <= start < end <= 109\n\tAt most 1000 calls will be made to book.\n\n"
+}

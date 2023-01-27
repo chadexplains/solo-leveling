@@ -1,0 +1,13 @@
+{
+  "id": "maximum-length-of-repeated-subarray",
+  "name": "Maximum Length of Repeated Subarray",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sliding Window",
+    "Rolling Hash",
+    "Hash Function"
+  ],
+  "description": "Given two integer arrays nums1 and nums2, return the maximum length of a subarray that appears in both arrays.\n\n \nExample 1:\n\nInput: nums1 = [1,2,3,2,1], nums2 = [3,2,1,4,7]\nOutput: 3\nExplanation: The repeated subarray with maximum length is [3,2,1].\n\n\nExample 2:\n\nInput: nums1 = [0,0,0,0,0], nums2 = [0,0,0,0,0]\nOutput: 5\nExplanation: The repeated subarray with maximum length is [0,0,0,0,0].\n\n\n \nConstraints:\n\n\n\t1 <= nums1.length, nums2.length <= 1000\n\t0 <= nums1[i], nums2[i] <= 100\n\n"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "find-elements-in-a-contaminated-binary-tree",
+  "name": "Find Elements in a Contaminated Binary Tree",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Design",
+    "Binary Tree"
+  ],
+  "description": "Given a binary tree with the following rules:\n\n\n\troot.val == 0\n\tIf treeNode.val == x and treeNode.left != null, then treeNode.left.val == 2 * x + 1\n\tIf treeNode.val == x and treeNode.right != null, then treeNode.right.val == 2 * x + 2\n\n\nNow the binary tree is contaminated, which means all treeNode.val have been changed to -1.\n\nImplement the FindElements class:\n\n\n\tFindElements(TreeNode* root) Initializes the object with a contaminated binary tree and recovers it.\n\tbool find(int target) Returns true if the target value exists in the recovered binary tree.\n\n\n \nExample 1:\n\nInput\n[\"FindElements\",\"find\",\"find\"]\n[[[-1,null,-1]],[1],[2]]\nOutput\n[null,false,true]\nExplanation\nFindElements findElements = new FindElements([-1,null,-1]); \nfindElements.find(1); // return False \nfindElements.find(2); // return True \n\nExample 2:\n\nInput\n[\"FindElements\",\"find\",\"find\",\"find\"]\n[[[-1,-1,-1,-1,-1]],[1],[3],[5]]\nOutput\n[null,true,true,false]\nExplanation\nFindElements findElements = new FindElements([-1,-1,-1,-1,-1]);\nfindElements.find(1); // return True\nfindElements.find(3); // return True\nfindElements.find(5); // return False\n\nExample 3:\n\nInput\n[\"FindElements\",\"find\",\"find\",\"find\",\"find\"]\n[[[-1,null,-1,-1,null,-1]],[2],[3],[4],[5]]\nOutput\n[null,true,false,false,true]\nExplanation\nFindElements findElements = new FindElements([-1,null,-1,-1,null,-1]);\nfindElements.find(2); // return True\nfindElements.find(3); // return False\nfindElements.find(4); // return False\nfindElements.find(5); // return True\n\n\n \nConstraints:\n\n\n\tTreeNode.val == -1\n\tThe height of the binary tree is less than or equal to 20\n\tThe total number of nodes is between [1, 104]\n\tTotal calls of find() is between [1, 104]\n\t0 <= target <= 106\n\n"
+}

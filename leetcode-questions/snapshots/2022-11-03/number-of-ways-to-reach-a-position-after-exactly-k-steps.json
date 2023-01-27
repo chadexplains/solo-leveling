@@ -1,0 +1,10 @@
+{
+  "id": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+  "name": "Number of Ways to Reach a Position After Exactly k Steps",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Combinatorics"
+  ],
+  "description": "You are given two positive integers startPos and endPos. Initially, you are standing at position startPos on an infinite number line. With one step, you can move either one position to the left, or one position to the right.\n\nGiven a positive integer k, return the number of different ways to reach the position endPos starting from startPos, such that you perform exactly k steps. Since the answer may be very large, return it modulo 109 + 7.\n\nTwo ways are considered different if the order of the steps made is not exactly the same.\n\nNote that the number line includes negative integers.\n\n \nExample 1:\n\nInput: startPos = 1, endPos = 2, k = 3\nOutput: 3\nExplanation: We can reach position 2 from 1 in exactly 3 steps in three ways:\n- 1 -> 2 -> 3 -> 2.\n- 1 -> 2 -> 1 -> 2.\n- 1 -> 0 -> 1 -> 2.\nIt can be proven that no other way is possible, so we return 3.\n\nExample 2:\n\nInput: startPos = 2, endPos = 5, k = 10\nOutput: 0\nExplanation: It is impossible to reach position 5 from position 2 in exactly 10 steps.\n\n\n \nConstraints:\n\n\n\t1 <= startPos, endPos, k <= 1000\n\n"
+}

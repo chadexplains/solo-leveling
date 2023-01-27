@@ -1,0 +1,9 @@
+{
+  "id": "reverse-words-in-a-string-iii",
+  "name": "Reverse Words in a String III",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a string s, reverse the order of characters in each word within a sentence while still preserving whitespace and initial word order.\n\n \nExample 1:\nInput: s = \"Let's take LeetCode contest\"\nOutput: \"s'teL ekat edoCteeL tsetnoc\"\nExample 2:\nInput: s = \"God Ding\"\nOutput: \"doG gniD\"\n\n \nConstraints:\n\n\n\t1 <= s.length <= 5 * 104\n\ts contains printable ASCII characters.\n\ts does not contain any leading or trailing spaces.\n\tThere is at least one word in s.\n\tAll the words in s are separated by a single space.\n\n"
+}

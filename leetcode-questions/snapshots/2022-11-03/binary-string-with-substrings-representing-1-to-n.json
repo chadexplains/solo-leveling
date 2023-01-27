@@ -1,0 +1,8 @@
+{
+  "id": "binary-string-with-substrings-representing-1-to-n",
+  "name": "Binary String With Substrings Representing 1 To N",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a binary string s and a positive integer n, return true if the binary representation of all the integers in the range [1, n] are substrings of s, or false otherwise.\n\nA substring is a contiguous sequence of characters within a string.\n\n \nExample 1:\nInput: s = \"0110\", n = 3\nOutput: true\nExample 2:\nInput: s = \"0110\", n = 4\nOutput: false\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts[i] is either '0' or '1'.\n\t1 <= n <= 109\n\n"
+}

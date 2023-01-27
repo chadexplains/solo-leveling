@@ -1,0 +1,9 @@
+{
+  "id": "largest-plus-sign",
+  "name": "Largest Plus Sign",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an integer n. You have an n x n binary grid grid with all values initially 1's except for some indices given in the array mines. The ith element of the array mines is defined as mines[i] = [xi, yi] where grid[xi][yi] == 0.\n\nReturn the order of the largest axis-aligned plus sign of 1's contained in grid. If there is none, return 0.\n\nAn axis-aligned plus sign of 1's of order k has some center grid[r][c] == 1 along with four arms of length k - 1 going up, down, left, and right, and made of 1's. Note that there could be 0's or 1's beyond the arms of the plus sign, only the relevant area of the plus sign is checked for 1's.\n\n \nExample 1:\n\nInput: n = 5, mines = [[4,2]]\nOutput: 2\nExplanation: In the above grid, the largest plus sign can only be of order 2. One of them is shown.\n\n\nExample 2:\n\nInput: n = 1, mines = [[0,0]]\nOutput: 0\nExplanation: There is no plus sign, so return 0.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 500\n\t1 <= mines.length <= 5000\n\t0 <= xi, yi < n\n\tAll the pairs (xi, yi) are unique.\n\n"
+}

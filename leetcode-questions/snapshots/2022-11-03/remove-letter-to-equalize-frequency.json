@@ -1,0 +1,10 @@
+{
+  "id": "remove-letter-to-equalize-frequency",
+  "name": "Remove Letter To Equalize Frequency",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You are given a 0-indexed string word, consisting of lowercase English letters. You need to select one index and remove the letter at that index from word so that the frequency of every letter present in word is equal.\n\nReturn true if it is possible to remove one letter so that the frequency of all letters in word are equal, and false otherwise.\n\nNote:\n\n\n\tThe frequency of a letter x is the number of times it occurs in the string.\n\tYou must remove exactly one letter and cannot chose to do nothing.\n\n\n \nExample 1:\n\nInput: word = \"abcc\"\nOutput: true\nExplanation: Select index 3 and delete it: word becomes \"abc\" and each character has a frequency of 1.\n\n\nExample 2:\n\nInput: word = \"aazz\"\nOutput: false\nExplanation: We must delete a character, so either the frequency of \"a\" is 1 and the frequency of \"z\" is 2, or vice versa. It is impossible to make all present letters have equal frequency.\n\n\n \nConstraints:\n\n\n\t2 <= word.length <= 100\n\tword consists of lowercase English letters only.\n\n"
+}

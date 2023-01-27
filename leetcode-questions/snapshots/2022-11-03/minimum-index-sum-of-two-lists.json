@@ -1,0 +1,10 @@
+{
+  "id": "minimum-index-sum-of-two-lists",
+  "name": "Minimum Index Sum of Two Lists",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given two arrays of strings list1 and list2, find the common strings with the least index sum.\n\nA common string is a string that appeared in both list1 and list2.\n\nA common string with the least index sum is a common string such that if it appeared at list1[i] and list2[j] then i + j should be the minimum value among all the other common strings.\n\nReturn all the common strings with the least index sum. Return the answer in any order.\n\n \nExample 1:\n\nInput: list1 = [\"Shogun\",\"Tapioca Express\",\"Burger King\",\"KFC\"], list2 = [\"Piatti\",\"The Grill at Torrey Pines\",\"Hungry Hunter Steakhouse\",\"Shogun\"]\nOutput: [\"Shogun\"]\nExplanation: The only common string is \"Shogun\".\n\n\nExample 2:\n\nInput: list1 = [\"Shogun\",\"Tapioca Express\",\"Burger King\",\"KFC\"], list2 = [\"KFC\",\"Shogun\",\"Burger King\"]\nOutput: [\"Shogun\"]\nExplanation: The common string with the least index sum is \"Shogun\" with index sum = (0 + 1) = 1.\n\n\nExample 3:\n\nInput: list1 = [\"happy\",\"sad\",\"good\"], list2 = [\"sad\",\"happy\",\"good\"]\nOutput: [\"sad\",\"happy\"]\nExplanation: There are three common strings:\n\"happy\" with index sum = (0 + 1) = 1.\n\"sad\" with index sum = (1 + 0) = 1.\n\"good\" with index sum = (2 + 2) = 4.\nThe strings with the least index sum are \"sad\" and \"happy\".\n\n\n \nConstraints:\n\n\n\t1 <= list1.length, list2.length <= 1000\n\t1 <= list1[i].length, list2[i].length <= 30\n\tlist1[i] and list2[i] consist of spaces ' ' and English letters.\n\tAll the strings of list1 are unique.\n\tAll the strings of list2 are unique.\n\n"
+}

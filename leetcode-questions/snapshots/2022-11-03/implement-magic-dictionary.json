@@ -1,0 +1,11 @@
+{
+  "id": "implement-magic-dictionary",
+  "name": "Implement Magic Dictionary",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Design",
+    "Trie"
+  ],
+  "description": "Design a data structure that is initialized with a list of different words. Provided a string, you should determine if you can change exactly one character in this string to match any word in the data structure.\n\nImplement the MagicDictionary class:\n\n\n\tMagicDictionary() Initializes the object.\n\tvoid buildDict(String[] dictionary) Sets the data structure with an array of distinct strings dictionary.\n\tbool search(String searchWord) Returns true if you can change exactly one character in searchWord to match any string in the data structure, otherwise returns false.\n\n\n \nExample 1:\n\nInput\n[\"MagicDictionary\", \"buildDict\", \"search\", \"search\", \"search\", \"search\"]\n[[], [[\"hello\", \"leetcode\"]], [\"hello\"], [\"hhllo\"], [\"hell\"], [\"leetcoded\"]]\nOutput\n[null, null, false, true, false, false]\n\nExplanation\nMagicDictionary magicDictionary = new MagicDictionary();\nmagicDictionary.buildDict([\"hello\", \"leetcode\"]);\nmagicDictionary.search(\"hello\"); // return False\nmagicDictionary.search(\"hhllo\"); // We can change the second 'h' to 'e' to match \"hello\" so we return True\nmagicDictionary.search(\"hell\"); // return False\nmagicDictionary.search(\"leetcoded\"); // return False\n\n\n \nConstraints:\n\n\n\t1 <= dictionary.length <= 100\n\t1 <= dictionary[i].length <= 100\n\tdictionary[i] consists of only lower-case English letters.\n\tAll the strings in dictionary are distinct.\n\t1 <= searchWord.length <= 100\n\tsearchWord consists of only lower-case English letters.\n\tbuildDict will be called only once before search.\n\tAt most 100 calls will be made to search.\n\n"
+}

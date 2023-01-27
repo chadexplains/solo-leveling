@@ -1,0 +1,11 @@
+{
+  "id": "smallest-sufficient-team",
+  "name": "Smallest Sufficient Team",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "In a project, you have a list of required skills req_skills, and a list of people. The ith person people[i] contains a list of skills that the person has.\n\nConsider a sufficient team: a set of people such that for every required skill in req_skills, there is at least one person in the team who has that skill. We can represent these teams by the index of each person.\n\n\n\tFor example, team = [0, 1, 3] represents the people with skills people[0], people[1], and people[3].\n\n\nReturn any sufficient team of the smallest possible size, represented by the index of each person. You may return the answer in any order.\n\nIt is guaranteed an answer exists.\n\n \nExample 1:\nInput: req_skills = [\"java\",\"nodejs\",\"reactjs\"], people = [[\"java\"],[\"nodejs\"],[\"nodejs\",\"reactjs\"]]\nOutput: [0,2]\nExample 2:\nInput: req_skills = [\"algorithms\",\"math\",\"java\",\"reactjs\",\"csharp\",\"aws\"], people = [[\"algorithms\",\"math\",\"java\"],[\"algorithms\",\"math\",\"reactjs\"],[\"java\",\"csharp\",\"aws\"],[\"reactjs\",\"csharp\"],[\"csharp\",\"math\"],[\"aws\",\"java\"]]\nOutput: [1,2]\n\n \nConstraints:\n\n\n\t1 <= req_skills.length <= 16\n\t1 <= req_skills[i].length <= 16\n\treq_skills[i] consists of lowercase English letters.\n\tAll the strings of req_skills are unique.\n\t1 <= people.length <= 60\n\t0 <= people[i].length <= 16\n\t1 <= people[i][j].length <= 16\n\tpeople[i][j] consists of lowercase English letters.\n\tAll the strings of people[i] are unique.\n\tEvery skill in people[i] is a skill in req_skills.\n\tIt is guaranteed a sufficient team exists.\n\n"
+}

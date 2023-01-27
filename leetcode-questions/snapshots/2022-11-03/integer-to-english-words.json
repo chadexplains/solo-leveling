@@ -1,0 +1,10 @@
+{
+  "id": "integer-to-english-words",
+  "name": "Integer to English Words",
+  "tags": [
+    "Math",
+    "String",
+    "Recursion"
+  ],
+  "description": "Convert a non-negative integer num to its English words representation.\n\n \nExample 1:\n\nInput: num = 123\nOutput: \"One Hundred Twenty Three\"\n\n\nExample 2:\n\nInput: num = 12345\nOutput: \"Twelve Thousand Three Hundred Forty Five\"\n\n\nExample 3:\n\nInput: num = 1234567\nOutput: \"One Million Two Hundred Thirty Four Thousand Five Hundred Sixty Seven\"\n\n\n \nConstraints:\n\n\n\t0 <= num <= 231 - 1\n\n"
+}

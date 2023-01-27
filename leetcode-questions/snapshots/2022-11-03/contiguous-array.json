@@ -1,0 +1,10 @@
+{
+  "id": "contiguous-array",
+  "name": "Contiguous Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "description": "Given a binary array nums, return the maximum length of a contiguous subarray with an equal number of 0 and 1.\n\n \nExample 1:\n\nInput: nums = [0,1]\nOutput: 2\nExplanation: [0, 1] is the longest contiguous subarray with an equal number of 0 and 1.\n\n\nExample 2:\n\nInput: nums = [0,1,0]\nOutput: 2\nExplanation: [0, 1] (or [1, 0]) is a longest contiguous subarray with equal number of 0 and 1.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\tnums[i] is either 0 or 1.\n\n"
+}

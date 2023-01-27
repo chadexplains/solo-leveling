@@ -1,0 +1,8 @@
+{
+  "id": "minimum-changes-to-make-alternating-binary-string",
+  "name": "Minimum Changes To Make Alternating Binary String",
+  "tags": [
+    "String"
+  ],
+  "description": "You are given a string s consisting only of the characters '0' and '1'. In one operation, you can change any '0' to '1' or vice versa.\n\nThe string is called alternating if no two adjacent characters are equal. For example, the string \"010\" is alternating, while the string \"0100\" is not.\n\nReturn the minimum number of operations needed to make s alternating.\n\n \nExample 1:\n\nInput: s = \"0100\"\nOutput: 1\nExplanation: If you change the last character to '1', s will be \"0101\", which is alternating.\n\n\nExample 2:\n\nInput: s = \"10\"\nOutput: 0\nExplanation: s is already alternating.\n\n\nExample 3:\n\nInput: s = \"1111\"\nOutput: 2\nExplanation: You need two operations to reach \"0101\" or \"1010\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts[i] is either '0' or '1'.\n\n"
+}

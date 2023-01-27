@@ -1,0 +1,12 @@
+{
+  "id": "making-a-large-island",
+  "name": "Making A Large Island",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union Find",
+    "Matrix"
+  ],
+  "description": "You are given an n x n binary matrix grid. You are allowed to change at most one 0 to be 1.\n\nReturn the size of the largest island in grid after applying this operation.\n\nAn island is a 4-directionally connected group of 1s.\n\n \nExample 1:\n\nInput: grid = [[1,0],[0,1]]\nOutput: 3\nExplanation: Change one 0 to 1 and connect two 1s, then we get an island with area = 3.\n\n\nExample 2:\n\nInput: grid = [[1,1],[1,0]]\nOutput: 4\nExplanation: Change the 0 to 1 and make the island bigger, only one island with area = 4.\n\nExample 3:\n\nInput: grid = [[1,1],[1,1]]\nOutput: 4\nExplanation: Can't change any 0 to 1, only one island with area = 4.\n\n\n \nConstraints:\n\n\n\tn == grid.length\n\tn == grid[i].length\n\t1 <= n <= 500\n\tgrid[i][j] is either 0 or 1.\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "goal-parser-interpretation",
+  "name": "Goal Parser Interpretation",
+  "tags": [
+    "String"
+  ],
+  "description": "You own a Goal Parser that can interpret a string command. The command consists of an alphabet of \"G\", \"()\" and/or \"(al)\" in some order. The Goal Parser will interpret \"G\" as the string \"G\", \"()\" as the string \"o\", and \"(al)\" as the string \"al\". The interpreted strings are then concatenated in the original order.\n\nGiven the string command, return the Goal Parser's interpretation of command.\n\n \nExample 1:\n\nInput: command = \"G()(al)\"\nOutput: \"Goal\"\nExplanation: The Goal Parser interprets the command as follows:\nG -> G\n() -> o\n(al) -> al\nThe final concatenated result is \"Goal\".\n\n\nExample 2:\n\nInput: command = \"G()()()()(al)\"\nOutput: \"Gooooal\"\n\n\nExample 3:\n\nInput: command = \"(al)G(al)()()G\"\nOutput: \"alGalooG\"\n\n\n \nConstraints:\n\n\n\t1 <= command.length <= 100\n\tcommand consists of \"G\", \"()\", and/or \"(al)\" in some order.\n\n"
+}

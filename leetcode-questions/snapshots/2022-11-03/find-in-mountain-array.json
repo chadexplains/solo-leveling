@@ -1,0 +1,10 @@
+{
+  "id": "find-in-mountain-array",
+  "name": "Find in Mountain Array",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Interactive"
+  ],
+  "description": "(This problem is an interactive problem.)\n\nYou may recall that an array arr is a mountain array if and only if:\n\n\n\tarr.length >= 3\n\tThere exists some i with 0 < i < arr.length - 1 such that:\n\t\n\t\tarr[0] < arr[1] < ... < arr[i - 1] < arr[i]\n\t\tarr[i] > arr[i + 1] > ... > arr[arr.length - 1]\n\t\n\t\n\n\nGiven a mountain array mountainArr, return the minimum index such that mountainArr.get(index) == target. If such an index does not exist, return -1.\n\nYou cannot access the mountain array directly. You may only access the array using a MountainArray interface:\n\n\n\tMountainArray.get(k) returns the element of the array at index k (0-indexed).\n\tMountainArray.length() returns the length of the array.\n\n\nSubmissions making more than 100 calls to MountainArray.get will be judged Wrong Answer. Also, any solutions that attempt to circumvent the judge will result in disqualification.\n\n \nExample 1:\n\nInput: array = [1,2,3,4,5,3,1], target = 3\nOutput: 2\nExplanation: 3 exists in the array, at index=2 and index=5. Return the minimum index, which is 2.\n\nExample 2:\n\nInput: array = [0,1,2,4,2,1], target = 3\nOutput: -1\nExplanation: 3 does not exist in the array, so we return -1.\n\n\n \nConstraints:\n\n\n\t3 <= mountain_arr.length() <= 104\n\t0 <= target <= 109\n\t0 <= mountain_arr.get(index) <= 109\n\n"
+}

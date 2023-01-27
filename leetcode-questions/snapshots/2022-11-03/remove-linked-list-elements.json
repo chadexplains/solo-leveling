@@ -1,0 +1,9 @@
+{
+  "id": "remove-linked-list-elements",
+  "name": "Remove Linked List Elements",
+  "tags": [
+    "Linked List",
+    "Recursion"
+  ],
+  "description": "Given the head of a linked list and an integer val, remove all the nodes of the linked list that has Node.val == val, and return the new head.\n\n \nExample 1:\n\nInput: head = [1,2,6,3,4,5,6], val = 6\nOutput: [1,2,3,4,5]\n\n\nExample 2:\n\nInput: head = [], val = 1\nOutput: []\n\n\nExample 3:\n\nInput: head = [7,7,7,7], val = 7\nOutput: []\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [0, 104].\n\t1 <= Node.val <= 50\n\t0 <= val <= 50\n\n"
+}

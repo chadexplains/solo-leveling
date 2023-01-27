@@ -1,0 +1,11 @@
+{
+  "id": "boats-to-save-people",
+  "name": "Boats to Save People",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "You are given an array people where people[i] is the weight of the ith person, and an infinite number of boats where each boat can carry a maximum weight of limit. Each boat carries at most two people at the same time, provided the sum of the weight of those people is at most limit.\n\nReturn the minimum number of boats to carry every given person.\n\n \nExample 1:\n\nInput: people = [1,2], limit = 3\nOutput: 1\nExplanation: 1 boat (1, 2)\n\n\nExample 2:\n\nInput: people = [3,2,2,1], limit = 3\nOutput: 3\nExplanation: 3 boats (1, 2), (2) and (3)\n\n\nExample 3:\n\nInput: people = [3,5,3,4], limit = 5\nOutput: 4\nExplanation: 4 boats (3), (3), (4), (5)\n\n\n \nConstraints:\n\n\n\t1 <= people.length <= 5 * 104\n\t1 <= people[i] <= limit <= 3 * 104\n\n"
+}

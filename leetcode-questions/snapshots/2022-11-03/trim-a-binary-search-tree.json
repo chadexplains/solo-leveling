@@ -1,0 +1,11 @@
+{
+  "id": "trim-a-binary-search-tree",
+  "name": "Trim a Binary Search Tree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary search tree and the lowest and highest boundaries as low and high, trim the tree so that all its elements lies in [low, high]. Trimming the tree should not change the relative structure of the elements that will remain in the tree (i.e., any node's descendant should remain a descendant). It can be proven that there is a unique answer.\n\nReturn the root of the trimmed binary search tree. Note that the root may change depending on the given bounds.\n\n \nExample 1:\n\nInput: root = [1,0,2], low = 1, high = 2\nOutput: [1,null,2]\n\n\nExample 2:\n\nInput: root = [3,0,4,null,2,null,null,1], low = 1, high = 3\nOutput: [3,2,null,1]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 104].\n\t0 <= Node.val <= 104\n\tThe value of each node in the tree is unique.\n\troot is guaranteed to be a valid binary search tree.\n\t0 <= low <= high <= 104\n\n"
+}

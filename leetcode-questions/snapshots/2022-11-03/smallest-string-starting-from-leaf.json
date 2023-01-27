@@ -1,0 +1,11 @@
+{
+  "id": "smallest-string-starting-from-leaf",
+  "name": "Smallest String Starting From Leaf",
+  "tags": [
+    "String",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree where each node has a value in the range [0, 25] representing the letters 'a' to 'z'.\n\nReturn the lexicographically smallest string that starts at a leaf of this tree and ends at the root.\n\nAs a reminder, any shorter prefix of a string is lexicographically smaller.\n\n\n\tFor example, \"ab\" is lexicographically smaller than \"aba\".\n\n\nA leaf of a node is a node that has no children.\n\n \nExample 1:\n\nInput: root = [0,1,2,3,4,3,4]\nOutput: \"dba\"\n\n\nExample 2:\n\nInput: root = [25,1,3,1,3,0,2]\nOutput: \"adz\"\n\n\nExample 3:\n\nInput: root = [2,2,1,null,1,0,null,0]\nOutput: \"abc\"\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 8500].\n\t0 <= Node.val <= 25\n\n"
+}

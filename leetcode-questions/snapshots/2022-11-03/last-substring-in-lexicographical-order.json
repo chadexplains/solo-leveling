@@ -1,0 +1,9 @@
+{
+  "id": "last-substring-in-lexicographical-order",
+  "name": "Last Substring in Lexicographical Order",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a string s, return the last substring of s in lexicographical order.\n\n \nExample 1:\n\nInput: s = \"abab\"\nOutput: \"bab\"\nExplanation: The substrings are [\"a\", \"ab\", \"aba\", \"abab\", \"b\", \"ba\", \"bab\"]. The lexicographically maximum substring is \"bab\".\n\n\nExample 2:\n\nInput: s = \"leetcode\"\nOutput: \"tcode\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 4 * 105\n\ts contains only lowercase English letters.\n\n"
+}

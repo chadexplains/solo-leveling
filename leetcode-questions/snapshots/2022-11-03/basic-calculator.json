@@ -1,0 +1,11 @@
+{
+  "id": "basic-calculator",
+  "name": "Basic Calculator",
+  "tags": [
+    "Math",
+    "String",
+    "Stack",
+    "Recursion"
+  ],
+  "description": "Given a string s representing a valid expression, implement a basic calculator to evaluate it, and return the result of the evaluation.\n\nNote: You are not allowed to use any built-in function which evaluates strings as mathematical expressions, such as eval().\n\n \nExample 1:\n\nInput: s = \"1 + 1\"\nOutput: 2\n\n\nExample 2:\n\nInput: s = \" 2-1 + 2 \"\nOutput: 3\n\n\nExample 3:\n\nInput: s = \"(1+(4+5+2)-3)+(6+8)\"\nOutput: 23\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 3 * 105\n\ts consists of digits, '+', '-', '(', ')', and ' '.\n\ts represents a valid expression.\n\t'+' is not used as a unary operation (i.e., \"+1\" and \"+(2 + 3)\" is invalid).\n\t'-' could be used as a unary operation (i.e., \"-1\" and \"-(2 + 3)\" is valid).\n\tThere will be no two consecutive operators in the input.\n\tEvery number and running calculation will fit in a signed 32-bit integer.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "the-number-of-the-smallest-unoccupied-chair",
+  "name": "The Number of the Smallest Unoccupied Chair",
+  "tags": [
+    "Array",
+    "Heap (Priority Queue)",
+    "Ordered Set"
+  ],
+  "description": "There is a party where n friends numbered from 0 to n - 1 are attending. There is an infinite number of chairs in this party that are numbered from 0 to infinity. When a friend arrives at the party, they sit on the unoccupied chair with the smallest number.\n\n\n\tFor example, if chairs 0, 1, and 5 are occupied when a friend comes, they will sit on chair number 2.\n\n\nWhen a friend leaves the party, their chair becomes unoccupied at the moment they leave. If another friend arrives at that same moment, they can sit in that chair.\n\nYou are given a 0-indexed 2D integer array times where times[i] = [arrivali, leavingi], indicating the arrival and leaving times of the ith friend respectively, and an integer targetFriend. All arrival times are distinct.\n\nReturn the chair number that the friend numbered targetFriend will sit on.\n\n \nExample 1:\n\nInput: times = [[1,4],[2,3],[4,6]], targetFriend = 1\nOutput: 1\nExplanation: \n- Friend 0 arrives at time 1 and sits on chair 0.\n- Friend 1 arrives at time 2 and sits on chair 1.\n- Friend 1 leaves at time 3 and chair 1 becomes empty.\n- Friend 0 leaves at time 4 and chair 0 becomes empty.\n- Friend 2 arrives at time 4 and sits on chair 0.\nSince friend 1 sat on chair 1, we return 1.\n\n\nExample 2:\n\nInput: times = [[3,10],[1,5],[2,6]], targetFriend = 0\nOutput: 2\nExplanation: \n- Friend 1 arrives at time 1 and sits on chair 0.\n- Friend 2 arrives at time 2 and sits on chair 1.\n- Friend 0 arrives at time 3 and sits on chair 2.\n- Friend 1 leaves at time 5 and chair 0 becomes empty.\n- Friend 2 leaves at time 6 and chair 1 becomes empty.\n- Friend 0 leaves at time 10 and chair 2 becomes empty.\nSince friend 0 sat on chair 2, we return 2.\n\n\n \nConstraints:\n\n\n\tn == times.length\n\t2 <= n <= 104\n\ttimes[i].length == 2\n\t1 <= arrivali < leavingi <= 105\n\t0 <= targetFriend <= n - 1\n\tEach arrivali time is distinct.\n\n"
+}

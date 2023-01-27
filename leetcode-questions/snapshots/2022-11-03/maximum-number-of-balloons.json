@@ -1,0 +1,10 @@
+{
+  "id": "maximum-number-of-balloons",
+  "name": "Maximum Number of Balloons",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "Given a string text, you want to use the characters of text to form as many instances of the word \"balloon\" as possible.\n\nYou can use each character in text at most once. Return the maximum number of instances that can be formed.\n\n \nExample 1:\n\n\n\nInput: text = \"nlaebolko\"\nOutput: 1\n\n\nExample 2:\n\n\n\nInput: text = \"loonbalxballpoon\"\nOutput: 2\n\n\nExample 3:\n\nInput: text = \"leetcode\"\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= text.length <= 104\n\ttext consists of lower case English letters only.\n\n"
+}

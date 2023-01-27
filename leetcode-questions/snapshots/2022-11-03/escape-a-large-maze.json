@@ -1,0 +1,11 @@
+{
+  "id": "escape-a-large-maze",
+  "name": "Escape a Large Maze",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Depth-First Search",
+    "Breadth-First Search"
+  ],
+  "description": "There is a 1 million by 1 million grid on an XY-plane, and the coordinates of each grid square are (x, y).\n\nWe start at the source = [sx, sy] square and want to reach the target = [tx, ty] square. There is also an array of blocked squares, where each blocked[i] = [xi, yi] represents a blocked square with coordinates (xi, yi).\n\nEach move, we can walk one square north, east, south, or west if the square is not in the array of blocked squares. We are also not allowed to walk outside of the grid.\n\nReturn true if and only if it is possible to reach the target square from the source square through a sequence of valid moves.\n\n \nExample 1:\n\nInput: blocked = [[0,1],[1,0]], source = [0,0], target = [0,2]\nOutput: false\nExplanation: The target square is inaccessible starting from the source square because we cannot move.\nWe cannot move north or east because those squares are blocked.\nWe cannot move south or west because we cannot go outside of the grid.\n\n\nExample 2:\n\nInput: blocked = [], source = [0,0], target = [999999,999999]\nOutput: true\nExplanation: Because there are no blocked cells, it is possible to reach the target square.\n\n\n \nConstraints:\n\n\n\t0 <= blocked.length <= 200\n\tblocked[i].length == 2\n\t0 <= xi, yi < 106\n\tsource.length == target.length == 2\n\t0 <= sx, sy, tx, ty < 106\n\tsource != target\n\tIt is guaranteed that source and target are not blocked.\n\n"
+}

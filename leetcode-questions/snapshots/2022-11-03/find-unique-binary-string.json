@@ -1,0 +1,10 @@
+{
+  "id": "find-unique-binary-string",
+  "name": "Find Unique Binary String",
+  "tags": [
+    "Array",
+    "String",
+    "Backtracking"
+  ],
+  "description": "Given an array of strings nums containing n unique binary strings each of length n, return a binary string of length n that does not appear in nums. If there are multiple answers, you may return any of them.\n\n \nExample 1:\n\nInput: nums = [\"01\",\"10\"]\nOutput: \"11\"\nExplanation: \"11\" does not appear in nums. \"00\" would also be correct.\n\n\nExample 2:\n\nInput: nums = [\"00\",\"01\"]\nOutput: \"11\"\nExplanation: \"11\" does not appear in nums. \"10\" would also be correct.\n\n\nExample 3:\n\nInput: nums = [\"111\",\"011\",\"001\"]\nOutput: \"101\"\nExplanation: \"101\" does not appear in nums. \"000\", \"010\", \"100\", and \"110\" would also be correct.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 16\n\tnums[i].length == n\n\tnums[i] is either '0' or '1'.\n\tAll the strings of nums are unique.\n\n"
+}

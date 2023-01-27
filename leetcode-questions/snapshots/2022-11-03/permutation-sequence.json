@@ -1,0 +1,9 @@
+{
+  "id": "permutation-sequence",
+  "name": "Permutation Sequence",
+  "tags": [
+    "Math",
+    "Recursion"
+  ],
+  "description": "The set [1, 2, 3, ..., n] contains a total of n! unique permutations.\n\nBy listing and labeling all of the permutations in order, we get the following sequence for n = 3:\n\n\n\t\"123\"\n\t\"132\"\n\t\"213\"\n\t\"231\"\n\t\"312\"\n\t\"321\"\n\n\nGiven n and k, return the kth permutation sequence.\n\n \nExample 1:\nInput: n = 3, k = 3\nOutput: \"213\"\nExample 2:\nInput: n = 4, k = 9\nOutput: \"2314\"\nExample 3:\nInput: n = 3, k = 1\nOutput: \"123\"\n\n \nConstraints:\n\n\n\t1 <= n <= 9\n\t1 <= k <= n!\n\n"
+}

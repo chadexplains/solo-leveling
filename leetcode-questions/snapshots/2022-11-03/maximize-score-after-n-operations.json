@@ -1,0 +1,14 @@
+{
+  "id": "maximize-score-after-n-operations",
+  "name": "Maximize Score After N Operations",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Number Theory",
+    "Bitmask"
+  ],
+  "description": "You are given nums, an array of positive integers of size 2 * n. You must perform n operations on this array.\n\nIn the ith operation (1-indexed), you will:\n\n\n\tChoose two elements, x and y.\n\tReceive a score of i * gcd(x, y).\n\tRemove x and y from nums.\n\n\nReturn the maximum score you can receive after performing n operations.\n\nThe function gcd(x, y) is the greatest common divisor of x and y.\n\n \nExample 1:\n\nInput: nums = [1,2]\nOutput: 1\nExplanation: The optimal choice of operations is:\n(1 * gcd(1, 2)) = 1\n\n\nExample 2:\n\nInput: nums = [3,4,6,8]\nOutput: 11\nExplanation: The optimal choice of operations is:\n(1 * gcd(3, 6)) + (2 * gcd(4, 8)) = 3 + 8 = 11\n\n\nExample 3:\n\nInput: nums = [1,2,3,4,5,6]\nOutput: 14\nExplanation: The optimal choice of operations is:\n(1 * gcd(1, 5)) + (2 * gcd(2, 4)) + (3 * gcd(3, 6)) = 1 + 4 + 9 = 14\n\n\n \nConstraints:\n\n\n\t1 <= n <= 7\n\tnums.length == 2 * n\n\t1 <= nums[i] <= 106\n\n"
+}

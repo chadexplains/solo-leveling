@@ -1,0 +1,9 @@
+{
+  "id": "find-all-numbers-disappeared-in-an-array",
+  "name": "Find All Numbers Disappeared in an Array",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "Given an array nums of n integers where nums[i] is in the range [1, n], return an array of all the integers in the range [1, n] that do not appear in nums.\n\n \nExample 1:\nInput: nums = [4,3,2,7,8,2,3,1]\nOutput: [5,6]\nExample 2:\nInput: nums = [1,1]\nOutput: [2]\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 105\n\t1 <= nums[i] <= n\n\n\n \nFollow up: Could you do it without extra space and in O(n) runtime? You may assume the returned list does not count as extra space.\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "peak-index-in-a-mountain-array",
+  "name": "Peak Index in a Mountain Array",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "An array arr a mountain if the following properties hold:\n\n\n\tarr.length >= 3\n\tThere exists some i with 0 < i < arr.length - 1 such that:\n\t\n\t\tarr[0] < arr[1] < ... < arr[i - 1] < arr[i] \n\t\tarr[i] > arr[i + 1] > ... > arr[arr.length - 1]\n\t\n\t\n\n\nGiven a mountain array arr, return the index i such that arr[0] < arr[1] < ... < arr[i - 1] < arr[i] > arr[i + 1] > ... > arr[arr.length - 1].\n\nYou must solve it in O(log(arr.length)) time complexity.\n\n \nExample 1:\n\nInput: arr = [0,1,0]\nOutput: 1\n\n\nExample 2:\n\nInput: arr = [0,2,1,0]\nOutput: 1\n\n\nExample 3:\n\nInput: arr = [0,10,5,2]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t3 <= arr.length <= 105\n\t0 <= arr[i] <= 106\n\tarr is guaranteed to be a mountain array.\n\n"
+}

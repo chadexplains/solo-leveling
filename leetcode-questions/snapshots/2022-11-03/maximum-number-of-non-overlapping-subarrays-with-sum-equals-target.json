@@ -1,0 +1,11 @@
+{
+  "id": "maximum-number-of-non-overlapping-subarrays-with-sum-equals-target",
+  "name": "Maximum Number of Non-Overlapping Subarrays With Sum Equals Target",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Greedy",
+    "Prefix Sum"
+  ],
+  "description": "Given an array nums and an integer target, return the maximum number of non-empty non-overlapping subarrays such that the sum of values in each subarray is equal to target.\n\n \nExample 1:\n\nInput: nums = [1,1,1,1,1], target = 2\nOutput: 2\nExplanation: There are 2 non-overlapping subarrays [1,1,1,1,1] with sum equals to target(2).\n\n\nExample 2:\n\nInput: nums = [-1,3,5,1,4,2,-9], target = 6\nOutput: 2\nExplanation: There are 3 subarrays with sum equal to 6.\n([5,1], [4,2], [3,5,1,4,2,-9]) but only the first 2 are non-overlapping.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-104 <= nums[i] <= 104\n\t0 <= target <= 106\n\n"
+}

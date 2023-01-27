@@ -1,0 +1,10 @@
+{
+  "id": "removing-stars-from-a-string",
+  "name": "Removing Stars From a String",
+  "tags": [
+    "String",
+    "Stack",
+    "Simulation"
+  ],
+  "description": "You are given a string s, which contains stars *.\n\nIn one operation, you can:\n\n\n\tChoose a star in s.\n\tRemove the closest non-star character to its left, as well as remove the star itself.\n\n\nReturn the string after all stars have been removed.\n\nNote:\n\n\n\tThe input will be generated such that the operation is always possible.\n\tIt can be shown that the resulting string will always be unique.\n\n\n \nExample 1:\n\nInput: s = \"leet**cod*e\"\nOutput: \"lecoe\"\nExplanation: Performing the removals from left to right:\n- The closest character to the 1st star is 't' in \"leet**cod*e\". s becomes \"lee*cod*e\".\n- The closest character to the 2nd star is 'e' in \"lee*cod*e\". s becomes \"lecod*e\".\n- The closest character to the 3rd star is 'd' in \"lecod*e\". s becomes \"lecoe\".\nThere are no more stars, so we return \"lecoe\".\n\nExample 2:\n\nInput: s = \"erase*****\"\nOutput: \"\"\nExplanation: The entire string is removed, so we return an empty string.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of lowercase English letters and stars *.\n\tThe operation above can be performed on s.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "equal-row-and-column-pairs",
+  "name": "Equal Row and Column Pairs",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Matrix",
+    "Simulation"
+  ],
+  "description": "Given a 0-indexed n x n integer matrix grid, return the number of pairs (Ri, Cj) such that row Ri and column Cj are equal.\n\nA row and column pair is considered equal if they contain the same elements in the same order (i.e. an equal array).\n\n \nExample 1:\n\nInput: grid = [[3,2,1],[1,7,6],[2,7,7]]\nOutput: 1\nExplanation: There is 1 equal row and column pair:\n- (Row 2, Column 1): [2,7,7]\n\n\nExample 2:\n\nInput: grid = [[3,1,2,2],[1,4,4,5],[2,4,2,2],[2,4,2,2]]\nOutput: 3\nExplanation: There are 3 equal row and column pairs:\n- (Row 0, Column 0): [3,1,2,2]\n- (Row 2, Column 2): [2,4,2,2]\n- (Row 3, Column 2): [2,4,2,2]\n\n\n \nConstraints:\n\n\n\tn == grid.length == grid[i].length\n\t1 <= n <= 200\n\t1 <= grid[i][j] <= 105\n\n"
+}

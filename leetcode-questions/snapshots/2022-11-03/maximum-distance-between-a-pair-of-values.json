@@ -1,0 +1,11 @@
+{
+  "id": "maximum-distance-between-a-pair-of-values",
+  "name": "Maximum Distance Between a Pair of Values",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Greedy"
+  ],
+  "description": "You are given two non-increasing 0-indexed integer arrays nums1​​​​​​ and nums2​​​​​​.\n\nA pair of indices (i, j), where 0 <= i < nums1.length and 0 <= j < nums2.length, is valid if both i <= j and nums1[i] <= nums2[j]. The distance of the pair is j - i​​​​.\n\nReturn the maximum distance of any valid pair (i, j). If there are no valid pairs, return 0.\n\nAn array arr is non-increasing if arr[i-1] >= arr[i] for every 1 <= i < arr.length.\n\n \nExample 1:\n\nInput: nums1 = [55,30,5,4,2], nums2 = [100,20,10,10,5]\nOutput: 2\nExplanation: The valid pairs are (0,0), (2,2), (2,3), (2,4), (3,3), (3,4), and (4,4).\nThe maximum distance is 2 with pair (2,4).\n\n\nExample 2:\n\nInput: nums1 = [2,2,2], nums2 = [10,10,1]\nOutput: 1\nExplanation: The valid pairs are (0,0), (0,1), and (1,1).\nThe maximum distance is 1 with pair (0,1).\n\n\nExample 3:\n\nInput: nums1 = [30,29,19,5], nums2 = [25,25,25,25,25]\nOutput: 2\nExplanation: The valid pairs are (2,2), (2,3), (2,4), (3,3), and (3,4).\nThe maximum distance is 2 with pair (2,4).\n\n\n \nConstraints:\n\n\n\t1 <= nums1.length, nums2.length <= 105\n\t1 <= nums1[i], nums2[j] <= 105\n\tBoth nums1 and nums2 are non-increasing.\n\n"
+}

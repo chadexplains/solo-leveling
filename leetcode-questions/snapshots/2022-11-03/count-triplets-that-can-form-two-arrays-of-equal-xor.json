@@ -1,0 +1,12 @@
+{
+  "id": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+  "name": "Count Triplets That Can Form Two Arrays of Equal XOR",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Bit Manipulation",
+    "Prefix Sum"
+  ],
+  "description": "Given an array of integers arr.\n\nWe want to select three indices i, j and k where (0 <= i < j <= k < arr.length).\n\nLet's define a and b as follows:\n\n\n\ta = arr[i] ^ arr[i + 1] ^ ... ^ arr[j - 1]\n\tb = arr[j] ^ arr[j + 1] ^ ... ^ arr[k]\n\n\nNote that ^ denotes the bitwise-xor operation.\n\nReturn the number of triplets (i, j and k) Where a == b.\n\n \nExample 1:\n\nInput: arr = [2,3,1,6,7]\nOutput: 4\nExplanation: The triplets are (0,1,2), (0,2,2), (2,3,4) and (2,4,4)\n\n\nExample 2:\n\nInput: arr = [1,1,1,1,1]\nOutput: 10\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 300\n\t1 <= arr[i] <= 108\n\n"
+}

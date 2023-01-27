@@ -1,0 +1,14 @@
+{
+  "id": "serialize-and-deserialize-bst",
+  "name": "Serialize and Deserialize BST",
+  "tags": [
+    "String",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Design",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "description": "Serialization is converting a data structure or object into a sequence of bits so that it can be stored in a file or memory buffer, or transmitted across a network connection link to be reconstructed later in the same or another computer environment.\n\nDesign an algorithm to serialize and deserialize a binary search tree. There is no restriction on how your serialization/deserialization algorithm should work. You need to ensure that a binary search tree can be serialized to a string, and this string can be deserialized to the original tree structure.\n\nThe encoded string should be as compact as possible.\n\n \nExample 1:\nInput: root = [2,1,3]\nOutput: [2,1,3]\nExample 2:\nInput: root = []\nOutput: []\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [0, 104].\n\t0 <= Node.val <= 104\n\tThe input tree is guaranteed to be a binary search tree.\n\n"
+}

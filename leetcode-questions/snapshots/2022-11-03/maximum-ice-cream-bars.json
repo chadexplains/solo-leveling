@@ -1,0 +1,10 @@
+{
+  "id": "maximum-ice-cream-bars",
+  "name": "Maximum Ice Cream Bars",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "It is a sweltering summer day, and a boy wants to buy some ice cream bars.\n\nAt the store, there are n ice cream bars. You are given an array costs of length n, where costs[i] is the price of the ith ice cream bar in coins. The boy initially has coins coins to spend, and he wants to buy as many ice cream bars as possible. \n\nReturn the maximum number of ice cream bars the boy can buy with coins coins.\n\nNote: The boy can buy the ice cream bars in any order.\n\n \nExample 1:\n\nInput: costs = [1,3,2,4,1], coins = 7\nOutput: 4\nExplanation: The boy can buy ice cream bars at indices 0,1,2,4 for a total price of 1 + 3 + 2 + 1 = 7.\n\n\nExample 2:\n\nInput: costs = [10,6,8,7,7,8], coins = 5\nOutput: 0\nExplanation: The boy cannot afford any of the ice cream bars.\n\n\nExample 3:\n\nInput: costs = [1,6,3,1,2,5], coins = 20\nOutput: 6\nExplanation: The boy can buy all the ice cream bars for a total price of 1 + 6 + 3 + 1 + 2 + 5 = 18.\n\n\n \nConstraints:\n\n\n\tcosts.length == n\n\t1 <= n <= 105\n\t1 <= costs[i] <= 105\n\t1 <= coins <= 108\n"
+}

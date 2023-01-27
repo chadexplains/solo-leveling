@@ -1,0 +1,10 @@
+{
+  "id": "soup-servings",
+  "name": "Soup Servings",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Probability and Statistics"
+  ],
+  "description": "There are two types of soup: type A and type B. Initially, we have n ml of each type of soup. There are four kinds of operations:\n\n\n\tServe 100 ml of soup A and 0 ml of soup B,\n\tServe 75 ml of soup A and 25 ml of soup B,\n\tServe 50 ml of soup A and 50 ml of soup B, and\n\tServe 25 ml of soup A and 75 ml of soup B.\n\n\nWhen we serve some soup, we give it to someone, and we no longer have it. Each turn, we will choose from the four operations with an equal probability 0.25. If the remaining volume of soup is not enough to complete the operation, we will serve as much as possible. We stop once we no longer have some quantity of both types of soup.\n\nNote that we do not have an operation where all 100 ml's of soup B are used first.\n\nReturn the probability that soup A will be empty first, plus half the probability that A and B become empty at the same time. Answers within 10-5 of the actual answer will be accepted.\n\n \nExample 1:\n\nInput: n = 50\nOutput: 0.62500\nExplanation: If we choose the first two operations, A will become empty first.\nFor the third operation, A and B will become empty at the same time.\nFor the fourth operation, B will become empty first.\nSo the total probability of A becoming empty first plus half the probability that A and B become empty at the same time, is 0.25 * (1 + 1 + 0.5 + 0) = 0.625.\n\n\nExample 2:\n\nInput: n = 100\nOutput: 0.71875\n\n\n \nConstraints:\n\n\n\t0 <= n <= 109\n\n"
+}

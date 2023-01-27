@@ -1,0 +1,10 @@
+{
+  "id": "maximum-number-of-darts-inside-of-a-circular-dartboard",
+  "name": "Maximum Number of Darts Inside of a Circular Dartboard",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry"
+  ],
+  "description": "Alice is throwing n darts on a very large wall. You are given an array darts where darts[i] = [xi, yi] is the position of the ith dart that Alice threw on the wall.\n\nBob knows the positions of the n darts on the wall. He wants to place a dartboard of radius r on the wall so that the maximum number of darts that Alice throws lies on the dartboard.\n\nGiven the integer r, return the maximum number of darts that can lie on the dartboard.\n\n \nExample 1:\n\nInput: darts = [[-2,0],[2,0],[0,2],[0,-2]], r = 2\nOutput: 4\nExplanation: Circle dartboard with center in (0,0) and radius = 2 contain all points.\n\n\nExample 2:\n\nInput: darts = [[-3,0],[3,0],[2,6],[5,4],[0,9],[7,8]], r = 5\nOutput: 5\nExplanation: Circle dartboard with center in (0,4) and radius = 5 contain all points except the point (7,8).\n\n\n \nConstraints:\n\n\n\t1 <= darts.length <= 100\n\tdarts[i].length == 2\n\t-104 <= xi, yi <= 104\n\t1 <= r <= 5000\n\n"
+}

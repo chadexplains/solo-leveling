@@ -1,0 +1,9 @@
+{
+  "id": "mirror-reflection",
+  "name": "Mirror Reflection",
+  "tags": [
+    "Math",
+    "Geometry"
+  ],
+  "description": "There is a special square room with mirrors on each of the four walls. Except for the southwest corner, there are receptors on each of the remaining corners, numbered 0, 1, and 2.\n\nThe square room has walls of length p and a laser ray from the southwest corner first meets the east wall at a distance q from the 0th receptor.\n\nGiven the two integers p and q, return the number of the receptor that the ray meets first.\n\nThe test cases are guaranteed so that the ray will meet a receptor eventually.\n\n \nExample 1:\n\nInput: p = 2, q = 1\nOutput: 2\nExplanation: The ray meets receptor 2 the first time it gets reflected back to the left wall.\n\n\nExample 2:\n\nInput: p = 3, q = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= q <= p <= 1000\n\n"
+}

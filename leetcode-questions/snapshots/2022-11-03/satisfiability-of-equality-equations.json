@@ -1,0 +1,11 @@
+{
+  "id": "satisfiability-of-equality-equations",
+  "name": "Satisfiability of Equality Equations",
+  "tags": [
+    "Array",
+    "String",
+    "Union Find",
+    "Graph"
+  ],
+  "description": "You are given an array of strings equations that represent relationships between variables where each string equations[i] is of length 4 and takes one of two different forms: \"xi==yi\" or \"xi!=yi\".Here, xi and yi are lowercase letters (not necessarily different) that represent one-letter variable names.\n\nReturn true if it is possible to assign integers to variable names so as to satisfy all the given equations, or false otherwise.\n\n \nExample 1:\n\nInput: equations = [\"a==b\",\"b!=a\"]\nOutput: false\nExplanation: If we assign say, a = 1 and b = 1, then the first equation is satisfied, but not the second.\nThere is no way to assign the variables to satisfy both equations.\n\n\nExample 2:\n\nInput: equations = [\"b==a\",\"a==b\"]\nOutput: true\nExplanation: We could assign a = 1 and b = 1 to satisfy both equations.\n\n\n \nConstraints:\n\n\n\t1 <= equations.length <= 500\n\tequations[i].length == 4\n\tequations[i][0] is a lowercase letter.\n\tequations[i][1] is either '=' or '!'.\n\tequations[i][2] is '='.\n\tequations[i][3] is a lowercase letter.\n\n"
+}

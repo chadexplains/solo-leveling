@@ -1,0 +1,11 @@
+{
+  "id": "maximum-number-of-groups-entering-a-competition",
+  "name": "Maximum Number of Groups Entering a Competition",
+  "tags": [
+    "Array",
+    "Math",
+    "Binary Search",
+    "Greedy"
+  ],
+  "description": "You are given a positive integer array grades which represents the grades of students in a university. You would like to enter all these students into a competition in ordered non-empty groups, such that the ordering meets the following conditions:\n\n\n\tThe sum of the grades of students in the ith group is less than the sum of the grades of students in the (i + 1)th group, for all groups (except the last).\n\tThe total number of students in the ith group is less than the total number of students in the (i + 1)th group, for all groups (except the last).\n\n\nReturn the maximum number of groups that can be formed.\n\n \nExample 1:\n\nInput: grades = [10,6,12,7,3,5]\nOutput: 3\nExplanation: The following is a possible way to form 3 groups of students:\n- 1st group has the students with grades = [12]. Sum of grades: 12. Student count: 1\n- 2nd group has the students with grades = [6,7]. Sum of grades: 6 + 7 = 13. Student count: 2\n- 3rd group has the students with grades = [10,3,5]. Sum of grades: 10 + 3 + 5 = 18. Student count: 3\nIt can be shown that it is not possible to form more than 3 groups.\n\n\nExample 2:\n\nInput: grades = [8,8]\nOutput: 1\nExplanation: We can only form 1 group, since forming 2 groups would lead to an equal number of students in both groups.\n\n\n \nConstraints:\n\n\n\t1 <= grades.length <= 105\n\t1 <= grades[i] <= 105\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pairs-of-songs-with-total-durations-divisible-by-60",
+  "name": "Pairs of Songs With Total Durations Divisible by 60",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Counting"
+  ],
+  "description": "You are given a list of songs where the ith song has a duration of time[i] seconds.\n\nReturn the number of pairs of songs for which their total duration in seconds is divisible by 60. Formally, we want the number of indices i, j such that i < j with (time[i] + time[j]) % 60 == 0.\n\n \nExample 1:\n\nInput: time = [30,20,150,100,40]\nOutput: 3\nExplanation: Three pairs have a total duration divisible by 60:\n(time[0] = 30, time[2] = 150): total duration 180\n(time[1] = 20, time[3] = 100): total duration 120\n(time[1] = 20, time[4] = 40): total duration 60\n\n\nExample 2:\n\nInput: time = [60,60,60]\nOutput: 3\nExplanation: All three pairs have a total duration of 120, which is divisible by 60.\n\n\n \nConstraints:\n\n\n\t1 <= time.length <= 6 * 104\n\t1 <= time[i] <= 500\n\n"
+}

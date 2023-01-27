@@ -1,0 +1,8 @@
+{
+  "id": "check-if-all-1s-are-at-least-length-k-places-away",
+  "name": "Check If All 1's Are at Least Length K Places Away",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given an binary array nums and an integer k, return true if all 1's are at least k places away from each other, otherwise return false.\n\n \nExample 1:\n\nInput: nums = [1,0,0,0,1,0,0,1], k = 2\nOutput: true\nExplanation: Each of the 1s are at least 2 places away from each other.\n\n\nExample 2:\n\nInput: nums = [1,0,0,1,0,1], k = 2\nOutput: false\nExplanation: The second 1 and third 1 are only one apart from each other.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t0 <= k <= nums.length\n\tnums[i] is 0 or 1\n\n"
+}

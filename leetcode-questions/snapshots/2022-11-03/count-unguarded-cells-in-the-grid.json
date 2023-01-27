@@ -1,0 +1,10 @@
+{
+  "id": "count-unguarded-cells-in-the-grid",
+  "name": "Count Unguarded Cells in the Grid",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Simulation"
+  ],
+  "description": "You are given two integers m and n representing a 0-indexed m x n grid. You are also given two 2D integer arrays guards and walls where guards[i] = [rowi, coli] and walls[j] = [rowj, colj] represent the positions of the ith guard and jth wall respectively.\n\nA guard can see every cell in the four cardinal directions (north, east, south, or west) starting from their position unless obstructed by a wall or another guard. A cell is guarded if there is at least one guard that can see it.\n\nReturn the number of unoccupied cells that are not guarded.\n\n \nExample 1:\n\nInput: m = 4, n = 6, guards = [[0,0],[1,1],[2,3]], walls = [[0,1],[2,2],[1,4]]\nOutput: 7\nExplanation: The guarded and unguarded cells are shown in red and green respectively in the above diagram.\nThere are a total of 7 unguarded cells, so we return 7.\n\n\nExample 2:\n\nInput: m = 3, n = 3, guards = [[1,1]], walls = [[0,1],[1,0],[2,1],[1,2]]\nOutput: 4\nExplanation: The unguarded cells are shown in green in the above diagram.\nThere are a total of 4 unguarded cells, so we return 4.\n\n\n \nConstraints:\n\n\n\t1 <= m, n <= 105\n\t2 <= m * n <= 105\n\t1 <= guards.length, walls.length <= 5 * 104\n\t2 <= guards.length + walls.length <= m * n\n\tguards[i].length == walls[j].length == 2\n\t0 <= rowi, rowj < m\n\t0 <= coli, colj < n\n\tAll the positions in guards and walls are unique.\n\n"
+}

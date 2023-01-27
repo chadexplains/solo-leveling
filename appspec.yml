@@ -1,0 +1,17 @@
+version: 0.0
+os: linux
+files:
+ - source: .
+   destination: /home/ec2-user/app
+   overwrite: true
+   file_exists_behavior: OVERWRITE
+
+hooks:
+  AfterInstall:
+   - location: scripts/install
+     timeout: 120
+     runas: root
+  ApplicationStart:
+   - location: scripts/start
+     timeout: 120
+     runas: root

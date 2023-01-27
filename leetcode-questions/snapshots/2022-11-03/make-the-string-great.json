@@ -1,0 +1,9 @@
+{
+  "id": "make-the-string-great",
+  "name": "Make The String Great",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "Given a string s of lower and upper case English letters.\n\nA good string is a string which doesn't have two adjacent characters s[i] and s[i + 1] where:\n\n\n\t0 <= i <= s.length - 2\n\ts[i] is a lower-case letter and s[i + 1] is the same letter but in upper-case or vice-versa.\n\n\nTo make the string good, you can choose two adjacent characters that make the string bad and remove them. You can keep doing this until the string becomes good.\n\nReturn the string after making it good. The answer is guaranteed to be unique under the given constraints.\n\nNotice that an empty string is also good.\n\n \nExample 1:\n\nInput: s = \"leEeetcode\"\nOutput: \"leetcode\"\nExplanation: In the first step, either you choose i = 1 or i = 2, both will result \"leEeetcode\" to be reduced to \"leetcode\".\n\n\nExample 2:\n\nInput: s = \"abBAcC\"\nOutput: \"\"\nExplanation: We have many possible scenarios, and all lead to the same answer. For example:\n\"abBAcC\" --> \"aAcC\" --> \"cC\" --> \"\"\n\"abBAcC\" --> \"abBA\" --> \"aA\" --> \"\"\n\n\nExample 3:\n\nInput: s = \"s\"\nOutput: \"s\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts contains only lower and upper case English letters.\n\n"
+}

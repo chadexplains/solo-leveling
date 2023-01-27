@@ -1,0 +1,10 @@
+{
+  "id": "find-and-replace-pattern",
+  "name": "Find and Replace Pattern",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given a list of strings words and a string pattern, return a list of words[i] that match pattern. You may return the answer in any order.\n\nA word matches the pattern if there exists a permutation of letters p so that after replacing every letter x in the pattern with p(x), we get the desired word.\n\nRecall that a permutation of letters is a bijection from letters to letters: every letter maps to another letter, and no two letters map to the same letter.\n\n \nExample 1:\n\nInput: words = [\"abc\",\"deq\",\"mee\",\"aqq\",\"dkd\",\"ccc\"], pattern = \"abb\"\nOutput: [\"mee\",\"aqq\"]\nExplanation: \"mee\" matches the pattern because there is a permutation {a -> m, b -> e, ...}. \n\"ccc\" does not match the pattern because {a -> c, b -> c, ...} is not a permutation, since a and b map to the same letter.\n\n\nExample 2:\n\nInput: words = [\"a\",\"b\",\"c\"], pattern = \"a\"\nOutput: [\"a\",\"b\",\"c\"]\n\n\n \nConstraints:\n\n\n\t1 <= pattern.length <= 20\n\t1 <= words.length <= 50\n\twords[i].length == pattern.length\n\tpattern and words[i] are lowercase English letters.\n\n"
+}

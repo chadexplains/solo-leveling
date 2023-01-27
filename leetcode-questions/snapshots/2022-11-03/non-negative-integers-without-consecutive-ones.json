@@ -1,0 +1,8 @@
+{
+  "id": "non-negative-integers-without-consecutive-ones",
+  "name": "Non-negative Integers without Consecutive Ones",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "Given a positive integer n, return the number of the integers in the range [0, n] whose binary representations do not contain consecutive ones.\n\n \nExample 1:\n\nInput: n = 5\nOutput: 5\nExplanation:\nHere are the non-negative integers <= 5 with their corresponding binary representations:\n0 : 0\n1 : 1\n2 : 10\n3 : 11\n4 : 100\n5 : 101\nAmong them, only integer 3 disobeys the rule (two consecutive ones) and the other 5 satisfy the rule. \n\n\nExample 2:\n\nInput: n = 1\nOutput: 2\n\n\nExample 3:\n\nInput: n = 2\nOutput: 3\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "increasing-decreasing-string",
+  "name": "Increasing Decreasing String",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You are given a string s. Reorder the string using the following algorithm:\n\n\n\tPick the smallest character from s and append it to the result.\n\tPick the smallest character from s which is greater than the last appended character to the result and append it.\n\tRepeat step 2 until you cannot pick more characters.\n\tPick the largest character from s and append it to the result.\n\tPick the largest character from s which is smaller than the last appended character to the result and append it.\n\tRepeat step 5 until you cannot pick more characters.\n\tRepeat the steps from 1 to 6 until you pick all characters from s.\n\n\nIn each step, If the smallest or the largest character appears more than once you can choose any occurrence and append it to the result.\n\nReturn the result string after sorting s with this algorithm.\n\n \nExample 1:\n\nInput: s = \"aaaabbbbcccc\"\nOutput: \"abccbaabccba\"\nExplanation: After steps 1, 2 and 3 of the first iteration, result = \"abc\"\nAfter steps 4, 5 and 6 of the first iteration, result = \"abccba\"\nFirst iteration is done. Now s = \"aabbcc\" and we go back to step 1\nAfter steps 1, 2 and 3 of the second iteration, result = \"abccbaabc\"\nAfter steps 4, 5 and 6 of the second iteration, result = \"abccbaabccba\"\n\n\nExample 2:\n\nInput: s = \"rat\"\nOutput: \"art\"\nExplanation: The word \"rat\" becomes \"art\" after re-ordering it with the mentioned algorithm.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 500\n\ts consists of only lowercase English letters.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "minimum-number-of-people-to-teach",
+  "name": "Minimum Number of People to Teach",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "description": "On a social network consisting of m users and some friendships between users, two users can communicate with each other if they know a common language.\n\nYou are given an integer n, an array languages, and an array friendships where:\n\n\n\tThere are n languages numbered 1 through n,\n\tlanguages[i] is the set of languages the i​​​​​​th​​​​ user knows, and\n\tfriendships[i] = [u​​​​​​i​​​, v​​​​​​i] denotes a friendship between the users u​​​​​​​​​​​i​​​​​ and vi.\n\n\nYou can choose one language and teach it to some users so that all friends can communicate with each other. Return the minimum number of users you need to teach.\nNote that friendships are not transitive, meaning if x is a friend of y and y is a friend of z, this doesn't guarantee that x is a friend of z.\n \nExample 1:\n\nInput: n = 2, languages = [[1],[2],[1,2]], friendships = [[1,2],[1,3],[2,3]]\nOutput: 1\nExplanation: You can either teach user 1 the second language or user 2 the first language.\n\n\nExample 2:\n\nInput: n = 3, languages = [[2],[1,3],[1,2],[3]], friendships = [[1,4],[1,2],[3,4],[2,3]]\nOutput: 2\nExplanation: Teach the third language to users 1 and 3, yielding two users to teach.\n\n\n \nConstraints:\n\n\n\t2 <= n <= 500\n\tlanguages.length == m\n\t1 <= m <= 500\n\t1 <= languages[i].length <= n\n\t1 <= languages[i][j] <= n\n\t1 <= u​​​​​​i < v​​​​​​i <= languages.length\n\t1 <= friendships.length <= 500\n\tAll tuples (u​​​​​i, v​​​​​​i) are unique\n\tlanguages[i] contains only unique values\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "matrix-block-sum",
+  "name": "Matrix Block Sum",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Prefix Sum"
+  ],
+  "description": "Given a m x n matrix mat and an integer k, return a matrix answer where each answer[i][j] is the sum of all elements mat[r][c] for:\n\n\n\ti - k <= r <= i + k,\n\tj - k <= c <= j + k, and\n\t(r, c) is a valid position in the matrix.\n\n\n \nExample 1:\n\nInput: mat = [[1,2,3],[4,5,6],[7,8,9]], k = 1\nOutput: [[12,21,16],[27,45,33],[24,39,28]]\n\n\nExample 2:\n\nInput: mat = [[1,2,3],[4,5,6],[7,8,9]], k = 2\nOutput: [[45,45,45],[45,45,45],[45,45,45]]\n\n\n \nConstraints:\n\n\n\tm == mat.length\n\tn == mat[i].length\n\t1 <= m, n, k <= 100\n\t1 <= mat[i][j] <= 100\n\n"
+}

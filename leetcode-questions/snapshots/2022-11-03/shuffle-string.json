@@ -1,0 +1,9 @@
+{
+  "id": "shuffle-string",
+  "name": "Shuffle String",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "You are given a string s and an integer array indices of the same length. The string s will be shuffled such that the character at the ith position moves to indices[i] in the shuffled string.\n\nReturn the shuffled string.\n\n \nExample 1:\n\nInput: s = \"codeleet\", indices = [4,5,6,7,0,2,1,3]\nOutput: \"leetcode\"\nExplanation: As shown, \"codeleet\" becomes \"leetcode\" after shuffling.\n\n\nExample 2:\n\nInput: s = \"abc\", indices = [0,1,2]\nOutput: \"abc\"\nExplanation: After shuffling, each character remains in its position.\n\n\n \nConstraints:\n\n\n\ts.length == indices.length == n\n\t1 <= n <= 100\n\ts consists of only lowercase English letters.\n\t0 <= indices[i] < n\n\tAll values of indices are unique.\n\n"
+}

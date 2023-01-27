@@ -1,0 +1,8 @@
+{
+  "id": "insert-interval",
+  "name": "Insert Interval",
+  "tags": [
+    "Array"
+  ],
+  "description": "You are given an array of non-overlapping intervals intervals where intervals[i] = [starti, endi] represent the start and the end of the ith interval and intervals is sorted in ascending order by starti. You are also given an interval newInterval = [start, end] that represents the start and end of another interval.\n\nInsert newInterval into intervals such that intervals is still sorted in ascending order by starti and intervals still does not have any overlapping intervals (merge overlapping intervals if necessary).\n\nReturn intervals after the insertion.\n\n \nExample 1:\n\nInput: intervals = [[1,3],[6,9]], newInterval = [2,5]\nOutput: [[1,5],[6,9]]\n\n\nExample 2:\n\nInput: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]\nOutput: [[1,2],[3,10],[12,16]]\nExplanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].\n\n\n \nConstraints:\n\n\n\t0 <= intervals.length <= 104\n\tintervals[i].length == 2\n\t0 <= starti <= endi <= 105\n\tintervals is sorted by starti in ascending order.\n\tnewInterval.length == 2\n\t0 <= start <= end <= 105\n\n"
+}

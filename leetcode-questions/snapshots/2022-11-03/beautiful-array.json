@@ -1,0 +1,10 @@
+{
+  "id": "beautiful-array",
+  "name": "Beautiful Array",
+  "tags": [
+    "Array",
+    "Math",
+    "Divide and Conquer"
+  ],
+  "description": "An array nums of length n is beautiful if:\n\n\n\tnums is a permutation of the integers in the range [1, n].\n\tFor every 0 <= i < j < n, there is no index k with i < k < j where 2 * nums[k] == nums[i] + nums[j].\n\n\nGiven the integer n, return any beautiful array nums of length n. There will be at least one valid answer for the given n.\n\n \nExample 1:\nInput: n = 4\nOutput: [2,1,4,3]\nExample 2:\nInput: n = 5\nOutput: [3,1,2,5,4]\n\n \nConstraints:\n\n\n\t1 <= n <= 1000\n\n"
+}

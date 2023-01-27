@@ -1,0 +1,12 @@
+{
+  "id": "majority-element",
+  "name": "Majority Element",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Divide and Conquer",
+    "Sorting",
+    "Counting"
+  ],
+  "description": "Given an array nums of size n, return the majority element.\n\nThe majority element is the element that appears more than ⌊n / 2⌋ times. You may assume that the majority element always exists in the array.\n\n \nExample 1:\nInput: nums = [3,2,3]\nOutput: 3\nExample 2:\nInput: nums = [2,2,1,1,1,2,2]\nOutput: 2\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 5 * 104\n\t-109 <= nums[i] <= 109\n\n\n \nFollow-up: Could you solve the problem in linear time and in O(1) space?"
+}

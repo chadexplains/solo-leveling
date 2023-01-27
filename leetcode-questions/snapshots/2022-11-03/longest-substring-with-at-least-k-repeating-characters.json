@@ -1,0 +1,11 @@
+{
+  "id": "longest-substring-with-at-least-k-repeating-characters",
+  "name": "Longest Substring with At Least K Repeating Characters",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Divide and Conquer",
+    "Sliding Window"
+  ],
+  "description": "Given a string s and an integer k, return the length of the longest substring of s such that the frequency of each character in this substring is greater than or equal to k.\n\n \nExample 1:\n\nInput: s = \"aaabb\", k = 3\nOutput: 3\nExplanation: The longest substring is \"aaa\", as 'a' is repeated 3 times.\n\n\nExample 2:\n\nInput: s = \"ababbc\", k = 2\nOutput: 5\nExplanation: The longest substring is \"ababb\", as 'a' is repeated 2 times and 'b' is repeated 3 times.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts consists of only lowercase English letters.\n\t1 <= k <= 105\n\n"
+}

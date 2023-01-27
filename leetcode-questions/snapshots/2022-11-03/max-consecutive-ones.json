@@ -1,0 +1,8 @@
+{
+  "id": "max-consecutive-ones",
+  "name": "Max Consecutive Ones",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given a binary array nums, return the maximum number of consecutive 1's in the array.\n\n \nExample 1:\n\nInput: nums = [1,1,0,1,1,1]\nOutput: 3\nExplanation: The first two digits or the last three digits are consecutive 1s. The maximum number of consecutive 1s is 3.\n\n\nExample 2:\n\nInput: nums = [1,0,1,1,0,1]\nOutput: 2\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\tnums[i] is either 0 or 1.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "concatenation-of-consecutive-binary-numbers",
+  "name": "Concatenation of Consecutive Binary Numbers",
+  "tags": [
+    "Math",
+    "Bit Manipulation",
+    "Simulation"
+  ],
+  "description": "Given an integer n, return the decimal value of the binary string formed by concatenating the binary representations of 1 to n in order, modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 1\nOutput: 1\nExplanation: \"1\" in binary corresponds to the decimal value 1. \n\n\nExample 2:\n\nInput: n = 3\nOutput: 27\nExplanation: In binary, 1, 2, and 3 corresponds to \"1\", \"10\", and \"11\".\nAfter concatenating them, we have \"11011\", which corresponds to the decimal value 27.\n\n\nExample 3:\n\nInput: n = 12\nOutput: 505379714\nExplanation: The concatenation results in \"1101110010111011110001001101010111100\".\nThe decimal value of that is 118505380540.\nAfter modulo 109 + 7, the result is 505379714.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\n"
+}

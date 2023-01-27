@@ -1,0 +1,8 @@
+{
+  "id": "count-sorted-vowel-strings",
+  "name": "Count Sorted Vowel Strings",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer n, return the number of strings of length n that consist only of vowels (a, e, i, o, u) and are lexicographically sorted.\n\nA string s is lexicographically sorted if for all valid i, s[i] is the same as or comes before s[i+1] in the alphabet.\n\n \nExample 1:\n\nInput: n = 1\nOutput: 5\nExplanation: The 5 sorted strings that consist of vowels only are [\"a\",\"e\",\"i\",\"o\",\"u\"].\n\n\nExample 2:\n\nInput: n = 2\nOutput: 15\nExplanation: The 15 sorted strings that consist of vowels only are\n[\"aa\",\"ae\",\"ai\",\"ao\",\"au\",\"ee\",\"ei\",\"eo\",\"eu\",\"ii\",\"io\",\"iu\",\"oo\",\"ou\",\"uu\"].\nNote that \"ea\" is not a valid string since 'e' comes after 'a' in the alphabet.\n\n\nExample 3:\n\nInput: n = 33\nOutput: 66045\n\n\n \nConstraints:\n\n\n\t1 <= n <= 50 \n\n"
+}

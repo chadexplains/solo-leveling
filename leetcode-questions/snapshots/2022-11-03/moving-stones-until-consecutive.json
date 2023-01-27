@@ -1,0 +1,9 @@
+{
+  "id": "moving-stones-until-consecutive",
+  "name": "Moving Stones Until Consecutive",
+  "tags": [
+    "Math",
+    "Brainteaser"
+  ],
+  "description": "There are three stones in different positions on the X-axis. You are given three integers a, b, and c, the positions of the stones.\n\nIn one move, you pick up a stone at an endpoint (i.e., either the lowest or highest position stone), and move it to an unoccupied position between those endpoints. Formally, let's say the stones are currently at positions x, y, and z with x < y < z. You pick up the stone at either position x or position z, and move that stone to an integer position k, with x < k < z and k != y.\n\nThe game ends when you cannot make any more moves (i.e., the stones are in three consecutive positions).\n\nReturn an integer array answer of length 2 where:\n\n\n\tanswer[0] is the minimum number of moves you can play, and\n\tanswer[1] is the maximum number of moves you can play.\n\n\n \nExample 1:\n\nInput: a = 1, b = 2, c = 5\nOutput: [1,2]\nExplanation: Move the stone from 5 to 3, or move the stone from 5 to 4 to 3.\n\n\nExample 2:\n\nInput: a = 4, b = 3, c = 2\nOutput: [0,0]\nExplanation: We cannot make any moves.\n\n\nExample 3:\n\nInput: a = 3, b = 5, c = 1\nOutput: [1,2]\nExplanation: Move the stone from 1 to 4; or move the stone from 1 to 2 to 4.\n\n\n \nConstraints:\n\n\n\t1 <= a, b, c <= 100\n\ta, b, and c have different values.\n\n"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "design-hashset",
+  "name": "Design HashSet",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Linked List",
+    "Design",
+    "Hash Function"
+  ],
+  "description": "Design a HashSet without using any built-in hash table libraries.\n\nImplement MyHashSet class:\n\n\n\tvoid add(key) Inserts the value key into the HashSet.\n\tbool contains(key) Returns whether the value key exists in the HashSet or not.\n\tvoid remove(key) Removes the value key in the HashSet. If key does not exist in the HashSet, do nothing.\n\n\n \nExample 1:\n\nInput\n[\"MyHashSet\", \"add\", \"add\", \"contains\", \"contains\", \"add\", \"contains\", \"remove\", \"contains\"]\n[[], [1], [2], [1], [3], [2], [2], [2], [2]]\nOutput\n[null, null, null, true, false, null, true, null, false]\n\nExplanation\nMyHashSet myHashSet = new MyHashSet();\nmyHashSet.add(1);      // set = [1]\nmyHashSet.add(2);      // set = [1, 2]\nmyHashSet.contains(1); // return True\nmyHashSet.contains(3); // return False, (not found)\nmyHashSet.add(2);      // set = [1, 2]\nmyHashSet.contains(2); // return True\nmyHashSet.remove(2);   // set = [1]\nmyHashSet.contains(2); // return False, (already removed)\n\n \nConstraints:\n\n\n\t0 <= key <= 106\n\tAt most 104 calls will be made to add, remove, and contains.\n\n"
+}

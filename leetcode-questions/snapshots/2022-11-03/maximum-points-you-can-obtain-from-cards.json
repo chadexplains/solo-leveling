@@ -1,0 +1,10 @@
+{
+  "id": "maximum-points-you-can-obtain-from-cards",
+  "name": "Maximum Points You Can Obtain from Cards",
+  "tags": [
+    "Array",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "description": "There are several cards arranged in a row, and each card has an associated number of points. The points are given in the integer array cardPoints.\n\nIn one step, you can take one card from the beginning or from the end of the row. You have to take exactly k cards.\n\nYour score is the sum of the points of the cards you have taken.\n\nGiven the integer array cardPoints and the integer k, return the maximum score you can obtain.\n\n \nExample 1:\n\nInput: cardPoints = [1,2,3,4,5,6,1], k = 3\nOutput: 12\nExplanation: After the first step, your score will always be 1. However, choosing the rightmost card first will maximize your total score. The optimal strategy is to take the three cards on the right, giving a final score of 1 + 6 + 5 = 12.\n\n\nExample 2:\n\nInput: cardPoints = [2,2,2], k = 2\nOutput: 4\nExplanation: Regardless of which two cards you take, your score will always be 4.\n\n\nExample 3:\n\nInput: cardPoints = [9,7,7,9,7,7,9], k = 7\nOutput: 55\nExplanation: You have to take all the cards. Your score is the sum of points of all cards.\n\n\n \nConstraints:\n\n\n\t1 <= cardPoints.length <= 105\n\t1 <= cardPoints[i] <= 104\n\t1 <= k <= cardPoints.length\n\n"
+}

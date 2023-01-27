@@ -1,0 +1,11 @@
+{
+  "id": "count-common-words-with-one-occurrence",
+  "name": "Count Common Words With One Occurrence",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "Given two string arrays words1 and words2, return the number of strings that appear exactly once in each of the two arrays.\n\n \nExample 1:\n\nInput: words1 = [\"leetcode\",\"is\",\"amazing\",\"as\",\"is\"], words2 = [\"amazing\",\"leetcode\",\"is\"]\nOutput: 2\nExplanation:\n- \"leetcode\" appears exactly once in each of the two arrays. We count this string.\n- \"amazing\" appears exactly once in each of the two arrays. We count this string.\n- \"is\" appears in each of the two arrays, but there are 2 occurrences of it in words1. We do not count this string.\n- \"as\" appears once in words1, but does not appear in words2. We do not count this string.\nThus, there are 2 strings that appear exactly once in each of the two arrays.\n\n\nExample 2:\n\nInput: words1 = [\"b\",\"bb\",\"bbb\"], words2 = [\"a\",\"aa\",\"aaa\"]\nOutput: 0\nExplanation: There are no strings that appear in each of the two arrays.\n\n\nExample 3:\n\nInput: words1 = [\"a\",\"ab\"], words2 = [\"a\",\"a\",\"a\",\"ab\"]\nOutput: 1\nExplanation: The only string that appears exactly once in each of the two arrays is \"ab\".\n\n\n \nConstraints:\n\n\n\t1 <= words1.length, words2.length <= 1000\n\t1 <= words1[i].length, words2[j].length <= 30\n\twords1[i] and words2[j] consists only of lowercase English letters.\n\n"
+}

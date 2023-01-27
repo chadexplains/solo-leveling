@@ -1,0 +1,9 @@
+{
+  "id": "string-without-aaa-or-bbb",
+  "name": "String Without AAA or BBB",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "Given two integers a and b, return any string s such that:\n\n\n\ts has length a + b and contains exactly a 'a' letters, and exactly b 'b' letters,\n\tThe substring 'aaa' does not occur in s, and\n\tThe substring 'bbb' does not occur in s.\n\n\n \nExample 1:\n\nInput: a = 1, b = 2\nOutput: \"abb\"\nExplanation: \"abb\", \"bab\" and \"bba\" are all correct answers.\n\n\nExample 2:\n\nInput: a = 4, b = 1\nOutput: \"aabaa\"\n\n\n \nConstraints:\n\n\n\t0 <= a, b <= 100\n\tIt is guaranteed such an s exists for the given a and b.\n\n"
+}

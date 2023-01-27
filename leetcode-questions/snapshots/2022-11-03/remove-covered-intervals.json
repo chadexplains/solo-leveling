@@ -1,0 +1,9 @@
+{
+  "id": "remove-covered-intervals",
+  "name": "Remove Covered Intervals",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "Given an array intervals where intervals[i] = [li, ri] represent the interval [li, ri), remove all intervals that are covered by another interval in the list.\n\nThe interval [a, b) is covered by the interval [c, d) if and only if c <= a and b <= d.\n\nReturn the number of remaining intervals.\n\n \nExample 1:\n\nInput: intervals = [[1,4],[3,6],[2,8]]\nOutput: 2\nExplanation: Interval [3,6] is covered by [2,8], therefore it is removed.\n\n\nExample 2:\n\nInput: intervals = [[1,4],[2,3]]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= intervals.length <= 1000\n\tintervals[i].length == 2\n\t0 <= li < ri <= 105\n\tAll the given intervals are unique.\n\n"
+}

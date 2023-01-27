@@ -1,0 +1,8 @@
+{
+  "id": "zigzag-conversion",
+  "name": "Zigzag Conversion",
+  "tags": [
+    "String"
+  ],
+  "description": "The string \"PAYPALISHIRING\" is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)\n\nP   A   H   N\nA P L S I I G\nY   I   R\n\n\nAnd then read line by line: \"PAHNAPLSIIGYIR\"\n\nWrite the code that will take a string and make this conversion given a number of rows:\n\nstring convert(string s, int numRows);\n\n\n \nExample 1:\n\nInput: s = \"PAYPALISHIRING\", numRows = 3\nOutput: \"PAHNAPLSIIGYIR\"\n\n\nExample 2:\n\nInput: s = \"PAYPALISHIRING\", numRows = 4\nOutput: \"PINALSIGYAHRPI\"\nExplanation:\nP     I    N\nA   L S  I G\nY A   H R\nP     I\n\n\nExample 3:\n\nInput: s = \"A\", numRows = 1\nOutput: \"A\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts consists of English letters (lower-case and upper-case), ',' and '.'.\n\t1 <= numRows <= 1000\n\n"
+}

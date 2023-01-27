@@ -1,0 +1,10 @@
+{
+  "id": "task-scheduler-ii",
+  "name": "Task Scheduler II",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Simulation"
+  ],
+  "description": "You are given a 0-indexed array of positive integers tasks, representing tasks that need to be completed in order, where tasks[i] represents the type of the ith task.\n\nYou are also given a positive integer space, which represents the minimum number of days that must pass after the completion of a task before another task of the same type can be performed.\n\nEach day, until all tasks have been completed, you must either:\n\n\n\tComplete the next task from tasks, or\n\tTake a break.\n\n\nReturn the minimum number of days needed to complete all tasks.\n\n \nExample 1:\n\nInput: tasks = [1,2,1,2,3,1], space = 3\nOutput: 9\nExplanation:\nOne way to complete all tasks in 9 days is as follows:\nDay 1: Complete the 0th task.\nDay 2: Complete the 1st task.\nDay 3: Take a break.\nDay 4: Take a break.\nDay 5: Complete the 2nd task.\nDay 6: Complete the 3rd task.\nDay 7: Take a break.\nDay 8: Complete the 4th task.\nDay 9: Complete the 5th task.\nIt can be shown that the tasks cannot be completed in less than 9 days.\n\n\nExample 2:\n\nInput: tasks = [5,8,8,5], space = 2\nOutput: 6\nExplanation:\nOne way to complete all tasks in 6 days is as follows:\nDay 1: Complete the 0th task.\nDay 2: Complete the 1st task.\nDay 3: Take a break.\nDay 4: Take a break.\nDay 5: Complete the 2nd task.\nDay 6: Complete the 3rd task.\nIt can be shown that the tasks cannot be completed in less than 6 days.\n\n\n \nConstraints:\n\n\n\t1 <= tasks.length <= 105\n\t1 <= tasks[i] <= 109\n\t1 <= space <= tasks.length\n\n"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cat-and-mouse",
+  "name": "Cat and Mouse",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Graph",
+    "Topological Sort",
+    "Memoization",
+    "Game Theory"
+  ],
+  "description": "A game on an undirected graph is played by two players, Mouse and Cat, who alternate turns.\n\nThe graph is given as follows: graph[a] is a list of all nodes b such that ab is an edge of the graph.\n\nThe mouse starts at node 1 and goes first, the cat starts at node 2 and goes second, and there is a hole at node 0.\n\nDuring each player's turn, they must travel along one edge of the graph that meets where they are.  For example, if the Mouse is at node 1, it must travel to any node in graph[1].\n\nAdditionally, it is not allowed for the Cat to travel to the Hole (node 0.)\n\nThen, the game can end in three ways:\n\n\n\tIf ever the Cat occupies the same node as the Mouse, the Cat wins.\n\tIf ever the Mouse reaches the Hole, the Mouse wins.\n\tIf ever a position is repeated (i.e., the players are in the same position as a previous turn, and it is the same player's turn to move), the game is a draw.\n\n\nGiven a graph, and assuming both players play optimally, return\n\n\n\t1 if the mouse wins the game,\n\t2 if the cat wins the game, or\n\t0 if the game is a draw.\n\n\n \nExample 1:\n\nInput: graph = [[2,5],[3],[0,4,5],[1,4,5],[2,3],[0,2,3]]\nOutput: 0\n\n\nExample 2:\n\nInput: graph = [[1,3],[0],[3],[0,2]]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t3 <= graph.length <= 50\n\t1 <= graph[i].length < graph.length\n\t0 <= graph[i][j] < graph.length\n\tgraph[i][j] != i\n\tgraph[i] is unique.\n\tThe mouse and the cat can always move. \n\n"
+}

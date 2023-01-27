@@ -1,0 +1,10 @@
+{
+  "id": "minimum-number-of-steps-to-make-two-strings-anagram",
+  "name": "Minimum Number of Steps to Make Two Strings Anagram",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You are given two strings of the same length s and t. In one step you can choose any character of t and replace it with another character.\n\nReturn the minimum number of steps to make t an anagram of s.\n\nAn Anagram of a string is a string that contains the same characters with a different (or the same) ordering.\n\n \nExample 1:\n\nInput: s = \"bab\", t = \"aba\"\nOutput: 1\nExplanation: Replace the first 'a' in t with b, t = \"bba\" which is anagram of s.\n\n\nExample 2:\n\nInput: s = \"leetcode\", t = \"practice\"\nOutput: 5\nExplanation: Replace 'p', 'r', 'a', 'i' and 'c' from t with proper characters to make t anagram of s.\n\n\nExample 3:\n\nInput: s = \"anagram\", t = \"mangaar\"\nOutput: 0\nExplanation: \"anagram\" and \"mangaar\" are anagrams. \n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 5 * 104\n\ts.length == t.length\n\ts and t consist of lowercase English letters only.\n\n"
+}

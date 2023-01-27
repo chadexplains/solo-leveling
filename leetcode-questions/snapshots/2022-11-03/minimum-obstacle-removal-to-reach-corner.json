@@ -1,0 +1,13 @@
+{
+  "id": "minimum-obstacle-removal-to-reach-corner",
+  "name": "Minimum Obstacle Removal to Reach Corner",
+  "tags": [
+    "Array",
+    "Breadth-First Search",
+    "Graph",
+    "Heap (Priority Queue)",
+    "Matrix",
+    "Shortest Path"
+  ],
+  "description": "You are given a 0-indexed 2D integer array grid of size m x n. Each cell has one of two values:\n\n\n\t0 represents an empty cell,\n\t1 represents an obstacle that may be removed.\n\n\nYou can move up, down, left, or right from and to an empty cell.\n\nReturn the minimum number of obstacles to remove so you can move from the upper left corner (0, 0) to the lower right corner (m - 1, n - 1).\n\n \nExample 1:\n\nInput: grid = [[0,1,1],[1,1,0],[1,1,0]]\nOutput: 2\nExplanation: We can remove the obstacles at (0, 1) and (0, 2) to create a path from (0, 0) to (2, 2).\nIt can be shown that we need to remove at least 2 obstacles, so we return 2.\nNote that there may be other ways to remove 2 obstacles to create a path.\n\n\nExample 2:\n\nInput: grid = [[0,1,0,0,0],[0,1,0,1,0],[0,0,0,1,0]]\nOutput: 0\nExplanation: We can move from (0, 0) to (2, 4) without removing any obstacles, so we return 0.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 105\n\t2 <= m * n <= 105\n\tgrid[i][j] is either 0 or 1.\n\tgrid[0][0] == grid[m - 1][n - 1] == 0\n\n"
+}

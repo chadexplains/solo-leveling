@@ -1,0 +1,9 @@
+{
+  "id": "check-if-word-is-valid-after-substitutions",
+  "name": "Check If Word Is Valid After Substitutions",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "Given a string s, determine if it is valid.\n\nA string s is valid if, starting with an empty string t = \"\", you can transform t into s after performing the following operation any number of times:\n\n\n\tInsert string \"abc\" into any position in t. More formally, t becomes tleft + \"abc\" + tright, where t == tleft + tright. Note that tleft and tright may be empty.\n\n\nReturn true if s is a valid string, otherwise, return false.\n\n \nExample 1:\n\nInput: s = \"aabcbc\"\nOutput: true\nExplanation:\n\"\" -> \"abc\" -> \"aabcbc\"\nThus, \"aabcbc\" is valid.\n\nExample 2:\n\nInput: s = \"abcabcababcc\"\nOutput: true\nExplanation:\n\"\" -> \"abc\" -> \"abcabc\" -> \"abcabcabc\" -> \"abcabcababcc\"\nThus, \"abcabcababcc\" is valid.\n\n\nExample 3:\n\nInput: s = \"abccba\"\nOutput: false\nExplanation: It is impossible to get \"abccba\" using the operation.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 2 * 104\n\ts consists of letters 'a', 'b', and 'c'\n\n"
+}

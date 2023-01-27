@@ -1,0 +1,12 @@
+{
+  "id": "avoid-flood-in-the-city",
+  "name": "Avoid Flood in The City",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Binary Search",
+    "Greedy",
+    "Heap (Priority Queue)"
+  ],
+  "description": "Your country has an infinite number of lakes. Initially, all the lakes are empty, but when it rains over the nth lake, the nth lake becomes full of water. If it rains over a lake that is full of water, there will be a flood. Your goal is to avoid floods in any lake.\n\nGiven an integer array rains where:\n\n\n\trains[i] > 0 means there will be rains over the rains[i] lake.\n\trains[i] == 0 means there are no rains this day and you can choose one lake this day and dry it.\n\n\nReturn an array ans where:\n\n\n\tans.length == rains.length\n\tans[i] == -1 if rains[i] > 0.\n\tans[i] is the lake you choose to dry in the ith day if rains[i] == 0.\n\n\nIf there are multiple valid answers return any of them. If it is impossible to avoid flood return an empty array.\n\nNotice that if you chose to dry a full lake, it becomes empty, but if you chose to dry an empty lake, nothing changes.\n\n \nExample 1:\n\nInput: rains = [1,2,3,4]\nOutput: [-1,-1,-1,-1]\nExplanation: After the first day full lakes are [1]\nAfter the second day full lakes are [1,2]\nAfter the third day full lakes are [1,2,3]\nAfter the fourth day full lakes are [1,2,3,4]\nThere's no day to dry any lake and there is no flood in any lake.\n\n\nExample 2:\n\nInput: rains = [1,2,0,0,2,1]\nOutput: [-1,-1,2,1,-1,-1]\nExplanation: After the first day full lakes are [1]\nAfter the second day full lakes are [1,2]\nAfter the third day, we dry lake 2. Full lakes are [1]\nAfter the fourth day, we dry lake 1. There is no full lakes.\nAfter the fifth day, full lakes are [2].\nAfter the sixth day, full lakes are [1,2].\nIt is easy that this scenario is flood-free. [-1,-1,1,2,-1,-1] is another acceptable scenario.\n\n\nExample 3:\n\nInput: rains = [1,2,0,1,2]\nOutput: []\nExplanation: After the second day, full lakes are  [1,2]. We have to dry one lake in the third day.\nAfter that, it will rain over lakes [1,2]. It's easy to prove that no matter which lake you choose to dry in the 3rd day, the other one will flood.\n\n\n \nConstraints:\n\n\n\t1 <= rains.length <= 105\n\t0 <= rains[i] <= 109\n\n"
+}

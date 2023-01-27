@@ -1,0 +1,8 @@
+{
+  "id": "length-of-the-longest-alphabetical-continuous-substring",
+  "name": "Length of the Longest Alphabetical Continuous Substring",
+  "tags": [
+    "String"
+  ],
+  "description": "An alphabetical continuous string is a string consisting of consecutive letters in the alphabet. In other words, it is any substring of the string \"abcdefghijklmnopqrstuvwxyz\".\n\n\n\tFor example, \"abc\" is an alphabetical continuous string, while \"acb\" and \"za\" are not.\n\n\nGiven a string s consisting of lowercase letters only, return the length of the longest alphabetical continuous substring.\n\n \nExample 1:\n\nInput: s = \"abacaba\"\nOutput: 2\nExplanation: There are 4 distinct continuous substrings: \"a\", \"b\", \"c\" and \"ab\".\n\"ab\" is the longest continuous substring.\n\n\nExample 2:\n\nInput: s = \"abcde\"\nOutput: 5\nExplanation: \"abcde\" is the longest continuous substring.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of only English lowercase letters.\n\n"
+}

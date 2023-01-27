@@ -1,0 +1,9 @@
+{
+  "id": "kth-smallest-product-of-two-sorted-arrays",
+  "name": "Kth Smallest Product of Two Sorted Arrays",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "Given two sorted 0-indexed integer arrays nums1 and nums2 as well as an integer k, return the kth (1-based) smallest product of nums1[i] * nums2[j] where 0 <= i < nums1.length and 0 <= j < nums2.length.\n \nExample 1:\n\nInput: nums1 = [2,5], nums2 = [3,4], k = 2\nOutput: 8\nExplanation: The 2 smallest products are:\n- nums1[0] * nums2[0] = 2 * 3 = 6\n- nums1[0] * nums2[1] = 2 * 4 = 8\nThe 2nd smallest product is 8.\n\n\nExample 2:\n\nInput: nums1 = [-4,-2,0,3], nums2 = [2,4], k = 6\nOutput: 0\nExplanation: The 6 smallest products are:\n- nums1[0] * nums2[1] = (-4) * 4 = -16\n- nums1[0] * nums2[0] = (-4) * 2 = -8\n- nums1[1] * nums2[1] = (-2) * 4 = -8\n- nums1[1] * nums2[0] = (-2) * 2 = -4\n- nums1[2] * nums2[0] = 0 * 2 = 0\n- nums1[2] * nums2[1] = 0 * 4 = 0\nThe 6th smallest product is 0.\n\n\nExample 3:\n\nInput: nums1 = [-2,-1,0,1,2], nums2 = [-3,-1,2,4,5], k = 3\nOutput: -6\nExplanation: The 3 smallest products are:\n- nums1[0] * nums2[4] = (-2) * 5 = -10\n- nums1[0] * nums2[3] = (-2) * 4 = -8\n- nums1[4] * nums2[0] = 2 * (-3) = -6\nThe 3rd smallest product is -6.\n\n\n \nConstraints:\n\n\n\t1 <= nums1.length, nums2.length <= 5 * 104\n\t-105 <= nums1[i], nums2[j] <= 105\n\t1 <= k <= nums1.length * nums2.length\n\tnums1 and nums2 are sorted.\n\n"
+}

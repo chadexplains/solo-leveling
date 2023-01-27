@@ -1,0 +1,10 @@
+{
+  "id": "rearrange-array-elements-by-sign",
+  "name": "Rearrange Array Elements by Sign",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Simulation"
+  ],
+  "description": "You are given a 0-indexed integer array nums of even length consisting of an equal number of positive and negative integers.\n\nYou should rearrange the elements of nums such that the modified array follows the given conditions:\n\n\n\tEvery consecutive pair of integers have opposite signs.\n\tFor all integers with the same sign, the order in which they were present in nums is preserved.\n\tThe rearranged array begins with a positive integer.\n\n\nReturn the modified array after rearranging the elements to satisfy the aforementioned conditions.\n\n \nExample 1:\n\nInput: nums = [3,1,-2,-5,2,-4]\nOutput: [3,-2,1,-5,2,-4]\nExplanation:\nThe positive integers in nums are [3,1,2]. The negative integers are [-2,-5,-4].\nThe only possible way to rearrange them such that they satisfy all conditions is [3,-2,1,-5,2,-4].\nOther ways such as [1,-2,2,-5,3,-4], [3,1,2,-2,-5,-4], [-2,3,-5,1,-4,2] are incorrect because they do not satisfy one or more conditions.  \n\n\nExample 2:\n\nInput: nums = [-1,1]\nOutput: [1,-1]\nExplanation:\n1 is the only positive integer and -1 the only negative integer in nums.\nSo nums is rearranged to [1,-1].\n\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 2 * 105\n\tnums.length is even\n\t1 <= |nums[i]| <= 105\n\tnums consists of equal number of positive and negative integers.\n\n"
+}

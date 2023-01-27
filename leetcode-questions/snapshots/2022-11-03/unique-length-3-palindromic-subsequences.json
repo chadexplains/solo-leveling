@@ -1,0 +1,10 @@
+{
+  "id": "unique-length-3-palindromic-subsequences",
+  "name": "Unique Length-3 Palindromic Subsequences",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Prefix Sum"
+  ],
+  "description": "Given a string s, return the number of unique palindromes of length three that are a subsequence of s.\n\nNote that even if there are multiple ways to obtain the same subsequence, it is still only counted once.\n\nA palindrome is a string that reads the same forwards and backwards.\n\nA subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.\n\n\n\tFor example, \"ace\" is a subsequence of \"abcde\".\n\n\n \nExample 1:\n\nInput: s = \"aabca\"\nOutput: 3\nExplanation: The 3 palindromic subsequences of length 3 are:\n- \"aba\" (subsequence of \"aabca\")\n- \"aaa\" (subsequence of \"aabca\")\n- \"aca\" (subsequence of \"aabca\")\n\n\nExample 2:\n\nInput: s = \"adc\"\nOutput: 0\nExplanation: There are no palindromic subsequences of length 3 in \"adc\".\n\n\nExample 3:\n\nInput: s = \"bbcbaba\"\nOutput: 4\nExplanation: The 4 palindromic subsequences of length 3 are:\n- \"bbb\" (subsequence of \"bbcbaba\")\n- \"bcb\" (subsequence of \"bbcbaba\")\n- \"bab\" (subsequence of \"bbcbaba\")\n- \"aba\" (subsequence of \"bbcbaba\")\n\n\n \nConstraints:\n\n\n\t3 <= s.length <= 105\n\ts consists of only lowercase English letters.\n\n"
+}

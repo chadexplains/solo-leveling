@@ -1,0 +1,10 @@
+{
+  "id": "balanced-binary-tree",
+  "name": "Balanced Binary Tree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given a binary tree, determine if it is height-balanced.\n\n \nExample 1:\n\nInput: root = [3,9,20,null,null,15,7]\nOutput: true\n\n\nExample 2:\n\nInput: root = [1,2,2,3,3,null,null,4,4]\nOutput: false\n\n\nExample 3:\n\nInput: root = []\nOutput: true\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [0, 5000].\n\t-104 <= Node.val <= 104\n\n"
+}

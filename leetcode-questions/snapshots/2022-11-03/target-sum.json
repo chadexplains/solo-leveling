@@ -1,0 +1,10 @@
+{
+  "id": "target-sum",
+  "name": "Target Sum",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking"
+  ],
+  "description": "You are given an integer array nums and an integer target.\n\nYou want to build an expression out of nums by adding one of the symbols '+' and '-' before each integer in nums and then concatenate all the integers.\n\n\n\tFor example, if nums = [2, 1], you can add a '+' before 2 and a '-' before 1 and concatenate them to build the expression \"+2-1\".\n\n\nReturn the number of different expressions that you can build, which evaluates to target.\n\n \nExample 1:\n\nInput: nums = [1,1,1,1,1], target = 3\nOutput: 5\nExplanation: There are 5 ways to assign symbols to make the sum of nums be target 3.\n-1 + 1 + 1 + 1 + 1 = 3\n+1 - 1 + 1 + 1 + 1 = 3\n+1 + 1 - 1 + 1 + 1 = 3\n+1 + 1 + 1 - 1 + 1 = 3\n+1 + 1 + 1 + 1 - 1 = 3\n\n\nExample 2:\n\nInput: nums = [1], target = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 20\n\t0 <= nums[i] <= 1000\n\t0 <= sum(nums[i]) <= 1000\n\t-1000 <= target <= 1000\n\n"
+}

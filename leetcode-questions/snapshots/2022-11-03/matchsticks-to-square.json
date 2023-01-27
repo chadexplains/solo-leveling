@@ -1,0 +1,12 @@
+{
+  "id": "matchsticks-to-square",
+  "name": "Matchsticks to Square",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "You are given an integer array matchsticks where matchsticks[i] is the length of the ith matchstick. You want to use all the matchsticks to make one square. You should not break any stick, but you can link them up, and each matchstick must be used exactly one time.\n\nReturn true if you can make this square and false otherwise.\n\n \nExample 1:\n\nInput: matchsticks = [1,1,2,2,2]\nOutput: true\nExplanation: You can form a square with length 2, one side of the square came two sticks with length 1.\n\n\nExample 2:\n\nInput: matchsticks = [3,3,3,3,4]\nOutput: false\nExplanation: You cannot find a way to form a square with all the matchsticks.\n\n\n \nConstraints:\n\n\n\t1 <= matchsticks.length <= 15\n\t1 <= matchsticks[i] <= 108\n\n"
+}

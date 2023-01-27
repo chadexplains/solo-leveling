@@ -1,0 +1,9 @@
+{
+  "id": "repeated-string-match",
+  "name": "Repeated String Match",
+  "tags": [
+    "String",
+    "String Matching"
+  ],
+  "description": "Given two strings a and b, return the minimum number of times you should repeat string a so that string b is a substring of it. If it is impossible for b​​​​​​ to be a substring of a after repeating it, return -1.\n\nNotice: string \"abc\" repeated 0 times is \"\", repeated 1 time is \"abc\" and repeated 2 times is \"abcabc\".\n\n \nExample 1:\n\nInput: a = \"abcd\", b = \"cdabcdab\"\nOutput: 3\nExplanation: We return 3 because by repeating a three times \"abcdabcdabcd\", b is a substring of it.\n\n\nExample 2:\n\nInput: a = \"a\", b = \"aa\"\nOutput: 2\n\n\n \nConstraints:\n\n\n\t1 <= a.length, b.length <= 104\n\ta and b consist of lowercase English letters.\n\n"
+}

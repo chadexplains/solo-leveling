@@ -1,0 +1,12 @@
+{
+  "id": "valid-triangle-number",
+  "name": "Valid Triangle Number",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums, return the number of triplets chosen from the array that can make triangles if we take them as side lengths of a triangle.\n\n \nExample 1:\n\nInput: nums = [2,2,3,4]\nOutput: 3\nExplanation: Valid combinations are: \n2,3,4 (using the first 2)\n2,3,4 (using the second 2)\n2,2,3\n\n\nExample 2:\n\nInput: nums = [4,2,3,4]\nOutput: 4\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 1000\n\t0 <= nums[i] <= 1000\n\n"
+}

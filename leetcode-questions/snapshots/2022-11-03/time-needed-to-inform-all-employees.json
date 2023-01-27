@@ -1,0 +1,10 @@
+{
+  "id": "time-needed-to-inform-all-employees",
+  "name": "Time Needed to Inform All Employees",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search"
+  ],
+  "description": "A company has n employees with a unique ID for each employee from 0 to n - 1. The head of the company is the one with headID.\n\nEach employee has one direct manager given in the manager array where manager[i] is the direct manager of the i-th employee, manager[headID] = -1. Also, it is guaranteed that the subordination relationships have a tree structure.\n\nThe head of the company wants to inform all the company employees of an urgent piece of news. He will inform his direct subordinates, and they will inform their subordinates, and so on until all employees know about the urgent news.\n\nThe i-th employee needs informTime[i] minutes to inform all of his direct subordinates (i.e., After informTime[i] minutes, all his direct subordinates can start spreading the news).\n\nReturn the number of minutes needed to inform all the employees about the urgent news.\n\n \nExample 1:\n\nInput: n = 1, headID = 0, manager = [-1], informTime = [0]\nOutput: 0\nExplanation: The head of the company is the only employee in the company.\n\n\nExample 2:\n\nInput: n = 6, headID = 2, manager = [2,2,-1,2,2,2], informTime = [0,0,1,0,0,0]\nOutput: 1\nExplanation: The head of the company with id = 2 is the direct manager of all the employees in the company and needs 1 minute to inform them all.\nThe tree structure of the employees in the company is shown.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\t0 <= headID < n\n\tmanager.length == n\n\t0 <= manager[i] < n\n\tmanager[headID] == -1\n\tinformTime.length == n\n\t0 <= informTime[i] <= 1000\n\tinformTime[i] == 0 if employee i has no subordinates.\n\tIt is guaranteed that all the employees can be informed.\n\n"
+}

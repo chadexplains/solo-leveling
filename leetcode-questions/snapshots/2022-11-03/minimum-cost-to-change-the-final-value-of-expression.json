@@ -1,0 +1,11 @@
+{
+  "id": "minimum-cost-to-change-the-final-value-of-expression",
+  "name": "Minimum Cost to Change the Final Value of Expression",
+  "tags": [
+    "Math",
+    "String",
+    "Dynamic Programming",
+    "Stack"
+  ],
+  "description": "You are given a valid boolean expression as a string expression consisting of the characters '1','0','&' (bitwise AND operator),'|' (bitwise OR operator),'(', and ')'.\n\n\n\tFor example, \"()1|1\" and \"(1)&()\" are not valid while \"1\", \"(((1))|(0))\", and \"1|(0&(1))\" are valid expressions.\n\n\nReturn the minimum cost to change the final value of the expression.\n\n\n\tFor example, if expression = \"1|1|(0&0)&1\", its value is 1|1|(0&0)&1 = 1|1|0&1 = 1|0&1 = 1&1 = 1. We want to apply operations so that the new expression evaluates to 0.\n\n\nThe cost of changing the final value of an expression is the number of operations performed on the expression. The types of operations are described as follows:\n\n\n\tTurn a '1' into a '0'.\n\tTurn a '0' into a '1'.\n\tTurn a '&' into a '|'.\n\tTurn a '|' into a '&'.\n\n\nNote: '&' does not take precedence over '|' in the order of calculation. Evaluate parentheses first, then in left-to-right order.\n\n \nExample 1:\n\nInput: expression = \"1&(0|1)\"\nOutput: 1\nExplanation: We can turn \"1&(0|1)\" into \"1&(0&1)\" by changing the '|' to a '&' using 1 operation.\nThe new expression evaluates to 0. \n\n\nExample 2:\n\nInput: expression = \"(0&0)&(0&0&0)\"\nOutput: 3\nExplanation: We can turn \"(0&0)&(0&0&0)\" into \"(0|1)|(0&0&0)\" using 3 operations.\nThe new expression evaluates to 1.\n\n\nExample 3:\n\nInput: expression = \"(0|(1|0&1))\"\nOutput: 1\nExplanation: We can turn \"(0|(1|0&1))\" into \"(0|(0|0&1))\" using 1 operation.\nThe new expression evaluates to 0.\n\n \nConstraints:\n\n\n\t1 <= expression.length <= 105\n\texpression only contains '1','0','&','|','(', and ')'\n\tAll parentheses are properly matched.\n\tThere will be no empty parentheses (i.e: \"()\" is not a substring of expression).\n\n"
+}

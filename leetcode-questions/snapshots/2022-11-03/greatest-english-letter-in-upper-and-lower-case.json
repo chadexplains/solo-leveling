@@ -1,0 +1,10 @@
+{
+  "id": "greatest-english-letter-in-upper-and-lower-case",
+  "name": "Greatest English Letter in Upper and Lower Case",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Enumeration"
+  ],
+  "description": "Given a string of English letters s, return the greatest English letter which occurs as both a lowercase and uppercase letter in s. The returned letter should be in uppercase. If no such letter exists, return an empty string.\n\nAn English letter b is greater than another letter a if b appears after a in the English alphabet.\n\n \nExample 1:\n\nInput: s = \"lEeTcOdE\"\nOutput: \"E\"\nExplanation:\nThe letter 'E' is the only letter to appear in both lower and upper case.\n\n\nExample 2:\n\nInput: s = \"arRAzFif\"\nOutput: \"R\"\nExplanation:\nThe letter 'R' is the greatest letter to appear in both lower and upper case.\nNote that 'A' and 'F' also appear in both lower and upper case, but 'R' is greater than 'F' or 'A'.\n\n\nExample 3:\n\nInput: s = \"AbCdEfGhIjK\"\nOutput: \"\"\nExplanation:\nThere is no letter that appears in both lower and upper case.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts consists of lowercase and uppercase English letters.\n\n"
+}

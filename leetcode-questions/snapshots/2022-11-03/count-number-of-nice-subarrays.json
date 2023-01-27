@@ -1,0 +1,11 @@
+{
+  "id": "count-number-of-nice-subarrays",
+  "name": "Count Number of Nice Subarrays",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Sliding Window"
+  ],
+  "description": "Given an array of integers nums and an integer k. A continuous subarray is called nice if there are k odd numbers on it.\n\nReturn the number of nice sub-arrays.\n\n \nExample 1:\n\nInput: nums = [1,1,2,1,1], k = 3\nOutput: 2\nExplanation: The only sub-arrays with 3 odd numbers are [1,1,2,1] and [1,2,1,1].\n\n\nExample 2:\n\nInput: nums = [2,4,6], k = 1\nOutput: 0\nExplanation: There is no odd numbers in the array.\n\n\nExample 3:\n\nInput: nums = [2,2,2,1,2,2,1,2,2,2], k = 2\nOutput: 16\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 50000\n\t1 <= nums[i] <= 10^5\n\t1 <= k <= nums.length\n"
+}

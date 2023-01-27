@@ -1,0 +1,10 @@
+{
+  "id": "jump-game-iii",
+  "name": "Jump Game III",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search"
+  ],
+  "description": "Given an array of non-negative integers arr, you are initially positioned at start index of the array. When you are at index i, you can jump to i + arr[i] or i - arr[i], check if you can reach to any index with value 0.\n\nNotice that you can not jump outside of the array at any time.\n\n \nExample 1:\n\nInput: arr = [4,2,3,0,3,1,2], start = 5\nOutput: true\nExplanation: \nAll possible ways to reach at index 3 with value 0 are: \nindex 5 -> index 4 -> index 1 -> index 3 \nindex 5 -> index 6 -> index 4 -> index 1 -> index 3 \n\n\nExample 2:\n\nInput: arr = [4,2,3,0,3,1,2], start = 0\nOutput: true \nExplanation: \nOne possible way to reach at index 3 with value 0 is: \nindex 0 -> index 4 -> index 1 -> index 3\n\n\nExample 3:\n\nInput: arr = [3,0,2,1,2], start = 2\nOutput: false\nExplanation: There is no way to reach at index 1 with value 0.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 5 * 104\n\t0 <= arr[i] < arr.length\n\t0 <= start < arr.length\n\n"
+}

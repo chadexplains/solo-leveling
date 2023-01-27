@@ -1,0 +1,9 @@
+{
+  "id": "swap-nodes-in-pairs",
+  "name": "Swap Nodes in Pairs",
+  "tags": [
+    "Linked List",
+    "Recursion"
+  ],
+  "description": "Given a linked list, swap every two adjacent nodes and return its head. You must solve the problem without modifying the values in the list's nodes (i.e., only nodes themselves may be changed.)\n\n \nExample 1:\n\nInput: head = [1,2,3,4]\nOutput: [2,1,4,3]\n\n\nExample 2:\n\nInput: head = []\nOutput: []\n\n\nExample 3:\n\nInput: head = [1]\nOutput: [1]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [0, 100].\n\t0 <= Node.val <= 100\n\n"
+}

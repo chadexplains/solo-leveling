@@ -1,0 +1,14 @@
+{
+  "id": "longest-uploaded-prefix",
+  "name": "Longest Uploaded Prefix",
+  "tags": [
+    "Binary Search",
+    "Union Find",
+    "Design",
+    "Binary Indexed Tree",
+    "Segment Tree",
+    "Heap (Priority Queue)",
+    "Ordered Set"
+  ],
+  "description": "You are given a stream of n videos, each represented by a distinct number from 1 to n that you need to \"upload\" to a server. You need to implement a data structure that calculates the length of the longest uploaded prefix at various points in the upload process.\n\nWe consider i to be an uploaded prefix if all videos in the range 1 to i (inclusive) have been uploaded to the server. The longest uploaded prefix is the maximum value of i that satisfies this definition.\n\nImplement the LUPrefix class:\n\n\n\tLUPrefix(int n) Initializes the object for a stream of n videos.\n\tvoid upload(int video) Uploads video to the server.\n\tint longest() Returns the length of the longest uploaded prefix defined above.\n\n\n \nExample 1:\n\nInput\n[\"LUPrefix\", \"upload\", \"longest\", \"upload\", \"longest\", \"upload\", \"longest\"]\n[[4], [3], [], [1], [], [2], []]\nOutput\n[null, null, 0, null, 1, null, 3]\n\nExplanation\nLUPrefix server = new LUPrefix(4);   // Initialize a stream of 4 videos.\nserver.upload(3);                    // Upload video 3.\nserver.longest();                    // Since video 1 has not been uploaded yet, there is no prefix.\n                                     // So, we return 0.\nserver.upload(1);                    // Upload video 1.\nserver.longest();                    // The prefix [1] is the longest uploaded prefix, so we return 1.\nserver.upload(2);                    // Upload video 2.\nserver.longest();                    // The prefix [1,2,3] is the longest uploaded prefix, so we return 3.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\t1 <= video <= n\n\tAll values of video are distinct.\n\tAt most 2 * 105 calls in total will be made to upload and longest.\n\tAt least one call will be made to longest.\n\n"
+}

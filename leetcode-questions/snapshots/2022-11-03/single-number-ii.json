@@ -1,0 +1,9 @@
+{
+  "id": "single-number-ii",
+  "name": "Single Number II",
+  "tags": [
+    "Array",
+    "Bit Manipulation"
+  ],
+  "description": "Given an integer array nums where every element appears three times except for one, which appears exactly once. Find the single element and return it.\n\nYou must implement a solution with a linear runtime complexity and use only constant extra space.\n\n \nExample 1:\nInput: nums = [2,2,3,2]\nOutput: 3\nExample 2:\nInput: nums = [0,1,0,1,0,1,99]\nOutput: 99\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 3 * 104\n\t-231 <= nums[i] <= 231 - 1\n\tEach element in nums appears exactly three times except for one element which appears once.\n\n"
+}

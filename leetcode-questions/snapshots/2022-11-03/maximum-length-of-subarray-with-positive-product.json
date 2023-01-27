@@ -1,0 +1,10 @@
+{
+  "id": "maximum-length-of-subarray-with-positive-product",
+  "name": "Maximum Length of Subarray With Positive Product",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "description": "Given an array of integers nums, find the maximum length of a subarray where the product of all its elements is positive.\n\nA subarray of an array is a consecutive sequence of zero or more values taken out of that array.\n\nReturn the maximum length of a subarray with positive product.\n\n \nExample 1:\n\nInput: nums = [1,-2,-3,4]\nOutput: 4\nExplanation: The array nums already has a positive product of 24.\n\n\nExample 2:\n\nInput: nums = [0,1,-2,-3,-4]\nOutput: 3\nExplanation: The longest subarray with positive product is [1,-2,-3] which has a product of 6.\nNotice that we cannot include 0 in the subarray since that'll make the product 0 which is not positive.\n\nExample 3:\n\nInput: nums = [-1,-2,-3,0,1]\nOutput: 2\nExplanation: The longest subarray with positive product is [-1,-2] or [-2,-3].\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-109 <= nums[i] <= 109\n\n"
+}

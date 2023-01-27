@@ -1,0 +1,10 @@
+{
+  "id": "print-words-vertically",
+  "name": "Print Words Vertically",
+  "tags": [
+    "Array",
+    "String",
+    "Simulation"
+  ],
+  "description": "Given a string s. Return all the words vertically in the same order in which they appear in s.\nWords are returned as a list of strings, complete with spaces when is necessary. (Trailing spaces are not allowed).\nEach word would be put on only one column and that in one column there will be only one word.\n\n \nExample 1:\n\nInput: s = \"HOW ARE YOU\"\nOutput: [\"HAY\",\"ORO\",\"WEU\"]\nExplanation: Each word is printed vertically. \n \"HAY\"\n \"ORO\"\n \"WEU\"\n\n\nExample 2:\n\nInput: s = \"TO BE OR NOT TO BE\"\nOutput: [\"TBONTB\",\"OEROOE\",\"   T\"]\nExplanation: Trailing spaces is not allowed. \n\"TBONTB\"\n\"OEROOE\"\n\"   T\"\n\n\nExample 3:\n\nInput: s = \"CONTEST IS COMING\"\nOutput: [\"CIC\",\"OSO\",\"N M\",\"T I\",\"E N\",\"S G\",\"T\"]\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 200\n\ts contains only upper case English letters.\n\tIt's guaranteed that there is only one space between 2 words.\n"
+}

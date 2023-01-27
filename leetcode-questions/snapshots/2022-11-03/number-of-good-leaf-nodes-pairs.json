@@ -1,0 +1,10 @@
+{
+  "id": "number-of-good-leaf-nodes-pairs",
+  "name": "Number of Good Leaf Nodes Pairs",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree and an integer distance. A pair of two different leaf nodes of a binary tree is said to be good if the length of the shortest path between them is less than or equal to distance.\n\nReturn the number of good leaf node pairs in the tree.\n\n \nExample 1:\n\nInput: root = [1,2,3,null,4], distance = 3\nOutput: 1\nExplanation: The leaf nodes of the tree are 3 and 4 and the length of the shortest path between them is 3. This is the only good pair.\n\n\nExample 2:\n\nInput: root = [1,2,3,4,5,6,7], distance = 3\nOutput: 2\nExplanation: The good pairs are [4,5] and [6,7] with shortest path = 2. The pair [4,6] is not good because the length of ther shortest path between them is 4.\n\n\nExample 3:\n\nInput: root = [7,1,4,6,null,5,3,null,null,null,null,null,2], distance = 3\nOutput: 1\nExplanation: The only good pair is [2,5].\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 210].\n\t1 <= Node.val <= 100\n\t1 <= distance <= 10\n\n"
+}

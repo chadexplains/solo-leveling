@@ -1,0 +1,11 @@
+{
+  "id": "number-of-ways-to-arrive-at-destination",
+  "name": "Number of Ways to Arrive at Destination",
+  "tags": [
+    "Dynamic Programming",
+    "Graph",
+    "Topological Sort",
+    "Shortest Path"
+  ],
+  "description": "You are in a city that consists of n intersections numbered from 0 to n - 1 with bi-directional roads between some intersections. The inputs are generated such that you can reach any intersection from any other intersection and that there is at most one road between any two intersections.\n\nYou are given an integer n and a 2D integer array roads where roads[i] = [ui, vi, timei] means that there is a road between intersections ui and vi that takes timei minutes to travel. You want to know in how many ways you can travel from intersection 0 to intersection n - 1 in the shortest amount of time.\n\nReturn the number of ways you can arrive at your destination in the shortest amount of time. Since the answer may be large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: n = 7, roads = [[0,6,7],[0,1,2],[1,2,3],[1,3,3],[6,3,3],[3,5,1],[6,5,1],[2,5,1],[0,4,5],[4,6,2]]\nOutput: 4\nExplanation: The shortest amount of time it takes to go from intersection 0 to intersection 6 is 7 minutes.\nThe four ways to get there in 7 minutes are:\n- 0 ➝ 6\n- 0 ➝ 4 ➝ 6\n- 0 ➝ 1 ➝ 2 ➝ 5 ➝ 6\n- 0 ➝ 1 ➝ 3 ➝ 5 ➝ 6\n\n\nExample 2:\n\nInput: n = 2, roads = [[1,0,10]]\nOutput: 1\nExplanation: There is only one way to go from intersection 0 to intersection 1, and it takes 10 minutes.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 200\n\tn - 1 <= roads.length <= n * (n - 1) / 2\n\troads[i].length == 3\n\t0 <= ui, vi <= n - 1\n\t1 <= timei <= 109\n\tui != vi\n\tThere is at most one road connecting any two intersections.\n\tYou can reach any intersection from any other intersection.\n\n"
+}

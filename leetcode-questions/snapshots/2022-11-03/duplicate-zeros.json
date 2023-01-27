@@ -1,0 +1,9 @@
+{
+  "id": "duplicate-zeros",
+  "name": "Duplicate Zeros",
+  "tags": [
+    "Array",
+    "Two Pointers"
+  ],
+  "description": "Given a fixed-length integer array arr, duplicate each occurrence of zero, shifting the remaining elements to the right.\n\nNote that elements beyond the length of the original array are not written. Do the above modifications to the input array in place and do not return anything.\n\n \nExample 1:\n\nInput: arr = [1,0,2,3,0,4,5,0]\nOutput: [1,0,0,2,3,0,0,4]\nExplanation: After calling your function, the input array is modified to: [1,0,0,2,3,0,0,4]\n\n\nExample 2:\n\nInput: arr = [1,2,3]\nOutput: [1,2,3]\nExplanation: After calling your function, the input array is modified to: [1,2,3]\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 104\n\t0 <= arr[i] <= 9\n\n"
+}

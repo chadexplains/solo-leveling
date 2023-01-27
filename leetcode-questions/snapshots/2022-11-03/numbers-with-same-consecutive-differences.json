@@ -1,0 +1,9 @@
+{
+  "id": "numbers-with-same-consecutive-differences",
+  "name": "Numbers With Same Consecutive Differences",
+  "tags": [
+    "Backtracking",
+    "Breadth-First Search"
+  ],
+  "description": "Given two integers n and k, return an array of all the integers of length n where the difference between every two consecutive digits is k. You may return the answer in any order.\n\nNote that the integers should not have leading zeros. Integers as 02 and 043 are not allowed.\n\n \nExample 1:\n\nInput: n = 3, k = 7\nOutput: [181,292,707,818,929]\nExplanation: Note that 070 is not a valid number, because it has leading zeroes.\n\n\nExample 2:\n\nInput: n = 2, k = 1\nOutput: [10,12,21,23,32,34,43,45,54,56,65,67,76,78,87,89,98]\n\n\n \nConstraints:\n\n\n\t2 <= n <= 9\n\t0 <= k <= 9\n\n"
+}

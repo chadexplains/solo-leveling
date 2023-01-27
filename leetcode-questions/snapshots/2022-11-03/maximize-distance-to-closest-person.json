@@ -1,0 +1,8 @@
+{
+  "id": "maximize-distance-to-closest-person",
+  "name": "Maximize Distance to Closest Person",
+  "tags": [
+    "Array"
+  ],
+  "description": "You are given an array representing a row of seats where seats[i] = 1 represents a person sitting in the ith seat, and seats[i] = 0 represents that the ith seat is empty (0-indexed).\n\nThere is at least one empty seat, and at least one person sitting.\n\nAlex wants to sit in the seat such that the distance between him and the closest person to him is maximized. \n\nReturn that maximum distance to the closest person.\n\n \nExample 1:\n\nInput: seats = [1,0,0,0,1,0,1]\nOutput: 2\nExplanation: \nIf Alex sits in the second open seat (i.e. seats[2]), then the closest person has distance 2.\nIf Alex sits in any other open seat, the closest person has distance 1.\nThus, the maximum distance to the closest person is 2.\n\n\nExample 2:\n\nInput: seats = [1,0,0,0]\nOutput: 3\nExplanation: \nIf Alex sits in the last seat (i.e. seats[3]), the closest person is 3 seats away.\nThis is the maximum distance possible, so the answer is 3.\n\n\nExample 3:\n\nInput: seats = [0,1]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t2 <= seats.length <= 2 * 104\n\tseats[i] is 0 or 1.\n\tAt least one seat is empty.\n\tAt least one seat is occupied.\n\n"
+}

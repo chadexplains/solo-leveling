@@ -1,0 +1,8 @@
+{
+  "id": "split-linked-list-in-parts",
+  "name": "Split Linked List in Parts",
+  "tags": [
+    "Linked List"
+  ],
+  "description": "Given the head of a singly linked list and an integer k, split the linked list into k consecutive linked list parts.\n\nThe length of each part should be as equal as possible: no two parts should have a size differing by more than one. This may lead to some parts being null.\n\nThe parts should be in the order of occurrence in the input list, and parts occurring earlier should always have a size greater than or equal to parts occurring later.\n\nReturn an array of the k parts.\n\n \nExample 1:\n\nInput: head = [1,2,3], k = 5\nOutput: [[1],[2],[3],[],[]]\nExplanation:\nThe first element output[0] has output[0].val = 1, output[0].next = null.\nThe last element output[4] is null, but its string representation as a ListNode is [].\n\n\nExample 2:\n\nInput: head = [1,2,3,4,5,6,7,8,9,10], k = 3\nOutput: [[1,2,3,4],[5,6,7],[8,9,10]]\nExplanation:\nThe input has been split into consecutive parts with size difference at most 1, and earlier parts are a larger size than the later parts.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [0, 1000].\n\t0 <= Node.val <= 1000\n\t1 <= k <= 50\n\n"
+}

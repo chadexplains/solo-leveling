@@ -1,0 +1,10 @@
+{
+  "id": "largest-triangle-area",
+  "name": "Largest Triangle Area",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry"
+  ],
+  "description": "Given an array of points on the X-Y plane points where points[i] = [xi, yi], return the area of the largest triangle that can be formed by any three different points. Answers within 10-5 of the actual answer will be accepted.\n\n \nExample 1:\n\nInput: points = [[0,0],[0,1],[1,0],[0,2],[2,0]]\nOutput: 2.00000\nExplanation: The five points are shown in the above figure. The red triangle is the largest.\n\n\nExample 2:\n\nInput: points = [[1,0],[0,0],[0,1]]\nOutput: 0.50000\n\n\n \nConstraints:\n\n\n\t3 <= points.length <= 50\n\t-50 <= xi, yi <= 50\n\tAll the given points are unique.\n\n"
+}

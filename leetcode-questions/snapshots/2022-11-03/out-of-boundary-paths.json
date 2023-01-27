@@ -1,0 +1,8 @@
+{
+  "id": "out-of-boundary-paths",
+  "name": "Out of Boundary Paths",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "There is an m x n grid with a ball. The ball is initially at the position [startRow, startColumn]. You are allowed to move the ball to one of the four adjacent cells in the grid (possibly out of the grid crossing the grid boundary). You can apply at most maxMove moves to the ball.\n\nGiven the five integers m, n, maxMove, startRow, startColumn, return the number of paths to move the ball out of the grid boundary. Since the answer can be very large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: m = 2, n = 2, maxMove = 2, startRow = 0, startColumn = 0\nOutput: 6\n\n\nExample 2:\n\nInput: m = 1, n = 3, maxMove = 3, startRow = 0, startColumn = 1\nOutput: 12\n\n\n \nConstraints:\n\n\n\t1 <= m, n <= 50\n\t0 <= maxMove <= 50\n\t0 <= startRow < m\n\t0 <= startColumn < n\n\n"
+}

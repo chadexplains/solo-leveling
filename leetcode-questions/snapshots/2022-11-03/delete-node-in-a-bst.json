@@ -1,0 +1,10 @@
+{
+  "id": "delete-node-in-a-bst",
+  "name": "Delete Node in a BST",
+  "tags": [
+    "Tree",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "description": "Given a root node reference of a BST and a key, delete the node with the given key in the BST. Return the root node reference (possibly updated) of the BST.\n\nBasically, the deletion can be divided into two stages:\n\n\n\tSearch for a node to remove.\n\tIf the node is found, delete the node.\n\n\n \nExample 1:\n\nInput: root = [5,3,6,2,4,null,7], key = 3\nOutput: [5,4,6,2,null,null,7]\nExplanation: Given key to delete is 3. So we find the node with value 3 and delete it.\nOne valid answer is [5,4,6,2,null,null,7], shown in the above BST.\nPlease notice that another valid answer is [5,2,6,null,4,null,7] and it's also accepted.\n\n\n\nExample 2:\n\nInput: root = [5,3,6,2,4,null,7], key = 0\nOutput: [5,3,6,2,4,null,7]\nExplanation: The tree does not contain a node with value = 0.\n\n\nExample 3:\n\nInput: root = [], key = 0\nOutput: []\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [0, 104].\n\t-105 <= Node.val <= 105\n\tEach node has a unique value.\n\troot is a valid binary search tree.\n\t-105 <= key <= 105\n\n\n \nFollow up: Could you solve it with time complexity O(height of tree)?\n"
+}

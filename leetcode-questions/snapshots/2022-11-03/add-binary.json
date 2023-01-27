@@ -1,0 +1,11 @@
+{
+  "id": "add-binary",
+  "name": "Add Binary",
+  "tags": [
+    "Math",
+    "String",
+    "Bit Manipulation",
+    "Simulation"
+  ],
+  "description": "Given two binary strings a and b, return their sum as a binary string.\n\n \nExample 1:\nInput: a = \"11\", b = \"1\"\nOutput: \"100\"\nExample 2:\nInput: a = \"1010\", b = \"1011\"\nOutput: \"10101\"\n\n \nConstraints:\n\n\n\t1 <= a.length, b.length <= 104\n\ta and b consist only of '0' or '1' characters.\n\tEach string does not contain leading zeros except for the zero itself.\n\n"
+}

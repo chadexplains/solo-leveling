@@ -1,0 +1,9 @@
+{
+  "id": "candy",
+  "name": "Candy",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "description": "There are n children standing in a line. Each child is assigned a rating value given in the integer array ratings.\n\nYou are giving candies to these children subjected to the following requirements:\n\n\n\tEach child must have at least one candy.\n\tChildren with a higher rating get more candies than their neighbors.\n\n\nReturn the minimum number of candies you need to have to distribute the candies to the children.\n\n \nExample 1:\n\nInput: ratings = [1,0,2]\nOutput: 5\nExplanation: You can allocate to the first, second and third child with 2, 1, 2 candies respectively.\n\n\nExample 2:\n\nInput: ratings = [1,2,2]\nOutput: 4\nExplanation: You can allocate to the first, second and third child with 1, 2, 1 candies respectively.\nThe third child gets 1 candy because it satisfies the above two conditions.\n\n\n \nConstraints:\n\n\n\tn == ratings.length\n\t1 <= n <= 2 * 104\n\t0 <= ratings[i] <= 2 * 104\n\n"
+}

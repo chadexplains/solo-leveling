@@ -1,0 +1,8 @@
+{
+  "id": "longer-contiguous-segments-of-ones-than-zeros",
+  "name": "Longer Contiguous Segments of Ones than Zeros",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a binary string s, return true if the longest contiguous segment of 1's is strictly longer than the longest contiguous segment of 0's in s, or return false otherwise.\n\n\n\tFor example, in s = \"110100010\" the longest continuous segment of 1s has length 2, and the longest continuous segment of 0s has length 3.\n\n\nNote that if there are no 0's, then the longest continuous segment of 0's is considered to have a length 0. The same applies if there is no 1's.\n\n \nExample 1:\n\nInput: s = \"1101\"\nOutput: true\nExplanation:\nThe longest contiguous segment of 1s has length 2: \"1101\"\nThe longest contiguous segment of 0s has length 1: \"1101\"\nThe segment of 1s is longer, so return true.\n\n\nExample 2:\n\nInput: s = \"111000\"\nOutput: false\nExplanation:\nThe longest contiguous segment of 1s has length 3: \"111000\"\nThe longest contiguous segment of 0s has length 3: \"111000\"\nThe segment of 1s is not longer, so return false.\n\n\nExample 3:\n\nInput: s = \"110100010\"\nOutput: false\nExplanation:\nThe longest contiguous segment of 1s has length 2: \"110100010\"\nThe longest contiguous segment of 0s has length 3: \"110100010\"\nThe segment of 1s is not longer, so return false.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts[i] is either '0' or '1'.\n\n"
+}

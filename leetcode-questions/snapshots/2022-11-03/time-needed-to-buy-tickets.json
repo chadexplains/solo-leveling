@@ -1,0 +1,10 @@
+{
+  "id": "time-needed-to-buy-tickets",
+  "name": "Time Needed to Buy Tickets",
+  "tags": [
+    "Array",
+    "Queue",
+    "Simulation"
+  ],
+  "description": "There are n people in a line queuing to buy tickets, where the 0th person is at the front of the line and the (n - 1)th person is at the back of the line.\n\nYou are given a 0-indexed integer array tickets of length n where the number of tickets that the ith person would like to buy is tickets[i].\n\nEach person takes exactly 1 second to buy a ticket. A person can only buy 1 ticket at a time and has to go back to the end of the line (which happens instantaneously) in order to buy more tickets. If a person does not have any tickets left to buy, the person will leave the line.\n\nReturn the time taken for the person at position k (0-indexed) to finish buying tickets.\n\n \nExample 1:\n\nInput: tickets = [2,3,2], k = 2\nOutput: 6\nExplanation: \n- In the first pass, everyone in the line buys a ticket and the line becomes [1, 2, 1].\n- In the second pass, everyone in the line buys a ticket and the line becomes [0, 1, 0].\nThe person at position 2 has successfully bought 2 tickets and it took 3 + 3 = 6 seconds.\n\n\nExample 2:\n\nInput: tickets = [5,1,1,1], k = 0\nOutput: 8\nExplanation:\n- In the first pass, everyone in the line buys a ticket and the line becomes [4, 0, 0, 0].\n- In the next 4 passes, only the person in position 0 is buying tickets.\nThe person at position 0 has successfully bought 5 tickets and it took 4 + 1 + 1 + 1 + 1 = 8 seconds.\n\n\n \nConstraints:\n\n\n\tn == tickets.length\n\t1 <= n <= 100\n\t1 <= tickets[i] <= 100\n\t0 <= k < n\n\n"
+}

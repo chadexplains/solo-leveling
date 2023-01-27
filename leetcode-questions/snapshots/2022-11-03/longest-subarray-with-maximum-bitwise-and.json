@@ -1,0 +1,10 @@
+{
+  "id": "longest-subarray-with-maximum-bitwise-and",
+  "name": "Longest Subarray With Maximum Bitwise AND",
+  "tags": [
+    "Array",
+    "Bit Manipulation",
+    "Brainteaser"
+  ],
+  "description": "You are given an integer array nums of size n.\n\nConsider a non-empty subarray from nums that has the maximum possible bitwise AND.\n\n\n\tIn other words, let k be the maximum value of the bitwise AND of any subarray of nums. Then, only subarrays with a bitwise AND equal to k should be considered.\n\n\nReturn the length of the longest such subarray.\n\nThe bitwise AND of an array is the bitwise AND of all the numbers in it.\n\nA subarray is a contiguous sequence of elements within an array.\n\n \nExample 1:\n\nInput: nums = [1,2,3,3,2,2]\nOutput: 2\nExplanation:\nThe maximum possible bitwise AND of a subarray is 3.\nThe longest subarray with that value is [3,3], so we return 2.\n\n\nExample 2:\n\nInput: nums = [1,2,3,4]\nOutput: 1\nExplanation:\nThe maximum possible bitwise AND of a subarray is 4.\nThe longest subarray with that value is [4], so we return 1.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 106\n\n"
+}

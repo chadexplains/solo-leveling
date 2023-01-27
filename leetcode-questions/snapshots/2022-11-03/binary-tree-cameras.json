@@ -1,0 +1,11 @@
+{
+  "id": "binary-tree-cameras",
+  "name": "Binary Tree Cameras",
+  "tags": [
+    "Dynamic Programming",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree. We install cameras on the tree nodes where each camera at a node can monitor its parent, itself, and its immediate children.\n\nReturn the minimum number of cameras needed to monitor all nodes of the tree.\n\n \nExample 1:\n\nInput: root = [0,0,null,0,0]\nOutput: 1\nExplanation: One camera is enough to monitor all nodes if placed as shown.\n\n\nExample 2:\n\nInput: root = [0,0,null,0,null,0,null,null,0]\nOutput: 2\nExplanation: At least two cameras are needed to monitor all nodes of the tree. The above image shows one of the valid configurations of camera placement.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 1000].\n\tNode.val == 0\n\n"
+}

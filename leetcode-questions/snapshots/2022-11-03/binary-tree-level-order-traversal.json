@@ -1,0 +1,10 @@
+{
+  "id": "binary-tree-level-order-traversal",
+  "name": "Binary Tree Level Order Traversal",
+  "tags": [
+    "Tree",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return the level order traversal of its nodes' values. (i.e., from left to right, level by level).\n\n \nExample 1:\n\nInput: root = [3,9,20,null,null,15,7]\nOutput: [[3],[9,20],[15,7]]\n\n\nExample 2:\n\nInput: root = [1]\nOutput: [[1]]\n\n\nExample 3:\n\nInput: root = []\nOutput: []\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [0, 2000].\n\t-1000 <= Node.val <= 1000\n\n"
+}

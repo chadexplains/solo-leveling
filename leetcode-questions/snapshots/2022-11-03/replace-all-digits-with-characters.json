@@ -1,0 +1,8 @@
+{
+  "id": "replace-all-digits-with-characters",
+  "name": "Replace All Digits with Characters",
+  "tags": [
+    "String"
+  ],
+  "description": "You are given a 0-indexed string s that has lowercase English letters in its even indices and digits in its odd indices.\n\nThere is a function shift(c, x), where c is a character and x is a digit, that returns the xth character after c.\n\n\n\tFor example, shift('a', 5) = 'f' and shift('x', 0) = 'x'.\n\n\nFor every odd index i, you want to replace the digit s[i] with shift(s[i-1], s[i]).\n\nReturn s after replacing all digits. It is guaranteed that shift(s[i-1], s[i]) will never exceed 'z'.\n\n \nExample 1:\n\nInput: s = \"a1c1e1\"\nOutput: \"abcdef\"\nExplanation: The digits are replaced as follows:\n- s[1] -> shift('a',1) = 'b'\n- s[3] -> shift('c',1) = 'd'\n- s[5] -> shift('e',1) = 'f'\n\nExample 2:\n\nInput: s = \"a1b2c3d4e\"\nOutput: \"abbdcfdhe\"\nExplanation: The digits are replaced as follows:\n- s[1] -> shift('a',1) = 'b'\n- s[3] -> shift('b',2) = 'd'\n- s[5] -> shift('c',3) = 'f'\n- s[7] -> shift('d',4) = 'h'\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts consists only of lowercase English letters and digits.\n\tshift(s[i-1], s[i]) <= 'z' for all odd indices i.\n\n"
+}

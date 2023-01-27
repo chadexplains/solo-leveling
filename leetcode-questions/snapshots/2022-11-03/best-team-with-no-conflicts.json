@@ -1,0 +1,10 @@
+{
+  "id": "best-team-with-no-conflicts",
+  "name": "Best Team With No Conflicts",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Sorting"
+  ],
+  "description": "You are the manager of a basketball team. For the upcoming tournament, you want to choose the team with the highest overall score. The score of the team is the sum of scores of all the players in the team.\n\nHowever, the basketball team is not allowed to have conflicts. A conflict exists if a younger player has a strictly higher score than an older player. A conflict does not occur between players of the same age.\n\nGiven two lists, scores and ages, where each scores[i] and ages[i] represents the score and age of the ith player, respectively, return the highest overall score of all possible basketball teams.\n\n \nExample 1:\n\nInput: scores = [1,3,5,10,15], ages = [1,2,3,4,5]\nOutput: 34\nExplanation: You can choose all the players.\n\n\nExample 2:\n\nInput: scores = [4,5,6,5], ages = [2,1,2,1]\nOutput: 16\nExplanation: It is best to choose the last 3 players. Notice that you are allowed to choose multiple people of the same age.\n\n\nExample 3:\n\nInput: scores = [1,2,3,5], ages = [8,9,10,1]\nOutput: 6\nExplanation: It is best to choose the first 3 players. \n\n\n \nConstraints:\n\n\n\t1 <= scores.length, ages.length <= 1000\n\tscores.length == ages.length\n\t1 <= scores[i] <= 106\n\t1 <= ages[i] <= 1000\n\n"
+}

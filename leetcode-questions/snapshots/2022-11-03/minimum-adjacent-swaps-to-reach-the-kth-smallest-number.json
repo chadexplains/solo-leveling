@@ -1,0 +1,10 @@
+{
+  "id": "minimum-adjacent-swaps-to-reach-the-kth-smallest-number",
+  "name": "Minimum Adjacent Swaps to Reach the Kth Smallest Number",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a string num, representing a large integer, and an integer k.\n\nWe call some integer wonderful if it is a permutation of the digits in num and is greater in value than num. There can be many wonderful integers. However, we only care about the smallest-valued ones.\n\n\n\tFor example, when num = \"5489355142\":\n\n\t\n\t\tThe 1st smallest wonderful integer is \"5489355214\".\n\t\tThe 2nd smallest wonderful integer is \"5489355241\".\n\t\tThe 3rd smallest wonderful integer is \"5489355412\".\n\t\tThe 4th smallest wonderful integer is \"5489355421\".\n\t\n\t\n\n\nReturn the minimum number of adjacent digit swaps that needs to be applied to num to reach the kth smallest wonderful integer.\n\nThe tests are generated in such a way that kth smallest wonderful integer exists.\n\n \nExample 1:\n\nInput: num = \"5489355142\", k = 4\nOutput: 2\nExplanation: The 4th smallest wonderful number is \"5489355421\". To get this number:\n- Swap index 7 with index 8: \"5489355142\" -> \"5489355412\"\n- Swap index 8 with index 9: \"5489355412\" -> \"5489355421\"\n\n\nExample 2:\n\nInput: num = \"11112\", k = 4\nOutput: 4\nExplanation: The 4th smallest wonderful number is \"21111\". To get this number:\n- Swap index 3 with index 4: \"11112\" -> \"11121\"\n- Swap index 2 with index 3: \"11121\" -> \"11211\"\n- Swap index 1 with index 2: \"11211\" -> \"12111\"\n- Swap index 0 with index 1: \"12111\" -> \"21111\"\n\n\nExample 3:\n\nInput: num = \"00123\", k = 1\nOutput: 1\nExplanation: The 1st smallest wonderful number is \"00132\". To get this number:\n- Swap index 3 with index 4: \"00123\" -> \"00132\"\n\n\n \nConstraints:\n\n\n\t2 <= num.length <= 1000\n\t1 <= k <= 1000\n\tnum only consists of digits.\n\n"
+}

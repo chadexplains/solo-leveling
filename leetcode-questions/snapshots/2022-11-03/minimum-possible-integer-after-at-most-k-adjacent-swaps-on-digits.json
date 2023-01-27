@@ -1,0 +1,11 @@
+{
+  "id": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+  "name": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+  "tags": [
+    "String",
+    "Greedy",
+    "Binary Indexed Tree",
+    "Segment Tree"
+  ],
+  "description": "You are given a string num representing the digits of a very large integer and an integer k. You are allowed to swap any two adjacent digits of the integer at most k times.\n\nReturn the minimum integer you can obtain also as a string.\n\n \nExample 1:\n\nInput: num = \"4321\", k = 4\nOutput: \"1342\"\nExplanation: The steps to obtain the minimum integer from 4321 with 4 adjacent swaps are shown.\n\n\nExample 2:\n\nInput: num = \"100\", k = 1\nOutput: \"010\"\nExplanation: It's ok for the output to have leading zeros, but the input is guaranteed not to have any leading zeros.\n\n\nExample 3:\n\nInput: num = \"36789\", k = 1000\nOutput: \"36789\"\nExplanation: We can keep the number without any swaps.\n\n\n \nConstraints:\n\n\n\t1 <= num.length <= 3 * 104\n\tnum consists of only digits and does not contain leading zeros.\n\t1 <= k <= 109\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "minimum-remove-to-make-valid-parentheses",
+  "name": "Minimum Remove to Make Valid Parentheses",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "Given a string s of '(' , ')' and lowercase English characters.\n\nYour task is to remove the minimum number of parentheses ( '(' or ')', in any positions ) so that the resulting parentheses string is valid and return any valid string.\n\nFormally, a parentheses string is valid if and only if:\n\n\n\tIt is the empty string, contains only lowercase characters, or\n\tIt can be written as AB (A concatenated with B), where A and B are valid strings, or\n\tIt can be written as (A), where A is a valid string.\n\n\n \nExample 1:\n\nInput: s = \"lee(t(c)o)de)\"\nOutput: \"lee(t(c)o)de\"\nExplanation: \"lee(t(co)de)\" , \"lee(t(c)ode)\" would also be accepted.\n\n\nExample 2:\n\nInput: s = \"a)b(c)d\"\nOutput: \"ab(c)d\"\n\n\nExample 3:\n\nInput: s = \"))((\"\nOutput: \"\"\nExplanation: An empty string is also valid.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts[i] is either'(' , ')', or lowercase English letter.\n\n"
+}

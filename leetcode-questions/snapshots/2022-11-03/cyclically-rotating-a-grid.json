@@ -1,0 +1,10 @@
+{
+  "id": "cyclically-rotating-a-grid",
+  "name": "Cyclically Rotating a Grid",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Simulation"
+  ],
+  "description": "You are given an m x n integer matrix grid​​​, where m and n are both even integers, and an integer k.\n\nThe matrix is composed of several layers, which is shown in the below image, where each color is its own layer:\n\n\n\nA cyclic rotation of the matrix is done by cyclically rotating each layer in the matrix. To cyclically rotate a layer once, each element in the layer will take the place of the adjacent element in the counter-clockwise direction. An example rotation is shown below:\n\nReturn the matrix after applying k cyclic rotations to it.\n\n \nExample 1:\n\nInput: grid = [[40,10],[30,20]], k = 1\nOutput: [[10,20],[40,30]]\nExplanation: The figures above represent the grid at every state.\n\n\nExample 2:\n  \n\nInput: grid = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], k = 2\nOutput: [[3,4,8,12],[2,11,10,16],[1,7,6,15],[5,9,13,14]]\nExplanation: The figures above represent the grid at every state.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t2 <= m, n <= 50\n\tBoth m and n are even integers.\n\t1 <= grid[i][j] <= 5000\n\t1 <= k <= 109\n"
+}

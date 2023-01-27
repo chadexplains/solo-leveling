@@ -1,0 +1,9 @@
+{
+  "id": "number-of-substrings-with-only-1s",
+  "name": "Number of Substrings With Only 1s",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "Given a binary string s, return the number of substrings with all characters 1's. Since the answer may be too large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: s = \"0110111\"\nOutput: 9\nExplanation: There are 9 substring in total with only 1's characters.\n\"1\" -> 5 times.\n\"11\" -> 3 times.\n\"111\" -> 1 time.\n\nExample 2:\n\nInput: s = \"101\"\nOutput: 2\nExplanation: Substring \"1\" is shown 2 times in s.\n\n\nExample 3:\n\nInput: s = \"111111\"\nOutput: 21\nExplanation: Each substring contains only 1's characters.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts[i] is either '0' or '1'.\n\n"
+}

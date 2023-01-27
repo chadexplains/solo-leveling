@@ -1,0 +1,9 @@
+{
+  "id": "isomorphic-strings",
+  "name": "Isomorphic Strings",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given two strings s and t, determine if they are isomorphic.\n\nTwo strings s and t are isomorphic if the characters in s can be replaced to get t.\n\nAll occurrences of a character must be replaced with another character while preserving the order of characters. No two characters may map to the same character, but a character may map to itself.\n\n \nExample 1:\nInput: s = \"egg\", t = \"add\"\nOutput: true\nExample 2:\nInput: s = \"foo\", t = \"bar\"\nOutput: false\nExample 3:\nInput: s = \"paper\", t = \"title\"\nOutput: true\n\n \nConstraints:\n\n\n\t1 <= s.length <= 5 * 104\n\tt.length == s.length\n\ts and t consist of any valid ascii character.\n\n"
+}

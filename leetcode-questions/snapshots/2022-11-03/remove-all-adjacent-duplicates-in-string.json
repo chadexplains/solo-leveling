@@ -1,0 +1,9 @@
+{
+  "id": "remove-all-adjacent-duplicates-in-string",
+  "name": "Remove All Adjacent Duplicates In String",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "You are given a string s consisting of lowercase English letters. A duplicate removal consists of choosing two adjacent and equal letters and removing them.\n\nWe repeatedly make duplicate removals on s until we no longer can.\n\nReturn the final string after all such duplicate removals have been made. It can be proven that the answer is unique.\n\n \nExample 1:\n\nInput: s = \"abbaca\"\nOutput: \"ca\"\nExplanation: \nFor example, in \"abbaca\" we could remove \"bb\" since the letters are adjacent and equal, and this is the only possible move.  The result of this move is that the string is \"aaca\", of which only \"aa\" is possible, so the final string is \"ca\".\n\n\nExample 2:\n\nInput: s = \"azxxzy\"\nOutput: \"ay\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of lowercase English letters.\n\n"
+}

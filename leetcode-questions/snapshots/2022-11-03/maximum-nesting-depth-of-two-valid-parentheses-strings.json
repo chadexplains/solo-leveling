@@ -1,0 +1,9 @@
+{
+  "id": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+  "name": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "A string is a valid parentheses string (denoted VPS) if and only if it consists of \"(\" and \")\" characters only, and:\n\n\n\tIt is the empty string, or\n\tIt can be written as AB (A concatenated with B), where A and B are VPS's, or\n\tIt can be written as (A), where A is a VPS.\n\n\nWe can similarly define the nesting depth depth(S) of any VPS S as follows:\n\n\n\tdepth(\"\") = 0\n\tdepth(A + B) = max(depth(A), depth(B)), where A and B are VPS's\n\tdepth(\"(\" + A + \")\") = 1 + depth(A), where A is a VPS.\n\n\nFor example,  \"\", \"()()\", and \"()(()())\" are VPS's (with nesting depths 0, 1, and 2), and \")(\" and \"(()\" are not VPS's.\n\n \n\nGiven a VPS seq, split it into two disjoint subsequences A and B, such that A and B are VPS's (and A.length + B.length = seq.length).\n\nNow choose any such A and B such that max(depth(A), depth(B)) is the minimum possible value.\n\nReturn an answer array (of length seq.length) that encodes such a choice of A and B:  answer[i] = 0 if seq[i] is part of A, else answer[i] = 1.  Note that even though multiple answers may exist, you may return any of them.\n\n \nExample 1:\n\nInput: seq = \"(()())\"\nOutput: [0,1,1,1,1,0]\n\n\nExample 2:\n\nInput: seq = \"()(())()\"\nOutput: [0,0,0,1,1,0,1,1]\n\n\n \nConstraints:\n\n\n\t1 <= seq.size <= 10000\n\n"
+}

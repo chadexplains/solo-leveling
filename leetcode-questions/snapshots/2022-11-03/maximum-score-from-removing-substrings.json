@@ -1,0 +1,10 @@
+{
+  "id": "maximum-score-from-removing-substrings",
+  "name": "Maximum Score From Removing Substrings",
+  "tags": [
+    "String",
+    "Stack",
+    "Greedy"
+  ],
+  "description": "You are given a string s and two integers x and y. You can perform two types of operations any number of times.\n\n\n\tRemove substring \"ab\" and gain x points.\n\n\t\n\t\tFor example, when removing \"ab\" from \"cabxbae\" it becomes \"cxbae\".\n\t\n\t\n\tRemove substring \"ba\" and gain y points.\n\t\n\t\tFor example, when removing \"ba\" from \"cabxbae\" it becomes \"cabxe\".\n\t\n\t\n\n\nReturn the maximum points you can gain after applying the above operations on s.\n\n \nExample 1:\n\nInput: s = \"cdbcbbaaabab\", x = 4, y = 5\nOutput: 19\nExplanation:\n- Remove the \"ba\" underlined in \"cdbcbbaaabab\". Now, s = \"cdbcbbaaab\" and 5 points are added to the score.\n- Remove the \"ab\" underlined in \"cdbcbbaaab\". Now, s = \"cdbcbbaa\" and 4 points are added to the score.\n- Remove the \"ba\" underlined in \"cdbcbbaa\". Now, s = \"cdbcba\" and 5 points are added to the score.\n- Remove the \"ba\" underlined in \"cdbcba\". Now, s = \"cdbc\" and 5 points are added to the score.\nTotal score = 5 + 4 + 5 + 5 = 19.\n\nExample 2:\n\nInput: s = \"aabbaaxybbaabb\", x = 5, y = 4\nOutput: 20\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\t1 <= x, y <= 104\n\ts consists of lowercase English letters.\n\n"
+}

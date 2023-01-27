@@ -1,0 +1,9 @@
+{
+  "id": "card-flipping-game",
+  "name": "Card Flipping Game",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "You are given two 0-indexed integer arrays fronts and backs of length n, where the ith card has the positive integer fronts[i] printed on the front and backs[i] printed on the back. Initially, each card is placed on a table such that the front number is facing up and the other is facing down. You may flip over any number of cards (possibly zero).\n\nAfter flipping the cards, an integer is considered good if it is facing down on some card and not facing up on any card.\n\nReturn the minimum possible good integer after flipping the cards. If there are no good integers, return 0.\n\n \nExample 1:\n\nInput: fronts = [1,2,4,4,7], backs = [1,3,4,1,3]\nOutput: 2\nExplanation:\nIf we flip the second card, the face up numbers are [1,3,4,4,7] and the face down are [1,2,4,1,3].\n2 is the minimum good integer as it appears facing down but not facing up.\nIt can be shown that 2 is the minimum possible good integer obtainable after flipping some cards.\n\n\nExample 2:\n\nInput: fronts = [1], backs = [1]\nOutput: 0\nExplanation:\nThere are no good integers no matter how we flip the cards, so we return 0.\n\n\n \nConstraints:\n\n\n\tn == fronts.length == backs.length\n\t1 <= n <= 1000\n\t1 <= fronts[i], backs[i] <= 2000\n\n"
+}

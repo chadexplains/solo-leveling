@@ -1,0 +1,12 @@
+{
+  "id": "unique-binary-search-trees",
+  "name": "Unique Binary Search Trees",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Tree",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "description": "Given an integer n, return the number of structurally unique BST's (binary search trees) which has exactly n nodes of unique values from 1 to n.\n\n \nExample 1:\n\nInput: n = 3\nOutput: 5\n\n\nExample 2:\n\nInput: n = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 19\n\n"
+}

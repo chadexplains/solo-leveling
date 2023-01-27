@@ -1,0 +1,12 @@
+{
+  "id": "check-if-n-and-its-double-exist",
+  "name": "Check If N and Its Double Exist",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting"
+  ],
+  "description": "Given an array arr of integers, check if there exist two indices i and j such that :\n\n\n\ti != j\n\t0 <= i, j < arr.length\n\tarr[i] == 2 * arr[j]\n\n\n \nExample 1:\n\nInput: arr = [10,2,5,3]\nOutput: true\nExplanation: For i = 0 and j = 2, arr[i] == 10 == 2 * 5 == 2 * arr[j]\n\n\nExample 2:\n\nInput: arr = [3,1,7,11]\nOutput: false\nExplanation: There is no i and j that satisfy the conditions.\n\n\n \nConstraints:\n\n\n\t2 <= arr.length <= 500\n\t-103 <= arr[i] <= 103\n\n"
+}

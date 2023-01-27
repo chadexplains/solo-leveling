@@ -1,0 +1,12 @@
+{
+  "id": "trapping-rain-water",
+  "name": "Trapping Rain Water",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Dynamic Programming",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "description": "Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.\n\n \nExample 1:\n\nInput: height = [0,1,0,2,1,0,1,3,2,1,2,1]\nOutput: 6\nExplanation: The above elevation map (black section) is represented by array [0,1,0,2,1,0,1,3,2,1,2,1]. In this case, 6 units of rain water (blue section) are being trapped.\n\n\nExample 2:\n\nInput: height = [4,2,0,3,2,5]\nOutput: 9\n\n\n \nConstraints:\n\n\n\tn == height.length\n\t1 <= n <= 2 * 104\n\t0 <= height[i] <= 105\n\n"
+}

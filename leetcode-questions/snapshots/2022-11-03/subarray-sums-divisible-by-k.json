@@ -1,0 +1,10 @@
+{
+  "id": "subarray-sums-divisible-by-k",
+  "name": "Subarray Sums Divisible by K",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "description": "Given an integer array nums and an integer k, return the number of non-empty subarrays that have a sum divisible by k.\n\nA subarray is a contiguous part of an array.\n\n \nExample 1:\n\nInput: nums = [4,5,0,-2,-3,1], k = 5\nOutput: 7\nExplanation: There are 7 subarrays with a sum divisible by k = 5:\n[4, 5, 0, -2, -3, 1], [5], [5, 0], [5, 0, -2, -3], [0], [0, -2, -3], [-2, -3]\n\n\nExample 2:\n\nInput: nums = [5], k = 9\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 3 * 104\n\t-104 <= nums[i] <= 104\n\t2 <= k <= 104\n\n"
+}

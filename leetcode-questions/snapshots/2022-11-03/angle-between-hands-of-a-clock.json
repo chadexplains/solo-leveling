@@ -1,0 +1,8 @@
+{
+  "id": "angle-between-hands-of-a-clock",
+  "name": "Angle Between Hands of a Clock",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given two numbers, hour and minutes, return the smaller angle (in degrees) formed between the hour and the minute hand.\n\nAnswers within 10-5 of the actual value will be accepted as correct.\n\n \nExample 1:\n\nInput: hour = 12, minutes = 30\nOutput: 165\n\n\nExample 2:\n\nInput: hour = 3, minutes = 30\nOutput: 75\n\n\nExample 3:\n\nInput: hour = 3, minutes = 15\nOutput: 7.5\n\n\n \nConstraints:\n\n\n\t1 <= hour <= 12\n\t0 <= minutes <= 59\n\n"
+}

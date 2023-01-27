@@ -1,0 +1,8 @@
+{
+  "id": "decrypt-string-from-alphabet-to-integer-mapping",
+  "name": "Decrypt String from Alphabet to Integer Mapping",
+  "tags": [
+    "String"
+  ],
+  "description": "You are given a string s formed by digits and '#'. We want to map s to English lowercase characters as follows:\n\n\n\tCharacters ('a' to 'i') are represented by ('1' to '9') respectively.\n\tCharacters ('j' to 'z') are represented by ('10#' to '26#') respectively.\n\n\nReturn the string formed after mapping.\n\nThe test cases are generated so that a unique mapping will always exist.\n\n \nExample 1:\n\nInput: s = \"10#11#12\"\nOutput: \"jkab\"\nExplanation: \"j\" -> \"10#\" , \"k\" -> \"11#\" , \"a\" -> \"1\" , \"b\" -> \"2\".\n\n\nExample 2:\n\nInput: s = \"1326#\"\nOutput: \"acz\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts consists of digits and the '#' letter.\n\ts will be a valid string such that mapping is always possible.\n\n"
+}

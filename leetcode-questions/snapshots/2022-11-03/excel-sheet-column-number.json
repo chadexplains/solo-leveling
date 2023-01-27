@@ -1,0 +1,9 @@
+{
+  "id": "excel-sheet-column-number",
+  "name": "Excel Sheet Column Number",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "Given a string columnTitle that represents the column title as appears in an Excel sheet, return its corresponding column number.\n\nFor example:\n\nA -> 1\nB -> 2\nC -> 3\n...\nZ -> 26\nAA -> 27\nAB -> 28 \n...\n\n\n \nExample 1:\n\nInput: columnTitle = \"A\"\nOutput: 1\n\n\nExample 2:\n\nInput: columnTitle = \"AB\"\nOutput: 28\n\n\nExample 3:\n\nInput: columnTitle = \"ZY\"\nOutput: 701\n\n\n \nConstraints:\n\n\n\t1 <= columnTitle.length <= 7\n\tcolumnTitle consists only of uppercase English letters.\n\tcolumnTitle is in the range [\"A\", \"FXSHRXW\"].\n\n"
+}

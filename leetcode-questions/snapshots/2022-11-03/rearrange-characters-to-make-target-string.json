@@ -1,0 +1,10 @@
+{
+  "id": "rearrange-characters-to-make-target-string",
+  "name": "Rearrange Characters to Make Target String",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You are given two 0-indexed strings s and target. You can take some letters from s and rearrange them to form new strings.\n\nReturn the maximum number of copies of target that can be formed by taking letters from s and rearranging them.\n\n \nExample 1:\n\nInput: s = \"ilovecodingonleetcode\", target = \"code\"\nOutput: 2\nExplanation:\nFor the first copy of \"code\", take the letters at indices 4, 5, 6, and 7.\nFor the second copy of \"code\", take the letters at indices 17, 18, 19, and 20.\nThe strings that are formed are \"ecod\" and \"code\" which can both be rearranged into \"code\".\nWe can make at most two copies of \"code\", so we return 2.\n\n\nExample 2:\n\nInput: s = \"abcba\", target = \"abc\"\nOutput: 1\nExplanation:\nWe can make one copy of \"abc\" by taking the letters at indices 0, 1, and 2.\nWe can make at most one copy of \"abc\", so we return 1.\nNote that while there is an extra 'a' and 'b' at indices 3 and 4, we cannot reuse the letter 'c' at index 2, so we cannot make a second copy of \"abc\".\n\n\nExample 3:\n\nInput: s = \"abbaccaddaeea\", target = \"aaaaa\"\nOutput: 1\nExplanation:\nWe can make one copy of \"aaaaa\" by taking the letters at indices 0, 3, 6, 9, and 12.\nWe can make at most one copy of \"aaaaa\", so we return 1.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\t1 <= target.length <= 10\n\ts and target consist of lowercase English letters.\n\n"
+}

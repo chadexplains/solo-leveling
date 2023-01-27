@@ -1,0 +1,10 @@
+{
+  "id": "people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list",
+  "name": "People Whose List of Favorite Companies Is Not a Subset of Another List",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given the array favoriteCompanies where favoriteCompanies[i] is the list of favorites companies for the ith person (indexed from 0).\n\nReturn the indices of people whose list of favorite companies is not a subset of any other list of favorites companies. You must return the indices in increasing order.\n\n \nExample 1:\n\nInput: favoriteCompanies = [[\"leetcode\",\"google\",\"facebook\"],[\"google\",\"microsoft\"],[\"google\",\"facebook\"],[\"google\"],[\"amazon\"]]\nOutput: [0,1,4] \nExplanation: \nPerson with index=2 has favoriteCompanies[2]=[\"google\",\"facebook\"] which is a subset of favoriteCompanies[0]=[\"leetcode\",\"google\",\"facebook\"] corresponding to the person with index 0. \nPerson with index=3 has favoriteCompanies[3]=[\"google\"] which is a subset of favoriteCompanies[0]=[\"leetcode\",\"google\",\"facebook\"] and favoriteCompanies[1]=[\"google\",\"microsoft\"]. \nOther lists of favorite companies are not a subset of another list, therefore, the answer is [0,1,4].\n\n\nExample 2:\n\nInput: favoriteCompanies = [[\"leetcode\",\"google\",\"facebook\"],[\"leetcode\",\"amazon\"],[\"facebook\",\"google\"]]\nOutput: [0,1] \nExplanation: In this case favoriteCompanies[2]=[\"facebook\",\"google\"] is a subset of favoriteCompanies[0]=[\"leetcode\",\"google\",\"facebook\"], therefore, the answer is [0,1].\n\n\nExample 3:\n\nInput: favoriteCompanies = [[\"leetcode\"],[\"google\"],[\"facebook\"],[\"amazon\"]]\nOutput: [0,1,2,3]\n\n\n \nConstraints:\n\n\n\t1 <= favoriteCompanies.length <= 100\n\t1 <= favoriteCompanies[i].length <= 500\n\t1 <= favoriteCompanies[i][j].length <= 20\n\tAll strings in favoriteCompanies[i] are distinct.\n\tAll lists of favorite companies are distinct, that is, If we sort alphabetically each list then favoriteCompanies[i] != favoriteCompanies[j].\n\tAll strings consist of lowercase English letters only.\n\n"
+}

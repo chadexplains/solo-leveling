@@ -1,0 +1,10 @@
+{
+  "id": "minimum-moves-to-equal-array-elements-ii",
+  "name": "Minimum Moves to Equal Array Elements II",
+  "tags": [
+    "Array",
+    "Math",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums of size n, return the minimum number of moves required to make all array elements equal.\n\nIn one move, you can increment or decrement an element of the array by 1.\n\nTest cases are designed so that the answer will fit in a 32-bit integer.\n\n \nExample 1:\n\nInput: nums = [1,2,3]\nOutput: 2\nExplanation:\nOnly two moves are needed (remember each move increments or decrements one element):\n[1,2,3]  =>  [2,2,3]  =>  [2,2,2]\n\n\nExample 2:\n\nInput: nums = [1,10,2,9]\nOutput: 16\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= nums.length <= 105\n\t-109 <= nums[i] <= 109\n\n"
+}

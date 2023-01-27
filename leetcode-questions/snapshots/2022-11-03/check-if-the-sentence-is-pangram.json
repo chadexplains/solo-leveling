@@ -1,0 +1,9 @@
+{
+  "id": "check-if-the-sentence-is-pangram",
+  "name": "Check if the Sentence Is Pangram",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "A pangram is a sentence where every letter of the English alphabet appears at least once.\n\nGiven a string sentence containing only lowercase English letters, return true if sentence is a pangram, or false otherwise.\n\n \nExample 1:\n\nInput: sentence = \"thequickbrownfoxjumpsoverthelazydog\"\nOutput: true\nExplanation: sentence contains at least one of every letter of the English alphabet.\n\n\nExample 2:\n\nInput: sentence = \"leetcode\"\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= sentence.length <= 1000\n\tsentence consists of lowercase English letters.\n\n"
+}

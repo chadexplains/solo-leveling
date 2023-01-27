@@ -1,0 +1,14 @@
+{
+  "id": "shortest-subarray-with-sum-at-least-k",
+  "name": "Shortest Subarray with Sum at Least K",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Queue",
+    "Sliding Window",
+    "Heap (Priority Queue)",
+    "Prefix Sum",
+    "Monotonic Queue"
+  ],
+  "description": "Given an integer array nums and an integer k, return the length of the shortest non-empty subarray of nums with a sum of at least k. If there is no such subarray, return -1.\n\nA subarray is a contiguous part of an array.\n\n \nExample 1:\nInput: nums = [1], k = 1\nOutput: 1\nExample 2:\nInput: nums = [1,2], k = 4\nOutput: -1\nExample 3:\nInput: nums = [2,-1,2], k = 3\nOutput: 3\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-105 <= nums[i] <= 105\n\t1 <= k <= 109\n\n"
+}

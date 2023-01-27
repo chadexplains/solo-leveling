@@ -1,0 +1,13 @@
+{
+  "id": "kth-largest-element-in-a-stream",
+  "name": "Kth Largest Element in a Stream",
+  "tags": [
+    "Tree",
+    "Design",
+    "Binary Search Tree",
+    "Heap (Priority Queue)",
+    "Binary Tree",
+    "Data Stream"
+  ],
+  "description": "Design a class to find the kth largest element in a stream. Note that it is the kth largest element in the sorted order, not the kth distinct element.\n\nImplement KthLargest class:\n\n\n\tKthLargest(int k, int[] nums) Initializes the object with the integer k and the stream of integers nums.\n\tint add(int val) Appends the integer val to the stream and returns the element representing the kth largest element in the stream.\n\n\n \nExample 1:\n\nInput\n[\"KthLargest\", \"add\", \"add\", \"add\", \"add\", \"add\"]\n[[3, [4, 5, 8, 2]], [3], [5], [10], [9], [4]]\nOutput\n[null, 4, 5, 5, 8, 8]\n\nExplanation\nKthLargest kthLargest = new KthLargest(3, [4, 5, 8, 2]);\nkthLargest.add(3);   // return 4\nkthLargest.add(5);   // return 5\nkthLargest.add(10);  // return 5\nkthLargest.add(9);   // return 8\nkthLargest.add(4);   // return 8\n\n\n \nConstraints:\n\n\n\t1 <= k <= 104\n\t0 <= nums.length <= 104\n\t-104 <= nums[i] <= 104\n\t-104 <= val <= 104\n\tAt most 104 calls will be made to add.\n\tIt is guaranteed that there will be at least k elements in the array when you search for the kth element.\n\n"
+}

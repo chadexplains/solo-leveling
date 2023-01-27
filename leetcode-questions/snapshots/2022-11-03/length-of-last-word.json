@@ -1,0 +1,8 @@
+{
+  "id": "length-of-last-word",
+  "name": "Length of Last Word",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a string s consisting of words and spaces, return the length of the last word in the string.\n\nA word is a maximal substring consisting of non-space characters only.\n\n \nExample 1:\n\nInput: s = \"Hello World\"\nOutput: 5\nExplanation: The last word is \"World\" with length 5.\n\n\nExample 2:\n\nInput: s = \"   fly me   to   the moon  \"\nOutput: 4\nExplanation: The last word is \"moon\" with length 4.\n\n\nExample 3:\n\nInput: s = \"luffy is still joyboy\"\nOutput: 6\nExplanation: The last word is \"joyboy\" with length 6.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts consists of only English letters and spaces ' '.\n\tThere will be at least one word in s.\n\n"
+}

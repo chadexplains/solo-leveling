@@ -1,0 +1,14 @@
+{
+  "id": "number-of-pairs-satisfying-inequality",
+  "name": "Number of Pairs Satisfying Inequality",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Divide and Conquer",
+    "Binary Indexed Tree",
+    "Segment Tree",
+    "Merge Sort",
+    "Ordered Set"
+  ],
+  "description": "You are given two 0-indexed integer arrays nums1 and nums2, each of size n, and an integer diff. Find the number of pairs (i, j) such that:\n\n\n\t0 <= i < j <= n - 1 and\n\tnums1[i] - nums1[j] <= nums2[i] - nums2[j] + diff.\n\n\nReturn the number of pairs that satisfy the conditions.\n\n \nExample 1:\n\nInput: nums1 = [3,2,5], nums2 = [2,2,1], diff = 1\nOutput: 3\nExplanation:\nThere are 3 pairs that satisfy the conditions:\n1. i = 0, j = 1: 3 - 2 <= 2 - 2 + 1. Since i < j and 1 <= 1, this pair satisfies the conditions.\n2. i = 0, j = 2: 3 - 5 <= 2 - 1 + 1. Since i < j and -2 <= 2, this pair satisfies the conditions.\n3. i = 1, j = 2: 2 - 5 <= 2 - 1 + 1. Since i < j and -3 <= 2, this pair satisfies the conditions.\nTherefore, we return 3.\n\n\nExample 2:\n\nInput: nums1 = [3,-1], nums2 = [-2,2], diff = -1\nOutput: 0\nExplanation:\nSince there does not exist any pair that satisfies the conditions, we return 0.\n\n\n \nConstraints:\n\n\n\tn == nums1.length == nums2.length\n\t2 <= n <= 105\n\t-104 <= nums1[i], nums2[i] <= 104\n\t-104 <= diff <= 104\n\n"
+}

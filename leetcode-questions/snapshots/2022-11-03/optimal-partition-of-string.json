@@ -1,0 +1,10 @@
+{
+  "id": "optimal-partition-of-string",
+  "name": "Optimal Partition of String",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Greedy"
+  ],
+  "description": "Given a string s, partition the string into one or more substrings such that the characters in each substring are unique. That is, no letter appears in a single substring more than once.\n\nReturn the minimum number of substrings in such a partition.\n\nNote that each character should belong to exactly one substring in a partition.\n\n \nExample 1:\n\nInput: s = \"abacaba\"\nOutput: 4\nExplanation:\nTwo possible partitions are (\"a\",\"ba\",\"cab\",\"a\") and (\"ab\",\"a\",\"ca\",\"ba\").\nIt can be shown that 4 is the minimum number of substrings needed.\n\n\nExample 2:\n\nInput: s = \"ssssss\"\nOutput: 6\nExplanation:\nThe only valid partition is (\"s\",\"s\",\"s\",\"s\",\"s\",\"s\").\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of only English lowercase letters.\n\n"
+}

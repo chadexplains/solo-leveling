@@ -1,0 +1,11 @@
+{
+  "id": "prefix-and-suffix-search",
+  "name": "Prefix and Suffix Search",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Design",
+    "Trie"
+  ],
+  "description": "Design a special dictionary that searches the words in it by a prefix and a suffix.\n\nImplement the WordFilter class:\n\n\n\tWordFilter(string[] words) Initializes the object with the words in the dictionary.\n\tf(string pref, string suff) Returns the index of the word in the dictionary, which has the prefix pref and the suffix suff. If there is more than one valid index, return the largest of them. If there is no such word in the dictionary, return -1.\n\n\n \nExample 1:\n\nInput\n[\"WordFilter\", \"f\"]\n[[[\"apple\"]], [\"a\", \"e\"]]\nOutput\n[null, 0]\nExplanation\nWordFilter wordFilter = new WordFilter([\"apple\"]);\nwordFilter.f(\"a\", \"e\"); // return 0, because the word at index 0 has prefix = \"a\" and suffix = \"e\".\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 104\n\t1 <= words[i].length <= 7\n\t1 <= pref.length, suff.length <= 7\n\twords[i], pref and suff consist of lowercase English letters only.\n\tAt most 104 calls will be made to the function f.\n\n"
+}

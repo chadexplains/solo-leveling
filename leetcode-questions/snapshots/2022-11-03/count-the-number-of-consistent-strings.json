@@ -1,0 +1,11 @@
+{
+  "id": "count-the-number-of-consistent-strings",
+  "name": "Count the Number of Consistent Strings",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Bit Manipulation"
+  ],
+  "description": "You are given a string allowed consisting of distinct characters and an array of strings words. A string is consistent if all characters in the string appear in the string allowed.\n\nReturn the number of consistent strings in the array words.\n\n \nExample 1:\n\nInput: allowed = \"ab\", words = [\"ad\",\"bd\",\"aaab\",\"baa\",\"badab\"]\nOutput: 2\nExplanation: Strings \"aaab\" and \"baa\" are consistent since they only contain characters 'a' and 'b'.\n\n\nExample 2:\n\nInput: allowed = \"abc\", words = [\"a\",\"b\",\"c\",\"ab\",\"ac\",\"bc\",\"abc\"]\nOutput: 7\nExplanation: All strings are consistent.\n\n\nExample 3:\n\nInput: allowed = \"cad\", words = [\"cc\",\"acd\",\"b\",\"ba\",\"bac\",\"bad\",\"ac\",\"d\"]\nOutput: 4\nExplanation: Strings \"cc\", \"acd\", \"ac\", and \"d\" are consistent.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 104\n\t1 <= allowed.length <= 26\n\t1 <= words[i].length <= 10\n\tThe characters in allowed are distinct.\n\twords[i] and allowed contain only lowercase English letters.\n\n"
+}

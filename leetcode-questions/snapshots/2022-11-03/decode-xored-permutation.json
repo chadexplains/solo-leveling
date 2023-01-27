@@ -1,0 +1,9 @@
+{
+  "id": "decode-xored-permutation",
+  "name": "Decode XORed Permutation",
+  "tags": [
+    "Array",
+    "Bit Manipulation"
+  ],
+  "description": "There is an integer array perm that is a permutation of the first n positive integers, where n is always odd.\n\nIt was encoded into another integer array encoded of length n - 1, such that encoded[i] = perm[i] XOR perm[i + 1]. For example, if perm = [1,3,2], then encoded = [2,1].\n\nGiven the encoded array, return the original array perm. It is guaranteed that the answer exists and is unique.\n\n \nExample 1:\n\nInput: encoded = [3,1]\nOutput: [1,2,3]\nExplanation: If perm = [1,2,3], then encoded = [1 XOR 2,2 XOR 3] = [3,1]\n\n\nExample 2:\n\nInput: encoded = [6,5,4,6]\nOutput: [2,4,1,5,3]\n\n\n \nConstraints:\n\n\n\t3 <= n < 105\n\tn is odd.\n\tencoded.length == n - 1\n\n"
+}

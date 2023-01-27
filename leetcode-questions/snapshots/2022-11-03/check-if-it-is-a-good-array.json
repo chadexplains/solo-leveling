@@ -1,0 +1,10 @@
+{
+  "id": "check-if-it-is-a-good-array",
+  "name": "Check If It Is a Good Array",
+  "tags": [
+    "Array",
+    "Math",
+    "Number Theory"
+  ],
+  "description": "Given an array nums of positive integers. Your task is to select some subset of nums, multiply each element by an integer and add all these numbers. The array is said to be good if you can obtain a sum of 1 from the array by any possible subset and multiplicand.\n\nReturn True if the array is good otherwise return False.\n\n \nExample 1:\n\nInput: nums = [12,5,7,23]\nOutput: true\nExplanation: Pick numbers 5 and 7.\n5*3 + 7*(-2) = 1\n\n\nExample 2:\n\nInput: nums = [29,6,10]\nOutput: true\nExplanation: Pick numbers 29, 6 and 10.\n29*1 + 6*(-3) + 10*(-1) = 1\n\n\nExample 3:\n\nInput: nums = [3,6]\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 10^5\n\t1 <= nums[i] <= 10^9\n\n"
+}

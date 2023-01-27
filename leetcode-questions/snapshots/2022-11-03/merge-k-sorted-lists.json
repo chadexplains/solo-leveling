@@ -1,0 +1,11 @@
+{
+  "id": "merge-k-sorted-lists",
+  "name": "Merge k Sorted Lists",
+  "tags": [
+    "Linked List",
+    "Divide and Conquer",
+    "Heap (Priority Queue)",
+    "Merge Sort"
+  ],
+  "description": "You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.\n\nMerge all the linked-lists into one sorted linked-list and return it.\n\n \nExample 1:\n\nInput: lists = [[1,4,5],[1,3,4],[2,6]]\nOutput: [1,1,2,3,4,4,5,6]\nExplanation: The linked-lists are:\n[\n  1->4->5,\n  1->3->4,\n  2->6\n]\nmerging them into one sorted list:\n1->1->2->3->4->4->5->6\n\n\nExample 2:\n\nInput: lists = []\nOutput: []\n\n\nExample 3:\n\nInput: lists = [[]]\nOutput: []\n\n\n \nConstraints:\n\n\n\tk == lists.length\n\t0 <= k <= 104\n\t0 <= lists[i].length <= 500\n\t-104 <= lists[i][j] <= 104\n\tlists[i] is sorted in ascending order.\n\tThe sum of lists[i].length will not exceed 104.\n\n"
+}

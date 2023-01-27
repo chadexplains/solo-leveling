@@ -1,0 +1,9 @@
+{
+  "id": "minimize-result-by-adding-parentheses-to-expression",
+  "name": "Minimize Result by Adding Parentheses to Expression",
+  "tags": [
+    "String",
+    "Enumeration"
+  ],
+  "description": "You are given a 0-indexed string expression of the form \"<num1>+<num2>\" where <num1> and <num2> represent positive integers.\n\nAdd a pair of parentheses to expression such that after the addition of parentheses, expression is a valid mathematical expression and evaluates to the smallest possible value. The left parenthesis must be added to the left of '+' and the right parenthesis must be added to the right of '+'.\n\nReturn expression after adding a pair of parentheses such that expression evaluates to the smallest possible value. If there are multiple answers that yield the same result, return any of them.\n\nThe input has been generated such that the original value of expression, and the value of expression after adding any pair of parentheses that meets the requirements fits within a signed 32-bit integer.\n\n \nExample 1:\n\nInput: expression = \"247+38\"\nOutput: \"2(47+38)\"\nExplanation: The expression evaluates to 2 * (47 + 38) = 2 * 85 = 170.\nNote that \"2(4)7+38\" is invalid because the right parenthesis must be to the right of the '+'.\nIt can be shown that 170 is the smallest possible value.\n\n\nExample 2:\n\nInput: expression = \"12+34\"\nOutput: \"1(2+3)4\"\nExplanation: The expression evaluates to 1 * (2 + 3) * 4 = 1 * 5 * 4 = 20.\n\n\nExample 3:\n\nInput: expression = \"999+999\"\nOutput: \"(999+999)\"\nExplanation: The expression evaluates to 999 + 999 = 1998.\n\n\n \nConstraints:\n\n\n\t3 <= expression.length <= 10\n\texpression consists of digits from '1' to '9' and '+'.\n\texpression starts and ends with digits.\n\texpression contains exactly one '+'.\n\tThe original value of expression, and the value of expression after adding any pair of parentheses that meets the requirements fits within a signed 32-bit integer.\n\n"
+}

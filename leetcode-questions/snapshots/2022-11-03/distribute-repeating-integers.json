@@ -1,0 +1,12 @@
+{
+  "id": "distribute-repeating-integers",
+  "name": "Distribute Repeating Integers",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "You are given an array of n integers, nums, where there are at most 50 unique values in the array. You are also given an array of m customer order quantities, quantity, where quantity[i] is the amount of integers the ith customer ordered. Determine if it is possible to distribute nums such that:\n\n\n\tThe ith customer gets exactly quantity[i] integers,\n\tThe integers the ith customer gets are all equal, and\n\tEvery customer is satisfied.\n\n\nReturn true if it is possible to distribute nums according to the above conditions.\n\n \nExample 1:\n\nInput: nums = [1,2,3,4], quantity = [2]\nOutput: false\nExplanation: The 0th customer cannot be given two different integers.\n\n\nExample 2:\n\nInput: nums = [1,2,3,3], quantity = [2]\nOutput: true\nExplanation: The 0th customer is given [3,3]. The integers [1,2] are not used.\n\n\nExample 3:\n\nInput: nums = [1,1,2,2], quantity = [2,2]\nOutput: true\nExplanation: The 0th customer is given [1,1], and the 1st customer is given [2,2].\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 105\n\t1 <= nums[i] <= 1000\n\tm == quantity.length\n\t1 <= m <= 10\n\t1 <= quantity[i] <= 105\n\tThere are at most 50 unique values in nums.\n\n"
+}

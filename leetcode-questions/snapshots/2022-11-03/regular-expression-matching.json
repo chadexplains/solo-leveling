@@ -1,0 +1,10 @@
+{
+  "id": "regular-expression-matching",
+  "name": "Regular Expression Matching",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Recursion"
+  ],
+  "description": "Given an input string s and a pattern p, implement regular expression matching with support for '.' and '*' where:\n\n\n\t'.' Matches any single character.​​​​\n\t'*' Matches zero or more of the preceding element.\n\n\nThe matching should cover the entire input string (not partial).\n\n \nExample 1:\n\nInput: s = \"aa\", p = \"a\"\nOutput: false\nExplanation: \"a\" does not match the entire string \"aa\".\n\n\nExample 2:\n\nInput: s = \"aa\", p = \"a*\"\nOutput: true\nExplanation: '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes \"aa\".\n\n\nExample 3:\n\nInput: s = \"ab\", p = \".*\"\nOutput: true\nExplanation: \".*\" means \"zero or more (*) of any character (.)\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 20\n\t1 <= p.length <= 30\n\ts contains only lowercase English letters.\n\tp contains only lowercase English letters, '.', and '*'.\n\tIt is guaranteed for each appearance of the character '*', there will be a previous valid character to match.\n\n"
+}

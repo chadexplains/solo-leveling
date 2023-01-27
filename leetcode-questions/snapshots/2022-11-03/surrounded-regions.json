@@ -1,0 +1,12 @@
+{
+  "id": "surrounded-regions",
+  "name": "Surrounded Regions",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union Find",
+    "Matrix"
+  ],
+  "description": "Given an m x n matrix board containing 'X' and 'O', capture all regions that are 4-directionally surrounded by 'X'.\n\nA region is captured by flipping all 'O's into 'X's in that surrounded region.\n\n \nExample 1:\n\nInput: board = [[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"O\",\"O\",\"X\"],[\"X\",\"X\",\"O\",\"X\"],[\"X\",\"O\",\"X\",\"X\"]]\nOutput: [[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"X\",\"X\",\"X\"],[\"X\",\"O\",\"X\",\"X\"]]\nExplanation: Notice that an 'O' should not be flipped if:\n- It is on the border, or\n- It is adjacent to an 'O' that should not be flipped.\nThe bottom 'O' is on the border, so it is not flipped.\nThe other three 'O' form a surrounded region, so they are flipped.\n\n\nExample 2:\n\nInput: board = [[\"X\"]]\nOutput: [[\"X\"]]\n\n\n \nConstraints:\n\n\n\tm == board.length\n\tn == board[i].length\n\t1 <= m, n <= 200\n\tboard[i][j] is 'X' or 'O'.\n\n"
+}

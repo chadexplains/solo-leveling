@@ -1,0 +1,10 @@
+{
+  "id": "letter-combinations-of-a-phone-number",
+  "name": "Letter Combinations of a Phone Number",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Backtracking"
+  ],
+  "description": "Given a string containing digits from 2-9 inclusive, return all possible letter combinations that the number could represent. Return the answer in any order.\n\nA mapping of digits to letters (just like on the telephone buttons) is given below. Note that 1 does not map to any letters.\n\n \nExample 1:\n\nInput: digits = \"23\"\nOutput: [\"ad\",\"ae\",\"af\",\"bd\",\"be\",\"bf\",\"cd\",\"ce\",\"cf\"]\n\n\nExample 2:\n\nInput: digits = \"\"\nOutput: []\n\n\nExample 3:\n\nInput: digits = \"2\"\nOutput: [\"a\",\"b\",\"c\"]\n\n\n \nConstraints:\n\n\n\t0 <= digits.length <= 4\n\tdigits[i] is a digit in the range ['2', '9'].\n\n"
+}

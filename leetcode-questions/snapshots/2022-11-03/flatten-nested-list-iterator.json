@@ -1,0 +1,13 @@
+{
+  "id": "flatten-nested-list-iterator",
+  "name": "Flatten Nested List Iterator",
+  "tags": [
+    "Stack",
+    "Tree",
+    "Depth-First Search",
+    "Design",
+    "Queue",
+    "Iterator"
+  ],
+  "description": "You are given a nested list of integers nestedList. Each element is either an integer or a list whose elements may also be integers or other lists. Implement an iterator to flatten it.\n\nImplement the NestedIterator class:\n\n\n\tNestedIterator(List<NestedInteger> nestedList) Initializes the iterator with the nested list nestedList.\n\tint next() Returns the next integer in the nested list.\n\tboolean hasNext() Returns true if there are still some integers in the nested list and false otherwise.\n\n\nYour code will be tested with the following pseudocode:\n\ninitialize iterator with nestedList\nres = []\nwhile iterator.hasNext()\n    append iterator.next() to the end of res\nreturn res\n\n\nIf res matches the expected flattened list, then your code will be judged as correct.\n\n \nExample 1:\n\nInput: nestedList = [[1,1],2,[1,1]]\nOutput: [1,1,2,1,1]\nExplanation: By calling next repeatedly until hasNext returns false, the order of elements returned by next should be: [1,1,2,1,1].\n\n\nExample 2:\n\nInput: nestedList = [1,[4,[6]]]\nOutput: [1,4,6]\nExplanation: By calling next repeatedly until hasNext returns false, the order of elements returned by next should be: [1,4,6].\n\n\n \nConstraints:\n\n\n\t1 <= nestedList.length <= 500\n\tThe values of the integers in the nested list is in the range [-106, 106].\n\n"
+}

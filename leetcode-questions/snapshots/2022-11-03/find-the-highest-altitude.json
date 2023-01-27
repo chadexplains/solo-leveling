@@ -1,0 +1,9 @@
+{
+  "id": "find-the-highest-altitude",
+  "name": "Find the Highest Altitude",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "description": "There is a biker going on a road trip. The road trip consists of n + 1 points at different altitudes. The biker starts his trip on point 0 with altitude equal 0.\n\nYou are given an integer array gain of length n where gain[i] is the net gain in altitude between points i​​​​​​ and i + 1 for all (0 <= i < n). Return the highest altitude of a point.\n\n \nExample 1:\n\nInput: gain = [-5,1,5,0,-7]\nOutput: 1\nExplanation: The altitudes are [0,-5,-4,1,1,-6]. The highest is 1.\n\n\nExample 2:\n\nInput: gain = [-4,-3,-2,-1,4,3,2]\nOutput: 0\nExplanation: The altitudes are [0,-4,-7,-9,-10,-6,-3,-1]. The highest is 0.\n\n\n \nConstraints:\n\n\n\tn == gain.length\n\t1 <= n <= 100\n\t-100 <= gain[i] <= 100\n\n"
+}

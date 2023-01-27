@@ -1,0 +1,11 @@
+{
+  "id": "number-of-matching-subsequences",
+  "name": "Number of Matching Subsequences",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Trie",
+    "Sorting"
+  ],
+  "description": "Given a string s and an array of strings words, return the number of words[i] that is a subsequence of s.\n\nA subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.\n\n\n\tFor example, \"ace\" is a subsequence of \"abcde\".\n\n\n \nExample 1:\n\nInput: s = \"abcde\", words = [\"a\",\"bb\",\"acd\",\"ace\"]\nOutput: 3\nExplanation: There are three strings in words that are a subsequence of s: \"a\", \"acd\", \"ace\".\n\n\nExample 2:\n\nInput: s = \"dsahjpjauf\", words = [\"ahjpjau\",\"ja\",\"ahbwzgqnuk\",\"tnmlanowax\"]\nOutput: 2\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 5 * 104\n\t1 <= words.length <= 5000\n\t1 <= words[i].length <= 50\n\ts and words[i] consist of only lowercase English letters.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "word-search",
+  "name": "Word Search",
+  "tags": [
+    "Array",
+    "Backtracking",
+    "Matrix"
+  ],
+  "description": "Given an m x n grid of characters board and a string word, return true if word exists in the grid.\n\nThe word can be constructed from letters of sequentially adjacent cells, where adjacent cells are horizontally or vertically neighboring. The same letter cell may not be used more than once.\n\n \nExample 1:\n\nInput: board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCCED\"\nOutput: true\n\n\nExample 2:\n\nInput: board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"SEE\"\nOutput: true\n\n\nExample 3:\n\nInput: board = [[\"A\",\"B\",\"C\",\"E\"],[\"S\",\"F\",\"C\",\"S\"],[\"A\",\"D\",\"E\",\"E\"]], word = \"ABCB\"\nOutput: false\n\n\n \nConstraints:\n\n\n\tm == board.length\n\tn = board[i].length\n\t1 <= m, n <= 6\n\t1 <= word.length <= 15\n\tboard and word consists of only lowercase and uppercase English letters.\n\n\n \nFollow up: Could you use search pruning to make your solution faster with a larger board?\n"
+}

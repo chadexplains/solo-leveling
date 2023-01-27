@@ -1,0 +1,9 @@
+{
+  "id": "sorting-the-sentence",
+  "name": "Sorting the Sentence",
+  "tags": [
+    "String",
+    "Sorting"
+  ],
+  "description": "A sentence is a list of words that are separated by a single space with no leading or trailing spaces. Each word consists of lowercase and uppercase English letters.\n\nA sentence can be shuffled by appending the 1-indexed word position to each word then rearranging the words in the sentence.\n\n\n\tFor example, the sentence \"This is a sentence\" can be shuffled as \"sentence4 a3 is2 This1\" or \"is2 sentence4 This1 a3\".\n\n\nGiven a shuffled sentence s containing no more than 9 words, reconstruct and return the original sentence.\n\n \nExample 1:\n\nInput: s = \"is2 sentence4 This1 a3\"\nOutput: \"This is a sentence\"\nExplanation: Sort the words in s to their original positions \"This1 is2 a3 sentence4\", then remove the numbers.\n\n\nExample 2:\n\nInput: s = \"Myself2 Me1 I4 and3\"\nOutput: \"Me Myself and I\"\nExplanation: Sort the words in s to their original positions \"Me1 Myself2 and3 I4\", then remove the numbers.\n\n\n \nConstraints:\n\n\n\t2 <= s.length <= 200\n\ts consists of lowercase and uppercase English letters, spaces, and digits from 1 to 9.\n\tThe number of words in s is between 1 and 9.\n\tThe words in s are separated by a single space.\n\ts contains no leading or trailing spaces.\n"
+}

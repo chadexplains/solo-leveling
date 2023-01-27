@@ -1,0 +1,13 @@
+{
+  "id": "k-divisible-elements-subarrays",
+  "name": "K Divisible Elements Subarrays",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Trie",
+    "Rolling Hash",
+    "Hash Function",
+    "Enumeration"
+  ],
+  "description": "Given an integer array nums and two integers k and p, return the number of distinct subarrays which have at most k elements divisible by p.\n\nTwo arrays nums1 and nums2 are said to be distinct if:\n\n\n\tThey are of different lengths, or\n\tThere exists at least one index i where nums1[i] != nums2[i].\n\n\nA subarray is defined as a non-empty contiguous sequence of elements in an array.\n\n \nExample 1:\n\nInput: nums = [2,3,3,2,2], k = 2, p = 2\nOutput: 11\nExplanation:\nThe elements at indices 0, 3, and 4 are divisible by p = 2.\nThe 11 distinct subarrays which have at most k = 2 elements divisible by 2 are:\n[2], [2,3], [2,3,3], [2,3,3,2], [3], [3,3], [3,3,2], [3,3,2,2], [3,2], [3,2,2], and [2,2].\nNote that the subarrays [2] and [3] occur more than once in nums, but they should each be counted only once.\nThe subarray [2,3,3,2,2] should not be counted because it has 3 elements that are divisible by 2.\n\n\nExample 2:\n\nInput: nums = [1,2,3,4], k = 4, p = 1\nOutput: 10\nExplanation:\nAll element of nums are divisible by p = 1.\nAlso, every subarray of nums will have at most 4 elements that are divisible by 1.\nSince all subarrays are distinct, the total number of subarrays satisfying all the constraints is 10.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 200\n\t1 <= nums[i], p <= 200\n\t1 <= k <= nums.length\n\n\n \nFollow up:\n\nCan you solve this problem in O(n2) time complexity?\n"
+}

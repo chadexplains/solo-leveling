@@ -1,0 +1,10 @@
+{
+  "id": "implement-queue-using-stacks",
+  "name": "Implement Queue using Stacks",
+  "tags": [
+    "Stack",
+    "Design",
+    "Queue"
+  ],
+  "description": "Implement a first in first out (FIFO) queue using only two stacks. The implemented queue should support all the functions of a normal queue (push, peek, pop, and empty).\n\nImplement the MyQueue class:\n\n\n\tvoid push(int x) Pushes element x to the back of the queue.\n\tint pop() Removes the element from the front of the queue and returns it.\n\tint peek() Returns the element at the front of the queue.\n\tboolean empty() Returns true if the queue is empty, false otherwise.\n\n\nNotes:\n\n\n\tYou must use only standard operations of a stack, which means only push to top, peek/pop from top, size, and is empty operations are valid.\n\tDepending on your language, the stack may not be supported natively. You may simulate a stack using a list or deque (double-ended queue) as long as you use only a stack's standard operations.\n\n\n \nExample 1:\n\nInput\n[\"MyQueue\", \"push\", \"push\", \"peek\", \"pop\", \"empty\"]\n[[], [1], [2], [], [], []]\nOutput\n[null, null, null, 1, 1, false]\n\nExplanation\nMyQueue myQueue = new MyQueue();\nmyQueue.push(1); // queue is: [1]\nmyQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)\nmyQueue.peek(); // return 1\nmyQueue.pop(); // return 1, queue is [2]\nmyQueue.empty(); // return false\n\n\n \nConstraints:\n\n\n\t1 <= x <= 9\n\tAt most 100 calls will be made to push, pop, peek, and empty.\n\tAll the calls to pop and peek are valid.\n\n\n \nFollow-up: Can you implement the queue such that each operation is amortized O(1) time complexity? In other words, performing n operations will take overall O(n) time even if one of those operations may take longer.\n"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "top-k-frequent-elements",
+  "name": "Top K Frequent Elements",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Divide and Conquer",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Bucket Sort",
+    "Counting",
+    "Quickselect"
+  ],
+  "description": "Given an integer array nums and an integer k, return the k most frequent elements. You may return the answer in any order.\n\n \nExample 1:\nInput: nums = [1,1,1,2,2,3], k = 2\nOutput: [1,2]\nExample 2:\nInput: nums = [1], k = 1\nOutput: [1]\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-104 <= nums[i] <= 104\n\tk is in the range [1, the number of unique elements in the array].\n\tIt is guaranteed that the answer is unique.\n\n\n \nFollow up: Your algorithm's time complexity must be better than O(n log n), where n is the array's size.\n"
+}

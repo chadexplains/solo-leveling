@@ -1,0 +1,10 @@
+{
+  "id": "sliding-puzzle",
+  "name": "Sliding Puzzle",
+  "tags": [
+    "Array",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "On an 2 x 3 board, there are five tiles labeled from 1 to 5, and an empty square represented by 0. A move consists of choosing 0 and a 4-directionally adjacent number and swapping it.\n\nThe state of the board is solved if and only if the board is [[1,2,3],[4,5,0]].\n\nGiven the puzzle board board, return the least number of moves required so that the state of the board is solved. If it is impossible for the state of the board to be solved, return -1.\n\n \nExample 1:\n\nInput: board = [[1,2,3],[4,0,5]]\nOutput: 1\nExplanation: Swap the 0 and the 5 in one move.\n\n\nExample 2:\n\nInput: board = [[1,2,3],[5,4,0]]\nOutput: -1\nExplanation: No number of moves will make the board solved.\n\n\nExample 3:\n\nInput: board = [[4,1,2],[5,0,3]]\nOutput: 5\nExplanation: 5 is the smallest number of moves that solves the board.\nAn example path:\nAfter move 0: [[4,1,2],[5,0,3]]\nAfter move 1: [[4,1,2],[0,5,3]]\nAfter move 2: [[0,1,2],[4,5,3]]\nAfter move 3: [[1,0,2],[4,5,3]]\nAfter move 4: [[1,2,0],[4,5,3]]\nAfter move 5: [[1,2,3],[4,5,0]]\n\n\n \nConstraints:\n\n\n\tboard.length == 2\n\tboard[i].length == 3\n\t0 <= board[i][j] <= 5\n\tEach value board[i][j] is unique.\n\n"
+}

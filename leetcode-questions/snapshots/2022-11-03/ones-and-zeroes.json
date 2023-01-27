@@ -1,0 +1,10 @@
+{
+  "id": "ones-and-zeroes",
+  "name": "Ones and Zeroes",
+  "tags": [
+    "Array",
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an array of binary strings strs and two integers m and n.\n\nReturn the size of the largest subset of strs such that there are at most m 0's and n 1's in the subset.\n\nA set x is a subset of a set y if all elements of x are also elements of y.\n\n \nExample 1:\n\nInput: strs = [\"10\",\"0001\",\"111001\",\"1\",\"0\"], m = 5, n = 3\nOutput: 4\nExplanation: The largest subset with at most 5 0's and 3 1's is {\"10\", \"0001\", \"1\", \"0\"}, so the answer is 4.\nOther valid but smaller subsets include {\"0001\", \"1\"} and {\"10\", \"1\", \"0\"}.\n{\"111001\"} is an invalid subset because it contains 4 1's, greater than the maximum of 3.\n\n\nExample 2:\n\nInput: strs = [\"10\",\"0\",\"1\"], m = 1, n = 1\nOutput: 2\nExplanation: The largest subset is {\"0\", \"1\"}, so the answer is 2.\n\n\n \nConstraints:\n\n\n\t1 <= strs.length <= 600\n\t1 <= strs[i].length <= 100\n\tstrs[i] consists only of digits '0' and '1'.\n\t1 <= m, n <= 100\n\n"
+}

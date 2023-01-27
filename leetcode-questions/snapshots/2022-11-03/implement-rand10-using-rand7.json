@@ -1,0 +1,11 @@
+{
+  "id": "implement-rand10-using-rand7",
+  "name": "Implement Rand10() Using Rand7()",
+  "tags": [
+    "Math",
+    "Rejection Sampling",
+    "Randomized",
+    "Probability and Statistics"
+  ],
+  "description": "Given the API rand7() that generates a uniform random integer in the range [1, 7], write a function rand10() that generates a uniform random integer in the range [1, 10]. You can only call the API rand7(), and you shouldn't call any other API. Please do not use a language's built-in random API.\n\nEach test case will have one internal argument n, the number of times that your implemented function rand10() will be called while testing. Note that this is not an argument passed to rand10().\n\n \nExample 1:\nInput: n = 1\nOutput: [2]\nExample 2:\nInput: n = 2\nOutput: [2,8]\nExample 3:\nInput: n = 3\nOutput: [3,8,10]\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\n\n \nFollow up:\n\n\n\tWhat is the expected value for the number of calls to rand7() function?\n\tCould you minimize the number of calls to rand7()?\n\n"
+}

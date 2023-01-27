@@ -1,0 +1,9 @@
+{
+  "id": "valid-parentheses",
+  "name": "Valid Parentheses",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\n\nAn input string is valid if:\n\n\n\tOpen brackets must be closed by the same type of brackets.\n\tOpen brackets must be closed in the correct order.\n\tEvery close bracket has a corresponding open bracket of the same type.\n\n\n \nExample 1:\n\nInput: s = \"()\"\nOutput: true\n\n\nExample 2:\n\nInput: s = \"()[]{}\"\nOutput: true\n\n\nExample 3:\n\nInput: s = \"(]\"\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts consists of parentheses only '()[]{}'.\n\n"
+}

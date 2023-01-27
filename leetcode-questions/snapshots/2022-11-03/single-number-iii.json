@@ -1,0 +1,9 @@
+{
+  "id": "single-number-iii",
+  "name": "Single Number III",
+  "tags": [
+    "Array",
+    "Bit Manipulation"
+  ],
+  "description": "Given an integer array nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once. You can return the answer in any order.\n\nYou must write an algorithm that runs in linear runtime complexity and uses only constant extra space.\n\n \nExample 1:\n\nInput: nums = [1,2,1,3,2,5]\nOutput: [3,5]\nExplanation:  [5, 3] is also a valid answer.\n\n\nExample 2:\n\nInput: nums = [-1,0]\nOutput: [-1,0]\n\n\nExample 3:\n\nInput: nums = [0,1]\nOutput: [1,0]\n\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 3 * 104\n\t-231 <= nums[i] <= 231 - 1\n\tEach integer in nums will appear twice, only two integers will appear once.\n\n"
+}

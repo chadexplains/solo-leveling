@@ -1,0 +1,14 @@
+{
+  "id": "partition-array-into-two-arrays-to-minimize-sum-difference",
+  "name": "Partition Array Into Two Arrays to Minimize Sum Difference",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Ordered Set",
+    "Bitmask"
+  ],
+  "description": "You are given an integer array nums of 2 * n integers. You need to partition nums into two arrays of length n to minimize the absolute difference of the sums of the arrays. To partition nums, put each element of nums into one of the two arrays.\n\nReturn the minimum possible absolute difference.\n\n \nExample 1:\n\nInput: nums = [3,9,7,3]\nOutput: 2\nExplanation: One optimal partition is: [3,9] and [7,3].\nThe absolute difference between the sums of the arrays is abs((3 + 9) - (7 + 3)) = 2.\n\n\nExample 2:\n\nInput: nums = [-36,36]\nOutput: 72\nExplanation: One optimal partition is: [-36] and [36].\nThe absolute difference between the sums of the arrays is abs((-36) - (36)) = 72.\n\n\nExample 3:\n\nInput: nums = [2,-1,0,4,-2,-9]\nOutput: 0\nExplanation: One optimal partition is: [2,4,-9] and [-1,0,-2].\nThe absolute difference between the sums of the arrays is abs((2 + 4 + -9) - (-1 + 0 + -2)) = 0.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 15\n\tnums.length == 2 * n\n\t-107 <= nums[i] <= 107\n\n"
+}

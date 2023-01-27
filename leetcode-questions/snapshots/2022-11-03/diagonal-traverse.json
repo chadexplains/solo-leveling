@@ -1,0 +1,10 @@
+{
+  "id": "diagonal-traverse",
+  "name": "Diagonal Traverse",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Simulation"
+  ],
+  "description": "Given an m x n matrix mat, return an array of all the elements of the array in a diagonal order.\n\n \nExample 1:\n\nInput: mat = [[1,2,3],[4,5,6],[7,8,9]]\nOutput: [1,2,4,7,5,3,6,8,9]\n\n\nExample 2:\n\nInput: mat = [[1,2],[3,4]]\nOutput: [1,2,3,4]\n\n\n \nConstraints:\n\n\n\tm == mat.length\n\tn == mat[i].length\n\t1 <= m, n <= 104\n\t1 <= m * n <= 104\n\t-105 <= mat[i][j] <= 105\n\n"
+}

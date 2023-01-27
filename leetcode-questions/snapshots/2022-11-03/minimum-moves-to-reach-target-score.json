@@ -1,0 +1,9 @@
+{
+  "id": "minimum-moves-to-reach-target-score",
+  "name": "Minimum Moves to Reach Target Score",
+  "tags": [
+    "Math",
+    "Greedy"
+  ],
+  "description": "You are playing a game with integers. You start with the integer 1 and you want to reach the integer target.\n\nIn one move, you can either:\n\n\n\tIncrement the current integer by one (i.e., x = x + 1).\n\tDouble the current integer (i.e., x = 2 * x).\n\n\nYou can use the increment operation any number of times, however, you can only use the double operation at most maxDoubles times.\n\nGiven the two integers target and maxDoubles, return the minimum number of moves needed to reach target starting with 1.\n\n \nExample 1:\n\nInput: target = 5, maxDoubles = 0\nOutput: 4\nExplanation: Keep incrementing by 1 until you reach target.\n\n\nExample 2:\n\nInput: target = 19, maxDoubles = 2\nOutput: 7\nExplanation: Initially, x = 1\nIncrement 3 times so x = 4\nDouble once so x = 8\nIncrement once so x = 9\nDouble again so x = 18\nIncrement once so x = 19\n\n\nExample 3:\n\nInput: target = 10, maxDoubles = 4\nOutput: 4\nExplanation: Initially, x = 1\nIncrement once so x = 2\nDouble once so x = 4\nIncrement once so x = 5\nDouble again so x = 10\n\n\n \nConstraints:\n\n\n\t1 <= target <= 109\n\t0 <= maxDoubles <= 100\n\n"
+}

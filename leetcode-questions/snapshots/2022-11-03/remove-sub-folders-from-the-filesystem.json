@@ -1,0 +1,10 @@
+{
+  "id": "remove-sub-folders-from-the-filesystem",
+  "name": "Remove Sub-Folders from the Filesystem",
+  "tags": [
+    "Array",
+    "String",
+    "Trie"
+  ],
+  "description": "Given a list of folders folder, return the folders after removing all sub-folders in those folders. You may return the answer in any order.\n\nIf a folder[i] is located within another folder[j], it is called a sub-folder of it.\n\nThe format of a path is one or more concatenated strings of the form: '/' followed by one or more lowercase English letters.\n\n\n\tFor example, \"/leetcode\" and \"/leetcode/problems\" are valid paths while an empty string and \"/\" are not.\n\n\n \nExample 1:\n\nInput: folder = [\"/a\",\"/a/b\",\"/c/d\",\"/c/d/e\",\"/c/f\"]\nOutput: [\"/a\",\"/c/d\",\"/c/f\"]\nExplanation: Folders \"/a/b\" is a subfolder of \"/a\" and \"/c/d/e\" is inside of folder \"/c/d\" in our filesystem.\n\n\nExample 2:\n\nInput: folder = [\"/a\",\"/a/b/c\",\"/a/b/d\"]\nOutput: [\"/a\"]\nExplanation: Folders \"/a/b/c\" and \"/a/b/d\" will be removed because they are subfolders of \"/a\".\n\n\nExample 3:\n\nInput: folder = [\"/a/b/c\",\"/a/b/ca\",\"/a/b/d\"]\nOutput: [\"/a/b/c\",\"/a/b/ca\",\"/a/b/d\"]\n\n\n \nConstraints:\n\n\n\t1 <= folder.length <= 4 * 104\n\t2 <= folder[i].length <= 100\n\tfolder[i] contains only lowercase letters and '/'.\n\tfolder[i] always starts with the character '/'.\n\tEach folder name is unique.\n\n"
+}

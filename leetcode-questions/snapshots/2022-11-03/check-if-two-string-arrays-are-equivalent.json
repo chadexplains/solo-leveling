@@ -1,0 +1,9 @@
+{
+  "id": "check-if-two-string-arrays-are-equivalent",
+  "name": "Check If Two String Arrays are Equivalent",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "Given two string arrays word1 and word2, return true if the two arrays represent the same string, and false otherwise.\n\nA string is represented by an array if the array elements concatenated in order forms the string.\n\n \nExample 1:\n\nInput: word1 = [\"ab\", \"c\"], word2 = [\"a\", \"bc\"]\nOutput: true\nExplanation:\nword1 represents string \"ab\" + \"c\" -> \"abc\"\nword2 represents string \"a\" + \"bc\" -> \"abc\"\nThe strings are the same, so return true.\n\nExample 2:\n\nInput: word1 = [\"a\", \"cb\"], word2 = [\"ab\", \"c\"]\nOutput: false\n\n\nExample 3:\n\nInput: word1  = [\"abc\", \"d\", \"defg\"], word2 = [\"abcddefg\"]\nOutput: true\n\n\n \nConstraints:\n\n\n\t1 <= word1.length, word2.length <= 103\n\t1 <= word1[i].length, word2[i].length <= 103\n\t1 <= sum(word1[i].length), sum(word2[i].length) <= 103\n\tword1[i] and word2[i] consist of lowercase letters.\n\n"
+}

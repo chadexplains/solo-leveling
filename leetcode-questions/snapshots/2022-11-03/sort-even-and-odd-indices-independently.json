@@ -1,0 +1,9 @@
+{
+  "id": "sort-even-and-odd-indices-independently",
+  "name": "Sort Even and Odd Indices Independently",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "You are given a 0-indexed integer array nums. Rearrange the values of nums according to the following rules:\n\n\n\tSort the values at odd indices of nums in non-increasing order.\n\n\t\n\t\tFor example, if nums = [4,1,2,3] before this step, it becomes [4,3,2,1] after. The values at odd indices 1 and 3 are sorted in non-increasing order.\n\t\n\t\n\tSort the values at even indices of nums in non-decreasing order.\n\t\n\t\tFor example, if nums = [4,1,2,3] before this step, it becomes [2,1,4,3] after. The values at even indices 0 and 2 are sorted in non-decreasing order.\n\t\n\t\n\n\nReturn the array formed after rearranging the values of nums.\n\n \nExample 1:\n\nInput: nums = [4,1,2,3]\nOutput: [2,3,4,1]\nExplanation: \nFirst, we sort the values present at odd indices (1 and 3) in non-increasing order.\nSo, nums changes from [4,1,2,3] to [4,3,2,1].\nNext, we sort the values present at even indices (0 and 2) in non-decreasing order.\nSo, nums changes from [4,1,2,3] to [2,3,4,1].\nThus, the array formed after rearranging the values is [2,3,4,1].\n\n\nExample 2:\n\nInput: nums = [2,1]\nOutput: [2,1]\nExplanation: \nSince there is exactly one odd index and one even index, no rearrangement of values takes place.\nThe resultant array formed is [2,1], which is the same as the initial array. \n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 100\n\t1 <= nums[i] <= 100\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "partition-array-for-maximum-sum",
+  "name": "Partition Array for Maximum Sum",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer array arr, partition the array into (contiguous) subarrays of length at most k. After partitioning, each subarray has their values changed to become the maximum value of that subarray.\n\nReturn the largest sum of the given array after partitioning. Test cases are generated so that the answer fits in a 32-bit integer.\n\n \nExample 1:\n\nInput: arr = [1,15,7,9,2,5,10], k = 3\nOutput: 84\nExplanation: arr becomes [15,15,15,9,10,10,10]\n\n\nExample 2:\n\nInput: arr = [1,4,1,5,7,3,6,1,9,9,3], k = 4\nOutput: 83\n\n\nExample 3:\n\nInput: arr = [1], k = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 500\n\t0 <= arr[i] <= 109\n\t1 <= k <= arr.length\n\n"
+}

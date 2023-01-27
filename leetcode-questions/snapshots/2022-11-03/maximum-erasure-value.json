@@ -1,0 +1,10 @@
+{
+  "id": "maximum-erasure-value",
+  "name": "Maximum Erasure Value",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window"
+  ],
+  "description": "You are given an array of positive integers nums and want to erase a subarray containing unique elements. The score you get by erasing the subarray is equal to the sum of its elements.\n\nReturn the maximum score you can get by erasing exactly one subarray.\n\nAn array b is called to be a subarray of a if it forms a contiguous subsequence of a, that is, if it is equal to a[l],a[l+1],...,a[r] for some (l,r).\n\n \nExample 1:\n\nInput: nums = [4,2,4,5,6]\nOutput: 17\nExplanation: The optimal subarray here is [2,4,5,6].\n\n\nExample 2:\n\nInput: nums = [5,2,1,2,5,2,1,2,5]\nOutput: 8\nExplanation: The optimal subarray here is [5,2,1] or [1,2,5].\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 104\n\n"
+}

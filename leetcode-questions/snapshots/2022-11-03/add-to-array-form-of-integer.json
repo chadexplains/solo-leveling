@@ -1,0 +1,9 @@
+{
+  "id": "add-to-array-form-of-integer",
+  "name": "Add to Array-Form of Integer",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "description": "The array-form of an integer num is an array representing its digits in left to right order.\n\n\n\tFor example, for num = 1321, the array form is [1,3,2,1].\n\n\nGiven num, the array-form of an integer, and an integer k, return the array-form of the integer num + k.\n\n \nExample 1:\n\nInput: num = [1,2,0,0], k = 34\nOutput: [1,2,3,4]\nExplanation: 1200 + 34 = 1234\n\n\nExample 2:\n\nInput: num = [2,7,4], k = 181\nOutput: [4,5,5]\nExplanation: 274 + 181 = 455\n\n\nExample 3:\n\nInput: num = [2,1,5], k = 806\nOutput: [1,0,2,1]\nExplanation: 215 + 806 = 1021\n\n\n \nConstraints:\n\n\n\t1 <= num.length <= 104\n\t0 <= num[i] <= 9\n\tnum does not contain any leading zeros except for the zero itself.\n\t1 <= k <= 104\n\n"
+}

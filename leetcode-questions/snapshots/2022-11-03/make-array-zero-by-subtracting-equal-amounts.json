@@ -1,0 +1,12 @@
+{
+  "id": "make-array-zero-by-subtracting-equal-amounts",
+  "name": "Make Array Zero by Subtracting Equal Amounts",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Simulation"
+  ],
+  "description": "You are given a non-negative integer array nums. In one operation, you must:\n\n\n\tChoose a positive integer x such that x is less than or equal to the smallest non-zero element in nums.\n\tSubtract x from every positive element in nums.\n\n\nReturn the minimum number of operations to make every element in nums equal to 0.\n\n \nExample 1:\n\nInput: nums = [1,5,0,3,5]\nOutput: 3\nExplanation:\nIn the first operation, choose x = 1. Now, nums = [0,4,0,2,4].\nIn the second operation, choose x = 2. Now, nums = [0,2,0,0,2].\nIn the third operation, choose x = 2. Now, nums = [0,0,0,0,0].\n\n\nExample 2:\n\nInput: nums = [0]\nOutput: 0\nExplanation: Each element in nums is already 0 so no operations are needed.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 100\n\t0 <= nums[i] <= 100\n\n"
+}

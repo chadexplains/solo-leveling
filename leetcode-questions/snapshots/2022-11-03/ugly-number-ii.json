@@ -1,0 +1,11 @@
+{
+  "id": "ugly-number-ii",
+  "name": "Ugly Number II",
+  "tags": [
+    "Hash Table",
+    "Math",
+    "Dynamic Programming",
+    "Heap (Priority Queue)"
+  ],
+  "description": "An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.\n\nGiven an integer n, return the nth ugly number.\n\n \nExample 1:\n\nInput: n = 10\nOutput: 12\nExplanation: [1, 2, 3, 4, 5, 6, 8, 9, 10, 12] is the sequence of the first 10 ugly numbers.\n\n\nExample 2:\n\nInput: n = 1\nOutput: 1\nExplanation: 1 has no prime factors, therefore all of its prime factors are limited to 2, 3, and 5.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 1690\n\n"
+}

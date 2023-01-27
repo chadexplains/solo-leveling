@@ -1,0 +1,8 @@
+{
+  "id": "sum-of-digits-in-base-k",
+  "name": "Sum of Digits in Base K",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer n (in base 10) and a base k, return the sum of the digits of n after converting n from base 10 to base k.\n\nAfter converting, each digit should be interpreted as a base 10 number, and the sum should be returned in base 10.\n\n \nExample 1:\n\nInput: n = 34, k = 6\nOutput: 9\nExplanation: 34 (base 10) expressed in base 6 is 54. 5 + 4 = 9.\n\n\nExample 2:\n\nInput: n = 10, k = 10\nOutput: 1\nExplanation: n is already in base 10. 1 + 0 = 1.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 100\n\t2 <= k <= 10\n\n"
+}

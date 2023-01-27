@@ -1,0 +1,10 @@
+{
+  "id": "count-all-possible-routes",
+  "name": "Count All Possible Routes",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Memoization"
+  ],
+  "description": "You are given an array of distinct positive integers locations where locations[i] represents the position of city i. You are also given integers start, finish and fuel representing the starting city, ending city, and the initial amount of fuel you have, respectively.\n\nAt each step, if you are at city i, you can pick any city j such that j != i and 0 <= j < locations.length and move to city j. Moving from city i to city j reduces the amount of fuel you have by |locations[i] - locations[j]|. Please notice that |x| denotes the absolute value of x.\n\nNotice that fuel cannot become negative at any point in time, and that you are allowed to visit any city more than once (including start and finish).\n\nReturn the count of all possible routes from start to finish. Since the answer may be too large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: locations = [2,3,6,8,4], start = 1, finish = 3, fuel = 5\nOutput: 4\nExplanation: The following are all possible routes, each uses 5 units of fuel:\n1 -> 3\n1 -> 2 -> 3\n1 -> 4 -> 3\n1 -> 4 -> 2 -> 3\n\n\nExample 2:\n\nInput: locations = [4,3,1], start = 1, finish = 0, fuel = 6\nOutput: 5\nExplanation: The following are all possible routes:\n1 -> 0, used fuel = 1\n1 -> 2 -> 0, used fuel = 5\n1 -> 2 -> 1 -> 0, used fuel = 5\n1 -> 0 -> 1 -> 0, used fuel = 3\n1 -> 0 -> 1 -> 0 -> 1 -> 0, used fuel = 5\n\n\nExample 3:\n\nInput: locations = [5,2,1], start = 0, finish = 2, fuel = 3\nOutput: 0\nExplanation: It is impossible to get from 0 to 2 using only 3 units of fuel since the shortest route needs 4 units of fuel.\n\n\n \nConstraints:\n\n\n\t2 <= locations.length <= 100\n\t1 <= locations[i] <= 109\n\tAll integers in locations are distinct.\n\t0 <= start, finish < locations.length\n\t1 <= fuel <= 200\n\n"
+}

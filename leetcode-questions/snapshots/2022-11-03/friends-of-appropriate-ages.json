@@ -1,0 +1,11 @@
+{
+  "id": "friends-of-appropriate-ages",
+  "name": "Friends Of Appropriate Ages",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting"
+  ],
+  "description": "There are n persons on a social media website. You are given an integer array ages where ages[i] is the age of the ith person.\n\nA Person x will not send a friend request to a person y (x != y) if any of the following conditions is true:\n\n\n\tage[y] <= 0.5 * age[x] + 7\n\tage[y] > age[x]\n\tage[y] > 100 && age[x] < 100\n\n\nOtherwise, x will send a friend request to y.\n\nNote that if x sends a request to y, y will not necessarily send a request to x. Also, a person will not send a friend request to themself.\n\nReturn the total number of friend requests made.\n\n \nExample 1:\n\nInput: ages = [16,16]\nOutput: 2\nExplanation: 2 people friend request each other.\n\n\nExample 2:\n\nInput: ages = [16,17,18]\nOutput: 2\nExplanation: Friend requests are made 17 -> 16, 18 -> 17.\n\n\nExample 3:\n\nInput: ages = [20,30,100,110,120]\nOutput: 3\nExplanation: Friend requests are made 110 -> 100, 120 -> 110, 120 -> 100.\n\n\n \nConstraints:\n\n\n\tn == ages.length\n\t1 <= n <= 2 * 104\n\t1 <= ages[i] <= 120\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "find-the-k-beauty-of-a-number",
+  "name": "Find the K-Beauty of a Number",
+  "tags": [
+    "Math",
+    "String",
+    "Sliding Window"
+  ],
+  "description": "The k-beauty of an integer num is defined as the number of substrings of num when it is read as a string that meet the following conditions:\n\n\n\tIt has a length of k.\n\tIt is a divisor of num.\n\n\nGiven integers num and k, return the k-beauty of num.\n\nNote:\n\n\n\tLeading zeros are allowed.\n\t0 is not a divisor of any value.\n\n\nA substring is a contiguous sequence of characters in a string.\n\n \nExample 1:\n\nInput: num = 240, k = 2\nOutput: 2\nExplanation: The following are the substrings of num of length k:\n- \"24\" from \"240\": 24 is a divisor of 240.\n- \"40\" from \"240\": 40 is a divisor of 240.\nTherefore, the k-beauty is 2.\n\n\nExample 2:\n\nInput: num = 430043, k = 2\nOutput: 2\nExplanation: The following are the substrings of num of length k:\n- \"43\" from \"430043\": 43 is a divisor of 430043.\n- \"30\" from \"430043\": 30 is not a divisor of 430043.\n- \"00\" from \"430043\": 0 is not a divisor of 430043.\n- \"04\" from \"430043\": 4 is not a divisor of 430043.\n- \"43\" from \"430043\": 43 is a divisor of 430043.\nTherefore, the k-beauty is 2.\n\n\n \nConstraints:\n\n\n\t1 <= num <= 109\n\t1 <= k <= num.length (taking num as a string)\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "kth-smallest-number-in-multiplication-table",
+  "name": "Kth Smallest Number in Multiplication Table",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "Nearly everyone has used the Multiplication Table. The multiplication table of size m x n is an integer matrix mat where mat[i][j] == i * j (1-indexed).\n\nGiven three integers m, n, and k, return the kth smallest element in the m x n multiplication table.\n\n \nExample 1:\n\nInput: m = 3, n = 3, k = 5\nOutput: 3\nExplanation: The 5th smallest number is 3.\n\n\nExample 2:\n\nInput: m = 2, n = 3, k = 6\nOutput: 6\nExplanation: The 6th smallest number is 6.\n\n\n \nConstraints:\n\n\n\t1 <= m, n <= 3 * 104\n\t1 <= k <= m * n\n\n"
+}

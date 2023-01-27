@@ -1,0 +1,8 @@
+{
+  "id": "valid-number",
+  "name": "Valid Number",
+  "tags": [
+    "String"
+  ],
+  "description": "A valid number can be split up into these components (in order):\n\n\n\tA decimal number or an integer.\n\t(Optional) An 'e' or 'E', followed by an integer.\n\n\nA decimal number can be split up into these components (in order):\n\n\n\t(Optional) A sign character (either '+' or '-').\n\tOne of the following formats:\n\t\n\t\tOne or more digits, followed by a dot '.'.\n\t\tOne or more digits, followed by a dot '.', followed by one or more digits.\n\t\tA dot '.', followed by one or more digits.\n\t\n\t\n\n\nAn integer can be split up into these components (in order):\n\n\n\t(Optional) A sign character (either '+' or '-').\n\tOne or more digits.\n\n\nFor example, all the following are valid numbers: [\"2\", \"0089\", \"-0.1\", \"+3.14\", \"4.\", \"-.9\", \"2e10\", \"-90E3\", \"3e+7\", \"+6e-1\", \"53.5e93\", \"-123.456e789\"], while the following are not valid numbers: [\"abc\", \"1a\", \"1e\", \"e3\", \"99e2.5\", \"--6\", \"-+3\", \"95a54e53\"].\n\nGiven a string s, return true if s is a valid number.\n\n \nExample 1:\n\nInput: s = \"0\"\nOutput: true\n\n\nExample 2:\n\nInput: s = \"e\"\nOutput: false\n\n\nExample 3:\n\nInput: s = \".\"\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 20\n\ts consists of only English letters (both uppercase and lowercase), digits (0-9), plus '+', minus '-', or dot '.'.\n\n"
+}

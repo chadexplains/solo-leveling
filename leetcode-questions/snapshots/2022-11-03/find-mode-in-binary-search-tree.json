@@ -1,0 +1,11 @@
+{
+  "id": "find-mode-in-binary-search-tree",
+  "name": "Find Mode in Binary Search Tree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary search tree (BST) with duplicates, return all the mode(s) (i.e., the most frequently occurred element) in it.\n\nIf the tree has more than one mode, return them in any order.\n\nAssume a BST is defined as follows:\n\n\n\tThe left subtree of a node contains only nodes with keys less than or equal to the node's key.\n\tThe right subtree of a node contains only nodes with keys greater than or equal to the node's key.\n\tBoth the left and right subtrees must also be binary search trees.\n\n\n \nExample 1:\n\nInput: root = [1,null,2,2]\nOutput: [2]\n\n\nExample 2:\n\nInput: root = [0]\nOutput: [0]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 104].\n\t-105 <= Node.val <= 105\n\n\n \nFollow up: Could you do that without using any extra space? (Assume that the implicit stack space incurred due to recursion does not count)."
+}

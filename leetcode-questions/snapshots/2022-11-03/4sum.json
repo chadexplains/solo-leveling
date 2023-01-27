@@ -1,0 +1,10 @@
+{
+  "id": "4sum",
+  "name": "4Sum",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "description": "Given an array nums of n integers, return an array of all the unique quadruplets [nums[a], nums[b], nums[c], nums[d]] such that:\n\n\n\t0 <= a, b, c, d < n\n\ta, b, c, and d are distinct.\n\tnums[a] + nums[b] + nums[c] + nums[d] == target\n\n\nYou may return the answer in any order.\n\n \nExample 1:\n\nInput: nums = [1,0,-1,0,-2,2], target = 0\nOutput: [[-2,-1,1,2],[-2,0,0,2],[-1,0,0,1]]\n\n\nExample 2:\n\nInput: nums = [2,2,2,2,2], target = 8\nOutput: [[2,2,2,2]]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 200\n\t-109 <= nums[i] <= 109\n\t-109 <= target <= 109\n\n"
+}

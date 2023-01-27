@@ -1,0 +1,11 @@
+{
+  "id": "plates-between-candles",
+  "name": "Plates Between Candles",
+  "tags": [
+    "Array",
+    "String",
+    "Binary Search",
+    "Prefix Sum"
+  ],
+  "description": "There is a long table with a line of plates and candles arranged on top of it. You are given a 0-indexed string s consisting of characters '*' and '|' only, where a '*' represents a plate and a '|' represents a candle.\n\nYou are also given a 0-indexed 2D integer array queries where queries[i] = [lefti, righti] denotes the substring s[lefti...righti] (inclusive). For each query, you need to find the number of plates between candles that are in the substring. A plate is considered between candles if there is at least one candle to its left and at least one candle to its right in the substring.\n\n\n\tFor example, s = \"||**||**|*\", and a query [3, 8] denotes the substring \"*||**|\". The number of plates between candles in this substring is 2, as each of the two plates has at least one candle in the substring to its left and right.\n\n\nReturn an integer array answer where answer[i] is the answer to the ith query.\n\n \nExample 1:\n\nInput: s = \"**|**|***|\", queries = [[2,5],[5,9]]\nOutput: [2,3]\nExplanation:\n- queries[0] has two plates between candles.\n- queries[1] has three plates between candles.\n\n\nExample 2:\n\nInput: s = \"***|**|*****|**||**|*\", queries = [[1,17],[4,5],[14,17],[5,11],[15,16]]\nOutput: [9,0,0,0,0]\nExplanation:\n- queries[0] has nine plates between candles.\n- The other queries have zero plates between candles.\n\n\n \nConstraints:\n\n\n\t3 <= s.length <= 105\n\ts consists of '*' and '|' characters.\n\t1 <= queries.length <= 105\n\tqueries[i].length == 2\n\t0 <= lefti <= righti < s.length\n\n"
+}

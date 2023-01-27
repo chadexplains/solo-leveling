@@ -1,0 +1,9 @@
+{
+  "id": "unique-substrings-in-wraparound-string",
+  "name": "Unique Substrings in Wraparound String",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "We define the string s to be the infinite wraparound string of \"abcdefghijklmnopqrstuvwxyz\", so s will look like this:\n\n\n\t\"...zabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcd....\".\n\n\nGiven a string p, return the number of unique non-empty substrings of p are present in s.\n\n \nExample 1:\n\nInput: p = \"a\"\nOutput: 1\nExplanation: Only the substring \"a\" of p is in s.\n\n\nExample 2:\n\nInput: p = \"cac\"\nOutput: 2\nExplanation: There are two substrings (\"a\", \"c\") of p in s.\n\n\nExample 3:\n\nInput: p = \"zab\"\nOutput: 6\nExplanation: There are six substrings (\"z\", \"a\", \"b\", \"za\", \"ab\", and \"zab\") of p in s.\n\n\n \nConstraints:\n\n\n\t1 <= p.length <= 105\n\tp consists of lowercase English letters.\n\n"
+}

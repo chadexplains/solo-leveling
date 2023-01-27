@@ -1,0 +1,12 @@
+{
+  "id": "all-possible-full-binary-trees",
+  "name": "All Possible Full Binary Trees",
+  "tags": [
+    "Dynamic Programming",
+    "Tree",
+    "Recursion",
+    "Memoization",
+    "Binary Tree"
+  ],
+  "description": "Given an integer n, return a list of all possible full binary trees with n nodes. Each node of each tree in the answer must have Node.val == 0.\n\nEach element of the answer is the root node of one possible tree. You may return the final list of trees in any order.\n\nA full binary tree is a binary tree where each node has exactly 0 or 2 children.\n\n \nExample 1:\n\nInput: n = 7\nOutput: [[0,0,0,null,null,0,0,null,null,0,0],[0,0,0,null,null,0,0,0,0],[0,0,0,0,0,0,0],[0,0,0,0,0,null,null,null,null,0,0],[0,0,0,0,0,null,null,0,0]]\n\n\nExample 2:\n\nInput: n = 3\nOutput: [[0,0,0]]\n\n\n \nConstraints:\n\n\n\t1 <= n <= 20\n\n"
+}

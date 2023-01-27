@@ -1,0 +1,10 @@
+{
+  "id": "clumsy-factorial",
+  "name": "Clumsy Factorial",
+  "tags": [
+    "Math",
+    "Stack",
+    "Simulation"
+  ],
+  "description": "The factorial of a positive integer n is the product of all positive integers less than or equal to n.\n\n\n\tFor example, factorial(10) = 10 * 9 * 8 * 7 * 6 * 5 * 4 * 3 * 2 * 1.\n\n\nWe make a clumsy factorial using the integers in decreasing order by swapping out the multiply operations for a fixed rotation of operations with multiply '*', divide '/', add '+', and subtract '-' in this order.\n\n\n\tFor example, clumsy(10) = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1.\n\n\nHowever, these operations are still applied using the usual order of operations of arithmetic. We do all multiplication and division steps before any addition or subtraction steps, and multiplication and division steps are processed left to right.\n\nAdditionally, the division that we use is floor division such that 10 * 9 / 8 = 90 / 8 = 11.\n\nGiven an integer n, return the clumsy factorial of n.\n\n \nExample 1:\n\nInput: n = 4\nOutput: 7\nExplanation: 7 = 4 * 3 / 2 + 1\n\n\nExample 2:\n\nInput: n = 10\nOutput: 12\nExplanation: 12 = 10 * 9 / 8 + 7 - 6 * 5 / 4 + 3 - 2 * 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 104\n\n"
+}

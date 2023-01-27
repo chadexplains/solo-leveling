@@ -1,0 +1,9 @@
+{
+  "id": "count-vowel-substrings-of-a-string",
+  "name": "Count Vowel Substrings of a String",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "A substring is a contiguous (non-empty) sequence of characters within a string.\n\nA vowel substring is a substring that only consists of vowels ('a', 'e', 'i', 'o', and 'u') and has all five vowels present in it.\n\nGiven a string word, return the number of vowel substrings in word.\n\n \nExample 1:\n\nInput: word = \"aeiouu\"\nOutput: 2\nExplanation: The vowel substrings of word are as follows (underlined):\n- \"aeiouu\"\n- \"aeiouu\"\n\n\nExample 2:\n\nInput: word = \"unicornarihan\"\nOutput: 0\nExplanation: Not all 5 vowels are present, so there are no vowel substrings.\n\n\nExample 3:\n\nInput: word = \"cuaieuouac\"\nOutput: 7\nExplanation: The vowel substrings of word are as follows (underlined):\n- \"cuaieuouac\"\n- \"cuaieuouac\"\n- \"cuaieuouac\"\n- \"cuaieuouac\"\n- \"cuaieuouac\"\n- \"cuaieuouac\"\n- \"cuaieuouac\"\n\n\n \nConstraints:\n\n\n\t1 <= word.length <= 100\n\tword consists of lowercase English letters only.\n\n"
+}

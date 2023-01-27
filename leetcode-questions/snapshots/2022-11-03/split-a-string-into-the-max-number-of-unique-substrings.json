@@ -1,0 +1,10 @@
+{
+  "id": "split-a-string-into-the-max-number-of-unique-substrings",
+  "name": "Split a String Into the Max Number of Unique Substrings",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Backtracking"
+  ],
+  "description": "Given a string s, return the maximum number of unique substrings that the given string can be split into.\n\nYou can split string s into any list of non-empty substrings, where the concatenation of the substrings forms the original string. However, you must split the substrings such that all of them are unique.\n\nA substring is a contiguous sequence of characters within a string.\n\n \nExample 1:\n\nInput: s = \"ababccc\"\nOutput: 5\nExplanation: One way to split maximally is ['a', 'b', 'ab', 'c', 'cc']. Splitting like ['a', 'b', 'a', 'b', 'c', 'cc'] is not valid as you have 'a' and 'b' multiple times.\n\n\nExample 2:\n\nInput: s = \"aba\"\nOutput: 2\nExplanation: One way to split maximally is ['a', 'ba'].\n\n\nExample 3:\n\nInput: s = \"aa\"\nOutput: 1\nExplanation: It is impossible to split the string any further.\n\n\n \nConstraints:\n\n\n\t\n\t1 <= s.length <= 16\n\t\n\t\n\ts contains only lower case English letters.\n\t\n\n"
+}

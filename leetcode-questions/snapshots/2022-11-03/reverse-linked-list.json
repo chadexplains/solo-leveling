@@ -1,0 +1,9 @@
+{
+  "id": "reverse-linked-list",
+  "name": "Reverse Linked List",
+  "tags": [
+    "Linked List",
+    "Recursion"
+  ],
+  "description": "Given the head of a singly linked list, reverse the list, and return the reversed list.\n\n \nExample 1:\n\nInput: head = [1,2,3,4,5]\nOutput: [5,4,3,2,1]\n\n\nExample 2:\n\nInput: head = [1,2]\nOutput: [2,1]\n\n\nExample 3:\n\nInput: head = []\nOutput: []\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is the range [0, 5000].\n\t-5000 <= Node.val <= 5000\n\n\n \nFollow up: A linked list can be reversed either iteratively or recursively. Could you implement both?\n"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "distant-barcodes",
+  "name": "Distant Barcodes",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Greedy",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Counting"
+  ],
+  "description": "In a warehouse, there is a row of barcodes, where the ith barcode is barcodes[i].\n\nRearrange the barcodes so that no two adjacent barcodes are equal. You may return any answer, and it is guaranteed an answer exists.\n\n \nExample 1:\nInput: barcodes = [1,1,1,2,2,2]\nOutput: [2,1,2,1,2,1]\nExample 2:\nInput: barcodes = [1,1,1,1,2,2,3,3]\nOutput: [1,3,1,3,1,2,1,2]\n\n \nConstraints:\n\n\n\t1 <= barcodes.length <= 10000\n\t1 <= barcodes[i] <= 10000\n\n"
+}

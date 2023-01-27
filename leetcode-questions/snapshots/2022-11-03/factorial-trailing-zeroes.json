@@ -1,0 +1,8 @@
+{
+  "id": "factorial-trailing-zeroes",
+  "name": "Factorial Trailing Zeroes",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer n, return the number of trailing zeroes in n!.\n\nNote that n! = n * (n - 1) * (n - 2) * ... * 3 * 2 * 1.\n\n \nExample 1:\n\nInput: n = 3\nOutput: 0\nExplanation: 3! = 6, no trailing zero.\n\n\nExample 2:\n\nInput: n = 5\nOutput: 1\nExplanation: 5! = 120, one trailing zero.\n\n\nExample 3:\n\nInput: n = 0\nOutput: 0\n\n\n \nConstraints:\n\n\n\t0 <= n <= 104\n\n\n \nFollow up: Could you write a solution that works in logarithmic time complexity?\n"
+}

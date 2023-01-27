@@ -1,0 +1,11 @@
+{
+  "id": "group-anagrams",
+  "name": "Group Anagrams",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Sorting"
+  ],
+  "description": "Given an array of strings strs, group the anagrams together. You can return the answer in any order.\n\nAn Anagram is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.\n\n \nExample 1:\nInput: strs = [\"eat\",\"tea\",\"tan\",\"ate\",\"nat\",\"bat\"]\nOutput: [[\"bat\"],[\"nat\",\"tan\"],[\"ate\",\"eat\",\"tea\"]]\nExample 2:\nInput: strs = [\"\"]\nOutput: [[\"\"]]\nExample 3:\nInput: strs = [\"a\"]\nOutput: [[\"a\"]]\n\n \nConstraints:\n\n\n\t1 <= strs.length <= 104\n\t0 <= strs[i].length <= 100\n\tstrs[i] consists of lowercase English letters.\n\n"
+}

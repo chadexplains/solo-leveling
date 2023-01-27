@@ -1,0 +1,9 @@
+{
+  "id": "find-kth-bit-in-nth-binary-string",
+  "name": "Find Kth Bit in Nth Binary String",
+  "tags": [
+    "String",
+    "Recursion"
+  ],
+  "description": "Given two positive integers n and k, the binary string Sn is formed as follows:\n\n\n\tS1 = \"0\"\n\tSi = Si - 1 + \"1\" + reverse(invert(Si - 1)) for i > 1\n\n\nWhere + denotes the concatenation operation, reverse(x) returns the reversed string x, and invert(x) inverts all the bits in x (0 changes to 1 and 1 changes to 0).\n\nFor example, the first four strings in the above sequence are:\n\n\n\tS1 = \"0\"\n\tS2 = \"011\"\n\tS3 = \"0111001\"\n\tS4 = \"011100110110001\"\n\n\nReturn the kth bit in Sn. It is guaranteed that k is valid for the given n.\n\n \nExample 1:\n\nInput: n = 3, k = 1\nOutput: \"0\"\nExplanation: S3 is \"0111001\".\nThe 1st bit is \"0\".\n\n\nExample 2:\n\nInput: n = 4, k = 11\nOutput: \"1\"\nExplanation: S4 is \"011100110110001\".\nThe 11th bit is \"1\".\n\n\n \nConstraints:\n\n\n\t1 <= n <= 20\n\t1 <= k <= 2n - 1\n\n"
+}

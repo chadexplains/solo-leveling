@@ -1,0 +1,9 @@
+{
+  "id": "longest-palindromic-substring",
+  "name": "Longest Palindromic Substring",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given a string s, return the longest palindromic substring in s.\n\n \nExample 1:\n\nInput: s = \"babad\"\nOutput: \"bab\"\nExplanation: \"aba\" is also a valid answer.\n\n\nExample 2:\n\nInput: s = \"cbbd\"\nOutput: \"bb\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts consist of only digits and English letters.\n\n"
+}

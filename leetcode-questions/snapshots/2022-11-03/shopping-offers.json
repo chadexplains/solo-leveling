@@ -1,0 +1,13 @@
+{
+  "id": "shopping-offers",
+  "name": "Shopping Offers",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Memoization",
+    "Bitmask"
+  ],
+  "description": "In LeetCode Store, there are n items to sell. Each item has a price. However, there are some special offers, and a special offer consists of one or more different kinds of items with a sale price.\n\nYou are given an integer array price where price[i] is the price of the ith item, and an integer array needs where needs[i] is the number of pieces of the ith item you want to buy.\n\nYou are also given an array special where special[i] is of size n + 1 where special[i][j] is the number of pieces of the jth item in the ith offer and special[i][n] (i.e., the last integer in the array) is the price of the ith offer.\n\nReturn the lowest price you have to pay for exactly certain items as given, where you could make optimal use of the special offers. You are not allowed to buy more items than you want, even if that would lower the overall price. You could use any of the special offers as many times as you want.\n\n \nExample 1:\n\nInput: price = [2,5], special = [[3,0,5],[1,2,10]], needs = [3,2]\nOutput: 14\nExplanation: There are two kinds of items, A and B. Their prices are $2 and $5 respectively. \nIn special offer 1, you can pay $5 for 3A and 0B\nIn special offer 2, you can pay $10 for 1A and 2B. \nYou need to buy 3A and 2B, so you may pay $10 for 1A and 2B (special offer #2), and $4 for 2A.\n\n\nExample 2:\n\nInput: price = [2,3,4], special = [[1,1,0,4],[2,2,1,9]], needs = [1,2,1]\nOutput: 11\nExplanation: The price of A is $2, and $3 for B, $4 for C. \nYou may pay $4 for 1A and 1B, and $9 for 2A ,2B and 1C. \nYou need to buy 1A ,2B and 1C, so you may pay $4 for 1A and 1B (special offer #1), and $3 for 1B, $4 for 1C. \nYou cannot add more items, though only $9 for 2A ,2B and 1C.\n\n\n \nConstraints:\n\n\n\tn == price.length == needs.length\n\t1 <= n <= 6\n\t0 <= price[i], needs[i] <= 10\n\t1 <= special.length <= 100\n\tspecial[i].length == n + 1\n\t0 <= special[i][j] <= 50\n\n"
+}

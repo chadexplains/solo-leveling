@@ -1,0 +1,11 @@
+{
+  "id": "01-matrix",
+  "name": "01 Matrix",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.\n\nThe distance between two adjacent cells is 1.\n\n \nExample 1:\n\nInput: mat = [[0,0,0],[0,1,0],[0,0,0]]\nOutput: [[0,0,0],[0,1,0],[0,0,0]]\n\n\nExample 2:\n\nInput: mat = [[0,0,0],[0,1,0],[1,1,1]]\nOutput: [[0,0,0],[0,1,0],[1,2,1]]\n\n\n \nConstraints:\n\n\n\tm == mat.length\n\tn == mat[i].length\n\t1 <= m, n <= 104\n\t1 <= m * n <= 104\n\tmat[i][j] is either 0 or 1.\n\tThere is at least one 0 in mat.\n\n"
+}

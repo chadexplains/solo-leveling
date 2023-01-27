@@ -1,0 +1,11 @@
+{
+  "id": "maximum-segment-sum-after-removals",
+  "name": "Maximum Segment Sum After Removals",
+  "tags": [
+    "Array",
+    "Union Find",
+    "Prefix Sum",
+    "Ordered Set"
+  ],
+  "description": "You are given two 0-indexed integer arrays nums and removeQueries, both of length n. For the ith query, the element in nums at the index removeQueries[i] is removed, splitting nums into different segments.\n\nA segment is a contiguous sequence of positive integers in nums. A segment sum is the sum of every element in a segment.\n\nReturn an integer array answer, of length n, where answer[i] is the maximum segment sum after applying the ith removal.\n\nNote: The same index will not be removed more than once.\n\n \nExample 1:\n\nInput: nums = [1,2,5,6,1], removeQueries = [0,3,2,4,1]\nOutput: [14,7,2,2,0]\nExplanation: Using 0 to indicate a removed element, the answer is as follows:\nQuery 1: Remove the 0th element, nums becomes [0,2,5,6,1] and the maximum segment sum is 14 for segment [2,5,6,1].\nQuery 2: Remove the 3rd element, nums becomes [0,2,5,0,1] and the maximum segment sum is 7 for segment [2,5].\nQuery 3: Remove the 2nd element, nums becomes [0,2,0,0,1] and the maximum segment sum is 2 for segment [2]. \nQuery 4: Remove the 4th element, nums becomes [0,2,0,0,0] and the maximum segment sum is 2 for segment [2]. \nQuery 5: Remove the 1st element, nums becomes [0,0,0,0,0] and the maximum segment sum is 0, since there are no segments.\nFinally, we return [14,7,2,2,0].\n\nExample 2:\n\nInput: nums = [3,2,11,1], removeQueries = [3,2,1,0]\nOutput: [16,5,3,0]\nExplanation: Using 0 to indicate a removed element, the answer is as follows:\nQuery 1: Remove the 3rd element, nums becomes [3,2,11,0] and the maximum segment sum is 16 for segment [3,2,11].\nQuery 2: Remove the 2nd element, nums becomes [3,2,0,0] and the maximum segment sum is 5 for segment [3,2].\nQuery 3: Remove the 1st element, nums becomes [3,0,0,0] and the maximum segment sum is 3 for segment [3].\nQuery 4: Remove the 0th element, nums becomes [0,0,0,0] and the maximum segment sum is 0, since there are no segments.\nFinally, we return [16,5,3,0].\n\n\n \nConstraints:\n\n\n\tn == nums.length == removeQueries.length\n\t1 <= n <= 105\n\t1 <= nums[i] <= 109\n\t0 <= removeQueries[i] < n\n\tAll the values of removeQueries are unique.\n\n"
+}

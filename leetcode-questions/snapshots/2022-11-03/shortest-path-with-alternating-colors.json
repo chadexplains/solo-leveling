@@ -1,0 +1,9 @@
+{
+  "id": "shortest-path-with-alternating-colors",
+  "name": "Shortest Path with Alternating Colors",
+  "tags": [
+    "Breadth-First Search",
+    "Graph"
+  ],
+  "description": "You are given an integer n, the number of nodes in a directed graph where the nodes are labeled from 0 to n - 1. Each edge is red or blue in this graph, and there could be self-edges and parallel edges.\n\nYou are given two arrays redEdges and blueEdges where:\n\n\n\tredEdges[i] = [ai, bi] indicates that there is a directed red edge from node ai to node bi in the graph, and\n\tblueEdges[j] = [uj, vj] indicates that there is a directed blue edge from node uj to node vj in the graph.\n\n\nReturn an array answer of length n, where each answer[x] is the length of the shortest path from node 0 to node x such that the edge colors alternate along the path, or -1 if such a path does not exist.\n\n \nExample 1:\n\nInput: n = 3, redEdges = [[0,1],[1,2]], blueEdges = []\nOutput: [0,1,-1]\n\n\nExample 2:\n\nInput: n = 3, redEdges = [[0,1]], blueEdges = [[2,1]]\nOutput: [0,1,-1]\n\n\n \nConstraints:\n\n\n\t1 <= n <= 100\n\t0 <= redEdges.length, blueEdges.length <= 400\n\tredEdges[i].length == blueEdges[j].length == 2\n\t0 <= ai, bi, uj, vj < n\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "rings-and-rods",
+  "name": "Rings and Rods",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "There are n rings and each ring is either red, green, or blue. The rings are distributed across ten rods labeled from 0 to 9.\n\nYou are given a string rings of length 2n that describes the n rings that are placed onto the rods. Every two characters in rings forms a color-position pair that is used to describe each ring where:\n\n\n\tThe first character of the ith pair denotes the ith ring's color ('R', 'G', 'B').\n\tThe second character of the ith pair denotes the rod that the ith ring is placed on ('0' to '9').\n\n\nFor example, \"R3G2B1\" describes n == 3 rings: a red ring placed onto the rod labeled 3, a green ring placed onto the rod labeled 2, and a blue ring placed onto the rod labeled 1.\n\nReturn the number of rods that have all three colors of rings on them.\n\n \nExample 1:\n\nInput: rings = \"B0B6G0R6R0R6G9\"\nOutput: 1\nExplanation: \n- The rod labeled 0 holds 3 rings with all colors: red, green, and blue.\n- The rod labeled 6 holds 3 rings, but it only has red and blue.\n- The rod labeled 9 holds only a green ring.\nThus, the number of rods with all three colors is 1.\n\n\nExample 2:\n\nInput: rings = \"B0R0G0R9R0B0G0\"\nOutput: 1\nExplanation: \n- The rod labeled 0 holds 6 rings with all colors: red, green, and blue.\n- The rod labeled 9 holds only a red ring.\nThus, the number of rods with all three colors is 1.\n\n\nExample 3:\n\nInput: rings = \"G4\"\nOutput: 0\nExplanation: \nOnly one ring is given. Thus, no rods have all three colors.\n\n\n \nConstraints:\n\n\n\trings.length == 2 * n\n\t1 <= n <= 100\n\trings[i] where i is even is either 'R', 'G', or 'B' (0-indexed).\n\trings[i] where i is odd is a digit from '0' to '9' (0-indexed).\n\n"
+}

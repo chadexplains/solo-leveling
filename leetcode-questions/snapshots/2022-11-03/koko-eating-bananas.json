@@ -1,0 +1,9 @@
+{
+  "id": "koko-eating-bananas",
+  "name": "Koko Eating Bananas",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "Koko loves to eat bananas. There are n piles of bananas, the ith pile has piles[i] bananas. The guards have gone and will come back in h hours.\n\nKoko can decide her bananas-per-hour eating speed of k. Each hour, she chooses some pile of bananas and eats k bananas from that pile. If the pile has less than k bananas, she eats all of them instead and will not eat any more bananas during this hour.\n\nKoko likes to eat slowly but still wants to finish eating all the bananas before the guards return.\n\nReturn the minimum integer k such that she can eat all the bananas within h hours.\n\n \nExample 1:\n\nInput: piles = [3,6,7,11], h = 8\nOutput: 4\n\n\nExample 2:\n\nInput: piles = [30,11,23,4,20], h = 5\nOutput: 30\n\n\nExample 3:\n\nInput: piles = [30,11,23,4,20], h = 6\nOutput: 23\n\n\n \nConstraints:\n\n\n\t1 <= piles.length <= 104\n\tpiles.length <= h <= 109\n\t1 <= piles[i] <= 109\n\n"
+}

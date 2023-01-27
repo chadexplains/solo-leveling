@@ -1,0 +1,9 @@
+{
+  "id": "minimum-length-of-string-after-deleting-similar-ends",
+  "name": "Minimum Length of String After Deleting Similar Ends",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a string s consisting only of characters 'a', 'b', and 'c'. You are asked to apply the following algorithm on the string any number of times:\n\n\n\tPick a non-empty prefix from the string s where all the characters in the prefix are equal.\n\tPick a non-empty suffix from the string s where all the characters in this suffix are equal.\n\tThe prefix and the suffix should not intersect at any index.\n\tThe characters from the prefix and suffix must be the same.\n\tDelete both the prefix and the suffix.\n\n\nReturn the minimum length of s after performing the above operation any number of times (possibly zero times).\n\n \nExample 1:\n\nInput: s = \"ca\"\nOutput: 2\nExplanation: You can't remove any characters, so the string stays as is.\n\n\nExample 2:\n\nInput: s = \"cabaabac\"\nOutput: 0\nExplanation: An optimal sequence of operations is:\n- Take prefix = \"c\" and suffix = \"c\" and remove them, s = \"abaaba\".\n- Take prefix = \"a\" and suffix = \"a\" and remove them, s = \"baab\".\n- Take prefix = \"b\" and suffix = \"b\" and remove them, s = \"aa\".\n- Take prefix = \"a\" and suffix = \"a\" and remove them, s = \"\".\n\nExample 3:\n\nInput: s = \"aabccabba\"\nOutput: 3\nExplanation: An optimal sequence of operations is:\n- Take prefix = \"aa\" and suffix = \"a\" and remove them, s = \"bccabb\".\n- Take prefix = \"b\" and suffix = \"bb\" and remove them, s = \"cca\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts only consists of characters 'a', 'b', and 'c'.\n\n"
+}

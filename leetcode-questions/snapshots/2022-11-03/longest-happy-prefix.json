@@ -1,0 +1,11 @@
+{
+  "id": "longest-happy-prefix",
+  "name": "Longest Happy Prefix",
+  "tags": [
+    "String",
+    "Rolling Hash",
+    "String Matching",
+    "Hash Function"
+  ],
+  "description": "A string is called a happy prefix if is a non-empty prefix which is also a suffix (excluding itself).\n\nGiven a string s, return the longest happy prefix of s. Return an empty string \"\" if no such prefix exists.\n\n \nExample 1:\n\nInput: s = \"level\"\nOutput: \"l\"\nExplanation: s contains 4 prefix excluding itself (\"l\", \"le\", \"lev\", \"leve\"), and suffix (\"l\", \"el\", \"vel\", \"evel\"). The largest prefix which is also suffix is given by \"l\".\n\n\nExample 2:\n\nInput: s = \"ababab\"\nOutput: \"abab\"\nExplanation: \"abab\" is the largest prefix which is also suffix. They can overlap in the original string.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts contains only lowercase English letters.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "minimum-cost-to-hire-k-workers",
+  "name": "Minimum Cost to Hire K Workers",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "description": "There are n workers. You are given two integer arrays quality and wage where quality[i] is the quality of the ith worker and wage[i] is the minimum wage expectation for the ith worker.\n\nWe want to hire exactly k workers to form a paid group. To hire a group of k workers, we must pay them according to the following rules:\n\n\n\tEvery worker in the paid group should be paid in the ratio of their quality compared to other workers in the paid group.\n\tEvery worker in the paid group must be paid at least their minimum wage expectation.\n\n\nGiven the integer k, return the least amount of money needed to form a paid group satisfying the above conditions. Answers within 10-5 of the actual answer will be accepted.\n\n \nExample 1:\n\nInput: quality = [10,20,5], wage = [70,50,30], k = 2\nOutput: 105.00000\nExplanation: We pay 70 to 0th worker and 35 to 2nd worker.\n\n\nExample 2:\n\nInput: quality = [3,1,10,10,1], wage = [4,8,2,2,7], k = 3\nOutput: 30.66667\nExplanation: We pay 4 to 0th worker, 13.33333 to 2nd and 3rd workers separately.\n\n\n \nConstraints:\n\n\n\tn == quality.length == wage.length\n\t1 <= k <= n <= 104\n\t1 <= quality[i], wage[i] <= 104\n\n"
+}

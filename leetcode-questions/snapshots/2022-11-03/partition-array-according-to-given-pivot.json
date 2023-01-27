@@ -1,0 +1,10 @@
+{
+  "id": "partition-array-according-to-given-pivot",
+  "name": "Partition Array According to Given Pivot",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Simulation"
+  ],
+  "description": "You are given a 0-indexed integer array nums and an integer pivot. Rearrange nums such that the following conditions are satisfied:\n\n\n\tEvery element less than pivot appears before every element greater than pivot.\n\tEvery element equal to pivot appears in between the elements less than and greater than pivot.\n\tThe relative order of the elements less than pivot and the elements greater than pivot is maintained.\n\t\n\t\tMore formally, consider every pi, pj where pi is the new position of the ith element and pj is the new position of the jth element. For elements less than pivot, if i < j and nums[i] < pivot and nums[j] < pivot, then pi < pj. Similarly for elements greater than pivot, if i < j and nums[i] > pivot and nums[j] > pivot, then pi < pj.\n\t\n\t\n\n\nReturn nums after the rearrangement.\n\n \nExample 1:\n\nInput: nums = [9,12,5,10,14,3,10], pivot = 10\nOutput: [9,5,3,10,10,12,14]\nExplanation: \nThe elements 9, 5, and 3 are less than the pivot so they are on the left side of the array.\nThe elements 12 and 14 are greater than the pivot so they are on the right side of the array.\nThe relative ordering of the elements less than and greater than pivot is also maintained. [9, 5, 3] and [12, 14] are the respective orderings.\n\n\nExample 2:\n\nInput: nums = [-3,4,3,2], pivot = 2\nOutput: [-3,2,4,3]\nExplanation: \nThe element -3 is less than the pivot so it is on the left side of the array.\nThe elements 4 and 3 are greater than the pivot so they are on the right side of the array.\nThe relative ordering of the elements less than and greater than pivot is also maintained. [-3] and [4, 3] are the respective orderings.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-106 <= nums[i] <= 106\n\tpivot equals to an element of nums.\n\n"
+}

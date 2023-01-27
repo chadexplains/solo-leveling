@@ -1,0 +1,10 @@
+{
+  "id": "set-intersection-size-at-least-two",
+  "name": "Set Intersection Size At Least Two",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "You are given a 2D integer array intervals where intervals[i] = [starti, endi] represents all the integers from starti to endi inclusively.\n\nA containing set is an array nums where each interval from intervals has at least two integers in nums.\n\n\n\tFor example, if intervals = [[1,3], [3,7], [8,9]], then [1,2,4,7,8,9] and [2,3,4,8,9] are containing sets.\n\n\nReturn the minimum possible size of a containing set.\n\n \nExample 1:\n\nInput: intervals = [[1,3],[3,7],[8,9]]\nOutput: 5\nExplanation: let nums = [2, 3, 4, 8, 9].\nIt can be shown that there cannot be any containing array of size 4.\n\n\nExample 2:\n\nInput: intervals = [[1,3],[1,4],[2,5],[3,5]]\nOutput: 3\nExplanation: let nums = [2, 3, 4].\nIt can be shown that there cannot be any containing array of size 2.\n\n\nExample 3:\n\nInput: intervals = [[1,2],[2,3],[2,4],[4,5]]\nOutput: 5\nExplanation: let nums = [1, 2, 3, 4, 5].\nIt can be shown that there cannot be any containing array of size 4.\n\n\n \nConstraints:\n\n\n\t1 <= intervals.length <= 3000\n\tintervals[i].length == 2\n\t0 <= starti < endi <= 108\n\n"
+}

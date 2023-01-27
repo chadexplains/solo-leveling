@@ -1,0 +1,9 @@
+{
+  "id": "maximum-binary-string-after-change",
+  "name": "Maximum Binary String After Change",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a binary string binary consisting of only 0's or 1's. You can apply each of the following operations any number of times:\n\n\n\tOperation 1: If the number contains the substring \"00\", you can replace it with \"10\".\n\n\t\n\t\tFor example, \"00010\" -> \"10010\"\n\t\n\t\n\tOperation 2: If the number contains the substring \"10\", you can replace it with \"01\".\n\t\n\t\tFor example, \"00010\" -> \"00001\"\n\t\n\t\n\n\nReturn the maximum binary string you can obtain after any number of operations. Binary string x is greater than binary string y if x's decimal representation is greater than y's decimal representation.\n\n \nExample 1:\n\nInput: binary = \"000110\"\nOutput: \"111011\"\nExplanation: A valid transformation sequence can be:\n\"000110\" -> \"000101\" \n\"000101\" -> \"100101\" \n\"100101\" -> \"110101\" \n\"110101\" -> \"110011\" \n\"110011\" -> \"111011\"\n\n\nExample 2:\n\nInput: binary = \"01\"\nOutput: \"01\"\nExplanation: \"01\" cannot be transformed any further.\n\n\n \nConstraints:\n\n\n\t1 <= binary.length <= 105\n\tbinary consist of '0' and '1'.\n\n"
+}

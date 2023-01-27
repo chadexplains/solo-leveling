@@ -1,0 +1,9 @@
+{
+  "id": "rotate-list",
+  "name": "Rotate List",
+  "tags": [
+    "Linked List",
+    "Two Pointers"
+  ],
+  "description": "Given the head of a linked list, rotate the list to the right by k places.\n\n \nExample 1:\n\nInput: head = [1,2,3,4,5], k = 2\nOutput: [4,5,1,2,3]\n\n\nExample 2:\n\nInput: head = [0,1,2], k = 4\nOutput: [2,0,1]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [0, 500].\n\t-100 <= Node.val <= 100\n\t0 <= k <= 2 * 109\n\n"
+}

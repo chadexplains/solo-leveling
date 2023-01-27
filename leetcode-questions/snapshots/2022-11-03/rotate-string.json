@@ -1,0 +1,9 @@
+{
+  "id": "rotate-string",
+  "name": "Rotate String",
+  "tags": [
+    "String",
+    "String Matching"
+  ],
+  "description": "Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.\n\nA shift on s consists of moving the leftmost character of s to the rightmost position.\n\n\n\tFor example, if s = \"abcde\", then it will be \"bcdea\" after one shift.\n\n\n \nExample 1:\nInput: s = \"abcde\", goal = \"cdeab\"\nOutput: true\nExample 2:\nInput: s = \"abcde\", goal = \"abced\"\nOutput: false\n\n \nConstraints:\n\n\n\t1 <= s.length, goal.length <= 100\n\ts and goal consist of lowercase English letters.\n\n"
+}

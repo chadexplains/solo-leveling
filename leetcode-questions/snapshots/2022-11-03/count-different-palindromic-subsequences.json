@@ -1,0 +1,9 @@
+{
+  "id": "count-different-palindromic-subsequences",
+  "name": "Count Different Palindromic Subsequences",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given a string s, return the number of different non-empty palindromic subsequences in s. Since the answer may be very large, return it modulo 109 + 7.\n\nA subsequence of a string is obtained by deleting zero or more characters from the string.\n\nA sequence is palindromic if it is equal to the sequence reversed.\n\nTwo sequences a1, a2, ... and b1, b2, ... are different if there is some i for which ai != bi.\n\n \nExample 1:\n\nInput: s = \"bccb\"\nOutput: 6\nExplanation: The 6 different non-empty palindromic subsequences are 'b', 'c', 'bb', 'cc', 'bcb', 'bccb'.\nNote that 'bcb' is counted only once, even though it occurs twice.\n\n\nExample 2:\n\nInput: s = \"abcdabcdabcdabcdabcdabcdabcdabcddcbadcbadcbadcbadcbadcbadcbadcba\"\nOutput: 104860361\nExplanation: There are 3104860382 different non-empty palindromic subsequences, which is 104860361 modulo 109 + 7.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts[i] is either 'a', 'b', 'c', or 'd'.\n\n"
+}

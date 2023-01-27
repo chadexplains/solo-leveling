@@ -1,0 +1,11 @@
+{
+  "id": "first-unique-character-in-a-string",
+  "name": "First Unique Character in a String",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Queue",
+    "Counting"
+  ],
+  "description": "Given a string s, find the first non-repeating character in it and return its index. If it does not exist, return -1.\n\n \nExample 1:\nInput: s = \"leetcode\"\nOutput: 0\nExample 2:\nInput: s = \"loveleetcode\"\nOutput: 2\nExample 3:\nInput: s = \"aabb\"\nOutput: -1\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of only lowercase English letters.\n\n"
+}

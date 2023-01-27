@@ -1,0 +1,9 @@
+{
+  "id": "remove-stones-to-minimize-the-total",
+  "name": "Remove Stones to Minimize the Total",
+  "tags": [
+    "Array",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You are given a 0-indexed integer array piles, where piles[i] represents the number of stones in the ith pile, and an integer k. You should apply the following operation exactly k times:\n\n\n\tChoose any piles[i] and remove floor(piles[i] / 2) stones from it.\n\n\nNotice that you can apply the operation on the same pile more than once.\n\nReturn the minimum possible total number of stones remaining after applying the k operations.\n\nfloor(x) is the greatest integer that is smaller than or equal to x (i.e., rounds x down).\n\n \nExample 1:\n\nInput: piles = [5,4,9], k = 2\nOutput: 12\nExplanation: Steps of a possible scenario are:\n- Apply the operation on pile 2. The resulting piles are [5,4,5].\n- Apply the operation on pile 0. The resulting piles are [3,4,5].\nThe total number of stones in [3,4,5] is 12.\n\n\nExample 2:\n\nInput: piles = [4,3,6,7], k = 3\nOutput: 12\nExplanation: Steps of a possible scenario are:\n- Apply the operation on pile 2. The resulting piles are [4,3,3,7].\n- Apply the operation on pile 3. The resulting piles are [4,3,3,4].\n- Apply the operation on pile 0. The resulting piles are [2,3,3,4].\nThe total number of stones in [2,3,3,4] is 12.\n\n\n \nConstraints:\n\n\n\t1 <= piles.length <= 105\n\t1 <= piles[i] <= 104\n\t1 <= k <= 105\n\n"
+}

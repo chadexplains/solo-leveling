@@ -1,0 +1,14 @@
+{
+  "id": "two-sum-iv-input-is-a-bst",
+  "name": "Two Sum IV - Input is a BST",
+  "tags": [
+    "Hash Table",
+    "Two Pointers",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Search Tree",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a Binary Search Tree and a target number k, return true if there exist two elements in the BST such that their sum is equal to the given target.\n\n \nExample 1:\n\nInput: root = [5,3,6,2,4,null,7], k = 9\nOutput: true\n\n\nExample 2:\n\nInput: root = [5,3,6,2,4,null,7], k = 28\nOutput: false\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 104].\n\t-104 <= Node.val <= 104\n\troot is guaranteed to be a valid binary search tree.\n\t-105 <= k <= 105\n\n"
+}

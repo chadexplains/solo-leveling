@@ -1,0 +1,9 @@
+{
+  "id": "water-bottles",
+  "name": "Water Bottles",
+  "tags": [
+    "Math",
+    "Simulation"
+  ],
+  "description": "There are numBottles water bottles that are initially full of water. You can exchange numExchange empty water bottles from the market with one full water bottle.\n\nThe operation of drinking a full water bottle turns it into an empty bottle.\n\nGiven the two integers numBottles and numExchange, return the maximum number of water bottles you can drink.\n\n \nExample 1:\n\nInput: numBottles = 9, numExchange = 3\nOutput: 13\nExplanation: You can exchange 3 empty bottles to get 1 full water bottle.\nNumber of water bottles you can drink: 9 + 3 + 1 = 13.\n\n\nExample 2:\n\nInput: numBottles = 15, numExchange = 4\nOutput: 19\nExplanation: You can exchange 4 empty bottles to get 1 full water bottle. \nNumber of water bottles you can drink: 15 + 3 + 1 = 19.\n\n\n \nConstraints:\n\n\n\t1 <= numBottles <= 100\n\t2 <= numExchange <= 100\n\n"
+}

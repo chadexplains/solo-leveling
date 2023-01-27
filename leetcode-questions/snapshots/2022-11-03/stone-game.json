@@ -1,0 +1,11 @@
+{
+  "id": "stone-game",
+  "name": "Stone Game",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Game Theory"
+  ],
+  "description": "Alice and Bob play a game with piles of stones. There are an even number of piles arranged in a row, and each pile has a positive integer number of stones piles[i].\n\nThe objective of the game is to end with the most stones. The total number of stones across all the piles is odd, so there are no ties.\n\nAlice and Bob take turns, with Alice starting first. Each turn, a player takes the entire pile of stones either from the beginning or from the end of the row. This continues until there are no more piles left, at which point the person with the most stones wins.\n\nAssuming Alice and Bob play optimally, return true if Alice wins the game, or false if Bob wins.\n\n \nExample 1:\n\nInput: piles = [5,3,4,5]\nOutput: true\nExplanation: \nAlice starts first, and can only take the first 5 or the last 5.\nSay she takes the first 5, so that the row becomes [3, 4, 5].\nIf Bob takes 3, then the board is [4, 5], and Alice takes 5 to win with 10 points.\nIf Bob takes the last 5, then the board is [3, 4], and Alice takes 4 to win with 9 points.\nThis demonstrated that taking the first 5 was a winning move for Alice, so we return true.\n\n\nExample 2:\n\nInput: piles = [3,7,2,3]\nOutput: true\n\n\n \nConstraints:\n\n\n\t2 <= piles.length <= 500\n\tpiles.length is even.\n\t1 <= piles[i] <= 500\n\tsum(piles[i]) is odd.\n\n"
+}

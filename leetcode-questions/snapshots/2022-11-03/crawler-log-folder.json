@@ -1,0 +1,10 @@
+{
+  "id": "crawler-log-folder",
+  "name": "Crawler Log Folder",
+  "tags": [
+    "Array",
+    "String",
+    "Stack"
+  ],
+  "description": "The Leetcode file system keeps a log each time some user performs a change folder operation.\n\nThe operations are described below:\n\n\n\t\"../\" : Move to the parent folder of the current folder. (If you are already in the main folder, remain in the same folder).\n\t\"./\" : Remain in the same folder.\n\t\"x/\" : Move to the child folder named x (This folder is guaranteed to always exist).\n\n\nYou are given a list of strings logs where logs[i] is the operation performed by the user at the ith step.\n\nThe file system starts in the main folder, then the operations in logs are performed.\n\nReturn the minimum number of operations needed to go back to the main folder after the change folder operations.\n\n \nExample 1:\n\n\n\nInput: logs = [\"d1/\",\"d2/\",\"../\",\"d21/\",\"./\"]\nOutput: 2\nExplanation: Use this change folder operation \"../\" 2 times and go back to the main folder.\n\n\nExample 2:\n\n\n\nInput: logs = [\"d1/\",\"d2/\",\"./\",\"d3/\",\"../\",\"d31/\"]\nOutput: 3\n\n\nExample 3:\n\nInput: logs = [\"d1/\",\"../\",\"../\",\"../\"]\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= logs.length <= 103\n\t2 <= logs[i].length <= 10\n\tlogs[i] contains lowercase English letters, digits, '.', and '/'.\n\tlogs[i] follows the format described in the statement.\n\tFolder names consist of lowercase English letters and digits.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "divide-two-integers",
+  "name": "Divide Two Integers",
+  "tags": [
+    "Math",
+    "Bit Manipulation"
+  ],
+  "description": "Given two integers dividend and divisor, divide two integers without using multiplication, division, and mod operator.\n\nThe integer division should truncate toward zero, which means losing its fractional part. For example, 8.345 would be truncated to 8, and -2.7335 would be truncated to -2.\n\nReturn the quotient after dividing dividend by divisor.\n\nNote: Assume we are dealing with an environment that could only store integers within the 32-bit signed integer range: [−231, 231 − 1]. For this problem, if the quotient is strictly greater than 231 - 1, then return 231 - 1, and if the quotient is strictly less than -231, then return -231.\n\n \nExample 1:\n\nInput: dividend = 10, divisor = 3\nOutput: 3\nExplanation: 10/3 = 3.33333.. which is truncated to 3.\n\n\nExample 2:\n\nInput: dividend = 7, divisor = -3\nOutput: -2\nExplanation: 7/-3 = -2.33333.. which is truncated to -2.\n\n\n \nConstraints:\n\n\n\t-231 <= dividend, divisor <= 231 - 1\n\tdivisor != 0\n\n"
+}

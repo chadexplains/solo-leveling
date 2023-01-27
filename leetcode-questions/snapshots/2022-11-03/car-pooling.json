@@ -1,0 +1,12 @@
+{
+  "id": "car-pooling",
+  "name": "Car Pooling",
+  "tags": [
+    "Array",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Simulation",
+    "Prefix Sum"
+  ],
+  "description": "There is a car with capacity empty seats. The vehicle only drives east (i.e., it cannot turn around and drive west).\n\nYou are given the integer capacity and an array trips where trips[i] = [numPassengersi, fromi, toi] indicates that the ith trip has numPassengersi passengers and the locations to pick them up and drop them off are fromi and toi respectively. The locations are given as the number of kilometers due east from the car's initial location.\n\nReturn true if it is possible to pick up and drop off all passengers for all the given trips, or false otherwise.\n\n \nExample 1:\n\nInput: trips = [[2,1,5],[3,3,7]], capacity = 4\nOutput: false\n\n\nExample 2:\n\nInput: trips = [[2,1,5],[3,3,7]], capacity = 5\nOutput: true\n\n\n \nConstraints:\n\n\n\t1 <= trips.length <= 1000\n\ttrips[i].length == 3\n\t1 <= numPassengersi <= 100\n\t0 <= fromi < toi <= 1000\n\t1 <= capacity <= 105\n\n"
+}

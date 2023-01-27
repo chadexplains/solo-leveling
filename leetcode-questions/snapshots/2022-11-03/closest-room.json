@@ -1,0 +1,10 @@
+{
+  "id": "closest-room",
+  "name": "Closest Room",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sorting"
+  ],
+  "description": "There is a hotel with n rooms. The rooms are represented by a 2D integer array rooms where rooms[i] = [roomIdi, sizei] denotes that there is a room with room number roomIdi and size equal to sizei. Each roomIdi is guaranteed to be unique.\n\nYou are also given k queries in a 2D array queries where queries[j] = [preferredj, minSizej]. The answer to the jth query is the room number id of a room such that:\n\n\n\tThe room has a size of at least minSizej, and\n\tabs(id - preferredj) is minimized, where abs(x) is the absolute value of x.\n\n\nIf there is a tie in the absolute difference, then use the room with the smallest such id. If there is no such room, the answer is -1.\n\nReturn an array answer of length k where answer[j] contains the answer to the jth query.\n\n \nExample 1:\n\nInput: rooms = [[2,2],[1,2],[3,2]], queries = [[3,1],[3,3],[5,2]]\nOutput: [3,-1,3]\nExplanation: The answers to the queries are as follows:\nQuery = [3,1]: Room number 3 is the closest as abs(3 - 3) = 0, and its size of 2 is at least 1. The answer is 3.\nQuery = [3,3]: There are no rooms with a size of at least 3, so the answer is -1.\nQuery = [5,2]: Room number 3 is the closest as abs(3 - 5) = 2, and its size of 2 is at least 2. The answer is 3.\n\nExample 2:\n\nInput: rooms = [[1,4],[2,3],[3,5],[4,1],[5,2]], queries = [[2,3],[2,4],[2,5]]\nOutput: [2,1,3]\nExplanation: The answers to the queries are as follows:\nQuery = [2,3]: Room number 2 is the closest as abs(2 - 2) = 0, and its size of 3 is at least 3. The answer is 2.\nQuery = [2,4]: Room numbers 1 and 3 both have sizes of at least 4. The answer is 1 since it is smaller.\nQuery = [2,5]: Room number 3 is the only room with a size of at least 5. The answer is 3.\n\n \nConstraints:\n\n\n\tn == rooms.length\n\t1 <= n <= 105\n\tk == queries.length\n\t1 <= k <= 104\n\t1 <= roomIdi, preferredj <= 107\n\t1 <= sizei, minSizej <= 107\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "percentage-of-letter-in-string",
+  "name": "Percentage of Letter in String",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a string s and a character letter, return the percentage of characters in s that equal letter rounded down to the nearest whole percent.\n\n \nExample 1:\n\nInput: s = \"foobar\", letter = \"o\"\nOutput: 33\nExplanation:\nThe percentage of characters in s that equal the letter 'o' is 2 / 6 * 100% = 33% when rounded down, so we return 33.\n\n\nExample 2:\n\nInput: s = \"jjjj\", letter = \"k\"\nOutput: 0\nExplanation:\nThe percentage of characters in s that equal the letter 'k' is 0%, so we return 0.\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts consists of lowercase English letters.\n\tletter is a lowercase English letter.\n\n"
+}

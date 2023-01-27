@@ -1,0 +1,10 @@
+{
+  "id": "valid-palindrome-ii",
+  "name": "Valid Palindrome II",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Greedy"
+  ],
+  "description": "Given a string s, return true if the s can be palindrome after deleting at most one character from it.\n\n \nExample 1:\n\nInput: s = \"aba\"\nOutput: true\n\n\nExample 2:\n\nInput: s = \"abca\"\nOutput: true\nExplanation: You could delete the character 'c'.\n\n\nExample 3:\n\nInput: s = \"abc\"\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of lowercase English letters.\n\n"
+}

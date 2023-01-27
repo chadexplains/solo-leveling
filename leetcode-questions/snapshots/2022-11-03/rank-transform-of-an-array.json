@@ -1,0 +1,10 @@
+{
+  "id": "rank-transform-of-an-array",
+  "name": "Rank Transform of an Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sorting"
+  ],
+  "description": "Given an array of integers arr, replace each element with its rank.\n\nThe rank represents how large the element is. The rank has the following rules:\n\n\n\tRank is an integer starting from 1.\n\tThe larger the element, the larger the rank. If two elements are equal, their rank must be the same.\n\tRank should be as small as possible.\n\n\n \nExample 1:\n\nInput: arr = [40,10,20,30]\nOutput: [4,1,2,3]\nExplanation: 40 is the largest element. 10 is the smallest. 20 is the second smallest. 30 is the third smallest.\n\nExample 2:\n\nInput: arr = [100,100,100]\nOutput: [1,1,1]\nExplanation: Same elements share the same rank.\n\n\nExample 3:\n\nInput: arr = [37,12,28,9,100,56,80,5,12]\nOutput: [5,3,4,2,8,6,7,1,3]\n\n\n \nConstraints:\n\n\n\t0 <= arr.length <= 105\n\t-109 <= arr[i] <= 109\n\n"
+}

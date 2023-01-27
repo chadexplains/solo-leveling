@@ -1,0 +1,13 @@
+{
+  "id": "find-the-kth-largest-integer-in-the-array",
+  "name": "Find the Kth Largest Integer in the Array",
+  "tags": [
+    "Array",
+    "String",
+    "Divide and Conquer",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Quickselect"
+  ],
+  "description": "You are given an array of strings nums and an integer k. Each string in nums represents an integer without leading zeros.\n\nReturn the string that represents the kth largest integer in nums.\n\nNote: Duplicate numbers should be counted distinctly. For example, if nums is [\"1\",\"2\",\"2\"], \"2\" is the first largest integer, \"2\" is the second-largest integer, and \"1\" is the third-largest integer.\n\n \nExample 1:\n\nInput: nums = [\"3\",\"6\",\"7\",\"10\"], k = 4\nOutput: \"3\"\nExplanation:\nThe numbers in nums sorted in non-decreasing order are [\"3\",\"6\",\"7\",\"10\"].\nThe 4th largest integer in nums is \"3\".\n\n\nExample 2:\n\nInput: nums = [\"2\",\"21\",\"12\",\"1\"], k = 3\nOutput: \"2\"\nExplanation:\nThe numbers in nums sorted in non-decreasing order are [\"1\",\"2\",\"12\",\"21\"].\nThe 3rd largest integer in nums is \"2\".\n\n\nExample 3:\n\nInput: nums = [\"0\",\"0\"], k = 2\nOutput: \"0\"\nExplanation:\nThe numbers in nums sorted in non-decreasing order are [\"0\",\"0\"].\nThe 2nd largest integer in nums is \"0\".\n\n\n \nConstraints:\n\n\n\t1 <= k <= nums.length <= 104\n\t1 <= nums[i].length <= 100\n\tnums[i] consists of only digits.\n\tnums[i] will not have any leading zeros.\n\n"
+}

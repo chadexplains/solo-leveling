@@ -1,0 +1,10 @@
+{
+  "id": "best-position-for-a-service-centre",
+  "name": "Best Position for a Service Centre",
+  "tags": [
+    "Math",
+    "Geometry",
+    "Randomized"
+  ],
+  "description": "A delivery company wants to build a new service center in a new city. The company knows the positions of all the customers in this city on a 2D-Map and wants to build the new center in a position such that the sum of the euclidean distances to all customers is minimum.\n\nGiven an array positions where positions[i] = [xi, yi] is the position of the ith customer on the map, return the minimum sum of the euclidean distances to all customers.\n\nIn other words, you need to choose the position of the service center [xcentre, ycentre] such that the following formula is minimized:\n\nAnswers within 10-5 of the actual value will be accepted.\n\n \nExample 1:\n\nInput: positions = [[0,1],[1,0],[1,2],[2,1]]\nOutput: 4.00000\nExplanation: As shown, you can see that choosing [xcentre, ycentre] = [1, 1] will make the distance to each customer = 1, the sum of all distances is 4 which is the minimum possible we can achieve.\n\n\nExample 2:\n\nInput: positions = [[1,1],[3,3]]\nOutput: 2.82843\nExplanation: The minimum possible sum of distances = sqrt(2) + sqrt(2) = 2.82843\n\n\n \nConstraints:\n\n\n\t1 <= positions.length <= 50\n\tpositions[i].length == 2\n\t0 <= xi, yi <= 100\n\n"
+}

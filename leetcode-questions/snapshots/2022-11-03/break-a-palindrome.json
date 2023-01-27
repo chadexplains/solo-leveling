@@ -1,0 +1,9 @@
+{
+  "id": "break-a-palindrome",
+  "name": "Break a Palindrome",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "Given a palindromic string of lowercase English letters palindrome, replace exactly one character with any lowercase English letter so that the resulting string is not a palindrome and that it is the lexicographically smallest one possible.\n\nReturn the resulting string. If there is no way to replace a character to make it not a palindrome, return an empty string.\n\nA string a is lexicographically smaller than a string b (of the same length) if in the first position where a and b differ, a has a character strictly smaller than the corresponding character in b. For example, \"abcc\" is lexicographically smaller than \"abcd\" because the first position they differ is at the fourth character, and 'c' is smaller than 'd'.\n\n \nExample 1:\n\nInput: palindrome = \"abccba\"\nOutput: \"aaccba\"\nExplanation: There are many ways to make \"abccba\" not a palindrome, such as \"zbccba\", \"aaccba\", and \"abacba\".\nOf all the ways, \"aaccba\" is the lexicographically smallest.\n\n\nExample 2:\n\nInput: palindrome = \"a\"\nOutput: \"\"\nExplanation: There is no way to replace a single character to make \"a\" not a palindrome, so return an empty string.\n\n\n \nConstraints:\n\n\n\t1 <= palindrome.length <= 1000\n\tpalindrome consists of only lowercase English letters.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "maximum-xor-of-two-numbers-in-an-array",
+  "name": "Maximum XOR of Two Numbers in an Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Bit Manipulation",
+    "Trie"
+  ],
+  "description": "Given an integer array nums, return the maximum result of nums[i] XOR nums[j], where 0 <= i <= j < n.\n\n \nExample 1:\n\nInput: nums = [3,10,5,25,2,8]\nOutput: 28\nExplanation: The maximum result is 5 XOR 25 = 28.\n\n\nExample 2:\n\nInput: nums = [14,70,53,83,49,91,36,80,92,51,66,70]\nOutput: 127\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 2 * 105\n\t0 <= nums[i] <= 231 - 1\n\n"
+}

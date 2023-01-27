@@ -1,0 +1,9 @@
+{
+  "id": "arithmetic-subarrays",
+  "name": "Arithmetic Subarrays",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "A sequence of numbers is called arithmetic if it consists of at least two elements, and the difference between every two consecutive elements is the same. More formally, a sequence s is arithmetic if and only if s[i+1] - s[i] == s[1] - s[0] for all valid i.\n\nFor example, these are arithmetic sequences:\n\n1, 3, 5, 7, 9\n7, 7, 7, 7\n3, -1, -5, -9\n\nThe following sequence is not arithmetic:\n\n1, 1, 2, 5, 7\n\nYou are given an array of n integers, nums, and two arrays of m integers each, l and r, representing the m range queries, where the ith query is the range [l[i], r[i]]. All the arrays are 0-indexed.\n\nReturn a list of boolean elements answer, where answer[i] is true if the subarray nums[l[i]], nums[l[i]+1], ... , nums[r[i]] can be rearranged to form an arithmetic sequence, and false otherwise.\n\n \nExample 1:\n\nInput: nums = [4,6,5,9,3,7], l = [0,0,2], r = [2,3,5]\nOutput: [true,false,true]\nExplanation:\nIn the 0th query, the subarray is [4,6,5]. This can be rearranged as [6,5,4], which is an arithmetic sequence.\nIn the 1st query, the subarray is [4,6,5,9]. This cannot be rearranged as an arithmetic sequence.\nIn the 2nd query, the subarray is [5,9,3,7]. This can be rearranged as [3,5,7,9], which is an arithmetic sequence.\n\nExample 2:\n\nInput: nums = [-12,-9,-3,-12,-6,15,20,-25,-20,-15,-10], l = [0,1,6,4,8,7], r = [4,4,9,7,9,10]\nOutput: [false,true,false,false,true,true]\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\tm == l.length\n\tm == r.length\n\t2 <= n <= 500\n\t1 <= m <= 500\n\t0 <= l[i] < r[i] < n\n\t-105 <= nums[i] <= 105\n\n"
+}

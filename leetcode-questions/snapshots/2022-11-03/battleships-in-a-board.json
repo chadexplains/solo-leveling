@@ -1,0 +1,10 @@
+{
+  "id": "battleships-in-a-board",
+  "name": "Battleships in a Board",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Matrix"
+  ],
+  "description": "Given an m x n matrix board where each cell is a battleship 'X' or empty '.', return the number of the battleships on board.\n\nBattleships can only be placed horizontally or vertically on board. In other words, they can only be made of the shape 1 x k (1 row, k columns) or k x 1 (k rows, 1 column), where k can be of any size. At least one horizontal or vertical cell separates between two battleships (i.e., there are no adjacent battleships).\n\n \nExample 1:\n\nInput: board = [[\"X\",\".\",\".\",\"X\"],[\".\",\".\",\".\",\"X\"],[\".\",\".\",\".\",\"X\"]]\nOutput: 2\n\n\nExample 2:\n\nInput: board = [[\".\"]]\nOutput: 0\n\n\n \nConstraints:\n\n\n\tm == board.length\n\tn == board[i].length\n\t1 <= m, n <= 200\n\tboard[i][j] is either '.' or 'X'.\n\n\n \nFollow up: Could you do it in one-pass, using only O(1) extra memory and without modifying the values board?\n"
+}

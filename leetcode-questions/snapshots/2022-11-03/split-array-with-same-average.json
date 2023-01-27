@@ -1,0 +1,12 @@
+{
+  "id": "split-array-with-same-average",
+  "name": "Split Array With Same Average",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "You are given an integer array nums.\n\nYou should move each element of nums into one of the two arrays A and B such that A and B are non-empty, and average(A) == average(B).\n\nReturn true if it is possible to achieve that and false otherwise.\n\nNote that for an array arr, average(arr) is the sum of all the elements of arr over the length of arr.\n\n \nExample 1:\n\nInput: nums = [1,2,3,4,5,6,7,8]\nOutput: true\nExplanation: We can split the array into [1,4,5,8] and [2,3,6,7], and both of them have an average of 4.5.\n\n\nExample 2:\n\nInput: nums = [3,1]\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 30\n\t0 <= nums[i] <= 104\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "buddy-strings",
+  "name": "Buddy Strings",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given two strings s and goal, return true if you can swap two letters in s so the result is equal to goal, otherwise, return false.\n\nSwapping letters is defined as taking two indices i and j (0-indexed) such that i != j and swapping the characters at s[i] and s[j].\n\n\n\tFor example, swapping at indices 0 and 2 in \"abcd\" results in \"cbad\".\n\n\n \nExample 1:\n\nInput: s = \"ab\", goal = \"ba\"\nOutput: true\nExplanation: You can swap s[0] = 'a' and s[1] = 'b' to get \"ba\", which is equal to goal.\n\n\nExample 2:\n\nInput: s = \"ab\", goal = \"ab\"\nOutput: false\nExplanation: The only letters you can swap are s[0] = 'a' and s[1] = 'b', which results in \"ba\" != goal.\n\n\nExample 3:\n\nInput: s = \"aa\", goal = \"aa\"\nOutput: true\nExplanation: You can swap s[0] = 'a' and s[1] = 'a' to get \"aa\", which is equal to goal.\n\n\n \nConstraints:\n\n\n\t1 <= s.length, goal.length <= 2 * 104\n\ts and goal consist of lowercase letters.\n\n"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "two-best-non-overlapping-events",
+  "name": "Two Best Non-Overlapping Events",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You are given a 0-indexed 2D integer array of events where events[i] = [startTimei, endTimei, valuei]. The ith event starts at startTimei and ends at endTimei, and if you attend this event, you will receive a value of valuei. You can choose at most two non-overlapping events to attend such that the sum of their values is maximized.\n\nReturn this maximum sum.\n\nNote that the start time and end time is inclusive: that is, you cannot attend two events where one of them starts and the other ends at the same time. More specifically, if you attend an event with end time t, the next event must start at or after t + 1.\n\n \nExample 1:\n\nInput: events = [[1,3,2],[4,5,2],[2,4,3]]\nOutput: 4\nExplanation: Choose the green events, 0 and 1 for a sum of 2 + 2 = 4.\n\n\nExample 2:\n\nInput: events = [[1,3,2],[4,5,2],[1,5,5]]\nOutput: 5\nExplanation: Choose event 2 for a sum of 5.\n\n\nExample 3:\n\nInput: events = [[1,5,3],[1,5,1],[6,6,5]]\nOutput: 8\nExplanation: Choose events 0 and 2 for a sum of 3 + 5 = 8.\n\n \nConstraints:\n\n\n\t2 <= events.length <= 105\n\tevents[i].length == 3\n\t1 <= startTimei <= endTimei <= 109\n\t1 <= valuei <= 106\n\n"
+}

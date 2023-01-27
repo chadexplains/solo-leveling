@@ -1,0 +1,11 @@
+{
+  "id": "sort-items-by-groups-respecting-dependencies",
+  "name": "Sort Items by Groups Respecting Dependencies",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph",
+    "Topological Sort"
+  ],
+  "description": "There are n items each belonging to zero or one of m groups where group[i] is the group that the i-th item belongs to and it's equal to -1 if the i-th item belongs to no group. The items and the groups are zero indexed. A group can have no item belonging to it.\n\nReturn a sorted list of the items such that:\n\n\n\tThe items that belong to the same group are next to each other in the sorted list.\n\tThere are some relations between these items where beforeItems[i] is a list containing all the items that should come before the i-th item in the sorted array (to the left of the i-th item).\n\n\nReturn any solution if there is more than one solution and return an empty list if there is no solution.\n\n \nExample 1:\n\n\n\nInput: n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3,6],[],[],[]]\nOutput: [6,3,4,1,5,2,0,7]\n\n\nExample 2:\n\nInput: n = 8, m = 2, group = [-1,-1,1,0,0,1,0,-1], beforeItems = [[],[6],[5],[6],[3],[],[4],[]]\nOutput: []\nExplanation: This is the same as example 1 except that 4 needs to be before 6 in the sorted list.\n\n\n \nConstraints:\n\n\n\t1 <= m <= n <= 3 * 104\n\tgroup.length == beforeItems.length == n\n\t-1 <= group[i] <= m - 1\n\t0 <= beforeItems[i].length <= n - 1\n\t0 <= beforeItems[i][j] <= n - 1\n\ti != beforeItems[i][j]\n\tbeforeItems[i] does not contain duplicates elements.\n\n"
+}

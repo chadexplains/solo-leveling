@@ -1,0 +1,8 @@
+{
+  "id": "painting-a-grid-with-three-different-colors",
+  "name": "Painting a Grid With Three Different Colors",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "You are given two integers m and n. Consider an m x n grid where each cell is initially white. You can paint each cell red, green, or blue. All cells must be painted.\n\nReturn the number of ways to color the grid with no two adjacent cells having the same color. Since the answer can be very large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: m = 1, n = 1\nOutput: 3\nExplanation: The three possible colorings are shown in the image above.\n\n\nExample 2:\n\nInput: m = 1, n = 2\nOutput: 6\nExplanation: The six possible colorings are shown in the image above.\n\n\nExample 3:\n\nInput: m = 5, n = 5\nOutput: 580986\n\n\n \nConstraints:\n\n\n\t1 <= m <= 5\n\t1 <= n <= 1000\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+  "name": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+  "tags": [
+    "Array",
+    "Sliding Window"
+  ],
+  "description": "Given an array of integers arr and two integers k and threshold, return the number of sub-arrays of size k and average greater than or equal to threshold.\n\n \nExample 1:\n\nInput: arr = [2,2,2,2,5,5,5,8], k = 3, threshold = 4\nOutput: 3\nExplanation: Sub-arrays [2,5,5],[5,5,5] and [5,5,8] have averages 4, 5 and 6 respectively. All other sub-arrays of size 3 have averages less than 4 (the threshold).\n\n\nExample 2:\n\nInput: arr = [11,13,17,23,29,31,7,5,2,3], k = 3, threshold = 5\nOutput: 6\nExplanation: The first 6 sub-arrays of size 3 have averages greater than 5. Note that averages are not integers.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 105\n\t1 <= arr[i] <= 104\n\t1 <= k <= arr.length\n\t0 <= threshold <= 104\n\n"
+}

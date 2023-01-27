@@ -1,0 +1,9 @@
+{
+  "id": "broken-calculator",
+  "name": "Broken Calculator",
+  "tags": [
+    "Math",
+    "Greedy"
+  ],
+  "description": "There is a broken calculator that has the integer startValue on its display initially. In one operation, you can:\n\n\n\tmultiply the number on display by 2, or\n\tsubtract 1 from the number on display.\n\n\nGiven two integers startValue and target, return the minimum number of operations needed to display target on the calculator.\n\n \nExample 1:\n\nInput: startValue = 2, target = 3\nOutput: 2\nExplanation: Use double operation and then decrement operation {2 -> 4 -> 3}.\n\n\nExample 2:\n\nInput: startValue = 5, target = 8\nOutput: 2\nExplanation: Use decrement and then double {5 -> 4 -> 8}.\n\n\nExample 3:\n\nInput: startValue = 3, target = 10\nOutput: 3\nExplanation: Use double, decrement and double {3 -> 6 -> 5 -> 10}.\n\n\n \nConstraints:\n\n\n\t1 <= startValue, target <= 109\n\n"
+}

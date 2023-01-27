@@ -1,0 +1,11 @@
+{
+  "id": "airplane-seat-assignment-probability",
+  "name": "Airplane Seat Assignment Probability",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Brainteaser",
+    "Probability and Statistics"
+  ],
+  "description": "n passengers board an airplane with exactly n seats. The first passenger has lost the ticket and picks a seat randomly. But after that, the rest of the passengers will:\n\n\n\tTake their own seat if it is still available, and\n\tPick other seats randomly when they find their seat occupied\n\n\nReturn the probability that the nth person gets his own seat.\n\n \nExample 1:\n\nInput: n = 1\nOutput: 1.00000\nExplanation: The first person can only get the first seat.\n\nExample 2:\n\nInput: n = 2\nOutput: 0.50000\nExplanation: The second person has a probability of 0.5 to get the second seat (when first person gets the first seat).\n\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\n"
+}

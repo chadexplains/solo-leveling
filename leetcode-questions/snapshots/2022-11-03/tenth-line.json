@@ -1,0 +1,8 @@
+{
+  "id": "tenth-line",
+  "name": "Tenth Line",
+  "tags": [
+    "Shell"
+  ],
+  "description": "Given a text file file.txt, print just the 10th line of the file.\n\nExample:\n\nAssume that file.txt has the following content:\n\nLine 1\nLine 2\nLine 3\nLine 4\nLine 5\nLine 6\nLine 7\nLine 8\nLine 9\nLine 10\n\n\nYour script should output the tenth line, which is:\n\nLine 10\n\n\nNote:\n1. If the file contains less than 10 lines, what should you output?\n2. There's at least three different solutions. Try to explore all possibilities.\n"
+}

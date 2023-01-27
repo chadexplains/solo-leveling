@@ -1,0 +1,8 @@
+{
+  "id": "the-kth-factor-of-n",
+  "name": "The kth Factor of n",
+  "tags": [
+    "Math"
+  ],
+  "description": "You are given two positive integers n and k. A factor of an integer n is defined as an integer i where n % i == 0.\n\nConsider a list of all factors of n sorted in ascending order, return the kth factor in this list or return -1 if n has less than k factors.\n\n \nExample 1:\n\nInput: n = 12, k = 3\nOutput: 3\nExplanation: Factors list is [1, 2, 3, 4, 6, 12], the 3rd factor is 3.\n\n\nExample 2:\n\nInput: n = 7, k = 2\nOutput: 7\nExplanation: Factors list is [1, 7], the 2nd factor is 7.\n\n\nExample 3:\n\nInput: n = 4, k = 4\nOutput: -1\nExplanation: Factors list is [1, 2, 4], there is only 3 factors. We should return -1.\n\n\n \nConstraints:\n\n\n\t1 <= k <= n <= 1000\n\n\n \nFollow up:\n\nCould you solve this problem in less than O(n) complexity?\n"
+}

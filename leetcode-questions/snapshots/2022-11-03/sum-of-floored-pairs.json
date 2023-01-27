@@ -1,0 +1,11 @@
+{
+  "id": "sum-of-floored-pairs",
+  "name": "Sum of Floored Pairs",
+  "tags": [
+    "Array",
+    "Math",
+    "Binary Search",
+    "Prefix Sum"
+  ],
+  "description": "Given an integer array nums, return the sum of floor(nums[i] / nums[j]) for all pairs of indices 0 <= i, j < nums.length in the array. Since the answer may be too large, return it modulo 109 + 7.\n\nThe floor() function returns the integer part of the division.\n\n \nExample 1:\n\nInput: nums = [2,5,9]\nOutput: 10\nExplanation:\nfloor(2 / 5) = floor(2 / 9) = floor(5 / 9) = 0\nfloor(2 / 2) = floor(5 / 5) = floor(9 / 9) = 1\nfloor(5 / 2) = 2\nfloor(9 / 2) = 4\nfloor(9 / 5) = 1\nWe calculate the floor of the division for every pair of indices in the array then sum them up.\n\n\nExample 2:\n\nInput: nums = [7,7,7,7,7,7,7]\nOutput: 49\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 105\n\n"
+}

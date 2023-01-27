@@ -1,0 +1,9 @@
+{
+  "id": "find-smallest-letter-greater-than-target",
+  "name": "Find Smallest Letter Greater Than Target",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "You are given an array of characters letters that is sorted in non-decreasing order, and a character target. There are at least two different characters in letters.\n\nReturn the smallest character in letters that is lexicographically greater than target. If such a character does not exist, return the first character in letters.\n\n \nExample 1:\n\nInput: letters = [\"c\",\"f\",\"j\"], target = \"a\"\nOutput: \"c\"\nExplanation: The smallest character that is lexicographically greater than 'a' in letters is 'c'.\n\n\nExample 2:\n\nInput: letters = [\"c\",\"f\",\"j\"], target = \"c\"\nOutput: \"f\"\nExplanation: The smallest character that is lexicographically greater than 'c' in letters is 'f'.\n\n\nExample 3:\n\nInput: letters = [\"x\",\"x\",\"y\",\"y\"], target = \"z\"\nOutput: \"x\"\nExplanation: There are no characters in letters that is lexicographically greater than 'z' so we return letters[0].\n\n\n \nConstraints:\n\n\n\t2 <= letters.length <= 104\n\tletters[i] is a lowercase English letter.\n\tletters is sorted in non-decreasing order.\n\tletters contains at least two different characters.\n\ttarget is a lowercase English letter.\n\n"
+}

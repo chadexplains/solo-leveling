@@ -1,0 +1,10 @@
+{
+  "id": "split-a-string-in-balanced-strings",
+  "name": "Split a String in Balanced Strings",
+  "tags": [
+    "String",
+    "Greedy",
+    "Counting"
+  ],
+  "description": "Balanced strings are those that have an equal quantity of 'L' and 'R' characters.\n\nGiven a balanced string s, split it into some number of substrings such that:\n\n\n\tEach substring is balanced.\n\n\nReturn the maximum number of balanced strings you can obtain.\n\n \nExample 1:\n\nInput: s = \"RLRRLLRLRL\"\nOutput: 4\nExplanation: s can be split into \"RL\", \"RRLL\", \"RL\", \"RL\", each substring contains same number of 'L' and 'R'.\n\n\nExample 2:\n\nInput: s = \"RLRRRLLRLL\"\nOutput: 2\nExplanation: s can be split into \"RL\", \"RRRLLRLL\", each substring contains same number of 'L' and 'R'.\nNote that s cannot be split into \"RL\", \"RR\", \"RL\", \"LR\", \"LL\", because the 2nd and 5th substrings are not balanced.\n\nExample 3:\n\nInput: s = \"LLLLRRRR\"\nOutput: 1\nExplanation: s can be split into \"LLLLRRRR\".\n\n\n \nConstraints:\n\n\n\t2 <= s.length <= 1000\n\ts[i] is either 'L' or 'R'.\n\ts is a balanced string.\n\n"
+}

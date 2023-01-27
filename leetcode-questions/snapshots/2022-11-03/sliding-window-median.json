@@ -1,0 +1,11 @@
+{
+  "id": "sliding-window-median",
+  "name": "Sliding Window Median",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window",
+    "Heap (Priority Queue)"
+  ],
+  "description": "The median is the middle value in an ordered integer list. If the size of the list is even, there is no middle value. So the median is the mean of the two middle values.\n\n\n\tFor examples, if arr = [2,3,4], the median is 3.\n\tFor examples, if arr = [1,2,3,4], the median is (2 + 3) / 2 = 2.5.\n\n\nYou are given an integer array nums and an integer k. There is a sliding window of size k which is moving from the very left of the array to the very right. You can only see the k numbers in the window. Each time the sliding window moves right by one position.\n\nReturn the median array for each window in the original array. Answers within 10-5 of the actual value will be accepted.\n\n \nExample 1:\n\nInput: nums = [1,3,-1,-3,5,3,6,7], k = 3\nOutput: [1.00000,-1.00000,-1.00000,3.00000,5.00000,6.00000]\nExplanation: \nWindow position                Median\n---------------                -----\n[1  3  -1] -3  5  3  6  7        1\n 1 [3  -1  -3] 5  3  6  7       -1\n 1  3 [-1  -3  5] 3  6  7       -1\n 1  3  -1 [-3  5  3] 6  7        3\n 1  3  -1  -3 [5  3  6] 7        5\n 1  3  -1  -3  5 [3  6  7]       6\n\n\nExample 2:\n\nInput: nums = [1,2,3,4,2,3,1,4,2], k = 3\nOutput: [2.00000,3.00000,3.00000,3.00000,2.00000,3.00000,2.00000]\n\n\n \nConstraints:\n\n\n\t1 <= k <= nums.length <= 105\n\t-231 <= nums[i] <= 231 - 1\n\n"
+}

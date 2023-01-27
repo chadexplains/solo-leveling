@@ -1,0 +1,9 @@
+{
+  "id": "minimum-recolors-to-get-k-consecutive-black-blocks",
+  "name": "Minimum Recolors to Get K Consecutive Black Blocks",
+  "tags": [
+    "String",
+    "Sliding Window"
+  ],
+  "description": "You are given a 0-indexed string blocks of length n, where blocks[i] is either 'W' or 'B', representing the color of the ith block. The characters 'W' and 'B' denote the colors white and black, respectively.\n\nYou are also given an integer k, which is the desired number of consecutive black blocks.\n\nIn one operation, you can recolor a white block such that it becomes a black block.\n\nReturn the minimum number of operations needed such that there is at least one occurrence of k consecutive black blocks.\n\n \nExample 1:\n\nInput: blocks = \"WBBWWBBWBW\", k = 7\nOutput: 3\nExplanation:\nOne way to achieve 7 consecutive black blocks is to recolor the 0th, 3rd, and 4th blocks\nso that blocks = \"BBBBBBBWBW\". \nIt can be shown that there is no way to achieve 7 consecutive black blocks in less than 3 operations.\nTherefore, we return 3.\n\n\nExample 2:\n\nInput: blocks = \"WBWBBBW\", k = 2\nOutput: 0\nExplanation:\nNo changes need to be made, since 2 consecutive black blocks already exist.\nTherefore, we return 0.\n\n\n \nConstraints:\n\n\n\tn == blocks.length\n\t1 <= n <= 100\n\tblocks[i] is either 'W' or 'B'.\n\t1 <= k <= n\n\n"
+}

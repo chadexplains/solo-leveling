@@ -1,0 +1,9 @@
+{
+  "id": "tuple-with-same-product",
+  "name": "Tuple with Same Product",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "Given an array nums of distinct positive integers, return the number of tuples (a, b, c, d) such that a * b = c * d where a, b, c, and d are elements of nums, and a != b != c != d.\n\n \nExample 1:\n\nInput: nums = [2,3,4,6]\nOutput: 8\nExplanation: There are 8 valid tuples:\n(2,6,3,4) , (2,6,4,3) , (6,2,3,4) , (6,2,4,3)\n(3,4,2,6) , (4,3,2,6) , (3,4,6,2) , (4,3,6,2)\n\n\nExample 2:\n\nInput: nums = [1,2,4,5,10]\nOutput: 16\nExplanation: There are 16 valid tuples:\n(1,10,2,5) , (1,10,5,2) , (10,1,2,5) , (10,1,5,2)\n(2,5,1,10) , (2,5,10,1) , (5,2,1,10) , (5,2,10,1)\n(2,10,4,5) , (2,10,5,4) , (10,2,4,5) , (10,2,5,4)\n(4,5,2,10) , (4,5,10,2) , (5,4,2,10) , (5,4,10,2)\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 1000\n\t1 <= nums[i] <= 104\n\tAll elements in nums are distinct.\n\n"
+}

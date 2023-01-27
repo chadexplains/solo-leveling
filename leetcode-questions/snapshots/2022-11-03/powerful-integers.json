@@ -1,0 +1,9 @@
+{
+  "id": "powerful-integers",
+  "name": "Powerful Integers",
+  "tags": [
+    "Hash Table",
+    "Math"
+  ],
+  "description": "Given three integers x, y, and bound, return a list of all the powerful integers that have a value less than or equal to bound.\n\nAn integer is powerful if it can be represented as xi + yj for some integers i >= 0 and j >= 0.\n\nYou may return the answer in any order. In your answer, each value should occur at most once.\n\n \nExample 1:\n\nInput: x = 2, y = 3, bound = 10\nOutput: [2,3,4,5,7,9,10]\nExplanation:\n2 = 20 + 30\n3 = 21 + 30\n4 = 20 + 31\n5 = 21 + 31\n7 = 22 + 31\n9 = 23 + 30\n10 = 20 + 32\n\n\nExample 2:\n\nInput: x = 3, y = 5, bound = 15\nOutput: [2,4,6,8,10,14]\n\n\n \nConstraints:\n\n\n\t1 <= x, y <= 100\n\t0 <= bound <= 106\n\n"
+}

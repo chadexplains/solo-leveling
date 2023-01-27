@@ -1,0 +1,8 @@
+{
+  "id": "find-customer-referee",
+  "name": "Find Customer Referee",
+  "tags": [
+    "Database"
+  ],
+  "description": "SQL SchemaTable: Customer\n\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| id          | int     |\n| name        | varchar |\n| referee_id  | int     |\n+-------------+---------+\nid is the primary key column for this table.\nEach row of this table indicates the id of a customer, their name, and the id of the customer who referred them.\n\n\n \n\nWrite an SQL query to report the names of the customer that are not referred by the customer with id = 2.\n\nReturn the result table in any order.\n\nThe query result format is in the following example.\n\n \nExample 1:\n\nInput: \nCustomer table:\n+----+------+------------+\n| id | name | referee_id |\n+----+------+------------+\n| 1  | Will | null       |\n| 2  | Jane | null       |\n| 3  | Alex | 2          |\n| 4  | Bill | null       |\n| 5  | Zack | 1          |\n| 6  | Mark | 2          |\n+----+------+------------+\nOutput: \n+------+\n| name |\n+------+\n| Will |\n| Jane |\n| Bill |\n| Zack |\n+------+\n\n"
+}

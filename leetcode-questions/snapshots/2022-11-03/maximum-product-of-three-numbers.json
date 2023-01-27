@@ -1,0 +1,10 @@
+{
+  "id": "maximum-product-of-three-numbers",
+  "name": "Maximum Product of Three Numbers",
+  "tags": [
+    "Array",
+    "Math",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums, find three numbers whose product is maximum and return the maximum product.\n\n \nExample 1:\nInput: nums = [1,2,3]\nOutput: 6\nExample 2:\nInput: nums = [1,2,3,4]\nOutput: 24\nExample 3:\nInput: nums = [-1,-2,-3]\nOutput: -6\n\n \nConstraints:\n\n\n\t3 <= nums.length <= 104\n\t-1000 <= nums[i] <= 1000\n\n"
+}

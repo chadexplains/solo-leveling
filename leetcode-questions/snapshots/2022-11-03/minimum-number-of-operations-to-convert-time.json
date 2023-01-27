@@ -1,0 +1,9 @@
+{
+  "id": "minimum-number-of-operations-to-convert-time",
+  "name": "Minimum Number of Operations to Convert Time",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given two strings current and correct representing two 24-hour times.\n\n24-hour times are formatted as \"HH:MM\", where HH is between 00 and 23, and MM is between 00 and 59. The earliest 24-hour time is 00:00, and the latest is 23:59.\n\nIn one operation you can increase the time current by 1, 5, 15, or 60 minutes. You can perform this operation any number of times.\n\nReturn the minimum number of operations needed to convert current to correct.\n\n \nExample 1:\n\nInput: current = \"02:30\", correct = \"04:35\"\nOutput: 3\nExplanation:\nWe can convert current to correct in 3 operations as follows:\n- Add 60 minutes to current. current becomes \"03:30\".\n- Add 60 minutes to current. current becomes \"04:30\".\n- Add 5 minutes to current. current becomes \"04:35\".\nIt can be proven that it is not possible to convert current to correct in fewer than 3 operations.\n\nExample 2:\n\nInput: current = \"11:00\", correct = \"11:01\"\nOutput: 1\nExplanation: We only have to add one minute to current, so the minimum number of operations needed is 1.\n\n\n \nConstraints:\n\n\n\tcurrent and correct are in the format \"HH:MM\"\n\tcurrent <= correct\n\n"
+}

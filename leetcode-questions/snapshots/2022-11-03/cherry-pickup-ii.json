@@ -1,0 +1,10 @@
+{
+  "id": "cherry-pickup-ii",
+  "name": "Cherry Pickup II",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "description": "You are given a rows x cols matrix grid representing a field of cherries where grid[i][j] represents the number of cherries that you can collect from the (i, j) cell.\n\nYou have two robots that can collect cherries for you:\n\n\n\tRobot #1 is located at the top-left corner (0, 0), and\n\tRobot #2 is located at the top-right corner (0, cols - 1).\n\n\nReturn the maximum number of cherries collection using both robots by following the rules below:\n\n\n\tFrom a cell (i, j), robots can move to cell (i + 1, j - 1), (i + 1, j), or (i + 1, j + 1).\n\tWhen any robot passes through a cell, It picks up all cherries, and the cell becomes an empty cell.\n\tWhen both robots stay in the same cell, only one takes the cherries.\n\tBoth robots cannot move outside of the grid at any moment.\n\tBoth robots should reach the bottom row in grid.\n\n\n \nExample 1:\n\nInput: grid = [[3,1,1],[2,5,1],[1,5,5],[2,1,1]]\nOutput: 24\nExplanation: Path of robot #1 and #2 are described in color green and blue respectively.\nCherries taken by Robot #1, (3 + 2 + 5 + 2) = 12.\nCherries taken by Robot #2, (1 + 5 + 5 + 1) = 12.\nTotal of cherries: 12 + 12 = 24.\n\n\nExample 2:\n\nInput: grid = [[1,0,0,0,0,0,1],[2,0,0,0,0,3,0],[2,0,9,0,0,0,0],[0,3,0,5,4,0,0],[1,0,2,3,0,0,6]]\nOutput: 28\nExplanation: Path of robot #1 and #2 are described in color green and blue respectively.\nCherries taken by Robot #1, (1 + 9 + 5 + 2) = 17.\nCherries taken by Robot #2, (1 + 3 + 4 + 3) = 11.\nTotal of cherries: 17 + 11 = 28.\n\n\n \nConstraints:\n\n\n\trows == grid.length\n\tcols == grid[i].length\n\t2 <= rows, cols <= 70\n\t0 <= grid[i][j] <= 100\n\n"
+}

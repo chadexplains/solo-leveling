@@ -1,0 +1,14 @@
+{
+  "id": "path-with-minimum-effort",
+  "name": "Path With Minimum Effort",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union Find",
+    "Heap (Priority Queue)",
+    "Matrix"
+  ],
+  "description": "You are a hiker preparing for an upcoming hike. You are given heights, a 2D array of size rows x columns, where heights[row][col] represents the height of cell (row, col). You are situated in the top-left cell, (0, 0), and you hope to travel to the bottom-right cell, (rows-1, columns-1) (i.e., 0-indexed). You can move up, down, left, or right, and you wish to find a route that requires the minimum effort.\n\nA route's effort is the maximum absolute difference in heights between two consecutive cells of the route.\n\nReturn the minimum effort required to travel from the top-left cell to the bottom-right cell.\n\n \nExample 1:\n\n\n\nInput: heights = [[1,2,2],[3,8,2],[5,3,5]]\nOutput: 2\nExplanation: The route of [1,3,5,3,5] has a maximum absolute difference of 2 in consecutive cells.\nThis is better than the route of [1,2,2,2,5], where the maximum absolute difference is 3.\n\n\nExample 2:\n\n\n\nInput: heights = [[1,2,3],[3,8,4],[5,3,5]]\nOutput: 1\nExplanation: The route of [1,2,3,4,5] has a maximum absolute difference of 1 in consecutive cells, which is better than route [1,3,5,3,5].\n\n\nExample 3:\n\nInput: heights = [[1,2,1,1,1],[1,2,1,2,1],[1,2,1,2,1],[1,2,1,2,1],[1,1,1,2,1]]\nOutput: 0\nExplanation: This route does not require any effort.\n\n\n \nConstraints:\n\n\n\trows == heights.length\n\tcolumns == heights[i].length\n\t1 <= rows, columns <= 100\n\t1 <= heights[i][j] <= 106\n"
+}

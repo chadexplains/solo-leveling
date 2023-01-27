@@ -1,0 +1,9 @@
+{
+  "id": "elimination-game",
+  "name": "Elimination Game",
+  "tags": [
+    "Math",
+    "Recursion"
+  ],
+  "description": "You have a list arr of all integers in the range [1, n] sorted in a strictly increasing order. Apply the following algorithm on arr:\n\n\n\tStarting from left to right, remove the first number and every other number afterward until you reach the end of the list.\n\tRepeat the previous step again, but this time from right to left, remove the rightmost number and every other number from the remaining numbers.\n\tKeep repeating the steps again, alternating left to right and right to left, until a single number remains.\n\n\nGiven the integer n, return the last number that remains in arr.\n\n \nExample 1:\n\nInput: n = 9\nOutput: 6\nExplanation:\narr = [1, 2, 3, 4, 5, 6, 7, 8, 9]\narr = [2, 4, 6, 8]\narr = [2, 6]\narr = [6]\n\n\nExample 2:\n\nInput: n = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\n"
+}

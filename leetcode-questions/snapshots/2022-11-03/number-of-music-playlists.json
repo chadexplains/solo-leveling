@@ -1,0 +1,10 @@
+{
+  "id": "number-of-music-playlists",
+  "name": "Number of Music Playlists",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Combinatorics"
+  ],
+  "description": "Your music player contains n different songs. You want to listen to goal songs (not necessarily different) during your trip. To avoid boredom, you will create a playlist so that:\n\n\n\tEvery song is played at least once.\n\tA song can only be played again only if k other songs have been played.\n\n\nGiven n, goal, and k, return the number of possible playlists that you can create. Since the answer can be very large, return it modulo 109 + 7.\n \nExample 1:\n\nInput: n = 3, goal = 3, k = 1\nOutput: 6\nExplanation: There are 6 possible playlists: [1, 2, 3], [1, 3, 2], [2, 1, 3], [2, 3, 1], [3, 1, 2], and [3, 2, 1].\n\n\nExample 2:\n\nInput: n = 2, goal = 3, k = 0\nOutput: 6\nExplanation: There are 6 possible playlists: [1, 1, 2], [1, 2, 1], [2, 1, 1], [2, 2, 1], [2, 1, 2], and [1, 2, 2].\n\n\nExample 3:\n\nInput: n = 2, goal = 3, k = 1\nOutput: 2\nExplanation: There are 2 possible playlists: [1, 2, 1] and [2, 1, 2].\n\n\n \nConstraints:\n\n\n\t0 <= k < n <= goal <= 100\n\n"
+}

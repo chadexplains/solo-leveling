@@ -1,0 +1,9 @@
+{
+  "id": "minimum-operations-to-convert-number",
+  "name": "Minimum Operations to Convert Number",
+  "tags": [
+    "Array",
+    "Breadth-First Search"
+  ],
+  "description": "You are given a 0-indexed integer array nums containing distinct numbers, an integer start, and an integer goal. There is an integer x that is initially set to start, and you want to perform operations on x such that it is converted to goal. You can perform the following operation repeatedly on the number x:\n\nIf 0 <= x <= 1000, then for any index i in the array (0 <= i < nums.length), you can set x to any of the following:\n\n\n\tx + nums[i]\n\tx - nums[i]\n\tx ^ nums[i] (bitwise-XOR)\n\n\nNote that you can use each nums[i] any number of times in any order. Operations that set x to be out of the range 0 <= x <= 1000 are valid, but no more operations can be done afterward.\n\nReturn the minimum number of operations needed to convert x = start into goal, and -1 if it is not possible.\n\n \nExample 1:\n\nInput: nums = [2,4,12], start = 2, goal = 12\nOutput: 2\nExplanation: We can go from 2 → 14 → 12 with the following 2 operations.\n- 2 + 12 = 14\n- 14 - 2 = 12\n\n\nExample 2:\n\nInput: nums = [3,5,7], start = 0, goal = -4\nOutput: 2\nExplanation: We can go from 0 → 3 → -4 with the following 2 operations. \n- 0 + 3 = 3\n- 3 - 7 = -4\nNote that the last operation sets x out of the range 0 <= x <= 1000, which is valid.\n\n\nExample 3:\n\nInput: nums = [2,8,16], start = 0, goal = 1\nOutput: -1\nExplanation: There is no way to convert 0 into 1.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 1000\n\t-109 <= nums[i], goal <= 109\n\t0 <= start <= 1000\n\tstart != goal\n\tAll the integers in nums are distinct.\n\n"
+}

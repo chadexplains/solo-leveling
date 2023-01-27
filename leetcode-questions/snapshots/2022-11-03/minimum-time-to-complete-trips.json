@@ -1,0 +1,9 @@
+{
+  "id": "minimum-time-to-complete-trips",
+  "name": "Minimum Time to Complete Trips",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "You are given an array time where time[i] denotes the time taken by the ith bus to complete one trip.\n\nEach bus can make multiple trips successively; that is, the next trip can start immediately after completing the current trip. Also, each bus operates independently; that is, the trips of one bus do not influence the trips of any other bus.\n\nYou are also given an integer totalTrips, which denotes the number of trips all buses should make in total. Return the minimum time required for all buses to complete at least totalTrips trips.\n\n \nExample 1:\n\nInput: time = [1,2,3], totalTrips = 5\nOutput: 3\nExplanation:\n- At time t = 1, the number of trips completed by each bus are [1,0,0]. \n  The total number of trips completed is 1 + 0 + 0 = 1.\n- At time t = 2, the number of trips completed by each bus are [2,1,0]. \n  The total number of trips completed is 2 + 1 + 0 = 3.\n- At time t = 3, the number of trips completed by each bus are [3,1,1]. \n  The total number of trips completed is 3 + 1 + 1 = 5.\nSo the minimum time needed for all buses to complete at least 5 trips is 3.\n\n\nExample 2:\n\nInput: time = [2], totalTrips = 1\nOutput: 2\nExplanation:\nThere is only one bus, and it will complete its first trip at t = 2.\nSo the minimum time needed to complete 1 trip is 2.\n\n\n \nConstraints:\n\n\n\t1 <= time.length <= 105\n\t1 <= time[i], totalTrips <= 107\n\n"
+}

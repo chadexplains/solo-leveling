@@ -1,0 +1,11 @@
+{
+  "id": "largest-submatrix-with-rearrangements",
+  "name": "Largest Submatrix With Rearrangements",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sorting",
+    "Matrix"
+  ],
+  "description": "You are given a binary matrix matrix of size m x n, and you are allowed to rearrange the columns of the matrix in any order.\n\nReturn the area of the largest submatrix within matrix where every element of the submatrix is 1 after reordering the columns optimally.\n\n \nExample 1:\n\nInput: matrix = [[0,0,1],[1,1,1],[1,0,1]]\nOutput: 4\nExplanation: You can rearrange the columns as shown above.\nThe largest submatrix of 1s, in bold, has an area of 4.\n\n\nExample 2:\n\nInput: matrix = [[1,0,1,0,1]]\nOutput: 3\nExplanation: You can rearrange the columns as shown above.\nThe largest submatrix of 1s, in bold, has an area of 3.\n\n\nExample 3:\n\nInput: matrix = [[1,1,0],[1,0,1]]\nOutput: 2\nExplanation: Notice that you must rearrange entire columns, and there is no way to make a submatrix of 1s larger than an area of 2.\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[i].length\n\t1 <= m * n <= 105\n\tmatrix[i][j] is either 0 or 1.\n\n"
+}

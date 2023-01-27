@@ -1,0 +1,10 @@
+{
+  "id": "redistribute-characters-to-make-all-strings-equal",
+  "name": "Redistribute Characters to Make All Strings Equal",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You are given an array of strings words (0-indexed).\n\nIn one operation, pick two distinct indices i and j, where words[i] is a non-empty string, and move any character from words[i] to any position in words[j].\n\nReturn true if you can make every string in words equal using any number of operations, and false otherwise.\n\n \nExample 1:\n\nInput: words = [\"abc\",\"aabc\",\"bc\"]\nOutput: true\nExplanation: Move the first 'a' in words[1] to the front of words[2],\nto make words[1] = \"abc\" and words[2] = \"abc\".\nAll the strings are now equal to \"abc\", so return true.\n\n\nExample 2:\n\nInput: words = [\"ab\",\"a\"]\nOutput: false\nExplanation: It is impossible to make all the strings equal using the operation.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 100\n\t1 <= words[i].length <= 100\n\twords[i] consists of lowercase English letters.\n\n"
+}

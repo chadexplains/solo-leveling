@@ -1,0 +1,12 @@
+{
+  "id": "range-frequency-queries",
+  "name": "Range Frequency Queries",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Binary Search",
+    "Design",
+    "Segment Tree"
+  ],
+  "description": "Design a data structure to find the frequency of a given value in a given subarray.\n\nThe frequency of a value in a subarray is the number of occurrences of that value in the subarray.\n\nImplement the RangeFreqQuery class:\n\n\n\tRangeFreqQuery(int[] arr) Constructs an instance of the class with the given 0-indexed integer array arr.\n\tint query(int left, int right, int value) Returns the frequency of value in the subarray arr[left...right].\n\n\nA subarray is a contiguous sequence of elements within an array. arr[left...right] denotes the subarray that contains the elements of nums between indices left and right (inclusive).\n\n \nExample 1:\n\nInput\n[\"RangeFreqQuery\", \"query\", \"query\"]\n[[[12, 33, 4, 56, 22, 2, 34, 33, 22, 12, 34, 56]], [1, 2, 4], [0, 11, 33]]\nOutput\n[null, 1, 2]\n\nExplanation\nRangeFreqQuery rangeFreqQuery = new RangeFreqQuery([12, 33, 4, 56, 22, 2, 34, 33, 22, 12, 34, 56]);\nrangeFreqQuery.query(1, 2, 4); // return 1. The value 4 occurs 1 time in the subarray [33, 4]\nrangeFreqQuery.query(0, 11, 33); // return 2. The value 33 occurs 2 times in the whole array.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 105\n\t1 <= arr[i], value <= 104\n\t0 <= left <= right < arr.length\n\tAt most 105 calls will be made to query\n\n"
+}

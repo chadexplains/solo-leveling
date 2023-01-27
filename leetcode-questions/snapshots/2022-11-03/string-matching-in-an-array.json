@@ -1,0 +1,10 @@
+{
+  "id": "string-matching-in-an-array",
+  "name": "String Matching in an Array",
+  "tags": [
+    "Array",
+    "String",
+    "String Matching"
+  ],
+  "description": "Given an array of string words. Return all strings in words which is substring of another word in any order. \n\nString words[i] is substring of words[j], if can be obtained removing some characters to left and/or right side of words[j].\n\n \nExample 1:\n\nInput: words = [\"mass\",\"as\",\"hero\",\"superhero\"]\nOutput: [\"as\",\"hero\"]\nExplanation: \"as\" is substring of \"mass\" and \"hero\" is substring of \"superhero\".\n[\"hero\",\"as\"] is also a valid answer.\n\n\nExample 2:\n\nInput: words = [\"leetcode\",\"et\",\"code\"]\nOutput: [\"et\",\"code\"]\nExplanation: \"et\", \"code\" are substring of \"leetcode\".\n\n\nExample 3:\n\nInput: words = [\"blue\",\"green\",\"bu\"]\nOutput: []\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 100\n\t1 <= words[i].length <= 30\n\twords[i] contains only lowercase English letters.\n\tIt's guaranteed that words[i] will be unique.\n\n"
+}

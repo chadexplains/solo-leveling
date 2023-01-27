@@ -1,0 +1,9 @@
+{
+  "id": "largest-number-at-least-twice-of-others",
+  "name": "Largest Number At Least Twice of Others",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "You are given an integer array nums where the largest integer is unique.\n\nDetermine whether the largest element in the array is at least twice as much as every other number in the array. If it is, return the index of the largest element, or return -1 otherwise.\n\n \nExample 1:\n\nInput: nums = [3,6,1,0]\nOutput: 1\nExplanation: 6 is the largest integer.\nFor every other number in the array x, 6 is at least twice as big as x.\nThe index of value 6 is 1, so we return 1.\n\n\nExample 2:\n\nInput: nums = [1,2,3,4]\nOutput: -1\nExplanation: 4 is less than twice the value of 3, so we return -1.\n\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 50\n\t0 <= nums[i] <= 100\n\tThe largest element in nums is unique.\n\n"
+}

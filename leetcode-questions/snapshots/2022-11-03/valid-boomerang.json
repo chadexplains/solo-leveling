@@ -1,0 +1,10 @@
+{
+  "id": "valid-boomerang",
+  "name": "Valid Boomerang",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry"
+  ],
+  "description": "Given an array points where points[i] = [xi, yi] represents a point on the X-Y plane, return true if these points are a boomerang.\n\nA boomerang is a set of three points that are all distinct and not in a straight line.\n\n \nExample 1:\nInput: points = [[1,1],[2,3],[3,2]]\nOutput: true\nExample 2:\nInput: points = [[1,1],[2,2],[3,3]]\nOutput: false\n\n \nConstraints:\n\n\n\tpoints.length == 3\n\tpoints[i].length == 2\n\t0 <= xi, yi <= 100\n\n"
+}

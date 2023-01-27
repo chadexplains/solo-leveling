@@ -1,0 +1,11 @@
+{
+  "id": "minimum-time-to-collect-all-apples-in-a-tree",
+  "name": "Minimum Time to Collect All Apples in a Tree",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search"
+  ],
+  "description": "Given an undirected tree consisting of n vertices numbered from 0 to n-1, which has some apples in their vertices. You spend 1 second to walk over one edge of the tree. Return the minimum time in seconds you have to spend to collect all apples in the tree, starting at vertex 0 and coming back to this vertex.\n\nThe edges of the undirected tree are given in the array edges, where edges[i] = [ai, bi] means that exists an edge connecting the vertices ai and bi. Additionally, there is a boolean array hasApple, where hasApple[i] = true means that vertex i has an apple; otherwise, it does not have any apple.\n\n \nExample 1:\n\nInput: n = 7, edges = [[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]], hasApple = [false,false,true,false,true,true,false]\nOutput: 8 \nExplanation: The figure above represents the given tree where red vertices have an apple. One optimal path to collect all apples is shown by the green arrows.  \n\n\nExample 2:\n\nInput: n = 7, edges = [[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]], hasApple = [false,false,true,false,false,true,false]\nOutput: 6\nExplanation: The figure above represents the given tree where red vertices have an apple. One optimal path to collect all apples is shown by the green arrows.  \n\n\nExample 3:\n\nInput: n = 7, edges = [[0,1],[0,2],[1,4],[1,5],[2,3],[2,6]], hasApple = [false,false,false,false,false,false,false]\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= n <= 105\n\tedges.length == n - 1\n\tedges[i].length == 2\n\t0 <= ai < bi <= n - 1\n\tfromi < toi\n\thasApple.length == n\n\n"
+}

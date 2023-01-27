@@ -1,0 +1,10 @@
+{
+  "id": "find-latest-group-of-size-m",
+  "name": "Find Latest Group of Size M",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Simulation"
+  ],
+  "description": "Given an array arr that represents a permutation of numbers from 1 to n.\n\nYou have a binary string of size n that initially has all its bits set to zero. At each step i (assuming both the binary string and arr are 1-indexed) from 1 to n, the bit at position arr[i] is set to 1.\n\nYou are also given an integer m. Find the latest step at which there exists a group of ones of length m. A group of ones is a contiguous substring of 1's such that it cannot be extended in either direction.\n\nReturn the latest step at which there exists a group of ones of length exactly m. If no such group exists, return -1.\n\n \nExample 1:\n\nInput: arr = [3,5,1,2,4], m = 1\nOutput: 4\nExplanation: \nStep 1: \"00100\", groups: [\"1\"]\nStep 2: \"00101\", groups: [\"1\", \"1\"]\nStep 3: \"10101\", groups: [\"1\", \"1\", \"1\"]\nStep 4: \"11101\", groups: [\"111\", \"1\"]\nStep 5: \"11111\", groups: [\"11111\"]\nThe latest step at which there exists a group of size 1 is step 4.\n\n\nExample 2:\n\nInput: arr = [3,1,5,4,2], m = 2\nOutput: -1\nExplanation: \nStep 1: \"00100\", groups: [\"1\"]\nStep 2: \"10100\", groups: [\"1\", \"1\"]\nStep 3: \"10101\", groups: [\"1\", \"1\", \"1\"]\nStep 4: \"10111\", groups: [\"1\", \"111\"]\nStep 5: \"11111\", groups: [\"11111\"]\nNo group of size 2 exists during any step.\n\n\n \nConstraints:\n\n\n\tn == arr.length\n\t1 <= m <= n <= 105\n\t1 <= arr[i] <= n\n\tAll integers in arr are distinct.\n\n"
+}

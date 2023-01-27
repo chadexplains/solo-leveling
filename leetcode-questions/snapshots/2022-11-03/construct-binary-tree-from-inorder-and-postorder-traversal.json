@@ -1,0 +1,12 @@
+{
+  "id": "construct-binary-tree-from-inorder-and-postorder-traversal",
+  "name": "Construct Binary Tree from Inorder and Postorder Traversal",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Divide and Conquer",
+    "Tree",
+    "Binary Tree"
+  ],
+  "description": "Given two integer arrays inorder and postorder where inorder is the inorder traversal of a binary tree and postorder is the postorder traversal of the same tree, construct and return the binary tree.\n\n \nExample 1:\n\nInput: inorder = [9,3,15,20,7], postorder = [9,15,7,20,3]\nOutput: [3,9,20,null,null,15,7]\n\n\nExample 2:\n\nInput: inorder = [-1], postorder = [-1]\nOutput: [-1]\n\n\n \nConstraints:\n\n\n\t1 <= inorder.length <= 3000\n\tpostorder.length == inorder.length\n\t-3000 <= inorder[i], postorder[i] <= 3000\n\tinorder and postorder consist of unique values.\n\tEach value of postorder also appears in inorder.\n\tinorder is guaranteed to be the inorder traversal of the tree.\n\tpostorder is guaranteed to be the postorder traversal of the tree.\n\n"
+}

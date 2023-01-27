@@ -1,0 +1,10 @@
+{
+  "id": "keyboard-row",
+  "name": "Keyboard Row",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "Given an array of strings words, return the words that can be typed using letters of the alphabet on only one row of American keyboard like the image below.\n\nIn the American keyboard:\n\n\n\tthe first row consists of the characters \"qwertyuiop\",\n\tthe second row consists of the characters \"asdfghjkl\", and\n\tthe third row consists of the characters \"zxcvbnm\".\n\n\n \nExample 1:\n\nInput: words = [\"Hello\",\"Alaska\",\"Dad\",\"Peace\"]\nOutput: [\"Alaska\",\"Dad\"]\n\n\nExample 2:\n\nInput: words = [\"omk\"]\nOutput: []\n\n\nExample 3:\n\nInput: words = [\"adsdf\",\"sfd\"]\nOutput: [\"adsdf\",\"sfd\"]\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 20\n\t1 <= words[i].length <= 100\n\twords[i] consists of English letters (both lowercase and uppercase). \n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "maximum-swap",
+  "name": "Maximum Swap",
+  "tags": [
+    "Math",
+    "Greedy"
+  ],
+  "description": "You are given an integer num. You can swap two digits at most once to get the maximum valued number.\n\nReturn the maximum valued number you can get.\n\n \nExample 1:\n\nInput: num = 2736\nOutput: 7236\nExplanation: Swap the number 2 and the number 7.\n\n\nExample 2:\n\nInput: num = 9973\nOutput: 9973\nExplanation: No swap.\n\n\n \nConstraints:\n\n\n\t0 <= num <= 108\n\n"
+}

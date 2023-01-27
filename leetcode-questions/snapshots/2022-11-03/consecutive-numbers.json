@@ -1,0 +1,8 @@
+{
+  "id": "consecutive-numbers",
+  "name": "Consecutive Numbers",
+  "tags": [
+    "Database"
+  ],
+  "description": "SQL SchemaTable: Logs\n\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| id          | int     |\n| num         | varchar |\n+-------------+---------+\nid is the primary key for this table.\nid is an autoincrement column.\n\n\n \n\nWrite an SQL query to find all numbers that appear at least three times consecutively.\n\nReturn the result table in any order.\n\nThe query result format is in the following example.\n\n \nExample 1:\n\nInput: \nLogs table:\n+----+-----+\n| id | num |\n+----+-----+\n| 1  | 1   |\n| 2  | 1   |\n| 3  | 1   |\n| 4  | 2   |\n| 5  | 1   |\n| 6  | 2   |\n| 7  | 2   |\n+----+-----+\nOutput: \n+-----------------+\n| ConsecutiveNums |\n+-----------------+\n| 1               |\n+-----------------+\nExplanation: 1 is the only number that appears consecutively for at least three times.\n\n"
+}

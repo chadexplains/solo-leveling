@@ -1,0 +1,9 @@
+{
+  "id": "reverse-string-ii",
+  "name": "Reverse String II",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a string s and an integer k, reverse the first k characters for every 2k characters counting from the start of the string.\n\nIf there are fewer than k characters left, reverse all of them. If there are less than 2k but greater than or equal to k characters, then reverse the first k characters and leave the other as original.\n\n \nExample 1:\nInput: s = \"abcdefg\", k = 2\nOutput: \"bacdfeg\"\nExample 2:\nInput: s = \"abcd\", k = 2\nOutput: \"bacd\"\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts consists of only lowercase English letters.\n\t1 <= k <= 104\n\n"
+}

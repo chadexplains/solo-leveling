@@ -1,0 +1,9 @@
+{
+  "id": "count-number-of-homogenous-substrings",
+  "name": "Count Number of Homogenous Substrings",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "Given a string s, return the number of homogenous substrings of s. Since the answer may be too large, return it modulo 109 + 7.\n\nA string is homogenous if all the characters of the string are the same.\n\nA substring is a contiguous sequence of characters within a string.\n\n \nExample 1:\n\nInput: s = \"abbcccaa\"\nOutput: 13\nExplanation: The homogenous substrings are listed as below:\n\"a\"   appears 3 times.\n\"aa\"  appears 1 time.\n\"b\"   appears 2 times.\n\"bb\"  appears 1 time.\n\"c\"   appears 3 times.\n\"cc\"  appears 2 times.\n\"ccc\" appears 1 time.\n3 + 1 + 2 + 1 + 3 + 2 + 1 = 13.\n\nExample 2:\n\nInput: s = \"xy\"\nOutput: 2\nExplanation: The homogenous substrings are \"x\" and \"y\".\n\nExample 3:\n\nInput: s = \"zzzzz\"\nOutput: 15\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of lowercase letters.\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "circular-permutation-in-binary-representation",
+  "name": "Circular Permutation in Binary Representation",
+  "tags": [
+    "Math",
+    "Backtracking",
+    "Bit Manipulation"
+  ],
+  "description": "Given 2 integers n and start. Your task is return any permutation p of (0,1,2.....,2^n -1) such that :\n\n\n\tp[0] = start\n\tp[i] and p[i+1] differ by only one bit in their binary representation.\n\tp[0] and p[2^n -1] must also differ by only one bit in their binary representation.\n\n\n \nExample 1:\n\nInput: n = 2, start = 3\nOutput: [3,2,0,1]\nExplanation: The binary representation of the permutation is (11,10,00,01). \nAll the adjacent element differ by one bit. Another valid permutation is [3,1,0,2]\n\n\nExample 2:\n\nInput: n = 3, start = 2\nOutput: [2,6,7,5,4,0,1,3]\nExplanation: The binary representation of the permutation is (010,110,111,101,100,000,001,011).\n\n\n \nConstraints:\n\n\n\t1 <= n <= 16\n\t0 <= start < 2 ^ n\n"
+}

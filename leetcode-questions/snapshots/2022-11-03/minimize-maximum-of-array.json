@@ -1,0 +1,12 @@
+{
+  "id": "minimize-maximum-of-array",
+  "name": "Minimize Maximum of Array",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming",
+    "Greedy",
+    "Prefix Sum"
+  ],
+  "description": "You are given a 0-indexed array nums comprising of n non-negative integers.\n\nIn one operation, you must:\n\n\n\tChoose an integer i such that 1 <= i < n and nums[i] > 0.\n\tDecrease nums[i] by 1.\n\tIncrease nums[i - 1] by 1.\n\n\nReturn the minimum possible value of the maximum integer of nums after performing any number of operations.\n\n \nExample 1:\n\nInput: nums = [3,7,1,6]\nOutput: 5\nExplanation:\nOne set of optimal operations is as follows:\n1. Choose i = 1, and nums becomes [4,6,1,6].\n2. Choose i = 3, and nums becomes [4,6,2,5].\n3. Choose i = 1, and nums becomes [5,5,2,5].\nThe maximum integer of nums is 5. It can be shown that the maximum number cannot be less than 5.\nTherefore, we return 5.\n\n\nExample 2:\n\nInput: nums = [10,1]\nOutput: 10\nExplanation:\nIt is optimal to leave nums as is, and since 10 is the maximum value, we return 10.\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t2 <= n <= 105\n\t0 <= nums[i] <= 109\n\n"
+}

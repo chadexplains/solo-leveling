@@ -1,0 +1,11 @@
+{
+  "id": "step-by-step-directions-from-a-binary-tree-node-to-another",
+  "name": "Step-By-Step Directions From a Binary Tree Node to Another",
+  "tags": [
+    "String",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree with n nodes. Each node is uniquely assigned a value from 1 to n. You are also given an integer startValue representing the value of the start node s, and a different integer destValue representing the value of the destination node t.\n\nFind the shortest path starting from node s and ending at node t. Generate step-by-step directions of such path as a string consisting of only the uppercase letters 'L', 'R', and 'U'. Each letter indicates a specific direction:\n\n\n\t'L' means to go from a node to its left child node.\n\t'R' means to go from a node to its right child node.\n\t'U' means to go from a node to its parent node.\n\n\nReturn the step-by-step directions of the shortest path from node s to node t.\n\n \nExample 1:\n\nInput: root = [5,1,2,3,null,6,4], startValue = 3, destValue = 6\nOutput: \"UURL\"\nExplanation: The shortest path is: 3 → 1 → 5 → 2 → 6.\n\n\nExample 2:\n\nInput: root = [2,1], startValue = 2, destValue = 1\nOutput: \"L\"\nExplanation: The shortest path is: 2 → 1.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is n.\n\t2 <= n <= 105\n\t1 <= Node.val <= n\n\tAll the values in the tree are unique.\n\t1 <= startValue, destValue <= n\n\tstartValue != destValue\n\n"
+}

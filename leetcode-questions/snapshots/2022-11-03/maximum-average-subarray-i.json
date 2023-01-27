@@ -1,0 +1,9 @@
+{
+  "id": "maximum-average-subarray-i",
+  "name": "Maximum Average Subarray I",
+  "tags": [
+    "Array",
+    "Sliding Window"
+  ],
+  "description": "You are given an integer array nums consisting of n elements, and an integer k.\n\nFind a contiguous subarray whose length is equal to k that has the maximum average value and return this value. Any answer with a calculation error less than 10-5 will be accepted.\n\n \nExample 1:\n\nInput: nums = [1,12,-5,-6,50,3], k = 4\nOutput: 12.75000\nExplanation: Maximum average is (12 - 5 - 6 + 50) / 4 = 51 / 4 = 12.75\n\n\nExample 2:\n\nInput: nums = [5], k = 1\nOutput: 5.00000\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= k <= n <= 105\n\t-104 <= nums[i] <= 104\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "valid-phone-numbers",
+  "name": "Valid Phone Numbers",
+  "tags": [
+    "Shell"
+  ],
+  "description": "Given a text file file.txt that contains a list of phone numbers (one per line), write a one-liner bash script to print all valid phone numbers.\n\nYou may assume that a valid phone number must appear in one of the following two formats: (xxx) xxx-xxxx or xxx-xxx-xxxx. (x means a digit)\n\nYou may also assume each line in the text file must not contain leading or trailing white spaces.\n\nExample:\n\nAssume that file.txt has the following content:\n\n987-123-4567\n123 456 7890\n(123) 456-7890\n\n\nYour script should output the following valid phone numbers:\n\n987-123-4567\n(123) 456-7890\n\n"
+}

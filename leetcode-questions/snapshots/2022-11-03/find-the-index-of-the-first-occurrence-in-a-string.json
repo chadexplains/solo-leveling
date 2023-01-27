@@ -1,0 +1,10 @@
+{
+  "id": "find-the-index-of-the-first-occurrence-in-a-string",
+  "name": "Find the Index of the First Occurrence in a String",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "String Matching"
+  ],
+  "description": "Given two strings needle and haystack, return the index of the first occurrence of needle in haystack, or -1 if needle is not part of haystack.\n\n \nExample 1:\n\nInput: haystack = \"sadbutsad\", needle = \"sad\"\nOutput: 0\nExplanation: \"sad\" occurs at index 0 and 6.\nThe first occurrence is at index 0, so we return 0.\n\n\nExample 2:\n\nInput: haystack = \"leetcode\", needle = \"leeto\"\nOutput: -1\nExplanation: \"leeto\" did not occur in \"leetcode\", so we return -1.\n\n\n \nConstraints:\n\n\n\t1 <= haystack.length, needle.length <= 104\n\thaystack and needle consist of only lowercase English characters.\n\n"
+}

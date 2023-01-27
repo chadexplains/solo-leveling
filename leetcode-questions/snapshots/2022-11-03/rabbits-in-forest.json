@@ -1,0 +1,11 @@
+{
+  "id": "rabbits-in-forest",
+  "name": "Rabbits in Forest",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Greedy"
+  ],
+  "description": "There is a forest with an unknown number of rabbits. We asked n rabbits \"How many rabbits have the same color as you?\" and collected the answers in an integer array answers where answers[i] is the answer of the ith rabbit.\n\nGiven the array answers, return the minimum number of rabbits that could be in the forest.\n\n \nExample 1:\n\nInput: answers = [1,1,2]\nOutput: 5\nExplanation:\nThe two rabbits that answered \"1\" could both be the same color, say red.\nThe rabbit that answered \"2\" can't be red or the answers would be inconsistent.\nSay the rabbit that answered \"2\" was blue.\nThen there should be 2 other blue rabbits in the forest that didn't answer into the array.\nThe smallest possible number of rabbits in the forest is therefore 5: 3 that answered plus 2 that didn't.\n\n\nExample 2:\n\nInput: answers = [10,10,10]\nOutput: 11\n\n\n \nConstraints:\n\n\n\t1 <= answers.length <= 1000\n\t0 <= answers[i] < 1000\n\n"
+}

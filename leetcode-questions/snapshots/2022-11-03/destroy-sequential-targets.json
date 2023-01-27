@@ -1,0 +1,10 @@
+{
+  "id": "destroy-sequential-targets",
+  "name": "Destroy Sequential Targets",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Counting"
+  ],
+  "description": "You are given a 0-indexed array nums consisting of positive integers, representing targets on a number line. You are also given an integer space.\n\nYou have a machine which can destroy targets. Seeding the machine with some nums[i] allows it to destroy all targets with values that can be represented as nums[i] + c * space, where c is any non-negative integer. You want to destroy the maximum number of targets in nums.\n\nReturn the minimum value of nums[i] you can seed the machine with to destroy the maximum number of targets.\n\n \nExample 1:\n\nInput: nums = [3,7,8,1,1,5], space = 2\nOutput: 1\nExplanation: If we seed the machine with nums[3], then we destroy all targets equal to 1,3,5,7,9,... \nIn this case, we would destroy 5 total targets (all except for nums[2]). \nIt is impossible to destroy more than 5 targets, so we return nums[3].\n\n\nExample 2:\n\nInput: nums = [1,3,5,2,4,6], space = 2\nOutput: 1\nExplanation: Seeding the machine with nums[0], or nums[3] destroys 3 targets. \nIt is not possible to destroy more than 3 targets.\nSince nums[0] is the minimal integer that can destroy 3 targets, we return 1.\n\n\nExample 3:\n\nInput: nums = [6,2,5], space = 100\nOutput: 2\nExplanation: Whatever initial seed we select, we can only destroy 1 target. The minimal seed is nums[1].\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 109\n\t1 <= space <= 109\n\n"
+}

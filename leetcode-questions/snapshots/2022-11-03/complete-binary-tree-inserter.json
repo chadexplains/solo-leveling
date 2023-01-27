@@ -1,0 +1,11 @@
+{
+  "id": "complete-binary-tree-inserter",
+  "name": "Complete Binary Tree Inserter",
+  "tags": [
+    "Tree",
+    "Breadth-First Search",
+    "Design",
+    "Binary Tree"
+  ],
+  "description": "A complete binary tree is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.\n\nDesign an algorithm to insert a new node to a complete binary tree keeping it complete after the insertion.\n\nImplement the CBTInserter class:\n\n\n\tCBTInserter(TreeNode root) Initializes the data structure with the root of the complete binary tree.\n\tint insert(int v) Inserts a TreeNode into the tree with value Node.val == val so that the tree remains complete, and returns the value of the parent of the inserted TreeNode.\n\tTreeNode get_root() Returns the root node of the tree.\n\n\n \nExample 1:\n\nInput\n[\"CBTInserter\", \"insert\", \"insert\", \"get_root\"]\n[[[1, 2]], [3], [4], []]\nOutput\n[null, 1, 2, [1, 2, 3, 4]]\n\nExplanation\nCBTInserter cBTInserter = new CBTInserter([1, 2]);\ncBTInserter.insert(3);  // return 1\ncBTInserter.insert(4);  // return 2\ncBTInserter.get_root(); // return [1, 2, 3, 4]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree will be in the range [1, 1000].\n\t0 <= Node.val <= 5000\n\troot is a complete binary tree.\n\t0 <= val <= 5000\n\tAt most 104 calls will be made to insert and get_root.\n\n"
+}

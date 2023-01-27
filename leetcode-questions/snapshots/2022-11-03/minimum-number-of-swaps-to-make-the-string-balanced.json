@@ -1,0 +1,11 @@
+{
+  "id": "minimum-number-of-swaps-to-make-the-string-balanced",
+  "name": "Minimum Number of Swaps to Make the String Balanced",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Stack",
+    "Greedy"
+  ],
+  "description": "You are given a 0-indexed string s of even length n. The string consists of exactly n / 2 opening brackets '[' and n / 2 closing brackets ']'.\n\nA string is called balanced if and only if:\n\n\n\tIt is the empty string, or\n\tIt can be written as AB, where both A and B are balanced strings, or\n\tIt can be written as [C], where C is a balanced string.\n\n\nYou may swap the brackets at any two indices any number of times.\n\nReturn the minimum number of swaps to make s balanced.\n\n \nExample 1:\n\nInput: s = \"][][\"\nOutput: 1\nExplanation: You can make the string balanced by swapping index 0 with index 3.\nThe resulting string is \"[[]]\".\n\n\nExample 2:\n\nInput: s = \"]]][[[\"\nOutput: 2\nExplanation: You can do the following to make the string balanced:\n- Swap index 0 with index 4. s = \"[]][][\".\n- Swap index 1 with index 5. s = \"[[][]]\".\nThe resulting string is \"[[][]]\".\n\n\nExample 3:\n\nInput: s = \"[]\"\nOutput: 0\nExplanation: The string is already balanced.\n\n\n \nConstraints:\n\n\n\tn == s.length\n\t2 <= n <= 106\n\tn is even.\n\ts[i] is either '[' or ']'.\n\tThe number of opening brackets '[' equals n / 2, and the number of closing brackets ']' equals n / 2.\n\n"
+}

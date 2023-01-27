@@ -1,0 +1,10 @@
+{
+  "id": "jump-game-vii",
+  "name": "Jump Game VII",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Prefix Sum"
+  ],
+  "description": "You are given a 0-indexed binary string s and two integers minJump and maxJump. In the beginning, you are standing at index 0, which is equal to '0'. You can move from index i to index j if the following conditions are fulfilled:\n\n\n\ti + minJump <= j <= min(i + maxJump, s.length - 1), and\n\ts[j] == '0'.\n\n\nReturn true if you can reach index s.length - 1 in s, or false otherwise.\n\n \nExample 1:\n\nInput: s = \"011010\", minJump = 2, maxJump = 3\nOutput: true\nExplanation:\nIn the first step, move from index 0 to index 3. \nIn the second step, move from index 3 to index 5.\n\n\nExample 2:\n\nInput: s = \"01101110\", minJump = 2, maxJump = 3\nOutput: false\n\n\n \nConstraints:\n\n\n\t2 <= s.length <= 105\n\ts[i] is either '0' or '1'.\n\ts[0] == '0'\n\t1 <= minJump <= maxJump < s.length\n\n"
+}

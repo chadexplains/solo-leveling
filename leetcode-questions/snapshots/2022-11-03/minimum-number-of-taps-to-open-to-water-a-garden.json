@@ -1,0 +1,10 @@
+{
+  "id": "minimum-number-of-taps-to-open-to-water-a-garden",
+  "name": "Minimum Number of Taps to Open to Water a Garden",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Greedy"
+  ],
+  "description": "There is a one-dimensional garden on the x-axis. The garden starts at the point 0 and ends at the point n. (i.e The length of the garden is n).\n\nThere are n + 1 taps located at points [0, 1, ..., n] in the garden.\n\nGiven an integer n and an integer array ranges of length n + 1 where ranges[i] (0-indexed) means the i-th tap can water the area [i - ranges[i], i + ranges[i]] if it was open.\n\nReturn the minimum number of taps that should be open to water the whole garden, If the garden cannot be watered return -1.\n\n \nExample 1:\n\nInput: n = 5, ranges = [3,4,1,1,0,0]\nOutput: 1\nExplanation: The tap at point 0 can cover the interval [-3,3]\nThe tap at point 1 can cover the interval [-3,5]\nThe tap at point 2 can cover the interval [1,3]\nThe tap at point 3 can cover the interval [2,4]\nThe tap at point 4 can cover the interval [4,4]\nThe tap at point 5 can cover the interval [5,5]\nOpening Only the second tap will water the whole garden [0,5]\n\n\nExample 2:\n\nInput: n = 3, ranges = [0,0,0,0]\nOutput: -1\nExplanation: Even if you activate all the four taps you cannot water the whole garden.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 104\n\tranges.length == n + 1\n\t0 <= ranges[i] <= 100\n\n"
+}

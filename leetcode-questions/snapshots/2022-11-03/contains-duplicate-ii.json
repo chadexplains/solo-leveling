@@ -1,0 +1,10 @@
+{
+  "id": "contains-duplicate-ii",
+  "name": "Contains Duplicate II",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window"
+  ],
+  "description": "Given an integer array nums and an integer k, return true if there are two distinct indices i and j in the array such that nums[i] == nums[j] and abs(i - j) <= k.\n\n \nExample 1:\n\nInput: nums = [1,2,3,1], k = 3\nOutput: true\n\n\nExample 2:\n\nInput: nums = [1,0,1,1], k = 1\nOutput: true\n\n\nExample 3:\n\nInput: nums = [1,2,3,1,2,3], k = 2\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-109 <= nums[i] <= 109\n\t0 <= k <= 105\n\n"
+}

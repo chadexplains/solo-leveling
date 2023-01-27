@@ -1,0 +1,9 @@
+{
+  "id": "score-of-parentheses",
+  "name": "Score of Parentheses",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "Given a balanced parentheses string s, return the score of the string.\n\nThe score of a balanced parentheses string is based on the following rule:\n\n\n\t\"()\" has score 1.\n\tAB has score A + B, where A and B are balanced parentheses strings.\n\t(A) has score 2 * A, where A is a balanced parentheses string.\n\n\n \nExample 1:\n\nInput: s = \"()\"\nOutput: 1\n\n\nExample 2:\n\nInput: s = \"(())\"\nOutput: 2\n\n\nExample 3:\n\nInput: s = \"()()\"\nOutput: 2\n\n\n \nConstraints:\n\n\n\t2 <= s.length <= 50\n\ts consists of only '(' and ')'.\n\ts is a balanced parentheses string.\n\n"
+}

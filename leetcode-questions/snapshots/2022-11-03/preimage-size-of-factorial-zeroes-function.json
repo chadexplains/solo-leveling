@@ -1,0 +1,9 @@
+{
+  "id": "preimage-size-of-factorial-zeroes-function",
+  "name": "Preimage Size of Factorial Zeroes Function",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "Let f(x) be the number of zeroes at the end of x!. Recall that x! = 1 * 2 * 3 * ... * x and by convention, 0! = 1.\n\n\n\tFor example, f(3) = 0 because 3! = 6 has no zeroes at the end, while f(11) = 2 because 11! = 39916800 has two zeroes at the end.\n\n\nGiven an integer k, return the number of non-negative integers x have the property that f(x) = k.\n\n \nExample 1:\n\nInput: k = 0\nOutput: 5\nExplanation: 0!, 1!, 2!, 3!, and 4! end with k = 0 zeroes.\n\n\nExample 2:\n\nInput: k = 5\nOutput: 0\nExplanation: There is no x such that x! ends in k = 5 zeroes.\n\n\nExample 3:\n\nInput: k = 3\nOutput: 5\n\n\n \nConstraints:\n\n\n\t0 <= k <= 109\n\n"
+}

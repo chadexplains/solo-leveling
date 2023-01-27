@@ -1,0 +1,9 @@
+{
+  "id": "minimum-total-space-wasted-with-k-resizing-operations",
+  "name": "Minimum Total Space Wasted With K Resizing Operations",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are currently designing a dynamic array. You are given a 0-indexed integer array nums, where nums[i] is the number of elements that will be in the array at time i. In addition, you are given an integer k, the maximum number of times you can resize the array (to any size).\n\nThe size of the array at time t, sizet, must be at least nums[t] because there needs to be enough space in the array to hold all the elements. The space wasted at time t is defined as sizet - nums[t], and the total space wasted is the sum of the space wasted across every time t where 0 <= t < nums.length.\n\nReturn the minimum total space wasted if you can resize the array at most k times.\n\nNote: The array can have any size at the start and does not count towards the number of resizing operations.\n\n \nExample 1:\n\nInput: nums = [10,20], k = 0\nOutput: 10\nExplanation: size = [20,20].\nWe can set the initial size to be 20.\nThe total wasted space is (20 - 10) + (20 - 20) = 10.\n\n\nExample 2:\n\nInput: nums = [10,20,30], k = 1\nOutput: 10\nExplanation: size = [20,20,30].\nWe can set the initial size to be 20 and resize to 30 at time 2. \nThe total wasted space is (20 - 10) + (20 - 20) + (30 - 30) = 10.\n\n\nExample 3:\n\nInput: nums = [10,20,15,30,20], k = 2\nOutput: 15\nExplanation: size = [10,20,20,30,30].\nWe can set the initial size to 10, resize to 20 at time 1, and resize to 30 at time 3.\nThe total wasted space is (10 - 10) + (20 - 20) + (20 - 15) + (30 - 30) + (30 - 20) = 15.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 200\n\t1 <= nums[i] <= 106\n\t0 <= k <= nums.length - 1\n\n"
+}

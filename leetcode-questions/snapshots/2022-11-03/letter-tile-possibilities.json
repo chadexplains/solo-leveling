@@ -1,0 +1,11 @@
+{
+  "id": "letter-tile-possibilities",
+  "name": "Letter Tile Possibilities",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Backtracking",
+    "Counting"
+  ],
+  "description": "You have n  tiles, where each tile has one letter tiles[i] printed on it.\n\nReturn the number of possible non-empty sequences of letters you can make using the letters printed on those tiles.\n\n \nExample 1:\n\nInput: tiles = \"AAB\"\nOutput: 8\nExplanation: The possible sequences are \"A\", \"B\", \"AA\", \"AB\", \"BA\", \"AAB\", \"ABA\", \"BAA\".\n\n\nExample 2:\n\nInput: tiles = \"AAABBC\"\nOutput: 188\n\n\nExample 3:\n\nInput: tiles = \"V\"\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= tiles.length <= 7\n\ttiles consists of uppercase English letters.\n\n"
+}

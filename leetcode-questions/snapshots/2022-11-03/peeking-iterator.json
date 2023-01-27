@@ -1,0 +1,10 @@
+{
+  "id": "peeking-iterator",
+  "name": "Peeking Iterator",
+  "tags": [
+    "Array",
+    "Design",
+    "Iterator"
+  ],
+  "description": "Design an iterator that supports the peek operation on an existing iterator in addition to the hasNext and the next operations.\n\nImplement the PeekingIterator class:\n\n\n\tPeekingIterator(Iterator<int> nums) Initializes the object with the given integer iterator iterator.\n\tint next() Returns the next element in the array and moves the pointer to the next element.\n\tboolean hasNext() Returns true if there are still elements in the array.\n\tint peek() Returns the next element in the array without moving the pointer.\n\n\nNote: Each language may have a different implementation of the constructor and Iterator, but they all support the int next() and boolean hasNext() functions.\n\n \nExample 1:\n\nInput\n[\"PeekingIterator\", \"next\", \"peek\", \"next\", \"next\", \"hasNext\"]\n[[[1, 2, 3]], [], [], [], [], []]\nOutput\n[null, 1, 2, 2, 3, false]\n\nExplanation\nPeekingIterator peekingIterator = new PeekingIterator([1, 2, 3]); // [1,2,3]\npeekingIterator.next();    // return 1, the pointer moves to the next element [1,2,3].\npeekingIterator.peek();    // return 2, the pointer does not move [1,2,3].\npeekingIterator.next();    // return 2, the pointer moves to the next element [1,2,3]\npeekingIterator.next();    // return 3, the pointer moves to the next element [1,2,3]\npeekingIterator.hasNext(); // return False\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 1000\n\t1 <= nums[i] <= 1000\n\tAll the calls to next and peek are valid.\n\tAt most 1000 calls will be made to next, hasNext, and peek.\n\n\n \nFollow up: How would you extend your design to be generic and work with all types, not just integer?"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "day-of-the-week",
+  "name": "Day of the Week",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given a date, return the corresponding day of the week for that date.\n\nThe input is given as three integers representing the day, month and year respectively.\n\nReturn the answer as one of the following values {\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"}.\n\n \nExample 1:\n\nInput: day = 31, month = 8, year = 2019\nOutput: \"Saturday\"\n\n\nExample 2:\n\nInput: day = 18, month = 7, year = 1999\nOutput: \"Sunday\"\n\n\nExample 3:\n\nInput: day = 15, month = 8, year = 1993\nOutput: \"Sunday\"\n\n\n \nConstraints:\n\n\n\tThe given dates are valid dates between the years 1971 and 2100.\n\n"
+}

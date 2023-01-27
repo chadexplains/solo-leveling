@@ -1,0 +1,8 @@
+{
+  "id": "closest-divisors",
+  "name": "Closest Divisors",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer num, find the closest two integers in absolute difference whose product equals num + 1 or num + 2.\n\nReturn the two integers in any order.\n\n \nExample 1:\n\nInput: num = 8\nOutput: [3,3]\nExplanation: For num + 1 = 9, the closest divisors are 3 & 3, for num + 2 = 10, the closest divisors are 2 & 5, hence 3 & 3 is chosen.\n\n\nExample 2:\n\nInput: num = 123\nOutput: [5,25]\n\n\nExample 3:\n\nInput: num = 999\nOutput: [40,25]\n\n\n \nConstraints:\n\n\n\t1 <= num <= 10^9\n\n"
+}

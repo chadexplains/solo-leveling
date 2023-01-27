@@ -1,0 +1,11 @@
+{
+  "id": "minimum-depth-of-binary-tree",
+  "name": "Minimum Depth of Binary Tree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given a binary tree, find its minimum depth.\n\nThe minimum depth is the number of nodes along the shortest path from the root node down to the nearest leaf node.\n\nNote: A leaf is a node with no children.\n\n \nExample 1:\n\nInput: root = [3,9,20,null,null,15,7]\nOutput: 2\n\n\nExample 2:\n\nInput: root = [2,null,3,null,4,null,5,null,6]\nOutput: 5\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [0, 105].\n\t-1000 <= Node.val <= 1000\n\n"
+}

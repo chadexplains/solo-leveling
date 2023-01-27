@@ -1,0 +1,10 @@
+{
+  "id": "longest-repeating-character-replacement",
+  "name": "Longest Repeating Character Replacement",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "description": "You are given a string s and an integer k. You can choose any character of the string and change it to any other uppercase English character. You can perform this operation at most k times.\n\nReturn the length of the longest substring containing the same letter you can get after performing the above operations.\n\n \nExample 1:\n\nInput: s = \"ABAB\", k = 2\nOutput: 4\nExplanation: Replace the two 'A's with two 'B's or vice versa.\n\n\nExample 2:\n\nInput: s = \"AABABBA\", k = 1\nOutput: 4\nExplanation: Replace the one 'A' in the middle with 'B' and form \"AABBBBA\".\nThe substring \"BBBB\" has the longest repeating letters, which is 4.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of only uppercase English letters.\n\t0 <= k <= s.length\n\n"
+}

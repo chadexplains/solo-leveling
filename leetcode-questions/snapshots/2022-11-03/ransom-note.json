@@ -1,0 +1,10 @@
+{
+  "id": "ransom-note",
+  "name": "Ransom Note",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "Given two strings ransomNote and magazine, return true if ransomNote can be constructed by using the letters from magazine and false otherwise.\n\nEach letter in magazine can only be used once in ransomNote.\n\n \nExample 1:\nInput: ransomNote = \"a\", magazine = \"b\"\nOutput: false\nExample 2:\nInput: ransomNote = \"aa\", magazine = \"ab\"\nOutput: false\nExample 3:\nInput: ransomNote = \"aa\", magazine = \"aab\"\nOutput: true\n\n \nConstraints:\n\n\n\t1 <= ransomNote.length, magazine.length <= 105\n\transomNote and magazine consist of lowercase English letters.\n\n"
+}

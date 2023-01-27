@@ -1,0 +1,10 @@
+{
+  "id": "word-subsets",
+  "name": "Word Subsets",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "You are given two string arrays words1 and words2.\n\nA string b is a subset of string a if every letter in b occurs in a including multiplicity.\n\n\n\tFor example, \"wrr\" is a subset of \"warrior\" but is not a subset of \"world\".\n\n\nA string a from words1 is universal if for every string b in words2, b is a subset of a.\n\nReturn an array of all the universal strings in words1. You may return the answer in any order.\n\n \nExample 1:\n\nInput: words1 = [\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"], words2 = [\"e\",\"o\"]\nOutput: [\"facebook\",\"google\",\"leetcode\"]\n\n\nExample 2:\n\nInput: words1 = [\"amazon\",\"apple\",\"facebook\",\"google\",\"leetcode\"], words2 = [\"l\",\"e\"]\nOutput: [\"apple\",\"google\",\"leetcode\"]\n\n\n \nConstraints:\n\n\n\t1 <= words1.length, words2.length <= 104\n\t1 <= words1[i].length, words2[i].length <= 10\n\twords1[i] and words2[i] consist only of lowercase English letters.\n\tAll the strings of words1 are unique.\n\n"
+}

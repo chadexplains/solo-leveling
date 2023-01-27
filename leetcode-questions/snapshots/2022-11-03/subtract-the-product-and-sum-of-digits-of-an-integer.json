@@ -1,0 +1,8 @@
+{
+  "id": "subtract-the-product-and-sum-of-digits-of-an-integer",
+  "name": "Subtract the Product and Sum of Digits of an Integer",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer number n, return the difference between the product of its digits and the sum of its digits.\n \nExample 1:\n\nInput: n = 234\nOutput: 15 \nExplanation: \nProduct of digits = 2 * 3 * 4 = 24 \nSum of digits = 2 + 3 + 4 = 9 \nResult = 24 - 9 = 15\n\n\nExample 2:\n\nInput: n = 4421\nOutput: 21\nExplanation: \nProduct of digits = 4 * 4 * 2 * 1 = 32 \nSum of digits = 4 + 4 + 2 + 1 = 11 \nResult = 32 - 11 = 21\n\n\n \nConstraints:\n\n\n\t1 <= n <= 10^5\n\n"
+}

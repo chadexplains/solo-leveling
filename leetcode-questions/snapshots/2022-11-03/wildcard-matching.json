@@ -1,0 +1,11 @@
+{
+  "id": "wildcard-matching",
+  "name": "Wildcard Matching",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Greedy",
+    "Recursion"
+  ],
+  "description": "Given an input string (s) and a pattern (p), implement wildcard pattern matching with support for '?' and '*' where:\n\n\n\t'?' Matches any single character.\n\t'*' Matches any sequence of characters (including the empty sequence).\n\n\nThe matching should cover the entire input string (not partial).\n\n \nExample 1:\n\nInput: s = \"aa\", p = \"a\"\nOutput: false\nExplanation: \"a\" does not match the entire string \"aa\".\n\n\nExample 2:\n\nInput: s = \"aa\", p = \"*\"\nOutput: true\nExplanation: '*' matches any sequence.\n\n\nExample 3:\n\nInput: s = \"cb\", p = \"?a\"\nOutput: false\nExplanation: '?' matches 'c', but the second letter is 'a', which does not match 'b'.\n\n\n \nConstraints:\n\n\n\t0 <= s.length, p.length <= 2000\n\ts contains only lowercase English letters.\n\tp contains only lowercase English letters, '?' or '*'.\n\n"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "partition-to-k-equal-sum-subsets",
+  "name": "Partition to K Equal Sum Subsets",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Memoization",
+    "Bitmask"
+  ],
+  "description": "Given an integer array nums and an integer k, return true if it is possible to divide this array into k non-empty subsets whose sums are all equal.\n\n \nExample 1:\n\nInput: nums = [4,3,2,3,5,2,1], k = 4\nOutput: true\nExplanation: It is possible to divide it into 4 subsets (5), (1, 4), (2,3), (2,3) with equal sums.\n\n\nExample 2:\n\nInput: nums = [1,2,3,4], k = 3\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= k <= nums.length <= 16\n\t1 <= nums[i] <= 104\n\tThe frequency of each element is in the range [1, 4].\n\n"
+}

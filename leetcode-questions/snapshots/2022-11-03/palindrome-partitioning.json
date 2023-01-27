@@ -1,0 +1,10 @@
+{
+  "id": "palindrome-partitioning",
+  "name": "Palindrome Partitioning",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Backtracking"
+  ],
+  "description": "Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.\n\n \nExample 1:\nInput: s = \"aab\"\nOutput: [[\"a\",\"a\",\"b\"],[\"aa\",\"b\"]]\nExample 2:\nInput: s = \"a\"\nOutput: [[\"a\"]]\n\n \nConstraints:\n\n\n\t1 <= s.length <= 16\n\ts contains only lowercase English letters.\n\n"
+}

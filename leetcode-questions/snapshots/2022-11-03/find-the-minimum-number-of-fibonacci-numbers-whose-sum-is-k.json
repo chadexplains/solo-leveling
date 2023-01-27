@@ -1,0 +1,8 @@
+{
+  "id": "find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k",
+  "name": "Find the Minimum Number of Fibonacci Numbers Whose Sum Is K",
+  "tags": [
+    "Greedy"
+  ],
+  "description": "Given an integer k, return the minimum number of Fibonacci numbers whose sum is equal to k. The same Fibonacci number can be used multiple times.\n\nThe Fibonacci numbers are defined as:\n\n\n\tF1 = 1\n\tF2 = 1\n\tFn = Fn-1 + Fn-2 for n > 2.\n\nIt is guaranteed that for the given constraints we can always find such Fibonacci numbers that sum up to k.\n \nExample 1:\n\nInput: k = 7\nOutput: 2 \nExplanation: The Fibonacci numbers are: 1, 1, 2, 3, 5, 8, 13, ... \nFor k = 7 we can use 2 + 5 = 7.\n\nExample 2:\n\nInput: k = 10\nOutput: 2 \nExplanation: For k = 10 we can use 2 + 8 = 10.\n\n\nExample 3:\n\nInput: k = 19\nOutput: 3 \nExplanation: For k = 19 we can use 1 + 5 + 13 = 19.\n\n\n \nConstraints:\n\n\n\t1 <= k <= 109\n\n"
+}

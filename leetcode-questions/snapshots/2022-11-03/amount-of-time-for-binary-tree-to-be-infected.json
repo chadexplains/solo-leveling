@@ -1,0 +1,11 @@
+{
+  "id": "amount-of-time-for-binary-tree-to-be-infected",
+  "name": "Amount of Time for Binary Tree to Be Infected",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree with unique values, and an integer start. At minute 0, an infection starts from the node with value start.\n\nEach minute, a node becomes infected if:\n\n\n\tThe node is currently uninfected.\n\tThe node is adjacent to an infected node.\n\n\nReturn the number of minutes needed for the entire tree to be infected.\n\n \nExample 1:\n\nInput: root = [1,5,3,null,4,10,6,9,2], start = 3\nOutput: 4\nExplanation: The following nodes are infected during:\n- Minute 0: Node 3\n- Minute 1: Nodes 1, 10 and 6\n- Minute 2: Node 5\n- Minute 3: Node 4\n- Minute 4: Nodes 9 and 2\nIt takes 4 minutes for the whole tree to be infected so we return 4.\n\n\nExample 2:\n\nInput: root = [1], start = 1\nOutput: 0\nExplanation: At minute 0, the only node in the tree is infected so we return 0.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 105].\n\t1 <= Node.val <= 105\n\tEach node has a unique value.\n\tA node with a value of start exists in the tree.\n\n"
+}

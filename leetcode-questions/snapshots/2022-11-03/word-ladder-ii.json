@@ -1,0 +1,11 @@
+{
+  "id": "word-ladder-ii",
+  "name": "Word Ladder II",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Backtracking",
+    "Breadth-First Search"
+  ],
+  "description": "A transformation sequence from word beginWord to word endWord using a dictionary wordList is a sequence of words beginWord -> s1 -> s2 -> ... -> sk such that:\n\n\n\tEvery adjacent pair of words differs by a single letter.\n\tEvery si for 1 <= i <= k is in wordList. Note that beginWord does not need to be in wordList.\n\tsk == endWord\n\n\nGiven two words, beginWord and endWord, and a dictionary wordList, return all the shortest transformation sequences from beginWord to endWord, or an empty list if no such sequence exists. Each sequence should be returned as a list of the words [beginWord, s1, s2, ..., sk].\n\n \nExample 1:\n\nInput: beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\",\"cog\"]\nOutput: [[\"hit\",\"hot\",\"dot\",\"dog\",\"cog\"],[\"hit\",\"hot\",\"lot\",\"log\",\"cog\"]]\nExplanation: There are 2 shortest transformation sequences:\n\"hit\" -> \"hot\" -> \"dot\" -> \"dog\" -> \"cog\"\n\"hit\" -> \"hot\" -> \"lot\" -> \"log\" -> \"cog\"\n\n\nExample 2:\n\nInput: beginWord = \"hit\", endWord = \"cog\", wordList = [\"hot\",\"dot\",\"dog\",\"lot\",\"log\"]\nOutput: []\nExplanation: The endWord \"cog\" is not in wordList, therefore there is no valid transformation sequence.\n\n\n \nConstraints:\n\n\n\t1 <= beginWord.length <= 5\n\tendWord.length == beginWord.length\n\t1 <= wordList.length <= 500\n\twordList[i].length == beginWord.length\n\tbeginWord, endWord, and wordList[i] consist of lowercase English letters.\n\tbeginWord != endWord\n\tAll the words in wordList are unique.\n\tThe sum of all shortest transformation sequences does not exceed 105.\n\n"
+}

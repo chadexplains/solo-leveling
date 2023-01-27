@@ -1,0 +1,10 @@
+{
+  "id": "maximum-product-of-the-length-of-two-palindromic-substrings",
+  "name": "Maximum Product of the Length of Two Palindromic Substrings",
+  "tags": [
+    "String",
+    "Rolling Hash",
+    "Hash Function"
+  ],
+  "description": "You are given a 0-indexed string s and are tasked with finding two non-intersecting palindromic substrings of odd length such that the product of their lengths is maximized.\n\nMore formally, you want to choose four integers i, j, k, l such that 0 <= i <= j < k <= l < s.length and both the substrings s[i...j] and s[k...l] are palindromes and have odd lengths. s[i...j] denotes a substring from index i to index j inclusive.\n\nReturn the maximum possible product of the lengths of the two non-intersecting palindromic substrings.\n\nA palindrome is a string that is the same forward and backward. A substring is a contiguous sequence of characters in a string.\n\n \nExample 1:\n\nInput: s = \"ababbb\"\nOutput: 9\nExplanation: Substrings \"aba\" and \"bbb\" are palindromes with odd length. product = 3 * 3 = 9.\n\n\nExample 2:\n\nInput: s = \"zaaaxbbby\"\nOutput: 9\nExplanation: Substrings \"aaa\" and \"bbb\" are palindromes with odd length. product = 3 * 3 = 9.\n\n\n \nConstraints:\n\n\n\t2 <= s.length <= 105\n\ts consists of lowercase English letters.\n\n"
+}

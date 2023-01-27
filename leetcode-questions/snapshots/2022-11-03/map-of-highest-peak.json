@@ -1,0 +1,10 @@
+{
+  "id": "map-of-highest-peak",
+  "name": "Map of Highest Peak",
+  "tags": [
+    "Array",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "You are given an integer matrix isWater of size m x n that represents a map of land and water cells.\n\n\n\tIf isWater[i][j] == 0, cell (i, j) is a land cell.\n\tIf isWater[i][j] == 1, cell (i, j) is a water cell.\n\n\nYou must assign each cell a height in a way that follows these rules:\n\n\n\tThe height of each cell must be non-negative.\n\tIf the cell is a water cell, its height must be 0.\n\tAny two adjacent cells must have an absolute height difference of at most 1. A cell is adjacent to another cell if the former is directly north, east, south, or west of the latter (i.e., their sides are touching).\n\n\nFind an assignment of heights such that the maximum height in the matrix is maximized.\n\nReturn an integer matrix height of size m x n where height[i][j] is cell (i, j)'s height. If there are multiple solutions, return any of them.\n\n \nExample 1:\n\n\n\nInput: isWater = [[0,1],[0,0]]\nOutput: [[1,0],[2,1]]\nExplanation: The image shows the assigned heights of each cell.\nThe blue cell is the water cell, and the green cells are the land cells.\n\n\nExample 2:\n\n\n\nInput: isWater = [[0,0,1],[1,0,0],[0,0,0]]\nOutput: [[1,1,0],[0,1,1],[1,2,2]]\nExplanation: A height of 2 is the maximum possible height of any assignment.\nAny height assignment that has a maximum height of 2 while still meeting the rules will also be accepted.\n\n\n \nConstraints:\n\n\n\tm == isWater.length\n\tn == isWater[i].length\n\t1 <= m, n <= 1000\n\tisWater[i][j] is 0 or 1.\n\tThere is at least one water cell.\n\n"
+}

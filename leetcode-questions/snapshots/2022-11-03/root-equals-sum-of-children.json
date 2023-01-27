@@ -1,0 +1,9 @@
+{
+  "id": "root-equals-sum-of-children",
+  "name": "Root Equals Sum of Children",
+  "tags": [
+    "Tree",
+    "Binary Tree"
+  ],
+  "description": "You are given the root of a binary tree that consists of exactly 3 nodes: the root, its left child, and its right child.\n\nReturn true if the value of the root is equal to the sum of the values of its two children, or false otherwise.\n\n \nExample 1:\n\nInput: root = [10,4,6]\nOutput: true\nExplanation: The values of the root, its left child, and its right child are 10, 4, and 6, respectively.\n10 is equal to 4 + 6, so we return true.\n\n\nExample 2:\n\nInput: root = [5,3,1]\nOutput: false\nExplanation: The values of the root, its left child, and its right child are 5, 3, and 1, respectively.\n5 is not equal to 3 + 1, so we return false.\n\n\n \nConstraints:\n\n\n\tThe tree consists only of the root, its left child, and its right child.\n\t-100 <= Node.val <= 100\n\n"
+}

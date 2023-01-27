@@ -1,0 +1,12 @@
+{
+  "id": "different-ways-to-add-parentheses",
+  "name": "Different Ways to Add Parentheses",
+  "tags": [
+    "Math",
+    "String",
+    "Dynamic Programming",
+    "Recursion",
+    "Memoization"
+  ],
+  "description": "Given a string expression of numbers and operators, return all possible results from computing all the different possible ways to group numbers and operators. You may return the answer in any order.\n\nThe test cases are generated such that the output values fit in a 32-bit integer and the number of different results does not exceed 104.\n\n \nExample 1:\n\nInput: expression = \"2-1-1\"\nOutput: [0,2]\nExplanation:\n((2-1)-1) = 0 \n(2-(1-1)) = 2\n\n\nExample 2:\n\nInput: expression = \"2*3-4*5\"\nOutput: [-34,-14,-10,-10,10]\nExplanation:\n(2*(3-(4*5))) = -34 \n((2*3)-(4*5)) = -14 \n((2*(3-4))*5) = -10 \n(2*((3-4)*5)) = -10 \n(((2*3)-4)*5) = 10\n\n\n \nConstraints:\n\n\n\t1 <= expression.length <= 20\n\texpression consists of digits and the operator '+', '-', and '*'.\n\tAll the integer values in the input expression are in the range [0, 99].\n\n"
+}

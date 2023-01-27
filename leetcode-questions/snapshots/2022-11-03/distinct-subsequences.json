@@ -1,0 +1,9 @@
+{
+  "id": "distinct-subsequences",
+  "name": "Distinct Subsequences",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given two strings s and t, return the number of distinct subsequences of s which equals t.\n\nThe test cases are generated so that the answer fits on a 32-bit signed integer.\n\n \nExample 1:\n\nInput: s = \"rabbbit\", t = \"rabbit\"\nOutput: 3\nExplanation:\nAs shown below, there are 3 ways you can generate \"rabbit\" from s.\nrabbbit\nrabbbit\nrabbbit\n\n\nExample 2:\n\nInput: s = \"babgbag\", t = \"bag\"\nOutput: 5\nExplanation:\nAs shown below, there are 5 ways you can generate \"bag\" from s.\nbabgbag\nbabgbag\nbabgbag\nbabgbag\nbabgbag\n\n \nConstraints:\n\n\n\t1 <= s.length, t.length <= 1000\n\ts and t consist of English letters.\n\n"
+}

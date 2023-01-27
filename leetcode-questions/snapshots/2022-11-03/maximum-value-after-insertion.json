@@ -1,0 +1,9 @@
+{
+  "id": "maximum-value-after-insertion",
+  "name": "Maximum Value after Insertion",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a very large integer n, represented as a string,​​​​​​ and an integer digit x. The digits in n and the digit x are in the inclusive range [1, 9], and n may represent a negative number.\n\nYou want to maximize n's numerical value by inserting x anywhere in the decimal representation of n​​​​​​. You cannot insert x to the left of the negative sign.\n\n\n\tFor example, if n = 73 and x = 6, it would be best to insert it between 7 and 3, making n = 763.\n\tIf n = -55 and x = 2, it would be best to insert it before the first 5, making n = -255.\n\n\nReturn a string representing the maximum value of n​​​​​​ after the insertion.\n\n \nExample 1:\n\nInput: n = \"99\", x = 9\nOutput: \"999\"\nExplanation: The result is the same regardless of where you insert 9.\n\n\nExample 2:\n\nInput: n = \"-13\", x = 2\nOutput: \"-123\"\nExplanation: You can make n one of {-213, -123, -132}, and the largest of those three is -123.\n\n\n \nConstraints:\n\n\n\t1 <= n.length <= 105\n\t1 <= x <= 9\n\tThe digits in n​​​ are in the range [1, 9].\n\tn is a valid representation of an integer.\n\tIn the case of a negative n,​​​​​​ it will begin with '-'.\n\n"
+}

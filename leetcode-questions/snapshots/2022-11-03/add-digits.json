@@ -1,0 +1,10 @@
+{
+  "id": "add-digits",
+  "name": "Add Digits",
+  "tags": [
+    "Math",
+    "Simulation",
+    "Number Theory"
+  ],
+  "description": "Given an integer num, repeatedly add all its digits until the result has only one digit, and return it.\n\n \nExample 1:\n\nInput: num = 38\nOutput: 2\nExplanation: The process is\n38 --> 3 + 8 --> 11\n11 --> 1 + 1 --> 2 \nSince 2 has only one digit, return it.\n\n\nExample 2:\n\nInput: num = 0\nOutput: 0\n\n\n \nConstraints:\n\n\n\t0 <= num <= 231 - 1\n\n\n \nFollow up: Could you do it without any loop/recursion in O(1) runtime?\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "minimum-number-of-frogs-croaking",
+  "name": "Minimum Number of Frogs Croaking",
+  "tags": [
+    "String",
+    "Counting"
+  ],
+  "description": "You are given the string croakOfFrogs, which represents a combination of the string \"croak\" from different frogs, that is, multiple frogs can croak at the same time, so multiple \"croak\" are mixed.\n\nReturn the minimum number of different frogs to finish all the croaks in the given string.\n\nA valid \"croak\" means a frog is printing five letters 'c', 'r', 'o', 'a', and 'k' sequentially. The frogs have to print all five letters to finish a croak. If the given string is not a combination of a valid \"croak\" return -1.\n\n \nExample 1:\n\nInput: croakOfFrogs = \"croakcroak\"\nOutput: 1 \nExplanation: One frog yelling \"croak\" twice.\n\n\nExample 2:\n\nInput: croakOfFrogs = \"crcoakroak\"\nOutput: 2 \nExplanation: The minimum number of frogs is two. \nThe first frog could yell \"crcoakroak\".\nThe second frog could yell later \"crcoakroak\".\n\n\nExample 3:\n\nInput: croakOfFrogs = \"croakcrook\"\nOutput: -1\nExplanation: The given string is an invalid combination of \"croak\" from different frogs.\n\n\n \nConstraints:\n\n\n\t1 <= croakOfFrogs.length <= 105\n\tcroakOfFrogs is either 'c', 'r', 'o', 'a', or 'k'.\n\n"
+}

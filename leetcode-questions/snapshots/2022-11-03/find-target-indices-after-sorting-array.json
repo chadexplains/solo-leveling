@@ -1,0 +1,10 @@
+{
+  "id": "find-target-indices-after-sorting-array",
+  "name": "Find Target Indices After Sorting Array",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Sorting"
+  ],
+  "description": "You are given a 0-indexed integer array nums and a target element target.\n\nA target index is an index i such that nums[i] == target.\n\nReturn a list of the target indices of nums after sorting nums in non-decreasing order. If there are no target indices, return an empty list. The returned list must be sorted in increasing order.\n\n \nExample 1:\n\nInput: nums = [1,2,5,2,3], target = 2\nOutput: [1,2]\nExplanation: After sorting, nums is [1,2,2,3,5].\nThe indices where nums[i] == 2 are 1 and 2.\n\n\nExample 2:\n\nInput: nums = [1,2,5,2,3], target = 3\nOutput: [3]\nExplanation: After sorting, nums is [1,2,2,3,5].\nThe index where nums[i] == 3 is 3.\n\n\nExample 3:\n\nInput: nums = [1,2,5,2,3], target = 5\nOutput: [4]\nExplanation: After sorting, nums is [1,2,2,3,5].\nThe index where nums[i] == 5 is 4.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 100\n\t1 <= nums[i], target <= 100\n\n"
+}

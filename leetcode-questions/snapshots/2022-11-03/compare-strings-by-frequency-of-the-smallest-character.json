@@ -1,0 +1,12 @@
+{
+  "id": "compare-strings-by-frequency-of-the-smallest-character",
+  "name": "Compare Strings by Frequency of the Smallest Character",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Binary Search",
+    "Sorting"
+  ],
+  "description": "Let the function f(s) be the frequency of the lexicographically smallest character in a non-empty string s. For example, if s = \"dcce\" then f(s) = 2 because the lexicographically smallest character is 'c', which has a frequency of 2.\n\nYou are given an array of strings words and another array of query strings queries. For each query queries[i], count the number of words in words such that f(queries[i]) < f(W) for each W in words.\n\nReturn an integer array answer, where each answer[i] is the answer to the ith query.\n\n \nExample 1:\n\nInput: queries = [\"cbd\"], words = [\"zaaaz\"]\nOutput: [1]\nExplanation: On the first query we have f(\"cbd\") = 1, f(\"zaaaz\") = 3 so f(\"cbd\") < f(\"zaaaz\").\n\n\nExample 2:\n\nInput: queries = [\"bbb\",\"cc\"], words = [\"a\",\"aa\",\"aaa\",\"aaaa\"]\nOutput: [1,2]\nExplanation: On the first query only f(\"bbb\") < f(\"aaaa\"). On the second query both f(\"aaa\") and f(\"aaaa\") are both > f(\"cc\").\n\n\n \nConstraints:\n\n\n\t1 <= queries.length <= 2000\n\t1 <= words.length <= 2000\n\t1 <= queries[i].length, words[i].length <= 10\n\tqueries[i][j], words[i][j] consist of lowercase English letters.\n\n"
+}

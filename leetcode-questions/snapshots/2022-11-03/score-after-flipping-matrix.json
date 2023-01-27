@@ -1,0 +1,11 @@
+{
+  "id": "score-after-flipping-matrix",
+  "name": "Score After Flipping Matrix",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Bit Manipulation",
+    "Matrix"
+  ],
+  "description": "You are given an m x n binary matrix grid.\n\nA move consists of choosing any row or column and toggling each value in that row or column (i.e., changing all 0's to 1's, and all 1's to 0's).\n\nEvery row of the matrix is interpreted as a binary number, and the score of the matrix is the sum of these numbers.\n\nReturn the highest possible score after making any number of moves (including zero moves).\n\n \nExample 1:\n\nInput: grid = [[0,0,1,1],[1,0,1,0],[1,1,0,0]]\nOutput: 39\nExplanation: 0b1111 + 0b1001 + 0b1111 = 15 + 9 + 15 = 39\n\n\nExample 2:\n\nInput: grid = [[0]]\nOutput: 1\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 20\n\tgrid[i][j] is either 0 or 1.\n\n"
+}

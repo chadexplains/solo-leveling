@@ -1,0 +1,8 @@
+{
+  "id": "binary-number-with-alternating-bits",
+  "name": "Binary Number with Alternating Bits",
+  "tags": [
+    "Bit Manipulation"
+  ],
+  "description": "Given a positive integer, check whether it has alternating bits: namely, if two adjacent bits will always have different values.\n\n \nExample 1:\n\nInput: n = 5\nOutput: true\nExplanation: The binary representation of 5 is: 101\n\n\nExample 2:\n\nInput: n = 7\nOutput: false\nExplanation: The binary representation of 7 is: 111.\n\nExample 3:\n\nInput: n = 11\nOutput: false\nExplanation: The binary representation of 11 is: 1011.\n\n \nConstraints:\n\n\n\t1 <= n <= 231 - 1\n\n"
+}

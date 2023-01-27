@@ -1,0 +1,9 @@
+{
+  "id": "first-missing-positive",
+  "name": "First Missing Positive",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "Given an unsorted integer array nums, return the smallest missing positive integer.\n\nYou must implement an algorithm that runs in O(n) time and uses constant extra space.\n\n \nExample 1:\n\nInput: nums = [1,2,0]\nOutput: 3\nExplanation: The numbers in the range [1,2] are all in the array.\n\n\nExample 2:\n\nInput: nums = [3,4,-1,1]\nOutput: 2\nExplanation: 1 is in the array but 2 is missing.\n\n\nExample 3:\n\nInput: nums = [7,8,9,11,12]\nOutput: 1\nExplanation: The smallest positive integer 1 is missing.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-231 <= nums[i] <= 231 - 1\n\n"
+}

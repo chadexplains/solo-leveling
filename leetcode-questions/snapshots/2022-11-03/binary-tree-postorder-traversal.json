@@ -1,0 +1,11 @@
+{
+  "id": "binary-tree-postorder-traversal",
+  "name": "Binary Tree Postorder Traversal",
+  "tags": [
+    "Stack",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return the postorder traversal of its nodes' values.\n\n \nExample 1:\n\nInput: root = [1,null,2,3]\nOutput: [3,2,1]\n\n\nExample 2:\n\nInput: root = []\nOutput: []\n\n\nExample 3:\n\nInput: root = [1]\nOutput: [1]\n\n\n \nConstraints:\n\n\n\tThe number of the nodes in the tree is in the range [0, 100].\n\t-100 <= Node.val <= 100\n\n\n \nFollow up: Recursive solution is trivial, could you do it iteratively?"
+}

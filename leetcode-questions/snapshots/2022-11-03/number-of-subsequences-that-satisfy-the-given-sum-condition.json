@@ -1,0 +1,11 @@
+{
+  "id": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+  "name": "Number of Subsequences That Satisfy the Given Sum Condition",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Sorting"
+  ],
+  "description": "You are given an array of integers nums and an integer target.\n\nReturn the number of non-empty subsequences of nums such that the sum of the minimum and maximum element on it is less or equal to target. Since the answer may be too large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: nums = [3,5,6,7], target = 9\nOutput: 4\nExplanation: There are 4 subsequences that satisfy the condition.\n[3] -> Min value + max value <= target (3 + 3 <= 9)\n[3,5] -> (3 + 5 <= 9)\n[3,5,6] -> (3 + 6 <= 9)\n[3,6] -> (3 + 6 <= 9)\n\n\nExample 2:\n\nInput: nums = [3,3,6,8], target = 10\nOutput: 6\nExplanation: There are 6 subsequences that satisfy the condition. (nums can have repeated numbers).\n[3] , [3] , [3,3], [3,6] , [3,6] , [3,3,6]\n\n\nExample 3:\n\nInput: nums = [2,3,3,4,6,7], target = 12\nOutput: 61\nExplanation: There are 63 non-empty subsequences, two of them do not satisfy the condition ([6,7], [7]).\nNumber of valid subsequences (63 - 2 = 61).\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 106\n\t1 <= target <= 106\n\n"
+}

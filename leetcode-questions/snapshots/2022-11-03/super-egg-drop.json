@@ -1,0 +1,10 @@
+{
+  "id": "super-egg-drop",
+  "name": "Super Egg Drop",
+  "tags": [
+    "Math",
+    "Binary Search",
+    "Dynamic Programming"
+  ],
+  "description": "You are given k identical eggs and you have access to a building with n floors labeled from 1 to n.\n\nYou know that there exists a floor f where 0 <= f <= n such that any egg dropped at a floor higher than f will break, and any egg dropped at or below floor f will not break.\n\nEach move, you may take an unbroken egg and drop it from any floor x (where 1 <= x <= n). If the egg breaks, you can no longer use it. However, if the egg does not break, you may reuse it in future moves.\n\nReturn the minimum number of moves that you need to determine with certainty what the value of f is.\n\n \nExample 1:\n\nInput: k = 1, n = 2\nOutput: 2\nExplanation: \nDrop the egg from floor 1. If it breaks, we know that f = 0.\nOtherwise, drop the egg from floor 2. If it breaks, we know that f = 1.\nIf it does not break, then we know f = 2.\nHence, we need at minimum 2 moves to determine with certainty what the value of f is.\n\n\nExample 2:\n\nInput: k = 2, n = 6\nOutput: 3\n\n\nExample 3:\n\nInput: k = 3, n = 14\nOutput: 4\n\n\n \nConstraints:\n\n\n\t1 <= k <= 100\n\t1 <= n <= 104\n\n"
+}

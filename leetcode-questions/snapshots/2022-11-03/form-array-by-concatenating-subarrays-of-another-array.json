@@ -1,0 +1,10 @@
+{
+  "id": "form-array-by-concatenating-subarrays-of-another-array",
+  "name": "Form Array by Concatenating Subarrays of Another Array",
+  "tags": [
+    "Array",
+    "Greedy",
+    "String Matching"
+  ],
+  "description": "You are given a 2D integer array groups of length n. You are also given an integer array nums.\n\nYou are asked if you can choose n disjoint subarrays from the array nums such that the ith subarray is equal to groups[i] (0-indexed), and if i > 0, the (i-1)th subarray appears before the ith subarray in nums (i.e. the subarrays must be in the same order as groups).\n\nReturn true if you can do this task, and false otherwise.\n\nNote that the subarrays are disjoint if and only if there is no index k such that nums[k] belongs to more than one subarray. A subarray is a contiguous sequence of elements within an array.\n\n \nExample 1:\n\nInput: groups = [[1,-1,-1],[3,-2,0]], nums = [1,-1,0,1,-1,-1,3,-2,0]\nOutput: true\nExplanation: You can choose the 0th subarray as [1,-1,0,1,-1,-1,3,-2,0] and the 1st one as [1,-1,0,1,-1,-1,3,-2,0].\nThese subarrays are disjoint as they share no common nums[k] element.\n\n\nExample 2:\n\nInput: groups = [[10,-2],[1,2,3,4]], nums = [1,2,3,4,10,-2]\nOutput: false\nExplanation: Note that choosing the subarrays [1,2,3,4,10,-2] and [1,2,3,4,10,-2] is incorrect because they are not in the same order as in groups.\n[10,-2] must come before [1,2,3,4].\n\n\nExample 3:\n\nInput: groups = [[1,2,3],[3,4]], nums = [7,7,1,2,3,4,7,7]\nOutput: false\nExplanation: Note that choosing the subarrays [7,7,1,2,3,4,7,7] and [7,7,1,2,3,4,7,7] is invalid because they are not disjoint.\nThey share a common elements nums[4] (0-indexed).\n\n\n \nConstraints:\n\n\n\tgroups.length == n\n\t1 <= n <= 103\n\t1 <= groups[i].length, sum(groups[i].length) <= 103\n\t1 <= nums.length <= 103\n\t-107 <= groups[i][j], nums[k] <= 107\n\n"
+}

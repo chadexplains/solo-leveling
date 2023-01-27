@@ -1,0 +1,10 @@
+{
+  "id": "triples-with-bitwise-and-equal-to-zero",
+  "name": "Triples with Bitwise AND Equal To Zero",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Bit Manipulation"
+  ],
+  "description": "Given an integer array nums, return the number of AND triples.\n\nAn AND triple is a triple of indices (i, j, k) such that:\n\n\n\t0 <= i < nums.length\n\t0 <= j < nums.length\n\t0 <= k < nums.length\n\tnums[i] & nums[j] & nums[k] == 0, where & represents the bitwise-AND operator.\n\n\n \nExample 1:\n\nInput: nums = [2,1,3]\nOutput: 12\nExplanation: We could choose the following i, j, k triples:\n(i=0, j=0, k=1) : 2 & 2 & 1\n(i=0, j=1, k=0) : 2 & 1 & 2\n(i=0, j=1, k=1) : 2 & 1 & 1\n(i=0, j=1, k=2) : 2 & 1 & 3\n(i=0, j=2, k=1) : 2 & 3 & 1\n(i=1, j=0, k=0) : 1 & 2 & 2\n(i=1, j=0, k=1) : 1 & 2 & 1\n(i=1, j=0, k=2) : 1 & 2 & 3\n(i=1, j=1, k=0) : 1 & 1 & 2\n(i=1, j=2, k=0) : 1 & 3 & 2\n(i=2, j=0, k=1) : 3 & 2 & 1\n(i=2, j=1, k=0) : 3 & 1 & 2\n\n\nExample 2:\n\nInput: nums = [0,0,0]\nOutput: 27\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 1000\n\t0 <= nums[i] < 216\n\n"
+}

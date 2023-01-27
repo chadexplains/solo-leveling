@@ -1,0 +1,8 @@
+{
+  "id": "detect-capital",
+  "name": "Detect Capital",
+  "tags": [
+    "String"
+  ],
+  "description": "We define the usage of capitals in a word to be right when one of the following cases holds:\n\n\n\tAll letters in this word are capitals, like \"USA\".\n\tAll letters in this word are not capitals, like \"leetcode\".\n\tOnly the first letter in this word is capital, like \"Google\".\n\n\nGiven a string word, return true if the usage of capitals in it is right.\n\n \nExample 1:\nInput: word = \"USA\"\nOutput: true\nExample 2:\nInput: word = \"FlaG\"\nOutput: false\n\n \nConstraints:\n\n\n\t1 <= word.length <= 100\n\tword consists of lowercase and uppercase English letters.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "find-positive-integer-solution-for-a-given-equation",
+  "name": "Find Positive Integer Solution for a Given Equation",
+  "tags": [
+    "Math",
+    "Two Pointers",
+    "Binary Search",
+    "Interactive"
+  ],
+  "description": "Given a callable function f(x, y) with a hidden formula and a value z, reverse engineer the formula and return all positive integer pairs x and y where f(x,y) == z. You may return the pairs in any order.\n\nWhile the exact formula is hidden, the function is monotonically increasing, i.e.:\n\n\n\tf(x, y) < f(x + 1, y)\n\tf(x, y) < f(x, y + 1)\n\n\nThe function interface is defined like this:\n\ninterface CustomFunction {\npublic:\n  // Returns some positive integer f(x, y) for two positive integers x and y based on a formula.\n  int f(int x, int y);\n};\n\n\nWe will judge your solution as follows:\n\n\n\tThe judge has a list of 9 hidden implementations of CustomFunction, along with a way to generate an answer key of all valid pairs for a specific z.\n\tThe judge will receive two inputs: a function_id (to determine which implementation to test your code with), and the target z.\n\tThe judge will call your findSolution and compare your results with the answer key.\n\tIf your results match the answer key, your solution will be Accepted.\n\n\n \nExample 1:\n\nInput: function_id = 1, z = 5\nOutput: [[1,4],[2,3],[3,2],[4,1]]\nExplanation: The hidden formula for function_id = 1 is f(x, y) = x + y.\nThe following positive integer values of x and y make f(x, y) equal to 5:\nx=1, y=4 -> f(1, 4) = 1 + 4 = 5.\nx=2, y=3 -> f(2, 3) = 2 + 3 = 5.\nx=3, y=2 -> f(3, 2) = 3 + 2 = 5.\nx=4, y=1 -> f(4, 1) = 4 + 1 = 5.\n\n\nExample 2:\n\nInput: function_id = 2, z = 5\nOutput: [[1,5],[5,1]]\nExplanation: The hidden formula for function_id = 2 is f(x, y) = x * y.\nThe following positive integer values of x and y make f(x, y) equal to 5:\nx=1, y=5 -> f(1, 5) = 1 * 5 = 5.\nx=5, y=1 -> f(5, 1) = 5 * 1 = 5.\n\n\n \nConstraints:\n\n\n\t1 <= function_id <= 9\n\t1 <= z <= 100\n\tIt is guaranteed that the solutions of f(x, y) == z will be in the range 1 <= x, y <= 1000.\n\tIt is also guaranteed that f(x, y) will fit in 32 bit signed integer if 1 <= x, y <= 1000.\n\n"
+}

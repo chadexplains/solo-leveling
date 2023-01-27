@@ -1,0 +1,9 @@
+{
+  "id": "previous-permutation-with-one-swap",
+  "name": "Previous Permutation With One Swap",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "description": "Given an array of positive integers arr (not necessarily distinct), return the lexicographically largest permutation that is smaller than arr, that can be made with exactly one swap (A swap exchanges the positions of two numbers arr[i] and arr[j]). If it cannot be done, then return the same array.\n\n \nExample 1:\n\nInput: arr = [3,2,1]\nOutput: [3,1,2]\nExplanation: Swapping 2 and 1.\n\n\nExample 2:\n\nInput: arr = [1,1,5]\nOutput: [1,1,5]\nExplanation: This is already the smallest permutation.\n\n\nExample 3:\n\nInput: arr = [1,9,4,6,7]\nOutput: [1,7,4,6,9]\nExplanation: Swapping 9 and 7.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 104\n\t1 <= arr[i] <= 104\n\n"
+}

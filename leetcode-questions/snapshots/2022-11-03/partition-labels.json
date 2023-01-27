@@ -1,0 +1,11 @@
+{
+  "id": "partition-labels",
+  "name": "Partition Labels",
+  "tags": [
+    "Hash Table",
+    "Two Pointers",
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a string s. We want to partition the string into as many parts as possible so that each letter appears in at most one part.\n\nNote that the partition is done so that after concatenating all the parts in order, the resultant string should be s.\n\nReturn a list of integers representing the size of these parts.\n\n \nExample 1:\n\nInput: s = \"ababcbacadefegdehijhklij\"\nOutput: [9,7,8]\nExplanation:\nThe partition is \"ababcbaca\", \"defegde\", \"hijhklij\".\nThis is a partition so that each letter appears in at most one part.\nA partition like \"ababcbacadefegde\", \"hijhklij\" is incorrect, because it splits s into less parts.\n\n\nExample 2:\n\nInput: s = \"eccbbbbdec\"\nOutput: [10]\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 500\n\ts consists of lowercase English letters.\n\n"
+}

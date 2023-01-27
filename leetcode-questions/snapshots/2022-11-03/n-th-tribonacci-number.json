@@ -1,0 +1,10 @@
+{
+  "id": "n-th-tribonacci-number",
+  "name": "N-th Tribonacci Number",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Memoization"
+  ],
+  "description": "The Tribonacci sequence Tn is defined as follows: \n\nT0 = 0, T1 = 1, T2 = 1, and Tn+3 = Tn + Tn+1 + Tn+2 for n >= 0.\n\nGiven n, return the value of Tn.\n\n \nExample 1:\n\nInput: n = 4\nOutput: 4\nExplanation:\nT_3 = 0 + 1 + 1 = 2\nT_4 = 1 + 1 + 2 = 4\n\n\nExample 2:\n\nInput: n = 25\nOutput: 1389537\n\n\n \nConstraints:\n\n\n\t0 <= n <= 37\n\tThe answer is guaranteed to fit within a 32-bit integer, ie. answer <= 2^31 - 1.\n"
+}

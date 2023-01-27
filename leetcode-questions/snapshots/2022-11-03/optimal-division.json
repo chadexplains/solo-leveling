@@ -1,0 +1,10 @@
+{
+  "id": "optimal-division",
+  "name": "Optimal Division",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an integer array nums. The adjacent integers in nums will perform the float division.\n\n\n\tFor example, for nums = [2,3,4], we will evaluate the expression \"2/3/4\".\n\n\nHowever, you can add any number of parenthesis at any position to change the priority of operations. You want to add these parentheses such the value of the expression after the evaluation is maximum.\n\nReturn the corresponding expression that has the maximum value in string format.\n\nNote: your expression should not contain redundant parenthesis.\n\n \nExample 1:\n\nInput: nums = [1000,100,10,2]\nOutput: \"1000/(100/10/2)\"\nExplanation: 1000/(100/10/2) = 1000/((100/10)/2) = 200\nHowever, the bold parenthesis in \"1000/((100/10)/2)\" are redundant since they do not influence the operation priority.\nSo you should return \"1000/(100/10/2)\".\nOther cases:\n1000/(100/10)/2 = 50\n1000/(100/(10/2)) = 50\n1000/100/10/2 = 0.5\n1000/100/(10/2) = 2\n\n\nExample 2:\n\nInput: nums = [2,3,4]\nOutput: \"2/(3/4)\"\nExplanation: (2/(3/4)) = 8/3 = 2.667\nIt can be shown that after trying all possibilities, we cannot get an expression with evaluation greater than 2.667\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 10\n\t2 <= nums[i] <= 1000\n\tThere is only one optimal division for the given input.\n\n"
+}

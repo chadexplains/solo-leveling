@@ -1,0 +1,12 @@
+{
+  "id": "max-chunks-to-make-sorted-ii",
+  "name": "Max Chunks To Make Sorted II",
+  "tags": [
+    "Array",
+    "Stack",
+    "Greedy",
+    "Sorting",
+    "Monotonic Stack"
+  ],
+  "description": "You are given an integer array arr.\n\nWe split arr into some number of chunks (i.e., partitions), and individually sort each chunk. After concatenating them, the result should equal the sorted array.\n\nReturn the largest number of chunks we can make to sort the array.\n\n \nExample 1:\n\nInput: arr = [5,4,3,2,1]\nOutput: 1\nExplanation:\nSplitting into two or more chunks will not return the required result.\nFor example, splitting into [5, 4], [3, 2, 1] will result in [4, 5, 1, 2, 3], which isn't sorted.\n\n\nExample 2:\n\nInput: arr = [2,1,3,4,4]\nOutput: 4\nExplanation:\nWe can split into two chunks, such as [2, 1], [3, 4, 4].\nHowever, splitting into [2, 1], [3], [4], [4] is the highest number of chunks possible.\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 2000\n\t0 <= arr[i] <= 108\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "4sum-ii",
+  "name": "4Sum II",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "Given four integer arrays nums1, nums2, nums3, and nums4 all of length n, return the number of tuples (i, j, k, l) such that:\n\n\n\t0 <= i, j, k, l < n\n\tnums1[i] + nums2[j] + nums3[k] + nums4[l] == 0\n\n\n \nExample 1:\n\nInput: nums1 = [1,2], nums2 = [-2,-1], nums3 = [-1,2], nums4 = [0,2]\nOutput: 2\nExplanation:\nThe two tuples are:\n1. (0, 0, 0, 1) -> nums1[0] + nums2[0] + nums3[0] + nums4[1] = 1 + (-2) + (-1) + 2 = 0\n2. (1, 1, 0, 0) -> nums1[1] + nums2[1] + nums3[0] + nums4[0] = 2 + (-1) + (-1) + 0 = 0\n\n\nExample 2:\n\nInput: nums1 = [0], nums2 = [0], nums3 = [0], nums4 = [0]\nOutput: 1\n\n\n \nConstraints:\n\n\n\tn == nums1.length\n\tn == nums2.length\n\tn == nums3.length\n\tn == nums4.length\n\t1 <= n <= 200\n\t-228 <= nums1[i], nums2[i], nums3[i], nums4[i] <= 228\n\n"
+}

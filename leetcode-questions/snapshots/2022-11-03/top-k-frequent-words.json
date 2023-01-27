@@ -1,0 +1,14 @@
+{
+  "id": "top-k-frequent-words",
+  "name": "Top K Frequent Words",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Trie",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Bucket Sort",
+    "Counting"
+  ],
+  "description": "Given an array of strings words and an integer k, return the k most frequent strings.\n\nReturn the answer sorted by the frequency from highest to lowest. Sort the words with the same frequency by their lexicographical order.\n\n \nExample 1:\n\nInput: words = [\"i\",\"love\",\"leetcode\",\"i\",\"love\",\"coding\"], k = 2\nOutput: [\"i\",\"love\"]\nExplanation: \"i\" and \"love\" are the two most frequent words.\nNote that \"i\" comes before \"love\" due to a lower alphabetical order.\n\n\nExample 2:\n\nInput: words = [\"the\",\"day\",\"is\",\"sunny\",\"the\",\"the\",\"the\",\"sunny\",\"is\",\"is\"], k = 4\nOutput: [\"the\",\"is\",\"sunny\",\"day\"]\nExplanation: \"the\", \"is\", \"sunny\" and \"day\" are the four most frequent words, with the number of occurrence being 4, 3, 2 and 1 respectively.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 500\n\t1 <= words[i].length <= 10\n\twords[i] consists of lowercase English letters.\n\tk is in the range [1, The number of unique words[i]]\n\n\n \nFollow-up: Could you solve it in O(n log(k)) time and O(n) extra space?\n"
+}

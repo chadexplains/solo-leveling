@@ -1,0 +1,12 @@
+{
+  "id": "number-of-enclaves",
+  "name": "Number of Enclaves",
+  "tags": [
+    "Array",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Union Find",
+    "Matrix"
+  ],
+  "description": "You are given an m x n binary matrix grid, where 0 represents a sea cell and 1 represents a land cell.\n\nA move consists of walking from one land cell to another adjacent (4-directionally) land cell or walking off the boundary of the grid.\n\nReturn the number of land cells in grid for which we cannot walk off the boundary of the grid in any number of moves.\n\n \nExample 1:\n\nInput: grid = [[0,0,0,0],[1,0,1,0],[0,1,1,0],[0,0,0,0]]\nOutput: 3\nExplanation: There are three 1s that are enclosed by 0s, and one 1 that is not enclosed because its on the boundary.\n\n\nExample 2:\n\nInput: grid = [[0,1,1,0],[0,0,1,0],[0,0,1,0],[0,0,0,0]]\nOutput: 0\nExplanation: All 1s are either on the boundary or can reach the boundary.\n\n\n \nConstraints:\n\n\n\tm == grid.length\n\tn == grid[i].length\n\t1 <= m, n <= 500\n\tgrid[i][j] is either 0 or 1.\n\n"
+}

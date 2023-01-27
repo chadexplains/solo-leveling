@@ -1,0 +1,10 @@
+{
+  "id": "flower-planting-with-no-adjacent",
+  "name": "Flower Planting With No Adjacent",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph"
+  ],
+  "description": "You have n gardens, labeled from 1 to n, and an array paths where paths[i] = [xi, yi] describes a bidirectional path between garden xi to garden yi. In each garden, you want to plant one of 4 types of flowers.\n\nAll gardens have at most 3 paths coming into or leaving it.\n\nYour task is to choose a flower type for each garden such that, for any two gardens connected by a path, they have different types of flowers.\n\nReturn any such a choice as an array answer, where answer[i] is the type of flower planted in the (i+1)th garden. The flower types are denoted 1, 2, 3, or 4. It is guaranteed an answer exists.\n\n \nExample 1:\n\nInput: n = 3, paths = [[1,2],[2,3],[3,1]]\nOutput: [1,2,3]\nExplanation:\nGardens 1 and 2 have different types.\nGardens 2 and 3 have different types.\nGardens 3 and 1 have different types.\nHence, [1,2,3] is a valid answer. Other valid answers include [1,2,4], [1,4,2], and [3,2,1].\n\n\nExample 2:\n\nInput: n = 4, paths = [[1,2],[3,4]]\nOutput: [1,2,1,2]\n\n\nExample 3:\n\nInput: n = 4, paths = [[1,2],[2,3],[3,4],[4,1],[1,3],[2,4]]\nOutput: [1,2,3,4]\n\n\n \nConstraints:\n\n\n\t1 <= n <= 104\n\t0 <= paths.length <= 2 * 104\n\tpaths[i].length == 2\n\t1 <= xi, yi <= n\n\txi != yi\n\tEvery garden has at most 3 paths coming into or leaving it.\n\n"
+}

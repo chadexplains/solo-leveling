@@ -1,0 +1,9 @@
+{
+  "id": "triangle",
+  "name": "Triangle",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given a triangle array, return the minimum path sum from top to bottom.\n\nFor each step, you may move to an adjacent number of the row below. More formally, if you are on index i on the current row, you may move to either index i or index i + 1 on the next row.\n\n \nExample 1:\n\nInput: triangle = [[2],[3,4],[6,5,7],[4,1,8,3]]\nOutput: 11\nExplanation: The triangle looks like:\n   2\n  3 4\n 6 5 7\n4 1 8 3\nThe minimum path sum from top to bottom is 2 + 3 + 5 + 1 = 11 (underlined above).\n\n\nExample 2:\n\nInput: triangle = [[-10]]\nOutput: -10\n\n\n \nConstraints:\n\n\n\t1 <= triangle.length <= 200\n\ttriangle[0].length == 1\n\ttriangle[i].length == triangle[i - 1].length + 1\n\t-104 <= triangle[i][j] <= 104\n\n\n \nFollow up: Could you do this using only O(n) extra space, where n is the total number of rows in the triangle?"
+}

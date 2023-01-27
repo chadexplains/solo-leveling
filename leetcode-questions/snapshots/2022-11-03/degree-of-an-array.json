@@ -1,0 +1,9 @@
+{
+  "id": "degree-of-an-array",
+  "name": "Degree of an Array",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "Given a non-empty array of non-negative integers nums, the degree of this array is defined as the maximum frequency of any one of its elements.\n\nYour task is to find the smallest possible length of a (contiguous) subarray of nums, that has the same degree as nums.\n\n \nExample 1:\n\nInput: nums = [1,2,2,3,1]\nOutput: 2\nExplanation: \nThe input array has a degree of 2 because both elements 1 and 2 appear twice.\nOf the subarrays that have the same degree:\n[1, 2, 2, 3, 1], [1, 2, 2, 3], [2, 2, 3, 1], [1, 2, 2], [2, 2, 3], [2, 2]\nThe shortest length is 2. So return 2.\n\n\nExample 2:\n\nInput: nums = [1,2,2,3,1,4,2]\nOutput: 6\nExplanation: \nThe degree is 3 because the element 2 is repeated 3 times.\nSo [2,2,3,1,4,2] is the shortest subarray, therefore returning 6.\n\n\n \nConstraints:\n\n\n\tnums.length will be between 1 and 50,000.\n\tnums[i] will be an integer between 0 and 49,999.\n\n"
+}

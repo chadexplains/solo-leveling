@@ -1,0 +1,10 @@
+{
+  "id": "groups-of-special-equivalent-strings",
+  "name": "Groups of Special-Equivalent Strings",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "You are given an array of strings of the same length words.\n\nIn one move, you can swap any two even indexed characters or any two odd indexed characters of a string words[i].\n\nTwo strings words[i] and words[j] are special-equivalent if after any number of moves, words[i] == words[j].\n\n\n\tFor example, words[i] = \"zzxy\" and words[j] = \"xyzz\" are special-equivalent because we may make the moves \"zzxy\" -> \"xzzy\" -> \"xyzz\".\n\n\nA group of special-equivalent strings from words is a non-empty subset of words such that:\n\n\n\tEvery pair of strings in the group are special equivalent, and\n\tThe group is the largest size possible (i.e., there is not a string words[i] not in the group such that words[i] is special-equivalent to every string in the group).\n\n\nReturn the number of groups of special-equivalent strings from words.\n\n \nExample 1:\n\nInput: words = [\"abcd\",\"cdab\",\"cbad\",\"xyzz\",\"zzxy\",\"zzyx\"]\nOutput: 3\nExplanation: \nOne group is [\"abcd\", \"cdab\", \"cbad\"], since they are all pairwise special equivalent, and none of the other strings is all pairwise special equivalent to these.\nThe other two groups are [\"xyzz\", \"zzxy\"] and [\"zzyx\"].\nNote that in particular, \"zzxy\" is not special equivalent to \"zzyx\".\n\n\nExample 2:\n\nInput: words = [\"abc\",\"acb\",\"bac\",\"bca\",\"cab\",\"cba\"]\nOutput: 3\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 1000\n\t1 <= words[i].length <= 20\n\twords[i] consist of lowercase English letters.\n\tAll the strings are of the same length.\n\n"
+}

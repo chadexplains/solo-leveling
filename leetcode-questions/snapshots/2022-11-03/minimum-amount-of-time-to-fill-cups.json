@@ -1,0 +1,10 @@
+{
+  "id": "minimum-amount-of-time-to-fill-cups",
+  "name": "Minimum Amount of Time to Fill Cups",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You have a water dispenser that can dispense cold, warm, and hot water. Every second, you can either fill up 2 cups with different types of water, or 1 cup of any type of water.\n\nYou are given a 0-indexed integer array amount of length 3 where amount[0], amount[1], and amount[2] denote the number of cold, warm, and hot water cups you need to fill respectively. Return the minimum number of seconds needed to fill up all the cups.\n\n \nExample 1:\n\nInput: amount = [1,4,2]\nOutput: 4\nExplanation: One way to fill up the cups is:\nSecond 1: Fill up a cold cup and a warm cup.\nSecond 2: Fill up a warm cup and a hot cup.\nSecond 3: Fill up a warm cup and a hot cup.\nSecond 4: Fill up a warm cup.\nIt can be proven that 4 is the minimum number of seconds needed.\n\n\nExample 2:\n\nInput: amount = [5,4,4]\nOutput: 7\nExplanation: One way to fill up the cups is:\nSecond 1: Fill up a cold cup, and a hot cup.\nSecond 2: Fill up a cold cup, and a warm cup.\nSecond 3: Fill up a cold cup, and a warm cup.\nSecond 4: Fill up a warm cup, and a hot cup.\nSecond 5: Fill up a cold cup, and a hot cup.\nSecond 6: Fill up a cold cup, and a warm cup.\nSecond 7: Fill up a hot cup.\n\n\nExample 3:\n\nInput: amount = [5,0,0]\nOutput: 5\nExplanation: Every second, we fill up a cold cup.\n\n\n \nConstraints:\n\n\n\tamount.length == 3\n\t0 <= amount[i] <= 100\n\n"
+}

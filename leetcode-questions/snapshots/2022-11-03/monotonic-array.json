@@ -1,0 +1,8 @@
+{
+  "id": "monotonic-array",
+  "name": "Monotonic Array",
+  "tags": [
+    "Array"
+  ],
+  "description": "An array is monotonic if it is either monotone increasing or monotone decreasing.\n\nAn array nums is monotone increasing if for all i <= j, nums[i] <= nums[j]. An array nums is monotone decreasing if for all i <= j, nums[i] >= nums[j].\n\nGiven an integer array nums, return true if the given array is monotonic, or false otherwise.\n\n \nExample 1:\n\nInput: nums = [1,2,2,3]\nOutput: true\n\n\nExample 2:\n\nInput: nums = [6,5,4,4]\nOutput: true\n\n\nExample 3:\n\nInput: nums = [1,3,2]\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-105 <= nums[i] <= 105\n\n"
+}

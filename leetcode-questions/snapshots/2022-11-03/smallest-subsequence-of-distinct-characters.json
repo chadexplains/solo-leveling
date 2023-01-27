@@ -1,0 +1,11 @@
+{
+  "id": "smallest-subsequence-of-distinct-characters",
+  "name": "Smallest Subsequence of Distinct Characters",
+  "tags": [
+    "String",
+    "Stack",
+    "Greedy",
+    "Monotonic Stack"
+  ],
+  "description": "Given a string s, return the lexicographically smallest subsequence of s that contains all the distinct characters of s exactly once.\n\n \nExample 1:\n\nInput: s = \"bcabc\"\nOutput: \"abc\"\n\n\nExample 2:\n\nInput: s = \"cbacdcbc\"\nOutput: \"acdb\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts consists of lowercase English letters.\n\n\n \nNote: This question is the same as 316: https://leetcode.com/problems/remove-duplicate-letters/"
+}

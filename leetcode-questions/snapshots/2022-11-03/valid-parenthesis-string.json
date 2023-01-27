@@ -1,0 +1,11 @@
+{
+  "id": "valid-parenthesis-string",
+  "name": "Valid Parenthesis String",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Stack",
+    "Greedy"
+  ],
+  "description": "Given a string s containing only three types of characters: '(', ')' and '*', return true if s is valid.\n\nThe following rules define a valid string:\n\n\n\tAny left parenthesis '(' must have a corresponding right parenthesis ')'.\n\tAny right parenthesis ')' must have a corresponding left parenthesis '('.\n\tLeft parenthesis '(' must go before the corresponding right parenthesis ')'.\n\t'*' could be treated as a single right parenthesis ')' or a single left parenthesis '(' or an empty string \"\".\n\n\n \nExample 1:\nInput: s = \"()\"\nOutput: true\nExample 2:\nInput: s = \"(*)\"\nOutput: true\nExample 3:\nInput: s = \"(*))\"\nOutput: true\n\n \nConstraints:\n\n\n\t1 <= s.length <= 100\n\ts[i] is '(', ')' or '*'.\n\n"
+}

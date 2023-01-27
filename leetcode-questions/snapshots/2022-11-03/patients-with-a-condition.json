@@ -1,0 +1,8 @@
+{
+  "id": "patients-with-a-condition",
+  "name": "Patients With a Condition",
+  "tags": [
+    "Database"
+  ],
+  "description": "SQL SchemaTable: Patients\n\n+--------------+---------+\n| Column Name  | Type    |\n+--------------+---------+\n| patient_id   | int     |\n| patient_name | varchar |\n| conditions   | varchar |\n+--------------+---------+\npatient_id is the primary key for this table.\n'conditions' contains 0 or more code separated by spaces. \nThis table contains information of the patients in the hospital.\n\n\n \n\nWrite an SQL query to report the patient_id, patient_name all conditions of patients who have Type I Diabetes. Type I Diabetes always starts with DIAB1 prefix\n\nReturn the result table in any order.\n\nThe query result format is in the following example.\n\n \nExample 1:\n\nInput: \nPatients table:\n+------------+--------------+--------------+\n| patient_id | patient_name | conditions   |\n+------------+--------------+--------------+\n| 1          | Daniel       | YFEV COUGH   |\n| 2          | Alice        |              |\n| 3          | Bob          | DIAB100 MYOP |\n| 4          | George       | ACNE DIAB100 |\n| 5          | Alain        | DIAB201      |\n+------------+--------------+--------------+\nOutput: \n+------------+--------------+--------------+\n| patient_id | patient_name | conditions   |\n+------------+--------------+--------------+\n| 3          | Bob          | DIAB100 MYOP |\n| 4          | George       | ACNE DIAB100 | \n+------------+--------------+--------------+\nExplanation: Bob and George both have a condition that starts with DIAB1.\n\n"
+}

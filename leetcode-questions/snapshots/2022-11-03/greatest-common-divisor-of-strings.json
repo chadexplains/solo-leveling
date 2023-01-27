@@ -1,0 +1,9 @@
+{
+  "id": "greatest-common-divisor-of-strings",
+  "name": "Greatest Common Divisor of Strings",
+  "tags": [
+    "Math",
+    "String"
+  ],
+  "description": "For two strings s and t, we say \"t divides s\" if and only if s = t + ... + t (i.e., t is concatenated with itself one or more times).\n\nGiven two strings str1 and str2, return the largest string x such that x divides both str1 and str2.\n\n \nExample 1:\n\nInput: str1 = \"ABCABC\", str2 = \"ABC\"\nOutput: \"ABC\"\n\n\nExample 2:\n\nInput: str1 = \"ABABAB\", str2 = \"ABAB\"\nOutput: \"AB\"\n\n\nExample 3:\n\nInput: str1 = \"LEET\", str2 = \"CODE\"\nOutput: \"\"\n\n\n \nConstraints:\n\n\n\t1 <= str1.length, str2.length <= 1000\n\tstr1 and str2 consist of English uppercase letters.\n\n"
+}

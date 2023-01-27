@@ -1,0 +1,8 @@
+{
+  "id": "print-foobar-alternately",
+  "name": "Print FooBar Alternately",
+  "tags": [
+    "Concurrency"
+  ],
+  "description": "Suppose you are given the following code:\n\nclass FooBar {\n  public void foo() {\n    for (int i = 0; i < n; i++) {\n      print(\"foo\");\n    }\n  }\n\n  public void bar() {\n    for (int i = 0; i < n; i++) {\n      print(\"bar\");\n    }\n  }\n}\n\n\nThe same instance of FooBar will be passed to two different threads:\n\n\n\tthread A will call foo(), while\n\tthread B will call bar().\n\n\nModify the given program to output \"foobar\" n times.\n\n \nExample 1:\n\nInput: n = 1\nOutput: \"foobar\"\nExplanation: There are two threads being fired asynchronously. One of them calls foo(), while the other calls bar().\n\"foobar\" is being output 1 time.\n\n\nExample 2:\n\nInput: n = 2\nOutput: \"foobarfoobar\"\nExplanation: \"foobar\" is being output 2 times.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 1000\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "minimum-xor-sum-of-two-arrays",
+  "name": "Minimum XOR Sum of Two Arrays",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "You are given two integer arrays nums1 and nums2 of length n.\n\nThe XOR sum of the two integer arrays is (nums1[0] XOR nums2[0]) + (nums1[1] XOR nums2[1]) + ... + (nums1[n - 1] XOR nums2[n - 1]) (0-indexed).\n\n\n\tFor example, the XOR sum of [1,2,3] and [3,2,1] is equal to (1 XOR 3) + (2 XOR 2) + (3 XOR 1) = 2 + 0 + 2 = 4.\n\n\nRearrange the elements of nums2 such that the resulting XOR sum is minimized.\n\nReturn the XOR sum after the rearrangement.\n\n \nExample 1:\n\nInput: nums1 = [1,2], nums2 = [2,3]\nOutput: 2\nExplanation: Rearrange nums2 so that it becomes [3,2].\nThe XOR sum is (1 XOR 3) + (2 XOR 2) = 2 + 0 = 2.\n\nExample 2:\n\nInput: nums1 = [1,0,3], nums2 = [5,3,4]\nOutput: 8\nExplanation: Rearrange nums2 so that it becomes [5,4,3]. \nThe XOR sum is (1 XOR 5) + (0 XOR 4) + (3 XOR 3) = 4 + 4 + 0 = 8.\n\n\n \nConstraints:\n\n\n\tn == nums1.length\n\tn == nums2.length\n\t1 <= n <= 14\n\t0 <= nums1[i], nums2[i] <= 107\n\n"
+}

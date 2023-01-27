@@ -1,0 +1,9 @@
+{
+  "id": "valid-perfect-square",
+  "name": "Valid Perfect Square",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "Given a positive integer num, write a function which returns True if num is a perfect square else False.\n\nFollow up: Do not use any built-in library function such as sqrt.\n\n \nExample 1:\nInput: num = 16\nOutput: true\nExample 2:\nInput: num = 14\nOutput: false\n\n \nConstraints:\n\n\n\t1 <= num <= 2^31 - 1\n\n"
+}

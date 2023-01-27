@@ -1,0 +1,10 @@
+{
+  "id": "count-nodes-equal-to-average-of-subtree",
+  "name": "Count Nodes Equal to Average of Subtree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return the number of nodes where the value of the node is equal to the average of the values in its subtree.\n\nNote:\n\n\n\tThe average of n elements is the sum of the n elements divided by n and rounded down to the nearest integer.\n\tA subtree of root is a tree consisting of root and all of its descendants.\n\n\n \nExample 1:\n\nInput: root = [4,8,5,0,1,null,6]\nOutput: 5\nExplanation: \nFor the node with value 4: The average of its subtree is (4 + 8 + 5 + 0 + 1 + 6) / 6 = 24 / 6 = 4.\nFor the node with value 5: The average of its subtree is (5 + 6) / 2 = 11 / 2 = 5.\nFor the node with value 0: The average of its subtree is 0 / 1 = 0.\nFor the node with value 1: The average of its subtree is 1 / 1 = 1.\nFor the node with value 6: The average of its subtree is 6 / 1 = 6.\n\n\nExample 2:\n\nInput: root = [1]\nOutput: 1\nExplanation: For the node with value 1: The average of its subtree is 1 / 1 = 1.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 1000].\n\t0 <= Node.val <= 1000\n\n"
+}

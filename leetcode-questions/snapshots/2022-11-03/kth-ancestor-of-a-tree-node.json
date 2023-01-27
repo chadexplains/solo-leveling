@@ -1,0 +1,13 @@
+{
+  "id": "kth-ancestor-of-a-tree-node",
+  "name": "Kth Ancestor of a Tree Node",
+  "tags": [
+    "Binary Search",
+    "Dynamic Programming",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Design"
+  ],
+  "description": "You are given a tree with n nodes numbered from 0 to n - 1 in the form of a parent array parent where parent[i] is the parent of ith node. The root of the tree is node 0. Find the kth ancestor of a given node.\n\nThe kth ancestor of a tree node is the kth node in the path from that node to the root node.\n\nImplement the TreeAncestor class:\n\n\n\tTreeAncestor(int n, int[] parent) Initializes the object with the number of nodes in the tree and the parent array.\n\tint getKthAncestor(int node, int k) return the kth ancestor of the given node node. If there is no such ancestor, return -1.\n\n\n \nExample 1:\n\nInput\n[\"TreeAncestor\", \"getKthAncestor\", \"getKthAncestor\", \"getKthAncestor\"]\n[[7, [-1, 0, 0, 1, 1, 2, 2]], [3, 1], [5, 2], [6, 3]]\nOutput\n[null, 1, 0, -1]\n\nExplanation\nTreeAncestor treeAncestor = new TreeAncestor(7, [-1, 0, 0, 1, 1, 2, 2]);\ntreeAncestor.getKthAncestor(3, 1); // returns 1 which is the parent of 3\ntreeAncestor.getKthAncestor(5, 2); // returns 0 which is the grandparent of 5\ntreeAncestor.getKthAncestor(6, 3); // returns -1 because there is no such ancestor\n\n \nConstraints:\n\n\n\t1 <= k <= n <= 5 * 104\n\tparent.length == n\n\tparent[0] == -1\n\t0 <= parent[i] < n for all 0 < i < n\n\t0 <= node < n\n\tThere will be at most 5 * 104 queries.\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "next-greater-element-iii",
+  "name": "Next Greater Element III",
+  "tags": [
+    "Math",
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a positive integer n, find the smallest integer which has exactly the same digits existing in the integer n and is greater in value than n. If no such positive integer exists, return -1.\n\nNote that the returned integer should fit in 32-bit integer, if there is a valid answer but it does not fit in 32-bit integer, return -1.\n\n \nExample 1:\nInput: n = 12\nOutput: 21\nExample 2:\nInput: n = 21\nOutput: -1\n\n \nConstraints:\n\n\n\t1 <= n <= 231 - 1\n\n"
+}

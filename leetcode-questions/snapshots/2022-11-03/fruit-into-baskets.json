@@ -1,0 +1,10 @@
+{
+  "id": "fruit-into-baskets",
+  "name": "Fruit Into Baskets",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window"
+  ],
+  "description": "You are visiting a farm that has a single row of fruit trees arranged from left to right. The trees are represented by an integer array fruits where fruits[i] is the type of fruit the ith tree produces.\n\nYou want to collect as much fruit as possible. However, the owner has some strict rules that you must follow:\n\n\n\tYou only have two baskets, and each basket can only hold a single type of fruit. There is no limit on the amount of fruit each basket can hold.\n\tStarting from any tree of your choice, you must pick exactly one fruit from every tree (including the start tree) while moving to the right. The picked fruits must fit in one of your baskets.\n\tOnce you reach a tree with fruit that cannot fit in your baskets, you must stop.\n\n\nGiven the integer array fruits, return the maximum number of fruits you can pick.\n\n \nExample 1:\n\nInput: fruits = [1,2,1]\nOutput: 3\nExplanation: We can pick from all 3 trees.\n\n\nExample 2:\n\nInput: fruits = [0,1,2,2]\nOutput: 3\nExplanation: We can pick from trees [1,2,2].\nIf we had started at the first tree, we would only pick from trees [0,1].\n\n\nExample 3:\n\nInput: fruits = [1,2,3,2,2]\nOutput: 4\nExplanation: We can pick from trees [2,3,2,2].\nIf we had started at the first tree, we would only pick from trees [1,2].\n\n\n \nConstraints:\n\n\n\t1 <= fruits.length <= 105\n\t0 <= fruits[i] < fruits.length\n\n"
+}

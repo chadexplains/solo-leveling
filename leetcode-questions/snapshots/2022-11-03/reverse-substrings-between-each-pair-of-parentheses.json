@@ -1,0 +1,9 @@
+{
+  "id": "reverse-substrings-between-each-pair-of-parentheses",
+  "name": "Reverse Substrings Between Each Pair of Parentheses",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "You are given a string s that consists of lower case English letters and brackets.\n\nReverse the strings in each pair of matching parentheses, starting from the innermost one.\n\nYour result should not contain any brackets.\n\n \nExample 1:\n\nInput: s = \"(abcd)\"\nOutput: \"dcba\"\n\n\nExample 2:\n\nInput: s = \"(u(love)i)\"\nOutput: \"iloveu\"\nExplanation: The substring \"love\" is reversed first, then the whole string is reversed.\n\n\nExample 3:\n\nInput: s = \"(ed(et(oc))el)\"\nOutput: \"leetcode\"\nExplanation: First, we reverse the substring \"oc\", then \"etco\", and finally, the whole string.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 2000\n\ts only contains lower case English characters and parentheses.\n\tIt is guaranteed that all parentheses are balanced.\n\n"
+}

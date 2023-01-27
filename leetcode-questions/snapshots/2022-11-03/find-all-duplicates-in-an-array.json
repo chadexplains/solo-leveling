@@ -1,0 +1,9 @@
+{
+  "id": "find-all-duplicates-in-an-array",
+  "name": "Find All Duplicates in an Array",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "Given an integer array nums of length n where all the integers of nums are in the range [1, n] and each integer appears once or twice, return an array of all the integers that appears twice.\n\nYou must write an algorithm that runs in O(n) time and uses only constant extra space.\n\n \nExample 1:\nInput: nums = [4,3,2,7,8,2,3,1]\nOutput: [2,3]\nExample 2:\nInput: nums = [1,1,2]\nOutput: [1]\nExample 3:\nInput: nums = [1]\nOutput: []\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 105\n\t1 <= nums[i] <= n\n\tEach element in nums appears once or twice.\n\n"
+}

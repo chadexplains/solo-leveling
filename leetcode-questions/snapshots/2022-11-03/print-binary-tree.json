@@ -1,0 +1,11 @@
+{
+  "id": "print-binary-tree",
+  "name": "Print Binary Tree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, construct a 0-indexed m x n string matrix res that represents a formatted layout of the tree. The formatted layout matrix should be constructed using the following rules:\n\n\n\tThe height of the tree is height and the number of rows m should be equal to height + 1.\n\tThe number of columns n should be equal to 2height+1 - 1.\n\tPlace the root node in the middle of the top row (more formally, at location res[0][(n-1)/2]).\n\tFor each node that has been placed in the matrix at position res[r][c], place its left child at res[r+1][c-2height-r-1] and its right child at res[r+1][c+2height-r-1].\n\tContinue this process until all the nodes in the tree have been placed.\n\tAny empty cells should contain the empty string \"\".\n\n\nReturn the constructed matrix res.\n\n \nExample 1:\n\nInput: root = [1,2]\nOutput: \n[[\"\",\"1\",\"\"],\n [\"2\",\"\",\"\"]]\n\n\nExample 2:\n\nInput: root = [1,2,3,null,4]\nOutput: \n[[\"\",\"\",\"\",\"1\",\"\",\"\",\"\"],\n [\"\",\"2\",\"\",\"\",\"\",\"3\",\"\"],\n [\"\",\"\",\"4\",\"\",\"\",\"\",\"\"]]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 210].\n\t-99 <= Node.val <= 99\n\tThe depth of the tree will be in the range [1, 10].\n\n"
+}

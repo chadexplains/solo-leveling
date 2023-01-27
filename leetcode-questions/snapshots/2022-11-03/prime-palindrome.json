@@ -1,0 +1,8 @@
+{
+  "id": "prime-palindrome",
+  "name": "Prime Palindrome",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given an integer n, return the smallest prime palindrome greater than or equal to n.\n\nAn integer is prime if it has exactly two divisors: 1 and itself. Note that 1 is not a prime number.\n\n\n\tFor example, 2, 3, 5, 7, 11, and 13 are all primes.\n\n\nAn integer is a palindrome if it reads the same from left to right as it does from right to left.\n\n\n\tFor example, 101 and 12321 are palindromes.\n\n\nThe test cases are generated so that the answer always exists and is in the range [2, 2 * 108].\n\n \nExample 1:\nInput: n = 6\nOutput: 7\nExample 2:\nInput: n = 8\nOutput: 11\nExample 3:\nInput: n = 13\nOutput: 101\n\n \nConstraints:\n\n\n\t1 <= n <= 108\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "max-dot-product-of-two-subsequences",
+  "name": "Max Dot Product of Two Subsequences",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given two arrays nums1 and nums2.\n\nReturn the maximum dot product between non-empty subsequences of nums1 and nums2 with the same length.\n\nA subsequence of a array is a new array which is formed from the original array by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (ie, [2,3,5] is a subsequence of [1,2,3,4,5] while [1,5,3] is not).\n\n \nExample 1:\n\nInput: nums1 = [2,1,-2,5], nums2 = [3,0,-6]\nOutput: 18\nExplanation: Take subsequence [2,-2] from nums1 and subsequence [3,-6] from nums2.\nTheir dot product is (2*3 + (-2)*(-6)) = 18.\n\nExample 2:\n\nInput: nums1 = [3,-2], nums2 = [2,-6,7]\nOutput: 21\nExplanation: Take subsequence [3] from nums1 and subsequence [7] from nums2.\nTheir dot product is (3*7) = 21.\n\nExample 3:\n\nInput: nums1 = [-1,-1], nums2 = [1,1]\nOutput: -1\nExplanation: Take subsequence [-1] from nums1 and subsequence [1] from nums2.\nTheir dot product is -1.\n\n \nConstraints:\n\n\n\t1 <= nums1.length, nums2.length <= 500\n\t-1000 <= nums1[i], nums2[i] <= 1000\n\n"
+}

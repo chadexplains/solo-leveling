@@ -1,0 +1,9 @@
+{
+  "id": "min-stack",
+  "name": "Min Stack",
+  "tags": [
+    "Stack",
+    "Design"
+  ],
+  "description": "Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.\n\nImplement the MinStack class:\n\n\n\tMinStack() initializes the stack object.\n\tvoid push(int val) pushes the element val onto the stack.\n\tvoid pop() removes the element on the top of the stack.\n\tint top() gets the top element of the stack.\n\tint getMin() retrieves the minimum element in the stack.\n\n\nYou must implement a solution with O(1) time complexity for each function.\n\n \nExample 1:\n\nInput\n[\"MinStack\",\"push\",\"push\",\"push\",\"getMin\",\"pop\",\"top\",\"getMin\"]\n[[],[-2],[0],[-3],[],[],[],[]]\n\nOutput\n[null,null,null,null,-3,null,0,-2]\n\nExplanation\nMinStack minStack = new MinStack();\nminStack.push(-2);\nminStack.push(0);\nminStack.push(-3);\nminStack.getMin(); // return -3\nminStack.pop();\nminStack.top();    // return 0\nminStack.getMin(); // return -2\n\n\n \nConstraints:\n\n\n\t-231 <= val <= 231 - 1\n\tMethods pop, top and getMin operations will always be called on non-empty stacks.\n\tAt most 3 * 104 calls will be made to push, pop, top, and getMin.\n\n"
+}

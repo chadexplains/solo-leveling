@@ -1,0 +1,11 @@
+{
+  "id": "find-duplicate-subtrees",
+  "name": "Find Duplicate Subtrees",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return all duplicate subtrees.\n\nFor each kind of duplicate subtrees, you only need to return the root node of any one of them.\n\nTwo trees are duplicate if they have the same structure with the same node values.\n\n \nExample 1:\n\nInput: root = [1,2,3,4,null,2,4,null,null,4]\nOutput: [[2,4],[4]]\n\n\nExample 2:\n\nInput: root = [2,1,1]\nOutput: [[1]]\n\n\nExample 3:\n\nInput: root = [2,2,2,3,null,3,null]\nOutput: [[2,3],[3]]\n\n\n \nConstraints:\n\n\n\tThe number of the nodes in the tree will be in the range [1, 5000]\n\t-200 <= Node.val <= 200\n\n"
+}

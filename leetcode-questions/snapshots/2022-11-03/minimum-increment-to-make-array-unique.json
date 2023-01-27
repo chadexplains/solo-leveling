@@ -1,0 +1,11 @@
+{
+  "id": "minimum-increment-to-make-array-unique",
+  "name": "Minimum Increment to Make Array Unique",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Sorting",
+    "Counting"
+  ],
+  "description": "You are given an integer array nums. In one move, you can pick an index i where 0 <= i < nums.length and increment nums[i] by 1.\n\nReturn the minimum number of moves to make every value in nums unique.\n\nThe test cases are generated so that the answer fits in a 32-bit integer.\n\n \nExample 1:\n\nInput: nums = [1,2,2]\nOutput: 1\nExplanation: After 1 move, the array could be [1, 2, 3].\n\n\nExample 2:\n\nInput: nums = [3,2,1,2,1,7]\nOutput: 6\nExplanation: After 6 moves, the array could be [3, 4, 1, 2, 5, 7].\nIt can be shown with 5 or less moves that it is impossible for the array to have all unique values.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t0 <= nums[i] <= 105\n\n"
+}

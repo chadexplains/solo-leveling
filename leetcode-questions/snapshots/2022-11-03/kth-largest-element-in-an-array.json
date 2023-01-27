@@ -1,0 +1,12 @@
+{
+  "id": "kth-largest-element-in-an-array",
+  "name": "Kth Largest Element in an Array",
+  "tags": [
+    "Array",
+    "Divide and Conquer",
+    "Sorting",
+    "Heap (Priority Queue)",
+    "Quickselect"
+  ],
+  "description": "Given an integer array nums and an integer k, return the kth largest element in the array.\n\nNote that it is the kth largest element in the sorted order, not the kth distinct element.\n\nYou must solve it in O(n) time complexity.\n\n \nExample 1:\nInput: nums = [3,2,1,5,6,4], k = 2\nOutput: 5\nExample 2:\nInput: nums = [3,2,3,1,2,4,5,5,6], k = 4\nOutput: 4\n\n \nConstraints:\n\n\n\t1 <= k <= nums.length <= 105\n\t-104 <= nums[i] <= 104\n\n"
+}

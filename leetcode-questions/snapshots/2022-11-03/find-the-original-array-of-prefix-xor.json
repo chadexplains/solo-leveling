@@ -1,0 +1,9 @@
+{
+  "id": "find-the-original-array-of-prefix-xor",
+  "name": "Find The Original Array of Prefix Xor",
+  "tags": [
+    "Array",
+    "Bit Manipulation"
+  ],
+  "description": "You are given an integer array pref of size n. Find and return the array arr of size n that satisfies:\n\n\n\tpref[i] = arr[0] ^ arr[1] ^ ... ^ arr[i].\n\n\nNote that ^ denotes the bitwise-xor operation.\n\nIt can be proven that the answer is unique.\n\n \nExample 1:\n\nInput: pref = [5,2,0,3,1]\nOutput: [5,7,2,3,2]\nExplanation: From the array [5,7,2,3,2] we have the following:\n- pref[0] = 5.\n- pref[1] = 5 ^ 7 = 2.\n- pref[2] = 5 ^ 7 ^ 2 = 0.\n- pref[3] = 5 ^ 7 ^ 2 ^ 3 = 3.\n- pref[4] = 5 ^ 7 ^ 2 ^ 3 ^ 2 = 1.\n\n\nExample 2:\n\nInput: pref = [13]\nOutput: [13]\nExplanation: We have pref[0] = arr[0] = 13.\n\n\n \nConstraints:\n\n\n\t1 <= pref.length <= 105\n\t0 <= pref[i] <= 106\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "online-stock-span",
+  "name": "Online Stock Span",
+  "tags": [
+    "Stack",
+    "Design",
+    "Monotonic Stack",
+    "Data Stream"
+  ],
+  "description": "Design an algorithm that collects daily price quotes for some stock and returns the span of that stock's price for the current day.\n\nThe span of the stock's price today is defined as the maximum number of consecutive days (starting from today and going backward) for which the stock price was less than or equal to today's price.\n\n\n\tFor example, if the price of a stock over the next 7 days were [100,80,60,70,60,75,85], then the stock spans would be [1,1,1,2,1,4,6].\n\n\nImplement the StockSpanner class:\n\n\n\tStockSpanner() Initializes the object of the class.\n\tint next(int price) Returns the span of the stock's price given that today's price is price.\n\n\n \nExample 1:\n\nInput\n[\"StockSpanner\", \"next\", \"next\", \"next\", \"next\", \"next\", \"next\", \"next\"]\n[[], [100], [80], [60], [70], [60], [75], [85]]\nOutput\n[null, 1, 1, 1, 2, 1, 4, 6]\n\nExplanation\nStockSpanner stockSpanner = new StockSpanner();\nstockSpanner.next(100); // return 1\nstockSpanner.next(80);  // return 1\nstockSpanner.next(60);  // return 1\nstockSpanner.next(70);  // return 2\nstockSpanner.next(60);  // return 1\nstockSpanner.next(75);  // return 4, because the last 4 prices (including today's price of 75) were less than or equal to today's price.\nstockSpanner.next(85);  // return 6\n\n\n \nConstraints:\n\n\n\t1 <= price <= 105\n\tAt most 104 calls will be made to next.\n\n"
+}

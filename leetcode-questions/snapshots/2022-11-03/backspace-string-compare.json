@@ -1,0 +1,11 @@
+{
+  "id": "backspace-string-compare",
+  "name": "Backspace String Compare",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Stack",
+    "Simulation"
+  ],
+  "description": "Given two strings s and t, return true if they are equal when both are typed into empty text editors. '#' means a backspace character.\n\nNote that after backspacing an empty text, the text will continue empty.\n\n \nExample 1:\n\nInput: s = \"ab#c\", t = \"ad#c\"\nOutput: true\nExplanation: Both s and t become \"ac\".\n\n\nExample 2:\n\nInput: s = \"ab##\", t = \"c#d#\"\nOutput: true\nExplanation: Both s and t become \"\".\n\n\nExample 3:\n\nInput: s = \"a#c\", t = \"b\"\nOutput: false\nExplanation: s becomes \"c\" while t becomes \"b\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length, t.length <= 200\n\ts and t only contain lowercase letters and '#' characters.\n\n\n \nFollow up: Can you solve it in O(n) time and O(1) space?\n"
+}

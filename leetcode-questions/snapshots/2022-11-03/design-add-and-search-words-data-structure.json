@@ -1,0 +1,11 @@
+{
+  "id": "design-add-and-search-words-data-structure",
+  "name": "Design Add and Search Words Data Structure",
+  "tags": [
+    "String",
+    "Depth-First Search",
+    "Design",
+    "Trie"
+  ],
+  "description": "Design a data structure that supports adding new words and finding if a string matches any previously added string.\n\nImplement the WordDictionary class:\n\n\n\tWordDictionary() Initializes the object.\n\tvoid addWord(word) Adds word to the data structure, it can be matched later.\n\tbool search(word) Returns true if there is any string in the data structure that matches word or false otherwise. word may contain dots '.' where dots can be matched with any letter.\n\n\n \nExample:\n\nInput\n[\"WordDictionary\",\"addWord\",\"addWord\",\"addWord\",\"search\",\"search\",\"search\",\"search\"]\n[[],[\"bad\"],[\"dad\"],[\"mad\"],[\"pad\"],[\"bad\"],[\".ad\"],[\"b..\"]]\nOutput\n[null,null,null,null,false,true,true,true]\n\nExplanation\nWordDictionary wordDictionary = new WordDictionary();\nwordDictionary.addWord(\"bad\");\nwordDictionary.addWord(\"dad\");\nwordDictionary.addWord(\"mad\");\nwordDictionary.search(\"pad\"); // return False\nwordDictionary.search(\"bad\"); // return True\nwordDictionary.search(\".ad\"); // return True\nwordDictionary.search(\"b..\"); // return True\n\n\n \nConstraints:\n\n\n\t1 <= word.length <= 25\n\tword in addWord consists of lowercase English letters.\n\tword in search consist of '.' or lowercase English letters.\n\tThere will be at most 3 dots in word for search queries.\n\tAt most 104 calls will be made to addWord and search.\n\n"
+}

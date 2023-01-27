@@ -1,0 +1,9 @@
+{
+  "id": "smallest-even-multiple",
+  "name": "Smallest Even Multiple",
+  "tags": [
+    "Math",
+    "Number Theory"
+  ],
+  "description": "Given a positive integer n, return the smallest positive integer that is a multiple of both 2 and n.\n \nExample 1:\n\nInput: n = 5\nOutput: 10\nExplanation: The smallest multiple of both 5 and 2 is 10.\n\n\nExample 2:\n\nInput: n = 6\nOutput: 6\nExplanation: The smallest multiple of both 6 and 2 is 6. Note that a number is a multiple of itself.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 150\n\n"
+}

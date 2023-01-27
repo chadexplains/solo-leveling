@@ -1,0 +1,9 @@
+{
+  "id": "longest-common-subsequence",
+  "name": "Longest Common Subsequence",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given two strings text1 and text2, return the length of their longest common subsequence. If there is no common subsequence, return 0.\n\nA subsequence of a string is a new string generated from the original string with some characters (can be none) deleted without changing the relative order of the remaining characters.\n\n\n\tFor example, \"ace\" is a subsequence of \"abcde\".\n\n\nA common subsequence of two strings is a subsequence that is common to both strings.\n\n \nExample 1:\n\nInput: text1 = \"abcde\", text2 = \"ace\" \nOutput: 3  \nExplanation: The longest common subsequence is \"ace\" and its length is 3.\n\n\nExample 2:\n\nInput: text1 = \"abc\", text2 = \"abc\"\nOutput: 3\nExplanation: The longest common subsequence is \"abc\" and its length is 3.\n\n\nExample 3:\n\nInput: text1 = \"abc\", text2 = \"def\"\nOutput: 0\nExplanation: There is no such common subsequence, so the result is 0.\n\n\n \nConstraints:\n\n\n\t1 <= text1.length, text2.length <= 1000\n\ttext1 and text2 consist of only lowercase English characters.\n\n"
+}

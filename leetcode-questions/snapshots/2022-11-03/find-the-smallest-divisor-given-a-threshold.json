@@ -1,0 +1,9 @@
+{
+  "id": "find-the-smallest-divisor-given-a-threshold",
+  "name": "Find the Smallest Divisor Given a Threshold",
+  "tags": [
+    "Array",
+    "Binary Search"
+  ],
+  "description": "Given an array of integers nums and an integer threshold, we will choose a positive integer divisor, divide all the array by it, and sum the division's result. Find the smallest divisor such that the result mentioned above is less than or equal to threshold.\n\nEach result of the division is rounded to the nearest integer greater than or equal to that element. (For example: 7/3 = 3 and 10/2 = 5).\n\nThe test cases are generated so that there will be an answer.\n\n \nExample 1:\n\nInput: nums = [1,2,5,9], threshold = 6\nOutput: 5\nExplanation: We can get a sum to 17 (1+2+5+9) if the divisor is 1. \nIf the divisor is 4 we can get a sum of 7 (1+1+2+3) and if the divisor is 5 the sum will be 5 (1+1+1+2). \n\n\nExample 2:\n\nInput: nums = [44,22,33,11,1], threshold = 5\nOutput: 44\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 5 * 104\n\t1 <= nums[i] <= 106\n\tnums.length <= threshold <= 106\n\n"
+}

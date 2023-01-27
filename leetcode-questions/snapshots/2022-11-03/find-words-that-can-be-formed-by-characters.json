@@ -1,0 +1,10 @@
+{
+  "id": "find-words-that-can-be-formed-by-characters",
+  "name": "Find Words That Can Be Formed by Characters",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "You are given an array of strings words and a string chars.\n\nA string is good if it can be formed by characters from chars (each character can only be used once).\n\nReturn the sum of lengths of all good strings in words.\n\n \nExample 1:\n\nInput: words = [\"cat\",\"bt\",\"hat\",\"tree\"], chars = \"atach\"\nOutput: 6\nExplanation: The strings that can be formed are \"cat\" and \"hat\" so the answer is 3 + 3 = 6.\n\n\nExample 2:\n\nInput: words = [\"hello\",\"world\",\"leetcode\"], chars = \"welldonehoneyr\"\nOutput: 10\nExplanation: The strings that can be formed are \"hello\" and \"world\" so the answer is 5 + 5 = 10.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 1000\n\t1 <= words[i].length, chars.length <= 100\n\twords[i] and chars consist of lowercase English letters.\n\n"
+}

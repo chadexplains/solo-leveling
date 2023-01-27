@@ -1,0 +1,10 @@
+{
+  "id": "largest-number",
+  "name": "Largest Number",
+  "tags": [
+    "String",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "Given a list of non-negative integers nums, arrange them such that they form the largest number and return it.\n\nSince the result may be very large, so you need to return a string instead of an integer.\n\n \nExample 1:\n\nInput: nums = [10,2]\nOutput: \"210\"\n\n\nExample 2:\n\nInput: nums = [3,30,34,5,9]\nOutput: \"9534330\"\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 100\n\t0 <= nums[i] <= 109\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "n-repeated-element-in-size-2n-array",
+  "name": "N-Repeated Element in Size 2N Array",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "You are given an integer array nums with the following properties:\n\n\n\tnums.length == 2 * n.\n\tnums contains n + 1 unique elements.\n\tExactly one element of nums is repeated n times.\n\n\nReturn the element that is repeated n times.\n\n \nExample 1:\nInput: nums = [1,2,3,3]\nOutput: 3\nExample 2:\nInput: nums = [2,1,2,5,3,2]\nOutput: 2\nExample 3:\nInput: nums = [5,1,5,2,5,3,5,4]\nOutput: 5\n\n \nConstraints:\n\n\n\t2 <= n <= 5000\n\tnums.length == 2 * n\n\t0 <= nums[i] <= 104\n\tnums contains n + 1 unique elements and one of them is repeated exactly n times.\n\n"
+}

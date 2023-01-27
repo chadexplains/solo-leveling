@@ -1,0 +1,10 @@
+{
+  "id": "best-poker-hand",
+  "name": "Best Poker Hand",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Counting"
+  ],
+  "description": "You are given an integer array ranks and a character array suits. You have 5 cards where the ith card has a rank of ranks[i] and a suit of suits[i].\n\nThe following are the types of poker hands you can make from best to worst:\n\n\n\t\"Flush\": Five cards of the same suit.\n\t\"Three of a Kind\": Three cards of the same rank.\n\t\"Pair\": Two cards of the same rank.\n\t\"High Card\": Any single card.\n\n\nReturn a string representing the best type of poker hand you can make with the given cards.\n\nNote that the return values are case-sensitive.\n\n \nExample 1:\n\nInput: ranks = [13,2,3,1,9], suits = [\"a\",\"a\",\"a\",\"a\",\"a\"]\nOutput: \"Flush\"\nExplanation: The hand with all the cards consists of 5 cards with the same suit, so we have a \"Flush\".\n\n\nExample 2:\n\nInput: ranks = [4,4,2,4,4], suits = [\"d\",\"a\",\"a\",\"b\",\"c\"]\nOutput: \"Three of a Kind\"\nExplanation: The hand with the first, second, and fourth card consists of 3 cards with the same rank, so we have a \"Three of a Kind\".\nNote that we could also make a \"Pair\" hand but \"Three of a Kind\" is a better hand.\nAlso note that other cards could be used to make the \"Three of a Kind\" hand.\n\nExample 3:\n\nInput: ranks = [10,10,2,12,9], suits = [\"a\",\"b\",\"c\",\"a\",\"d\"]\nOutput: \"Pair\"\nExplanation: The hand with the first and second card consists of 2 cards with the same rank, so we have a \"Pair\".\nNote that we cannot make a \"Flush\" or a \"Three of a Kind\".\n\n\n \nConstraints:\n\n\n\tranks.length == suits.length == 5\n\t1 <= ranks[i] <= 13\n\t'a' <= suits[i] <= 'd'\n\tNo two cards have the same rank and suit.\n\n"
+}

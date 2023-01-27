@@ -1,0 +1,11 @@
+{
+  "id": "detect-squares",
+  "name": "Detect Squares",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Design",
+    "Counting"
+  ],
+  "description": "You are given a stream of points on the X-Y plane. Design an algorithm that:\n\n\n\tAdds new points from the stream into a data structure. Duplicate points are allowed and should be treated as different points.\n\tGiven a query point, counts the number of ways to choose three points from the data structure such that the three points and the query point form an axis-aligned square with positive area.\n\n\nAn axis-aligned square is a square whose edges are all the same length and are either parallel or perpendicular to the x-axis and y-axis.\n\nImplement the DetectSquares class:\n\n\n\tDetectSquares() Initializes the object with an empty data structure.\n\tvoid add(int[] point) Adds a new point point = [x, y] to the data structure.\n\tint count(int[] point) Counts the number of ways to form axis-aligned squares with point point = [x, y] as described above.\n\n\n \nExample 1:\n\nInput\n[\"DetectSquares\", \"add\", \"add\", \"add\", \"count\", \"count\", \"add\", \"count\"]\n[[], [[3, 10]], [[11, 2]], [[3, 2]], [[11, 10]], [[14, 8]], [[11, 2]], [[11, 10]]]\nOutput\n[null, null, null, null, 1, 0, null, 2]\n\nExplanation\nDetectSquares detectSquares = new DetectSquares();\ndetectSquares.add([3, 10]);\ndetectSquares.add([11, 2]);\ndetectSquares.add([3, 2]);\ndetectSquares.count([11, 10]); // return 1. You can choose:\n                               //   - The first, second, and third points\ndetectSquares.count([14, 8]);  // return 0. The query point cannot form a square with any points in the data structure.\ndetectSquares.add([11, 2]);    // Adding duplicate points is allowed.\ndetectSquares.count([11, 10]); // return 2. You can choose:\n                               //   - The first, second, and third points\n                               //   - The first, third, and fourth points\n\n\n \nConstraints:\n\n\n\tpoint.length == 2\n\t0 <= x, y <= 1000\n\tAt most 3000 calls in total will be made to add and count.\n\n"
+}

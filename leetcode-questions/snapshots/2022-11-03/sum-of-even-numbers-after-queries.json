@@ -1,0 +1,9 @@
+{
+  "id": "sum-of-even-numbers-after-queries",
+  "name": "Sum of Even Numbers After Queries",
+  "tags": [
+    "Array",
+    "Simulation"
+  ],
+  "description": "You are given an integer array nums and an array queries where queries[i] = [vali, indexi].\n\nFor each query i, first, apply nums[indexi] = nums[indexi] + vali, then print the sum of the even values of nums.\n\nReturn an integer array answer where answer[i] is the answer to the ith query.\n\n \nExample 1:\n\nInput: nums = [1,2,3,4], queries = [[1,0],[-3,1],[-4,0],[2,3]]\nOutput: [8,6,2,4]\nExplanation: At the beginning, the array is [1,2,3,4].\nAfter adding 1 to nums[0], the array is [2,2,3,4], and the sum of even values is 2 + 2 + 4 = 8.\nAfter adding -3 to nums[1], the array is [2,-1,3,4], and the sum of even values is 2 + 4 = 6.\nAfter adding -4 to nums[0], the array is [-2,-1,3,4], and the sum of even values is -2 + 4 = 2.\nAfter adding 2 to nums[3], the array is [-2,-1,3,6], and the sum of even values is -2 + 6 = 4.\n\n\nExample 2:\n\nInput: nums = [1], queries = [[4,0]]\nOutput: [0]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 104\n\t-104 <= nums[i] <= 104\n\t1 <= queries.length <= 104\n\t-104 <= vali <= 104\n\t0 <= indexi < nums.length\n\n"
+}

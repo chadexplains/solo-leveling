@@ -1,0 +1,10 @@
+{
+  "id": "maximum-number-of-events-that-can-be-attended",
+  "name": "Maximum Number of Events That Can Be Attended",
+  "tags": [
+    "Array",
+    "Greedy",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You are given an array of events where events[i] = [startDayi, endDayi]. Every event i starts at startDayi and ends at endDayi.\n\nYou can attend an event i at any day d where startTimei <= d <= endTimei. You can only attend one event at any time d.\n\nReturn the maximum number of events you can attend.\n\n \nExample 1:\n\nInput: events = [[1,2],[2,3],[3,4]]\nOutput: 3\nExplanation: You can attend all the three events.\nOne way to attend them all is as shown.\nAttend the first event on day 1.\nAttend the second event on day 2.\nAttend the third event on day 3.\n\n\nExample 2:\n\nInput: events= [[1,2],[2,3],[3,4],[1,2]]\nOutput: 4\n\n\n \nConstraints:\n\n\n\t1 <= events.length <= 105\n\tevents[i].length == 2\n\t1 <= startDayi <= endDayi <= 105\n\n"
+}

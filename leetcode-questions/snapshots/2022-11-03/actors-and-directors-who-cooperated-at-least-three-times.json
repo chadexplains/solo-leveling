@@ -1,0 +1,8 @@
+{
+  "id": "actors-and-directors-who-cooperated-at-least-three-times",
+  "name": "Actors and Directors Who Cooperated At Least Three Times",
+  "tags": [
+    "Database"
+  ],
+  "description": "SQL SchemaTable: ActorDirector\n\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| actor_id    | int     |\n| director_id | int     |\n| timestamp   | int     |\n+-------------+---------+\ntimestamp is the primary key column for this table.\n\n\n \n\nWrite a SQL query for a report that provides the pairs (actor_id, director_id) where the actor has cooperated with the director at least three times.\n\nReturn the result table in any order.\n\nThe query result format is in the following example.\n\n \nExample 1:\n\nInput: \nActorDirector table:\n+-------------+-------------+-------------+\n| actor_id    | director_id | timestamp   |\n+-------------+-------------+-------------+\n| 1           | 1           | 0           |\n| 1           | 1           | 1           |\n| 1           | 1           | 2           |\n| 1           | 2           | 3           |\n| 1           | 2           | 4           |\n| 2           | 1           | 5           |\n| 2           | 1           | 6           |\n+-------------+-------------+-------------+\nOutput: \n+-------------+-------------+\n| actor_id    | director_id |\n+-------------+-------------+\n| 1           | 1           |\n+-------------+-------------+\nExplanation: The only pair is (1, 1) where they cooperated exactly 3 times.\n\n"
+}

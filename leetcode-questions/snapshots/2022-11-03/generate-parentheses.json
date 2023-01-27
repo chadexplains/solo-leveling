@@ -1,0 +1,10 @@
+{
+  "id": "generate-parentheses",
+  "name": "Generate Parentheses",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Backtracking"
+  ],
+  "description": "Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.\n\n \nExample 1:\nInput: n = 3\nOutput: [\"((()))\",\"(()())\",\"(())()\",\"()(())\",\"()()()\"]\nExample 2:\nInput: n = 1\nOutput: [\"()\"]\n\n \nConstraints:\n\n\n\t1 <= n <= 8\n\n"
+}

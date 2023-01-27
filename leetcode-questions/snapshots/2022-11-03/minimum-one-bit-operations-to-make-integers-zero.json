@@ -1,0 +1,10 @@
+{
+  "id": "minimum-one-bit-operations-to-make-integers-zero",
+  "name": "Minimum One Bit Operations to Make Integers Zero",
+  "tags": [
+    "Dynamic Programming",
+    "Bit Manipulation",
+    "Memoization"
+  ],
+  "description": "Given an integer n, you must transform it into 0 using the following operations any number of times:\n\n\n\tChange the rightmost (0th) bit in the binary representation of n.\n\tChange the ith bit in the binary representation of n if the (i-1)th bit is set to 1 and the (i-2)th through 0th bits are set to 0.\n\n\nReturn the minimum number of operations to transform n into 0.\n\n \nExample 1:\n\nInput: n = 3\nOutput: 2\nExplanation: The binary representation of 3 is \"11\".\n\"11\" -> \"01\" with the 2nd operation since the 0th bit is 1.\n\"01\" -> \"00\" with the 1st operation.\n\n\nExample 2:\n\nInput: n = 6\nOutput: 4\nExplanation: The binary representation of 6 is \"110\".\n\"110\" -> \"010\" with the 2nd operation since the 1st bit is 1 and 0th through 0th bits are 0.\n\"010\" -> \"011\" with the 1st operation.\n\"011\" -> \"001\" with the 2nd operation since the 0th bit is 1.\n\"001\" -> \"000\" with the 1st operation.\n\n\n \nConstraints:\n\n\n\t0 <= n <= 109\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "check-array-formation-through-concatenation",
+  "name": "Check Array Formation Through Concatenation",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "You are given an array of distinct integers arr and an array of integer arrays pieces, where the integers in pieces are distinct. Your goal is to form arr by concatenating the arrays in pieces in any order. However, you are not allowed to reorder the integers in each array pieces[i].\n\nReturn true if it is possible to form the array arr from pieces. Otherwise, return false.\n\n \nExample 1:\n\nInput: arr = [15,88], pieces = [[88],[15]]\nOutput: true\nExplanation: Concatenate [15] then [88]\n\n\nExample 2:\n\nInput: arr = [49,18,16], pieces = [[16,18,49]]\nOutput: false\nExplanation: Even though the numbers match, we cannot reorder pieces[0].\n\n\nExample 3:\n\nInput: arr = [91,4,64,78], pieces = [[78],[4,64],[91]]\nOutput: true\nExplanation: Concatenate [91] then [4,64] then [78]\n\n\n \nConstraints:\n\n\n\t1 <= pieces.length <= arr.length <= 100\n\tsum(pieces[i].length) == arr.length\n\t1 <= pieces[i].length <= arr.length\n\t1 <= arr[i], pieces[i][j] <= 100\n\tThe integers in arr are distinct.\n\tThe integers in pieces are distinct (i.e., If we flatten pieces in a 1D array, all the integers in this array are distinct).\n\n"
+}

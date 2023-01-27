@@ -1,0 +1,9 @@
+{
+  "id": "minimum-distance-to-type-a-word-using-two-fingers",
+  "name": "Minimum Distance to Type a Word Using Two Fingers",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "\nYou have a keyboard layout as shown above in the X-Y plane, where each English uppercase letter is located at some coordinate.\n\n\n\tFor example, the letter 'A' is located at coordinate (0, 0), the letter 'B' is located at coordinate (0, 1), the letter 'P' is located at coordinate (2, 3) and the letter 'Z' is located at coordinate (4, 1).\n\n\nGiven the string word, return the minimum total distance to type such string using only two fingers.\n\nThe distance between coordinates (x1, y1) and (x2, y2) is |x1 - x2| + |y1 - y2|.\n\nNote that the initial positions of your two fingers are considered free so do not count towards your total distance, also your two fingers do not have to start at the first letter or the first two letters.\n\n \nExample 1:\n\nInput: word = \"CAKE\"\nOutput: 3\nExplanation: Using two fingers, one optimal way to type \"CAKE\" is: \nFinger 1 on letter 'C' -> cost = 0 \nFinger 1 on letter 'A' -> cost = Distance from letter 'C' to letter 'A' = 2 \nFinger 2 on letter 'K' -> cost = 0 \nFinger 2 on letter 'E' -> cost = Distance from letter 'K' to letter 'E' = 1 \nTotal distance = 3\n\n\nExample 2:\n\nInput: word = \"HAPPY\"\nOutput: 6\nExplanation: Using two fingers, one optimal way to type \"HAPPY\" is:\nFinger 1 on letter 'H' -> cost = 0\nFinger 1 on letter 'A' -> cost = Distance from letter 'H' to letter 'A' = 2\nFinger 2 on letter 'P' -> cost = 0\nFinger 2 on letter 'P' -> cost = Distance from letter 'P' to letter 'P' = 0\nFinger 1 on letter 'Y' -> cost = Distance from letter 'A' to letter 'Y' = 4\nTotal distance = 6\n\n\n \nConstraints:\n\n\n\t2 <= word.length <= 300\n\tword consists of uppercase English letters.\n\n"
+}

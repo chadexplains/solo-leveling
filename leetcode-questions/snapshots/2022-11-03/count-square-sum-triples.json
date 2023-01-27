@@ -1,0 +1,9 @@
+{
+  "id": "count-square-sum-triples",
+  "name": "Count Square Sum Triples",
+  "tags": [
+    "Math",
+    "Enumeration"
+  ],
+  "description": "A square triple (a,b,c) is a triple where a, b, and c are integers and a2 + b2 = c2.\n\nGiven an integer n, return the number of square triples such that 1 <= a, b, c <= n.\n\n \nExample 1:\n\nInput: n = 5\nOutput: 2\nExplanation: The square triples are (3,4,5) and (4,3,5).\n\n\nExample 2:\n\nInput: n = 10\nOutput: 4\nExplanation: The square triples are (3,4,5), (4,3,5), (6,8,10), and (8,6,10).\n\n\n \nConstraints:\n\n\n\t1 <= n <= 250\n\n"
+}

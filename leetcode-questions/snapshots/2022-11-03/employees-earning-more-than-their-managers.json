@@ -1,0 +1,8 @@
+{
+  "id": "employees-earning-more-than-their-managers",
+  "name": "Employees Earning More Than Their Managers",
+  "tags": [
+    "Database"
+  ],
+  "description": "SQL SchemaTable: Employee\n\n+-------------+---------+\n| Column Name | Type    |\n+-------------+---------+\n| id          | int     |\n| name        | varchar |\n| salary      | int     |\n| managerId   | int     |\n+-------------+---------+\nid is the primary key column for this table.\nEach row of this table indicates the ID of an employee, their name, salary, and the ID of their manager.\n\n\n \n\nWrite an SQL query to find the employees who earn more than their managers.\n\nReturn the result table in any order.\n\nThe query result format is in the following example.\n\n \nExample 1:\n\nInput: \nEmployee table:\n+----+-------+--------+-----------+\n| id | name  | salary | managerId |\n+----+-------+--------+-----------+\n| 1  | Joe   | 70000  | 3         |\n| 2  | Henry | 80000  | 4         |\n| 3  | Sam   | 60000  | Null      |\n| 4  | Max   | 90000  | Null      |\n+----+-------+--------+-----------+\nOutput: \n+----------+\n| Employee |\n+----------+\n| Joe      |\n+----------+\nExplanation: Joe is the only employee who earns more than his manager.\n\n"
+}

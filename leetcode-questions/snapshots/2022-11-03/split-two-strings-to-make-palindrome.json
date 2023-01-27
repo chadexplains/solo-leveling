@@ -1,0 +1,9 @@
+{
+  "id": "split-two-strings-to-make-palindrome",
+  "name": "Split Two Strings to Make Palindrome",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "You are given two strings a and b of the same length. Choose an index and split both strings at the same index, splitting a into two strings: aprefix and asuffix where a = aprefix + asuffix, and splitting b into two strings: bprefix and bsuffix where b = bprefix + bsuffix. Check if aprefix + bsuffix or bprefix + asuffix forms a palindrome.\n\nWhen you split a string s into sprefix and ssuffix, either ssuffix or sprefix is allowed to be empty. For example, if s = \"abc\", then \"\" + \"abc\", \"a\" + \"bc\", \"ab\" + \"c\" , and \"abc\" + \"\" are valid splits.\n\nReturn true if it is possible to form a palindrome string, otherwise return false.\n\nNotice that x + y denotes the concatenation of strings x and y.\n\n \nExample 1:\n\nInput: a = \"x\", b = \"y\"\nOutput: true\nExplaination: If either a or b are palindromes the answer is true since you can split in the following way:\naprefix = \"\", asuffix = \"x\"\nbprefix = \"\", bsuffix = \"y\"\nThen, aprefix + bsuffix = \"\" + \"y\" = \"y\", which is a palindrome.\n\n\nExample 2:\n\nInput: a = \"xbdef\", b = \"xecab\"\nOutput: false\n\n\nExample 3:\n\nInput: a = \"ulacfd\", b = \"jizalu\"\nOutput: true\nExplaination: Split them at index 3:\naprefix = \"ula\", asuffix = \"cfd\"\nbprefix = \"jiz\", bsuffix = \"alu\"\nThen, aprefix + bsuffix = \"ula\" + \"alu\" = \"ulaalu\", which is a palindrome.\n\n\n \nConstraints:\n\n\n\t1 <= a.length, b.length <= 105\n\ta.length == b.length\n\ta and b consist of lowercase English letters\n\n"
+}

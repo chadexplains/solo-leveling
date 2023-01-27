@@ -1,0 +1,11 @@
+{
+  "id": "largest-combination-with-bitwise-and-greater-than-zero",
+  "name": "Largest Combination With Bitwise AND Greater Than Zero",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Bit Manipulation",
+    "Counting"
+  ],
+  "description": "The bitwise AND of an array nums is the bitwise AND of all integers in nums.\n\n\n\tFor example, for nums = [1, 5, 3], the bitwise AND is equal to 1 & 5 & 3 = 1.\n\tAlso, for nums = [7], the bitwise AND is 7.\n\n\nYou are given an array of positive integers candidates. Evaluate the bitwise AND of every combination of numbers of candidates. Each number in candidates may only be used once in each combination.\n\nReturn the size of the largest combination of candidates with a bitwise AND greater than 0.\n\n \nExample 1:\n\nInput: candidates = [16,17,71,62,12,24,14]\nOutput: 4\nExplanation: The combination [16,17,62,24] has a bitwise AND of 16 & 17 & 62 & 24 = 16 > 0.\nThe size of the combination is 4.\nIt can be shown that no combination with a size greater than 4 has a bitwise AND greater than 0.\nNote that more than one combination may have the largest size.\nFor example, the combination [62,12,24,14] has a bitwise AND of 62 & 12 & 24 & 14 = 8 > 0.\n\n\nExample 2:\n\nInput: candidates = [8,8]\nOutput: 2\nExplanation: The largest combination [8,8] has a bitwise AND of 8 & 8 = 8 > 0.\nThe size of the combination is 2, so we return 2.\n\n\n \nConstraints:\n\n\n\t1 <= candidates.length <= 105\n\t1 <= candidates[i] <= 107\n\n"
+}

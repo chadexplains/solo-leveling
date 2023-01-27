@@ -1,0 +1,9 @@
+{
+  "id": "increasing-triplet-subsequence",
+  "name": "Increasing Triplet Subsequence",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "description": "Given an integer array nums, return true if there exists a triple of indices (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]. If no such indices exists, return false.\n\n \nExample 1:\n\nInput: nums = [1,2,3,4,5]\nOutput: true\nExplanation: Any triplet where i < j < k is valid.\n\n\nExample 2:\n\nInput: nums = [5,4,3,2,1]\nOutput: false\nExplanation: No triplet exists.\n\n\nExample 3:\n\nInput: nums = [2,1,5,0,4,6]\nOutput: true\nExplanation: The triplet (3, 4, 5) is valid because nums[3] == 0 < nums[4] == 4 < nums[5] == 6.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 5 * 105\n\t-231 <= nums[i] <= 231 - 1\n\n\n \nFollow up: Could you implement a solution that runs in O(n) time complexity and O(1) space complexity?"
+}

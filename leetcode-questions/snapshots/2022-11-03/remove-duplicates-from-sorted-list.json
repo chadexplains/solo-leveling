@@ -1,0 +1,8 @@
+{
+  "id": "remove-duplicates-from-sorted-list",
+  "name": "Remove Duplicates from Sorted List",
+  "tags": [
+    "Linked List"
+  ],
+  "description": "Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.\n\n \nExample 1:\n\nInput: head = [1,1,2]\nOutput: [1,2]\n\n\nExample 2:\n\nInput: head = [1,1,2,3,3]\nOutput: [1,2,3]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [0, 300].\n\t-100 <= Node.val <= 100\n\tThe list is guaranteed to be sorted in ascending order.\n\n"
+}

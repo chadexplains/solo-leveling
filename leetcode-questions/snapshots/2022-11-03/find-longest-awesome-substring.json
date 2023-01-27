@@ -1,0 +1,10 @@
+{
+  "id": "find-longest-awesome-substring",
+  "name": "Find Longest Awesome Substring",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Bit Manipulation"
+  ],
+  "description": "You are given a string s. An awesome substring is a non-empty substring of s such that we can make any number of swaps in order to make it a palindrome.\n\nReturn the length of the maximum length awesome substring of s.\n\n \nExample 1:\n\nInput: s = \"3242415\"\nOutput: 5\nExplanation: \"24241\" is the longest awesome substring, we can form the palindrome \"24142\" with some swaps.\n\n\nExample 2:\n\nInput: s = \"12345678\"\nOutput: 1\n\n\nExample 3:\n\nInput: s = \"213123\"\nOutput: 6\nExplanation: \"213123\" is the longest awesome substring, we can form the palindrome \"231132\" with some swaps.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists only of digits.\n\n"
+}

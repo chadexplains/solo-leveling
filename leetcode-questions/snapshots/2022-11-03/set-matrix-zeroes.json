@@ -1,0 +1,10 @@
+{
+  "id": "set-matrix-zeroes",
+  "name": "Set Matrix Zeroes",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Matrix"
+  ],
+  "description": "Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.\n\nYou must do it in place.\n\n \nExample 1:\n\nInput: matrix = [[1,1,1],[1,0,1],[1,1,1]]\nOutput: [[1,0,1],[0,0,0],[1,0,1]]\n\n\nExample 2:\n\nInput: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]\nOutput: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[0].length\n\t1 <= m, n <= 200\n\t-231 <= matrix[i][j] <= 231 - 1\n\n\n \nFollow up:\n\n\n\tA straightforward solution using O(mn) space is probably a bad idea.\n\tA simple improvement uses O(m + n) space, but still not the best solution.\n\tCould you devise a constant space solution?\n\n"
+}

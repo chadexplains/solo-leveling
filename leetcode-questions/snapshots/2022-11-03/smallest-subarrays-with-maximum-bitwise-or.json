@@ -1,0 +1,11 @@
+{
+  "id": "smallest-subarrays-with-maximum-bitwise-or",
+  "name": "Smallest Subarrays With Maximum Bitwise OR",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Bit Manipulation",
+    "Sliding Window"
+  ],
+  "description": "You are given a 0-indexed array nums of length n, consisting of non-negative integers. For each index i from 0 to n - 1, you must determine the size of the minimum sized non-empty subarray of nums starting at i (inclusive) that has the maximum possible bitwise OR.\n\n\n\tIn other words, let Bij be the bitwise OR of the subarray nums[i...j]. You need to find the smallest subarray starting at i, such that bitwise OR of this subarray is equal to max(Bik) where i <= k <= n - 1.\n\n\nThe bitwise OR of an array is the bitwise OR of all the numbers in it.\n\nReturn an integer array answer of size n where answer[i] is the length of the minimum sized subarray starting at i with maximum bitwise OR.\n\nA subarray is a contiguous non-empty sequence of elements within an array.\n\n \nExample 1:\n\nInput: nums = [1,0,2,1,3]\nOutput: [3,3,2,2,1]\nExplanation:\nThe maximum possible bitwise OR starting at any index is 3. \n- Starting at index 0, the shortest subarray that yields it is [1,0,2].\n- Starting at index 1, the shortest subarray that yields the maximum bitwise OR is [0,2,1].\n- Starting at index 2, the shortest subarray that yields the maximum bitwise OR is [2,1].\n- Starting at index 3, the shortest subarray that yields the maximum bitwise OR is [1,3].\n- Starting at index 4, the shortest subarray that yields the maximum bitwise OR is [3].\nTherefore, we return [3,3,2,2,1]. \n\n\nExample 2:\n\nInput: nums = [1,2]\nOutput: [2,1]\nExplanation:\nStarting at index 0, the shortest subarray that yields the maximum bitwise OR is of length 2.\nStarting at index 1, the shortest subarray that yields the maximum bitwise OR is of length 1.\nTherefore, we return [2,1].\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\t1 <= n <= 105\n\t0 <= nums[i] <= 109\n\n"
+}

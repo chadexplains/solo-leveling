@@ -1,0 +1,9 @@
+{
+  "id": "minimum-insertion-steps-to-make-a-string-palindrome",
+  "name": "Minimum Insertion Steps to Make a String Palindrome",
+  "tags": [
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "Given a string s. In one step you can insert any character at any index of the string.\n\nReturn the minimum number of steps to make s palindrome.\n\nA Palindrome String is one that reads the same backward as well as forward.\n\n \nExample 1:\n\nInput: s = \"zzazz\"\nOutput: 0\nExplanation: The string \"zzazz\" is already palindrome we do not need any insertions.\n\n\nExample 2:\n\nInput: s = \"mbadm\"\nOutput: 2\nExplanation: String can be \"mbdadbm\" or \"mdbabdm\".\n\n\nExample 3:\n\nInput: s = \"leetcode\"\nOutput: 5\nExplanation: Inserting 5 characters the string becomes \"leetcodocteel\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 500\n\ts consists of lowercase English letters.\n\n"
+}

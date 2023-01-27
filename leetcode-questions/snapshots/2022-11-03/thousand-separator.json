@@ -1,0 +1,8 @@
+{
+  "id": "thousand-separator",
+  "name": "Thousand Separator",
+  "tags": [
+    "String"
+  ],
+  "description": "Given an integer n, add a dot (\".\") as the thousands separator and return it in string format.\n\n \nExample 1:\n\nInput: n = 987\nOutput: \"987\"\n\n\nExample 2:\n\nInput: n = 1234\nOutput: \"1.234\"\n\n\n \nConstraints:\n\n\n\t0 <= n <= 231 - 1\n\n"
+}

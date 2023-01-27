@@ -1,0 +1,9 @@
+{
+  "id": "reverse-prefix-of-word",
+  "name": "Reverse Prefix of Word",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a 0-indexed string word and a character ch, reverse the segment of word that starts at index 0 and ends at the index of the first occurrence of ch (inclusive). If the character ch does not exist in word, do nothing.\n\n\n\tFor example, if word = \"abcdefd\" and ch = \"d\", then you should reverse the segment that starts at 0 and ends at 3 (inclusive). The resulting string will be \"dcbaefd\".\n\n\nReturn the resulting string.\n\n \nExample 1:\n\nInput: word = \"abcdefd\", ch = \"d\"\nOutput: \"dcbaefd\"\nExplanation: The first occurrence of \"d\" is at index 3. \nReverse the part of word from 0 to 3 (inclusive), the resulting string is \"dcbaefd\".\n\n\nExample 2:\n\nInput: word = \"xyxzxe\", ch = \"z\"\nOutput: \"zxyxxe\"\nExplanation: The first and only occurrence of \"z\" is at index 3.\nReverse the part of word from 0 to 3 (inclusive), the resulting string is \"zxyxxe\".\n\n\nExample 3:\n\nInput: word = \"abcd\", ch = \"z\"\nOutput: \"abcd\"\nExplanation: \"z\" does not exist in word.\nYou should not do any reverse operation, the resulting string is \"abcd\".\n\n\n \nConstraints:\n\n\n\t1 <= word.length <= 250\n\tword consists of lowercase English letters.\n\tch is a lowercase English letter.\n\n"
+}

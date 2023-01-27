@@ -1,0 +1,9 @@
+{
+  "id": "minimum-suffix-flips",
+  "name": "Minimum Suffix Flips",
+  "tags": [
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a 0-indexed binary string target of length n. You have another binary string s of length n that is initially set to all zeros. You want to make s equal to target.\n\nIn one operation, you can pick an index i where 0 <= i < n and flip all bits in the inclusive range [i, n - 1]. Flip means changing '0' to '1' and '1' to '0'.\n\nReturn the minimum number of operations needed to make s equal to target.\n\n \nExample 1:\n\nInput: target = \"10111\"\nOutput: 3\nExplanation: Initially, s = \"00000\".\nChoose index i = 2: \"00000\" -> \"00111\"\nChoose index i = 0: \"00111\" -> \"11000\"\nChoose index i = 1: \"11000\" -> \"10111\"\nWe need at least 3 flip operations to form target.\n\n\nExample 2:\n\nInput: target = \"101\"\nOutput: 3\nExplanation: Initially, s = \"000\".\nChoose index i = 0: \"000\" -> \"111\"\nChoose index i = 1: \"111\" -> \"100\"\nChoose index i = 2: \"100\" -> \"101\"\nWe need at least 3 flip operations to form target.\n\n\nExample 3:\n\nInput: target = \"00000\"\nOutput: 0\nExplanation: We do not need any operations since the initial s already equals target.\n\n\n \nConstraints:\n\n\n\tn == target.length\n\t1 <= n <= 105\n\ttarget[i] is either '0' or '1'.\n\n"
+}

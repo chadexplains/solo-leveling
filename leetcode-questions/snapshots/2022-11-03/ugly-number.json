@@ -1,0 +1,8 @@
+{
+  "id": "ugly-number",
+  "name": "Ugly Number",
+  "tags": [
+    "Math"
+  ],
+  "description": "An ugly number is a positive integer whose prime factors are limited to 2, 3, and 5.\n\nGiven an integer n, return true if n is an ugly number.\n\n \nExample 1:\n\nInput: n = 6\nOutput: true\nExplanation: 6 = 2 × 3\n\n\nExample 2:\n\nInput: n = 1\nOutput: true\nExplanation: 1 has no prime factors, therefore all of its prime factors are limited to 2, 3, and 5.\n\n\nExample 3:\n\nInput: n = 14\nOutput: false\nExplanation: 14 is not ugly since it includes the prime factor 7.\n\n\n \nConstraints:\n\n\n\t-231 <= n <= 231 - 1\n\n"
+}

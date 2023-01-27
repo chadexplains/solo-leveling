@@ -1,0 +1,10 @@
+{
+  "id": "unique-paths-ii",
+  "name": "Unique Paths II",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "description": "You are given an m x n integer array grid. There is a robot initially located at the top-left corner (i.e., grid[0][0]). The robot tries to move to the bottom-right corner (i.e., grid[m - 1][n - 1]). The robot can only move either down or right at any point in time.\n\nAn obstacle and space are marked as 1 or 0 respectively in grid. A path that the robot takes cannot include any square that is an obstacle.\n\nReturn the number of possible unique paths that the robot can take to reach the bottom-right corner.\n\nThe testcases are generated so that the answer will be less than or equal to 2 * 109.\n\n \nExample 1:\n\nInput: obstacleGrid = [[0,0,0],[0,1,0],[0,0,0]]\nOutput: 2\nExplanation: There is one obstacle in the middle of the 3x3 grid above.\nThere are two ways to reach the bottom-right corner:\n1. Right -> Right -> Down -> Down\n2. Down -> Down -> Right -> Right\n\n\nExample 2:\n\nInput: obstacleGrid = [[0,1],[0,0]]\nOutput: 1\n\n\n \nConstraints:\n\n\n\tm == obstacleGrid.length\n\tn == obstacleGrid[i].length\n\t1 <= m, n <= 100\n\tobstacleGrid[i][j] is 0 or 1.\n\n"
+}

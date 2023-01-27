@@ -1,0 +1,13 @@
+{
+  "id": "maximum-binary-tree",
+  "name": "Maximum Binary Tree",
+  "tags": [
+    "Array",
+    "Divide and Conquer",
+    "Stack",
+    "Tree",
+    "Monotonic Stack",
+    "Binary Tree"
+  ],
+  "description": "You are given an integer array nums with no duplicates. A maximum binary tree can be built recursively from nums using the following algorithm:\n\n\n\tCreate a root node whose value is the maximum value in nums.\n\tRecursively build the left subtree on the subarray prefix to the left of the maximum value.\n\tRecursively build the right subtree on the subarray suffix to the right of the maximum value.\n\n\nReturn the maximum binary tree built from nums.\n\n \nExample 1:\n\nInput: nums = [3,2,1,6,0,5]\nOutput: [6,3,5,null,2,0,null,null,1]\nExplanation: The recursive calls are as follow:\n- The largest value in [3,2,1,6,0,5] is 6. Left prefix is [3,2,1] and right suffix is [0,5].\n    - The largest value in [3,2,1] is 3. Left prefix is [] and right suffix is [2,1].\n        - Empty array, so no child.\n        - The largest value in [2,1] is 2. Left prefix is [] and right suffix is [1].\n            - Empty array, so no child.\n            - Only one element, so child is a node with value 1.\n    - The largest value in [0,5] is 5. Left prefix is [0] and right suffix is [].\n        - Only one element, so child is a node with value 0.\n        - Empty array, so no child.\n\n\nExample 2:\n\nInput: nums = [3,2,1]\nOutput: [3,null,2,null,1]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 1000\n\t0 <= nums[i] <= 1000\n\tAll integers in nums are unique.\n\n"
+}

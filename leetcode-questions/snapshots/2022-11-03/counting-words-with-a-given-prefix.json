@@ -1,0 +1,9 @@
+{
+  "id": "counting-words-with-a-given-prefix",
+  "name": "Counting Words With a Given Prefix",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "You are given an array of strings words and a string pref.\n\nReturn the number of strings in words that contain pref as a prefix.\n\nA prefix of a string s is any leading contiguous substring of s.\n\n \nExample 1:\n\nInput: words = [\"pay\",\"attention\",\"practice\",\"attend\"], pref = \"at\"\nOutput: 2\nExplanation: The 2 strings that contain \"at\" as a prefix are: \"attention\" and \"attend\".\n\n\nExample 2:\n\nInput: words = [\"leetcode\",\"win\",\"loops\",\"success\"], pref = \"code\"\nOutput: 0\nExplanation: There are no strings that contain \"code\" as a prefix.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 100\n\t1 <= words[i].length, pref.length <= 100\n\twords[i] and pref consist of lowercase English letters.\n\n"
+}

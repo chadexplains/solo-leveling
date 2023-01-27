@@ -1,0 +1,11 @@
+{
+  "id": "maximum-depth-of-binary-tree",
+  "name": "Maximum Depth of Binary Tree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return its maximum depth.\n\nA binary tree's maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.\n\n \nExample 1:\n\nInput: root = [3,9,20,null,null,15,7]\nOutput: 3\n\n\nExample 2:\n\nInput: root = [1,null,2]\nOutput: 2\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [0, 104].\n\t-100 <= Node.val <= 100\n\n"
+}

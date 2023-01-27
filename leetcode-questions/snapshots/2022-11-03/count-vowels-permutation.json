@@ -1,0 +1,8 @@
+{
+  "id": "count-vowels-permutation",
+  "name": "Count Vowels Permutation",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer n, your task is to count how many strings of length n can be formed under the following rules:\n\n\n\tEach character is a lower case vowel ('a', 'e', 'i', 'o', 'u')\n\tEach vowel 'a' may only be followed by an 'e'.\n\tEach vowel 'e' may only be followed by an 'a' or an 'i'.\n\tEach vowel 'i' may not be followed by another 'i'.\n\tEach vowel 'o' may only be followed by an 'i' or a 'u'.\n\tEach vowel 'u' may only be followed by an 'a'.\n\n\nSince the answer may be too large, return it modulo 10^9 + 7.\n\n \nExample 1:\n\nInput: n = 1\nOutput: 5\nExplanation: All possible strings are: \"a\", \"e\", \"i\" , \"o\" and \"u\".\n\n\nExample 2:\n\nInput: n = 2\nOutput: 10\nExplanation: All possible strings are: \"ae\", \"ea\", \"ei\", \"ia\", \"ie\", \"io\", \"iu\", \"oi\", \"ou\" and \"ua\".\n\n\nExample 3: \n\nInput: n = 5\nOutput: 68\n\n \nConstraints:\n\n\n\t1 <= n <= 2 * 10^4\n\n"
+}

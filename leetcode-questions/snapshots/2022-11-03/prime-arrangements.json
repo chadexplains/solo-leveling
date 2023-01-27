@@ -1,0 +1,8 @@
+{
+  "id": "prime-arrangements",
+  "name": "Prime Arrangements",
+  "tags": [
+    "Math"
+  ],
+  "description": "Return the number of permutations of 1 to n so that prime numbers are at prime indices (1-indexed.)\n\n(Recall that an integer is prime if and only if it is greater than 1, and cannot be written as a product of two positive integers both smaller than it.)\n\nSince the answer may be large, return the answer modulo 10^9 + 7.\n\n \nExample 1:\n\nInput: n = 5\nOutput: 12\nExplanation: For example [1,2,5,4,3] is a valid permutation, but [5,2,3,4,1] is not because the prime number 5 is at index 1.\n\n\nExample 2:\n\nInput: n = 100\nOutput: 682289015\n\n\n \nConstraints:\n\n\n\t1 <= n <= 100\n\n"
+}

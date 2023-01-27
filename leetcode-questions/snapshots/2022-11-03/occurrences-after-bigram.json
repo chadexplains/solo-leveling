@@ -1,0 +1,8 @@
+{
+  "id": "occurrences-after-bigram",
+  "name": "Occurrences After Bigram",
+  "tags": [
+    "String"
+  ],
+  "description": "Given two strings first and second, consider occurrences in some text of the form \"first second third\", where second comes immediately after first, and third comes immediately after second.\n\nReturn an array of all the words third for each occurrence of \"first second third\".\n\n \nExample 1:\nInput: text = \"alice is a good girl she is a good student\", first = \"a\", second = \"good\"\nOutput: [\"girl\",\"student\"]\nExample 2:\nInput: text = \"we will we will rock you\", first = \"we\", second = \"will\"\nOutput: [\"we\",\"rock\"]\n\n \nConstraints:\n\n\n\t1 <= text.length <= 1000\n\ttext consists of lowercase English letters and spaces.\n\tAll the words in text a separated by a single space.\n\t1 <= first.length, second.length <= 10\n\tfirst and second consist of lowercase English letters.\n\n"
+}

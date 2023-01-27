@@ -1,0 +1,9 @@
+{
+  "id": "largest-number-after-digit-swaps-by-parity",
+  "name": "Largest Number After Digit Swaps by Parity",
+  "tags": [
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You are given a positive integer num. You may swap any two digits of num that have the same parity (i.e. both odd digits or both even digits).\n\nReturn the largest possible value of num after any number of swaps.\n\n \nExample 1:\n\nInput: num = 1234\nOutput: 3412\nExplanation: Swap the digit 3 with the digit 1, this results in the number 3214.\nSwap the digit 2 with the digit 4, this results in the number 3412.\nNote that there may be other sequences of swaps but it can be shown that 3412 is the largest possible number.\nAlso note that we may not swap the digit 4 with the digit 1 since they are of different parities.\n\n\nExample 2:\n\nInput: num = 65875\nOutput: 87655\nExplanation: Swap the digit 8 with the digit 6, this results in the number 85675.\nSwap the first digit 5 with the digit 7, this results in the number 87655.\nNote that there may be other sequences of swaps but it can be shown that 87655 is the largest possible number.\n\n\n \nConstraints:\n\n\n\t1 <= num <= 109\n\n"
+}

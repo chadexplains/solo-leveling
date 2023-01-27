@@ -1,0 +1,11 @@
+{
+  "id": "design-circular-deque",
+  "name": "Design Circular Deque",
+  "tags": [
+    "Array",
+    "Linked List",
+    "Design",
+    "Queue"
+  ],
+  "description": "Design your implementation of the circular double-ended queue (deque).\n\nImplement the MyCircularDeque class:\n\n\n\tMyCircularDeque(int k) Initializes the deque with a maximum size of k.\n\tboolean insertFront() Adds an item at the front of Deque. Returns true if the operation is successful, or false otherwise.\n\tboolean insertLast() Adds an item at the rear of Deque. Returns true if the operation is successful, or false otherwise.\n\tboolean deleteFront() Deletes an item from the front of Deque. Returns true if the operation is successful, or false otherwise.\n\tboolean deleteLast() Deletes an item from the rear of Deque. Returns true if the operation is successful, or false otherwise.\n\tint getFront() Returns the front item from the Deque. Returns -1 if the deque is empty.\n\tint getRear() Returns the last item from Deque. Returns -1 if the deque is empty.\n\tboolean isEmpty() Returns true if the deque is empty, or false otherwise.\n\tboolean isFull() Returns true if the deque is full, or false otherwise.\n\n\n \nExample 1:\n\nInput\n[\"MyCircularDeque\", \"insertLast\", \"insertLast\", \"insertFront\", \"insertFront\", \"getRear\", \"isFull\", \"deleteLast\", \"insertFront\", \"getFront\"]\n[[3], [1], [2], [3], [4], [], [], [], [4], []]\nOutput\n[null, true, true, true, false, 2, true, true, true, 4]\n\nExplanation\nMyCircularDeque myCircularDeque = new MyCircularDeque(3);\nmyCircularDeque.insertLast(1);  // return True\nmyCircularDeque.insertLast(2);  // return True\nmyCircularDeque.insertFront(3); // return True\nmyCircularDeque.insertFront(4); // return False, the queue is full.\nmyCircularDeque.getRear();      // return 2\nmyCircularDeque.isFull();       // return True\nmyCircularDeque.deleteLast();   // return True\nmyCircularDeque.insertFront(4); // return True\nmyCircularDeque.getFront();     // return 4\n\n\n \nConstraints:\n\n\n\t1 <= k <= 1000\n\t0 <= value <= 1000\n\tAt most 2000 calls will be made to insertFront, insertLast, deleteFront, deleteLast, getFront, getRear, isEmpty, isFull.\n\n"
+}

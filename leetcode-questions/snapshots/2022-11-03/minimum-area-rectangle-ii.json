@@ -1,0 +1,10 @@
+{
+  "id": "minimum-area-rectangle-ii",
+  "name": "Minimum Area Rectangle II",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry"
+  ],
+  "description": "You are given an array of points in the X-Y plane points where points[i] = [xi, yi].\n\nReturn the minimum area of any rectangle formed from these points, with sides not necessarily parallel to the X and Y axes. If there is not any such rectangle, return 0.\n\nAnswers within 10-5 of the actual answer will be accepted.\n\n \nExample 1:\n\nInput: points = [[1,2],[2,1],[1,0],[0,1]]\nOutput: 2.00000\nExplanation: The minimum area rectangle occurs at [1,2],[2,1],[1,0],[0,1], with an area of 2.\n\n\nExample 2:\n\nInput: points = [[0,1],[2,1],[1,1],[1,0],[2,0]]\nOutput: 1.00000\nExplanation: The minimum area rectangle occurs at [1,0],[1,1],[2,1],[2,0], with an area of 1.\n\n\nExample 3:\n\nInput: points = [[0,3],[1,2],[3,1],[1,3],[2,1]]\nOutput: 0\nExplanation: There is no possible rectangle to form from these points.\n\n\n \nConstraints:\n\n\n\t1 <= points.length <= 50\n\tpoints[i].length == 2\n\t0 <= xi, yi <= 4 * 104\n\tAll the given points are unique.\n\n"
+}

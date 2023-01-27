@@ -1,0 +1,10 @@
+{
+  "id": "replace-elements-in-an-array",
+  "name": "Replace Elements in an Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Simulation"
+  ],
+  "description": "You are given a 0-indexed array nums that consists of n distinct positive integers. Apply m operations to this array, where in the ith operation you replace the number operations[i][0] with operations[i][1].\n\nIt is guaranteed that in the ith operation:\n\n\n\toperations[i][0] exists in nums.\n\toperations[i][1] does not exist in nums.\n\n\nReturn the array obtained after applying all the operations.\n\n \nExample 1:\n\nInput: nums = [1,2,4,6], operations = [[1,3],[4,7],[6,1]]\nOutput: [3,2,7,1]\nExplanation: We perform the following operations on nums:\n- Replace the number 1 with 3. nums becomes [3,2,4,6].\n- Replace the number 4 with 7. nums becomes [3,2,7,6].\n- Replace the number 6 with 1. nums becomes [3,2,7,1].\nWe return the final array [3,2,7,1].\n\n\nExample 2:\n\nInput: nums = [1,2], operations = [[1,3],[2,1],[3,2]]\nOutput: [2,1]\nExplanation: We perform the following operations to nums:\n- Replace the number 1 with 3. nums becomes [3,2].\n- Replace the number 2 with 1. nums becomes [3,1].\n- Replace the number 3 with 2. nums becomes [2,1].\nWe return the array [2,1].\n\n\n \nConstraints:\n\n\n\tn == nums.length\n\tm == operations.length\n\t1 <= n, m <= 105\n\tAll the values of nums are distinct.\n\toperations[i].length == 2\n\t1 <= nums[i], operations[i][0], operations[i][1] <= 106\n\toperations[i][0] will exist in nums when applying the ith operation.\n\toperations[i][1] will not exist in nums when applying the ith operation.\n\n"
+}

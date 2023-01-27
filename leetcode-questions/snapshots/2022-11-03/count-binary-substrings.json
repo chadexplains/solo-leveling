@@ -1,0 +1,9 @@
+{
+  "id": "count-binary-substrings",
+  "name": "Count Binary Substrings",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given a binary string s, return the number of non-empty substrings that have the same number of 0's and 1's, and all the 0's and all the 1's in these substrings are grouped consecutively.\n\nSubstrings that occur multiple times are counted the number of times they occur.\n\n \nExample 1:\n\nInput: s = \"00110011\"\nOutput: 6\nExplanation: There are 6 substrings that have equal number of consecutive 1's and 0's: \"0011\", \"01\", \"1100\", \"10\", \"0011\", and \"01\".\nNotice that some of these substrings repeat and are counted the number of times they occur.\nAlso, \"00110011\" is not a valid substring because all the 0's (and 1's) are not grouped together.\n\n\nExample 2:\n\nInput: s = \"10101\"\nOutput: 4\nExplanation: There are 4 substrings: \"10\", \"01\", \"10\", \"01\" that have equal number of consecutive 1's and 0's.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts[i] is either '0' or '1'.\n\n"
+}

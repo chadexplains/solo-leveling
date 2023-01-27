@@ -1,0 +1,11 @@
+{
+  "id": "course-schedule-iv",
+  "name": "Course Schedule IV",
+  "tags": [
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Graph",
+    "Topological Sort"
+  ],
+  "description": "There are a total of numCourses courses you have to take, labeled from 0 to numCourses - 1. You are given an array prerequisites where prerequisites[i] = [ai, bi] indicates that you must take course ai first if you want to take course bi.\n\n\n\tFor example, the pair [0, 1] indicates that you have to take course 0 before you can take course 1.\n\n\nPrerequisites can also be indirect. If course a is a prerequisite of course b, and course b is a prerequisite of course c, then course a is a prerequisite of course c.\n\nYou are also given an array queries where queries[j] = [uj, vj]. For the jth query, you should answer whether course uj is a prerequisite of course vj or not.\n\nReturn a boolean array answer, where answer[j] is the answer to the jth query.\n\n \nExample 1:\n\nInput: numCourses = 2, prerequisites = [[1,0]], queries = [[0,1],[1,0]]\nOutput: [false,true]\nExplanation: The pair [1, 0] indicates that you have to take course 1 before you can take course 0.\nCourse 0 is not a prerequisite of course 1, but the opposite is true.\n\n\nExample 2:\n\nInput: numCourses = 2, prerequisites = [], queries = [[1,0],[0,1]]\nOutput: [false,false]\nExplanation: There are no prerequisites, and each course is independent.\n\n\nExample 3:\n\nInput: numCourses = 3, prerequisites = [[1,2],[1,0],[2,0]], queries = [[1,0],[1,2]]\nOutput: [true,true]\n\n\n \nConstraints:\n\n\n\t2 <= numCourses <= 100\n\t0 <= prerequisites.length <= (numCourses * (numCourses - 1) / 2)\n\tprerequisites[i].length == 2\n\t0 <= ai, bi <= n - 1\n\tai != bi\n\tAll the pairs [ai, bi] are unique.\n\tThe prerequisites graph has no cycles.\n\t1 <= queries.length <= 104\n\t0 <= ui, vi <= n - 1\n\tui != vi\n\n"
+}

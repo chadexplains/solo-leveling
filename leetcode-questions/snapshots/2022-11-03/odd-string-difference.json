@@ -1,0 +1,10 @@
+{
+  "id": "odd-string-difference",
+  "name": "Odd String Difference",
+  "tags": [
+    "Hash Table",
+    "Math",
+    "String"
+  ],
+  "description": "You are given an array of equal-length strings words. Assume that the length of each string is n.\n\nEach string words[i] can be converted into a difference integer array difference[i] of length n - 1 where difference[i][j] = words[i][j+1] - words[i][j] where 0 <= j <= n - 2. Note that the difference between two letters is the difference between their positions in the alphabet i.e. the position of 'a' is 0, 'b' is 1, and 'z' is 25.\n\n\n\tFor example, for the string \"acb\", the difference integer array is [2 - 0, 1 - 2] = [2, -1].\n\n\nAll the strings in words have the same difference integer array, except one. You should find that string.\n\nReturn the string in words that has different difference integer array.\n\n \nExample 1:\n\nInput: words = [\"adc\",\"wzy\",\"abc\"]\nOutput: \"abc\"\nExplanation: \n- The difference integer array of \"adc\" is [3 - 0, 2 - 3] = [3, -1].\n- The difference integer array of \"wzy\" is [25 - 22, 24 - 25]= [3, -1].\n- The difference integer array of \"abc\" is [1 - 0, 2 - 1] = [1, 1]. \nThe odd array out is [1, 1], so we return the corresponding string, \"abc\".\n\n\nExample 2:\n\nInput: words = [\"aaa\",\"bob\",\"ccc\",\"ddd\"]\nOutput: \"bob\"\nExplanation: All the integer arrays are [0, 0] except for \"bob\", which corresponds to [13, -13].\n\n\n \nConstraints:\n\n\n\t3 <= words.length <= 100\n\tn == words[i].length\n\t2 <= n <= 20\n\twords[i] consists of lowercase English letters.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "find-palindrome-with-fixed-length",
+  "name": "Find Palindrome With Fixed Length",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "description": "Given an integer array queries and a positive integer intLength, return an array answer where answer[i] is either the queries[i]th smallest positive palindrome of length intLength or -1 if no such palindrome exists.\n\nA palindrome is a number that reads the same backwards and forwards. Palindromes cannot have leading zeros.\n\n \nExample 1:\n\nInput: queries = [1,2,3,4,5,90], intLength = 3\nOutput: [101,111,121,131,141,999]\nExplanation:\nThe first few palindromes of length 3 are:\n101, 111, 121, 131, 141, 151, 161, 171, 181, 191, 202, ...\nThe 90th palindrome of length 3 is 999.\n\n\nExample 2:\n\nInput: queries = [2,4,6], intLength = 4\nOutput: [1111,1331,1551]\nExplanation:\nThe first six palindromes of length 4 are:\n1001, 1111, 1221, 1331, 1441, and 1551.\n\n\n \nConstraints:\n\n\n\t1 <= queries.length <= 5 * 104\n\t1 <= queries[i] <= 109\n\t1 <= intLength <= 15\n\n"
+}

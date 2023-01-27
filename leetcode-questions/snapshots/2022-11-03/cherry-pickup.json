@@ -1,0 +1,10 @@
+{
+  "id": "cherry-pickup",
+  "name": "Cherry Pickup",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "description": "You are given an n x n grid representing a field of cherries, each cell is one of three possible integers.\n\n\n\t0 means the cell is empty, so you can pass through,\n\t1 means the cell contains a cherry that you can pick up and pass through, or\n\t-1 means the cell contains a thorn that blocks your way.\n\n\nReturn the maximum number of cherries you can collect by following the rules below:\n\n\n\tStarting at the position (0, 0) and reaching (n - 1, n - 1) by moving right or down through valid path cells (cells with value 0 or 1).\n\tAfter reaching (n - 1, n - 1), returning to (0, 0) by moving left or up through valid path cells.\n\tWhen passing through a path cell containing a cherry, you pick it up, and the cell becomes an empty cell 0.\n\tIf there is no valid path between (0, 0) and (n - 1, n - 1), then no cherries can be collected.\n\n\n \nExample 1:\n\nInput: grid = [[0,1,-1],[1,0,-1],[1,1,1]]\nOutput: 5\nExplanation: The player started at (0, 0) and went down, down, right right to reach (2, 2).\n4 cherries were picked up during this single trip, and the matrix becomes [[0,1,-1],[0,0,-1],[0,0,0]].\nThen, the player went left, up, up, left to return home, picking up one more cherry.\nThe total number of cherries picked up is 5, and this is the maximum possible.\n\n\nExample 2:\n\nInput: grid = [[1,1,-1],[1,-1,1],[-1,1,1]]\nOutput: 0\n\n\n \nConstraints:\n\n\n\tn == grid.length\n\tn == grid[i].length\n\t1 <= n <= 50\n\tgrid[i][j] is -1, 0, or 1.\n\tgrid[0][0] != -1\n\tgrid[n - 1][n - 1] != -1\n\n"
+}

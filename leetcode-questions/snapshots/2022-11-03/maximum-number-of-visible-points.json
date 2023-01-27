@@ -1,0 +1,12 @@
+{
+  "id": "maximum-number-of-visible-points",
+  "name": "Maximum Number of Visible Points",
+  "tags": [
+    "Array",
+    "Math",
+    "Geometry",
+    "Sliding Window",
+    "Sorting"
+  ],
+  "description": "You are given an array points, an integer angle, and your location, where location = [posx, posy] and points[i] = [xi, yi] both denote integral coordinates on the X-Y plane.\n\nInitially, you are facing directly east from your position. You cannot move from your position, but you can rotate. In other words, posx and posy cannot be changed. Your field of view in degrees is represented by angle, determining how wide you can see from any given view direction. Let d be the amount in degrees that you rotate counterclockwise. Then, your field of view is the inclusive range of angles [d - angle/2, d + angle/2].\n\n\nYour browser does not support the video tag or this video format.\n\n\nYou can see some set of points if, for each point, the angle formed by the point, your position, and the immediate east direction from your position is in your field of view.\n\nThere can be multiple points at one coordinate. There may be points at your location, and you can always see these points regardless of your rotation. Points do not obstruct your vision to other points.\n\nReturn the maximum number of points you can see.\n\n \nExample 1:\n\nInput: points = [[2,1],[2,2],[3,3]], angle = 90, location = [1,1]\nOutput: 3\nExplanation: The shaded region represents your field of view. All points can be made visible in your field of view, including [3,3] even though [2,2] is in front and in the same line of sight.\n\n\nExample 2:\n\nInput: points = [[2,1],[2,2],[3,4],[1,1]], angle = 90, location = [1,1]\nOutput: 4\nExplanation: All points can be made visible in your field of view, including the one at your location.\n\n\nExample 3:\n\nInput: points = [[1,0],[2,1]], angle = 13, location = [1,1]\nOutput: 1\nExplanation: You can only see one of the two points, as shown above.\n\n\n \nConstraints:\n\n\n\t1 <= points.length <= 105\n\tpoints[i].length == 2\n\tlocation.length == 2\n\t0 <= angle < 360\n\t0 <= posx, posy, xi, yi <= 100\n\n"
+}

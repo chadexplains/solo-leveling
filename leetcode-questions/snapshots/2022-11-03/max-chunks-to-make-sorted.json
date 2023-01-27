@@ -1,0 +1,12 @@
+{
+  "id": "max-chunks-to-make-sorted",
+  "name": "Max Chunks To Make Sorted",
+  "tags": [
+    "Array",
+    "Stack",
+    "Greedy",
+    "Sorting",
+    "Monotonic Stack"
+  ],
+  "description": "You are given an integer array arr of length n that represents a permutation of the integers in the range [0, n - 1].\n\nWe split arr into some number of chunks (i.e., partitions), and individually sort each chunk. After concatenating them, the result should equal the sorted array.\n\nReturn the largest number of chunks we can make to sort the array.\n\n \nExample 1:\n\nInput: arr = [4,3,2,1,0]\nOutput: 1\nExplanation:\nSplitting into two or more chunks will not return the required result.\nFor example, splitting into [4, 3], [2, 1, 0] will result in [3, 4, 0, 1, 2], which isn't sorted.\n\n\nExample 2:\n\nInput: arr = [1,0,2,3,4]\nOutput: 4\nExplanation:\nWe can split into two chunks, such as [1, 0], [2, 3, 4].\nHowever, splitting into [1, 0], [2], [3], [4] is the highest number of chunks possible.\n\n\n \nConstraints:\n\n\n\tn == arr.length\n\t1 <= n <= 10\n\t0 <= arr[i] < n\n\tAll the elements of arr are unique.\n\n"
+}

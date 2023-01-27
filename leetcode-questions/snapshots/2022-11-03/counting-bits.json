@@ -1,0 +1,9 @@
+{
+  "id": "counting-bits",
+  "name": "Counting Bits",
+  "tags": [
+    "Dynamic Programming",
+    "Bit Manipulation"
+  ],
+  "description": "Given an integer n, return an array ans of length n + 1 such that for each i (0 <= i <= n), ans[i] is the number of 1's in the binary representation of i.\n\n \nExample 1:\n\nInput: n = 2\nOutput: [0,1,1]\nExplanation:\n0 --> 0\n1 --> 1\n2 --> 10\n\n\nExample 2:\n\nInput: n = 5\nOutput: [0,1,1,2,1,2]\nExplanation:\n0 --> 0\n1 --> 1\n2 --> 10\n3 --> 11\n4 --> 100\n5 --> 101\n\n\n \nConstraints:\n\n\n\t0 <= n <= 105\n\n\n \nFollow up:\n\n\n\tIt is very easy to come up with a solution with a runtime of O(n log n). Can you do it in linear time O(n) and possibly in a single pass?\n\tCan you do it without using any built-in function (i.e., like __builtin_popcount in C++)?\n\n"
+}

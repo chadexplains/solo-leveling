@@ -1,0 +1,11 @@
+{
+  "id": "count-complete-tree-nodes",
+  "name": "Count Complete Tree Nodes",
+  "tags": [
+    "Binary Search",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a complete binary tree, return the number of the nodes in the tree.\n\nAccording to Wikipedia, every level, except possibly the last, is completely filled in a complete binary tree, and all nodes in the last level are as far left as possible. It can have between 1 and 2h nodes inclusive at the last level h.\n\nDesign an algorithm that runs in less than O(n) time complexity.\n\n \nExample 1:\n\nInput: root = [1,2,3,4,5,6]\nOutput: 6\n\n\nExample 2:\n\nInput: root = []\nOutput: 0\n\n\nExample 3:\n\nInput: root = [1]\nOutput: 1\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [0, 5 * 104].\n\t0 <= Node.val <= 5 * 104\n\tThe tree is guaranteed to be complete.\n\n"
+}

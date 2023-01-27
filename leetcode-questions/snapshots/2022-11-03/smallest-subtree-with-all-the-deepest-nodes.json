@@ -1,0 +1,12 @@
+{
+  "id": "smallest-subtree-with-all-the-deepest-nodes",
+  "name": "Smallest Subtree with all the Deepest Nodes",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, the depth of each node is the shortest distance to the root.\n\nReturn the smallest subtree such that it contains all the deepest nodes in the original tree.\n\nA node is called the deepest if it has the largest depth possible among any node in the entire tree.\n\nThe subtree of a node is a tree consisting of that node, plus the set of all descendants of that node.\n\n \nExample 1:\n\nInput: root = [3,5,1,6,2,0,8,null,null,7,4]\nOutput: [2,7,4]\nExplanation: We return the node with value 2, colored in yellow in the diagram.\nThe nodes coloured in blue are the deepest nodes of the tree.\nNotice that nodes 5, 3 and 2 contain the deepest nodes in the tree but node 2 is the smallest subtree among them, so we return it.\n\n\nExample 2:\n\nInput: root = [1]\nOutput: [1]\nExplanation: The root is the deepest node in the tree.\n\n\nExample 3:\n\nInput: root = [0,1,3,null,2]\nOutput: [2]\nExplanation: The deepest node in the tree is 2, the valid subtrees are the subtrees of nodes 2, 1 and 0 but the subtree of node 2 is the smallest.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree will be in the range [1, 500].\n\t0 <= Node.val <= 500\n\tThe values of the nodes in the tree are unique.\n\n\n \nNote: This question is the same as 1123: https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/\n"
+}

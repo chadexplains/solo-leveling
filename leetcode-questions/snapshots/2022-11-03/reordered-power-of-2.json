@@ -1,0 +1,11 @@
+{
+  "id": "reordered-power-of-2",
+  "name": "Reordered Power of 2",
+  "tags": [
+    "Math",
+    "Sorting",
+    "Counting",
+    "Enumeration"
+  ],
+  "description": "You are given an integer n. We reorder the digits in any order (including the original order) such that the leading digit is not zero.\n\nReturn true if and only if we can do this so that the resulting number is a power of two.\n\n \nExample 1:\n\nInput: n = 1\nOutput: true\n\n\nExample 2:\n\nInput: n = 10\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\n"
+}

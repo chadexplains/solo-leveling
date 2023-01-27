@@ -1,0 +1,11 @@
+{
+  "id": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+  "name": "Minimum Number of Flips to Make the Binary String Alternating",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Greedy",
+    "Sliding Window"
+  ],
+  "description": "You are given a binary string s. You are allowed to perform two types of operations on the string in any sequence:\n\n\n\tType-1: Remove the character at the start of the string s and append it to the end of the string.\n\tType-2: Pick any character in s and flip its value, i.e., if its value is '0' it becomes '1' and vice-versa.\n\n\nReturn the minimum number of type-2 operations you need to perform such that s becomes alternating.\n\nThe string is called alternating if no two adjacent characters are equal.\n\n\n\tFor example, the strings \"010\" and \"1010\" are alternating, while the string \"0100\" is not.\n\n\n \nExample 1:\n\nInput: s = \"111000\"\nOutput: 2\nExplanation: Use the first operation two times to make s = \"100011\".\nThen, use the second operation on the third and sixth elements to make s = \"101010\".\n\n\nExample 2:\n\nInput: s = \"010\"\nOutput: 0\nExplanation: The string is already alternating.\n\n\nExample 3:\n\nInput: s = \"1110\"\nOutput: 1\nExplanation: Use the second operation on the second element to make s = \"1010\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts[i] is either '0' or '1'.\n\n"
+}

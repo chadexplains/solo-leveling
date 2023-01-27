@@ -1,0 +1,9 @@
+{
+  "id": "maximum-number-of-words-found-in-sentences",
+  "name": "Maximum Number of Words Found in Sentences",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "A sentence is a list of words that are separated by a single space with no leading or trailing spaces.\n\nYou are given an array of strings sentences, where each sentences[i] represents a single sentence.\n\nReturn the maximum number of words that appear in a single sentence.\n\n \nExample 1:\n\nInput: sentences = [\"alice and bob love leetcode\", \"i think so too\", \"this is great thanks very much\"]\nOutput: 6\nExplanation: \n- The first sentence, \"alice and bob love leetcode\", has 5 words in total.\n- The second sentence, \"i think so too\", has 4 words in total.\n- The third sentence, \"this is great thanks very much\", has 6 words in total.\nThus, the maximum number of words in a single sentence comes from the third sentence, which has 6 words.\n\n\nExample 2:\n\nInput: sentences = [\"please wait\", \"continue to fight\", \"continue to win\"]\nOutput: 3\nExplanation: It is possible that multiple sentences contain the same number of words. \nIn this example, the second and third sentences (underlined) have the same number of words.\n\n\n \nConstraints:\n\n\n\t1 <= sentences.length <= 100\n\t1 <= sentences[i].length <= 100\n\tsentences[i] consists only of lowercase English letters and ' ' only.\n\tsentences[i] does not have leading or trailing spaces.\n\tAll the words in sentences[i] are separated by a single space.\n\n"
+}

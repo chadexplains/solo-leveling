@@ -1,0 +1,9 @@
+{
+  "id": "widest-vertical-area-between-two-points-containing-no-points",
+  "name": "Widest Vertical Area Between Two Points Containing No Points",
+  "tags": [
+    "Array",
+    "Sorting"
+  ],
+  "description": "Given n points on a 2D plane where points[i] = [xi, yi], Return the widest vertical area between two points such that no points are inside the area.\n\nA vertical area is an area of fixed-width extending infinitely along the y-axis (i.e., infinite height). The widest vertical area is the one with the maximum width.\n\nNote that points on the edge of a vertical area are not considered included in the area.\n\n \nExample 1:\n​\nInput: points = [[8,7],[9,9],[7,4],[9,7]]\nOutput: 1\nExplanation: Both the red and the blue area are optimal.\n\n\nExample 2:\n\nInput: points = [[3,1],[9,0],[1,0],[1,4],[5,3],[8,8]]\nOutput: 3\n\n\n \nConstraints:\n\n\n\tn == points.length\n\t2 <= n <= 105\n\tpoints[i].length == 2\n\t0 <= xi, yi <= 109\n\n"
+}

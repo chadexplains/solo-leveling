@@ -1,0 +1,9 @@
+{
+  "id": "minimum-cost-to-merge-stones",
+  "name": "Minimum Cost to Merge Stones",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "There are n piles of stones arranged in a row. The ith pile has stones[i] stones.\n\nA move consists of merging exactly k consecutive piles into one pile, and the cost of this move is equal to the total number of stones in these k piles.\n\nReturn the minimum cost to merge all piles of stones into one pile. If it is impossible, return -1.\n\n \nExample 1:\n\nInput: stones = [3,2,4,1], k = 2\nOutput: 20\nExplanation: We start with [3, 2, 4, 1].\nWe merge [3, 2] for a cost of 5, and we are left with [5, 4, 1].\nWe merge [4, 1] for a cost of 5, and we are left with [5, 5].\nWe merge [5, 5] for a cost of 10, and we are left with [10].\nThe total cost was 20, and this is the minimum possible.\n\n\nExample 2:\n\nInput: stones = [3,2,4,1], k = 3\nOutput: -1\nExplanation: After any merge operation, there are 2 piles left, and we can't merge anymore.  So the task is impossible.\n\n\nExample 3:\n\nInput: stones = [3,5,1,2,6], k = 3\nOutput: 25\nExplanation: We start with [3, 5, 1, 2, 6].\nWe merge [5, 1, 2] for a cost of 8, and we are left with [3, 8, 6].\nWe merge [3, 8, 6] for a cost of 17, and we are left with [17].\nThe total cost was 25, and this is the minimum possible.\n\n\n \nConstraints:\n\n\n\tn == stones.length\n\t1 <= n <= 30\n\t1 <= stones[i] <= 100\n\t2 <= k <= 30\n\n"
+}

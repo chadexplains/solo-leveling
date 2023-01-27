@@ -1,0 +1,10 @@
+{
+  "id": "largest-1-bordered-square",
+  "name": "Largest 1-Bordered Square",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "description": "Given a 2D grid of 0s and 1s, return the number of elements in the largest square subgrid that has all 1s on its border, or 0 if such a subgrid doesn't exist in the grid.\n\n \nExample 1:\n\nInput: grid = [[1,1,1],[1,0,1],[1,1,1]]\nOutput: 9\n\n\nExample 2:\n\nInput: grid = [[1,1,0,0]]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= grid.length <= 100\n\t1 <= grid[0].length <= 100\n\tgrid[i][j] is 0 or 1\n"
+}

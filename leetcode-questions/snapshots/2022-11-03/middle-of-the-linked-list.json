@@ -1,0 +1,9 @@
+{
+  "id": "middle-of-the-linked-list",
+  "name": "Middle of the Linked List",
+  "tags": [
+    "Linked List",
+    "Two Pointers"
+  ],
+  "description": "Given the head of a singly linked list, return the middle node of the linked list.\n\nIf there are two middle nodes, return the second middle node.\n\n \nExample 1:\n\nInput: head = [1,2,3,4,5]\nOutput: [3,4,5]\nExplanation: The middle node of the list is node 3.\n\n\nExample 2:\n\nInput: head = [1,2,3,4,5,6]\nOutput: [4,5,6]\nExplanation: Since the list has two middle nodes with values 3 and 4, we return the second one.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [1, 100].\n\t1 <= Node.val <= 100\n\n"
+}

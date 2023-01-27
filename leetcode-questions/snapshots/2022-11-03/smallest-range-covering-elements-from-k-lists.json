@@ -1,0 +1,13 @@
+{
+  "id": "smallest-range-covering-elements-from-k-lists",
+  "name": "Smallest Range Covering Elements from K Lists",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Greedy",
+    "Sliding Window",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You have k lists of sorted integers in non-decreasing order. Find the smallest range that includes at least one number from each of the k lists.\n\nWe define the range [a, b] is smaller than range [c, d] if b - a < d - c or a < c if b - a == d - c.\n\n \nExample 1:\n\nInput: nums = [[4,10,15,24,26],[0,9,12,20],[5,18,22,30]]\nOutput: [20,24]\nExplanation: \nList 1: [4, 10, 15, 24,26], 24 is in range [20,24].\nList 2: [0, 9, 12, 20], 20 is in range [20,24].\nList 3: [5, 18, 22, 30], 22 is in range [20,24].\n\n\nExample 2:\n\nInput: nums = [[1,2,3],[1,2,3],[1,2,3]]\nOutput: [1,1]\n\n\n \nConstraints:\n\n\n\tnums.length == k\n\t1 <= k <= 3500\n\t1 <= nums[i].length <= 50\n\t-105 <= nums[i][j] <= 105\n\tnums[i] is sorted in non-decreasing order.\n\n"
+}

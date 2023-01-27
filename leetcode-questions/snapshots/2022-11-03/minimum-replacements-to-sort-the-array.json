@@ -1,0 +1,10 @@
+{
+  "id": "minimum-replacements-to-sort-the-array",
+  "name": "Minimum Replacements to Sort the Array",
+  "tags": [
+    "Array",
+    "Math",
+    "Greedy"
+  ],
+  "description": "You are given a 0-indexed integer array nums. In one operation you can replace any element of the array with any two elements that sum to it.\n\n\n\tFor example, consider nums = [5,6,7]. In one operation, we can replace nums[1] with 2 and 4 and convert nums to [5,2,4,7].\n\n\nReturn the minimum number of operations to make an array that is sorted in non-decreasing order.\n\n \nExample 1:\n\nInput: nums = [3,9,3]\nOutput: 2\nExplanation: Here are the steps to sort the array in non-decreasing order:\n- From [3,9,3], replace the 9 with 3 and 6 so the array becomes [3,3,6,3]\n- From [3,3,6,3], replace the 6 with 3 and 3 so the array becomes [3,3,3,3,3]\nThere are 2 steps to sort the array in non-decreasing order. Therefore, we return 2.\n\n\n\nExample 2:\n\nInput: nums = [1,2,3,4,5]\nOutput: 0\nExplanation: The array is already in non-decreasing order. Therefore, we return 0. \n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 109\n\n"
+}

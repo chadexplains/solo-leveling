@@ -1,0 +1,11 @@
+{
+  "id": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+  "name": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+  "tags": [
+    "Array",
+    "Bit Manipulation",
+    "Breadth-First Search",
+    "Matrix"
+  ],
+  "description": "Given a m x n binary matrix mat. In one step, you can choose one cell and flip it and all the four neighbors of it if they exist (Flip is changing 1 to 0 and 0 to 1). A pair of cells are called neighbors if they share one edge.\n\nReturn the minimum number of steps required to convert mat to a zero matrix or -1 if you cannot.\n\nA binary matrix is a matrix with all cells equal to 0 or 1 only.\n\nA zero matrix is a matrix with all cells equal to 0.\n\n \nExample 1:\n\nInput: mat = [[0,0],[0,1]]\nOutput: 3\nExplanation: One possible solution is to flip (1, 0) then (0, 1) and finally (1, 1) as shown.\n\n\nExample 2:\n\nInput: mat = [[0]]\nOutput: 0\nExplanation: Given matrix is a zero matrix. We do not need to change it.\n\n\nExample 3:\n\nInput: mat = [[1,0,0],[1,0,0]]\nOutput: -1\nExplanation: Given matrix cannot be a zero matrix.\n\n\n \nConstraints:\n\n\n\tm == mat.length\n\tn == mat[i].length\n\t1 <= m, n <= 3\n\tmat[i][j] is either 0 or 1.\n\n"
+}

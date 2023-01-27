@@ -1,0 +1,9 @@
+{
+  "id": "minimize-xor",
+  "name": "Minimize XOR",
+  "tags": [
+    "Greedy",
+    "Bit Manipulation"
+  ],
+  "description": "Given two positive integers num1 and num2, find the positive integer x such that:\n\n\n\tx has the same number of set bits as num2, and\n\tThe value x XOR num1 is minimal.\n\n\nNote that XOR is the bitwise XOR operation.\n\nReturn the integer x. The test cases are generated such that x is uniquely determined.\n\nThe number of set bits of an integer is the number of 1's in its binary representation.\n\n \nExample 1:\n\nInput: num1 = 3, num2 = 5\nOutput: 3\nExplanation:\nThe binary representations of num1 and num2 are 0011 and 0101, respectively.\nThe integer 3 has the same number of set bits as num2, and the value 3 XOR 3 = 0 is minimal.\n\n\nExample 2:\n\nInput: num1 = 1, num2 = 12\nOutput: 3\nExplanation:\nThe binary representations of num1 and num2 are 0001 and 1100, respectively.\nThe integer 3 has the same number of set bits as num2, and the value 3 XOR 1 = 2 is minimal.\n\n\n \nConstraints:\n\n\n\t1 <= num1, num2 <= 109\n\n"
+}

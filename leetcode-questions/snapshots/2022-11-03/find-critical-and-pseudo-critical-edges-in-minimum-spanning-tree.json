@@ -1,0 +1,12 @@
+{
+  "id": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+  "name": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+  "tags": [
+    "Union Find",
+    "Graph",
+    "Sorting",
+    "Minimum Spanning Tree",
+    "Strongly Connected Component"
+  ],
+  "description": "Given a weighted undirected connected graph with n vertices numbered from 0 to n - 1, and an array edges where edges[i] = [ai, bi, weighti] represents a bidirectional and weighted edge between nodes ai and bi. A minimum spanning tree (MST) is a subset of the graph's edges that connects all vertices without cycles and with the minimum possible total edge weight.\n\nFind all the critical and pseudo-critical edges in the given graph's minimum spanning tree (MST). An MST edge whose deletion from the graph would cause the MST weight to increase is called a critical edge. On the other hand, a pseudo-critical edge is that which can appear in some MSTs but not all.\n\nNote that you can return the indices of the edges in any order.\n\n \nExample 1:\n\n\n\nInput: n = 5, edges = [[0,1,1],[1,2,1],[2,3,2],[0,3,2],[0,4,3],[3,4,3],[1,4,6]]\nOutput: [[0,1],[2,3,4,5]]\nExplanation: The figure above describes the graph.\nThe following figure shows all the possible MSTs:\n\nNotice that the two edges 0 and 1 appear in all MSTs, therefore they are critical edges, so we return them in the first list of the output.\nThe edges 2, 3, 4, and 5 are only part of some MSTs, therefore they are considered pseudo-critical edges. We add them to the second list of the output.\n\n\nExample 2:\n\n\n\nInput: n = 4, edges = [[0,1,1],[1,2,1],[2,3,1],[0,3,1]]\nOutput: [[],[0,1,2,3]]\nExplanation: We can observe that since all 4 edges have equal weight, choosing any 3 edges from the given 4 will yield an MST. Therefore all 4 edges are pseudo-critical.\n\n\n \nConstraints:\n\n\n\t2 <= n <= 100\n\t1 <= edges.length <= min(200, n * (n - 1) / 2)\n\tedges[i].length == 3\n\t0 <= ai < bi < n\n\t1 <= weighti <= 1000\n\tAll pairs (ai, bi) are distinct.\n\n"
+}

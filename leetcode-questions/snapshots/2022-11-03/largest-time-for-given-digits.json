@@ -1,0 +1,9 @@
+{
+  "id": "largest-time-for-given-digits",
+  "name": "Largest Time for Given Digits",
+  "tags": [
+    "String",
+    "Enumeration"
+  ],
+  "description": "Given an array arr of 4 digits, find the latest 24-hour time that can be made using each digit exactly once.\n\n24-hour times are formatted as \"HH:MM\", where HH is between 00 and 23, and MM is between 00 and 59. The earliest 24-hour time is 00:00, and the latest is 23:59.\n\nReturn the latest 24-hour time in \"HH:MM\" format. If no valid time can be made, return an empty string.\n\n \nExample 1:\n\nInput: arr = [1,2,3,4]\nOutput: \"23:41\"\nExplanation: The valid 24-hour times are \"12:34\", \"12:43\", \"13:24\", \"13:42\", \"14:23\", \"14:32\", \"21:34\", \"21:43\", \"23:14\", and \"23:41\". Of these times, \"23:41\" is the latest.\n\n\nExample 2:\n\nInput: arr = [5,5,5,5]\nOutput: \"\"\nExplanation: There are no valid 24-hour times as \"55:55\" is not valid.\n\n\n \nConstraints:\n\n\n\tarr.length == 4\n\t0 <= arr[i] <= 9\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "largest-palindromic-number",
+  "name": "Largest Palindromic Number",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Greedy"
+  ],
+  "description": "You are given a string num consisting of digits only.\n\nReturn the largest palindromic integer (in the form of a string) that can be formed using digits taken from num. It should not contain leading zeroes.\n\nNotes:\n\n\n\tYou do not need to use all the digits of num, but you must use at least one digit.\n\tThe digits can be reordered.\n\n\n \nExample 1:\n\nInput: num = \"444947137\"\nOutput: \"7449447\"\nExplanation: \nUse the digits \"4449477\" from \"444947137\" to form the palindromic integer \"7449447\".\nIt can be shown that \"7449447\" is the largest palindromic integer that can be formed.\n\n\nExample 2:\n\nInput: num = \"00009\"\nOutput: \"9\"\nExplanation: \nIt can be shown that \"9\" is the largest palindromic integer that can be formed.\nNote that the integer returned should not contain leading zeroes.\n\n\n \nConstraints:\n\n\n\t1 <= num.length <= 105\n\tnum consists of digits.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "number-of-different-subsequences-gcds",
+  "name": "Number of Different Subsequences GCDs",
+  "tags": [
+    "Array",
+    "Math",
+    "Counting",
+    "Number Theory"
+  ],
+  "description": "You are given an array nums that consists of positive integers.\n\nThe GCD of a sequence of numbers is defined as the greatest integer that divides all the numbers in the sequence evenly.\n\n\n\tFor example, the GCD of the sequence [4,6,16] is 2.\n\n\nA subsequence of an array is a sequence that can be formed by removing some elements (possibly none) of the array.\n\n\n\tFor example, [2,5,10] is a subsequence of [1,2,1,2,4,1,5,10].\n\n\nReturn the number of different GCDs among all non-empty subsequences of nums.\n\n \nExample 1:\n\nInput: nums = [6,10,3]\nOutput: 5\nExplanation: The figure shows all the non-empty subsequences and their GCDs.\nThe different GCDs are 6, 10, 3, 2, and 1.\n\n\nExample 2:\n\nInput: nums = [5,15,40,5,6]\nOutput: 7\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 2 * 105\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "reverse-integer",
+  "name": "Reverse Integer",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given a signed 32-bit integer x, return x with its digits reversed. If reversing x causes the value to go outside the signed 32-bit integer range [-231, 231 - 1], then return 0.\n\nAssume the environment does not allow you to store 64-bit integers (signed or unsigned).\n\n \nExample 1:\n\nInput: x = 123\nOutput: 321\n\n\nExample 2:\n\nInput: x = -123\nOutput: -321\n\n\nExample 3:\n\nInput: x = 120\nOutput: 21\n\n\n \nConstraints:\n\n\n\t-231 <= x <= 231 - 1\n\n"
+}

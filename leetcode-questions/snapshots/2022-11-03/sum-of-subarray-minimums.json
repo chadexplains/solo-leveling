@@ -1,0 +1,11 @@
+{
+  "id": "sum-of-subarray-minimums",
+  "name": "Sum of Subarray Minimums",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "description": "Given an array of integers arr, find the sum of min(b), where b ranges over every (contiguous) subarray of arr. Since the answer may be large, return the answer modulo 109 + 7.\n\n \nExample 1:\n\nInput: arr = [3,1,2,4]\nOutput: 17\nExplanation: \nSubarrays are [3], [1], [2], [4], [3,1], [1,2], [2,4], [3,1,2], [1,2,4], [3,1,2,4]. \nMinimums are 3, 1, 2, 4, 1, 1, 2, 1, 1, 1.\nSum is 17.\n\n\nExample 2:\n\nInput: arr = [11,81,94,43,3]\nOutput: 444\n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 3 * 104\n\t1 <= arr[i] <= 3 * 104\n\n"
+}

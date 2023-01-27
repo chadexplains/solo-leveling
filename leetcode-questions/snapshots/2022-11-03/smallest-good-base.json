@@ -1,0 +1,9 @@
+{
+  "id": "smallest-good-base",
+  "name": "Smallest Good Base",
+  "tags": [
+    "Math",
+    "Binary Search"
+  ],
+  "description": "Given an integer n represented as a string, return the smallest good base of n.\n\nWe call k >= 2 a good base of n, if all digits of n base k are 1's.\n\n \nExample 1:\n\nInput: n = \"13\"\nOutput: \"3\"\nExplanation: 13 base 3 is 111.\n\n\nExample 2:\n\nInput: n = \"4681\"\nOutput: \"8\"\nExplanation: 4681 base 8 is 11111.\n\n\nExample 3:\n\nInput: n = \"1000000000000000000\"\nOutput: \"999999999999999999\"\nExplanation: 1000000000000000000 base 999999999999999999 is 11.\n\n\n \nConstraints:\n\n\n\tn is an integer in the range [3, 1018].\n\tn does not contain any leading zeros.\n\n"
+}

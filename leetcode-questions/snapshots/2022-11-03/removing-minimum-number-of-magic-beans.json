@@ -1,0 +1,10 @@
+{
+  "id": "removing-minimum-number-of-magic-beans",
+  "name": "Removing Minimum Number of Magic Beans",
+  "tags": [
+    "Array",
+    "Sorting",
+    "Prefix Sum"
+  ],
+  "description": "You are given an array of positive integers beans, where each integer represents the number of magic beans found in a particular magic bag.\n\nRemove any number of beans (possibly none) from each bag such that the number of beans in each remaining non-empty bag (still containing at least one bean) is equal. Once a bean has been removed from a bag, you are not allowed to return it to any of the bags.\n\nReturn the minimum number of magic beans that you have to remove.\n\n \nExample 1:\n\nInput: beans = [4,1,6,5]\nOutput: 4\nExplanation: \n- We remove 1 bean from the bag with only 1 bean.\n  This results in the remaining bags: [4,0,6,5]\n- Then we remove 2 beans from the bag with 6 beans.\n  This results in the remaining bags: [4,0,4,5]\n- Then we remove 1 bean from the bag with 5 beans.\n  This results in the remaining bags: [4,0,4,4]\nWe removed a total of 1 + 2 + 1 = 4 beans to make the remaining non-empty bags have an equal number of beans.\nThere are no other solutions that remove 4 beans or fewer.\n\n\nExample 2:\n\nInput: beans = [2,10,3,2]\nOutput: 7\nExplanation:\n- We remove 2 beans from one of the bags with 2 beans.\n  This results in the remaining bags: [0,10,3,2]\n- Then we remove 2 beans from the other bag with 2 beans.\n  This results in the remaining bags: [0,10,3,0]\n- Then we remove 3 beans from the bag with 3 beans. \n  This results in the remaining bags: [0,10,0,0]\nWe removed a total of 2 + 2 + 3 = 7 beans to make the remaining non-empty bags have an equal number of beans.\nThere are no other solutions that removes 7 beans or fewer.\n\n\n \nConstraints:\n\n\n\t1 <= beans.length <= 105\n\t1 <= beans[i] <= 105\n\n"
+}

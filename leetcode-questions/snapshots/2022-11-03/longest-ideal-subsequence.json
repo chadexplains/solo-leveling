@@ -1,0 +1,10 @@
+{
+  "id": "longest-ideal-subsequence",
+  "name": "Longest Ideal Subsequence",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Dynamic Programming"
+  ],
+  "description": "You are given a string s consisting of lowercase letters and an integer k. We call a string t ideal if the following conditions are satisfied:\n\n\n\tt is a subsequence of the string s.\n\tThe absolute difference in the alphabet order of every two adjacent letters in t is less than or equal to k.\n\n\nReturn the length of the longest ideal string.\n\nA subsequence is a string that can be derived from another string by deleting some or no characters without changing the order of the remaining characters.\n\nNote that the alphabet order is not cyclic. For example, the absolute difference in the alphabet order of 'a' and 'z' is 25, not 1.\n\n \nExample 1:\n\nInput: s = \"acfgbd\", k = 2\nOutput: 4\nExplanation: The longest ideal string is \"acbd\". The length of this string is 4, so 4 is returned.\nNote that \"acfgbd\" is not ideal because 'c' and 'f' have a difference of 3 in alphabet order.\n\nExample 2:\n\nInput: s = \"abcd\", k = 3\nOutput: 4\nExplanation: The longest ideal string is \"abcd\". The length of this string is 4, so 4 is returned.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\t0 <= k <= 25\n\ts consists of lowercase English letters.\n\n"
+}

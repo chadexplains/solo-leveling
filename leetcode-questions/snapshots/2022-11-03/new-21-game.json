@@ -1,0 +1,11 @@
+{
+  "id": "new-21-game",
+  "name": "New 21 Game",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Sliding Window",
+    "Probability and Statistics"
+  ],
+  "description": "Alice plays the following game, loosely based on the card game \"21\".\n\nAlice starts with 0 points and draws numbers while she has less than k points. During each draw, she gains an integer number of points randomly from the range [1, maxPts], where maxPts is an integer. Each draw is independent and the outcomes have equal probabilities.\n\nAlice stops drawing numbers when she gets k or more points.\n\nReturn the probability that Alice has n or fewer points.\n\nAnswers within 10-5 of the actual answer are considered accepted.\n\n \nExample 1:\n\nInput: n = 10, k = 1, maxPts = 10\nOutput: 1.00000\nExplanation: Alice gets a single card, then stops.\n\n\nExample 2:\n\nInput: n = 6, k = 1, maxPts = 10\nOutput: 0.60000\nExplanation: Alice gets a single card, then stops.\nIn 6 out of 10 possibilities, she is at or below 6 points.\n\n\nExample 3:\n\nInput: n = 21, k = 17, maxPts = 10\nOutput: 0.73278\n\n\n \nConstraints:\n\n\n\t0 <= k <= n <= 104\n\t1 <= maxPts <= 104\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "perfect-number",
+  "name": "Perfect Number",
+  "tags": [
+    "Math"
+  ],
+  "description": "A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. A divisor of an integer x is an integer that can divide x evenly.\n\nGiven an integer n, return true if n is a perfect number, otherwise return false.\n\n \nExample 1:\n\nInput: num = 28\nOutput: true\nExplanation: 28 = 1 + 2 + 4 + 7 + 14\n1, 2, 4, 7, and 14 are all divisors of 28.\n\n\nExample 2:\n\nInput: num = 7\nOutput: false\n\n\n \nConstraints:\n\n\n\t1 <= num <= 108\n\n"
+}

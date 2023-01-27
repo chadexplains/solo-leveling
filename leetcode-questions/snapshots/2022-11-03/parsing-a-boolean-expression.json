@@ -1,0 +1,10 @@
+{
+  "id": "parsing-a-boolean-expression",
+  "name": "Parsing A Boolean Expression",
+  "tags": [
+    "String",
+    "Stack",
+    "Recursion"
+  ],
+  "description": "A boolean expression is an expression that evaluates to either true or false. It can be in one of the following shapes:\n\n\n\t't' that evaluates to true.\n\t'f' that evaluates to false.\n\t'!(subExpr)' that evaluates to the logical NOT of the inner expression subExpr.\n\t'&(subExpr1, subExpr2, ..., subExprn)' that evaluates to the logical AND of the inner expressions subExpr1, subExpr2, ..., subExprn where n >= 1.\n\t'|(subExpr1, subExpr2, ..., subExprn)' that evaluates to the logical OR of the inner expressions subExpr1, subExpr2, ..., subExprn where n >= 1.\n\n\nGiven a string expression that represents a boolean expression, return the evaluation of that expression.\n\nIt is guaranteed that the given expression is valid and follows the given rules.\n\n \nExample 1:\n\nInput: expression = \"&(|(f))\"\nOutput: false\nExplanation: \nFirst, evaluate |(f) --> f. The expression is now \"&(f)\".\nThen, evaluate &(f) --> f. The expression is now \"f\".\nFinally, return false.\n\n\nExample 2:\n\nInput: expression = \"|(f,f,f,t)\"\nOutput: true\nExplanation: The evaluation of (false OR false OR false OR true) is true.\n\n\nExample 3:\n\nInput: expression = \"!(&(f,t))\"\nOutput: true\nExplanation: \nFirst, evaluate &(f,t) --> (false AND true) --> false --> f. The expression is now \"!(f)\".\nThen, evaluate !(f) --> NOT false --> true. We return true.\n\n\n \nConstraints:\n\n\n\t1 <= expression.length <= 2 * 104\n\texpression[i] is one following characters: '(', ')', '&', '|', '!', 't', 'f', and ','.\n\n"
+}

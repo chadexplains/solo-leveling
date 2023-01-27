@@ -1,0 +1,10 @@
+{
+  "id": "find-first-palindromic-string-in-the-array",
+  "name": "Find First Palindromic String in the Array",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Given an array of strings words, return the first palindromic string in the array. If there is no such string, return an empty string \"\".\n\nA string is palindromic if it reads the same forward and backward.\n\n \nExample 1:\n\nInput: words = [\"abc\",\"car\",\"ada\",\"racecar\",\"cool\"]\nOutput: \"ada\"\nExplanation: The first string that is palindromic is \"ada\".\nNote that \"racecar\" is also palindromic, but it is not the first.\n\n\nExample 2:\n\nInput: words = [\"notapalindrome\",\"racecar\"]\nOutput: \"racecar\"\nExplanation: The first and only string that is palindromic is \"racecar\".\n\n\nExample 3:\n\nInput: words = [\"def\",\"ghi\"]\nOutput: \"\"\nExplanation: There are no palindromic strings, so the empty string is returned.\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 100\n\t1 <= words[i].length <= 100\n\twords[i] consists only of lowercase English letters.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "allocate-mailboxes",
+  "name": "Allocate Mailboxes",
+  "tags": [
+    "Array",
+    "Math",
+    "Dynamic Programming",
+    "Sorting"
+  ],
+  "description": "Given the array houses where houses[i] is the location of the ith house along a street and an integer k, allocate k mailboxes in the street.\n\nReturn the minimum total distance between each house and its nearest mailbox.\n\nThe test cases are generated so that the answer fits in a 32-bit integer.\n\n \nExample 1:\n\nInput: houses = [1,4,8,10,20], k = 3\nOutput: 5\nExplanation: Allocate mailboxes in position 3, 9 and 20.\nMinimum total distance from each houses to nearest mailboxes is |3-1| + |4-3| + |9-8| + |10-9| + |20-20| = 5 \n\n\nExample 2:\n\nInput: houses = [2,3,5,12,18], k = 2\nOutput: 9\nExplanation: Allocate mailboxes in position 3 and 14.\nMinimum total distance from each houses to nearest mailboxes is |2-3| + |3-3| + |5-3| + |12-14| + |18-14| = 9.\n\n\n \nConstraints:\n\n\n\t1 <= k <= houses.length <= 100\n\t1 <= houses[i] <= 104\n\tAll the integers of houses are unique.\n\n"
+}

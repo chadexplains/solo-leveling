@@ -1,0 +1,11 @@
+{
+  "id": "increasing-subsequences",
+  "name": "Increasing Subsequences",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Backtracking",
+    "Bit Manipulation"
+  ],
+  "description": "Given an integer array nums, return all the different possible increasing subsequences of the given array with at least two elements. You may return the answer in any order.\n\nThe given array may contain duplicates, and two equal integers should also be considered a special case of increasing sequence.\n\n \nExample 1:\n\nInput: nums = [4,6,7,7]\nOutput: [[4,6],[4,6,7],[4,6,7,7],[4,7],[4,7,7],[6,7],[6,7,7],[7,7]]\n\n\nExample 2:\n\nInput: nums = [4,4,3,2,1]\nOutput: [[4,4]]\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 15\n\t-100 <= nums[i] <= 100\n\n"
+}

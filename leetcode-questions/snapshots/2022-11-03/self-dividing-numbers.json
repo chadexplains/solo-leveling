@@ -1,0 +1,8 @@
+{
+  "id": "self-dividing-numbers",
+  "name": "Self Dividing Numbers",
+  "tags": [
+    "Math"
+  ],
+  "description": "A self-dividing number is a number that is divisible by every digit it contains.\n\n\n\tFor example, 128 is a self-dividing number because 128 % 1 == 0, 128 % 2 == 0, and 128 % 8 == 0.\n\n\nA self-dividing number is not allowed to contain the digit zero.\n\nGiven two integers left and right, return a list of all the self-dividing numbers in the range [left, right].\n\n \nExample 1:\nInput: left = 1, right = 22\nOutput: [1,2,3,4,5,6,7,8,9,11,12,15,22]\nExample 2:\nInput: left = 47, right = 85\nOutput: [48,55,66,77]\n\n \nConstraints:\n\n\n\t1 <= left <= right <= 104\n\n"
+}

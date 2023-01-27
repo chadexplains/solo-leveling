@@ -1,0 +1,9 @@
+{
+  "id": "find-three-consecutive-integers-that-sum-to-a-given-number",
+  "name": "Find Three Consecutive Integers That Sum to a Given Number",
+  "tags": [
+    "Math",
+    "Simulation"
+  ],
+  "description": "Given an integer num, return three consecutive integers (as a sorted array) that sum to num. If num cannot be expressed as the sum of three consecutive integers, return an empty array.\n\n \nExample 1:\n\nInput: num = 33\nOutput: [10,11,12]\nExplanation: 33 can be expressed as 10 + 11 + 12 = 33.\n10, 11, 12 are 3 consecutive integers, so we return [10, 11, 12].\n\n\nExample 2:\n\nInput: num = 4\nOutput: []\nExplanation: There is no way to express 4 as the sum of 3 consecutive integers.\n\n\n \nConstraints:\n\n\n\t0 <= num <= 1015\n\n"
+}

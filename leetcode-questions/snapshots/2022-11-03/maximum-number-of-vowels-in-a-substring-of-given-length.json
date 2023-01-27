@@ -1,0 +1,9 @@
+{
+  "id": "maximum-number-of-vowels-in-a-substring-of-given-length",
+  "name": "Maximum Number of Vowels in a Substring of Given Length",
+  "tags": [
+    "String",
+    "Sliding Window"
+  ],
+  "description": "Given a string s and an integer k, return the maximum number of vowel letters in any substring of s with length k.\n\nVowel letters in English are 'a', 'e', 'i', 'o', and 'u'.\n\n \nExample 1:\n\nInput: s = \"abciiidef\", k = 3\nOutput: 3\nExplanation: The substring \"iii\" contains 3 vowel letters.\n\n\nExample 2:\n\nInput: s = \"aeiou\", k = 2\nOutput: 2\nExplanation: Any substring of length 2 contains 2 vowels.\n\n\nExample 3:\n\nInput: s = \"leetcode\", k = 3\nOutput: 2\nExplanation: \"lee\", \"eet\" and \"ode\" contain 2 vowels.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of lowercase English letters.\n\t1 <= k <= s.length\n\n"
+}

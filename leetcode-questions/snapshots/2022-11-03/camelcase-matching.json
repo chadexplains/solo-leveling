@@ -1,0 +1,11 @@
+{
+  "id": "camelcase-matching",
+  "name": "Camelcase Matching",
+  "tags": [
+    "Two Pointers",
+    "String",
+    "Trie",
+    "String Matching"
+  ],
+  "description": "Given an array of strings queries and a string pattern, return a boolean array answer where answer[i] is true if queries[i] matches pattern, and false otherwise.\n\nA query word queries[i] matches pattern if you can insert lowercase English letters pattern so that it equals the query. You may insert each character at any position and you may not insert any characters.\n\n \nExample 1:\n\nInput: queries = [\"FooBar\",\"FooBarTest\",\"FootBall\",\"FrameBuffer\",\"ForceFeedBack\"], pattern = \"FB\"\nOutput: [true,false,true,true,false]\nExplanation: \"FooBar\" can be generated like this \"F\" + \"oo\" + \"B\" + \"ar\".\n\"FootBall\" can be generated like this \"F\" + \"oot\" + \"B\" + \"all\".\n\"FrameBuffer\" can be generated like this \"F\" + \"rame\" + \"B\" + \"uffer\".\n\n\nExample 2:\n\nInput: queries = [\"FooBar\",\"FooBarTest\",\"FootBall\",\"FrameBuffer\",\"ForceFeedBack\"], pattern = \"FoBa\"\nOutput: [true,false,true,false,false]\nExplanation: \"FooBar\" can be generated like this \"Fo\" + \"o\" + \"Ba\" + \"r\".\n\"FootBall\" can be generated like this \"Fo\" + \"ot\" + \"Ba\" + \"ll\".\n\n\nExample 3:\n\nInput: queries = [\"FooBar\",\"FooBarTest\",\"FootBall\",\"FrameBuffer\",\"ForceFeedBack\"], pattern = \"FoBaT\"\nOutput: [false,true,false,false,false]\nExplanation: \"FooBarTest\" can be generated like this \"Fo\" + \"o\" + \"Ba\" + \"r\" + \"T\" + \"est\".\n\n\n \nConstraints:\n\n\n\t1 <= pattern.length, queries.length <= 100\n\t1 <= queries[i].length <= 100\n\tqueries[i] and pattern consist of English letters.\n\n"
+}

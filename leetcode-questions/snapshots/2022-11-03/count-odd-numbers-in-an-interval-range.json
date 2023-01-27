@@ -1,0 +1,8 @@
+{
+  "id": "count-odd-numbers-in-an-interval-range",
+  "name": "Count Odd Numbers in an Interval Range",
+  "tags": [
+    "Math"
+  ],
+  "description": "Given two non-negative integers low and high. Return the count of odd numbers between low and high (inclusive).\n\n \nExample 1:\n\nInput: low = 3, high = 7\nOutput: 3\nExplanation: The odd numbers between 3 and 7 are [3,5,7].\n\nExample 2:\n\nInput: low = 8, high = 10\nOutput: 1\nExplanation: The odd numbers between 8 and 10 are [9].\n\n \nConstraints:\n\n\n\t0 <= low <= high <= 10^9\n"
+}

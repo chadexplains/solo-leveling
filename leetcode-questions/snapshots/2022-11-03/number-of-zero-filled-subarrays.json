@@ -1,0 +1,9 @@
+{
+  "id": "number-of-zero-filled-subarrays",
+  "name": "Number of Zero-Filled Subarrays",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "description": "Given an integer array nums, return the number of subarrays filled with 0.\n\nA subarray is a contiguous non-empty sequence of elements within an array.\n\n \nExample 1:\n\nInput: nums = [1,3,0,0,2,0,0,4]\nOutput: 6\nExplanation: \nThere are 4 occurrences of [0] as a subarray.\nThere are 2 occurrences of [0,0] as a subarray.\nThere is no occurrence of a subarray with a size more than 2 filled with 0. Therefore, we return 6.\n\nExample 2:\n\nInput: nums = [0,0,0,2,0,0]\nOutput: 9\nExplanation:\nThere are 5 occurrences of [0] as a subarray.\nThere are 3 occurrences of [0,0] as a subarray.\nThere is 1 occurrence of [0,0,0] as a subarray.\nThere is no occurrence of a subarray with a size more than 3 filled with 0. Therefore, we return 9.\n\n\nExample 3:\n\nInput: nums = [2,10,2019]\nOutput: 0\nExplanation: There is no subarray filled with 0. Therefore, we return 0.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t-109 <= nums[i] <= 109\n\n"
+}

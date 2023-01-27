@@ -1,0 +1,9 @@
+{
+  "id": "remove-outermost-parentheses",
+  "name": "Remove Outermost Parentheses",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "A valid parentheses string is either empty \"\", \"(\" + A + \")\", or A + B, where A and B are valid parentheses strings, and + represents string concatenation.\n\n\n\tFor example, \"\", \"()\", \"(())()\", and \"(()(()))\" are all valid parentheses strings.\n\n\nA valid parentheses string s is primitive if it is nonempty, and there does not exist a way to split it into s = A + B, with A and B nonempty valid parentheses strings.\n\nGiven a valid parentheses string s, consider its primitive decomposition: s = P1 + P2 + ... + Pk, where Pi are primitive valid parentheses strings.\n\nReturn s after removing the outermost parentheses of every primitive string in the primitive decomposition of s.\n\n \nExample 1:\n\nInput: s = \"(()())(())\"\nOutput: \"()()()\"\nExplanation: \nThe input string is \"(()())(())\", with primitive decomposition \"(()())\" + \"(())\".\nAfter removing outer parentheses of each part, this is \"()()\" + \"()\" = \"()()()\".\n\n\nExample 2:\n\nInput: s = \"(()())(())(()(()))\"\nOutput: \"()()()()(())\"\nExplanation: \nThe input string is \"(()())(())(()(()))\", with primitive decomposition \"(()())\" + \"(())\" + \"(()(()))\".\nAfter removing outer parentheses of each part, this is \"()()\" + \"()\" + \"()(())\" = \"()()()()(())\".\n\n\nExample 3:\n\nInput: s = \"()()\"\nOutput: \"\"\nExplanation: \nThe input string is \"()()\", with primitive decomposition \"()\" + \"()\".\nAfter removing outer parentheses of each part, this is \"\" + \"\" = \"\".\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts[i] is either '(' or ')'.\n\ts is a valid parentheses string.\n\n"
+}

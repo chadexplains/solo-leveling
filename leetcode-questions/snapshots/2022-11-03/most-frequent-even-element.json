@@ -1,0 +1,10 @@
+{
+  "id": "most-frequent-even-element",
+  "name": "Most Frequent Even Element",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Counting"
+  ],
+  "description": "Given an integer array nums, return the most frequent even element.\n\nIf there is a tie, return the smallest one. If there is no such element, return -1.\n\n \nExample 1:\n\nInput: nums = [0,1,2,2,4,4,1]\nOutput: 2\nExplanation:\nThe even elements are 0, 2, and 4. Of these, 2 and 4 appear the most.\nWe return the smallest one, which is 2.\n\nExample 2:\n\nInput: nums = [4,4,4,9,2,4]\nOutput: 4\nExplanation: 4 is the even element appears the most.\n\n\nExample 3:\n\nInput: nums = [29,47,21,41,13,37,25,7]\nOutput: -1\nExplanation: There is no even element.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 2000\n\t0 <= nums[i] <= 105\n\n"
+}

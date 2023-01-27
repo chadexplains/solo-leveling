@@ -1,0 +1,9 @@
+{
+  "id": "arithmetic-slices-ii-subsequence",
+  "name": "Arithmetic Slices II - Subsequence",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer array nums, return the number of all the arithmetic subsequences of nums.\n\nA sequence of numbers is called arithmetic if it consists of at least three elements and if the difference between any two consecutive elements is the same.\n\n\n\tFor example, [1, 3, 5, 7, 9], [7, 7, 7, 7], and [3, -1, -5, -9] are arithmetic sequences.\n\tFor example, [1, 1, 2, 5, 7] is not an arithmetic sequence.\n\n\nA subsequence of an array is a sequence that can be formed by removing some elements (possibly none) of the array.\n\n\n\tFor example, [2,5,10] is a subsequence of [1,2,1,2,4,1,5,10].\n\n\nThe test cases are generated so that the answer fits in 32-bit integer.\n\n \nExample 1:\n\nInput: nums = [2,4,6,8,10]\nOutput: 7\nExplanation: All arithmetic subsequence slices are:\n[2,4,6]\n[4,6,8]\n[6,8,10]\n[2,4,6,8]\n[4,6,8,10]\n[2,4,6,8,10]\n[2,6,10]\n\n\nExample 2:\n\nInput: nums = [7,7,7,7,7]\nOutput: 16\nExplanation: Any subsequence of this array is arithmetic.\n\n\n \nConstraints:\n\n\n\t1  <= nums.length <= 1000\n\t-231 <= nums[i] <= 231 - 1\n\n"
+}

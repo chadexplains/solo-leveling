@@ -1,0 +1,10 @@
+{
+  "id": "number-of-digit-one",
+  "name": "Number of Digit One",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Recursion"
+  ],
+  "description": "Given an integer n, count the total number of digit 1 appearing in all non-negative integers less than or equal to n.\n\n \nExample 1:\n\nInput: n = 13\nOutput: 6\n\n\nExample 2:\n\nInput: n = 0\nOutput: 0\n\n\n \nConstraints:\n\n\n\t0 <= n <= 109\n\n"
+}

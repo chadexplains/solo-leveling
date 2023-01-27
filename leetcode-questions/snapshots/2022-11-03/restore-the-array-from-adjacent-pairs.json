@@ -1,0 +1,9 @@
+{
+  "id": "restore-the-array-from-adjacent-pairs",
+  "name": "Restore the Array From Adjacent Pairs",
+  "tags": [
+    "Array",
+    "Hash Table"
+  ],
+  "description": "There is an integer array nums that consists of n unique elements, but you have forgotten it. However, you do remember every pair of adjacent elements in nums.\n\nYou are given a 2D integer array adjacentPairs of size n - 1 where each adjacentPairs[i] = [ui, vi] indicates that the elements ui and vi are adjacent in nums.\n\nIt is guaranteed that every adjacent pair of elements nums[i] and nums[i+1] will exist in adjacentPairs, either as [nums[i], nums[i+1]] or [nums[i+1], nums[i]]. The pairs can appear in any order.\n\nReturn the original array nums. If there are multiple solutions, return any of them.\n\n \nExample 1:\n\nInput: adjacentPairs = [[2,1],[3,4],[3,2]]\nOutput: [1,2,3,4]\nExplanation: This array has all its adjacent pairs in adjacentPairs.\nNotice that adjacentPairs[i] may not be in left-to-right order.\n\n\nExample 2:\n\nInput: adjacentPairs = [[4,-2],[1,4],[-3,1]]\nOutput: [-2,4,1,-3]\nExplanation: There can be negative numbers.\nAnother solution is [-3,1,4,-2], which would also be accepted.\n\n\nExample 3:\n\nInput: adjacentPairs = [[100000,-100000]]\nOutput: [100000,-100000]\n\n\n \nConstraints:\n\n\n\tnums.length == n\n\tadjacentPairs.length == n - 1\n\tadjacentPairs[i].length == 2\n\t2 <= n <= 105\n\t-105 <= nums[i], ui, vi <= 105\n\tThere exists some nums that has adjacentPairs as its pairs.\n\n"
+}

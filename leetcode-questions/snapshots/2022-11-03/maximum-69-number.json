@@ -1,0 +1,9 @@
+{
+  "id": "maximum-69-number",
+  "name": "Maximum 69 Number",
+  "tags": [
+    "Math",
+    "Greedy"
+  ],
+  "description": "You are given a positive integer num consisting only of digits 6 and 9.\n\nReturn the maximum number you can get by changing at most one digit (6 becomes 9, and 9 becomes 6).\n\n \nExample 1:\n\nInput: num = 9669\nOutput: 9969\nExplanation: \nChanging the first digit results in 6669.\nChanging the second digit results in 9969.\nChanging the third digit results in 9699.\nChanging the fourth digit results in 9666.\nThe maximum number is 9969.\n\n\nExample 2:\n\nInput: num = 9996\nOutput: 9999\nExplanation: Changing the last digit 6 to 9 results in the maximum number.\n\n\nExample 3:\n\nInput: num = 9999\nOutput: 9999\nExplanation: It is better not to apply any change.\n\n\n \nConstraints:\n\n\n\t1 <= num <= 104\n\tnum consists of only 6 and 9 digits.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "sum-of-number-and-its-reverse",
+  "name": "Sum of Number and Its Reverse",
+  "tags": [
+    "Math",
+    "Enumeration"
+  ],
+  "description": "Given a non-negative integer num, return true if num can be expressed as the sum of any non-negative integer and its reverse, or false otherwise.\n\n \nExample 1:\n\nInput: num = 443\nOutput: true\nExplanation: 172 + 271 = 443 so we return true.\n\n\nExample 2:\n\nInput: num = 63\nOutput: false\nExplanation: 63 cannot be expressed as the sum of a non-negative integer and its reverse so we return false.\n\n\nExample 3:\n\nInput: num = 181\nOutput: true\nExplanation: 140 + 041 = 181 so we return true. Note that when a number is reversed, there may be leading zeros.\n\n\n \nConstraints:\n\n\n\t0 <= num <= 105\n\n"
+}

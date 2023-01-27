@@ -1,0 +1,11 @@
+{
+  "id": "all-nodes-distance-k-in-binary-tree",
+  "name": "All Nodes Distance K in Binary Tree",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, the value of a target node target, and an integer k, return an array of the values of all nodes that have a distance k from the target node.\n\nYou can return the answer in any order.\n\n \nExample 1:\n\nInput: root = [3,5,1,6,2,0,8,null,null,7,4], target = 5, k = 2\nOutput: [7,4,1]\nExplanation: The nodes that are a distance 2 from the target node (with value 5) have values 7, 4, and 1.\n\n\nExample 2:\n\nInput: root = [1], target = 1, k = 3\nOutput: []\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 500].\n\t0 <= Node.val <= 500\n\tAll the values Node.val are unique.\n\ttarget is the value of one of the nodes in the tree.\n\t0 <= k <= 1000\n\n"
+}

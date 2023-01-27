@@ -1,0 +1,9 @@
+{
+  "id": "best-sightseeing-pair",
+  "name": "Best Sightseeing Pair",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an integer array values where values[i] represents the value of the ith sightseeing spot. Two sightseeing spots i and j have a distance j - i between them.\n\nThe score of a pair (i < j) of sightseeing spots is values[i] + values[j] + i - j: the sum of the values of the sightseeing spots, minus the distance between them.\n\nReturn the maximum score of a pair of sightseeing spots.\n\n \nExample 1:\n\nInput: values = [8,1,5,2,6]\nOutput: 11\nExplanation: i = 0, j = 2, values[i] + values[j] + i - j = 8 + 5 + 0 - 2 = 11\n\n\nExample 2:\n\nInput: values = [1,2]\nOutput: 2\n\n\n \nConstraints:\n\n\n\t2 <= values.length <= 5 * 104\n\t1 <= values[i] <= 1000\n\n"
+}

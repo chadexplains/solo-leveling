@@ -1,0 +1,9 @@
+{
+  "id": "find-the-middle-index-in-array",
+  "name": "Find the Middle Index in Array",
+  "tags": [
+    "Array",
+    "Prefix Sum"
+  ],
+  "description": "Given a 0-indexed integer array nums, find the leftmost middleIndex (i.e., the smallest amongst all the possible ones).\n\nA middleIndex is an index where nums[0] + nums[1] + ... + nums[middleIndex-1] == nums[middleIndex+1] + nums[middleIndex+2] + ... + nums[nums.length-1].\n\nIf middleIndex == 0, the left side sum is considered to be 0. Similarly, if middleIndex == nums.length - 1, the right side sum is considered to be 0.\n\nReturn the leftmost middleIndex that satisfies the condition, or -1 if there is no such index.\n\n \nExample 1:\n\nInput: nums = [2,3,-1,8,4]\nOutput: 3\nExplanation: The sum of the numbers before index 3 is: 2 + 3 + -1 = 4\nThe sum of the numbers after index 3 is: 4 = 4\n\n\nExample 2:\n\nInput: nums = [1,-1,4]\nOutput: 2\nExplanation: The sum of the numbers before index 2 is: 1 + -1 = 0\nThe sum of the numbers after index 2 is: 0\n\n\nExample 3:\n\nInput: nums = [2,5]\nOutput: -1\nExplanation: There is no valid middleIndex.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 100\n\t-1000 <= nums[i] <= 1000\n\n\n \nNote: This question is the same as 724: https://leetcode.com/problems/find-pivot-index/\n"
+}

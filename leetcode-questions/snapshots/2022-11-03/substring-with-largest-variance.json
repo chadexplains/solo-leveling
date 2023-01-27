@@ -1,0 +1,9 @@
+{
+  "id": "substring-with-largest-variance",
+  "name": "Substring With Largest Variance",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "The variance of a string is defined as the largest difference between the number of occurrences of any 2 characters present in the string. Note the two characters may or may not be the same.\n\nGiven a string s consisting of lowercase English letters only, return the largest variance possible among all substrings of s.\n\nA substring is a contiguous sequence of characters within a string.\n\n \nExample 1:\n\nInput: s = \"aababbb\"\nOutput: 3\nExplanation:\nAll possible variances along with their respective substrings are listed below:\n- Variance 0 for substrings \"a\", \"aa\", \"ab\", \"abab\", \"aababb\", \"ba\", \"b\", \"bb\", and \"bbb\".\n- Variance 1 for substrings \"aab\", \"aba\", \"abb\", \"aabab\", \"ababb\", \"aababbb\", and \"bab\".\n- Variance 2 for substrings \"aaba\", \"ababbb\", \"abbb\", and \"babb\".\n- Variance 3 for substring \"babbb\".\nSince the largest possible variance is 3, we return it.\n\n\nExample 2:\n\nInput: s = \"abcde\"\nOutput: 0\nExplanation:\nNo letter occurs more than once in s, so the variance of every substring is 0.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts consists of lowercase English letters.\n\n"
+}

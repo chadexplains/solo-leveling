@@ -1,0 +1,8 @@
+{
+  "id": "student-attendance-record-i",
+  "name": "Student Attendance Record I",
+  "tags": [
+    "String"
+  ],
+  "description": "You are given a string s representing an attendance record for a student where each character signifies whether the student was absent, late, or present on that day. The record only contains the following three characters:\n\n\n\t'A': Absent.\n\t'L': Late.\n\t'P': Present.\n\n\nThe student is eligible for an attendance award if they meet both of the following criteria:\n\n\n\tThe student was absent ('A') for strictly fewer than 2 days total.\n\tThe student was never late ('L') for 3 or more consecutive days.\n\n\nReturn true if the student is eligible for an attendance award, or false otherwise.\n\n \nExample 1:\n\nInput: s = \"PPALLP\"\nOutput: true\nExplanation: The student has fewer than 2 absences and was never late 3 or more consecutive days.\n\n\nExample 2:\n\nInput: s = \"PPALLL\"\nOutput: false\nExplanation: The student was late 3 consecutive days in the last 3 days, so is not eligible for the award.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts[i] is either 'A', 'L', or 'P'.\n\n"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "maximum-white-tiles-covered-by-a-carpet",
+  "name": "Maximum White Tiles Covered by a Carpet",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Greedy",
+    "Sorting",
+    "Prefix Sum"
+  ],
+  "description": "You are given a 2D integer array tiles where tiles[i] = [li, ri] represents that every tile j in the range li <= j <= ri is colored white.\n\nYou are also given an integer carpetLen, the length of a single carpet that can be placed anywhere.\n\nReturn the maximum number of white tiles that can be covered by the carpet.\n\n \nExample 1:\n\nInput: tiles = [[1,5],[10,11],[12,18],[20,25],[30,32]], carpetLen = 10\nOutput: 9\nExplanation: Place the carpet starting on tile 10. \nIt covers 9 white tiles, so we return 9.\nNote that there may be other places where the carpet covers 9 white tiles.\nIt can be shown that the carpet cannot cover more than 9 white tiles.\n\n\nExample 2:\n\nInput: tiles = [[10,11],[1,1]], carpetLen = 2\nOutput: 2\nExplanation: Place the carpet starting on tile 10. \nIt covers 2 white tiles, so we return 2.\n\n\n \nConstraints:\n\n\n\t1 <= tiles.length <= 5 * 104\n\ttiles[i].length == 2\n\t1 <= li <= ri <= 109\n\t1 <= carpetLen <= 109\n\tThe tiles are non-overlapping.\n\n"
+}

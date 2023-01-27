@@ -1,0 +1,8 @@
+{
+  "id": "remove-one-element-to-make-the-array-strictly-increasing",
+  "name": "Remove One Element to Make the Array Strictly Increasing",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given a 0-indexed integer array nums, return true if it can be made strictly increasing after removing exactly one element, or false otherwise. If the array is already strictly increasing, return true.\n\nThe array nums is strictly increasing if nums[i - 1] < nums[i] for each index (1 <= i < nums.length).\n\n \nExample 1:\n\nInput: nums = [1,2,10,5,7]\nOutput: true\nExplanation: By removing 10 at index 2 from nums, it becomes [1,2,5,7].\n[1,2,5,7] is strictly increasing, so return true.\n\n\nExample 2:\n\nInput: nums = [2,3,1,2]\nOutput: false\nExplanation:\n[3,1,2] is the result of removing the element at index 0.\n[2,1,2] is the result of removing the element at index 1.\n[2,3,2] is the result of removing the element at index 2.\n[2,3,1] is the result of removing the element at index 3.\nNo resulting array is strictly increasing, so return false.\n\nExample 3:\n\nInput: nums = [1,1,1]\nOutput: false\nExplanation: The result of removing any element is [1,1].\n[1,1] is not strictly increasing, so return false.\n\n\n \nConstraints:\n\n\n\t2 <= nums.length <= 1000\n\t1 <= nums[i] <= 1000\n\n"
+}

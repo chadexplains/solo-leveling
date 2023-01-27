@@ -1,0 +1,8 @@
+{
+  "id": "count-and-say",
+  "name": "Count and Say",
+  "tags": [
+    "String"
+  ],
+  "description": "The count-and-say sequence is a sequence of digit strings defined by the recursive formula:\n\n\n\tcountAndSay(1) = \"1\"\n\tcountAndSay(n) is the way you would \"say\" the digit string from countAndSay(n-1), which is then converted into a different digit string.\n\n\nTo determine how you \"say\" a digit string, split it into the minimal number of substrings such that each substring contains exactly one unique digit. Then for each substring, say the number of digits, then say the digit. Finally, concatenate every said digit.\n\nFor example, the saying and conversion for digit string \"3322251\":\n\nGiven a positive integer n, return the nth term of the count-and-say sequence.\n\n \nExample 1:\n\nInput: n = 1\nOutput: \"1\"\nExplanation: This is the base case.\n\n\nExample 2:\n\nInput: n = 4\nOutput: \"1211\"\nExplanation:\ncountAndSay(1) = \"1\"\ncountAndSay(2) = say \"1\" = one 1 = \"11\"\ncountAndSay(3) = say \"11\" = two 1's = \"21\"\ncountAndSay(4) = say \"21\" = one 2 + one 1 = \"12\" + \"11\" = \"1211\"\n\n\n \nConstraints:\n\n\n\t1 <= n <= 30\n\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "minimize-the-difference-between-target-and-chosen-elements",
+  "name": "Minimize the Difference Between Target and Chosen Elements",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Matrix"
+  ],
+  "description": "You are given an m x n integer matrix mat and an integer target.\n\nChoose one integer from each row in the matrix such that the absolute difference between target and the sum of the chosen elements is minimized.\n\nReturn the minimum absolute difference.\n\nThe absolute difference between two numbers a and b is the absolute value of a - b.\n\n \nExample 1:\n\nInput: mat = [[1,2,3],[4,5,6],[7,8,9]], target = 13\nOutput: 0\nExplanation: One possible choice is to:\n- Choose 1 from the first row.\n- Choose 5 from the second row.\n- Choose 7 from the third row.\nThe sum of the chosen elements is 13, which equals the target, so the absolute difference is 0.\n\n\nExample 2:\n\nInput: mat = [[1],[2],[3]], target = 100\nOutput: 94\nExplanation: The best possible choice is to:\n- Choose 1 from the first row.\n- Choose 2 from the second row.\n- Choose 3 from the third row.\nThe sum of the chosen elements is 6, and the absolute difference is 94.\n\n\nExample 3:\n\nInput: mat = [[1,2,9,8,7]], target = 6\nOutput: 1\nExplanation: The best choice is to choose 7 from the first row.\nThe absolute difference is 1.\n\n\n \nConstraints:\n\n\n\tm == mat.length\n\tn == mat[i].length\n\t1 <= m, n <= 70\n\t1 <= mat[i][j] <= 70\n\t1 <= target <= 800\n\n"
+}

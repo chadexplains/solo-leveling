@@ -1,0 +1,9 @@
+{
+  "id": "ways-to-make-a-fair-array",
+  "name": "Ways to Make a Fair Array",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "You are given an integer array nums. You can choose exactly one index (0-indexed) and remove the element. Notice that the index of the elements may change after the removal.\n\nFor example, if nums = [6,1,7,4,1]:\n\n\n\tChoosing to remove index 1 results in nums = [6,7,4,1].\n\tChoosing to remove index 2 results in nums = [6,1,4,1].\n\tChoosing to remove index 4 results in nums = [6,1,7,4].\n\n\nAn array is fair if the sum of the odd-indexed values equals the sum of the even-indexed values.\n\nReturn the number of indices that you could choose such that after the removal, nums is fair. \n\n \nExample 1:\n\nInput: nums = [2,1,6,4]\nOutput: 1\nExplanation:\nRemove index 0: [1,6,4] -> Even sum: 1 + 4 = 5. Odd sum: 6. Not fair.\nRemove index 1: [2,6,4] -> Even sum: 2 + 4 = 6. Odd sum: 6. Fair.\nRemove index 2: [2,1,4] -> Even sum: 2 + 4 = 6. Odd sum: 1. Not fair.\nRemove index 3: [2,1,6] -> Even sum: 2 + 6 = 8. Odd sum: 1. Not fair.\nThere is 1 index that you can remove to make nums fair.\n\n\nExample 2:\n\nInput: nums = [1,1,1]\nOutput: 3\nExplanation: You can remove any index and the remaining array is fair.\n\n\nExample 3:\n\nInput: nums = [1,2,3]\nOutput: 0\nExplanation: You cannot make a fair array after removing any index.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 104\n\n"
+}

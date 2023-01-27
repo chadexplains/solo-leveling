@@ -1,0 +1,11 @@
+{
+  "id": "range-sum-query-mutable",
+  "name": "Range Sum Query - Mutable",
+  "tags": [
+    "Array",
+    "Design",
+    "Binary Indexed Tree",
+    "Segment Tree"
+  ],
+  "description": "Given an integer array nums, handle multiple queries of the following types:\n\n\n\tUpdate the value of an element in nums.\n\tCalculate the sum of the elements of nums between indices left and right inclusive where left <= right.\n\n\nImplement the NumArray class:\n\n\n\tNumArray(int[] nums) Initializes the object with the integer array nums.\n\tvoid update(int index, int val) Updates the value of nums[index] to be val.\n\tint sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).\n\n\n \nExample 1:\n\nInput\n[\"NumArray\", \"sumRange\", \"update\", \"sumRange\"]\n[[[1, 3, 5]], [0, 2], [1, 2], [0, 2]]\nOutput\n[null, 9, null, 8]\n\nExplanation\nNumArray numArray = new NumArray([1, 3, 5]);\nnumArray.sumRange(0, 2); // return 1 + 3 + 5 = 9\nnumArray.update(1, 2);   // nums = [1, 2, 5]\nnumArray.sumRange(0, 2); // return 1 + 2 + 5 = 8\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 3 * 104\n\t-100 <= nums[i] <= 100\n\t0 <= index < nums.length\n\t-100 <= val <= 100\n\t0 <= left <= right < nums.length\n\tAt most 3 * 104 calls will be made to update and sumRange.\n\n"
+}

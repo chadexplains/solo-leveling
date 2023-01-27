@@ -1,0 +1,10 @@
+{
+  "id": "unique-email-addresses",
+  "name": "Unique Email Addresses",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String"
+  ],
+  "description": "Every valid email consists of a local name and a domain name, separated by the '@' sign. Besides lowercase letters, the email may contain one or more '.' or '+'.\n\n\n\tFor example, in \"alice@leetcode.com\", \"alice\" is the local name, and \"leetcode.com\" is the domain name.\n\n\nIf you add periods '.' between some characters in the local name part of an email address, mail sent there will be forwarded to the same address without dots in the local name. Note that this rule does not apply to domain names.\n\n\n\tFor example, \"alice.z@leetcode.com\" and \"alicez@leetcode.com\" forward to the same email address.\n\n\nIf you add a plus '+' in the local name, everything after the first plus sign will be ignored. This allows certain emails to be filtered. Note that this rule does not apply to domain names.\n\n\n\tFor example, \"m.y+name@email.com\" will be forwarded to \"my@email.com\".\n\n\nIt is possible to use both of these rules at the same time.\n\nGiven an array of strings emails where we send one email to each emails[i], return the number of different addresses that actually receive mails.\n\n \nExample 1:\n\nInput: emails = [\"test.email+alex@leetcode.com\",\"test.e.mail+bob.cathy@leetcode.com\",\"testemail+david@lee.tcode.com\"]\nOutput: 2\nExplanation: \"testemail@leetcode.com\" and \"testemail@lee.tcode.com\" actually receive mails.\n\n\nExample 2:\n\nInput: emails = [\"a@leetcode.com\",\"b@leetcode.com\",\"c@leetcode.com\"]\nOutput: 3\n\n\n \nConstraints:\n\n\n\t1 <= emails.length <= 100\n\t1 <= emails[i].length <= 100\n\temails[i] consist of lowercase English letters, '+', '.' and '@'.\n\tEach emails[i] contains exactly one '@' character.\n\tAll local and domain names are non-empty.\n\tLocal names do not start with a '+' character.\n\tDomain names end with the \".com\" suffix.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "combination-sum-iv",
+  "name": "Combination Sum IV",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given an array of distinct integers nums and a target integer target, return the number of possible combinations that add up to target.\n\nThe test cases are generated so that the answer can fit in a 32-bit integer.\n\n \nExample 1:\n\nInput: nums = [1,2,3], target = 4\nOutput: 7\nExplanation:\nThe possible combination ways are:\n(1, 1, 1, 1)\n(1, 1, 2)\n(1, 2, 1)\n(1, 3)\n(2, 1, 1)\n(2, 2)\n(3, 1)\nNote that different sequences are counted as different combinations.\n\n\nExample 2:\n\nInput: nums = [9], target = 3\nOutput: 0\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 200\n\t1 <= nums[i] <= 1000\n\tAll the elements of nums are unique.\n\t1 <= target <= 1000\n\n\n \nFollow up: What if negative numbers are allowed in the given array? How does it change the problem? What limitation we need to add to the question to allow negative numbers?\n"
+}

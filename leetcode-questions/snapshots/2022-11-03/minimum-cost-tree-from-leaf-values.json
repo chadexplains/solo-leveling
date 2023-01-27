@@ -1,0 +1,11 @@
+{
+  "id": "minimum-cost-tree-from-leaf-values",
+  "name": "Minimum Cost Tree From Leaf Values",
+  "tags": [
+    "Dynamic Programming",
+    "Stack",
+    "Greedy",
+    "Monotonic Stack"
+  ],
+  "description": "Given an array arr of positive integers, consider all binary trees such that:\n\n\n\tEach node has either 0 or 2 children;\n\tThe values of arr correspond to the values of each leaf in an in-order traversal of the tree.\n\tThe value of each non-leaf node is equal to the product of the largest leaf value in its left and right subtree, respectively.\n\n\nAmong all possible binary trees considered, return the smallest possible sum of the values of each non-leaf node. It is guaranteed this sum fits into a 32-bit integer.\n\nA node is a leaf if and only if it has zero children.\n\n \nExample 1:\n\nInput: arr = [6,2,4]\nOutput: 32\nExplanation: There are two possible trees shown.\nThe first has a non-leaf node sum 36, and the second has non-leaf node sum 32.\n\n\nExample 2:\n\nInput: arr = [4,11]\nOutput: 44\n\n\n \nConstraints:\n\n\n\t2 <= arr.length <= 40\n\t1 <= arr[i] <= 15\n\tIt is guaranteed that the answer fits into a 32-bit signed integer (i.e., it is less than 231).\n\n"
+}

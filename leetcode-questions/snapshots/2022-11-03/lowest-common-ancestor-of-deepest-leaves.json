@@ -1,0 +1,12 @@
+{
+  "id": "lowest-common-ancestor-of-deepest-leaves",
+  "name": "Lowest Common Ancestor of Deepest Leaves",
+  "tags": [
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return the lowest common ancestor of its deepest leaves.\n\nRecall that:\n\n\n\tThe node of a binary tree is a leaf if and only if it has no children\n\tThe depth of the root of the tree is 0. if the depth of a node is d, the depth of each of its children is d + 1.\n\tThe lowest common ancestor of a set S of nodes, is the node A with the largest depth such that every node in S is in the subtree with root A.\n\n\n \nExample 1:\n\nInput: root = [3,5,1,6,2,0,8,null,null,7,4]\nOutput: [2,7,4]\nExplanation: We return the node with value 2, colored in yellow in the diagram.\nThe nodes coloured in blue are the deepest leaf-nodes of the tree.\nNote that nodes 6, 0, and 8 are also leaf nodes, but the depth of them is 2, but the depth of nodes 7 and 4 is 3.\n\nExample 2:\n\nInput: root = [1]\nOutput: [1]\nExplanation: The root is the deepest node in the tree, and it's the lca of itself.\n\n\nExample 3:\n\nInput: root = [0,1,3,null,2]\nOutput: [2]\nExplanation: The deepest leaf node in the tree is 2, the lca of one node is itself.\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree will be in the range [1, 1000].\n\t0 <= Node.val <= 1000\n\tThe values of the nodes in the tree are unique.\n\n\n \nNote: This question is the same as 865: https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/\n"
+}

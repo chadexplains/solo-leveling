@@ -1,0 +1,9 @@
+{
+  "id": "range-addition-ii",
+  "name": "Range Addition II",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "description": "You are given an m x n matrix M initialized with all 0's and an array of operations ops, where ops[i] = [ai, bi] means M[x][y] should be incremented by one for all 0 <= x < ai and 0 <= y < bi.\n\nCount and return the number of maximum integers in the matrix after performing all the operations.\n\n \nExample 1:\n\nInput: m = 3, n = 3, ops = [[2,2],[3,3]]\nOutput: 4\nExplanation: The maximum integer in M is 2, and there are four of it in M. So return 4.\n\n\nExample 2:\n\nInput: m = 3, n = 3, ops = [[2,2],[3,3],[3,3],[3,3],[2,2],[3,3],[3,3],[3,3],[2,2],[3,3],[3,3],[3,3]]\nOutput: 4\n\n\nExample 3:\n\nInput: m = 3, n = 3, ops = []\nOutput: 9\n\n\n \nConstraints:\n\n\n\t1 <= m, n <= 4 * 104\n\t0 <= ops.length <= 104\n\tops[i].length == 2\n\t1 <= ai <= m\n\t1 <= bi <= n\n\n"
+}

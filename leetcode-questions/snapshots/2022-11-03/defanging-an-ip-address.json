@@ -1,0 +1,8 @@
+{
+  "id": "defanging-an-ip-address",
+  "name": "Defanging an IP Address",
+  "tags": [
+    "String"
+  ],
+  "description": "Given a valid (IPv4) IP address, return a defanged version of that IP address.\n\nA defanged IP address replaces every period \".\" with \"[.]\".\n\n \nExample 1:\nInput: address = \"1.1.1.1\"\nOutput: \"1[.]1[.]1[.]1\"\nExample 2:\nInput: address = \"255.100.50.0\"\nOutput: \"255[.]100[.]50[.]0\"\n\n \nConstraints:\n\n\n\tThe given address is a valid IPv4 address.\n"
+}

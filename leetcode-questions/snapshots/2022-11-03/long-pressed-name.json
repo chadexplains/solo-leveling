@@ -1,0 +1,9 @@
+{
+  "id": "long-pressed-name",
+  "name": "Long Pressed Name",
+  "tags": [
+    "Two Pointers",
+    "String"
+  ],
+  "description": "Your friend is typing his name into a keyboard. Sometimes, when typing a character c, the key might get long pressed, and the character will be typed 1 or more times.\n\nYou examine the typed characters of the keyboard. Return True if it is possible that it was your friends name, with some characters (possibly none) being long pressed.\n\n \nExample 1:\n\nInput: name = \"alex\", typed = \"aaleex\"\nOutput: true\nExplanation: 'a' and 'e' in 'alex' were long pressed.\n\n\nExample 2:\n\nInput: name = \"saeed\", typed = \"ssaaedd\"\nOutput: false\nExplanation: 'e' must have been pressed twice, but it was not in the typed output.\n\n\n \nConstraints:\n\n\n\t1 <= name.length, typed.length <= 1000\n\tname and typed consist of only lowercase English letters.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "max-sum-of-a-pair-with-equal-sum-of-digits",
+  "name": "Max Sum of a Pair With Equal Sum of Digits",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sorting",
+    "Heap (Priority Queue)"
+  ],
+  "description": "You are given a 0-indexed array nums consisting of positive integers. You can choose two indices i and j, such that i != j, and the sum of digits of the number nums[i] is equal to that of nums[j].\n\nReturn the maximum value of nums[i] + nums[j] that you can obtain over all possible indices i and j that satisfy the conditions.\n\n \nExample 1:\n\nInput: nums = [18,43,36,13,7]\nOutput: 54\nExplanation: The pairs (i, j) that satisfy the conditions are:\n- (0, 2), both numbers have a sum of digits equal to 9, and their sum is 18 + 36 = 54.\n- (1, 4), both numbers have a sum of digits equal to 7, and their sum is 43 + 7 = 50.\nSo the maximum sum that we can obtain is 54.\n\n\nExample 2:\n\nInput: nums = [10,12,19,14]\nOutput: -1\nExplanation: There are no two numbers that satisfy the conditions, so we return -1.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 109\n\n"
+}

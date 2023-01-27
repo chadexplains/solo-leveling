@@ -1,0 +1,9 @@
+{
+  "id": "count-operations-to-obtain-zero",
+  "name": "Count Operations to Obtain Zero",
+  "tags": [
+    "Math",
+    "Simulation"
+  ],
+  "description": "You are given two non-negative integers num1 and num2.\n\nIn one operation, if num1 >= num2, you must subtract num2 from num1, otherwise subtract num1 from num2.\n\n\n\tFor example, if num1 = 5 and num2 = 4, subtract num2 from num1, thus obtaining num1 = 1 and num2 = 4. However, if num1 = 4 and num2 = 5, after one operation, num1 = 4 and num2 = 1.\n\n\nReturn the number of operations required to make either num1 = 0 or num2 = 0.\n\n \nExample 1:\n\nInput: num1 = 2, num2 = 3\nOutput: 3\nExplanation: \n- Operation 1: num1 = 2, num2 = 3. Since num1 < num2, we subtract num1 from num2 and get num1 = 2, num2 = 3 - 2 = 1.\n- Operation 2: num1 = 2, num2 = 1. Since num1 > num2, we subtract num2 from num1.\n- Operation 3: num1 = 1, num2 = 1. Since num1 == num2, we subtract num2 from num1.\nNow num1 = 0 and num2 = 1. Since num1 == 0, we do not need to perform any further operations.\nSo the total number of operations required is 3.\n\n\nExample 2:\n\nInput: num1 = 10, num2 = 10\nOutput: 1\nExplanation: \n- Operation 1: num1 = 10, num2 = 10. Since num1 == num2, we subtract num2 from num1 and get num1 = 10 - 10 = 0.\nNow num1 = 0 and num2 = 10. Since num1 == 0, we are done.\nSo the total number of operations required is 1.\n\n\n \nConstraints:\n\n\n\t0 <= num1, num2 <= 105\n\n"
+}

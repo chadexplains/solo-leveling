@@ -1,0 +1,9 @@
+{
+  "id": "combination-sum-ii",
+  "name": "Combination Sum II",
+  "tags": [
+    "Array",
+    "Backtracking"
+  ],
+  "description": "Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sum to target.\n\nEach number in candidates may only be used once in the combination.\n\nNote: The solution set must not contain duplicate combinations.\n\n \nExample 1:\n\nInput: candidates = [10,1,2,7,6,1,5], target = 8\nOutput: \n[\n[1,1,6],\n[1,2,5],\n[1,7],\n[2,6]\n]\n\n\nExample 2:\n\nInput: candidates = [2,5,2,1,2], target = 5\nOutput: \n[\n[1,2,2],\n[5]\n]\n\n\n \nConstraints:\n\n\n\t1 <= candidates.length <= 100\n\t1 <= candidates[i] <= 50\n\t1 <= target <= 30\n\n"
+}

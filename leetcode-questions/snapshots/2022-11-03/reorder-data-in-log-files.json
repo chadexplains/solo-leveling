@@ -1,0 +1,10 @@
+{
+  "id": "reorder-data-in-log-files",
+  "name": "Reorder Data in Log Files",
+  "tags": [
+    "Array",
+    "String",
+    "Sorting"
+  ],
+  "description": "You are given an array of logs. Each log is a space-delimited string of words, where the first word is the identifier.\n\nThere are two types of logs:\n\n\n\tLetter-logs: All words (except the identifier) consist of lowercase English letters.\n\tDigit-logs: All words (except the identifier) consist of digits.\n\n\nReorder these logs so that:\n\n\n\tThe letter-logs come before all digit-logs.\n\tThe letter-logs are sorted lexicographically by their contents. If their contents are the same, then sort them lexicographically by their identifiers.\n\tThe digit-logs maintain their relative ordering.\n\n\nReturn the final order of the logs.\n\n \nExample 1:\n\nInput: logs = [\"dig1 8 1 5 1\",\"let1 art can\",\"dig2 3 6\",\"let2 own kit dig\",\"let3 art zero\"]\nOutput: [\"let1 art can\",\"let3 art zero\",\"let2 own kit dig\",\"dig1 8 1 5 1\",\"dig2 3 6\"]\nExplanation:\nThe letter-log contents are all different, so their ordering is \"art can\", \"art zero\", \"own kit dig\".\nThe digit-logs have a relative order of \"dig1 8 1 5 1\", \"dig2 3 6\".\n\n\nExample 2:\n\nInput: logs = [\"a1 9 2 3 1\",\"g1 act car\",\"zo4 4 7\",\"ab1 off key dog\",\"a8 act zoo\"]\nOutput: [\"g1 act car\",\"a8 act zoo\",\"ab1 off key dog\",\"a1 9 2 3 1\",\"zo4 4 7\"]\n\n\n \nConstraints:\n\n\n\t1 <= logs.length <= 100\n\t3 <= logs[i].length <= 100\n\tAll the tokens of logs[i] are separated by a single space.\n\tlogs[i] is guaranteed to have an identifier and at least one word after the identifier.\n\n"
+}

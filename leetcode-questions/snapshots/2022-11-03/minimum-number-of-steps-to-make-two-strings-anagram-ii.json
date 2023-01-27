@@ -1,0 +1,10 @@
+{
+  "id": "minimum-number-of-steps-to-make-two-strings-anagram-ii",
+  "name": "Minimum Number of Steps to Make Two Strings Anagram II",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You are given two strings s and t. In one step, you can append any character to either s or t.\n\nReturn the minimum number of steps to make s and t anagrams of each other.\n\nAn anagram of a string is a string that contains the same characters with a different (or the same) ordering.\n\n \nExample 1:\n\nInput: s = \"leetcode\", t = \"coats\"\nOutput: 7\nExplanation: \n- In 2 steps, we can append the letters in \"as\" onto s = \"leetcode\", forming s = \"leetcodeas\".\n- In 5 steps, we can append the letters in \"leede\" onto t = \"coats\", forming t = \"coatsleede\".\n\"leetcodeas\" and \"coatsleede\" are now anagrams of each other.\nWe used a total of 2 + 5 = 7 steps.\nIt can be shown that there is no way to make them anagrams of each other with less than 7 steps.\n\n\nExample 2:\n\nInput: s = \"night\", t = \"thing\"\nOutput: 0\nExplanation: The given strings are already anagrams of each other. Thus, we do not need any further steps.\n\n\n \nConstraints:\n\n\n\t1 <= s.length, t.length <= 2 * 105\n\ts and t consist of lowercase English letters.\n\n"
+}

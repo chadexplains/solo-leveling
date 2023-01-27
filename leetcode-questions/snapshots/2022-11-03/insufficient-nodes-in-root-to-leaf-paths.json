@@ -1,0 +1,10 @@
+{
+  "id": "insufficient-nodes-in-root-to-leaf-paths",
+  "name": "Insufficient Nodes in Root to Leaf Paths",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree and an integer limit, delete all insufficient nodes in the tree simultaneously, and return the root of the resulting binary tree.\n\nA node is insufficient if every root to leaf path intersecting this node has a sum strictly less than limit.\n\nA leaf is a node with no children.\n\n \nExample 1:\n\nInput: root = [1,2,3,4,-99,-99,7,8,9,-99,-99,12,13,-99,14], limit = 1\nOutput: [1,2,3,4,null,null,7,8,9,null,14]\n\n\nExample 2:\n\nInput: root = [5,4,8,11,null,17,4,7,1,null,null,5,3], limit = 22\nOutput: [5,4,8,11,null,17,4,7,null,null,null,5]\n\n\nExample 3:\n\nInput: root = [1,2,-3,-5,null,4,null], limit = -1\nOutput: [1,null,-3,4]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 5000].\n\t-105 <= Node.val <= 105\n\t-109 <= limit <= 109\n\n"
+}

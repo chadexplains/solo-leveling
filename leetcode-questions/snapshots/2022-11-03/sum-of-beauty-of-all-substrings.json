@@ -1,0 +1,10 @@
+{
+  "id": "sum-of-beauty-of-all-substrings",
+  "name": "Sum of Beauty of All Substrings",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "The beauty of a string is the difference in frequencies between the most frequent and least frequent characters.\n\n\n\tFor example, the beauty of \"abaacc\" is 3 - 1 = 2.\n\n\nGiven a string s, return the sum of beauty of all of its substrings.\n\n \nExample 1:\n\nInput: s = \"aabcb\"\nOutput: 5\nExplanation: The substrings with non-zero beauty are [\"aab\",\"aabc\",\"aabcb\",\"abcb\",\"bcb\"], each with beauty equal to 1.\n\nExample 2:\n\nInput: s = \"aabcbaa\"\nOutput: 17\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 500\n\ts consists of only lowercase English letters.\n\n"
+}

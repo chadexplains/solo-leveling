@@ -1,0 +1,8 @@
+{
+  "id": "longest-uncommon-subsequence-i",
+  "name": "Longest Uncommon Subsequence I",
+  "tags": [
+    "String"
+  ],
+  "description": "Given two strings a and b, return the length of the longest uncommon subsequence between a and b. If the longest uncommon subsequence does not exist, return -1.\n\nAn uncommon subsequence between two strings is a string that is a subsequence of one but not the other.\n\nA subsequence of a string s is a string that can be obtained after deleting any number of characters from s.\n\n\n\tFor example, \"abc\" is a subsequence of \"aebdc\" because you can delete the underlined characters in \"aebdc\" to get \"abc\". Other subsequences of \"aebdc\" include \"aebdc\", \"aeb\", and \"\" (empty string).\n\n\n \nExample 1:\n\nInput: a = \"aba\", b = \"cdc\"\nOutput: 3\nExplanation: One longest uncommon subsequence is \"aba\" because \"aba\" is a subsequence of \"aba\" but not \"cdc\".\nNote that \"cdc\" is also a longest uncommon subsequence.\n\n\nExample 2:\n\nInput: a = \"aaa\", b = \"bbb\"\nOutput: 3\nExplanation: The longest uncommon subsequences are \"aaa\" and \"bbb\".\n\n\nExample 3:\n\nInput: a = \"aaa\", b = \"aaa\"\nOutput: -1\nExplanation: Every subsequence of string a is also a subsequence of string b. Similarly, every subsequence of string b is also a subsequence of string a.\n\n\n \nConstraints:\n\n\n\t1 <= a.length, b.length <= 100\n\ta and b consist of lower-case English letters.\n\n"
+}

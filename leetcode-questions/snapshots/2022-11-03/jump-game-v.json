@@ -1,0 +1,10 @@
+{
+  "id": "jump-game-v",
+  "name": "Jump Game V",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Sorting"
+  ],
+  "description": "Given an array of integers arr and an integer d. In one step you can jump from index i to index:\n\n\n\ti + x where: i + x < arr.length and  0 < x <= d.\n\ti - x where: i - x >= 0 and  0 < x <= d.\n\n\nIn addition, you can only jump from index i to index j if arr[i] > arr[j] and arr[i] > arr[k] for all indices k between i and j (More formally min(i, j) < k < max(i, j)).\n\nYou can choose any index of the array and start jumping. Return the maximum number of indices you can visit.\n\nNotice that you can not jump outside of the array at any time.\n\n \nExample 1:\n\nInput: arr = [6,4,14,6,8,13,9,7,10,6,12], d = 2\nOutput: 4\nExplanation: You can start at index 10. You can jump 10 --> 8 --> 6 --> 7 as shown.\nNote that if you start at index 6 you can only jump to index 7. You cannot jump to index 5 because 13 > 9. You cannot jump to index 4 because index 5 is between index 4 and 6 and 13 > 9.\nSimilarly You cannot jump from index 3 to index 2 or index 1.\n\n\nExample 2:\n\nInput: arr = [3,3,3,3,3], d = 3\nOutput: 1\nExplanation: You can start at any index. You always cannot jump to any index.\n\n\nExample 3:\n\nInput: arr = [7,6,5,4,3,2,1], d = 1\nOutput: 7\nExplanation: Start at index 0. You can visit all the indicies. \n\n\n \nConstraints:\n\n\n\t1 <= arr.length <= 1000\n\t1 <= arr[i] <= 105\n\t1 <= d <= arr.length\n\n"
+}

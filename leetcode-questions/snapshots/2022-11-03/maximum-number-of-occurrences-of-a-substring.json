@@ -1,0 +1,10 @@
+{
+  "id": "maximum-number-of-occurrences-of-a-substring",
+  "name": "Maximum Number of Occurrences of a Substring",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Sliding Window"
+  ],
+  "description": "Given a string s, return the maximum number of ocurrences of any substring under the following rules:\n\n\n\tThe number of unique characters in the substring must be less than or equal to maxLetters.\n\tThe substring size must be between minSize and maxSize inclusive.\n\n\n \nExample 1:\n\nInput: s = \"aababcaab\", maxLetters = 2, minSize = 3, maxSize = 4\nOutput: 2\nExplanation: Substring \"aab\" has 2 ocurrences in the original string.\nIt satisfies the conditions, 2 unique letters and size 3 (between minSize and maxSize).\n\n\nExample 2:\n\nInput: s = \"aaaa\", maxLetters = 1, minSize = 3, maxSize = 3\nOutput: 2\nExplanation: Substring \"aaa\" occur 2 times in the string. It can overlap.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\t1 <= maxLetters <= 26\n\t1 <= minSize <= maxSize <= min(26, s.length)\n\ts consists of only lowercase English letters.\n\n"
+}

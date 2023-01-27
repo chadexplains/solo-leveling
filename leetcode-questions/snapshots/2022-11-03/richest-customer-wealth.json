@@ -1,0 +1,9 @@
+{
+  "id": "richest-customer-wealth",
+  "name": "Richest Customer Wealth",
+  "tags": [
+    "Array",
+    "Matrix"
+  ],
+  "description": "You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i​​​​​​​​​​​th​​​​ customer has in the j​​​​​​​​​​​th​​​​ bank. Return the wealth that the richest customer has.\n\nA customer's wealth is the amount of money they have in all their bank accounts. The richest customer is the customer that has the maximum wealth.\n\n \nExample 1:\n\nInput: accounts = [[1,2,3],[3,2,1]]\nOutput: 6\nExplanation:\n1st customer has wealth = 1 + 2 + 3 = 6\n2nd customer has wealth = 3 + 2 + 1 = 6\nBoth customers are considered the richest with a wealth of 6 each, so return 6.\n\n\nExample 2:\n\nInput: accounts = [[1,5],[7,3],[3,5]]\nOutput: 10\nExplanation: \n1st customer has wealth = 6\n2nd customer has wealth = 10 \n3rd customer has wealth = 8\nThe 2nd customer is the richest with a wealth of 10.\n\nExample 3:\n\nInput: accounts = [[2,8,7],[7,1,3],[1,9,5]]\nOutput: 17\n\n\n \nConstraints:\n\n\n\tm == accounts.length\n\tn == accounts[i].length\n\t1 <= m, n <= 50\n\t1 <= accounts[i][j] <= 100\n\n"
+}

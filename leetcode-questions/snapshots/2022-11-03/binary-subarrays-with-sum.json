@@ -1,0 +1,11 @@
+{
+  "id": "binary-subarrays-with-sum",
+  "name": "Binary Subarrays With Sum",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Sliding Window",
+    "Prefix Sum"
+  ],
+  "description": "Given a binary array nums and an integer goal, return the number of non-empty subarrays with a sum goal.\n\nA subarray is a contiguous part of the array.\n\n \nExample 1:\n\nInput: nums = [1,0,1,0,1], goal = 2\nOutput: 4\nExplanation: The 4 subarrays are bolded and underlined below:\n[1,0,1,0,1]\n[1,0,1,0,1]\n[1,0,1,0,1]\n[1,0,1,0,1]\n\n\nExample 2:\n\nInput: nums = [0,0,0,0,0], goal = 0\nOutput: 15\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 3 * 104\n\tnums[i] is either 0 or 1.\n\t0 <= goal <= nums.length\n"
+}

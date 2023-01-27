@@ -1,0 +1,9 @@
+{
+  "id": "repeated-substring-pattern",
+  "name": "Repeated Substring Pattern",
+  "tags": [
+    "String",
+    "String Matching"
+  ],
+  "description": "Given a string s, check if it can be constructed by taking a substring of it and appending multiple copies of the substring together.\n\n \nExample 1:\n\nInput: s = \"abab\"\nOutput: true\nExplanation: It is the substring \"ab\" twice.\n\n\nExample 2:\n\nInput: s = \"aba\"\nOutput: false\n\n\nExample 3:\n\nInput: s = \"abcabcabcabc\"\nOutput: true\nExplanation: It is the substring \"abc\" four times or the substring \"abcabc\" twice.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 104\n\ts consists of lowercase English letters.\n\n"
+}

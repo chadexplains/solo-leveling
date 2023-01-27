@@ -1,0 +1,9 @@
+{
+  "id": "partition-equal-subset-sum",
+  "name": "Partition Equal Subset Sum",
+  "tags": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "description": "Given a non-empty array nums containing only positive integers, find if the array can be partitioned into two subsets such that the sum of elements in both subsets is equal.\n\n \nExample 1:\n\nInput: nums = [1,5,11,5]\nOutput: true\nExplanation: The array can be partitioned as [1, 5, 5] and [11].\n\n\nExample 2:\n\nInput: nums = [1,2,3,5]\nOutput: false\nExplanation: The array cannot be partitioned into equal sum subsets.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 200\n\t1 <= nums[i] <= 100\n\n"
+}

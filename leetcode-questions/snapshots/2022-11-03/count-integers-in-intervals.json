@@ -1,0 +1,10 @@
+{
+  "id": "count-integers-in-intervals",
+  "name": "Count Integers in Intervals",
+  "tags": [
+    "Design",
+    "Segment Tree",
+    "Ordered Set"
+  ],
+  "description": "Given an empty set of intervals, implement a data structure that can:\n\n\n\tAdd an interval to the set of intervals.\n\tCount the number of integers that are present in at least one interval.\n\n\nImplement the CountIntervals class:\n\n\n\tCountIntervals() Initializes the object with an empty set of intervals.\n\tvoid add(int left, int right) Adds the interval [left, right] to the set of intervals.\n\tint count() Returns the number of integers that are present in at least one interval.\n\n\nNote that an interval [left, right] denotes all the integers x where left <= x <= right.\n\n \nExample 1:\n\nInput\n[\"CountIntervals\", \"add\", \"add\", \"count\", \"add\", \"count\"]\n[[], [2, 3], [7, 10], [], [5, 8], []]\nOutput\n[null, null, null, 6, null, 8]\n\nExplanation\nCountIntervals countIntervals = new CountIntervals(); // initialize the object with an empty set of intervals. \ncountIntervals.add(2, 3);  // add [2, 3] to the set of intervals.\ncountIntervals.add(7, 10); // add [7, 10] to the set of intervals.\ncountIntervals.count();    // return 6\n                           // the integers 2 and 3 are present in the interval [2, 3].\n                           // the integers 7, 8, 9, and 10 are present in the interval [7, 10].\ncountIntervals.add(5, 8);  // add [5, 8] to the set of intervals.\ncountIntervals.count();    // return 8\n                           // the integers 2 and 3 are present in the interval [2, 3].\n                           // the integers 5 and 6 are present in the interval [5, 8].\n                           // the integers 7 and 8 are present in the intervals [5, 8] and [7, 10].\n                           // the integers 9 and 10 are present in the interval [7, 10].\n\n\n \nConstraints:\n\n\n\t1 <= left <= right <= 109\n\tAt most 105 calls in total will be made to add and count.\n\tAt least one call will be made to count.\n\n"
+}

@@ -1,0 +1,8 @@
+{
+  "id": "print-in-order",
+  "name": "Print in Order",
+  "tags": [
+    "Concurrency"
+  ],
+  "description": "Suppose we have a class:\n\npublic class Foo {\n  public void first() { print(\"first\"); }\n  public void second() { print(\"second\"); }\n  public void third() { print(\"third\"); }\n}\n\n\nThe same instance of Foo will be passed to three different threads. Thread A will call first(), thread B will call second(), and thread C will call third(). Design a mechanism and modify the program to ensure that second() is executed after first(), and third() is executed after second().\n\nNote:\n\nWe do not know how the threads will be scheduled in the operating system, even though the numbers in the input seem to imply the ordering. The input format you see is mainly to ensure our tests' comprehensiveness.\n\n \nExample 1:\n\nInput: nums = [1,2,3]\nOutput: \"firstsecondthird\"\nExplanation: There are three threads being fired asynchronously. The input [1,2,3] means thread A calls first(), thread B calls second(), and thread C calls third(). \"firstsecondthird\" is the correct output.\n\n\nExample 2:\n\nInput: nums = [1,3,2]\nOutput: \"firstsecondthird\"\nExplanation: The input [1,3,2] means thread A calls first(), thread B calls third(), and thread C calls second(). \"firstsecondthird\" is the correct output.\n\n\n \nConstraints:\n\n\n\tnums is a permutation of [1, 2, 3].\n\n"
+}

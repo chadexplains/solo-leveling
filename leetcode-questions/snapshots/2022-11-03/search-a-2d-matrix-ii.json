@@ -1,0 +1,11 @@
+{
+  "id": "search-a-2d-matrix-ii",
+  "name": "Search a 2D Matrix II",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Divide and Conquer",
+    "Matrix"
+  ],
+  "description": "Write an efficient algorithm that searches for a value target in an m x n integer matrix matrix. This matrix has the following properties:\n\n\n\tIntegers in each row are sorted in ascending from left to right.\n\tIntegers in each column are sorted in ascending from top to bottom.\n\n\n \nExample 1:\n\nInput: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5\nOutput: true\n\n\nExample 2:\n\nInput: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 20\nOutput: false\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[i].length\n\t1 <= n, m <= 300\n\t-109 <= matrix[i][j] <= 109\n\tAll the integers in each row are sorted in ascending order.\n\tAll the integers in each column are sorted in ascending order.\n\t-109 <= target <= 109\n\n"
+}

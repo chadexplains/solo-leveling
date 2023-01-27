@@ -1,0 +1,11 @@
+{
+  "id": "sum-of-numbers-with-units-digit-k",
+  "name": "Sum of Numbers With Units Digit K",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Greedy",
+    "Enumeration"
+  ],
+  "description": "Given two integers num and k, consider a set of positive integers with the following properties:\n\n\n\tThe units digit of each integer is k.\n\tThe sum of the integers is num.\n\n\nReturn the minimum possible size of such a set, or -1 if no such set exists.\n\nNote:\n\n\n\tThe set can contain multiple instances of the same integer, and the sum of an empty set is considered 0.\n\tThe units digit of a number is the rightmost digit of the number.\n\n\n \nExample 1:\n\nInput: num = 58, k = 9\nOutput: 2\nExplanation:\nOne valid set is [9,49], as the sum is 58 and each integer has a units digit of 9.\nAnother valid set is [19,39].\nIt can be shown that 2 is the minimum possible size of a valid set.\n\n\nExample 2:\n\nInput: num = 37, k = 2\nOutput: -1\nExplanation: It is not possible to obtain a sum of 37 using only integers that have a units digit of 2.\n\n\nExample 3:\n\nInput: num = 0, k = 7\nOutput: 0\nExplanation: The sum of an empty set is considered 0.\n\n\n \nConstraints:\n\n\n\t0 <= num <= 3000\n\t0 <= k <= 9\n\n"
+}

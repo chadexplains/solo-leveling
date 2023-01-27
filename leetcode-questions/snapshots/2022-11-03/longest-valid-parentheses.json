@@ -1,0 +1,10 @@
+{
+  "id": "longest-valid-parentheses",
+  "name": "Longest Valid Parentheses",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Stack"
+  ],
+  "description": "Given a string containing just the characters '(' and ')', return the length of the longest valid (well-formed) parentheses substring.\n\n \nExample 1:\n\nInput: s = \"(()\"\nOutput: 2\nExplanation: The longest valid parentheses substring is \"()\".\n\n\nExample 2:\n\nInput: s = \")()())\"\nOutput: 4\nExplanation: The longest valid parentheses substring is \"()()\".\n\n\nExample 3:\n\nInput: s = \"\"\nOutput: 0\n\n\n \nConstraints:\n\n\n\t0 <= s.length <= 3 * 104\n\ts[i] is '(', or ')'.\n\n"
+}

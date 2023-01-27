@@ -1,0 +1,9 @@
+{
+  "id": "swap-for-longest-repeated-character-substring",
+  "name": "Swap For Longest Repeated Character Substring",
+  "tags": [
+    "String",
+    "Sliding Window"
+  ],
+  "description": "You are given a string text. You can swap two of the characters in the text.\n\nReturn the length of the longest substring with repeated characters.\n\n \nExample 1:\n\nInput: text = \"ababa\"\nOutput: 3\nExplanation: We can swap the first 'b' with the last 'a', or the last 'b' with the first 'a'. Then, the longest repeated character substring is \"aaa\" with length 3.\n\n\nExample 2:\n\nInput: text = \"aaabaaa\"\nOutput: 6\nExplanation: Swap 'b' with the last 'a' (or the first 'a'), and we get longest repeated character substring \"aaaaaa\" with length 6.\n\n\nExample 3:\n\nInput: text = \"aaaaa\"\nOutput: 5\nExplanation: No need to swap, longest repeated character substring is \"aaaaa\" with length is 5.\n\n\n \nConstraints:\n\n\n\t1 <= text.length <= 2 * 104\n\ttext consist of lowercase English characters only.\n\n"
+}

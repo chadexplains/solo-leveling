@@ -1,0 +1,12 @@
+{
+  "id": "minimum-number-of-work-sessions-to-finish-the-tasks",
+  "name": "Minimum Number of Work Sessions to Finish the Tasks",
+  "tags": [
+    "Array",
+    "Dynamic Programming",
+    "Backtracking",
+    "Bit Manipulation",
+    "Bitmask"
+  ],
+  "description": "There are n tasks assigned to you. The task times are represented as an integer array tasks of length n, where the ith task takes tasks[i] hours to finish. A work session is when you work for at most sessionTime consecutive hours and then take a break.\n\nYou should finish the given tasks in a way that satisfies the following conditions:\n\n\n\tIf you start a task in a work session, you must complete it in the same work session.\n\tYou can start a new task immediately after finishing the previous one.\n\tYou may complete the tasks in any order.\n\n\nGiven tasks and sessionTime, return the minimum number of work sessions needed to finish all the tasks following the conditions above.\n\nThe tests are generated such that sessionTime is greater than or equal to the maximum element in tasks[i].\n\n \nExample 1:\n\nInput: tasks = [1,2,3], sessionTime = 3\nOutput: 2\nExplanation: You can finish the tasks in two work sessions.\n- First work session: finish the first and the second tasks in 1 + 2 = 3 hours.\n- Second work session: finish the third task in 3 hours.\n\n\nExample 2:\n\nInput: tasks = [3,1,3,1,1], sessionTime = 8\nOutput: 2\nExplanation: You can finish the tasks in two work sessions.\n- First work session: finish all the tasks except the last one in 3 + 1 + 3 + 1 = 8 hours.\n- Second work session: finish the last task in 1 hour.\n\n\nExample 3:\n\nInput: tasks = [1,2,3,4,5], sessionTime = 15\nOutput: 1\nExplanation: You can finish all the tasks in one work session.\n\n\n \nConstraints:\n\n\n\tn == tasks.length\n\t1 <= n <= 14\n\t1 <= tasks[i] <= 10\n\tmax(tasks[i]) <= sessionTime <= 15\n\n"
+}

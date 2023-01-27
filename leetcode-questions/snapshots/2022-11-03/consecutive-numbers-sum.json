@@ -1,0 +1,9 @@
+{
+  "id": "consecutive-numbers-sum",
+  "name": "Consecutive Numbers Sum",
+  "tags": [
+    "Math",
+    "Enumeration"
+  ],
+  "description": "Given an integer n, return the number of ways you can write n as the sum of consecutive positive integers.\n\n \nExample 1:\n\nInput: n = 5\nOutput: 2\nExplanation: 5 = 2 + 3\n\n\nExample 2:\n\nInput: n = 9\nOutput: 3\nExplanation: 9 = 4 + 5 = 2 + 3 + 4\n\n\nExample 3:\n\nInput: n = 15\nOutput: 4\nExplanation: 15 = 8 + 7 = 4 + 5 + 6 = 1 + 2 + 3 + 4 + 5\n\n\n \nConstraints:\n\n\n\t1 <= n <= 109\n\n"
+}

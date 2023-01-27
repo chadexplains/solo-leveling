@@ -1,0 +1,10 @@
+{
+  "id": "bulls-and-cows",
+  "name": "Bulls and Cows",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Counting"
+  ],
+  "description": "You are playing the Bulls and Cows game with your friend.\n\nYou write down a secret number and ask your friend to guess what the number is. When your friend makes a guess, you provide a hint with the following info:\n\n\n\tThe number of \"bulls\", which are digits in the guess that are in the correct position.\n\tThe number of \"cows\", which are digits in the guess that are in your secret number but are located in the wrong position. Specifically, the non-bull digits in the guess that could be rearranged such that they become bulls.\n\n\nGiven the secret number secret and your friend's guess guess, return the hint for your friend's guess.\n\nThe hint should be formatted as \"xAyB\", where x is the number of bulls and y is the number of cows. Note that both secret and guess may contain duplicate digits.\n\n \nExample 1:\n\nInput: secret = \"1807\", guess = \"7810\"\nOutput: \"1A3B\"\nExplanation: Bulls are connected with a '|' and cows are underlined:\n\"1807\"\n  |\n\"7810\"\n\nExample 2:\n\nInput: secret = \"1123\", guess = \"0111\"\nOutput: \"1A1B\"\nExplanation: Bulls are connected with a '|' and cows are underlined:\n\"1123\"        \"1123\"\n  |      or     |\n\"0111\"        \"0111\"\nNote that only one of the two unmatched 1s is counted as a cow since the non-bull digits can only be rearranged to allow one 1 to be a bull.\n\n\n \nConstraints:\n\n\n\t1 <= secret.length, guess.length <= 1000\n\tsecret.length == guess.length\n\tsecret and guess consist of digits only.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "count-nice-pairs-in-an-array",
+  "name": "Count Nice Pairs in an Array",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Math",
+    "Counting"
+  ],
+  "description": "You are given an array nums that consists of non-negative integers. Let us define rev(x) as the reverse of the non-negative integer x. For example, rev(123) = 321, and rev(120) = 21. A pair of indices (i, j) is nice if it satisfies all of the following conditions:\n\n\n\t0 <= i < j < nums.length\n\tnums[i] + rev(nums[j]) == nums[j] + rev(nums[i])\n\n\nReturn the number of nice pairs of indices. Since that number can be too large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: nums = [42,11,1,97]\nOutput: 2\nExplanation: The two pairs are:\n - (0,3) : 42 + rev(97) = 42 + 79 = 121, 97 + rev(42) = 97 + 24 = 121.\n - (1,2) : 11 + rev(1) = 11 + 1 = 12, 1 + rev(11) = 1 + 11 = 12.\n\n\nExample 2:\n\nInput: nums = [13,10,35,24,76]\nOutput: 4\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t0 <= nums[i] <= 109\n\n"
+}

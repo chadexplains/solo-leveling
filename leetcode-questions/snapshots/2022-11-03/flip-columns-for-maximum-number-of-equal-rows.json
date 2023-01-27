@@ -1,0 +1,10 @@
+{
+  "id": "flip-columns-for-maximum-number-of-equal-rows",
+  "name": "Flip Columns For Maximum Number of Equal Rows",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Matrix"
+  ],
+  "description": "You are given an m x n binary matrix matrix.\n\nYou can choose any number of columns in the matrix and flip every cell in that column (i.e., Change the value of the cell from 0 to 1 or vice versa).\n\nReturn the maximum number of rows that have all values equal after some number of flips.\n\n \nExample 1:\n\nInput: matrix = [[0,1],[1,1]]\nOutput: 1\nExplanation: After flipping no values, 1 row has all values equal.\n\n\nExample 2:\n\nInput: matrix = [[0,1],[1,0]]\nOutput: 2\nExplanation: After flipping values in the first column, both rows have equal values.\n\n\nExample 3:\n\nInput: matrix = [[0,0,0],[0,0,1],[1,1,0]]\nOutput: 2\nExplanation: After flipping values in the first two columns, the last two rows have equal values.\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[i].length\n\t1 <= m, n <= 300\n\tmatrix[i][j] is either 0 or 1.\n\n"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "valid-tic-tac-toe-state",
+  "name": "Valid Tic-Tac-Toe State",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "Given a Tic-Tac-Toe board as a string array board, return true if and only if it is possible to reach this board position during the course of a valid tic-tac-toe game.\n\nThe board is a 3 x 3 array that consists of characters ' ', 'X', and 'O'. The ' ' character represents an empty square.\n\nHere are the rules of Tic-Tac-Toe:\n\n\n\tPlayers take turns placing characters into empty squares ' '.\n\tThe first player always places 'X' characters, while the second player always places 'O' characters.\n\t'X' and 'O' characters are always placed into empty squares, never filled ones.\n\tThe game ends when there are three of the same (non-empty) character filling any row, column, or diagonal.\n\tThe game also ends if all squares are non-empty.\n\tNo more moves can be played if the game is over.\n\n\n \nExample 1:\n\nInput: board = [\"O  \",\"   \",\"   \"]\nOutput: false\nExplanation: The first player always plays \"X\".\n\n\nExample 2:\n\nInput: board = [\"XOX\",\" X \",\"   \"]\nOutput: false\nExplanation: Players take turns making moves.\n\n\nExample 3:\n\nInput: board = [\"XOX\",\"O O\",\"XOX\"]\nOutput: true\n\n\n \nConstraints:\n\n\n\tboard.length == 3\n\tboard[i].length == 3\n\tboard[i][j] is either 'X', 'O', or ' '.\n\n"
+}

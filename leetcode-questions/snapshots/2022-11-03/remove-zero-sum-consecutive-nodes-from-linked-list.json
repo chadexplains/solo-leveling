@@ -1,0 +1,9 @@
+{
+  "id": "remove-zero-sum-consecutive-nodes-from-linked-list",
+  "name": "Remove Zero Sum Consecutive Nodes from Linked List",
+  "tags": [
+    "Hash Table",
+    "Linked List"
+  ],
+  "description": "Given the head of a linked list, we repeatedly delete consecutive sequences of nodes that sum to 0 until there are no such sequences.\n\nAfter doing so, return the head of the final linked list.  You may return any such answer.\n\n \n(Note that in the examples below, all sequences are serializations of ListNode objects.)\n\nExample 1:\n\nInput: head = [1,2,-3,3,1]\nOutput: [3,1]\nNote: The answer [1,2,1] would also be accepted.\n\n\nExample 2:\n\nInput: head = [1,2,3,-3,4]\nOutput: [1,2,4]\n\n\nExample 3:\n\nInput: head = [1,2,3,-3,-2]\nOutput: [1]\n\n\n \nConstraints:\n\n\n\tThe given linked list will contain between 1 and 1000 nodes.\n\tEach node in the linked list has -1000 <= node.val <= 1000.\n\n"
+}

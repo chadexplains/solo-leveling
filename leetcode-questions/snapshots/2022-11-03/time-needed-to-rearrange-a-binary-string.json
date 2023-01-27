@@ -1,0 +1,10 @@
+{
+  "id": "time-needed-to-rearrange-a-binary-string",
+  "name": "Time Needed to Rearrange a Binary String",
+  "tags": [
+    "String",
+    "Dynamic Programming",
+    "Simulation"
+  ],
+  "description": "You are given a binary string s. In one second, all occurrences of \"01\" are simultaneously replaced with \"10\". This process repeats until no occurrences of \"01\" exist.\n\nReturn the number of seconds needed to complete this process.\n\n \nExample 1:\n\nInput: s = \"0110101\"\nOutput: 4\nExplanation: \nAfter one second, s becomes \"1011010\".\nAfter another second, s becomes \"1101100\".\nAfter the third second, s becomes \"1110100\".\nAfter the fourth second, s becomes \"1111000\".\nNo occurrence of \"01\" exists any longer, and the process needed 4 seconds to complete,\nso we return 4.\n\n\nExample 2:\n\nInput: s = \"11100\"\nOutput: 0\nExplanation:\nNo occurrence of \"01\" exists in s, and the processes needed 0 seconds to complete,\nso we return 0.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 1000\n\ts[i] is either '0' or '1'.\n\n\n \nFollow up:\n\nCan you solve this problem in O(n) time complexity?\n"
+}

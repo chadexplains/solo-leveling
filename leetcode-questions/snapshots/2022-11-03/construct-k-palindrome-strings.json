@@ -1,0 +1,11 @@
+{
+  "id": "construct-k-palindrome-strings",
+  "name": "Construct K Palindrome Strings",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Greedy",
+    "Counting"
+  ],
+  "description": "Given a string s and an integer k, return true if you can use all the characters in s to construct k palindrome strings or false otherwise.\n\n \nExample 1:\n\nInput: s = \"annabelle\", k = 2\nOutput: true\nExplanation: You can construct two palindromes using all characters in s.\nSome possible constructions \"anna\" + \"elble\", \"anbna\" + \"elle\", \"anellena\" + \"b\"\n\n\nExample 2:\n\nInput: s = \"leetcode\", k = 3\nOutput: false\nExplanation: It is impossible to construct 3 palindromes using all the characters of s.\n\n\nExample 3:\n\nInput: s = \"true\", k = 4\nOutput: true\nExplanation: The only possible solution is to put each character in a separate string.\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\ts consists of lowercase English letters.\n\t1 <= k <= 105\n\n"
+}

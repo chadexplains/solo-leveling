@@ -1,0 +1,10 @@
+{
+  "id": "transpose-matrix",
+  "name": "Transpose Matrix",
+  "tags": [
+    "Array",
+    "Matrix",
+    "Simulation"
+  ],
+  "description": "Given a 2D integer array matrix, return the transpose of matrix.\n\nThe transpose of a matrix is the matrix flipped over its main diagonal, switching the matrix's row and column indices.\n\n\n\n \nExample 1:\n\nInput: matrix = [[1,2,3],[4,5,6],[7,8,9]]\nOutput: [[1,4,7],[2,5,8],[3,6,9]]\n\n\nExample 2:\n\nInput: matrix = [[1,2,3],[4,5,6]]\nOutput: [[1,4],[2,5],[3,6]]\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[i].length\n\t1 <= m, n <= 1000\n\t1 <= m * n <= 105\n\t-109 <= matrix[i][j] <= 109\n\n"
+}

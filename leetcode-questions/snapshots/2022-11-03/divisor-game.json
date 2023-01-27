@@ -1,0 +1,11 @@
+{
+  "id": "divisor-game",
+  "name": "Divisor Game",
+  "tags": [
+    "Math",
+    "Dynamic Programming",
+    "Brainteaser",
+    "Game Theory"
+  ],
+  "description": "Alice and Bob take turns playing a game, with Alice starting first.\n\nInitially, there is a number n on the chalkboard. On each player's turn, that player makes a move consisting of:\n\n\n\tChoosing any x with 0 < x < n and n % x == 0.\n\tReplacing the number n on the chalkboard with n - x.\n\n\nAlso, if a player cannot make a move, they lose the game.\n\nReturn true if and only if Alice wins the game, assuming both players play optimally.\n\n \nExample 1:\n\nInput: n = 2\nOutput: true\nExplanation: Alice chooses 1, and Bob has no more moves.\n\n\nExample 2:\n\nInput: n = 3\nOutput: false\nExplanation: Alice chooses 1, Bob chooses 1, and Alice has no more moves.\n\n\n \nConstraints:\n\n\n\t1 <= n <= 1000\n\n"
+}

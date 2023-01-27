@@ -1,0 +1,9 @@
+{
+  "id": "monotone-increasing-digits",
+  "name": "Monotone Increasing Digits",
+  "tags": [
+    "Math",
+    "Greedy"
+  ],
+  "description": "An integer has monotone increasing digits if and only if each pair of adjacent digits x and y satisfy x <= y.\n\nGiven an integer n, return the largest number that is less than or equal to n with monotone increasing digits.\n\n \nExample 1:\n\nInput: n = 10\nOutput: 9\n\n\nExample 2:\n\nInput: n = 1234\nOutput: 1234\n\n\nExample 3:\n\nInput: n = 332\nOutput: 299\n\n\n \nConstraints:\n\n\n\t0 <= n <= 109\n\n"
+}

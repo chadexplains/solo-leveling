@@ -1,0 +1,9 @@
+{
+  "id": "additive-number",
+  "name": "Additive Number",
+  "tags": [
+    "String",
+    "Backtracking"
+  ],
+  "description": "An additive number is a string whose digits can form an additive sequence.\n\nA valid additive sequence should contain at least three numbers. Except for the first two numbers, each subsequent number in the sequence must be the sum of the preceding two.\n\nGiven a string containing only digits, return true if it is an additive number or false otherwise.\n\nNote: Numbers in the additive sequence cannot have leading zeros, so sequence 1, 2, 03 or 1, 02, 3 is invalid.\n\n \nExample 1:\n\nInput: \"112358\"\nOutput: true\nExplanation: \nThe digits can form an additive sequence: 1, 1, 2, 3, 5, 8. \n1 + 1 = 2, 1 + 2 = 3, 2 + 3 = 5, 3 + 5 = 8\n\n\nExample 2:\n\nInput: \"199100199\"\nOutput: true\nExplanation: \nThe additive sequence is: 1, 99, 100, 199. \n1 + 99 = 100, 99 + 100 = 199\n\n\n \nConstraints:\n\n\n\t1 <= num.length <= 35\n\tnum consists only of digits.\n\n\n \nFollow up: How would you handle overflow for very large input integers?\n"
+}

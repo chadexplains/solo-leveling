@@ -1,0 +1,11 @@
+{
+  "id": "divide-array-in-sets-of-k-consecutive-numbers",
+  "name": "Divide Array in Sets of K Consecutive Numbers",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Greedy",
+    "Sorting"
+  ],
+  "description": "Given an array of integers nums and a positive integer k, check whether it is possible to divide this array into sets of k consecutive numbers.\n\nReturn true if it is possible. Otherwise, return false.\n\n \nExample 1:\n\nInput: nums = [1,2,3,3,4,4,5,6], k = 4\nOutput: true\nExplanation: Array can be divided into [1,2,3,4] and [3,4,5,6].\n\n\nExample 2:\n\nInput: nums = [3,2,1,2,3,4,3,4,5,9,10,11], k = 3\nOutput: true\nExplanation: Array can be divided into [1,2,3] , [2,3,4] , [3,4,5] and [9,10,11].\n\n\nExample 3:\n\nInput: nums = [1,2,3,4], k = 3\nOutput: false\nExplanation: Each array should be divided in subarrays of size 3.\n\n\n \nConstraints:\n\n\n\t1 <= k <= nums.length <= 105\n\t1 <= nums[i] <= 109\n\n\n \nNote: This question is the same as 846: https://leetcode.com/problems/hand-of-straights/"
+}

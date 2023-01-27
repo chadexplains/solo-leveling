@@ -1,0 +1,11 @@
+{
+  "id": "all-oone-data-structure",
+  "name": "All O`one Data Structure",
+  "tags": [
+    "Hash Table",
+    "Linked List",
+    "Design",
+    "Doubly-Linked List"
+  ],
+  "description": "Design a data structure to store the strings' count with the ability to return the strings with minimum and maximum counts.\n\nImplement the AllOne class:\n\n\n\tAllOne() Initializes the object of the data structure.\n\tinc(String key) Increments the count of the string key by 1. If key does not exist in the data structure, insert it with count 1.\n\tdec(String key) Decrements the count of the string key by 1. If the count of key is 0 after the decrement, remove it from the data structure. It is guaranteed that key exists in the data structure before the decrement.\n\tgetMaxKey() Returns one of the keys with the maximal count. If no element exists, return an empty string \"\".\n\tgetMinKey() Returns one of the keys with the minimum count. If no element exists, return an empty string \"\".\n\n\nNote that each function must run in O(1) average time complexity.\n\n \nExample 1:\n\nInput\n[\"AllOne\", \"inc\", \"inc\", \"getMaxKey\", \"getMinKey\", \"inc\", \"getMaxKey\", \"getMinKey\"]\n[[], [\"hello\"], [\"hello\"], [], [], [\"leet\"], [], []]\nOutput\n[null, null, null, \"hello\", \"hello\", null, \"hello\", \"leet\"]\n\nExplanation\nAllOne allOne = new AllOne();\nallOne.inc(\"hello\");\nallOne.inc(\"hello\");\nallOne.getMaxKey(); // return \"hello\"\nallOne.getMinKey(); // return \"hello\"\nallOne.inc(\"leet\");\nallOne.getMaxKey(); // return \"hello\"\nallOne.getMinKey(); // return \"leet\"\n\n\n \nConstraints:\n\n\n\t1 <= key.length <= 10\n\tkey consists of lowercase English letters.\n\tIt is guaranteed that for each call to dec, key is existing in the data structure.\n\tAt most 5 * 104 calls will be made to inc, dec, getMaxKey, and getMinKey.\n\n"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "create-binary-tree-from-descriptions",
+  "name": "Create Binary Tree From Descriptions",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "description": "You are given a 2D integer array descriptions where descriptions[i] = [parenti, childi, isLefti] indicates that parenti is the parent of childi in a binary tree of unique values. Furthermore,\n\n\n\tIf isLefti == 1, then childi is the left child of parenti.\n\tIf isLefti == 0, then childi is the right child of parenti.\n\n\nConstruct the binary tree described by descriptions and return its root.\n\nThe test cases will be generated such that the binary tree is valid.\n\n \nExample 1:\n\nInput: descriptions = [[20,15,1],[20,17,0],[50,20,1],[50,80,0],[80,19,1]]\nOutput: [50,20,80,15,17,19]\nExplanation: The root node is the node with value 50 since it has no parent.\nThe resulting binary tree is shown in the diagram.\n\n\nExample 2:\n\nInput: descriptions = [[1,2,1],[2,3,0],[3,4,1]]\nOutput: [1,2,null,null,3,4]\nExplanation: The root node is the node with value 1 since it has no parent.\nThe resulting binary tree is shown in the diagram.\n\n\n \nConstraints:\n\n\n\t1 <= descriptions.length <= 104\n\tdescriptions[i].length == 3\n\t1 <= parenti, childi <= 105\n\t0 <= isLefti <= 1\n\tThe binary tree described by descriptions is valid.\n\n"
+}

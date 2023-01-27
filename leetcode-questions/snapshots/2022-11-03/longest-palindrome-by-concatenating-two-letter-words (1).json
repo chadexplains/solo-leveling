@@ -1,0 +1,12 @@
+{
+  "id": "longest-palindrome-by-concatenating-two-letter-words",
+  "name": "Longest Palindrome by Concatenating Two Letter Words",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "String",
+    "Greedy",
+    "Counting"
+  ],
+  "description": "You are given an array of strings words. Each element of words consists of two lowercase English letters.\n\nCreate the longest possible palindrome by selecting some elements from words and concatenating them in any order. Each element can be selected at most once.\n\nReturn the length of the longest palindrome that you can create. If it is impossible to create any palindrome, return 0.\n\nA palindrome is a string that reads the same forward and backward.\n\n \nExample 1:\n\nInput: words = [\"lc\",\"cl\",\"gg\"]\nOutput: 6\nExplanation: One longest palindrome is \"lc\" + \"gg\" + \"cl\" = \"lcggcl\", of length 6.\nNote that \"clgglc\" is another longest palindrome that can be created.\n\n\nExample 2:\n\nInput: words = [\"ab\",\"ty\",\"yt\",\"lc\",\"cl\",\"ab\"]\nOutput: 8\nExplanation: One longest palindrome is \"ty\" + \"lc\" + \"cl\" + \"yt\" = \"tylcclyt\", of length 8.\nNote that \"lcyttycl\" is another longest palindrome that can be created.\n\n\nExample 3:\n\nInput: words = [\"cc\",\"ll\",\"xx\"]\nOutput: 2\nExplanation: One longest palindrome is \"cc\", of length 2.\nNote that \"ll\" is another longest palindrome that can be created, and so is \"xx\".\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 105\n\twords[i].length == 2\n\twords[i] consists of lowercase English letters.\n\n"
+}

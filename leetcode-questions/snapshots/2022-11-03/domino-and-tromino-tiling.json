@@ -1,0 +1,8 @@
+{
+  "id": "domino-and-tromino-tiling",
+  "name": "Domino and Tromino Tiling",
+  "tags": [
+    "Dynamic Programming"
+  ],
+  "description": "You have two types of tiles: a 2 x 1 domino shape and a tromino shape. You may rotate these shapes.\n\nGiven an integer n, return the number of ways to tile an 2 x n board. Since the answer may be very large, return it modulo 109 + 7.\n\nIn a tiling, every square must be covered by a tile. Two tilings are different if and only if there are two 4-directionally adjacent cells on the board such that exactly one of the tilings has both squares occupied by a tile.\n\n \nExample 1:\n\nInput: n = 3\nOutput: 5\nExplanation: The five different ways are show above.\n\n\nExample 2:\n\nInput: n = 1\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= n <= 1000\n\n"
+}

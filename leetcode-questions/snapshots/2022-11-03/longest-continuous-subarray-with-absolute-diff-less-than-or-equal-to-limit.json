@@ -1,0 +1,13 @@
+{
+  "id": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+  "name": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+  "tags": [
+    "Array",
+    "Queue",
+    "Sliding Window",
+    "Heap (Priority Queue)",
+    "Ordered Set",
+    "Monotonic Queue"
+  ],
+  "description": "Given an array of integers nums and an integer limit, return the size of the longest non-empty subarray such that the absolute difference between any two elements of this subarray is less than or equal to limit.\n\n \nExample 1:\n\nInput: nums = [8,2,4,7], limit = 4\nOutput: 2 \nExplanation: All subarrays are: \n[8] with maximum absolute diff |8-8| = 0 <= 4.\n[8,2] with maximum absolute diff |8-2| = 6 > 4. \n[8,2,4] with maximum absolute diff |8-2| = 6 > 4.\n[8,2,4,7] with maximum absolute diff |8-2| = 6 > 4.\n[2] with maximum absolute diff |2-2| = 0 <= 4.\n[2,4] with maximum absolute diff |2-4| = 2 <= 4.\n[2,4,7] with maximum absolute diff |2-7| = 5 > 4.\n[4] with maximum absolute diff |4-4| = 0 <= 4.\n[4,7] with maximum absolute diff |4-7| = 3 <= 4.\n[7] with maximum absolute diff |7-7| = 0 <= 4. \nTherefore, the size of the longest subarray is 2.\n\n\nExample 2:\n\nInput: nums = [10,1,2,4,7,2], limit = 5\nOutput: 4 \nExplanation: The subarray [2,4,7,2] is the longest since the maximum absolute diff is |2-7| = 5 <= 5.\n\n\nExample 3:\n\nInput: nums = [4,2,2,2,4,4,2,2], limit = 0\nOutput: 3\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 105\n\t1 <= nums[i] <= 109\n\t0 <= limit <= 109\n\n"
+}

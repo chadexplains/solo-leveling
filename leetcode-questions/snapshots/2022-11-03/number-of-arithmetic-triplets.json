@@ -1,0 +1,11 @@
+{
+  "id": "number-of-arithmetic-triplets",
+  "name": "Number of Arithmetic Triplets",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Two Pointers",
+    "Enumeration"
+  ],
+  "description": "You are given a 0-indexed, strictly increasing integer array nums and a positive integer diff. A triplet (i, j, k) is an arithmetic triplet if the following conditions are met:\n\n\n\ti < j < k,\n\tnums[j] - nums[i] == diff, and\n\tnums[k] - nums[j] == diff.\n\n\nReturn the number of unique arithmetic triplets.\n\n \nExample 1:\n\nInput: nums = [0,1,4,6,7,10], diff = 3\nOutput: 2\nExplanation:\n(1, 2, 4) is an arithmetic triplet because both 7 - 4 == 3 and 4 - 1 == 3.\n(2, 4, 5) is an arithmetic triplet because both 10 - 7 == 3 and 7 - 4 == 3. \n\n\nExample 2:\n\nInput: nums = [4,5,6,7,8,9], diff = 2\nOutput: 2\nExplanation:\n(0, 2, 4) is an arithmetic triplet because both 8 - 6 == 2 and 6 - 4 == 2.\n(1, 3, 5) is an arithmetic triplet because both 9 - 7 == 2 and 7 - 5 == 2.\n\n\n \nConstraints:\n\n\n\t3 <= nums.length <= 200\n\t0 <= nums[i] <= 200\n\t1 <= diff <= 50\n\tnums is strictly increasing.\n\n"
+}

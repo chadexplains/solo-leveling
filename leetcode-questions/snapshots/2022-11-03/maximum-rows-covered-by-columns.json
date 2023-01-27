@@ -1,0 +1,12 @@
+{
+  "id": "maximum-rows-covered-by-columns",
+  "name": "Maximum Rows Covered by Columns",
+  "tags": [
+    "Array",
+    "Backtracking",
+    "Bit Manipulation",
+    "Matrix",
+    "Enumeration"
+  ],
+  "description": "You are given a 0-indexed m x n binary matrix matrix and an integer numSelect, which denotes the number of distinct columns you must select from matrix.\n\nLet us consider s = {c1, c2, ...., cnumSelect} as the set of columns selected by you. A row row is covered by s if:\n\n\n\tFor each cell matrix[row][col] (0 <= col <= n - 1) where matrix[row][col] == 1, col is present in s or,\n\tNo cell in row has a value of 1.\n\n\nYou need to choose numSelect columns such that the number of rows that are covered is maximized.\n\nReturn the maximum number of rows that can be covered by a set of numSelect columns.\n\n \nExample 1:\n\nInput: matrix = [[0,0,0],[1,0,1],[0,1,1],[0,0,1]], numSelect = 2\nOutput: 3\nExplanation: One possible way to cover 3 rows is shown in the diagram above.\nWe choose s = {0, 2}.\n- Row 0 is covered because it has no occurrences of 1.\n- Row 1 is covered because the columns with value 1, i.e. 0 and 2 are present in s.\n- Row 2 is not covered because matrix[2][1] == 1 but 1 is not present in s.\n- Row 3 is covered because matrix[2][2] == 1 and 2 is present in s.\nThus, we can cover three rows.\nNote that s = {1, 2} will also cover 3 rows, but it can be shown that no more than three rows can be covered.\n\n\nExample 2:\n\nInput: matrix = [[1],[0]], numSelect = 1\nOutput: 2\nExplanation: Selecting the only column will result in both rows being covered since the entire matrix is selected.\nTherefore, we return 2.\n\n\n \nConstraints:\n\n\n\tm == matrix.length\n\tn == matrix[i].length\n\t1 <= m, n <= 12\n\tmatrix[i][j] is either 0 or 1.\n\t1 <= numSelect <= n\n\n"
+}

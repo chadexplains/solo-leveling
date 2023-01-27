@@ -1,0 +1,11 @@
+{
+  "id": "ways-to-split-array-into-three-subarrays",
+  "name": "Ways to Split Array Into Three Subarrays",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Binary Search",
+    "Prefix Sum"
+  ],
+  "description": "A split of an integer array is good if:\n\n\n\tThe array is split into three non-empty contiguous subarrays - named left, mid, right respectively from left to right.\n\tThe sum of the elements in left is less than or equal to the sum of the elements in mid, and the sum of the elements in mid is less than or equal to the sum of the elements in right.\n\n\nGiven nums, an array of non-negative integers, return the number of good ways to split nums. As the number may be too large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: nums = [1,1,1]\nOutput: 1\nExplanation: The only good way to split nums is [1] [1] [1].\n\nExample 2:\n\nInput: nums = [1,2,2,2,5,0]\nOutput: 3\nExplanation: There are three good ways of splitting nums:\n[1] [2] [2,2,5,0]\n[1] [2,2] [2,5,0]\n[1,2] [2,2] [5,0]\n\n\nExample 3:\n\nInput: nums = [3,2,1]\nOutput: 0\nExplanation: There is no good way to split nums.\n\n \nConstraints:\n\n\n\t3 <= nums.length <= 105\n\t0 <= nums[i] <= 104\n\n"
+}

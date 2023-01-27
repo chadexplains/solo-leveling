@@ -1,0 +1,10 @@
+{
+  "id": "3sum-closest",
+  "name": "3Sum Closest",
+  "tags": [
+    "Array",
+    "Two Pointers",
+    "Sorting"
+  ],
+  "description": "Given an integer array nums of length n and an integer target, find three integers in nums such that the sum is closest to target.\n\nReturn the sum of the three integers.\n\nYou may assume that each input would have exactly one solution.\n\n \nExample 1:\n\nInput: nums = [-1,2,1,-4], target = 1\nOutput: 2\nExplanation: The sum that is closest to the target is 2. (-1 + 2 + 1 = 2).\n\n\nExample 2:\n\nInput: nums = [0,0,0], target = 1\nOutput: 0\nExplanation: The sum that is closest to the target is 0. (0 + 0 + 0 = 0).\n\n\n \nConstraints:\n\n\n\t3 <= nums.length <= 500\n\t-1000 <= nums[i] <= 1000\n\t-104 <= target <= 104\n\n"
+}

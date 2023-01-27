@@ -1,0 +1,9 @@
+{
+  "id": "swapping-nodes-in-a-linked-list",
+  "name": "Swapping Nodes in a Linked List",
+  "tags": [
+    "Linked List",
+    "Two Pointers"
+  ],
+  "description": "You are given the head of a linked list, and an integer k.\n\nReturn the head of the linked list after swapping the values of the kth node from the beginning and the kth node from the end (the list is 1-indexed).\n\n \nExample 1:\n\nInput: head = [1,2,3,4,5], k = 2\nOutput: [1,4,3,2,5]\n\n\nExample 2:\n\nInput: head = [7,9,6,6,7,8,3,0,9,5], k = 5\nOutput: [7,9,6,6,8,7,3,0,9,5]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is n.\n\t1 <= k <= n <= 105\n\t0 <= Node.val <= 100\n\n"
+}

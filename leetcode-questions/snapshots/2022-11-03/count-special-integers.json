@@ -1,0 +1,9 @@
+{
+  "id": "count-special-integers",
+  "name": "Count Special Integers",
+  "tags": [
+    "Math",
+    "Dynamic Programming"
+  ],
+  "description": "We call a positive integer special if all of its digits are distinct.\n\nGiven a positive integer n, return the number of special integers that belong to the interval [1, n].\n\n \nExample 1:\n\nInput: n = 20\nOutput: 19\nExplanation: All the integers from 1 to 20, except 11, are special. Thus, there are 19 special integers.\n\n\nExample 2:\n\nInput: n = 5\nOutput: 5\nExplanation: All the integers from 1 to 5 are special.\n\n\nExample 3:\n\nInput: n = 135\nOutput: 110\nExplanation: There are 110 integers from 1 to 135 that are special.\nSome of the integers that are not special are: 22, 114, and 131.\n\n \nConstraints:\n\n\n\t1 <= n <= 2 * 109\n\n"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "binary-tree-paths",
+  "name": "Binary Tree Paths",
+  "tags": [
+    "String",
+    "Backtracking",
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, return all root-to-leaf paths in any order.\n\nA leaf is a node with no children.\n\n \nExample 1:\n\nInput: root = [1,2,3,null,5]\nOutput: [\"1->2->5\",\"1->3\"]\n\n\nExample 2:\n\nInput: root = [1]\nOutput: [\"1\"]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the tree is in the range [1, 100].\n\t-100 <= Node.val <= 100\n\n"
+}

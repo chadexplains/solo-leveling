@@ -1,0 +1,11 @@
+{
+  "id": "palindrome-linked-list",
+  "name": "Palindrome Linked List",
+  "tags": [
+    "Linked List",
+    "Two Pointers",
+    "Stack",
+    "Recursion"
+  ],
+  "description": "Given the head of a singly linked list, return true if it is a palindrome or false otherwise.\n\n \nExample 1:\n\nInput: head = [1,2,2,1]\nOutput: true\n\n\nExample 2:\n\nInput: head = [1,2]\nOutput: false\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the list is in the range [1, 105].\n\t0 <= Node.val <= 9\n\n\n \nFollow up: Could you do it in O(n) time and O(1) space?"
+}

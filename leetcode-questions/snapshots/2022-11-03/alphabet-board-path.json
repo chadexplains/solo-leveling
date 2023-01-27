@@ -1,0 +1,9 @@
+{
+  "id": "alphabet-board-path",
+  "name": "Alphabet Board Path",
+  "tags": [
+    "Hash Table",
+    "String"
+  ],
+  "description": "On an alphabet board, we start at position (0, 0), corresponding to character board[0][0].\n\nHere, board = [\"abcde\", \"fghij\", \"klmno\", \"pqrst\", \"uvwxy\", \"z\"], as shown in the diagram below.\n\n\n\nWe may make the following moves:\n\n\n\t'U' moves our position up one row, if the position exists on the board;\n\t'D' moves our position down one row, if the position exists on the board;\n\t'L' moves our position left one column, if the position exists on the board;\n\t'R' moves our position right one column, if the position exists on the board;\n\t'!' adds the character board[r][c] at our current position (r, c) to the answer.\n\n\n(Here, the only positions that exist on the board are positions with letters on them.)\n\nReturn a sequence of moves that makes our answer equal to target in the minimum number of moves.  You may return any path that does so.\n\n \nExample 1:\nInput: target = \"leet\"\nOutput: \"DDR!UURRR!!DDD!\"\nExample 2:\nInput: target = \"code\"\nOutput: \"RR!DDRR!UUL!R!\"\n\n \nConstraints:\n\n\n\t1 <= target.length <= 100\n\ttarget consists only of English lowercase letters.\n"
+}

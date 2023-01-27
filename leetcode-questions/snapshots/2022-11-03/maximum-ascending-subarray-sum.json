@@ -1,0 +1,8 @@
+{
+  "id": "maximum-ascending-subarray-sum",
+  "name": "Maximum Ascending Subarray Sum",
+  "tags": [
+    "Array"
+  ],
+  "description": "Given an array of positive integers nums, return the maximum possible sum of an ascending subarray in nums.\n\nA subarray is defined as a contiguous sequence of numbers in an array.\n\nA subarray [numsl, numsl+1, ..., numsr-1, numsr] is ascending if for all i where l <= i < r, numsi  < numsi+1. Note that a subarray of size 1 is ascending.\n\n \nExample 1:\n\nInput: nums = [10,20,30,5,10,50]\nOutput: 65\nExplanation: [5,10,50] is the ascending subarray with the maximum sum of 65.\n\n\nExample 2:\n\nInput: nums = [10,20,30,40,50]\nOutput: 150\nExplanation: [10,20,30,40,50] is the ascending subarray with the maximum sum of 150.\n\n\nExample 3:\n\nInput: nums = [12,17,15,13,10,11,12]\nOutput: 33\nExplanation: [10,11,12] is the ascending subarray with the maximum sum of 33.\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 100\n\t1 <= nums[i] <= 100\n\n"
+}

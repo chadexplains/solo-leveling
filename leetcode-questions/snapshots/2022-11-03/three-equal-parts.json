@@ -1,0 +1,9 @@
+{
+  "id": "three-equal-parts",
+  "name": "Three Equal Parts",
+  "tags": [
+    "Array",
+    "Math"
+  ],
+  "description": "You are given an array arr which consists of only zeros and ones, divide the array into three non-empty parts such that all of these parts represent the same binary value.\n\nIf it is possible, return any [i, j] with i + 1 < j, such that:\n\n\n\tarr[0], arr[1], ..., arr[i] is the first part,\n\tarr[i + 1], arr[i + 2], ..., arr[j - 1] is the second part, and\n\tarr[j], arr[j + 1], ..., arr[arr.length - 1] is the third part.\n\tAll three parts have equal binary values.\n\n\nIf it is not possible, return [-1, -1].\n\nNote that the entire part is used when considering what binary value it represents. For example, [1,1,0] represents 6 in decimal, not 3. Also, leading zeros are allowed, so [0,1,1] and [1,1] represent the same value.\n\n \nExample 1:\nInput: arr = [1,0,1,0,1]\nOutput: [0,3]\nExample 2:\nInput: arr = [1,1,0,1,1]\nOutput: [-1,-1]\nExample 3:\nInput: arr = [1,1,0,0,1]\nOutput: [0,2]\n\n \nConstraints:\n\n\n\t3 <= arr.length <= 3 * 104\n\tarr[i] is 0 or 1\n\n"
+}

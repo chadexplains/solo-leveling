@@ -1,0 +1,12 @@
+{
+  "id": "stream-of-characters",
+  "name": "Stream of Characters",
+  "tags": [
+    "Array",
+    "String",
+    "Design",
+    "Trie",
+    "Data Stream"
+  ],
+  "description": "Design an algorithm that accepts a stream of characters and checks if a suffix of these characters is a string of a given array of strings words.\n\nFor example, if words = [\"abc\", \"xyz\"] and the stream added the four characters (one by one) 'a', 'x', 'y', and 'z', your algorithm should detect that the suffix \"xyz\" of the characters \"axyz\" matches \"xyz\" from words.\n\nImplement the StreamChecker class:\n\n\n\tStreamChecker(String[] words) Initializes the object with the strings array words.\n\tboolean query(char letter) Accepts a new character from the stream and returns true if any non-empty suffix from the stream forms a word that is in words.\n\n\n \nExample 1:\n\nInput\n[\"StreamChecker\", \"query\", \"query\", \"query\", \"query\", \"query\", \"query\", \"query\", \"query\", \"query\", \"query\", \"query\", \"query\"]\n[[[\"cd\", \"f\", \"kl\"]], [\"a\"], [\"b\"], [\"c\"], [\"d\"], [\"e\"], [\"f\"], [\"g\"], [\"h\"], [\"i\"], [\"j\"], [\"k\"], [\"l\"]]\nOutput\n[null, false, false, false, true, false, true, false, false, false, false, false, true]\n\nExplanation\nStreamChecker streamChecker = new StreamChecker([\"cd\", \"f\", \"kl\"]);\nstreamChecker.query(\"a\"); // return False\nstreamChecker.query(\"b\"); // return False\nstreamChecker.query(\"c\"); // return False\nstreamChecker.query(\"d\"); // return True, because 'cd' is in the wordlist\nstreamChecker.query(\"e\"); // return False\nstreamChecker.query(\"f\"); // return True, because 'f' is in the wordlist\nstreamChecker.query(\"g\"); // return False\nstreamChecker.query(\"h\"); // return False\nstreamChecker.query(\"i\"); // return False\nstreamChecker.query(\"j\"); // return False\nstreamChecker.query(\"k\"); // return False\nstreamChecker.query(\"l\"); // return True, because 'kl' is in the wordlist\n\n\n \nConstraints:\n\n\n\t1 <= words.length <= 2000\n\t1 <= words[i].length <= 200\n\twords[i] consists of lowercase English letters.\n\tletter is a lowercase English letter.\n\tAt most 4 * 104 calls will be made to query.\n\n"
+}

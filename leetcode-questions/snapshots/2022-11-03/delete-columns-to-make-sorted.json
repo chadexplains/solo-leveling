@@ -1,0 +1,9 @@
+{
+  "id": "delete-columns-to-make-sorted",
+  "name": "Delete Columns to Make Sorted",
+  "tags": [
+    "Array",
+    "String"
+  ],
+  "description": "You are given an array of n strings strs, all of the same length.\n\nThe strings can be arranged such that there is one on each line, making a grid. For example, strs = [\"abc\", \"bce\", \"cae\"] can be arranged as:\n\nabc\nbce\ncae\n\n\nYou want to delete the columns that are not sorted lexicographically. In the above example (0-indexed), columns 0 ('a', 'b', 'c') and 2 ('c', 'e', 'e') are sorted while column 1 ('b', 'c', 'a') is not, so you would delete column 1.\n\nReturn the number of columns that you will delete.\n\n \nExample 1:\n\nInput: strs = [\"cba\",\"daf\",\"ghi\"]\nOutput: 1\nExplanation: The grid looks as follows:\n  cba\n  daf\n  ghi\nColumns 0 and 2 are sorted, but column 1 is not, so you only need to delete 1 column.\n\n\nExample 2:\n\nInput: strs = [\"a\",\"b\"]\nOutput: 0\nExplanation: The grid looks as follows:\n  a\n  b\nColumn 0 is the only column and is sorted, so you will not delete any columns.\n\n\nExample 3:\n\nInput: strs = [\"zyx\",\"wvu\",\"tsr\"]\nOutput: 3\nExplanation: The grid looks as follows:\n  zyx\n  wvu\n  tsr\nAll 3 columns are not sorted, so you will delete all 3.\n\n\n \nConstraints:\n\n\n\tn == strs.length\n\t1 <= n <= 100\n\t1 <= strs[i].length <= 1000\n\tstrs[i] consists of lowercase English letters.\n\n"
+}

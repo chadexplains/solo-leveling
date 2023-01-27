@@ -1,0 +1,11 @@
+{
+  "id": "sum-of-distances-in-tree",
+  "name": "Sum of Distances in Tree",
+  "tags": [
+    "Dynamic Programming",
+    "Tree",
+    "Depth-First Search",
+    "Graph"
+  ],
+  "description": "There is an undirected connected tree with n nodes labeled from 0 to n - 1 and n - 1 edges.\n\nYou are given the integer n and the array edges where edges[i] = [ai, bi] indicates that there is an edge between nodes ai and bi in the tree.\n\nReturn an array answer of length n where answer[i] is the sum of the distances between the ith node in the tree and all other nodes.\n\n \nExample 1:\n\nInput: n = 6, edges = [[0,1],[0,2],[2,3],[2,4],[2,5]]\nOutput: [8,12,6,10,10,10]\nExplanation: The tree is shown above.\nWe can see that dist(0,1) + dist(0,2) + dist(0,3) + dist(0,4) + dist(0,5)\nequals 1 + 1 + 2 + 2 + 2 = 8.\nHence, answer[0] = 8, and so on.\n\n\nExample 2:\n\nInput: n = 1, edges = []\nOutput: [0]\n\n\nExample 3:\n\nInput: n = 2, edges = [[1,0]]\nOutput: [1,1]\n\n\n \nConstraints:\n\n\n\t1 <= n <= 3 * 104\n\tedges.length == n - 1\n\tedges[i].length == 2\n\t0 <= ai, bi < n\n\tai != bi\n\tThe given input represents a valid tree.\n\n"
+}

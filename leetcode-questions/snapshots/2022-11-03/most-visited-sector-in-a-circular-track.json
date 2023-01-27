@@ -1,0 +1,9 @@
+{
+  "id": "most-visited-sector-in-a-circular-track",
+  "name": "Most Visited Sector in  a Circular Track",
+  "tags": [
+    "Array",
+    "Simulation"
+  ],
+  "description": "Given an integer n and an integer array rounds. We have a circular track which consists of n sectors labeled from 1 to n. A marathon will be held on this track, the marathon consists of m rounds. The ith round starts at sector rounds[i - 1] and ends at sector rounds[i]. For example, round 1 starts at sector rounds[0] and ends at sector rounds[1]\n\nReturn an array of the most visited sectors sorted in ascending order.\n\nNotice that you circulate the track in ascending order of sector numbers in the counter-clockwise direction (See the first example).\n\n \nExample 1:\n\nInput: n = 4, rounds = [1,3,1,2]\nOutput: [1,2]\nExplanation: The marathon starts at sector 1. The order of the visited sectors is as follows:\n1 --> 2 --> 3 (end of round 1) --> 4 --> 1 (end of round 2) --> 2 (end of round 3 and the marathon)\nWe can see that both sectors 1 and 2 are visited twice and they are the most visited sectors. Sectors 3 and 4 are visited only once.\n\nExample 2:\n\nInput: n = 2, rounds = [2,1,2,1,2,1,2,1,2]\nOutput: [2]\n\n\nExample 3:\n\nInput: n = 7, rounds = [1,3,5,7]\nOutput: [1,2,3,4,5,6,7]\n\n\n \nConstraints:\n\n\n\t2 <= n <= 100\n\t1 <= m <= 100\n\trounds.length == m + 1\n\t1 <= rounds[i] <= n\n\trounds[i] != rounds[i + 1] for 0 <= i < m\n\n"
+}

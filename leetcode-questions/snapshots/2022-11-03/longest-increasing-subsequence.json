@@ -1,0 +1,10 @@
+{
+  "id": "longest-increasing-subsequence",
+  "name": "Longest Increasing Subsequence",
+  "tags": [
+    "Array",
+    "Binary Search",
+    "Dynamic Programming"
+  ],
+  "description": "Given an integer array nums, return the length of the longest strictly increasing subsequence.\n\nA subsequence is a sequence that can be derived from an array by deleting some or no elements without changing the order of the remaining elements. For example, [3,6,2,7] is a subsequence of the array [0,3,1,6,2,2,7].\n\n \nExample 1:\n\nInput: nums = [10,9,2,5,3,7,101,18]\nOutput: 4\nExplanation: The longest increasing subsequence is [2,3,7,101], therefore the length is 4.\n\n\nExample 2:\n\nInput: nums = [0,1,0,3,2,3]\nOutput: 4\n\n\nExample 3:\n\nInput: nums = [7,7,7,7,7,7,7]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= nums.length <= 2500\n\t-104 <= nums[i] <= 104\n\n\n \nFollow up: Can you come up with an algorithm that runs in O(n log(n)) time complexity?\n"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "delete-nodes-and-return-forest",
+  "name": "Delete Nodes And Return Forest",
+  "tags": [
+    "Tree",
+    "Depth-First Search",
+    "Binary Tree"
+  ],
+  "description": "Given the root of a binary tree, each node in the tree has a distinct value.\n\nAfter deleting all nodes with a value in to_delete, we are left with a forest (a disjoint union of trees).\n\nReturn the roots of the trees in the remaining forest. You may return the result in any order.\n\n \nExample 1:\n\nInput: root = [1,2,3,4,5,6,7], to_delete = [3,5]\nOutput: [[1,2,null,4],[6],[7]]\n\n\nExample 2:\n\nInput: root = [1,2,4,null,3], to_delete = [3]\nOutput: [[1,2,4]]\n\n\n \nConstraints:\n\n\n\tThe number of nodes in the given tree is at most 1000.\n\tEach node has a distinct value between 1 and 1000.\n\tto_delete.length <= 1000\n\tto_delete contains distinct values between 1 and 1000.\n\n"
+}

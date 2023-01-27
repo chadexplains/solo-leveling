@@ -1,0 +1,9 @@
+{
+  "id": "asteroid-collision",
+  "name": "Asteroid Collision",
+  "tags": [
+    "Array",
+    "Stack"
+  ],
+  "description": "We are given an array asteroids of integers representing asteroids in a row.\n\nFor each asteroid, the absolute value represents its size, and the sign represents its direction (positive meaning right, negative meaning left). Each asteroid moves at the same speed.\n\nFind out the state of the asteroids after all collisions. If two asteroids meet, the smaller one will explode. If both are the same size, both will explode. Two asteroids moving in the same direction will never meet.\n\n \nExample 1:\n\nInput: asteroids = [5,10,-5]\nOutput: [5,10]\nExplanation: The 10 and -5 collide resulting in 10. The 5 and 10 never collide.\n\n\nExample 2:\n\nInput: asteroids = [8,-8]\nOutput: []\nExplanation: The 8 and -8 collide exploding each other.\n\n\nExample 3:\n\nInput: asteroids = [10,2,-5]\nOutput: [10]\nExplanation: The 2 and -5 collide resulting in -5. The 10 and -5 collide resulting in 10.\n\n\n \nConstraints:\n\n\n\t2 <= asteroids.length <= 104\n\t-1000 <= asteroids[i] <= 1000\n\tasteroids[i] != 0\n\n"
+}

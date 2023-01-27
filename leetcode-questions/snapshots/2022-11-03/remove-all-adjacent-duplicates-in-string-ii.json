@@ -1,0 +1,9 @@
+{
+  "id": "remove-all-adjacent-duplicates-in-string-ii",
+  "name": "Remove All Adjacent Duplicates in String II",
+  "tags": [
+    "String",
+    "Stack"
+  ],
+  "description": "You are given a string s and an integer k, a k duplicate removal consists of choosing k adjacent and equal letters from s and removing them, causing the left and the right side of the deleted substring to concatenate together.\n\nWe repeatedly make k duplicate removals on s until we no longer can.\n\nReturn the final string after all such duplicate removals have been made. It is guaranteed that the answer is unique.\n\n \nExample 1:\n\nInput: s = \"abcd\", k = 2\nOutput: \"abcd\"\nExplanation: There's nothing to delete.\n\nExample 2:\n\nInput: s = \"deeedbbcccbdaa\", k = 3\nOutput: \"aa\"\nExplanation: \nFirst delete \"eee\" and \"ccc\", get \"ddbbbdaa\"\nThen delete \"bbb\", get \"dddaa\"\nFinally delete \"ddd\", get \"aa\"\n\nExample 3:\n\nInput: s = \"pbbcggttciiippooaais\", k = 2\nOutput: \"ps\"\n\n\n \nConstraints:\n\n\n\t1 <= s.length <= 105\n\t2 <= k <= 104\n\ts only contains lowercase English letters.\n\n"
+}

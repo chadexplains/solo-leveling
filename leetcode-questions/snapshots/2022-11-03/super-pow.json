@@ -1,0 +1,9 @@
+{
+  "id": "super-pow",
+  "name": "Super Pow",
+  "tags": [
+    "Math",
+    "Divide and Conquer"
+  ],
+  "description": "Your task is to calculate ab mod 1337 where a is a positive integer and b is an extremely large positive integer given in the form of an array.\n\n \nExample 1:\n\nInput: a = 2, b = [3]\nOutput: 8\n\n\nExample 2:\n\nInput: a = 2, b = [1,0]\nOutput: 1024\n\n\nExample 3:\n\nInput: a = 1, b = [4,3,3,8,5,2]\nOutput: 1\n\n\n \nConstraints:\n\n\n\t1 <= a <= 231 - 1\n\t1 <= b.length <= 2000\n\t0 <= b[i] <= 9\n\tb does not contain leading zeros.\n\n"
+}

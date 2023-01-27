@@ -1,0 +1,9 @@
+{
+  "id": "prime-number-of-set-bits-in-binary-representation",
+  "name": "Prime Number of Set Bits in Binary Representation",
+  "tags": [
+    "Math",
+    "Bit Manipulation"
+  ],
+  "description": "Given two integers left and right, return the count of numbers in the inclusive range [left, right] having a prime number of set bits in their binary representation.\n\nRecall that the number of set bits an integer has is the number of 1's present when written in binary.\n\n\n\tFor example, 21 written in binary is 10101, which has 3 set bits.\n\n\n \nExample 1:\n\nInput: left = 6, right = 10\nOutput: 4\nExplanation:\n6  -> 110 (2 set bits, 2 is prime)\n7  -> 111 (3 set bits, 3 is prime)\n8  -> 1000 (1 set bit, 1 is not prime)\n9  -> 1001 (2 set bits, 2 is prime)\n10 -> 1010 (2 set bits, 2 is prime)\n4 numbers have a prime number of set bits.\n\n\nExample 2:\n\nInput: left = 10, right = 15\nOutput: 5\nExplanation:\n10 -> 1010 (2 set bits, 2 is prime)\n11 -> 1011 (3 set bits, 3 is prime)\n12 -> 1100 (2 set bits, 2 is prime)\n13 -> 1101 (3 set bits, 3 is prime)\n14 -> 1110 (3 set bits, 3 is prime)\n15 -> 1111 (4 set bits, 4 is not prime)\n5 numbers have a prime number of set bits.\n\n\n \nConstraints:\n\n\n\t1 <= left <= right <= 106\n\t0 <= right - left <= 104\n\n"
+}

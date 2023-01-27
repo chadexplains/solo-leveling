@@ -1,0 +1,8 @@
+{
+  "id": "number-of-rectangles-that-can-form-the-largest-square",
+  "name": "Number Of Rectangles That Can Form The Largest Square",
+  "tags": [
+    "Array"
+  ],
+  "description": "You are given an array rectangles where rectangles[i] = [li, wi] represents the ith rectangle of length li and width wi.\n\nYou can cut the ith rectangle to form a square with a side length of k if both k <= li and k <= wi. For example, if you have a rectangle [4,6], you can cut it to get a square with a side length of at most 4.\n\nLet maxLen be the side length of the largest square you can obtain from any of the given rectangles.\n\nReturn the number of rectangles that can make a square with a side length of maxLen.\n\n \nExample 1:\n\nInput: rectangles = [[5,8],[3,9],[5,12],[16,5]]\nOutput: 3\nExplanation: The largest squares you can get from each rectangle are of lengths [5,3,5,5].\nThe largest possible square is of length 5, and you can get it out of 3 rectangles.\n\n\nExample 2:\n\nInput: rectangles = [[2,3],[3,7],[4,3],[3,7]]\nOutput: 3\n\n\n \nConstraints:\n\n\n\t1 <= rectangles.length <= 1000\n\trectangles[i].length == 2\n\t1 <= li, wi <= 109\n\tli != wi\n"
+}

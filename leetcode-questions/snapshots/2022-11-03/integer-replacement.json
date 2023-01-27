@@ -1,0 +1,11 @@
+{
+  "id": "integer-replacement",
+  "name": "Integer Replacement",
+  "tags": [
+    "Dynamic Programming",
+    "Greedy",
+    "Bit Manipulation",
+    "Memoization"
+  ],
+  "description": "Given a positive integer n, you can apply one of the following operations:\n\n\n\tIf n is even, replace n with n / 2.\n\tIf n is odd, replace n with either n + 1 or n - 1.\n\n\nReturn the minimum number of operations needed for n to become 1.\n\n \nExample 1:\n\nInput: n = 8\nOutput: 3\nExplanation: 8 -> 4 -> 2 -> 1\n\n\nExample 2:\n\nInput: n = 7\nOutput: 4\nExplanation: 7 -> 8 -> 4 -> 2 -> 1\nor 7 -> 6 -> 3 -> 2 -> 1\n\n\nExample 3:\n\nInput: n = 4\nOutput: 2\n\n\n \nConstraints:\n\n\n\t1 <= n <= 231 - 1\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "rectangle-area-ii",
+  "name": "Rectangle Area II",
+  "tags": [
+    "Array",
+    "Segment Tree",
+    "Line Sweep",
+    "Ordered Set"
+  ],
+  "description": "You are given a 2D array of axis-aligned rectangles. Each rectangle[i] = [xi1, yi1, xi2, yi2] denotes the ith rectangle where (xi1, yi1) are the coordinates of the bottom-left corner, and (xi2, yi2) are the coordinates of the top-right corner.\n\nCalculate the total area covered by all rectangles in the plane. Any area covered by two or more rectangles should only be counted once.\n\nReturn the total area. Since the answer may be too large, return it modulo 109 + 7.\n\n \nExample 1:\n\nInput: rectangles = [[0,0,2,2],[1,0,2,3],[1,0,3,1]]\nOutput: 6\nExplanation: A total area of 6 is covered by all three rectangles, as illustrated in the picture.\nFrom (1,1) to (2,2), the green and red rectangles overlap.\nFrom (1,0) to (2,3), all three rectangles overlap.\n\n\nExample 2:\n\nInput: rectangles = [[0,0,1000000000,1000000000]]\nOutput: 49\nExplanation: The answer is 1018 modulo (109 + 7), which is 49.\n\n\n \nConstraints:\n\n\n\t1 <= rectangles.length <= 200\n\trectanges[i].length == 4\n\t0 <= xi1, yi1, xi2, yi2 <= 109\n\n"
+}

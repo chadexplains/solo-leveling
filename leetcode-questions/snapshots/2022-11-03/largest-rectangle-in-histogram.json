@@ -1,0 +1,10 @@
+{
+  "id": "largest-rectangle-in-histogram",
+  "name": "Largest Rectangle in Histogram",
+  "tags": [
+    "Array",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "description": "Given an array of integers heights representing the histogram's bar height where the width of each bar is 1, return the area of the largest rectangle in the histogram.\n\n \nExample 1:\n\nInput: heights = [2,1,5,6,2,3]\nOutput: 10\nExplanation: The above is a histogram where width of each bar is 1.\nThe largest rectangle is shown in the red area, which has an area = 10 units.\n\n\nExample 2:\n\nInput: heights = [2,4]\nOutput: 4\n\n\n \nConstraints:\n\n\n\t1 <= heights.length <= 105\n\t0 <= heights[i] <= 104\n\n"
+}

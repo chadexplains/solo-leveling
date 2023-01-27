@@ -1,0 +1,8 @@
+{
+  "id": "word-frequency",
+  "name": "Word Frequency",
+  "tags": [
+    "Shell"
+  ],
+  "description": "Write a bash script to calculate the frequency of each word in a text file words.txt.\n\nFor simplicity sake, you may assume:\n\n\n\twords.txt contains only lowercase characters and space ' ' characters.\n\tEach word must consist of lowercase characters only.\n\tWords are separated by one or more whitespace characters.\n\n\nExample:\n\nAssume that words.txt has the following content:\n\nthe day is sunny the the\nthe sunny is is\n\n\nYour script should output the following, sorted by descending frequency:\n\nthe 4\nis 3\nsunny 2\nday 1\n\n\nNote:\n\n\n\tDon't worry about handling ties, it is guaranteed that each word's frequency count is unique.\n\tCould you write it in one-line using Unix pipes?\n\n"
+}

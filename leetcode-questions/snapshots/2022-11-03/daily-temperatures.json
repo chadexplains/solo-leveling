@@ -1,0 +1,10 @@
+{
+  "id": "daily-temperatures",
+  "name": "Daily Temperatures",
+  "tags": [
+    "Array",
+    "Stack",
+    "Monotonic Stack"
+  ],
+  "description": "Given an array of integers temperatures represents the daily temperatures, return an array answer such that answer[i] is the number of days you have to wait after the ith day to get a warmer temperature. If there is no future day for which this is possible, keep answer[i] == 0 instead.\n\n \nExample 1:\nInput: temperatures = [73,74,75,71,69,72,76,73]\nOutput: [1,1,4,2,1,1,0,0]\nExample 2:\nInput: temperatures = [30,40,50,60]\nOutput: [1,1,1,0]\nExample 3:\nInput: temperatures = [30,60,90]\nOutput: [1,1,0]\n\n \nConstraints:\n\n\n\t1 <= temperatures.length <= 105\n\t30 <= temperatures[i] <= 100\n\n"
+}

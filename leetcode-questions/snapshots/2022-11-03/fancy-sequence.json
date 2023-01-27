@@ -1,0 +1,10 @@
+{
+  "id": "fancy-sequence",
+  "name": "Fancy Sequence",
+  "tags": [
+    "Math",
+    "Design",
+    "Segment Tree"
+  ],
+  "description": "Write an API that generates fancy sequences using the append, addAll, and multAll operations.\n\nImplement the Fancy class:\n\n\n\tFancy() Initializes the object with an empty sequence.\n\tvoid append(val) Appends an integer val to the end of the sequence.\n\tvoid addAll(inc) Increments all existing values in the sequence by an integer inc.\n\tvoid multAll(m) Multiplies all existing values in the sequence by an integer m.\n\tint getIndex(idx) Gets the current value at index idx (0-indexed) of the sequence modulo 109 + 7. If the index is greater or equal than the length of the sequence, return -1.\n\n\n \nExample 1:\n\nInput\n[\"Fancy\", \"append\", \"addAll\", \"append\", \"multAll\", \"getIndex\", \"addAll\", \"append\", \"multAll\", \"getIndex\", \"getIndex\", \"getIndex\"]\n[[], [2], [3], [7], [2], [0], [3], [10], [2], [0], [1], [2]]\nOutput\n[null, null, null, null, null, 10, null, null, null, 26, 34, 20]\n\nExplanation\nFancy fancy = new Fancy();\nfancy.append(2);   // fancy sequence: [2]\nfancy.addAll(3);   // fancy sequence: [2+3] -> [5]\nfancy.append(7);   // fancy sequence: [5, 7]\nfancy.multAll(2);  // fancy sequence: [5*2, 7*2] -> [10, 14]\nfancy.getIndex(0); // return 10\nfancy.addAll(3);   // fancy sequence: [10+3, 14+3] -> [13, 17]\nfancy.append(10);  // fancy sequence: [13, 17, 10]\nfancy.multAll(2);  // fancy sequence: [13*2, 17*2, 10*2] -> [26, 34, 20]\nfancy.getIndex(0); // return 26\nfancy.getIndex(1); // return 34\nfancy.getIndex(2); // return 20\n\n\n \nConstraints:\n\n\n\t1 <= val, inc, m <= 100\n\t0 <= idx <= 105\n\tAt most 105 calls total will be made to append, addAll, multAll, and getIndex.\n\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "number-of-wonderful-substrings",
+  "name": "Number of Wonderful Substrings",
+  "tags": [
+    "Hash Table",
+    "String",
+    "Bit Manipulation",
+    "Prefix Sum"
+  ],
+  "description": "A wonderful string is a string where at most one letter appears an odd number of times.\n\n\n\tFor example, \"ccjjc\" and \"abab\" are wonderful, but \"ab\" is not.\n\n\nGiven a string word that consists of the first ten lowercase English letters ('a' through 'j'), return the number of wonderful non-empty substrings in word. If the same substring appears multiple times in word, then count each occurrence separately.\n\nA substring is a contiguous sequence of characters in a string.\n\n \nExample 1:\n\nInput: word = \"aba\"\nOutput: 4\nExplanation: The four wonderful substrings are underlined below:\n- \"aba\" -> \"a\"\n- \"aba\" -> \"b\"\n- \"aba\" -> \"a\"\n- \"aba\" -> \"aba\"\n\n\nExample 2:\n\nInput: word = \"aabb\"\nOutput: 9\nExplanation: The nine wonderful substrings are underlined below:\n- \"aabb\" -> \"a\"\n- \"aabb\" -> \"aa\"\n- \"aabb\" -> \"aab\"\n- \"aabb\" -> \"aabb\"\n- \"aabb\" -> \"a\"\n- \"aabb\" -> \"abb\"\n- \"aabb\" -> \"b\"\n- \"aabb\" -> \"bb\"\n- \"aabb\" -> \"b\"\n\n\nExample 3:\n\nInput: word = \"he\"\nOutput: 2\nExplanation: The two wonderful substrings are underlined below:\n- \"he\" -> \"h\"\n- \"he\" -> \"e\"\n\n\n \nConstraints:\n\n\n\t1 <= word.length <= 105\n\tword consists of lowercase English letters from 'a' to 'j'.\n"
+}
