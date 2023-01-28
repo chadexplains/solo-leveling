@@ -1,5 +1,7 @@
 ## setup
-1. create a file `.env` one level up from where this `README.md` file is and fill it with the required secrets
+1. virtualenv env
+2. env/bin/activate
+3. create a file `.env` and `token.json` one level up from where this `README.md` file is and fill it with the required secrets
 2. run
 ```
 make setup
